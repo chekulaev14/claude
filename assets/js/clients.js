@@ -9,7 +9,7 @@ class ClientsManager {
         this.filteredClients = [];
         this.currentPage = 1;
         this.itemsPerPage = 20;
-        this.selectedLetter = '';
+        this.selectedLetter = 'А';
 
         this.init();
     }
@@ -18,7 +18,7 @@ class ClientsManager {
         await this.loadClients();
         this.setupEventListeners();
         this.createAlphabetNavigation();
-        this.renderClients();
+        this.applyFilters(); // Применяем фильтр по умолчанию (А)
     }
 
     async loadClients() {
@@ -50,17 +50,10 @@ class ClientsManager {
         const alphabetNav = document.getElementById('alphabetNav');
         const letters = 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЭЮЯ'.split('');
         
-        // Кнопка "Все"
-        const allBtn = document.createElement('button');
-        allBtn.className = 'btn btn-outline-secondary btn-sm';
-        allBtn.textContent = 'Все';
-        allBtn.addEventListener('click', () => this.filterByLetter(''));
-        alphabetNav.appendChild(allBtn);
-
         // Кнопки букв
         letters.forEach(letter => {
             const btn = document.createElement('button');
-            btn.className = 'btn btn-outline-primary btn-sm';
+            btn.className = `btn btn-outline-primary btn-sm ${letter === 'А' ? 'active' : ''}`;
             btn.textContent = letter;
             btn.addEventListener('click', () => this.filterByLetter(letter));
             alphabetNav.appendChild(btn);
@@ -74,7 +67,7 @@ class ClientsManager {
         // Обновляем активную кнопку
         document.querySelectorAll('#alphabetNav .btn').forEach(btn => {
             btn.classList.remove('active');
-            if ((letter === '' && btn.textContent === 'Все') || btn.textContent === letter) {
+            if (btn.textContent === letter) {
                 btn.classList.add('active');
             }
         });
