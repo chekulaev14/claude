@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap 5.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Header -->
@@ -64,20 +66,72 @@
 
     <!-- Main Content -->
     <main>
-        <section class="services" id="prices">
+        <!-- Pricing Section -->
+        <section class="pricing-section" id="prices">
             <div class="container">
-                <h1 class="section-title">Цены на грузоперевозки</h1>
-                <p class="section-subtitle">Здесь будет размещена информация о ценах и тарифах</p>
+                <div class="pricing-header">
+                    <h1>Выберите тарифный план</h1>
+                    <p>Мы предлагаем гибкие условия сотрудничества для вашего бизнеса</p>
+                </div>
                 
-                <div class="row">
-                    <div class="col-12">
-                        <div class="service-details">
-                            <p>Содержимое страницы находится в разработке.</p>
+                <div class="pricing-cards">
+                    <!-- Тариф без НДС -->
+                    <div class="pricing-card">
+                        <div class="pricing-card-header">
+                            <h3 class="pricing-plan-name">Тариф "Без НДС"</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">5000</span>
+                                <span class="price-currency">₽</span>
+                            </div>
+                            <div class="pricing-commission">+ 1% от стоимости перевозки</div>
                         </div>
+                        
+                        <ul class="pricing-features">
+                            <li>
+                                <span>Работа без НДС</span>
+                            </li>
+                            <li>
+                                <span>Полное сопровождение груза</span>
+                            </li>
+                            <li>
+                                <span>Минимальная комиссия 1%</span>
+                            </li>
+                        </ul>
+                        
                     </div>
+                    
+                    <!-- Тариф с НДС -->
+                    <div class="pricing-card">
+                        <div class="pricing-card-header">
+                            <h3 class="pricing-plan-name">Тариф "С НДС"</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">6000</span>
+                                <span class="price-currency">₽</span>
+                            </div>
+                            <div class="pricing-commission">+ 1,5% от стоимости перевозки</div>
+                        </div>
+                        
+                        <ul class="pricing-features">
+                            <li>
+                                <span>Работа с НДС 20%</span>
+                            </li>
+                            <li>
+                                <span>Полный пакет документов</span>
+                            </li>
+                            <li>
+                                <span>Приоритетное обслуживание</span>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                
+                <div class="pricing-note">
+                    <p><strong>Важно:</strong> Окончательная стоимость перевозки рассчитывается индивидуально в зависимости от маршрута, типа груза и дополнительных услуг. Звоните для точного расчета!</p>
                 </div>
             </div>
         </section>
+        
     </main>
 
     <!-- Footer -->

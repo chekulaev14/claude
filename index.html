@@ -13,7 +13,7 @@
     <header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="/">
-                <img src="assets/images/color_big.png" alt="ТК Динамика" style="height: 45px; width: auto;" class="me-3">
+                <img src="assets/images/color_big.png" alt="ТК Динамика" style="height: 54px; width: auto;" class="me-3">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,13 +46,71 @@
                 </ul>
                 <div class="d-flex flex-column text-end small">
                     <a href="tel:89874165187" class="text-decoration-none fw-bold text-primary">8-987-416-51-87</a>
-                    <span class="text-muted">9:00-18:00 МСК</span>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
+        <!-- Hero Carousel Section -->
+        <section class="hero-carousel">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Слайд 1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Слайд 2"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Слайд 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-content">
+                            <div class="container">
+                                <div class="row justify-content-center text-center">
+                                    <div class="col-lg-8">
+                                        <h1 class="display-4 fw-bold text-white mb-4">Надежные грузовые перевозки по России</h1>
+                                        <p class="lead text-white mb-4">Профессиональная доставка грузов любой сложности с гарантией качества и соблюдением сроков</p>
+                                        <a href="#services" class="btn btn-primary btn-lg">Посмотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-content">
+                            <div class="container">
+                                <div class="row justify-content-center text-center">
+                                    <div class="col-lg-8">
+                                        <h1 class="display-4 fw-bold text-white mb-4">Более 850 довольных клиентов</h1>
+                                        <p class="lead text-white mb-4">7 лет успешной работы на рынке грузоперевозок, более 3500 выполненных рейсов</p>
+                                        <a href="pages/clients.html" class="btn btn-primary btn-lg">Посмотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-content">
+                            <div class="container">
+                                <div class="row justify-content-center text-center">
+                                    <div class="col-lg-8">
+                                        <h1 class="display-4 fw-bold text-white mb-4">Быстрое оформление заказа</h1>
+                                        <p class="lead text-white mb-4">Позвоните нам или заполните форму обратной связи - мы сделаем всё остальное за вас</p>
+                                        <a href="pages/contacts.html" class="btn btn-primary btn-lg">Посмотреть</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </section>
 
         <section class="services" id="services">
             <div class="container">
@@ -62,48 +120,80 @@
                     <div class="service-card" id="intercity">
                         <div class="service-icon">🚛</div>
                         <h3>ГРУЗОПЕРЕВОЗКИ МЕЖГОРОД</h3>
-                        <p>Быстрая и надежная доставка грузов между городами по всей территории России.</p>
-                        <ul>
-                            <li>Полная и частичная загрузка</li>
-                            <li>Контроль груза в пути</li>
-                            <li>Страхование груза</li>
-                        </ul>
+                        <div class="service-specs">
+                            <div class="spec-row">
+                                <span class="spec-label">Тип кузова</span>
+                                <span class="spec-value">Открытый / Закрытый</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Длина кузова</span>
+                                <span class="spec-value">до 7 метров</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Грузоподъемность</span>
+                                <span class="spec-value">до 7 тонн</span>
+                            </div>
+                        </div>
                         <a href="pages/intercity.html" class="btn btn-outline-primary mt-3">Перейти</a>
                     </div>
                     
                     <div class="service-card" id="truck">
                         <div class="service-icon">🏗️</div>
-                        <h3>ГРУЗОПЕРЕВОЗКИ ФУРА</h3>
-                        <p>Перевозка различных типов грузов автомобилями грузоподъемностью до 20 тонн.</p>
-                        <ul>
-                            <li>Тентованные полуприцепы</li>
-                            <li>Открытые платформы</li>
-                            <li>Рефрижераторы</li>
-                        </ul>
+                        <h3>ГРУЗОПЕРЕВОЗКИ<br>ФУРА</h3>
+                        <div class="service-specs">
+                            <div class="spec-row">
+                                <span class="spec-label">Тип кузова</span>
+                                <span class="spec-value">Закрытый</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Длина кузова</span>
+                                <span class="spec-value">до 16 метров</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Грузоподъемность</span>
+                                <span class="spec-value">до 24 тонн</span>
+                            </div>
+                        </div>
                         <a href="pages/truck.html" class="btn btn-outline-primary mt-3">Перейти</a>
                     </div>
                     
                     <div class="service-card" id="long-trailer">
                         <div class="service-icon">📏</div>
                         <h3>ГРУЗОПЕРЕВОЗКИ ДЛИННОМЕР ШАЛАНДА</h3>
-                        <p>Специализированная перевозка длинномерных и негабаритных грузов.</p>
-                        <ul>
-                            <li>Длина до 16 метров</li>
-                            <li>Получение разрешений</li>
-                            <li>Сопровождение груза</li>
-                        </ul>
+                        <div class="service-specs">
+                            <div class="spec-row">
+                                <span class="spec-label">Тип кузова</span>
+                                <span class="spec-value">Открытый</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Длина кузова</span>
+                                <span class="spec-value">до 16 метров</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Грузоподъемность</span>
+                                <span class="spec-value">до 24 тонн</span>
+                            </div>
+                        </div>
                         <a href="pages/long-trailer.html" class="btn btn-outline-primary mt-3">Перейти</a>
                     </div>
                     
                     <div class="service-card" id="partial">
                         <div class="service-icon">📦</div>
                         <h3>ГРУЗОПЕРЕВОЗКИ ДОГРУЗ ПОПУТНО</h3>
-                        <p>Экономичная доставка небольших партий груза в составе сборного груза.</p>
-                        <ul>
-                            <li>Оптимальная стоимость</li>
-                            <li>Регулярные рейсы</li>
-                            <li>Надежная упаковка</li>
-                        </ul>
+                        <div class="service-specs">
+                            <div class="spec-row">
+                                <span class="spec-label">Тип кузова</span>
+                                <span class="spec-value">Открытый / Закрытый</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Длина кузова</span>
+                                <span class="spec-value">до 16 метров</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Грузоподъемность</span>
+                                <span class="spec-value">до 5 тонн</span>
+                            </div>
+                        </div>
                         <a href="pages/partial.html" class="btn btn-outline-primary mt-3">Перейти</a>
                     </div>
                 </div>

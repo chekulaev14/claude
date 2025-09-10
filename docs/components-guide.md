@@ -1,5 +1,8 @@
 # Руководство по компонентам сайта
 
+## Обновления
+- **10.09.2025**: Добавлен компонент Pricing Cards для страницы цен
+
 ## Header (Шапка сайта)
 
 ### Расположение: `templates/header.html`
@@ -236,6 +239,47 @@
 4. **Pagination** - разбиение на страницы
 5. **Error handling** - обработка ошибок загрузки данных
 
+## Pricing Cards (Карточки тарифов)
+
+### CSS классы:
+- `.pricing-section` - основная секция с градиентным фоном
+- `.pricing-header` - заголовок секции
+- `.pricing-cards` - контейнер для карточек (flex)
+- `.pricing-card` - индивидуальная карточка тарифа
+- `.pricing-card.recommended` - рекомендуемый тариф
+
+### Структура карточки:
+```html
+<div class="pricing-card [recommended]">
+  <div class="pricing-card-header">
+    <h3 class="pricing-plan-name">Название тарифа</h3>
+    <div class="pricing-price">
+      <span class="price-amount">5000</span>
+      <span class="price-currency">₽</span>
+    </div>
+    <div class="pricing-commission">+ X% от стоимости</div>
+  </div>
+  <ul class="pricing-features">
+    <li><i class="fas fa-check-circle"></i><span>Функция</span></li>
+  </ul>
+  <div class="pricing-cta">
+    <a href="#" class="btn-pricing">CTA текст</a>
+  </div>
+</div>
+```
+
+### Особенности:
+- Hover эффект: поднятие карточки и усиление тени
+- Метка "Рекомендуем" для выделенного тарифа
+- Градиентные кнопки с hover эффектом
+- Полностью адаптивный дизайн
+- Иконки Font Awesome для списка преимуществ
+
+### Цветовая схема:
+- Основной цвет: #2c5aa0 (синий)
+- Акцентный цвет: #e74c3c (красный для рекомендуемого)
+- Фон секции: градиент от #f5f7fa до #c3cfe2
+
 ## Последнее обновление
-Дата: 2024-01-10
-Версия: 1.0
+Дата: 2025-09-10
+Версия: 1.1
