@@ -2,14 +2,6 @@
 
 ## MCP Servers Configuration
 
-### Context7 - Documentation Assistant
-Use Context7 to fetch up-to-date documentation for any library:
-- **Always call `mcp__context7__resolve-library-id` first** to get the correct library ID
-- Then use `mcp__context7__get-library-docs` with the resolved ID
-- Example workflow:
-  1. User asks about React hooks
-  2. Call `resolve-library-id` with "react"
-  3. Use returned ID with `get-library-docs` to fetch documentation
 
 ### Playwright - Browser Automation
 Use Playwright MCP for browser testing and web scraping:
@@ -61,9 +53,8 @@ Use Sequential Thinking MCP for complex tasks requiring structured reasoning:
 ### When working on this project:
 1. **ALWAYS use Sequential Thinking** - для каждой сложной задачи начинай с `start_thinking`, анализируй проблему пошагово через `continue_thinking`, завершай через `finalize_thinking`
 2. **ALWAYS use Task Master** - постоянно отслеживай задачи через `task-master list`, обновляй статусы, используй TodoWrite
-3. **FREQUENTLY use Context7** - часто проверяй документацию при работе с любыми библиотеками и фреймворками
-4. **ALWAYS use Playwright** - постоянно проверяй через браузер, что верстка не разъехалась и изменения применились корректно после каждого изменения HTML/CSS
-5. **ALWAYS update Documentation** - после любых значимых изменений обновляй соответствующие файлы в `/docs/`
-6. **Enhanced Workflow**: Sequential Thinking для анализа → Task Master для планирования → Context7 для документации → Реализация → Playwright для проверки → Обновление документации → Task Master для обновления статуса
+3. **ALWAYS use Playwright** - постоянно проверяй через браузер, что верстка не разъехалась и изменения применились корректно после каждого изменения HTML/CSS
+4. **ALWAYS update Documentation** - после любых значимых изменений обновляй соответствующие файлы в `/docs/`
+5. **Enhanced Workflow**: Sequential Thinking для анализа → Task Master для планирования → Реализация → Playwright для проверки → Обновление документации → Task Master для обновления статуса
 
 ## Task Master AI Instructions
