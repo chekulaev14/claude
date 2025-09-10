@@ -196,11 +196,79 @@
         ],
         "priority": "medium",
         "subtasks": []
+      },
+      {
+        "id": 15,
+        "title": "Implement Carousel for Service Cards",
+        "description": "Create a carousel to display service cards, showing three at a time, with navigation arrows and dots, while maintaining the existing card design.",
+        "details": "To implement the carousel, use a JavaScript library like Swiper or Slick that supports responsive carousels. Start by duplicating the existing service card design to create a fifth card, ensuring it matches the current style. Configure the carousel to display three cards at a time, with navigation arrows on either side and dots below for navigation. Ensure the carousel is fully responsive, adapting to different screen sizes without breaking the layout. Maintain the existing design aesthetics of the cards, ensuring no visual discrepancies. Test the carousel's performance and responsiveness across various devices and browsers.",
+        "testStrategy": "Verify that the carousel displays exactly three cards at a time and that navigation arrows and dots function correctly. Test the carousel on multiple devices and screen sizes to ensure responsiveness. Check that the design of the cards remains consistent with the existing style. Ensure that the fifth card is a duplicate of the 'Dogruz' card and is displayed correctly within the carousel. Use browser developer tools to simulate different devices and screen sizes for thorough testing.",
+        "status": "done",
+        "dependencies": [
+          12,
+          14
+        ],
+        "priority": "medium",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Duplicate Existing Service Card Design",
+            "description": "Create a fifth service card by duplicating the existing design to ensure consistency in style.",
+            "dependencies": [],
+            "details": "Access the current service card design files and duplicate one of the cards. Ensure that all design elements such as fonts, colors, and layout are consistent with the existing cards. Save the new card in the same format and location as the existing ones.",
+            "status": "done",
+            "testStrategy": "Visually compare the new card with existing cards to ensure there are no discrepancies in design."
+          },
+          {
+            "id": 2,
+            "title": "Integrate JavaScript Carousel Library",
+            "description": "Set up a JavaScript carousel library like Swiper or Slick to manage the display of service cards.",
+            "dependencies": [
+              "15.1"
+            ],
+            "details": "Choose a carousel library that supports responsive design and multiple navigation options. Include the library in the project by adding the necessary script and stylesheet links in the HTML. Initialize the carousel in the JavaScript file, ensuring it is set to display three cards at a time.",
+            "status": "done",
+            "testStrategy": "Check that the library is correctly included and initialized by ensuring the carousel structure appears on the page."
+          },
+          {
+            "id": 3,
+            "title": "Configure Carousel Display Settings",
+            "description": "Adjust the carousel settings to display three cards at a time with navigation arrows and dots.",
+            "dependencies": [
+              "15.2"
+            ],
+            "details": "Modify the carousel initialization code to set the number of visible slides to three. Enable navigation arrows and pagination dots in the carousel settings. Style the arrows and dots to match the existing design aesthetics.",
+            "status": "done",
+            "testStrategy": "Verify that exactly three cards are visible at a time and that navigation arrows and dots are functional and styled correctly."
+          },
+          {
+            "id": 4,
+            "title": "Ensure Carousel Responsiveness",
+            "description": "Make sure the carousel adapts to different screen sizes without breaking the layout.",
+            "dependencies": [
+              "15.3"
+            ],
+            "details": "Use media queries to adjust the carousel settings for various screen sizes. Ensure that the number of visible cards and the size of the cards adjust appropriately on smaller screens. Test the layout on different devices to ensure it remains consistent.",
+            "status": "done",
+            "testStrategy": "Test the carousel on multiple devices and screen sizes to ensure it remains responsive and visually consistent."
+          },
+          {
+            "id": 5,
+            "title": "Test Carousel Performance and Compatibility",
+            "description": "Conduct thorough testing of the carousel's performance and compatibility across various browsers and devices.",
+            "dependencies": [
+              "15.4"
+            ],
+            "details": "Perform load testing to ensure the carousel does not negatively impact page performance. Test the carousel in different browsers to ensure compatibility. Check for any visual or functional issues that may arise in less common browsers or older versions.",
+            "status": "done",
+            "testStrategy": "Use browser developer tools to monitor performance metrics and ensure the carousel functions correctly across all supported browsers."
+          }
+        ]
       }
     ],
     "metadata": {
       "created": "2025-09-09T08:51:32.199Z",
-      "updated": "2025-09-09T12:27:24.460Z",
+      "updated": "2025-09-10T15:09:35.930Z",
       "description": "Tasks for master context"
     }
   }

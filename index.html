@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap 5.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     <header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
@@ -116,10 +118,14 @@
             <div class="container">
                 <h2 class="section-title">Грузоперевозки по России</h2>
                 <p class="section-subtitle">Заказать перевозку просто - позвоните нам или заполните форму обратной связи и дальше мы все сделаем за вас</p>
-                <div class="services-grid">
-                    <div class="service-card" id="intercity">
+                <!-- Swiper Container -->
+                <div class="swiper services-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Service Card 1 -->
+                        <div class="swiper-slide">
+                            <div class="service-card" id="intercity">
                         <div class="service-icon">🚛</div>
-                        <h3>ГРУЗОПЕРЕВОЗКИ МЕЖГОРОД</h3>
+                        <h3>ГРУЗОПЕРЕВОЗКИ<br>МЕЖГОРОД</h3>
                         <div class="service-specs">
                             <div class="spec-row">
                                 <span class="spec-label">Тип кузова</span>
@@ -134,10 +140,13 @@
                                 <span class="spec-value">до 7 тонн</span>
                             </div>
                         </div>
-                        <a href="pages/intercity.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                    </div>
+                                <a href="pages/intercity.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                            </div>
+                        </div>
                     
-                    <div class="service-card" id="truck">
+                        <!-- Service Card 2 -->
+                        <div class="swiper-slide">
+                            <div class="service-card" id="truck">
                         <div class="service-icon">🏗️</div>
                         <h3>ГРУЗОПЕРЕВОЗКИ<br>ФУРА</h3>
                         <div class="service-specs">
@@ -154,12 +163,15 @@
                                 <span class="spec-value">до 24 тонн</span>
                             </div>
                         </div>
-                        <a href="pages/truck.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                    </div>
+                                <a href="pages/truck.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                            </div>
+                        </div>
                     
-                    <div class="service-card" id="long-trailer">
+                        <!-- Service Card 3 -->
+                        <div class="swiper-slide">
+                            <div class="service-card" id="long-trailer">
                         <div class="service-icon">📏</div>
-                        <h3>ГРУЗОПЕРЕВОЗКИ ДЛИННОМЕР ШАЛАНДА</h3>
+                        <h3>ГРУЗОПЕРЕВОЗКИ ДЛИННОМЕР<br>ШАЛАНДА</h3>
                         <div class="service-specs">
                             <div class="spec-row">
                                 <span class="spec-label">Тип кузова</span>
@@ -174,12 +186,15 @@
                                 <span class="spec-value">до 24 тонн</span>
                             </div>
                         </div>
-                        <a href="pages/long-trailer.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                    </div>
+                                <a href="pages/long-trailer.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                            </div>
+                        </div>
                     
-                    <div class="service-card" id="partial">
+                        <!-- Service Card 4 -->
+                        <div class="swiper-slide">
+                            <div class="service-card" id="partial">
                         <div class="service-icon">📦</div>
-                        <h3>ГРУЗОПЕРЕВОЗКИ ДОГРУЗ ПОПУТНО</h3>
+                        <h3>ГРУЗОПЕРЕВОЗКИ ДОГРУЗ<br>ПОПУТНО</h3>
                         <div class="service-specs">
                             <div class="spec-row">
                                 <span class="spec-label">Тип кузова</span>
@@ -194,8 +209,40 @@
                                 <span class="spec-value">до 5 тонн</span>
                             </div>
                         </div>
-                        <a href="pages/partial.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                                <a href="pages/partial.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Service Card 5 (Duplicate) -->
+                        <div class="swiper-slide">
+                            <div class="service-card" id="partial-2">
+                                <div class="service-icon">📦</div>
+                                <h3>ГРУЗОПЕРЕВОЗКИ ДОГРУЗ<br>ПОПУТНО</h3>
+                                <div class="service-specs">
+                                    <div class="spec-row">
+                                        <span class="spec-label">Тип кузова</span>
+                                        <span class="spec-value">Открытый / Закрытый</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Длина кузова</span>
+                                        <span class="spec-value">до 16 метров</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Грузоподъемность</span>
+                                        <span class="spec-value">до 5 тонн</span>
+                                    </div>
+                                </div>
+                                <a href="pages/partial.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                            </div>
+                        </div>
                     </div>
+                    
+                    <!-- Swiper Pagination -->
+                    <div class="swiper-pagination"></div>
+                    
+                    <!-- Swiper Navigation -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>
@@ -205,11 +252,11 @@
     </main>
 
     <!-- Statistics Section -->
-    <section class="stats-section py-5 bg-light">
+    <section class="stats-section py-5 bg-primary text-white">
         <div class="container text-center">
             <h2 class="mb-3">Более 850 клиентов за 7 лет работы</h2>
             <p class="lead mb-4">Выполнено более 3500 рейсов</p>
-            <a href="pages/clients.html" class="btn btn-primary btn-lg">Ознакомиться</a>
+            <a href="pages/clients.html" class="btn btn-light btn-lg">Ознакомиться</a>
         </div>
     </section>
 
@@ -244,6 +291,8 @@
 
     <!-- Bootstrap 5.3 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
