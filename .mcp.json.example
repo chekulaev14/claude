@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "node",
+      "args": ["/tmp/servers/src/sequentialthinking/dist/index.js"],
+      "env": {}
+    },
+    "task-master-ai": {
+      "command": "npx",
+      "args": ["-y", "--package=task-master-ai", "task-master-ai"],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@microsoft/playwright-mcp@latest"],
+      "env": {}
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "context7@latest"],
+      "env": {}
+    }
+  }
+}
