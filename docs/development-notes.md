@@ -65,6 +65,8 @@
 ## JavaScript архитектура
 
 ### Основной файл: `assets/js/script.js`
+### Специализированные файлы:
+- `assets/js/clients.js` - управление страницей клиентов
 
 ### Основные функции:
 
@@ -101,15 +103,74 @@ const observer = new IntersectionObserver(function(entries) {
 });
 ```
 
+#### 4. ClientsManager класс (`assets/js/clients.js`)
+```javascript
+class ClientsManager {
+    constructor() {
+        this.clients = [];
+        this.filteredClients = [];
+        this.currentPage = 1;
+        this.itemsPerPage = 20;
+        this.selectedLetter = '';
+    }
+    
+    async loadClients() {
+        // Загрузка данных из assets/data/clients.json
+        // Очистка и форматирование данных
+    }
+    
+    filterByLetter(letter) {
+        // Фильтрация клиентов по первой букве
+    }
+    
+    renderClients() {
+        // Отрисовка карточек клиентов с пагинацией
+    }
+}
+```
+
+## Структура данных
+
+### Файл `assets/data/clients.json`:
+```json
+[
+  {
+    "name": "Название организации", 
+    "inn": "1234567890"
+  }
+]
+```
+
+**Особенности обработки данных:**
+- Автоматическая обрезка пробелов в названиях
+- Преобразование ИНН в строковый формат
+- Валидация и обработка ошибок загрузки
+
 ## Файловая структура проекта
 
 ### Текущее состояние:
 ```
 /
 ├── index.html              # Главная страница
-├── styles.css              # Основные стили  
-├── script.js              # Основные скрипты
-├── color_big.png          # Логотип
+├── pages/                  # Страницы сайта
+│   ├── clients.html        # Страница клиентов
+│   ├── contacts.html       # Страница контактов
+│   ├── intercity.html      # Междугородние перевозки
+│   ├── truck.html         # Грузовые перевозки фура
+│   ├── long-trailer.html  # Длинномеры шаланда
+│   └── partial.html       # Догруз попутно
+├── assets/                 # Ресурсы
+│   ├── css/
+│   │   └── styles.css     # Основные стили
+│   ├── js/
+│   │   ├── script.js      # Основные скрипты
+│   │   └── clients.js     # Управление клиентами
+│   ├── images/
+│   │   └── color_big.png  # Логотип
+│   └── data/
+│       └── clients.json   # База клиентов (880 записей)
+├── docs/                   # Документация
+├── convert_excel.py        # Скрипт конвертации Excel в JSON
 ├── CLAUDE.md              # Инструкции для AI
 ├── .mcp.json              # MCP конфигурация
 └── .taskmaster/           # Task Master файлы

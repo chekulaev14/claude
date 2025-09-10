@@ -9,8 +9,6 @@ class ClientsManager {
         this.filteredClients = [];
         this.currentPage = 1;
         this.itemsPerPage = 20;
-        this.currentSort = 'asc';
-        this.currentFilter = '';
         this.selectedLetter = '';
 
         this.init();
@@ -36,7 +34,6 @@ class ClientsManager {
             }));
 
             this.filteredClients = [...this.clients];
-            this.sortClients();
             
             console.log(`Загружено ${this.clients.length} клиентов`);
         } catch (error) {
@@ -46,21 +43,7 @@ class ClientsManager {
     }
 
     setupEventListeners() {
-        // Поиск
-        const searchInput = document.getElementById('searchInput');
-        searchInput.addEventListener('input', (e) => {
-            this.currentFilter = e.target.value.toLowerCase();
-            this.applyFilters();
-        });
-
-        // Сортировка
-        document.querySelectorAll('input[name="sortOptions"]').forEach(radio => {
-            radio.addEventListener('change', (e) => {
-                this.currentSort = e.target.value;
-                this.sortClients();
-                this.renderClients();
-            });
-        });
+        // Event listeners setup - currently empty as search and sorting removed
     }
 
     createAlphabetNavigation() {
@@ -109,25 +92,11 @@ class ClientsManager {
             );
         }
 
-        // Поиск
-        if (this.currentFilter) {
-            filtered = filtered.filter(client =>
-                client.name.toLowerCase().includes(this.currentFilter)
-            );
-        }
-
         this.filteredClients = filtered;
-        this.sortClients();
         this.currentPage = 1;
         this.renderClients();
     }
 
-    sortClients() {
-        this.filteredClients.sort((a, b) => {
-            const comparison = a.name.localeCompare(b.name, 'ru');
-            return this.currentSort === 'asc' ? comparison : -comparison;
-        });
-    }
 
     renderClients() {
         const clientsList = document.getElementById('clientsList');
