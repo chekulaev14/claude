@@ -14,6 +14,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 ```
 
+### Swiper.js 11: для карусели услуг
+```html
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+```
+
 ## CSS архитектура
 
 ### Основной файл стилей: `assets/css/styles.css`
@@ -103,7 +111,32 @@ const observer = new IntersectionObserver(function(entries) {
 });
 ```
 
-#### 4. ClientsManager класс (`assets/js/clients.js`)
+#### 4. Swiper инициализация
+```javascript
+const servicesSwiper = new Swiper('.services-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+        768: { slidesPerView: 2 },
+        992: { slidesPerView: 3 }
+    }
+});
+```
+
+#### 5. ClientsManager класс (`assets/js/clients.js`)
 ```javascript
 class ClientsManager {
     constructor() {
@@ -288,6 +321,11 @@ class ClientsManager {
 - [ ] Dark mode support
 
 ## Последнее обновление
-Дата: 2024-01-10  
-Версия: 1.0
+Дата: 2025-09-10  
+Версия: 1.1
 Автор: Claude Code Assistant
+
+### Обновления в версии 1.1:
+- Добавлена информация о Swiper.js 11
+- Добавлена инициализация карусели услуг
+- Обновлена структура JavaScript с новыми функциями

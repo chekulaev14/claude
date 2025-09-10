@@ -1,8 +1,49 @@
 # Руководство по компонентам сайта
 
 ## Обновления
-- **10.09.2025**: Добавлен компонент Pricing Cards для страницы цен
+- **10.09.2025**: Добавлен компонент Pricing Cards для страницы цен (упрощен)
 - **10.09.2025**: Добавлена карусель Swiper для карточек услуг
+- **10.09.2025**: Добавлена Hero-карусель с автосменой слайдов
+- **10.09.2025**: Переструктурированы Service Cards в двухколоночный формат
+- **10.09.2025**: Упрощена страница цен - удалены кнопки и лишние блоки
+
+## Hero Carousel (Главная карусель)
+
+### Расположение: `index.html` (строки 57-115)
+### Класс: `.hero-carousel`
+
+### Структура карусели:
+```html
+<section class="hero-carousel">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
+    <div class="carousel-indicators">...</div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">...</div>
+      <div class="carousel-item">...</div>
+      <div class="carousel-item">...</div>
+    </div>
+    <button class="carousel-control-prev">...</button>
+    <button class="carousel-control-next">...</button>
+  </div>
+</section>
+```
+
+### Настройки карусели:
+- **Автосмена слайдов**: каждые 15 секунд (`data-bs-interval="15000"`)
+- **Количество слайдов**: 3 слайда
+- **Навигация**: индикаторы-точки внизу и стрелки по бокам
+- **Автозапуск**: включен (`data-bs-ride="carousel"`)
+
+### Содержание слайдов:
+1. **Слайд 1**: "Надежные грузовые перевозки по России" + кнопка "Посмотреть" → #services
+2. **Слайд 2**: "Более 850 довольных клиентов" + кнопка "Посмотреть" → pages/clients.html
+3. **Слайд 3**: "Быстрое оформление заказа" + кнопка "Посмотреть" → pages/contacts.html
+
+### Стили:
+- Полноэкранная высота с фоновым изображением/градиентом
+- Центрированный контент с белым текстом
+- Bootstrap Carousel компоненты
+- Адаптивные заголовки и подзаголовки
 
 ## Header (Шапка сайта)
 
@@ -35,7 +76,7 @@
 
 3. **Контактная информация**
    - Телефон: 8-987-416-51-87 (кликабельный)
-   - Время работы: 9:00-18:00 МСК
+   - ~~Время работы удалено из menu по запросу~~
 
 ## Footer (Подвал сайта)
 
@@ -76,10 +117,23 @@
 ### Структура каждой карточки:
 1. **Иконка** - эмодзи символ
 2. **Заголовок** - название услуги (заглавными буквами)
-3. **Спецификации** - характеристики услуги
-   - Тип кузова
-   - Длина кузова
-   - Грузоподъемность
+3. **Спецификации в двухколоночном формате** - характеристики услуги
+   ```html
+   <div class="service-specs">
+     <div class="spec-row">
+       <span class="spec-label">Тип кузова</span>
+       <span class="spec-value">Открытый / Закрытый</span>
+     </div>
+     <div class="spec-row">
+       <span class="spec-label">Длина кузова</span>
+       <span class="spec-value">до 7 метров</span>
+     </div>
+     <div class="spec-row">
+       <span class="spec-label">Грузоподъемность</span>
+       <span class="spec-value">до 7 тонн</span>
+     </div>
+   </div>
+   ```
 4. **Кнопка "Перейти"** - `btn btn-outline-primary mt-3`
 
 ### Текущие карточки (5 штук):
@@ -118,6 +172,38 @@
 - `.swiper-button-next/prev` - круглые кнопки навигации
 - `.swiper-pagination-bullet` - точки навигации
 - `.swiper-pagination-bullet-active` - активная точка (увеличенная)
+
+### CSS стили спецификаций (новое):
+```css
+.service-specs {
+  text-align: left;
+  margin: 15px 0;
+}
+
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.spec-row:last-child {
+  border-bottom: none;
+}
+
+.spec-label {
+  font-weight: 500;
+  color: #666;
+  font-size: 14px;
+}
+
+.spec-value {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+```
 
 ## Client Cards (Карточки клиентов)
 
@@ -287,18 +373,18 @@
 4. **Pagination** - разбиение на страницы
 5. **Error handling** - обработка ошибок загрузки данных
 
-## Pricing Cards (Карточки тарифов)
+## Pricing Cards (Карточки тарифов) - УПРОЩЕННАЯ ВЕРСИЯ
 
 ### CSS классы:
 - `.pricing-section` - основная секция с градиентным фоном
 - `.pricing-header` - заголовок секции
 - `.pricing-cards` - контейнер для карточек (flex)
 - `.pricing-card` - индивидуальная карточка тарифа
-- `.pricing-card.recommended` - рекомендуемый тариф
+- ~~`.pricing-card.recommended` - удалена метка "Рекомендуем"~~
 
-### Структура карточки:
+### Структура карточки (упрощенная):
 ```html
-<div class="pricing-card [recommended]">
+<div class="pricing-card">
   <div class="pricing-card-header">
     <h3 class="pricing-plan-name">Название тарифа</h3>
     <div class="pricing-price">
@@ -308,26 +394,93 @@
     <div class="pricing-commission">+ X% от стоимости</div>
   </div>
   <ul class="pricing-features">
-    <li><i class="fas fa-check-circle"></i><span>Функция</span></li>
+    <li>✓ Функция (простые галочки вместо Font Awesome)</li>
   </ul>
-  <div class="pricing-cta">
-    <a href="#" class="btn-pricing">CTA текст</a>
-  </div>
+  <!-- CTA кнопки удалены -->
 </div>
 ```
 
+### Изменения в версии 10.09.2025:
+- ❌ **Удалены CTA кнопки** из карточек по запросу
+- ❌ **Удалена метка "Рекомендуем"** для тарифа с НДС
+- ❌ **Удалены Font Awesome иконки** - заменены на простые галочки ✓
+- ❌ **Удален блок "Как формируется цена"** с кнопкой расчета
+- ✅ **Сокращены описания** каждого тарифа до 3 пунктов
+
 ### Особенности:
 - Hover эффект: поднятие карточки и усиление тени
-- Метка "Рекомендуем" для выделенного тарифа
-- Градиентные кнопки с hover эффектом
+- ~~Градиентные кнопки удалены~~
 - Полностью адаптивный дизайн
-- Иконки Font Awesome для списка преимуществ
+- Простые текстовые галочки без иконок
 
 ### Цветовая схема:
 - Основной цвет: #2c5aa0 (синий)
-- Акцентный цвет: #e74c3c (красный для рекомендуемого)
+- ~~Акцентный цвет для "рекомендуемого" удален~~
 - Фон секции: градиент от #f5f7fa до #c3cfe2
+
+## Statistics Section (Секция статистики)
+
+### Расположение: `index.html` (строки 254-261)
+### CSS класс: `.stats-section`
+
+### Структура:
+```html
+<section class="stats-section py-5 bg-primary text-white">
+  <div class="container text-center">
+    <h2 class="mb-3">Более 850 клиентов за 7 лет работы</h2>
+    <p class="lead mb-4">Выполнено более 3500 рейсов</p>
+    <a href="pages/clients.html" class="btn btn-light btn-lg">Ознакомиться</a>
+  </div>
+</section>
+```
+
+### Особенности:
+- Синий фон (`bg-primary`) с белым текстом
+- Отступы сверху и снизу (`py-5`)
+- Центрированный контент
+- CTA кнопка ведет на страницу клиентов
+- Отображает ключевую статистику компании
+
+## Swiper.js Integration
+
+### Подключение:
+```html
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+```
+
+### JavaScript инициализация:
+```javascript
+// В assets/js/script.js
+const servicesSwiper = new Swiper('.services-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+        },
+        992: {
+            slidesPerView: 3,
+        }
+    }
+});
+```
 
 ## Последнее обновление
 Дата: 2025-09-10
-Версия: 1.1
+Версия: 1.2

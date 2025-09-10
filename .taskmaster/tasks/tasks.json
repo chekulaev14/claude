@@ -264,11 +264,216 @@
             "testStrategy": "Use browser developer tools to monitor performance metrics and ensure the carousel functions correctly across all supported browsers."
           }
         ]
+      },
+      {
+        "id": 16,
+        "title": "Analyze Current Template Loader",
+        "description": "Review and analyze the existing template-loader.js to identify issues with Bootstrap initialization and dropdown functionality.",
+        "status": "done",
+        "dependencies": [],
+        "priority": "high",
+        "details": "Examine the template-loader.js file to understand how it initializes Bootstrap components. Identify any race conditions or incorrect script loading orders. Check for any missing or incorrect data attributes that might affect dropdown functionality.",
+        "testStrategy": "Use console logs to trace the execution flow and identify where the initialization fails. Verify the presence of Bootstrap components in the DOM after header loading.",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Examine Script Loading Order",
+            "description": "Analyze the order in which scripts are loaded in template-loader.js to identify any issues affecting Bootstrap initialization.",
+            "dependencies": [],
+            "details": "Review the script tags and loading sequence in the template-loader.js file. Ensure that Bootstrap and its dependencies are loaded in the correct order to prevent initialization issues.\n<info added on 2025-09-10T18:01:32.663Z>\nA race condition has been identified where Bootstrap initializes before the header with dropdown elements is loaded. The Template Loader loads the header asynchronously, but Bootstrap attempts to initialize components before they appear in the DOM.\n</info added on 2025-09-10T18:01:32.663Z>",
+            "status": "done",
+            "testStrategy": ""
+          },
+          {
+            "id": 2,
+            "title": "Check Data Attributes for Dropdowns",
+            "description": "Verify the presence and correctness of data attributes related to Bootstrap dropdown functionality in template-loader.js.",
+            "dependencies": [
+              "16.1"
+            ],
+            "details": "Inspect the HTML elements initialized by template-loader.js to ensure they have the correct data attributes required for Bootstrap dropdowns to function properly.\n<info added on 2025-09-10T18:02:26.708Z>\nData attributes in header.html are correct: data-bs-toggle='dropdown', id='servicesDropdown', aria-labelledby='servicesDropdown', aria-expanded='false', role='button'. Simplified Bootstrap initialization code by removing duplicate click handlers and complex fallbacks, and increased delay to 200ms for proper header loading.\n</info added on 2025-09-10T18:02:26.708Z>",
+            "status": "done",
+            "testStrategy": ""
+          },
+          {
+            "id": 3,
+            "title": "Identify Race Conditions",
+            "description": "Detect any race conditions in template-loader.js that might affect the initialization of Bootstrap components.",
+            "dependencies": [
+              "16.1",
+              "16.2"
+            ],
+            "details": "Use console logs and debugging tools to trace the execution flow of template-loader.js. Identify any asynchronous operations that might lead to race conditions affecting Bootstrap component initialization.\n<info added on 2025-09-10T18:03:07.367Z>\nA race condition was identified and resolved: Bootstrap attempted to initialize dropdown components before they appeared in the DOM following the asynchronous loading of the header. The fix involved increasing the delay from 50ms to 200ms, simplifying the initialization code, and removing conflicting event handlers.\n</info added on 2025-09-10T18:03:07.367Z>",
+            "status": "done",
+            "testStrategy": ""
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "title": "Refactor Bootstrap Initialization",
+        "description": "Refactor the Bootstrap initialization process to ensure proper loading and functionality of dropdown menus.",
+        "status": "pending",
+        "dependencies": [
+          16
+        ],
+        "priority": "high",
+        "details": "Modify the template-loader.js to ensure Bootstrap components are initialized after the DOM is fully loaded. Use event listeners to detect when the header is loaded and then initialize the dropdowns using 'new bootstrap.Dropdown()'. Ensure that Popper.js is correctly loaded as it is required for Bootstrap dropdowns.",
+        "testStrategy": "Test dropdown functionality on all pages after refactoring. Use browser console to ensure no errors are present during initialization.",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Ensure DOM Readiness",
+            "description": "Modify template-loader.js to ensure that Bootstrap components are initialized only after the DOM is fully loaded.",
+            "dependencies": [],
+            "details": "Use event listeners to detect when the DOM is fully loaded before initializing any Bootstrap components.",
+            "status": "pending",
+            "testStrategy": ""
+          },
+          {
+            "id": 2,
+            "title": "Initialize Bootstrap Components",
+            "description": "Implement the initialization of Bootstrap dropdown components using 'new bootstrap.Dropdown()' after the DOM is ready.",
+            "dependencies": [
+              "17.1"
+            ],
+            "details": "Ensure that the dropdowns are initialized correctly by calling 'new bootstrap.Dropdown()' on the appropriate elements once the DOM is ready.",
+            "status": "pending",
+            "testStrategy": ""
+          },
+          {
+            "id": 3,
+            "title": "Load Popper.js",
+            "description": "Ensure that Popper.js is correctly loaded as it is required for Bootstrap dropdowns.",
+            "dependencies": [
+              "17.1"
+            ],
+            "details": "Verify that Popper.js is included and loaded before initializing Bootstrap dropdowns to avoid any functionality issues.",
+            "status": "pending",
+            "testStrategy": ""
+          },
+          {
+            "id": 4,
+            "title": "Test Dropdown Functionality Across Pages",
+            "description": "Test the functionality of dropdown menus on all pages to ensure they work correctly after refactoring.",
+            "dependencies": [
+              "17.2",
+              "17.3"
+            ],
+            "details": "Use browser console to ensure no errors are present during initialization and verify that dropdowns function as expected across different pages.",
+            "status": "pending",
+            "testStrategy": ""
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "title": "Implement Error Handling and Logging",
+        "description": "Enhance the template-loader.js with error handling and logging for better diagnostics.",
+        "status": "pending",
+        "dependencies": [
+          17
+        ],
+        "priority": "medium",
+        "details": "Add try-catch blocks around critical sections of the code to catch and log errors. Use console.log to output informative messages about the status of component initialization and any errors encountered.",
+        "testStrategy": "Intentionally introduce errors to test the robustness of error handling. Verify that error messages are logged correctly and provide useful information for debugging.",
+        "subtasks": []
+      },
+      {
+        "id": 19,
+        "title": "Optimize Script Loading Order",
+        "description": "Ensure scripts are loaded in the correct order to prevent race conditions and timing issues.",
+        "status": "pending",
+        "dependencies": [
+          17
+        ],
+        "priority": "medium",
+        "details": "Review the HTML and JavaScript files to ensure scripts are loaded in the correct order. Use 'defer' or 'async' attributes appropriately to manage script execution timing. Ensure that Bootstrap and its dependencies are loaded before any custom scripts that rely on them.",
+        "testStrategy": "Check the network tab in browser developer tools to verify the order of script loading. Ensure no errors related to script execution order are present.",
+        "subtasks": []
+      },
+      {
+        "id": 20,
+        "title": "Enhance Dropdown Accessibility",
+        "description": "Improve the accessibility of dropdown menus for keyboard navigation.",
+        "status": "pending",
+        "dependencies": [
+          17
+        ],
+        "priority": "medium",
+        "details": "Ensure dropdown menus can be navigated using the keyboard. Implement ARIA roles and attributes to improve accessibility. Ensure that focus management is handled correctly when dropdowns are opened and closed.",
+        "testStrategy": "Test dropdown navigation using keyboard only. Verify that ARIA roles and attributes are correctly implemented using accessibility tools.",
+        "subtasks": []
+      },
+      {
+        "id": 21,
+        "title": "Cross-Browser Compatibility Testing",
+        "description": "Test the dropdown functionality across different browsers and devices to ensure compatibility.",
+        "status": "pending",
+        "dependencies": [
+          20
+        ],
+        "priority": "medium",
+        "details": "Use tools like BrowserStack or manual testing to check the dropdown functionality on Chrome, Firefox, Safari, and Edge. Ensure that the mobile version works correctly on various devices.",
+        "testStrategy": "Perform manual testing on different browsers and devices. Use automated testing tools like Playwright to ensure consistent behavior across platforms.",
+        "subtasks": []
+      },
+      {
+        "id": 22,
+        "title": "Performance Optimization",
+        "description": "Optimize the performance of dropdown initialization and overall script execution.",
+        "status": "pending",
+        "dependencies": [
+          19
+        ],
+        "priority": "low",
+        "details": "Minimize delays in dropdown initialization by optimizing event listeners and script execution. Avoid memory leaks by properly managing event listeners. Consider lazy loading for non-critical scripts.",
+        "testStrategy": "Use performance profiling tools to measure script execution time and memory usage. Ensure that initialization time is under 200ms.",
+        "subtasks": []
+      },
+      {
+        "id": 23,
+        "title": "Document Code and Solutions",
+        "description": "Document the changes made to the code and the solutions implemented for future reference.",
+        "status": "pending",
+        "dependencies": [
+          22
+        ],
+        "priority": "low",
+        "details": "Create comprehensive documentation detailing the changes made to the template-loader.js and other scripts. Include information on the problems identified, solutions implemented, and any remaining issues or considerations.",
+        "testStrategy": "Review documentation for completeness and clarity. Ensure that it provides a clear understanding of the changes made and the reasoning behind them.",
+        "subtasks": []
+      },
+      {
+        "id": 24,
+        "title": "Implement Fallback Mechanisms",
+        "description": "Create fallback mechanisms for older browsers or in case of script failures.",
+        "status": "pending",
+        "dependencies": [
+          21
+        ],
+        "priority": "low",
+        "details": "Implement fallback solutions for browsers that do not support the latest JavaScript features or Bootstrap functionalities. Use polyfills or alternative approaches to ensure basic functionality is maintained.",
+        "testStrategy": "Test the site on older browsers to ensure that fallback mechanisms work correctly. Verify that basic dropdown functionality is available even if advanced features are not supported.",
+        "subtasks": []
+      },
+      {
+        "id": 25,
+        "title": "Final Testing and Validation",
+        "description": "Conduct final testing to ensure all issues are resolved and the site functions correctly.",
+        "status": "pending",
+        "dependencies": [
+          24
+        ],
+        "priority": "high",
+        "details": "Perform comprehensive testing across all pages and devices to ensure dropdowns work as expected. Validate that no errors are present in the console and that performance meets the specified criteria.",
+        "testStrategy": "Conduct functional, performance, and cross-browser testing. Use automated tests to validate consistent behavior and manual tests for edge cases.",
+        "subtasks": []
       }
     ],
     "metadata": {
       "created": "2025-09-09T08:51:32.199Z",
-      "updated": "2025-09-10T15:09:35.930Z",
+      "updated": "2025-09-10T18:03:21.281Z",
       "description": "Tasks for master context"
     }
   }
