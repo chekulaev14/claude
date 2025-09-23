@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,230 +8,244 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap 5.3 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Google Maps API -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeGxooF2L5rdIFszMLZBYhcVhT11u83MY&libraries=places"></script>
 </head>
+
 <body>
     <!-- Header Placeholder -->
     <div id="header-placeholder"></div>
 
     <main>
-        <!-- Hero Carousel Section -->
-        <section class="hero-carousel">
-            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Слайд 1"></button>
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Слайд 2"></button>
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Слайд 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="carousel-content">
-                            <div class="container">
-                                <div class="row justify-content-center text-center">
-                                    <div class="col-lg-8">
-                                        <h1 class="display-4 fw-bold text-white mb-4">Надежные грузовые перевозки по России</h1>
-                                        <p class="lead text-white mb-4">Профессиональная доставка грузов любой сложности с гарантией качества и соблюдением сроков</p>
-                                        <a href="#services" class="btn btn-primary btn-lg">Посмотреть</a>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section py-5" id="contact-form">
+            <div class="container-fluid px-0">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <div class="contact-form-card bg-white p-4 shadow-sm">
+                            <h2 class="text-center mb-3">Быстро расчитаем, быстро привезем</h2>
+                            <p class="text-center text-muted mb-4">От газели до фуры, от 100 кг до 20 тонн, догрузом или отдельной машиной!</p>
+
+                            <form id="contactForm" class="contact-form">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-md-2">
+                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                            placeholder="Телефон" required autocomplete="off">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="text" class="form-control" id="departure" name="departure"
+                                            placeholder="Откуда" required autocomplete="off">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="text" class="form-control" id="destination" name="destination"
+                                            placeholder="Куда" required autocomplete="off">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="date" class="form-control" id="date" name="date" required
+                                            autocomplete="off" autocomplete="new-password" data-lpignore="true">
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                                            Отправить заявку
+                                        </button>
+                                        <div class="mt-2">
+                                            <a href="calculator-new.html" class="btn btn-outline-primary w-100">
+                                                Заполнить подробную форму
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-content">
-                            <div class="container">
-                                <div class="row justify-content-center text-center">
-                                    <div class="col-lg-8">
-                                        <h1 class="display-4 fw-bold text-white mb-4">Более 850 довольных клиентов</h1>
-                                        <p class="lead text-white mb-4">7 лет успешной работы на рынке грузоперевозок, более 3500 выполненных рейсов</p>
-                                        <a href="pages/clients.html" class="btn btn-primary btn-lg">Посмотреть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-content">
-                            <div class="container">
-                                <div class="row justify-content-center text-center">
-                                    <div class="col-lg-8">
-                                        <h1 class="display-4 fw-bold text-white mb-4">Быстрое оформление заказа</h1>
-                                        <p class="lead text-white mb-4">Позвоните нам или заполните форму обратной связи - мы сделаем всё остальное за вас</p>
-                                        <a href="pages/contacts.html" class="btn btn-primary btn-lg">Посмотреть</a>
-                                    </div>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                </button>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="stats-section py-5 bg-primary text-white">
+            <div class="container text-center">
+                <h2 class="mb-3">Более 850 клиентов за 7 лет работы</h2>
+                <p class="lead mb-4">Выполнено более 3500 рейсов по всей России</p>
+                <a href="pages/clients.html" class="btn btn-light btn-lg">Ознакомиться</a>
             </div>
         </section>
 
         <section class="services" id="services">
             <div class="container">
-                <h2 class="section-title">Грузоперевозки по России</h2>
-                <p class="section-subtitle">Заказать перевозку просто - позвоните нам или заполните форму обратной связи и дальше мы все сделаем за вас</p>
-                <!-- Swiper Container -->
-                <div class="swiper services-swiper">
-                    <div class="swiper-wrapper">
-                        <!-- Service Card 1 -->
-                        <div class="swiper-slide">
-                            <div class="service-card" id="intercity">
-                        <div class="service-icon">🚛</div>
-                        <h3>ГРУЗОПЕРЕВОЗКИ<br>МЕЖГОРОД</h3>
-                        <div class="service-specs">
-                            <div class="spec-row">
-                                <span class="spec-label">Тип кузова</span>
-                                <span class="spec-value">Открытый / Закрытый</span>
-                            </div>
-                            <div class="spec-row">
-                                <span class="spec-label">Длина кузова</span>
-                                <span class="spec-value">до 7 метров</span>
-                            </div>
-                            <div class="spec-row">
-                                <span class="spec-label">Грузоподъемность</span>
-                                <span class="spec-value">до 7 тонн</span>
-                            </div>
-                        </div>
-                                <a href="pages/intercity.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                            </div>
-                        </div>
-                    
-                        <!-- Service Card 2 -->
-                        <div class="swiper-slide">
-                            <div class="service-card" id="truck">
-                        <div class="service-icon">🏗️</div>
-                        <h3>ГРУЗОПЕРЕВОЗКИ<br>ФУРА</h3>
-                        <div class="service-specs">
-                            <div class="spec-row">
-                                <span class="spec-label">Тип кузова</span>
-                                <span class="spec-value">Закрытый</span>
-                            </div>
-                            <div class="spec-row">
-                                <span class="spec-label">Длина кузова</span>
-                                <span class="spec-value">до 16 метров</span>
-                            </div>
-                            <div class="spec-row">
-                                <span class="spec-label">Грузоподъемность</span>
-                                <span class="spec-value">до 24 тонн</span>
-                            </div>
-                        </div>
-                                <a href="pages/truck.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                            </div>
-                        </div>
-                    
-                        <!-- Service Card 3 -->
-                        <div class="swiper-slide">
-                            <div class="service-card" id="long-trailer">
-                        <div class="service-icon">📏</div>
-                        <h3>ГРУЗОПЕРЕВОЗКИ ДЛИННОМЕР<br>ШАЛАНДА</h3>
-                        <div class="service-specs">
-                            <div class="spec-row">
-                                <span class="spec-label">Тип кузова</span>
-                                <span class="spec-value">Открытый</span>
-                            </div>
-                            <div class="spec-row">
-                                <span class="spec-label">Длина кузова</span>
-                                <span class="spec-value">до 16 метров</span>
-                            </div>
-                            <div class="spec-row">
-                                <span class="spec-label">Грузоподъемность</span>
-                                <span class="spec-value">до 24 тонн</span>
-                            </div>
-                        </div>
-                                <a href="pages/long-trailer.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                            </div>
-                        </div>
-                    
-                        <!-- Service Card 4 -->
-                        <div class="swiper-slide">
-                            <div class="service-card" id="partial">
-                        <div class="service-icon">📦</div>
-                        <h3>ГРУЗОПЕРЕВОЗКИ ДОГРУЗ<br>ПОПУТНО</h3>
-                        <div class="service-specs">
-                            <div class="spec-row">
-                                <span class="spec-label">Тип кузова</span>
-                                <span class="spec-value">Открытый / Закрытый</span>
-                            </div>
-                            <div class="spec-row">
-                                <span class="spec-label">Длина кузова</span>
-                                <span class="spec-value">до 16 метров</span>
-                            </div>
-                            <div class="spec-row">
-                                <span class="spec-label">Грузоподъемность</span>
-                                <span class="spec-value">до 5 тонн</span>
-                            </div>
-                        </div>
-                                <a href="pages/partial.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                            </div>
-                        </div>
-                        
-                        <!-- Service Card 5 (Duplicate) -->
-                        <div class="swiper-slide">
-                            <div class="service-card" id="partial-2">
-                                <div class="service-icon">📦</div>
-                                <h3>ГРУЗОПЕРЕВОЗКИ ДОГРУЗ<br>ПОПУТНО</h3>
-                                <div class="service-specs">
-                                    <div class="spec-row">
-                                        <span class="spec-label">Тип кузова</span>
-                                        <span class="spec-value">Открытый / Закрытый</span>
+                <h2 class="section-title">Наши услуги</h2>
+                <p class="section-subtitle"></p>
+
+                <div class="services-container">
+                    <!-- Swiper Container -->
+                    <div class="swiper services-swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Service Card 1 -->
+                            <div class="swiper-slide">
+                                <div class="service-card" id="intercity">
+                                    <div class="service-icon">🚛</div>
+                                    <h3>ГРУЗОПЕРЕВОЗКИ<br>МЕЖГОРОД</h3>
+                                    <div class="service-specs">
+                                        <div class="spec-row">
+                                            <span class="spec-label">Тип кузова</span>
+                                            <span class="spec-value">Открытый / Закрытый</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Длина кузова</span>
+                                            <span class="spec-value">от 3 до 16 метров</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Грузоподъемность</span>
+                                            <span class="spec-value">до 20 тонн</span>
+                                        </div>
                                     </div>
-                                    <div class="spec-row">
-                                        <span class="spec-label">Длина кузова</span>
-                                        <span class="spec-value">до 16 метров</span>
-                                    </div>
-                                    <div class="spec-row">
-                                        <span class="spec-label">Грузоподъемность</span>
-                                        <span class="spec-value">до 5 тонн</span>
-                                    </div>
+                                    <a href="pages/intercity.html" class="btn btn-outline-primary mt-3">Перейти</a>
                                 </div>
-                                <a href="pages/partial.html" class="btn btn-outline-primary mt-3">Перейти</a>
                             </div>
+
+                            <!-- Service Card 2 -->
+                            <div class="swiper-slide">
+                                <div class="service-card" id="truck">
+                                    <div class="service-icon">🏗️</div>
+                                    <h3>ГРУЗОПЕРЕВОЗКИ<br>ФУРА</h3>
+                                    <div class="service-specs">
+                                        <div class="spec-row">
+                                            <span class="spec-label">Тип кузова</span>
+                                            <span class="spec-value">Закрытый</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Длина кузова</span>
+                                            <span class="spec-value">от 12 до 16 метров</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Грузоподъемность</span>
+                                            <span class="spec-value">до 24 тонн</span>
+                                        </div>
+                                    </div>
+                                    <a href="pages/truck.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                                </div>
+                            </div>
+
+                            <!-- Service Card 3 -->
+                            <div class="swiper-slide">
+                                <div class="service-card" id="long-trailer">
+                                    <div class="service-icon">📏</div>
+                                    <h3>ГРУЗОПЕРЕВОЗКИ ДЛИННОМЕР<br>ШАЛАНДА</h3>
+                                    <div class="service-specs">
+                                        <div class="spec-row">
+                                            <span class="spec-label">Тип кузова</span>
+                                            <span class="spec-value">Открытый</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Длина кузова</span>
+                                            <span class="spec-value">от 12 до 16 метров</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Грузоподъемность</span>
+                                            <span class="spec-value">до 24 тонн</span>
+                                        </div>
+                                    </div>
+                                    <a href="pages/long-trailer.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                                </div>
+                            </div>
+
+                            <!-- Service Card 4 -->
+                            <div class="swiper-slide">
+                                <div class="service-card" id="partial">
+                                    <div class="service-icon">📦</div>
+                                    <h3>ГРУЗОПЕРЕВОЗКИ ДОГРУЗ<br>ПОПУТНО</h3>
+                                    <div class="service-specs">
+                                        <div class="spec-row">
+                                            <span class="spec-label">Тип кузова</span>
+                                            <span class="spec-value">Открытый / Закрытый</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Длина кузова</span>
+                                            <span class="spec-value">до 16 метров</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Грузоподъемность</span>
+                                            <span class="spec-value">до 20 тонн</span>
+                                        </div>
+                                    </div>
+                                    <a href="pages/partial.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                                </div>
+                            </div>
+
                         </div>
+
+                        <!-- Swiper Pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- Swiper Navigation -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
-                    
-                    <!-- Swiper Pagination -->
-                    <div class="swiper-pagination"></div>
-                    
-                    <!-- Swiper Navigation -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>
 
 
-
     </main>
 
-    <!-- Statistics Section -->
-    <section class="stats-section py-5 bg-primary text-white">
-        <div class="container text-center">
-            <h2 class="mb-3">Более 850 клиентов за 7 лет работы</h2>
-            <p class="lead mb-4">Выполнено более 3500 рейсов</p>
-            <a href="pages/clients.html" class="btn btn-light btn-lg">Ознакомиться</a>
-        </div>
-    </section>
 
     <!-- Footer Placeholder -->
     <div id="footer-placeholder"></div>
 
     <!-- Bootstrap 5.3 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Template Loader -->
     <script src="assets/js/template-loader.js"></script>
     <script src="assets/js/script.js"></script>
+
+    <!-- Google Places Autocomplete -->
+    <script>
+        function initAutocomplete() {
+            // Автокомплит для поля "Откуда"
+            const departureInput = document.getElementById('departure');
+            if (departureInput) {
+                const departureAutocomplete = new google.maps.places.Autocomplete(departureInput, {
+                    types: ['(cities)'], // Только города
+                    componentRestrictions: { country: 'ru' }, // Только Россия
+                    fields: ['place_id', 'formatted_address', 'name', 'geometry'] // Нужные поля
+                });
+            }
+
+            // Автокомплит для поля "Куда"
+            const destinationInput = document.getElementById('destination');
+            if (destinationInput) {
+                const destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput, {
+                    types: ['(cities)'], // Только города
+                    componentRestrictions: { country: 'ru' }, // Только Россия
+                    fields: ['place_id', 'formatted_address', 'name', 'geometry'] // Нужные поля
+                });
+            }
+        }
+
+        // Инициализация автокомплита после загрузки Google Maps API
+        window.addEventListener('load', function() {
+            if (typeof google !== 'undefined' && google.maps && google.maps.places) {
+                initAutocomplete();
+            } else {
+                // Если API еще не загружен, ждем его загрузки
+                const checkGoogleMaps = setInterval(function() {
+                    if (typeof google !== 'undefined' && google.maps && google.maps.places) {
+                        clearInterval(checkGoogleMaps);
+                        initAutocomplete();
+                    }
+                }, 100);
+            }
+        });
+    </script>
 </body>
+
 </html>

@@ -203,7 +203,6 @@ class ClientsManager {
             if (e.target.tagName === 'A' && e.target.dataset.page) {
                 this.currentPage = parseInt(e.target.dataset.page);
                 this.renderClients();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
             }
         });
     }
