@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автопарк - ТК Динамика</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-dark text-white position-relative">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold mb-4">Наш автопарк</h1>
+                    <p class="lead mb-4">Современный и надежный автопарк для любых задач грузоперевозок</p>
+                    <div class="row text-center">
+                        <div class="col-4">
+                            <h3 class="fw-bold text-warning">120+</h3>
+                            <p>единиц техники</p>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold text-success">85%</h3>
+                            <p>новые авто</p>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold text-info">24/7</h3>
+                            <p>техподдержка</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/600x400?text=Автопарк" alt="Автопарк" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Categories -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Типы автомобилей</h2>
+
+            <!-- Category Filters -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8">
+                    <div class="btn-group w-100" role="group">
+                        <input type="radio" class="btn-check" name="fleetFilter" id="all" checked>
+                        <label class="btn btn-outline-primary" for="all">Все</label>
+
+                        <input type="radio" class="btn-check" name="fleetFilter" id="trucks">
+                        <label class="btn btn-outline-primary" for="trucks">Грузовики</label>
+
+                        <input type="radio" class="btn-check" name="fleetFilter" id="refrigerated">
+                        <label class="btn btn-outline-primary" for="refrigerated">Рефрижераторы</label>
+
+                        <input type="radio" class="btn-check" name="fleetFilter" id="special">
+                        <label class="btn btn-outline-primary" for="special">Спецтехника</label>
+
+                        <input type="radio" class="btn-check" name="fleetFilter" id="trailers">
+                        <label class="btn btn-outline-primary" for="trailers">Прицепы</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fleet Grid -->
+            <div class="row g-4">
+                <!-- Truck 1 -->
+                <div class="col-lg-4 col-md-6 fleet-item" data-category="trucks">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="https://via.placeholder.com/400x250?text=КАМАЗ+65117" alt="КАМАЗ 65117" class="card-img-top">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title">КАМАЗ 65117</h5>
+                                <span class="badge bg-success">Доступен</span>
+                            </div>
+                            <p class="card-text text-muted">Надежный грузовик для дальних перевозок</p>
+
+                            <div class="row text-center mb-3">
+                                <div class="col-4">
+                                    <small class="text-muted">Грузоподъемность</small>
+                                    <div class="fw-bold">15 тонн</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Объем</small>
+                                    <div class="fw-bold">85 м³</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Год</small>
+                                    <div class="fw-bold">2022</div>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled small mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>GPS мониторинг</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Тентованный полуприцеп</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Пневмоподвеска</li>
+                            </ul>
+
+                            <button class="btn btn-primary w-100">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Refrigerated 1 -->
+                <div class="col-lg-4 col-md-6 fleet-item" data-category="refrigerated">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="https://via.placeholder.com/400x250?text=Рефрижератор+MAN" alt="MAN Рефрижератор" class="card-img-top">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title">MAN TGX Рефрижератор</h5>
+                                <span class="badge bg-info">В рейсе</span>
+                            </div>
+                            <p class="card-text text-muted">Для температурных грузов</p>
+
+                            <div class="row text-center mb-3">
+                                <div class="col-4">
+                                    <small class="text-muted">Грузоподъемность</small>
+                                    <div class="fw-bold">12 тонн</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Температура</small>
+                                    <div class="fw-bold">-25°C...+25°C</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Год</small>
+                                    <div class="fw-bold">2023</div>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled small mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Многозонный контроль</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Backup охлаждение</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Регистратор температуры</li>
+                            </ul>
+
+                            <button class="btn btn-outline-primary w-100" disabled>Недоступен</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Vehicle -->
+                <div class="col-lg-4 col-md-6 fleet-item" data-category="special">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="https://via.placeholder.com/400x250?text=Низкорамный+тягач" alt="Низкорамный тягач" class="card-img-top">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title">Низкорамный тягач</h5>
+                                <span class="badge bg-warning">По запросу</span>
+                            </div>
+                            <p class="card-text text-muted">Для негабаритных грузов</p>
+
+                            <div class="row text-center mb-3">
+                                <div class="col-4">
+                                    <small class="text-muted">Грузоподъемность</small>
+                                    <div class="fw-bold">40 тонн</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Длина</small>
+                                    <div class="fw-bold">13.6 м</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Ширина</small>
+                                    <div class="fw-bold">2.55 м</div>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled small mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Телескопические оси</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Гидравлические рампы</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Разрешения на проезд</li>
+                            </ul>
+
+                            <button class="btn btn-warning w-100">Согласовать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More vehicles would go here -->
+                <div class="col-lg-4 col-md-6 fleet-item" data-category="trucks">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="https://via.placeholder.com/400x250?text=Volvo+FH" alt="Volvo FH" class="card-img-top">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title">Volvo FH</h5>
+                                <span class="badge bg-success">Доступен</span>
+                            </div>
+                            <p class="card-text text-muted">Европейский стандарт качества</p>
+
+                            <div class="row text-center mb-3">
+                                <div class="col-4">
+                                    <small class="text-muted">Грузоподъемность</small>
+                                    <div class="fw-bold">18 тонн</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Объем</small>
+                                    <div class="fw-bold">92 м³</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Год</small>
+                                    <div class="fw-bold">2021</div>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled small mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Евро-6 экология</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Адаптивный круиз</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Автономный отопитель</li>
+                            </ul>
+
+                            <button class="btn btn-primary w-100">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 fleet-item" data-category="trailers">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="https://via.placeholder.com/400x250?text=Полуприцеп+Schmitz" alt="Полуприцеп Schmitz" class="card-img-top">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title">Полуприцеп Schmitz</h5>
+                                <span class="badge bg-success">Доступен</span>
+                            </div>
+                            <p class="card-text text-muted">Тентованный полуприцеп</p>
+
+                            <div class="row text-center mb-3">
+                                <div class="col-4">
+                                    <small class="text-muted">Грузоподъемность</small>
+                                    <div class="fw-bold">24 тонны</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Объем</small>
+                                    <div class="fw-bold">96 м³</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Длина</small>
+                                    <div class="fw-bold">13.6 м</div>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled small mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Боковая загрузка</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Кониковые стойки</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Противоскользящий пол</li>
+                            </ul>
+
+                            <button class="btn btn-primary w-100">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 fleet-item" data-category="special">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="https://via.placeholder.com/400x250?text=Автокран" alt="Автокран" class="card-img-top">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title">Автокран 25т</h5>
+                                <span class="badge bg-warning">По запросу</span>
+                            </div>
+                            <p class="card-text text-muted">Для погрузочно-разгрузочных работ</p>
+
+                            <div class="row text-center mb-3">
+                                <div class="col-4">
+                                    <small class="text-muted">Грузоподъемность</small>
+                                    <div class="fw-bold">25 тонн</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Вылет стрелы</small>
+                                    <div class="fw-bold">30 м</div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Высота подъема</small>
+                                    <div class="fw-bold">35 м</div>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled small mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Опытный машинист</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Все разрешения</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Страхование работ</li>
+                            </ul>
+
+                            <button class="btn btn-warning w-100">Согласовать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Statistics -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Характеристики автопарка</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <i class="bi bi-truck text-primary" style="font-size: 3rem;"></i>
+                            <h4 class="mt-3">120+</h4>
+                            <p class="text-muted">Единиц техники</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <i class="bi bi-calendar text-success" style="font-size: 3rem;"></i>
+                            <h4 class="mt-3">2.5 года</h4>
+                            <p class="text-muted">Средний возраст парка</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <i class="bi bi-speedometer text-warning" style="font-size: 3rem;"></i>
+                            <h4 class="mt-3">98.5%</h4>
+                            <p class="text-muted">Готовность к рейсу</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <i class="bi bi-shield-check text-info" style="font-size: 3rem;"></i>
+                            <h4 class="mt-3">100%</h4>
+                            <p class="text-muted">Застрахованный парк</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Нужна специальная техника?</h2>
+                    <p class="lead mb-4">Поможем подобрать оптимальное транспортное средство для ваших задач</p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="tel:+79874165187" class="btn btn-light btn-lg">
+                            <i class="bi bi-telephone-fill me-2"></i>Получить консультацию
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-lg">
+                            <i class="bi bi-calculator me-2"></i>Рассчитать стоимость
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/template-loader.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+    // Fleet filtering
+    document.querySelectorAll('input[name="fleetFilter"]').forEach(filter => {
+        filter.addEventListener('change', function() {
+            const category = this.id;
+            const items = document.querySelectorAll('.fleet-item');
+
+            items.forEach(item => {
+                if (category === 'all' || item.dataset.category === category) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html>
