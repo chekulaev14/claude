@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наше предложение - Честные грузоперевозки | Динамика Карго</title>
+    <meta name="description" content="Первые в России честные грузоперевозки. Прозрачная наценка, фиксированная стоимость. 5000₽ + 1% без НДС, 6000₽ + 1.5% с НДС.">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="py-5 mt-5 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h1 class="display-4 fw-bold mb-4">Узнайте, сколько переплачиваете</h1>
+                        <p class="lead fs-4 mb-4">Интерактивный калькулятор честной наценки</p>
+                        <div class="badge bg-warning text-dark fs-5 p-3">
+                            Вводите стоимость рейса — видите нашу наценку
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Calculator -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card shadow-lg border-0">
+                            <div class="card-header bg-success text-white text-center py-4">
+                                <h2 class="mb-0">🧮 Калькулятор честной наценки</h2>
+                            </div>
+                            <div class="card-body p-5">
+                                <form id="honestCalculator">
+                                    <div class="row g-4">
+                                        <div class="col-lg-6">
+                                            <label class="form-label fw-bold">Стоимость рейса у перевозчика</label>
+                                            <div class="input-group input-group-lg">
+                                                <input type="number" class="form-control" id="reysPrice" placeholder="80000" min="10000" max="1000000">
+                                                <span class="input-group-text">₽</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label class="form-label fw-bold">Тип работы</label>
+                                            <select class="form-select form-select-lg" id="vatType">
+                                                <option value="without">Без НДС (5000₽ + 1%)</option>
+                                                <option value="with">С НДС (6000₽ + 1.5%)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <hr class="my-5">
+
+                                <!-- Results -->
+                                <div id="calculationResult" style="display: none;">
+                                    <div class="row g-4">
+                                        <div class="col-lg-4">
+                                            <div class="text-center p-4 bg-light rounded">
+                                                <h5 class="text-muted">Стоимость рейса</h5>
+                                                <div class="fs-2 fw-bold" id="displayReysPrice">0 ₽</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="text-center p-4 bg-warning rounded">
+                                                <h5 class="text-dark">Наша наценка</h5>
+                                                <div class="fs-2 fw-bold text-dark" id="displayMarkup">0 ₽</div>
+                                                <small id="markupFormula" class="text-muted"></small>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="text-center p-4 bg-success rounded text-white">
+                                                <h5>Итого к оплате</h5>
+                                                <div class="fs-2 fw-bold" id="displayTotal">0 ₽</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Comparison -->
+                                    <div class="mt-5">
+                                        <h4 class="text-center mb-4">Сравнение с обычными ТК</h4>
+                                        <div class="row g-4">
+                                            <div class="col-lg-6">
+                                                <div class="card border-danger">
+                                                    <div class="card-header bg-danger text-white text-center">
+                                                        <h5 class="mb-0">Обычная ТК (25% наценка)</h5>
+                                                    </div>
+                                                    <div class="card-body text-center">
+                                                        <div class="fs-3 fw-bold text-danger" id="competitorPrice">0 ₽</div>
+                                                        <small class="text-muted">Переплата: <span id="overpayment" class="fw-bold">0 ₽</span></small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="card border-success">
+                                                    <div class="card-header bg-success text-white text-center">
+                                                        <h5 class="mb-0">Динамика (честная наценка)</h5>
+                                                    </div>
+                                                    <div class="card-body text-center">
+                                                        <div class="fs-3 fw-bold text-success" id="ourPrice">0 ₽</div>
+                                                        <small class="text-success">Экономия: <span id="savings" class="fw-bold">0 ₽</span></small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Preset Examples -->
+                                <div class="mt-5">
+                                    <h5 class="text-center mb-4">Или выберите готовый пример:</h5>
+                                    <div class="row g-3">
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-outline-primary w-100" onclick="setExample(45000, 'without')">
+                                                Газель: 45 000₽
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-outline-primary w-100" onclick="setExample(75000, 'with')">
+                                                Фура: 75 000₽
+                                            </button>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <button class="btn btn-outline-primary w-100" onclick="setExample(120000, 'with')">
+                                                Длинномер: 120 000₽
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Как это работает</h2>
+                <div class="row g-4">
+                    <div class="col-lg-3 text-center">
+                        <div class="mb-3">
+                            <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                <span class="fs-2 fw-bold">1</span>
+                            </div>
+                        </div>
+                        <h5>Находим перевозчика</h5>
+                        <p class="text-muted">Подбираем оптимальный вариант на рынке</p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="mb-3">
+                            <div class="bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                <span class="fs-2 fw-bold">2</span>
+                            </div>
+                        </div>
+                        <h5>Показываем документы</h5>
+                        <p class="text-muted">Вы видите договор и стоимость</p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="mb-3">
+                            <div class="bg-warning text-dark rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                <span class="fs-2 fw-bold">3</span>
+                            </div>
+                        </div>
+                        <h5>Добавляем наценку</h5>
+                        <p class="text-muted">Фиксированная формула</p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <div class="mb-3">
+                            <div class="bg-info text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                <span class="fs-2 fw-bold">4</span>
+                            </div>
+                        </div>
+                        <h5>Организуем перевозку</h5>
+                        <p class="text-muted">Полное сопровождение</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h2 class="mb-4">Понравился расчёт?</h2>
+                        <p class="lead mb-4">Оставьте телефон — сделаем точный расчёт для вашего груза</p>
+
+                        <div class="card shadow border-0">
+                            <div class="card-body p-4">
+                                <form class="quick-callback-form">
+                                    <div class="mb-3">
+                                        <input type="tel" class="form-control form-control-lg text-center" placeholder="Ваш телефон" value="+7 " required>
+                                    </div>
+                                    <div class="d-grid gap-2">
+                                        <button type="submit" class="btn btn-primary btn-lg">
+                                            <i class="fas fa-phone me-2"></i>Перезвонить мне
+                                        </button>
+                                        <a href="../calculator-new.html" target="_blank" class="btn btn-outline-primary">
+                                            <i class="fas fa-calculator me-2"></i>Подробная заявка
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-center mb-5">Ответы на вопросы</h2>
+
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title">❓ Это реальные цены?</h5>
+                                        <p class="card-text text-muted">Да, именно по такой схеме мы работаем. Никаких скрытых доплат.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title">📋 Покажете документы?</h5>
+                                        <p class="card-text text-muted">Обязательно! Договор с перевозчиком — по первому запросу.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title">⚡ Как быстро оформление?</h5>
+                                        <p class="card-text text-muted">В среднем 1 час на подбор перевозчика и оформление.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title">🎯 Для разовых перевозок?</h5>
+                                        <p class="card-text text-muted">Конечно! Даже 1 рейс в год — наша специализация.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <!-- Template Loader -->
+    <script src="../assets/js/template-loader.js"></script>
+
+    <!-- Calculator Script -->
+    <script>
+        function calculateMarkup() {
+            const reysPrice = parseFloat(document.getElementById('reysPrice').value) || 0;
+            const vatType = document.getElementById('vatType').value;
+
+            if (reysPrice < 10000) {
+                document.getElementById('calculationResult').style.display = 'none';
+                return;
+            }
+
+            let fixedFee, percentage;
+            if (vatType === 'without') {
+                fixedFee = 5000;
+                percentage = 0.01;
+            } else {
+                fixedFee = 6000;
+                percentage = 0.015;
+            }
+
+            const markupAmount = Math.round(reysPrice * percentage);
+            const totalMarkup = fixedFee + markupAmount;
+            const totalPrice = reysPrice + totalMarkup;
+
+            // Competitor price (25% markup)
+            const competitorTotal = Math.round(reysPrice * 1.25);
+            const overpay = competitorTotal - totalPrice;
+
+            // Update display
+            document.getElementById('displayReysPrice').textContent = reysPrice.toLocaleString() + ' ₽';
+            document.getElementById('displayMarkup').textContent = totalMarkup.toLocaleString() + ' ₽';
+            document.getElementById('markupFormula').textContent = `${fixedFee.toLocaleString()} + ${markupAmount.toLocaleString()}`;
+            document.getElementById('displayTotal').textContent = totalPrice.toLocaleString() + ' ₽';
+
+            document.getElementById('competitorPrice').textContent = competitorTotal.toLocaleString() + ' ₽';
+            document.getElementById('overpayment').textContent = overpay.toLocaleString() + ' ₽';
+            document.getElementById('ourPrice').textContent = totalPrice.toLocaleString() + ' ₽';
+            document.getElementById('savings').textContent = overpay.toLocaleString() + ' ₽';
+
+            document.getElementById('calculationResult').style.display = 'block';
+        }
+
+        function setExample(price, vatType) {
+            document.getElementById('reysPrice').value = price;
+            document.getElementById('vatType').value = vatType;
+            calculateMarkup();
+        }
+
+        // Event listeners
+        document.getElementById('reysPrice').addEventListener('input', calculateMarkup);
+        document.getElementById('vatType').addEventListener('change', calculateMarkup);
+
+        // Initialize with default values
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('reysPrice').value = 80000;
+            document.getElementById('vatType').value = 'with';
+            calculateMarkup();
+        });
+    </script>
+</body>
+
+</html>

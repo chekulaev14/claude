@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наше предложение - Честные грузоперевозки | Динамика Карго</title>
+    <meta name="description" content="Первые в России честные грузоперевозки. Прозрачная наценка, фиксированная стоимость. 5000₽ + 1% без НДС, 6000₽ + 1.5% с НДС.">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="py-5 mt-5 bg-warning text-dark">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <div class="badge bg-danger text-white fs-6 p-3 mb-4">
+                            ⚠️ ОГРАНИЧЕННОЕ КОЛИЧЕСТВО МЕСТ В РАСПИСАНИИ
+                        </div>
+                        <h1 class="display-4 fw-bold mb-4">Свободных слотов становится меньше</h1>
+                        <p class="lead fs-4 mb-4">Забронируйте место в расписании заранее — мы найдём перевозчика в нужные даты</p>
+
+                        <div class="row g-3 mt-5">
+                            <div class="col-md-4">
+                                <div class="bg-white rounded p-3 shadow">
+                                    <div class="text-danger fw-bold fs-4">85%</div>
+                                    <small>мест уже забронировано</small>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-white rounded p-3 shadow">
+                                    <div class="text-success fw-bold fs-4">15%</div>
+                                    <small>свободных слотов</small>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="bg-white rounded p-3 shadow">
+                                    <div class="text-primary fw-bold fs-4">12</div>
+                                    <small>заявок на сегодня</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Schedule Status -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Загрузка расписания на ближайшие дни</h2>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="schedule-calendar">
+                            <div class="row g-3">
+                                <!-- Today -->
+                                <div class="col-lg-2 col-md-4">
+                                    <div class="card border-danger">
+                                        <div class="card-header bg-danger text-white text-center py-2">
+                                            <h6 class="mb-0">Сегодня</h6>
+                                            <small id="today-date"></small>
+                                        </div>
+                                        <div class="card-body p-3 text-center">
+                                            <div class="progress mb-2" style="height: 20px;">
+                                                <div class="progress-bar bg-danger" style="width: 100%"></div>
+                                            </div>
+                                            <div class="text-danger fw-bold">Занято</div>
+                                            <small class="text-muted">15/15 слотов</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Tomorrow -->
+                                <div class="col-lg-2 col-md-4">
+                                    <div class="card border-warning">
+                                        <div class="card-header bg-warning text-dark text-center py-2">
+                                            <h6 class="mb-0">Завтра</h6>
+                                            <small id="tomorrow-date"></small>
+                                        </div>
+                                        <div class="card-body p-3 text-center">
+                                            <div class="progress mb-2" style="height: 20px;">
+                                                <div class="progress-bar bg-warning" style="width: 87%"></div>
+                                            </div>
+                                            <div class="text-warning fw-bold">Почти занято</div>
+                                            <small class="text-muted">13/15 слотов</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Day +2 -->
+                                <div class="col-lg-2 col-md-4">
+                                    <div class="card border-info">
+                                        <div class="card-header bg-info text-white text-center py-2">
+                                            <h6 class="mb-0" id="day2-name"></h6>
+                                            <small id="day2-date"></small>
+                                        </div>
+                                        <div class="card-body p-3 text-center">
+                                            <div class="progress mb-2" style="height: 20px;">
+                                                <div class="progress-bar bg-info" style="width: 67%"></div>
+                                            </div>
+                                            <div class="text-info fw-bold">Есть места</div>
+                                            <small class="text-muted">10/15 слотов</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Day +3 -->
+                                <div class="col-lg-2 col-md-4">
+                                    <div class="card border-success">
+                                        <div class="card-header bg-success text-white text-center py-2">
+                                            <h6 class="mb-0" id="day3-name"></h6>
+                                            <small id="day3-date"></small>
+                                        </div>
+                                        <div class="card-body p-3 text-center">
+                                            <div class="progress mb-2" style="height: 20px;">
+                                                <div class="progress-bar bg-success" style="width: 47%"></div>
+                                            </div>
+                                            <div class="text-success fw-bold">Доступно</div>
+                                            <small class="text-muted">7/15 слотов</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Day +4 -->
+                                <div class="col-lg-2 col-md-4">
+                                    <div class="card border-success">
+                                        <div class="card-header bg-success text-white text-center py-2">
+                                            <h6 class="mb-0" id="day4-name"></h6>
+                                            <small id="day4-date"></small>
+                                        </div>
+                                        <div class="card-body p-3 text-center">
+                                            <div class="progress mb-2" style="height: 20px;">
+                                                <div class="progress-bar bg-success" style="width: 33%"></div>
+                                            </div>
+                                            <div class="text-success fw-bold">Доступно</div>
+                                            <small class="text-muted">5/15 слотов</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Day +5 -->
+                                <div class="col-lg-2 col-md-4">
+                                    <div class="card border-success">
+                                        <div class="card-header bg-success text-white text-center py-2">
+                                            <h6 class="mb-0" id="day5-name"></h6>
+                                            <small id="day5-date"></small>
+                                        </div>
+                                        <div class="card-body p-3 text-center">
+                                            <div class="progress mb-2" style="height: 20px;">
+                                                <div class="progress-bar bg-success" style="width: 27%"></div>
+                                            </div>
+                                            <div class="text-success fw-bold">Свободно</div>
+                                            <small class="text-muted">4/15 слотов</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <div class="alert alert-warning">
+                                <strong>💡 Совет:</strong> Бронируйте заранее — в последний момент может не быть свободных мест
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Slots Fill Up -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Почему места заканчиваются</h2>
+
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="card h-100 text-center border-0 shadow">
+                            <div class="card-body p-4">
+                                <i class="fas fa-users text-primary fa-3x mb-3"></i>
+                                <h5>Ограниченная команда</h5>
+                                <p class="text-muted">Всего 3 логиста. Каждый ведёт максимум 5 рейсов в день, чтобы обеспечить качество.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card h-100 text-center border-0 shadow">
+                            <div class="card-body p-4">
+                                <i class="fas fa-truck text-success fa-3x mb-3"></i>
+                                <h5>Качественные перевозчики</h5>
+                                <p class="text-muted">Работаем только с проверенными перевозчиками. У них тоже ограниченное количество машин.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card h-100 text-center border-0 shadow">
+                            <div class="card-body p-4">
+                                <i class="fas fa-clock text-warning fa-3x mb-3"></i>
+                                <h5>Индивидуальный подход</h5>
+                                <p class="text-muted">Каждому рейсу уделяем время. Ищем лучшие варианты, а не берём первый попавшийся.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Demand -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Актуальная ситуация</h2>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card shadow border-warning border-2">
+                            <div class="card-header bg-warning text-dark text-center py-3">
+                                <h4 class="mb-0">📊 Статистика за сегодня</h4>
+                            </div>
+                            <div class="card-body p-4">
+                                <div class="row g-4 text-center">
+                                    <div class="col-md-3">
+                                        <div class="stat-item">
+                                            <div class="display-4 fw-bold text-danger">12</div>
+                                            <h6>Новых заявок</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="stat-item">
+                                            <div class="display-4 fw-bold text-success">8</div>
+                                            <h6>Уже оформлено</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="stat-item">
+                                            <div class="display-4 fw-bold text-warning">4</div>
+                                            <h6>В обработке</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="stat-item">
+                                            <div class="display-4 fw-bold text-info">3</div>
+                                            <h6>Свободных мест</h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="alert alert-info mt-4 mb-0">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-info-circle me-2"></i>
+                                        <div>
+                                            <strong>Сейчас онлайн:</strong> 2 логиста обрабатывают заявки<br>
+                                            <small class="text-muted">Среднее время ответа: 8 минут</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Peak Seasons -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-center mb-4">Сезонные пики спроса</h2>
+                        <p class="text-center text-muted mb-5">В эти периоды места разбираются особенно быстро</p>
+
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="alert alert-danger">
+                                    <h6 class="alert-heading">🔥 Высокий спрос сейчас</h6>
+                                    <ul class="mb-0 small">
+                                        <li>Предновогодние поставки</li>
+                                        <li>Завоз товаров к праздникам</li>
+                                        <li>Сезонные перевозки</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="alert alert-warning">
+                                    <h6 class="alert-heading">⚠️ Ожидаем рост</h6>
+                                    <ul class="mb-0 small">
+                                        <li>Январские поставки</li>
+                                        <li>Восстановление после праздников</li>
+                                        <li>Подготовка к весне</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formula -->
+        <section class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2>Успейте забронировать по честной цене</h2>
+                    <p class="lead text-muted">Цены фиксированы и не зависят от загрузки</p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card shadow border-success border-2">
+                                    <div class="card-body text-center p-4">
+                                        <h3 class="text-success mb-3">5 000₽ + 1%</h3>
+                                        <p class="text-muted mb-3">Без НДС</p>
+                                        <div class="example-calc bg-light p-3 rounded">
+                                            <small><strong>Пример:</strong> рейс 70 000₽<br>
+                                            Наша работа: 5 000 + 700 = 5 700₽</small>
+                                        </div>
+                                        <div class="badge bg-success mt-2">Цена не изменится</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card shadow border-primary border-2">
+                                    <div class="card-body text-center p-4">
+                                        <h3 class="text-primary mb-3">6 000₽ + 1.5%</h3>
+                                        <p class="text-muted mb-3">С НДС</p>
+                                        <div class="example-calc bg-light p-3 rounded">
+                                            <small><strong>Пример:</strong> рейс 90 000₽<br>
+                                            Наша работа: 6 000 + 1 350 = 7 350₽</small>
+                                        </div>
+                                        <div class="badge bg-primary mt-2">Гарантированная цена</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Benefits -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Преимущества раннего бронирования</h2>
+
+                <div class="row g-4">
+                    <div class="col-lg-3">
+                        <div class="text-center p-3">
+                            <i class="fas fa-check-circle text-success fa-3x mb-3"></i>
+                            <h6>Гарантированное место</h6>
+                            <p class="text-muted small">Машина будет в нужную дату</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="text-center p-3">
+                            <i class="fas fa-star text-warning fa-3x mb-3"></i>
+                            <h6>Лучшие перевозчики</h6>
+                            <p class="text-muted small">Выбираем из всей базы</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="text-center p-3">
+                            <i class="fas fa-clock text-info fa-3x mb-3"></i>
+                            <h6>Больше времени</h6>
+                            <p class="text-muted small">На поиск оптимального варианта</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="text-center p-3">
+                            <i class="fas fa-shield-alt text-primary fa-3x mb-3"></i>
+                            <h6>Без стресса</h6>
+                            <p class="text-muted small">Не нужно искать в последний момент</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Urgent Contact Form -->
+        <section class="py-5 bg-danger text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <div class="badge bg-warning text-dark fs-6 p-3 mb-4">
+                            ⏰ ОСТАЛОСЬ МАЛО СВОБОДНЫХ МЕСТ
+                        </div>
+                        <h2 class="mb-4">Забронируйте место прямо сейчас</h2>
+                        <p class="lead mb-4">Не откладывайте — завтра может быть поздно</p>
+
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <div class="alert alert-warning mb-4">
+                                    <div class="d-flex justify-content-between small">
+                                        <span>Свободных мест:</span>
+                                        <span class="fw-bold text-danger">3 из 15</span>
+                                    </div>
+                                    <div class="progress mt-2" style="height: 8px;">
+                                        <div class="progress-bar bg-danger" style="width: 80%"></div>
+                                    </div>
+                                </div>
+
+                                <form class="quick-callback-form">
+                                    <div class="mb-3">
+                                        <input type="tel" class="form-control form-control-lg text-center" placeholder="Ваш телефон" value="+7 " required>
+                                    </div>
+                                    <div class="d-grid gap-2">
+                                        <button type="submit" class="btn btn-warning btn-lg text-dark">
+                                            <i class="fas fa-calendar-check me-2"></i>Забронировать место
+                                        </button>
+                                        <a href="../calculator-new.html" target="_blank" class="btn btn-outline-primary">
+                                            <i class="fas fa-calculator me-2"></i>Быстрый расчёт
+                                        </a>
+                                    </div>
+                                </form>
+
+                                <div class="mt-3">
+                                    <small class="text-muted">
+                                        <i class="fas fa-clock me-1"></i>
+                                        Ответим в течение 5 минут
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <!-- Template Loader -->
+    <script src="../assets/js/template-loader.js"></script>
+
+    <!-- Date Script -->
+    <script>
+        // Generate dates for calendar
+        document.addEventListener('DOMContentLoaded', function() {
+            const days = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+            const months = ['янв', 'фев', 'мар', 'апр', 'май', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'];
+
+            const today = new Date();
+
+            // Today
+            document.getElementById('today-date').textContent = today.getDate() + ' ' + months[today.getMonth()];
+
+            // Tomorrow
+            const tomorrow = new Date(today);
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            document.getElementById('tomorrow-date').textContent = tomorrow.getDate() + ' ' + months[tomorrow.getMonth()];
+
+            // Next days
+            for (let i = 2; i <= 5; i++) {
+                const nextDay = new Date(today);
+                nextDay.setDate(nextDay.getDate() + i);
+
+                document.getElementById(`day${i}-name`).textContent = days[nextDay.getDay()];
+                document.getElementById(`day${i}-date`).textContent = nextDay.getDate() + ' ' + months[nextDay.getMonth()];
+            }
+        });
+    </script>
+</body>
+
+</html>
