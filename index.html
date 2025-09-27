@@ -22,45 +22,64 @@
 
     <main>
 
-        <!-- Contact Form Section -->
-        <section class="contact-form-section py-5" id="contact-form">
-            <div class="container-fluid px-0">
-                <div class="row g-0">
-                    <div class="col-12">
-                        <div class="contact-form-card bg-white p-4 shadow-sm">
-                            <h2 class="text-center mb-3">Быстро расчитаем, быстро привезем</h2>
-                            <p class="text-center text-muted mb-4">От газели до фуры, от 100 кг до 20 тонн, догрузом или отдельной машиной!</p>
+        <!-- Hero Section with Form -->
+        <section class="hero-section position-relative py-5" style="background: #f8f9fa; min-height: 500px;">
+            <div class="container position-relative">
+                <div class="row align-items-center min-vh-50">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 fw-bold mb-4 text-dark">
+                            Быстро расчитаем,<br>
+                            быстро привезем
+                        </h1>
+                        <p class="lead mb-4 text-dark">От газели до фуры, от 100 кг до 20 тонн, догрузом или отдельной машиной!</p>
+                    </div>
 
-                            <form id="contactForm" class="contact-form">
-                                <div class="row g-3 align-items-center">
-                                    <div class="col-md-2">
-                                        <input type="tel" class="form-control" id="phone" name="phone"
-                                            placeholder="Телефон" required autocomplete="off">
-                                    </div>
-                                    <div class="col-md-2">
-                                        <input type="text" class="form-control" id="departure" name="departure"
-                                            placeholder="Откуда" required autocomplete="off">
-                                    </div>
-                                    <div class="col-md-2">
-                                        <input type="text" class="form-control" id="destination" name="destination"
-                                            placeholder="Куда" required autocomplete="off">
-                                    </div>
-                                    <div class="col-md-2">
-                                        <input type="date" class="form-control" id="date" name="date" required
-                                            autocomplete="off" autocomplete="new-password" data-lpignore="true">
-                                    </div>
-                                    <div class="col-md-4 text-center">
-                                        <button type="submit" class="btn btn-primary btn-lg w-100">
-                                            Отправить заявку
-                                        </button>
-                                        <div class="mt-2">
+                    <div class="col-lg-6">
+                        <div class="card shadow-lg border-0">
+                            <div class="card-header bg-primary text-white text-center py-3">
+                                <h5 class="mb-0 fw-bold">Получить расчет стоимости</h5>
+                            </div>
+                            <div class="card-body p-4">
+                                <form id="contactForm" class="contact-form">
+                                    <div class="row g-3">
+                                        <div class="col-12">
+                                            <label class="form-label fw-semibold">
+                                                <i class="fas fa-phone me-2"></i>Телефон
+                                            </label>
+                                            <input type="tel" class="form-control form-control-lg" id="phone" name="phone"
+                                                value="+7 " placeholder="+7 (999) 999-99-99" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">
+                                                <i class="fas fa-map-marker-alt me-2"></i>Откуда
+                                            </label>
+                                            <input type="text" class="form-control form-control-lg" id="departure" name="departure"
+                                                placeholder="Город отправления" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">
+                                                <i class="fas fa-map-marker-alt me-2"></i>Куда
+                                            </label>
+                                            <input type="text" class="form-control form-control-lg" id="destination" name="destination"
+                                                placeholder="Город назначения" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <label class="form-label fw-semibold">
+                                                <i class="fas fa-calendar me-2"></i>Дата отправки
+                                            </label>
+                                            <input type="date" class="form-control form-control-lg" id="date" name="date" required>
+                                        </div>
+                                        <div class="col-12 pt-2">
+                                            <button type="submit" class="btn btn-primary btn-lg w-100 mb-3">
+                                                <i class="fas fa-paper-plane me-2"></i>Отправить заявку
+                                            </button>
                                             <a href="calculator-new.html" class="btn btn-outline-primary w-100">
-                                                Заполнить подробную форму
+                                                <i class="fas fa-calculator me-2"></i>Подробный калькулятор
                                             </a>
                                         </div>
                                     </div>
-                                </div>
-                            </form>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -190,6 +209,17 @@
             </div>
         </section>
 
+        <!-- SEO Text Block -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="seo-text">
+                    <h2>Грузоперевозки по России от ТК Динамика</h2>
+                    <p>Транспортная компания "Динамика" предоставляет полный спектр услуг грузоперевозок по всей территории Российской Федерации. Мы осуществляем доставку грузов любого объема и веса: от мелких партий догрузом до полных машин фур и длинномеров.</p>
+                    <p>Наша компания работает со всеми типами транспорта: газели, средние грузовики, фуры, длинномеры и специализированная техника. Гарантируем надежность, соблюдение сроков доставки и сохранность грузов на протяжении всего маршрута.</p>
+                    <p>Заказать грузоперевозки можно через онлайн-калькулятор на сайте или по телефону. Работаем 24/7, предоставляем услуги экспедирования, страхования и полного документооборота. За 7 лет работы выполнили более 3500 рейсов для 850+ довольных клиентов.</p>
+                </div>
+            </div>
+        </section>
 
     </main>
 

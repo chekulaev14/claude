@@ -89,11 +89,11 @@
     }
 
     .calculator-body {
-      padding: 40px;
+      padding: 20px;
     }
 
     .form-section {
-      margin-bottom: 40px;
+      margin-bottom: 1.5rem;
     }
 
     .section-title {
@@ -144,10 +144,11 @@
     }
 
     .form-control {
-      border: 2px solid var(--border-color);
-      border-radius: 12px;
-      padding: 15px 20px;
-      font-size: 16px;
+      border: 1px solid #dee2e6;
+      border-radius: 6px;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
       transition: all 0.3s ease;
       background: white;
     }
@@ -165,9 +166,9 @@
     }
 
     .radio-card {
-      border: 2px solid var(--border-color);
-      border-radius: 12px;
-      padding: 20px;
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      padding: 1rem;
       cursor: pointer;
       transition: all 0.3s ease;
       background: white;
@@ -476,7 +477,16 @@
       }
 
       .calculator-body {
-        padding: 30px 20px;
+        padding: 20px 15px;
+      }
+
+      /* На мобильных устройствах результаты переходят вниз */
+      .col-lg-4 {
+        margin-top: 20px;
+      }
+
+      .sticky-top {
+        position: static !important;
       }
 
       .form-row {
@@ -611,7 +621,7 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="calculator-wrapper">
       <!-- Заголовок -->
       <div class="calculator-header">
@@ -623,8 +633,13 @@
         <p>Рассчитайте стоимость доставки груза по России</p>
       </div>
 
-      <!-- Основная форма -->
+      <!-- Основной контент с сайдбаром -->
       <div class="calculator-body">
+        <div class="container">
+          <div class="row">
+            <!-- Форма калькулятора -->
+            <div class="col-lg-8">
+              <div class="calculator-form">
         <!-- Информационный блок -->
         <div class="info-box">
           <h4><i class="fas fa-info-circle"></i> Как пользоваться калькулятором</h4>
@@ -834,9 +849,14 @@
           <i class="fas fa-spinner"></i>
           <p>Рассчитываем стоимость...</p>
         </div>
+              </div>
+            </div>
 
-        <!-- Результат -->
-        <div id="calculation-result" class="result-section" style="display: none;">
+            <!-- Результаты справа -->
+            <div class="col-lg-4">
+              <div class="sticky-top" style="top: 20px;">
+                <!-- Результат -->
+                <div id="calculation-result" class="result-section" style="display: none;">
           <div class="result-header" style="flex-wrap: wrap; gap: 12px;">
             <div class="result-title">Результат расчета</div>
             <div class="price-toggle">
@@ -855,6 +875,25 @@
           <div id="result-extra" class="result-extra" style="display:none;"></div>
           <div id="price-options" class="price-options" style="display:none;"></div>
           <div class="result-details" id="result-details"></div>
+        </div>
+
+        <!-- Полезные советы -->
+        <div class="card border-0 shadow-sm mt-4">
+          <div class="card-header bg-info text-white">
+            <h6 class="mb-0"><i class="fas fa-lightbulb me-2"></i>Полезные советы</h6>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mb-0 small">
+              <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Указывайте точный вес для корректного расчета</li>
+              <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>При превышении габаритов тариф может измениться</li>
+              <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Страхование рекомендуется для ценных грузов</li>
+              <li class="mb-0"><i class="fas fa-check-circle text-success me-2"></i>Точную стоимость уточните у менеджера</li>
+            </ul>
+          </div>
+        </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Карта -->
