@@ -1,281 +1,642 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Динамика Карго - Грузовые перевозки</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Bootstrap 5.3 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- Google Maps API -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeGxooF2L5rdIFszMLZBYhcVhT11u83MY&libraries=places"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'IBM Plex Sans', sans-serif; background: #fafafa; color: #2d3436; overflow-x: hidden; }
+
+        .hero {
+            min-height: 95vh;
+            background: linear-gradient(135deg, rgba(255,255,255,0.96) 0%, rgba(245,245,245,0.93) 100%),
+                        url('https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1920&q=80') center/cover;
+            padding: 100px 5%;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%2310b981" fill-opacity="0.03"><path d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/></g></g></svg>');
+            opacity: 1;
+            z-index: 0;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            width: 4px; height: 100%;
+            background: linear-gradient(180deg, #10b981 0%, #059669 100%);
+            z-index: 1;
+        }
+
+        .container { max-width: 1300px; margin: 0 auto; position: relative; z-index: 2; }
+
+        .hero-layout { display: grid; grid-template-columns: 1.3fr 1fr; gap: 80px; align-items: center; }
+
+        .hero-text h1 {
+            font-size: 72px;
+            font-weight: 300;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            color: #2d3436;
+            letter-spacing: -2px;
+        }
+
+        .hero-text h1 strong {
+            font-weight: 700;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: block;
+        }
+
+        .hero-text p { font-size: 20px; color: #636e72; margin-bottom: 40px; line-height: 1.7; font-weight: 300; }
+
+        .feature-minimal { display: flex; gap: 35px; }
+        .feature-minimal-item { display: flex; flex-direction: column; gap: 8px; }
+        .feature-minimal-item .icon { font-size: 28px; }
+        .feature-minimal-item .label { font-size: 14px; font-weight: 600; color: #636e72; }
+
+        .minimal-card {
+            background: #ffffff;
+            border-radius: 4px;
+            padding: 45px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+            border-left: 4px solid #10b981;
+        }
+
+        .card-head { margin-bottom: 35px; }
+        .card-head h3 { font-size: 26px; font-weight: 700; margin-bottom: 8px; color: #2d3436; }
+        .card-head p { font-size: 14px; color: #636e72; }
+
+        .form-group { margin-bottom: 22px; }
+        .form-group label { display: block; font-weight: 600; margin-bottom: 10px; font-size: 13px; color: #636e72; text-transform: uppercase; letter-spacing: 0.5px; }
+        .form-group input {
+            width: 100%;
+            padding: 14px 16px;
+            background: #fafafa;
+            border: 1px solid #dfe6e9;
+            border-radius: 2px;
+            font-size: 15px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            transition: all 0.3s;
+            color: #2d3436;
+        }
+        .form-group input:focus { outline: none; border-color: #10b981; background: #fff; }
+
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+
+        .btn-green {
+            width: 100%;
+            padding: 16px;
+            background: #10b981;
+            border: none;
+            border-radius: 2px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-bottom: 12px;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .btn-green:hover { background: #059669; }
+
+        .btn-outline-green {
+            width: 100%;
+            padding: 16px;
+            background: transparent;
+            border: 1px solid #10b981;
+            border-radius: 2px;
+            color: #10b981;
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .btn-outline-green:hover { background: #f0fdf4; }
+
+        .stats {
+            background: linear-gradient(135deg, rgba(45, 52, 54, 0.95) 0%, rgba(45, 52, 54, 0.98) 100%),
+                        url('https://images.unsplash.com/photo-1547448415-e9f5b28e570d?w=1920&q=80') center/cover;
+            background-attachment: fixed;
+            padding: 90px 5%;
+            color: #fff;
+            position: relative;
+        }
+
+        .stats::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(16, 185, 129, 0.05) 10px,
+                rgba(16, 185, 129, 0.05) 20px
+            );
+            pointer-events: none;
+        }
+
+        .stats-layout { display: grid; grid-template-columns: 1fr 1.2fr; gap: 80px; align-items: center; }
+        .stats-text h2 { font-size: 56px; font-weight: 300; margin-bottom: 25px; line-height: 1.2; }
+        .stats-text h2 strong { font-weight: 700; display: block; color: #10b981; }
+        .stats-text p { font-size: 20px; opacity: 0.8; margin-bottom: 30px; font-weight: 300; }
+
+        .stats-items { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+        .stat-item {
+            background: rgba(255,255,255,0.05);
+            padding: 35px;
+            border-radius: 2px;
+            text-align: center;
+            border-left: 3px solid #10b981;
+            transition: all 0.3s;
+        }
+        .stat-item:hover { background: rgba(255,255,255,0.08); }
+        .stat-val { font-size: 48px; font-weight: 700; margin-bottom: 10px; color: #10b981; }
+        .stat-desc { font-size: 12px; opacity: 0.7; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+
+        .services {
+            background: linear-gradient(135deg, rgba(250, 250, 250, 0.97) 0%, rgba(255, 255, 255, 0.95) 100%),
+                        url('https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=1920&q=80') center/cover;
+            padding: 90px 5%;
+            position: relative;
+        }
+        .section-head { text-align: center; margin-bottom: 70px; }
+        .section-head h2 { font-size: 56px; font-weight: 300; margin-bottom: 20px; color: #2d3436; }
+        .section-head h2 strong { font-weight: 700; color: #10b981; }
+        .section-head p { font-size: 18px; color: #636e72; font-weight: 300; }
+
+        /* Accordion Style */
+        .accordion { max-width: 900px; margin: 0 auto; }
+        .accordion-item {
+            background: #fff;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #dfe6e9;
+        }
+        .accordion-header {
+            padding: 25px 30px;
+            cursor: pointer;
+            display: grid;
+            grid-template-columns: 60px 1fr 40px;
+            gap: 20px;
+            align-items: center;
+            transition: all 0.3s;
+        }
+        .accordion-header:hover { background: #fafafa; }
+        .accordion-item.active .accordion-header { background: #10b981; color: #fff; }
+        .accordion-item.active .accordion-header .icon svg { stroke: #fff; }
+        .accordion-header h3 { font-size: 20px; font-weight: 700; }
+        .accordion-header .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .accordion-header .icon svg {
+            width: 48px;
+            height: 48px;
+            stroke: #10b981;
+            fill: none;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+        .accordion-arrow {
+            font-size: 24px;
+            transition: transform 0.3s;
+        }
+        .accordion-item.active .accordion-arrow { transform: rotate(180deg); }
+        .accordion-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s;
+        }
+        .accordion-item.active .accordion-body { max-height: 300px; }
+        .accordion-content {
+            padding: 30px;
+            background: #fafafa;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .accordion-detail {
+            background: #fff;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 3px solid #10b981;
+        }
+        .accordion-detail-name { font-size: 11px; color: #636e72; text-transform: uppercase; font-weight: 600; margin-bottom: 6px; }
+        .accordion-detail-value { font-size: 14px; font-weight: 700; color: #2d3436; }
+
+        .seo {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(250, 250, 250, 0.96) 100%),
+                        url('https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=1920&q=80') center/cover;
+            background-attachment: fixed;
+            padding: 90px 5%;
+            position: relative;
+        }
+        .seo-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px;
+            border-left: 4px solid #10b981;
+            background: #fafafa;
+        }
+        .seo-wrapper h2 { font-size: 40px; font-weight: 700; margin-bottom: 30px; color: #2d3436; }
+        .seo-wrapper p { font-size: 16px; line-height: 1.9; color: #636e72; margin-bottom: 18px; font-weight: 300; }
+
+        .seo-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 35px; margin-top: 60px; padding-top: 60px; border-top: 1px solid #dfe6e9; }
+        .seo-minimal-item { text-align: center; }
+        .seo-minimal-item .icon { font-size: 44px; margin-bottom: 15px; }
+        .seo-minimal-item .title { font-weight: 700; color: #10b981; margin-bottom: 6px; font-size: 15px; }
+        .seo-minimal-item .desc { font-size: 12px; color: #636e72; }
+
+        @media (max-width: 1024px) {
+            .hero-layout, .stats-layout { grid-template-columns: 1fr; gap: 50px; }
+            .services-layout { grid-template-columns: 1fr; }
+            .hero-text h1 { font-size: 52px; }
+            .seo-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
 </head>
-
 <body>
-    <!-- Header Placeholder -->
-    <div id="header-placeholder"></div>
+    <header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <img src="assets/images/color_big.png" alt="ТК Динамика" style="height: 54px; width: auto;" class="me-3">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto align-items-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Услуги
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="pages/intercity.html">ГРУЗОПЕРЕВОЗКИ МЕЖГОРОД</a></li>
+                            <li><a class="dropdown-item" href="pages/truck.html">ГРУЗОПЕРЕВОЗКИ ФУРА</a></li>
+                            <li><a class="dropdown-item" href="pages/long-trailer.html">ГРУЗОПЕРЕВОЗКИ ДЛИННОМЕР ШАЛАНДА</a></li>
+                            <li><a class="dropdown-item" href="pages/partial.html">ГРУЗОПЕРЕВОЗКИ ДОГРУЗ ПОПУТНО</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/prices.html">Ценообразование</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/clients.html">Клиенты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/routes.html">Маршруты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacts.html">Контакты</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="tel:89874165187" class="btn btn-danger btn-sm px-4">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <main>
-
-        <!-- Hero Section with Form -->
-        <section class="hero-section position-relative py-4" style="background: #f8f9fa;">
-            <div class="container position-relative">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <h1 class="display-4 fw-bold mb-4 text-dark">
-                            Быстро расчитаем,<br>
-                            быстро привезем
-                        </h1>
-                        <p class="lead mb-4 text-dark">От газели до фуры, от 100 кг до 20 тонн, догрузом или отдельной машиной!</p>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-layout">
+                <div class="hero-text">
+                    <h1>Быстро расчитаем, <strong>быстро привезем</strong></h1>
+                    <p>От газели до фуры, от 100 кг до 20 тонн, догрузом или отдельной машиной!</p>
+                    <div class="feature-minimal">
+                        <div class="feature-minimal-item">
+                            <div class="icon">🚛</div>
+                            <div class="label">Любой транспорт</div>
+                        </div>
+                        <div class="feature-minimal-item">
+                            <div class="icon">⚡</div>
+                            <div class="label">Расчёт за 5 минут</div>
+                        </div>
+                        <div class="feature-minimal-item">
+                            <div class="icon">💰</div>
+                            <div class="label">Прозрачные цены</div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-6">
-                        <div class="card shadow-lg border-0">
-                            <div class="card-header bg-primary text-white text-center py-3">
-                                <h5 class="mb-0 fw-bold">Получить расчет стоимости</h5>
+                <div class="minimal-card">
+                    <div class="card-head">
+                        <h3>Получить расчет стоимости</h3>
+                        <p>Ответим в течение 5 минут</p>
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label>Телефон</label>
+                            <input type="tel" id="phone" name="phone" value="+7 " placeholder="+7 (999) 999-99-99" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Откуда</label>
+                                <input type="text" id="departure" name="departure" placeholder="Город отправления" required>
                             </div>
-                            <div class="card-body px-3 py-1">
-                                <form id="contactForm" class="contact-form">
-                                    <div class="row g-3">
-                                        <div class="col-12">
-                                            <label class="form-label fw-semibold">
-                                                <i class="fas fa-phone me-2"></i>Телефон
-                                            </label>
-                                            <input type="tel" class="form-control form-control-lg" id="phone" name="phone"
-                                                value="+7 " placeholder="+7 (999) 999-99-99" required>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label class="form-label fw-semibold">
-                                                <i class="fas fa-map-marker-alt me-2"></i>Откуда
-                                            </label>
-                                            <input type="text" class="form-control form-control-lg" id="departure" name="departure"
-                                                placeholder="Город отправления" required>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label class="form-label fw-semibold">
-                                                <i class="fas fa-map-marker-alt me-2"></i>Куда
-                                            </label>
-                                            <input type="text" class="form-control form-control-lg" id="destination" name="destination"
-                                                placeholder="Город назначения" required>
-                                        </div>
-                                        <div class="col-12">
-                                            <label class="form-label fw-semibold">
-                                                <i class="fas fa-calendar me-2"></i>Дата отправки
-                                            </label>
-                                            <input type="date" class="form-control form-control-lg" id="date" name="date" required>
-                                        </div>
-                                        <div class="col-12 pt-2">
-                                            <button type="submit" class="btn btn-primary btn-lg w-100 mb-3">
-                                                <i class="fas fa-paper-plane me-2"></i>Отправить заявку
-                                            </button>
-                                            <a href="calculator-new.html" class="btn btn-outline-primary w-100">
-                                                <i class="fas fa-calculator me-2"></i>Подробный калькулятор
-                                            </a>
-                                        </div>
-                                    </div>
-                                </form>
+                            <div class="form-group">
+                                <label>Куда</label>
+                                <input type="text" id="destination" name="destination" placeholder="Город назначения" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Дата отправки</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <button type="submit" class="btn-green">Отправить заявку</button>
+                        <a href="calculator-new.html" class="btn-outline-green">Подробный калькулятор</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-layout">
+                <div class="stats-text">
+                    <h2>Более <strong>850 клиентов</strong> за 7 лет работы</h2>
+                    <p>Выполнено более 3500 рейсов по всей России</p>
+                    <a href="pages/clients.html" class="btn-green" style="display: inline-block; width: auto; padding: 16px 40px;">Ознакомиться</a>
+                </div>
+                <div class="stats-items">
+                    <div class="stat-item">
+                        <div class="stat-val">850+</div>
+                        <div class="stat-desc">Клиентов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-val">3500+</div>
+                        <div class="stat-desc">Рейсов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-val">7</div>
+                        <div class="stat-desc">Лет на рынке</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-val">24/7</div>
+                        <div class="stat-desc">Поддержка</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-head">
+                <h2>Наши <strong>услуги</strong></h2>
+                <p>Грузоперевозки любого масштаба по всей России. От малотоннажных машин до крупных фур</p>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item active">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10l-1.5-4.5c-.3-.8-1-1.5-2-1.5h-5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.5 3.5 0 0 0 1 11v5c0 .6.4 1 1 1h2m14 0v2m-14-2v2m2-2h6M7 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm10 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                            </svg>
+                        </div>
+                        <h3>Грузоперевозки Межгород</h3>
+                        <div class="accordion-arrow">▼</div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Тип кузова</div>
+                                <div class="accordion-detail-value">Открытый / Закрытый</div>
+                            </div>
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Длина кузова</div>
+                                <div class="accordion-detail-value">от 3 до 16 метров</div>
+                            </div>
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Грузоподъемность</div>
+                                <div class="accordion-detail-value">до 20 тонн</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1" y="6" width="15" height="12" rx="1"/>
+                                <path d="M16 8h2.5l3 4v4h-2M7 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm12 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM16 6v12"/>
+                            </svg>
+                        </div>
+                        <h3>Грузоперевозки Фура</h3>
+                        <div class="accordion-arrow">▼</div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Тип кузова</div>
+                                <div class="accordion-detail-value">Закрытый</div>
+                            </div>
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Длина кузова</div>
+                                <div class="accordion-detail-value">от 12 до 16 метров</div>
+                            </div>
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Грузоподъемность</div>
+                                <div class="accordion-detail-value">до 24 тонн</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="icon">
+                            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4" y="20" width="36" height="8" rx="1"/>
+                                <line x1="6" y1="28" x2="6" y2="32"/>
+                                <circle cx="6" cy="34" r="3"/>
+                                <line x1="38" y1="28" x2="38" y2="32"/>
+                                <circle cx="38" cy="34" r="3"/>
+                                <line x1="4" y1="20" x2="2" y2="16"/>
+                                <line x1="40" y1="20" x2="42" y2="16"/>
+                                <line x1="2" y1="16" x2="42" y2="16"/>
+                                <rect x="14" y="14" width="16" height="6" rx="1" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <h3>Грузоперевозки Длинномер Шаланда</h3>
+                        <div class="accordion-arrow">▼</div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Тип кузова</div>
+                                <div class="accordion-detail-value">Открытый</div>
+                            </div>
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Длина кузова</div>
+                                <div class="accordion-detail-value">от 12 до 16 метров</div>
+                            </div>
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Грузоподъемность</div>
+                                <div class="accordion-detail-value">до 24 тонн</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="icon">
+                            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="12" y="14" width="24" height="20" rx="2"/>
+                                <line x1="12" y1="22" x2="36" y2="22"/>
+                                <line x1="24" y1="14" x2="24" y2="34"/>
+                                <polyline points="20,18 24,14 28,18"/>
+                                <circle cx="20" cy="28" r="2" opacity="0.5"/>
+                                <circle cx="28" cy="28" r="2" opacity="0.5"/>
+                            </svg>
+                        </div>
+                        <h3>Грузоперевозки Догруз Попутно</h3>
+                        <div class="accordion-arrow">▼</div>
+                    </div>
+                    <div class="accordion-body">
+                        <div class="accordion-content">
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Тип кузова</div>
+                                <div class="accordion-detail-value">Открытый / Закрытый</div>
+                            </div>
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Длина кузова</div>
+                                <div class="accordion-detail-value">до 16 метров</div>
+                            </div>
+                            <div class="accordion-detail">
+                                <div class="accordion-detail-name">Грузоподъемность</div>
+                                <div class="accordion-detail-value">до 20 тонн</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Statistics Section -->
-        <section class="stats-section py-5 bg-primary text-white">
-            <div class="container text-center">
-                <h2 class="mb-3">Более 850 клиентов за 7 лет работы</h2>
-                <p class="lead mb-4">Выполнено более 3500 рейсов по всей России</p>
-                <a href="pages/clients.html" class="btn btn-light btn-lg">Ознакомиться</a>
-            </div>
-        </section>
-
-        <section class="services" id="services">
-            <div class="container">
-                <h2 class="section-title">Наши услуги</h2>
-                <p class="section-subtitle"></p>
-
-                <div class="services-container">
-                    <!-- Swiper Container -->
-                    <div class="swiper services-swiper">
-                        <div class="swiper-wrapper">
-                            <!-- Service Card 1 -->
-                            <div class="swiper-slide">
-                                <div class="service-card" id="intercity">
-                                    <div class="service-icon">🚛</div>
-                                    <h3>ГРУЗОПЕРЕВОЗКИ<br>МЕЖГОРОД</h3>
-                                    <div class="service-specs">
-                                        <div class="spec-row">
-                                            <span class="spec-label">Тип кузова</span>
-                                            <span class="spec-value">Открытый / Закрытый</span>
-                                        </div>
-                                        <div class="spec-row">
-                                            <span class="spec-label">Длина кузова</span>
-                                            <span class="spec-value">от 3 до 16 метров</span>
-                                        </div>
-                                        <div class="spec-row">
-                                            <span class="spec-label">Грузоподъемность</span>
-                                            <span class="spec-value">до 20 тонн</span>
-                                        </div>
-                                    </div>
-                                    <a href="pages/intercity.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                                </div>
-                            </div>
-
-                            <!-- Service Card 2 -->
-                            <div class="swiper-slide">
-                                <div class="service-card" id="truck">
-                                    <div class="service-icon">🏗️</div>
-                                    <h3>ГРУЗОПЕРЕВОЗКИ<br>ФУРА</h3>
-                                    <div class="service-specs">
-                                        <div class="spec-row">
-                                            <span class="spec-label">Тип кузова</span>
-                                            <span class="spec-value">Закрытый</span>
-                                        </div>
-                                        <div class="spec-row">
-                                            <span class="spec-label">Длина кузова</span>
-                                            <span class="spec-value">от 12 до 16 метров</span>
-                                        </div>
-                                        <div class="spec-row">
-                                            <span class="spec-label">Грузоподъемность</span>
-                                            <span class="spec-value">до 24 тонн</span>
-                                        </div>
-                                    </div>
-                                    <a href="pages/truck.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                                </div>
-                            </div>
-
-                            <!-- Service Card 3 -->
-                            <div class="swiper-slide">
-                                <div class="service-card" id="long-trailer">
-                                    <div class="service-icon">📏</div>
-                                    <h3>ГРУЗОПЕРЕВОЗКИ ДЛИННОМЕР<br>ШАЛАНДА</h3>
-                                    <div class="service-specs">
-                                        <div class="spec-row">
-                                            <span class="spec-label">Тип кузова</span>
-                                            <span class="spec-value">Открытый</span>
-                                        </div>
-                                        <div class="spec-row">
-                                            <span class="spec-label">Длина кузова</span>
-                                            <span class="spec-value">от 12 до 16 метров</span>
-                                        </div>
-                                        <div class="spec-row">
-                                            <span class="spec-label">Грузоподъемность</span>
-                                            <span class="spec-value">до 24 тонн</span>
-                                        </div>
-                                    </div>
-                                    <a href="pages/long-trailer.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                                </div>
-                            </div>
-
-                            <!-- Service Card 4 -->
-                            <div class="swiper-slide">
-                                <div class="service-card" id="partial">
-                                    <div class="service-icon">📦</div>
-                                    <h3>ГРУЗОПЕРЕВОЗКИ ДОГРУЗ<br>ПОПУТНО</h3>
-                                    <div class="service-specs">
-                                        <div class="spec-row">
-                                            <span class="spec-label">Тип кузова</span>
-                                            <span class="spec-value">Открытый / Закрытый</span>
-                                        </div>
-                                        <div class="spec-row">
-                                            <span class="spec-label">Длина кузова</span>
-                                            <span class="spec-value">до 16 метров</span>
-                                        </div>
-                                        <div class="spec-row">
-                                            <span class="spec-label">Грузоподъемность</span>
-                                            <span class="spec-value">до 20 тонн</span>
-                                        </div>
-                                    </div>
-                                    <a href="pages/partial.html" class="btn btn-outline-primary mt-3">Перейти</a>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Swiper Pagination -->
-                        <div class="swiper-pagination"></div>
-
-                        <!-- Swiper Navigation -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+    <section class="seo">
+        <div class="container">
+            <div class="seo-wrapper">
+                <h2>Грузоперевозки по России от ТК Динамика</h2>
+                <p>Транспортная компания "Динамика" предоставляет полный спектр услуг грузоперевозок по всей территории Российской Федерации. Мы осуществляем доставку грузов любого объема и веса: от мелких партий догрузом до полных машин фур и длинномеров.</p>
+                <p>Наша компания работает со всеми типами транспорта: газели, средние грузовики, фуры, длинномеры и специализированная техника. Гарантируем надежность, соблюдение сроков доставки и сохранность грузов на протяжении всего маршрута.</p>
+                <p>Заказать грузоперевозки можно через онлайн-калькулятор на сайте или по телефону. Работаем 24/7, предоставляем услуги экспедирования, страхования и полного документооборота. За 7 лет работы выполнили более 3500 рейсов для 850+ довольных клиентов.</p>
+                <div class="seo-grid">
+                    <div class="seo-minimal-item">
+                        <div class="icon">🚚</div>
+                        <div class="title">Транспорт</div>
+                        <div class="desc">Любого типа</div>
+                    </div>
+                    <div class="seo-minimal-item">
+                        <div class="icon">📦</div>
+                        <div class="title">Грузы</div>
+                        <div class="desc">От 100 кг до 24 тонн</div>
+                    </div>
+                    <div class="seo-minimal-item">
+                        <div class="icon">🌍</div>
+                        <div class="title">География</div>
+                        <div class="desc">Вся Россия</div>
+                    </div>
+                    <div class="seo-minimal-item">
+                        <div class="icon">⏱️</div>
+                        <div class="title">Работа</div>
+                        <div class="desc">Круглосуточно</div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- SEO Text Block -->
-        <section class="py-5 bg-light">
-            <div class="container">
-                <div class="seo-text">
-                    <h2>Грузоперевозки по России от ТК Динамика</h2>
-                    <p>Транспортная компания "Динамика" предоставляет полный спектр услуг грузоперевозок по всей территории Российской Федерации. Мы осуществляем доставку грузов любого объема и веса: от мелких партий догрузом до полных машин фур и длинномеров.</p>
-                    <p>Наша компания работает со всеми типами транспорта: газели, средние грузовики, фуры, длинномеры и специализированная техника. Гарантируем надежность, соблюдение сроков доставки и сохранность грузов на протяжении всего маршрута.</p>
-                    <p>Заказать грузоперевозки можно через онлайн-калькулятор на сайте или по телефону. Работаем 24/7, предоставляем услуги экспедирования, страхования и полного документооборота. За 7 лет работы выполнили более 3500 рейсов для 850+ довольных клиентов.</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Динамика Карго</h3>
+                    <p>Профессиональные грузовые перевозки по всей России</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#intercity">Междугородние перевозки</a></li>
+                        <li><a href="#truck">Грузовые перевозки</a></li>
+                        <li><a href="#long-trailer">Длинномерные перевозки</a></li>
+                        <li><a href="#partial">Сборные грузы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>Телефон: <a href="tel:89874165187">8-987-416-51-87</a></p>
+                    <p>Email: <a href="mailto:kontekst-rt@yandex.ru">kontekst-rt@yandex.ru</a></p>
+                    <p>Время работы: 9:00-18:00 (МСК)</p>
                 </div>
             </div>
-        </section>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Динамика Карго. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
 
-    </main>
-
-
-    <!-- Footer Placeholder -->
-    <div id="footer-placeholder"></div>
-
-    <!-- Bootstrap 5.3 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- Template Loader -->
-    <script src="assets/js/template-loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/js/template-loader.js"></script> -->
     <script src="assets/js/script.js"></script>
 
-    <!-- Google Places Autocomplete -->
     <script>
-        function initAutocomplete() {
-            // Автокомплит для поля "Откуда"
-            const departureInput = document.getElementById('departure');
-            if (departureInput) {
-                const departureAutocomplete = new google.maps.places.Autocomplete(departureInput, {
-                    types: ['(cities)'], // Только города
-                    componentRestrictions: { country: 'ru' }, // Только Россия
-                    fields: ['place_id', 'formatted_address', 'name', 'geometry'] // Нужные поля
-                });
-            }
+        // Accordion functionality
+        function toggleAccordion(header) {
+            const item = header.parentElement;
+            const isActive = item.classList.contains('active');
 
-            // Автокомплит для поля "Куда"
-            const destinationInput = document.getElementById('destination');
-            if (destinationInput) {
-                const destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput, {
-                    types: ['(cities)'], // Только города
-                    componentRestrictions: { country: 'ru' }, // Только Россия
-                    fields: ['place_id', 'formatted_address', 'name', 'geometry'] // Нужные поля
-                });
+            document.querySelectorAll('.accordion-item').forEach(i => i.classList.remove('active'));
+
+            if (!isActive) {
+                item.classList.add('active');
             }
         }
 
-        // Инициализация автокомплита после загрузки Google Maps API
+        function initAutocomplete() {
+            const departureInput = document.getElementById('departure');
+            if (departureInput) {
+                new google.maps.places.Autocomplete(departureInput, {
+                    types: ['(cities)'],
+                    componentRestrictions: { country: 'ru' }
+                });
+            }
+            const destinationInput = document.getElementById('destination');
+            if (destinationInput) {
+                new google.maps.places.Autocomplete(destinationInput, {
+                    types: ['(cities)'],
+                    componentRestrictions: { country: 'ru' }
+                });
+            }
+        }
         window.addEventListener('load', function() {
             if (typeof google !== 'undefined' && google.maps && google.maps.places) {
                 initAutocomplete();
-            } else {
-                // Если API еще не загружен, ждем его загрузки
-                const checkGoogleMaps = setInterval(function() {
-                    if (typeof google !== 'undefined' && google.maps && google.maps.places) {
-                        clearInterval(checkGoogleMaps);
-                        initAutocomplete();
-                    }
-                }, 100);
             }
         });
     </script>
 </body>
-
 </html>
