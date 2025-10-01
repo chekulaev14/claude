@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Динамика Карго - Грузовые перевозки</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Google Maps API -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeGxooF2L5rdIFszMLZBYhcVhT11u83MY&libraries=places"></script>
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0);
+            }
+            50% {
+                transform: translate(20px, -20px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1[style*="font-size: 56px"] {
+                font-size: 36px !important;
+            }
+            h2[style*="font-size: 48px"] {
+                font-size: 32px !important;
+            }
+            .hero-section {
+                min-height: auto !important;
+                padding: 40px 0 !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main>
+
+        <!-- Hero Section with Form -->
+        <section class="hero-section position-relative py-5" style="background: linear-gradient(135deg, rgba(240, 244, 248, 0.95) 0%, rgba(232, 238, 245, 0.95) 50%, rgba(248, 250, 252, 0.95) 100%), url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMyNTYzZWIiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0di00aC0ydjRoLTR2Mmg0djRoMnYtNGg0di0yaC00em0wLTMwVjBoLTJ2NGgtNHYyaDR2NGgyVjZoNFY0aC00ek02IDM0di00SDR2NEgwdjJoNHY0aDJ2LTRoNHYtMkg2ek02IDRWMEG0djRIMHYyaDR2NGgyVjZoNFY0SDZ6Ii8+PC9nPjwvZz48L3N2Zz4='); background-size: cover; background-position: center; min-height: 85vh; display: flex; align-items: center; position: relative; overflow: hidden;">
+            <!-- Decorative shapes -->
+            <div style="position: absolute; top: 10%; right: 5%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(37, 99, 235, 0.08) 0%, transparent 70%); border-radius: 50%; animation: float 8s infinite ease-in-out;"></div>
+            <div style="position: absolute; bottom: 15%; left: 8%; width: 300px; height: 300px; background: radial-gradient(circle, rgba(124, 58, 237, 0.06) 0%, transparent 70%); border-radius: 50%; animation: float 10s infinite ease-in-out reverse;"></div>
+            <div class="container position-relative" style="z-index: 2;">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div style="animation: fadeInUp 0.8s ease-out;">
+                            <h1 style="font-size: 56px; font-weight: 800; line-height: 1.1; color: #0f172a; margin-bottom: 24px; letter-spacing: -0.02em;">
+                                Быстро рассчитаем,<br>
+                                <span style="background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">быстро привезём</span>
+                            </h1>
+                            <p style="font-size: 20px; color: #475569; margin-bottom: 32px; line-height: 1.6; font-weight: 400;">От газели до фуры, от 100 кг до 20 тонн,<br>догрузом или отдельной машиной</p>
+                            <div style="display: flex; gap: 16px; flex-wrap: wrap; align-items: center;">
+                                <div style="display: flex; align-items: center; gap: 8px; padding: 12px 20px; background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+                                    <span style="font-size: 28px;">🚛</span>
+                                    <span style="font-size: 14px; color: #64748b; font-weight: 500;">Любой транспорт</span>
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 8px; padding: 12px 20px; background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+                                    <span style="font-size: 28px;">⚡</span>
+                                    <span style="font-size: 14px; color: #64748b; font-weight: 500;">Расчёт за 5 минут</span>
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 8px; padding: 12px 20px; background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+                                    <span style="font-size: 28px;">💰</span>
+                                    <span style="font-size: 14px; color: #64748b; font-weight: 500;">Прозрачные цены</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div style="background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.12), 0 0 0 1px rgba(0,0,0,0.05); overflow: hidden; animation: fadeInUp 0.8s ease-out 0.2s backwards;">
+                            <div style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); padding: 28px 32px; position: relative; overflow: hidden;">
+                                <div style="position: absolute; top: -50%; right: -20%; width: 200px; height: 200px; background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%); border-radius: 50%;"></div>
+                                <h5 style="margin: 0; font-size: 22px; font-weight: 700; color: white; position: relative; z-index: 1;">Получить расчёт стоимости</h5>
+                                <p style="margin: 8px 0 0 0; font-size: 14px; color: rgba(255,255,255,0.9); position: relative; z-index: 1;">Ответим в течение 5 минут</p>
+                            </div>
+                            <div style="padding: 32px;">
+                                <form id="contactForm" class="contact-form">
+                                    <div class="row g-4">
+                                        <div class="col-12">
+                                            <label style="display: block; font-size: 14px; font-weight: 600; color: #334155; margin-bottom: 8px;">
+                                                📞 Телефон
+                                            </label>
+                                            <input type="tel" style="width: 100%; padding: 14px 18px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; transition: all 0.3s; font-weight: 500;" id="phone" name="phone"
+                                                value="+7 " placeholder="+7 (999) 999-99-99" required
+                                                onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)'"
+                                                onblur="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none'">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label style="display: block; font-size: 14px; font-weight: 600; color: #334155; margin-bottom: 8px;">
+                                                📍 Откуда
+                                            </label>
+                                            <input type="text" style="width: 100%; padding: 14px 18px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; transition: all 0.3s; font-weight: 500;" id="departure" name="departure"
+                                                placeholder="Город отправления" required
+                                                onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)'"
+                                                onblur="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none'">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label style="display: block; font-size: 14px; font-weight: 600; color: #334155; margin-bottom: 8px;">
+                                                🎯 Куда
+                                            </label>
+                                            <input type="text" style="width: 100%; padding: 14px 18px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; transition: all 0.3s; font-weight: 500;" id="destination" name="destination"
+                                                placeholder="Город назначения" required
+                                                onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)'"
+                                                onblur="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none'">
+                                        </div>
+                                        <div class="col-12">
+                                            <label style="display: block; font-size: 14px; font-weight: 600; color: #334155; margin-bottom: 8px;">
+                                                📅 Дата отправки
+                                            </label>
+                                            <input type="date" style="width: 100%; padding: 14px 18px; border: 2px solid #e2e8f0; border-radius: 12px; font-size: 16px; transition: all 0.3s; font-weight: 500;" id="date" name="date" required
+                                                onfocus="this.style.borderColor='#2563eb'; this.style.boxShadow='0 0 0 3px rgba(37, 99, 235, 0.1)'"
+                                                onblur="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none'">
+                                        </div>
+                                        <div class="col-12 pt-2">
+                                            <button type="submit" style="width: 100%; padding: 16px; background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; border: none; border-radius: 12px; font-size: 17px; font-weight: 700; cursor: pointer; transition: all 0.3s; box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4); margin-bottom: 12px;"
+                                                onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(37, 99, 235, 0.5)'"
+                                                onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(37, 99, 235, 0.4)'">
+                                                🚀 Отправить заявку
+                                            </button>
+                                            <a href="calculator-new.html" style="display: block; width: 100%; padding: 16px; background: #f8fafc; color: #2563eb; border: 2px solid #2563eb; border-radius: 12px; font-size: 17px; font-weight: 700; text-align: center; text-decoration: none; transition: all 0.3s;"
+                                                onmouseover="this.style.background='#2563eb'; this.style.color='white'; this.style.transform='translateY(-2px)'"
+                                                onmouseout="this.style.background='#f8fafc'; this.style.color='#2563eb'; this.style.transform='translateY(0)'">
+                                                🧮 Подробный калькулятор
+                                            </a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section style="background: linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #3b82f6 100%); padding: 80px 0; position: relative; overflow: hidden;">
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.1; background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+            <div class="container position-relative" style="z-index: 1;">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <h2 style="font-size: 48px; font-weight: 800; color: white; margin-bottom: 20px; line-height: 1.2;">
+                            Более 850 клиентов<br>за 7 лет работы
+                        </h2>
+                        <p style="font-size: 22px; color: rgba(255,255,255,0.95); margin-bottom: 32px; font-weight: 500;">
+                            Выполнено более 3500 рейсов по всей России
+                        </p>
+                        <a href="pages/clients.html" style="display: inline-block; padding: 16px 40px; background: white; color: #2563eb; border-radius: 12px; font-size: 18px; font-weight: 700; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(0,0,0,0.2);"
+                            onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 12px 35px rgba(0,0,0,0.3)'"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.2)'">
+                            📋 Ознакомиться с отзывами
+                        </a>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); padding: 28px 24px; border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.2);">
+                                    <div style="font-size: 48px; font-weight: 800; color: white; margin-bottom: 8px;">850+</div>
+                                    <div style="font-size: 16px; color: rgba(255,255,255,0.9); font-weight: 600;">Клиентов</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); padding: 28px 24px; border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.2);">
+                                    <div style="font-size: 48px; font-weight: 800; color: white; margin-bottom: 8px;">3500+</div>
+                                    <div style="font-size: 16px; color: rgba(255,255,255,0.9); font-weight: 600;">Рейсов</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); padding: 28px 24px; border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.2);">
+                                    <div style="font-size: 48px; font-weight: 800; color: white; margin-bottom: 8px;">7</div>
+                                    <div style="font-size: 16px; color: rgba(255,255,255,0.9); font-weight: 600;">Лет на рынке</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); padding: 28px 24px; border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.2);">
+                                    <div style="font-size: 48px; font-weight: 800; color: white; margin-bottom: 8px;">24/7</div>
+                                    <div style="font-size: 16px; color: rgba(255,255,255,0.9); font-weight: 600;">Поддержка</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="padding: 100px 0; background: white;" id="services">
+            <div class="container">
+                <div style="text-align: center; max-width: 900px; margin: 0 auto 70px;">
+                    <h2 style="font-size: 48px; font-weight: 800; color: #0f172a; margin-bottom: 20px; line-height: 1.2;">
+                        Наши <span style="color: #2563eb;">услуги</span>
+                    </h2>
+                    <p style="font-size: 19px; color: #64748b; line-height: 1.7;">
+                        Грузоперевозки любого масштаба по всей России. От малотоннажных машин до крупных фур
+                    </p>
+                </div>
+
+                <div style="max-width: 1200px; margin: 0 auto; display: grid; gap: 24px;">
+                        <div class="swiper-wrapper">
+                            <!-- Service Card 1 -->
+                            <div class="swiper-slide">
+                                <div class="service-card" id="intercity">
+                                    <div class="service-icon">🚛</div>
+                                    <h3>ГРУЗОПЕРЕВОЗКИ<br>МЕЖГОРОД</h3>
+                                    <div class="service-specs">
+                                        <div class="spec-row">
+                                            <span class="spec-label">Тип кузова</span>
+                                            <span class="spec-value">Открытый / Закрытый</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Длина кузова</span>
+                                            <span class="spec-value">от 3 до 16 метров</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Грузоподъемность</span>
+                                            <span class="spec-value">до 20 тонн</span>
+                                        </div>
+                                    </div>
+                                    <a href="pages/intercity.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                                </div>
+                            </div>
+
+                            <!-- Service Card 2 -->
+                            <div class="swiper-slide">
+                                <div class="service-card" id="truck">
+                                    <div class="service-icon">🏗️</div>
+                                    <h3>ГРУЗОПЕРЕВОЗКИ<br>ФУРА</h3>
+                                    <div class="service-specs">
+                                        <div class="spec-row">
+                                            <span class="spec-label">Тип кузова</span>
+                                            <span class="spec-value">Закрытый</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Длина кузова</span>
+                                            <span class="spec-value">от 12 до 16 метров</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Грузоподъемность</span>
+                                            <span class="spec-value">до 24 тонн</span>
+                                        </div>
+                                    </div>
+                                    <a href="pages/truck.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                                </div>
+                            </div>
+
+                            <!-- Service Card 3 -->
+                            <div class="swiper-slide">
+                                <div class="service-card" id="long-trailer">
+                                    <div class="service-icon">📏</div>
+                                    <h3>ГРУЗОПЕРЕВОЗКИ ДЛИННОМЕР<br>ШАЛАНДА</h3>
+                                    <div class="service-specs">
+                                        <div class="spec-row">
+                                            <span class="spec-label">Тип кузова</span>
+                                            <span class="spec-value">Открытый</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Длина кузова</span>
+                                            <span class="spec-value">от 12 до 16 метров</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Грузоподъемность</span>
+                                            <span class="spec-value">до 24 тонн</span>
+                                        </div>
+                                    </div>
+                                    <a href="pages/long-trailer.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                                </div>
+                            </div>
+
+                            <!-- Service Card 4 -->
+                            <div class="swiper-slide">
+                                <div class="service-card" id="partial">
+                                    <div class="service-icon">📦</div>
+                                    <h3>ГРУЗОПЕРЕВОЗКИ ДОГРУЗ<br>ПОПУТНО</h3>
+                                    <div class="service-specs">
+                                        <div class="spec-row">
+                                            <span class="spec-label">Тип кузова</span>
+                                            <span class="spec-value">Открытый / Закрытый</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Длина кузова</span>
+                                            <span class="spec-value">до 16 метров</span>
+                                        </div>
+                                        <div class="spec-row">
+                                            <span class="spec-label">Грузоподъемность</span>
+                                            <span class="spec-value">до 20 тонн</span>
+                                        </div>
+                                    </div>
+                                    <a href="pages/partial.html" class="btn btn-outline-primary mt-3">Перейти</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Swiper Pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- Swiper Navigation -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEO Text Block -->
+        <section style="padding: 80px 0; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);">
+            <div class="container">
+                <div style="max-width: 1000px; margin: 0 auto;">
+                    <div style="background: white; padding: 60px; border-radius: 24px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); border: 1px solid rgba(0,0,0,0.05);">
+                        <h2 style="font-size: 36px; font-weight: 800; color: #0f172a; margin-bottom: 32px; line-height: 1.3;">
+                            Грузоперевозки по России от ТК Динамика
+                        </h2>
+                        <div style="space-y: 20px;">
+                            <p style="font-size: 17px; color: #475569; line-height: 1.8; margin-bottom: 20px;">
+                                Транспортная компания "Динамика" предоставляет полный спектр услуг грузоперевозок по всей территории Российской Федерации. Мы осуществляем доставку грузов любого объема и веса: от мелких партий догрузом до полных машин фур и длинномеров.
+                            </p>
+                            <p style="font-size: 17px; color: #475569; line-height: 1.8; margin-bottom: 20px;">
+                                Наша компания работает со всеми типами транспорта: газели, средние грузовики, фуры, длинномеры и специализированная техника. Гарантируем надежность, соблюдение сроков доставки и сохранность грузов на протяжении всего маршрута.
+                            </p>
+                            <p style="font-size: 17px; color: #475569; line-height: 1.8; margin-bottom: 32px;">
+                                Заказать грузоперевозки можно через онлайн-калькулятор на сайте или по телефону. Работаем 24/7, предоставляем услуги экспедирования, страхования и полного документооборота. За 7 лет работы выполнили более 3500 рейсов для 850+ довольных клиентов.
+                            </p>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding-top: 20px; border-top: 2px solid #e2e8f0;">
+                                <div style="text-align: center;">
+                                    <div style="font-size: 32px; margin-bottom: 8px;">🚚</div>
+                                    <div style="font-size: 14px; font-weight: 700; color: #2563eb; margin-bottom: 4px;">Транспорт</div>
+                                    <div style="font-size: 13px; color: #64748b;">Любого типа</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 32px; margin-bottom: 8px;">📦</div>
+                                    <div style="font-size: 14px; font-weight: 700; color: #2563eb; margin-bottom: 4px;">Грузы</div>
+                                    <div style="font-size: 13px; color: #64748b;">От 100 кг до 24 тонн</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 32px; margin-bottom: 8px;">🌍</div>
+                                    <div style="font-size: 14px; font-weight: 700; color: #2563eb; margin-bottom: 4px;">География</div>
+                                    <div style="font-size: 13px; color: #64748b;">Вся Россия</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 32px; margin-bottom: 8px;">⏱️</div>
+                                    <div style="font-size: 14px; font-weight: 700; color: #2563eb; margin-bottom: 4px;">Работа</div>
+                                    <div style="font-size: 13px; color: #64748b;">Круглосуточно</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Template Loader -->
+    <script src="assets/js/template-loader.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!-- Google Places Autocomplete -->
+    <script>
+        function initAutocomplete() {
+            // Автокомплит для поля "Откуда"
+            const departureInput = document.getElementById('departure');
+            if (departureInput) {
+                const departureAutocomplete = new google.maps.places.Autocomplete(departureInput, {
+                    types: ['(cities)'], // Только города
+                    componentRestrictions: { country: 'ru' }, // Только Россия
+                    fields: ['place_id', 'formatted_address', 'name', 'geometry'] // Нужные поля
+                });
+            }
+
+            // Автокомплит для поля "Куда"
+            const destinationInput = document.getElementById('destination');
+            if (destinationInput) {
+                const destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput, {
+                    types: ['(cities)'], // Только города
+                    componentRestrictions: { country: 'ru' }, // Только Россия
+                    fields: ['place_id', 'formatted_address', 'name', 'geometry'] // Нужные поля
+                });
+            }
+        }
+
+        // Инициализация автокомплита после загрузки Google Maps API
+        window.addEventListener('load', function() {
+            if (typeof google !== 'undefined' && google.maps && google.maps.places) {
+                initAutocomplete();
+            } else {
+                // Если API еще не загружен, ждем его загрузки
+                const checkGoogleMaps = setInterval(function() {
+                    if (typeof google !== 'undefined' && google.maps && google.maps.places) {
+                        clearInterval(checkGoogleMaps);
+                        initAutocomplete();
+                    }
+                }, 100);
+            }
+        });
+    </script>
+</body>
+
+</html>
