@@ -75,6 +75,16 @@
 
         .hero-text p { font-size: 20px; color: #636e72; margin-bottom: 40px; line-height: 1.7; font-weight: 300; text-align: left; }
 
+        .hero-text p .highlight-price {
+            font-weight: 700;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: underline;
+            text-decoration-color: #10b981;
+            text-underline-offset: 3px;
+        }
+
         .feature-minimal { display: flex; gap: 35px; max-width: 100%; }
         .feature-minimal-item { display: flex; flex-direction: column; gap: 8px; }
         .feature-minimal-item .icon { font-size: 28px; }
@@ -605,7 +615,7 @@
             <div class="hero-layout">
                 <div class="hero-text">
                     <h1>Быстро расчитаем, <strong>быстро привезем</strong></h1>
-                    <p>От 100 кг до 24 тонн догрузом или отдельной машиной с фиксированной комиссией до 6 тысяч рублей</p>
+                    <p>От 100 кг до 24 тонн догрузом или отдельной машиной с фиксированной комиссией <strong class="highlight-price">до 6 тысяч рублей</strong></p>
                     <div class="feature-minimal">
                         <div class="feature-minimal-item">
                             <div class="icon">🚛</div>
