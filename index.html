@@ -10,7 +10,15 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeGxooF2L5rdIFszMLZBYhcVhT11u83MY&libraries=places"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'IBM Plex Sans', sans-serif; background: #fafafa; color: #2d3436; overflow-x: hidden; }
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background: #fafafa;
+            color: #2d3436;
+            overflow-x: hidden;
+            -webkit-text-size-adjust: 100%;
+            -webkit-overflow-scrolling: touch;
+            overscroll-behavior-y: none;
+        }
 
         .hero {
             min-height: 95vh;
@@ -87,7 +95,7 @@
             background: #fafafa;
             border: 1px solid #dfe6e9;
             border-radius: 2px;
-            font-size: 15px;
+            font-size: 16px;
             font-family: 'IBM Plex Sans', sans-serif;
             transition: all 0.3s;
             color: #2d3436;
@@ -110,8 +118,12 @@
             transition: all 0.3s;
             text-transform: uppercase;
             letter-spacing: 1px;
+            touch-action: manipulation;
+            -webkit-tap-highlight-color: transparent;
         }
-        .btn-green:hover { background: #059669; }
+        @media (hover: hover) {
+            .btn-green:hover { background: #059669; }
+        }
 
         .btn-outline-green {
             width: 100%;
@@ -128,16 +140,24 @@
             transition: all 0.3s;
             text-transform: uppercase;
             letter-spacing: 1px;
+            touch-action: manipulation;
+            -webkit-tap-highlight-color: transparent;
         }
-        .btn-outline-green:hover { background: #f0fdf4; }
+        @media (hover: hover) {
+            .btn-outline-green:hover { background: #f0fdf4; }
+        }
 
         .stats {
             background: linear-gradient(135deg, rgba(45, 52, 54, 0.95) 0%, rgba(45, 52, 54, 0.98) 100%),
                         url('https://images.unsplash.com/photo-1547448415-e9f5b28e570d?w=1920&q=80') center/cover;
-            background-attachment: fixed;
             padding: 90px 5%;
             color: #fff;
             position: relative;
+        }
+        @media (min-width: 1024px) {
+            .stats {
+                background-attachment: fixed;
+            }
         }
 
         .stats::before {
@@ -168,7 +188,9 @@
             border-left: 3px solid #10b981;
             transition: all 0.3s;
         }
-        .stat-item:hover { background: rgba(255,255,255,0.08); }
+        @media (hover: hover) {
+            .stat-item:hover { background: rgba(255,255,255,0.08); }
+        }
         .stat-val { font-size: 48px; font-weight: 700; margin-bottom: 10px; color: #10b981; }
         .stat-desc { font-size: 12px; opacity: 0.7; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
 
@@ -201,7 +223,9 @@
             align-items: center;
             transition: all 0.3s;
         }
-        .accordion-header:hover { background: #fafafa; }
+        @media (hover: hover) {
+            .accordion-header:hover { background: #fafafa; }
+        }
         .accordion-item.active .accordion-header { background: #10b981; color: #fff; }
         .accordion-item.active .accordion-header .icon svg { stroke: #fff; }
         .accordion-header h3 { font-size: 20px; font-weight: 700; }
@@ -249,9 +273,13 @@
         .seo {
             background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(250, 250, 250, 0.96) 100%),
                         url('https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=1920&q=80') center/cover;
-            background-attachment: fixed;
             padding: 90px 5%;
             position: relative;
+        }
+        @media (min-width: 1024px) {
+            .seo {
+                background-attachment: fixed;
+            }
         }
         .seo-wrapper {
             max-width: 1000px;
