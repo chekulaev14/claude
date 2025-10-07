@@ -10,11 +10,16 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeGxooF2L5rdIFszMLZBYhcVhT11u83MY&libraries=places"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        html {
+            overflow-x: hidden;
+            max-width: 100vw;
+        }
         body {
             font-family: 'IBM Plex Sans', sans-serif;
             background: #fafafa;
             color: #2d3436;
             overflow-x: hidden;
+            max-width: 100vw;
             -webkit-text-size-adjust: 100%;
             -webkit-overflow-scrolling: touch;
             overscroll-behavior-y: none;
@@ -46,7 +51,7 @@
             z-index: 1;
         }
 
-        .container { max-width: 1300px; margin: 0 auto; position: relative; z-index: 2; }
+        .container { max-width: 1300px; width: 100%; margin: 0 auto; position: relative; z-index: 2; }
 
         .hero-layout { display: grid; grid-template-columns: 1.3fr 1fr; gap: 80px; align-items: center; }
 
@@ -70,7 +75,7 @@
 
         .hero-text p { font-size: 20px; color: #636e72; margin-bottom: 40px; line-height: 1.7; font-weight: 300; text-align: left; }
 
-        .feature-minimal { display: flex; gap: 35px; }
+        .feature-minimal { display: flex; gap: 35px; max-width: 100%; }
         .feature-minimal-item { display: flex; flex-direction: column; gap: 8px; }
         .feature-minimal-item .icon { font-size: 28px; }
         .feature-minimal-item .label { font-size: 14px; font-weight: 600; color: #636e72; }
@@ -179,7 +184,7 @@
         .stats-text h2 strong { font-weight: 700; display: block; color: #10b981; }
         .stats-text p { font-size: 20px; opacity: 0.8; margin-bottom: 30px; font-weight: 300; }
 
-        .stats-items { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+        .stats-items { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; width: 100%; }
         .stat-item {
             background: rgba(255,255,255,0.05);
             padding: 35px;
@@ -468,6 +473,9 @@
             .hero::after {
                 display: none;
             }
+            .hero-layout {
+                gap: 40px;
+            }
             .hero-text {
                 padding: 0 5px;
             }
@@ -482,6 +490,7 @@
             }
             .container {
                 padding: 0 15px;
+                max-width: 100%;
             }
             .accordion-content {
                 grid-template-columns: 1fr;
@@ -493,6 +502,13 @@
             }
             .feature-minimal {
                 flex-wrap: wrap;
+                gap: 20px;
+            }
+            .stats-layout {
+                gap: 40px;
+            }
+            .stats-items {
+                grid-template-columns: 1fr;
                 gap: 20px;
             }
         }
