@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>География доставки - ТК Динамика</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-5 fw-bold mb-4">География доставки</h1>
+                    <p class="lead">Осуществляем перевозки по всей территории России с гарантией качества</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Map -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0"><i class="bi bi-geo-alt me-2"></i>Карта покрытия</h5>
+                        </div>
+                        <div class="card-body p-0">
+                            <div id="deliveryMap" style="height: 500px; background: #f8f9fa;">
+                                <div class="d-flex align-items-center justify-content-center h-100">
+                                    <div class="text-center">
+                                        <i class="bi bi-map text-primary" style="font-size: 4rem;"></i>
+                                        <h4 class="mt-3">Интерактивная карта</h4>
+                                        <p class="text-muted">Зоны доставки по всей России</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <!-- Quick Search -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-header bg-success text-white">
+                            <h6 class="mb-0">Проверить доставку</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Введите город">
+                            </div>
+                            <button class="btn btn-success w-100">Проверить</button>
+                            <div class="mt-3 small text-muted">
+                                <p class="mb-1">✅ Доставляем в 1000+ городов</p>
+                                <p class="mb-0">📞 Консультация: +7 987 416 51 87</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Popular Routes -->
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-header bg-info text-white">
+                            <h6 class="mb-0">Популярные направления</h6>
+                        </div>
+                        <div class="list-group list-group-flush">
+                            <div class="list-group-item d-flex justify-content-between">
+                                <span>Тольятти → Москва</span>
+                                <small class="text-success">2-3 дня</small>
+                            </div>
+                            <div class="list-group-item d-flex justify-content-between">
+                                <span>Самара → СПб</span>
+                                <small class="text-success">3-4 дня</small>
+                            </div>
+                            <div class="list-group-item d-flex justify-content-between">
+                                <span>Казань → Екатеринбург</span>
+                                <small class="text-success">2-3 дня</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regions Grid -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Федеральные округа</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Центральный ФО</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-muted mb-3">18 субъектов • 156 городов</p>
+                            <p class="small">Москва, Московская область, Тула, Рязань, Калуга, Воронеж и другие</p>
+                            <div class="mt-3">
+                                <span class="badge bg-success">1-3 дня</span>
+                                <span class="badge bg-info ms-2">от 12₽/кг</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0">Приволжский ФО</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-muted mb-3">14 субъектов • 198 городов</p>
+                            <p class="small">Нижний Новгород, Казань, Самара, Пенза, Саратов, Уфа и другие</p>
+                            <div class="mt-3">
+                                <span class="badge bg-success">1-2 дня</span>
+                                <span class="badge bg-info ms-2">от 8₽/кг</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-warning text-dark">
+                            <h5 class="mb-0">Южный ФО</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-muted mb-3">8 субъектов • 124 города</p>
+                            <p class="small">Ростов-на-Дону, Краснодар, Волгоград, Астрахань и другие</p>
+                            <div class="mt-3">
+                                <span class="badge bg-success">2-4 дня</span>
+                                <span class="badge bg-info ms-2">от 15₽/кг</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/template-loader.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

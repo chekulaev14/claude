@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Часто задаваемые вопросы - ТК Динамика</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <i class="bi bi-question-circle text-primary" style="font-size: 4rem;"></i>
+                    <h1 class="display-5 fw-bold mt-3 mb-4">Часто задаваемые вопросы</h1>
+                    <p class="lead">Ответы на самые популярные вопросы о наших услугах и условиях работы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section class="py-4 bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Поиск по вопросам..." id="faqSearch">
+                        <button class="btn btn-light" type="button">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Categories -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Category Tabs -->
+            <ul class="nav nav-pills justify-content-center mb-5" id="faqTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active me-2 mb-2" id="general-tab" data-bs-toggle="pill" data-bs-target="#general" type="button" role="tab">
+                        <i class="bi bi-info-circle me-2"></i>Общие вопросы
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link me-2 mb-2" id="services-tab" data-bs-toggle="pill" data-bs-target="#services" type="button" role="tab">
+                        <i class="bi bi-truck me-2"></i>Услуги и тарифы
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link me-2 mb-2" id="documents-tab" data-bs-toggle="pill" data-bs-target="#documents" type="button" role="tab">
+                        <i class="bi bi-file-text me-2"></i>Документы
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link me-2 mb-2" id="payment-tab" data-bs-toggle="pill" data-bs-target="#payment" type="button" role="tab">
+                        <i class="bi bi-credit-card me-2"></i>Оплата
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="faqTabContent">
+                <!-- General Questions -->
+                <div class="tab-pane fade show active" id="general" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="accordion" id="generalAccordion">
+                                <!-- Question 1 -->
+                                <div class="accordion-item border-0 shadow-sm mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#general1">
+                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
+                                            Как долго работает ваша компания?
+                                        </button>
+                                    </h2>
+                                    <div id="general1" class="accordion-collapse collapse show" data-bs-parent="#generalAccordion">
+                                        <div class="accordion-body">
+                                            Транспортная компания "Динамика" работает на рынке грузоперевозок более 15 лет. За это время мы выполнили свыше 50 000 успешных перевозок и заслужили доверие более 1000 постоянных клиентов.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 2 -->
+                                <div class="accordion-item border-0 shadow-sm mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#general2">
+                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
+                                            По каким регионам вы осуществляете перевозки?
+                                        </button>
+                                    </h2>
+                                    <div id="general2" class="accordion-collapse collapse" data-bs-parent="#generalAccordion">
+                                        <div class="accordion-body">
+                                            Мы осуществляем грузоперевозки по всей территории Российской Федерации. Основные направления: Москва, Санкт-Петербург, Екатеринбург, Новосибирск, Казань, Нижний Новгород и другие крупные города России.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 3 -->
+                                <div class="accordion-item border-0 shadow-sm mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#general3">
+                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
+                                            Какие гарантии вы предоставляете?
+                                        </button>
+                                    </h2>
+                                    <div id="general3" class="accordion-collapse collapse" data-bs-parent="#generalAccordion">
+                                        <div class="accordion-body">
+                                            Мы гарантируем сохранность груза, соблюдение сроков доставки и полное страховое покрытие. Все грузы застрахованы на полную стоимость. В случае нарушения сроков доставки предусмотрены компенсации.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services Questions -->
+                <div class="tab-pane fade" id="services" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="accordion" id="servicesAccordion">
+                                <!-- Question 1 -->
+                                <div class="accordion-item border-0 shadow-sm mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#services1">
+                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
+                                            Как рассчитывается стоимость перевозки?
+                                        </button>
+                                    </h2>
+                                    <div id="services1" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                                        <div class="accordion-body">
+                                            Стоимость рассчитывается индивидуально и зависит от: расстояния перевозки, веса и габаритов груза, типа транспорта, срочности доставки, дополнительных услуг. Воспользуйтесь нашим онлайн-калькулятором или обратитесь к менеджеру.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Question 2 -->
+                                <div class="accordion-item border-0 shadow-sm mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#services2">
+                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
+                                            Какие типы грузов вы перевозите?
+                                        </button>
+                                    </h2>
+                                    <div id="services2" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                                        <div class="accordion-body">
+                                            Мы перевозим различные типы грузов: сборные и полные грузы, промышленные товары, потребительские товары, негабаритные грузы, рефрижераторные грузы. Не перевозим опасные грузы, наркотические вещества и контрабанду.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Documents Questions -->
+                <div class="tab-pane fade" id="documents" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="accordion" id="documentsAccordion">
+                                <!-- Question 1 -->
+                                <div class="accordion-item border-0 shadow-sm mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#documents1">
+                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
+                                            Какие документы нужны для оформления перевозки?
+                                        </button>
+                                    </h2>
+                                    <div id="documents1" class="accordion-collapse collapse" data-bs-parent="#documentsAccordion">
+                                        <div class="accordion-body">
+                                            Для оформления перевозки потребуются: паспорт или доверенность представителя, документы на груз (накладная, счет-фактура), упаковочный лист, при необходимости - разрешительные документы и сертификаты.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Questions -->
+                <div class="tab-pane fade" id="payment" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="accordion" id="paymentAccordion">
+                                <!-- Question 1 -->
+                                <div class="accordion-item border-0 shadow-sm mb-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#payment1">
+                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
+                                            Какие способы оплаты вы принимаете?
+                                        </button>
+                                    </h2>
+                                    <div id="payment1" class="accordion-collapse collapse" data-bs-parent="#paymentAccordion">
+                                        <div class="accordion-body">
+                                            Мы принимаем: безналичную оплату по счету, наличную оплату, банковские карты, электронные платежи. Работаем как с НДС, так и без НДС. Возможна отсрочка платежа для постоянных клиентов.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h3 class="mb-4">Не нашли ответ на свой вопрос?</h3>
+                    <p class="mb-4">Наши специалисты готовы проконсультировать вас по любым вопросам</p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="tel:+79874165187" class="btn btn-primary">
+                            <i class="bi bi-telephone-fill me-2"></i>Позвонить
+                        </a>
+                        <a href="#" class="btn btn-outline-primary">
+                            <i class="bi bi-envelope me-2"></i>Написать
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/template-loader.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+    <style>
+    .accordion-icon {
+        transition: transform 0.2s ease;
+    }
+    .accordion-button:not(.collapsed) .accordion-icon {
+        transform: rotate(90deg);
+    }
+    .accordion-button {
+        font-weight: 500;
+    }
+    .accordion-button:focus {
+        box-shadow: none;
+        border-color: rgba(0,123,255,.25);
+    }
+    </style>
+
+    <script>
+    // FAQ Search functionality
+    document.getElementById('faqSearch').addEventListener('input', function(e) {
+        const searchTerm = e.target.value.toLowerCase();
+        const accordionItems = document.querySelectorAll('.accordion-item');
+
+        accordionItems.forEach(item => {
+            const question = item.querySelector('.accordion-button').textContent.toLowerCase();
+            const answer = item.querySelector('.accordion-body').textContent.toLowerCase();
+
+            if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = searchTerm ? 'none' : 'block';
+            }
+        });
+    });
+    </script>
+</body>
+</html>

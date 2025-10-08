@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тарифы и цены - ТК Динамика</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-5 fw-bold mb-4">Тарифы и цены</h1>
+                    <p class="lead">Прозрачное ценообразование для всех видов грузоперевозок</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tariff Filter -->
+    <section class="py-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="btn-group" role="group">
+                        <input type="radio" class="btn-check" name="tariffType" id="city" checked>
+                        <label class="btn btn-outline-primary" for="city">Городские</label>
+                        <input type="radio" class="btn-check" name="tariffType" id="regional">
+                        <label class="btn btn-outline-primary" for="regional">Межгород</label>
+                        <input type="radio" class="btn-check" name="tariffType" id="express">
+                        <label class="btn btn-outline-primary" for="express">Экспресс</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-end">
+                    <small class="text-muted">Цены указаны за 1 кг или м³. НДС включен для юр.лиц</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tariff Tables -->
+    <section class="py-5">
+        <div class="container">
+            <!-- City Tariffs -->
+            <div id="cityTariffs" class="tariff-group">
+                <h2 class="mb-4">Городские перевозки</h2>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-success text-white text-center">
+                                <h5 class="mb-0">Стандарт</h5>
+                                <small>До 3 дней</small>
+                            </div>
+                            <div class="card-body">
+                                <div class="text-center mb-3">
+                                    <span class="h3 text-success">15₽</span>
+                                    <small class="text-muted">/кг</small>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li>✓ Забор от 5 кг</li>
+                                    <li>✓ Доставка до двери</li>
+                                    <li>✓ SMS уведомления</li>
+                                    <li>✓ Упаковка включена</li>
+                                </ul>
+                                <button class="btn btn-success w-100 mt-3">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-sm h-100 border-warning">
+                            <div class="card-header bg-warning text-dark text-center position-relative">
+                                <span class="badge bg-dark position-absolute top-0 start-50 translate-middle">Популярный</span>
+                                <h5 class="mb-0 mt-2">Быстрый</h5>
+                                <small>1-2 дня</small>
+                            </div>
+                            <div class="card-body">
+                                <div class="text-center mb-3">
+                                    <span class="h3 text-warning">25₽</span>
+                                    <small class="text-muted">/кг</small>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li>✓ Забор от 1 кг</li>
+                                    <li>✓ Приоритетная доставка</li>
+                                    <li>✓ Онлайн отслеживание</li>
+                                    <li>✓ Страхование включено</li>
+                                </ul>
+                                <button class="btn btn-warning w-100 mt-3">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-header bg-danger text-white text-center">
+                                <h5 class="mb-0">Экспресс</h5>
+                                <small>В день заказа</small>
+                            </div>
+                            <div class="card-body">
+                                <div class="text-center mb-3">
+                                    <span class="h3 text-danger">45₽</span>
+                                    <small class="text-muted">/кг</small>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li>✓ Забор любого веса</li>
+                                    <li>✓ Доставка за 4-6 часов</li>
+                                    <li>✓ Персональный курьер</li>
+                                    <li>✓ Полное страхование</li>
+                                </ul>
+                                <button class="btn btn-danger w-100 mt-3">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Regional Tariffs -->
+            <div id="regionalTariffs" class="tariff-group d-none">
+                <h2 class="mb-4">Междугородние перевозки</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="bg-primary text-white">
+                            <tr>
+                                <th>Направление</th>
+                                <th>Расстояние</th>
+                                <th>Цена за кг</th>
+                                <th>Срок доставки</th>
+                                <th>Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Тольятти → Москва</td>
+                                <td>1000 км</td>
+                                <td><strong>18₽</strong></td>
+                                <td>2-3 дня</td>
+                                <td><button class="btn btn-sm btn-primary">Заказать</button></td>
+                            </tr>
+                            <tr>
+                                <td>Самара → СПб</td>
+                                <td>1200 км</td>
+                                <td><strong>22₽</strong></td>
+                                <td>3-4 дня</td>
+                                <td><button class="btn btn-sm btn-primary">Заказать</button></td>
+                            </tr>
+                            <tr>
+                                <td>Казань → Екатеринбург</td>
+                                <td>800 км</td>
+                                <td><strong>15₽</strong></td>
+                                <td>2-3 дня</td>
+                                <td><button class="btn btn-sm btn-primary">Заказать</button></td>
+                            </tr>
+                            <tr>
+                                <td>Уфа → Новосибирск</td>
+                                <td>1400 км</td>
+                                <td><strong>25₽</strong></td>
+                                <td>4-5 дней</td>
+                                <td><button class="btn btn-sm btn-primary">Заказать</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Express Tariffs -->
+            <div id="expressTariffs" class="tariff-group d-none">
+                <h2 class="mb-4">Экспресс доставка</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-danger text-white">
+                                <h5 class="mb-0">Курьерская экспресс</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-sm">
+                                        <tr>
+                                            <td>До 1 кг</td>
+                                            <td><strong>250₽</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1-5 кг</td>
+                                            <td><strong>45₽/кг</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5-20 кг</td>
+                                            <td><strong>40₽/кг</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Свыше 20 кг</td>
+                                            <td><strong>35₽/кг</strong></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <p class="small text-muted mb-0">Доставка в течение 4-6 часов по городу</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-warning text-dark">
+                                <h5 class="mb-0">Автомобильная экспресс</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-sm">
+                                        <tr>
+                                            <td>Газель (до 1.5т)</td>
+                                            <td><strong>2500₽</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>3-тонник</td>
+                                            <td><strong>3500₽</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5-тонник</td>
+                                            <td><strong>4500₽</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>10-тонник</td>
+                                            <td><strong>7000₽</strong></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <p class="small text-muted mb-0">Фиксированная цена за рейс</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Дополнительные услуги</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="bi bi-box-seam text-primary mb-3" style="font-size: 2rem;"></i>
+                            <h6>Упаковка</h6>
+                            <p class="text-muted small">Профессиональная упаковка хрупких грузов</p>
+                            <strong class="text-primary">от 50₽</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="bi bi-shield-check text-success mb-3" style="font-size: 2rem;"></i>
+                            <h6>Страхование</h6>
+                            <p class="text-muted small">Дополнительное страхование груза</p>
+                            <strong class="text-success">3% от стоимости</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="bi bi-people text-warning mb-3" style="font-size: 2rem;"></i>
+                            <h6>Грузчики</h6>
+                            <p class="text-muted small">Погрузка и разгрузка силами наших грузчиков</p>
+                            <strong class="text-warning">300₽/час</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="bi bi-clock text-info mb-3" style="font-size: 2rem;"></i>
+                            <h6>Ожидание</h6>
+                            <p class="text-muted small">Время ожидания водителя сверх нормы</p>
+                            <strong class="text-info">200₽/час</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/template-loader.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script>
+        // Tariff filter functionality
+        document.querySelectorAll('input[name="tariffType"]').forEach(radio => {
+            radio.addEventListener('change', function() {
+                // Hide all tariff groups
+                document.querySelectorAll('.tariff-group').forEach(group => {
+                    group.classList.add('d-none');
+                });
+
+                // Show selected tariff group
+                const selectedType = this.id;
+                let targetId;
+
+                switch(selectedType) {
+                    case 'city':
+                        targetId = 'cityTariffs';
+                        break;
+                    case 'regional':
+                        targetId = 'regionalTariffs';
+                        break;
+                    case 'express':
+                        targetId = 'expressTariffs';
+                        break;
+                }
+
+                if(targetId) {
+                    document.getElementById(targetId).classList.remove('d-none');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
