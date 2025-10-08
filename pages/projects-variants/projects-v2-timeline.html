@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши проекты - ТК Динамика</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="../../assets/css/styles.css" rel="stylesheet">
+    <style>
+        .timeline-section {
+            padding: 80px 0;
+            background: linear-gradient(to bottom, #f8f9fa 0%, white 100%);
+        }
+        .timeline {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, #10b981 0%, #059669 100%);
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 80px;
+            display: flex;
+            align-items: center;
+        }
+        .timeline-item:nth-child(odd) {
+            flex-direction: row;
+        }
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        .timeline-content {
+            width: 45%;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            position: relative;
+            border: 2px solid #10b981;
+        }
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-right: auto;
+        }
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: auto;
+        }
+        .timeline-year {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: 700;
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);
+            z-index: 10;
+        }
+        .project-tag {
+            display: inline-block;
+            background: #e9f7ef;
+            color: #10b981;
+            padding: 6px 16px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .project-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #2d3436;
+        }
+        .project-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .project-stats {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: #10b981;
+            font-weight: 600;
+        }
+        .stat-item i {
+            font-size: 18px;
+        }
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 30px;
+            }
+            .timeline-item {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                padding-left: 80px;
+            }
+            .timeline-content {
+                width: 100% !important;
+                margin: 0 !important;
+            }
+            .timeline-year {
+                left: 30px !important;
+                transform: none !important;
+                width: 80px;
+                height: 80px;
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-dark text-white" style="margin-top: 80px;">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="display-4 fw-bold mb-3">7 лет успешной работы</h1>
+                <p class="lead">История нашей компании через ключевые проекты</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <div class="timeline">
+                <!-- 2018 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2018</div>
+                    <div class="timeline-content">
+                        <span class="project-tag">Старт</span>
+                        <h3 class="project-title">Первый крупный контракт</h3>
+                        <p class="project-description">Запуск регулярных перевозок для федеральной розничной сети. 12 рейсов в месяц, 5 городов присутствия.</p>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="bi bi-truck"></i>
+                                <span>144 рейса/год</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-box"></i>
+                                <span>420 тонн</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2019 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2019</div>
+                    <div class="timeline-content">
+                        <span class="project-tag">Производство</span>
+                        <h3 class="project-title">Негабаритная перевозка станка</h3>
+                        <p class="project-description">Успешная доставка промышленного оборудования 22 тонны из Германии в Новосибирск с таможенным сопровождением.</p>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="bi bi-rulers"></i>
+                                <span>22 тонны</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-globe"></i>
+                                <span>4200 км</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-clock"></i>
+                                <span>8 дней</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2020 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2020</div>
+                    <div class="timeline-content">
+                        <span class="project-tag">Медицина</span>
+                        <h3 class="project-title">Срочная доставка медоборудования</h3>
+                        <p class="project-description">Во время пандемии организовали экспресс-доставку медицинского оборудования в 15 городов России за 72 часа.</p>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="bi bi-geo-alt"></i>
+                                <span>15 городов</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-lightning"></i>
+                                <span>72 часа</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2021 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2021</div>
+                    <div class="timeline-content">
+                        <span class="project-tag">E-commerce</span>
+                        <h3 class="project-title">Логистика для маркетплейса</h3>
+                        <p class="project-description">Создание системы ежедневных сборных грузов для крупного интернет-магазина. Доставка день-в-день в 20 городов.</p>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="bi bi-calendar3"></i>
+                                <span>365 дней</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-box-seam"></i>
+                                <span>1200 тонн/год</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2022 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2022</div>
+                    <div class="timeline-content">
+                        <span class="project-tag">Строительство</span>
+                        <h3 class="project-title">Поставки для ТЦ в Казани</h3>
+                        <p class="project-description">Комплексная логистика стройматериалов для строительства торгового центра. 8 месяцев, 200+ рейсов.</p>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="bi bi-truck-flatbed"></i>
+                                <span>200+ рейсов</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-box"></i>
+                                <span>3500 тонн</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2023 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2023</div>
+                    <div class="timeline-content">
+                        <span class="project-tag">Сельское хозяйство</span>
+                        <h3 class="project-title">Перевозка с/х техники</h3>
+                        <p class="project-description">Организация доставки партии сельхозтехники (12 единиц) из Ростова-на-Дону в хозяйства Сибири и Дальнего Востока.</p>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="bi bi-truck"></i>
+                                <span>12 единиц техники</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-map"></i>
+                                <span>6 регионов</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2024 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-content">
+                        <span class="project-tag">Пищевая промышленность</span>
+                        <h3 class="project-title">Рефрижераторные перевозки</h3>
+                        <p class="project-description">Запуск регулярных рефрижераторных перевозок для производителя замороженных продуктов. Постоянная температура -18°C.</p>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="bi bi-thermometer-snow"></i>
+                                <span>-18°C</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-arrow-repeat"></i>
+                                <span>Регулярно</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2025 -->
+                <div class="timeline-item">
+                    <div class="timeline-year">2025</div>
+                    <div class="timeline-content">
+                        <span class="project-tag">Расширение</span>
+                        <h3 class="project-title">Новые направления</h3>
+                        <p class="project-description">Открытие филиалов в 3 новых регионах. Расширение парка техники до 50+ единиц. База клиентов превысила 850 компаний.</p>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="bi bi-building"></i>
+                                <span>3 филиала</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="bi bi-people"></i>
+                                <span>850+ клиентов</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <h2 class="display-4 fw-bold text-success">7</h2>
+                    <p>Лет на рынке</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h2 class="display-4 fw-bold text-success">850+</h2>
+                    <p>Довольных клиентов</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h2 class="display-4 fw-bold text-success">3500+</h2>
+                    <p>Выполненных рейсов</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h2 class="display-4 fw-bold text-success">50+</h2>
+                    <p>Единиц техники</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="mb-4">Станьте частью нашей истории успеха</h2>
+                <p class="lead mb-4">Обсудим ваш проект и найдем оптимальное решение</p>
+                <a href="tel:+79874165187" class="btn btn-success btn-lg px-5">
+                    <i class="bi bi-telephone-fill me-2"></i>Позвонить
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/template-loader.js"></script>
+</body>
+</html>

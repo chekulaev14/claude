@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши проекты - ТК Динамика</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="../../assets/css/styles.css" rel="stylesheet">
+    <style>
+        .case-study {
+            margin-bottom: 80px;
+            padding: 60px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .case-study:last-child {
+            border-bottom: none;
+        }
+        .case-number {
+            font-size: 80px;
+            font-weight: 700;
+            color: #10b981;
+            opacity: 0.2;
+            line-height: 1;
+        }
+        .case-header {
+            margin-bottom: 40px;
+        }
+        .case-tag {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .case-title {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .case-client {
+            color: #666;
+            font-size: 18px;
+        }
+        .case-section {
+            margin-bottom: 40px;
+        }
+        .case-section h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #10b981;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .case-section p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+        }
+        .case-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+        }
+        .metric {
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 48px;
+            font-weight: 700;
+            color: #10b981;
+            line-height: 1;
+        }
+        .metric-label {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .case-testimonial {
+            background: white;
+            padding: 40px;
+            border-left: 4px solid #10b981;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border-radius: 8px;
+            margin: 40px 0;
+        }
+        .testimonial-text {
+            font-size: 20px;
+            font-style: italic;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #10b981;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .author-info h4 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .author-info p {
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .case-image {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-light" style="margin-top: 80px;">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="display-4 fw-bold mb-3">Истории успеха наших клиентов</h1>
+                <p class="lead text-muted">Реальные кейсы и результаты работы с ТК Динамика</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Case Study 1 -->
+            <div class="case-study">
+                <div class="case-number">01</div>
+                <div class="case-header">
+                    <span class="case-tag">Производство</span>
+                    <h2 class="case-title">Доставка оборудования для завода в Екатеринбург</h2>
+                    <p class="case-client">Клиент: ООО "ТехПром"</p>
+                </div>
+
+                <div class="case-section">
+                    <h3>Задача</h3>
+                    <p>Клиенту требовалось доставить промышленное оборудование весом 18 тонн из Москвы в Екатеринбург. Основные требования: строгое соблюдение сроков (5 дней), специальное крепление груза, страхование на полную стоимость.</p>
+                </div>
+
+                <div class="case-image">
+                    [Фото: Промышленное оборудование на платформе]
+                </div>
+
+                <div class="case-section">
+                    <h3>Решение</h3>
+                    <p>Использовали длинномер с платформой 13.6м. Разработали индивидуальную схему крепления груза, застраховали на 15 млн рублей. Выделили опытного водителя с 12-летним стажем перевозки негабаритных грузов. Организовали онлайн-трекинг для контроля маршрута в реальном времени.</p>
+                </div>
+
+                <div class="case-metrics">
+                    <div class="metric">
+                        <div class="metric-value">18т</div>
+                        <div class="metric-label">Вес груза</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">1800км</div>
+                        <div class="metric-label">Дистанция</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">4 дня</div>
+                        <div class="metric-label">Доставка</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">100%</div>
+                        <div class="metric-label">Сохранность</div>
+                    </div>
+                </div>
+
+                <div class="case-section">
+                    <h3>Результат</h3>
+                    <p>Оборудование доставлено на сутки раньше срока, без единой царапины. Клиент сэкономил 120 000 рублей по сравнению с конкурентами. Теперь сотрудничаем на постоянной основе - выполнили уже 15 рейсов для этого клиента.</p>
+                </div>
+
+                <div class="case-testimonial">
+                    <div class="testimonial-text">
+                        "Динамика показала высокий профессионализм. Особенно впечатлил индивидуальный подход к креплению груза и оперативная связь на всех этапах. Рекомендую как надежного партнера."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">МП</div>
+                        <div class="author-info">
+                            <h4>Михаил Петров</h4>
+                            <p>Логист, ООО "ТехПром"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Case Study 2 -->
+            <div class="case-study">
+                <div class="case-number">02</div>
+                <div class="case-header">
+                    <span class="case-tag">E-commerce</span>
+                    <h2 class="case-title">Регулярные поставки для сети магазинов</h2>
+                    <p class="case-client">Клиент: ООО "РетейлПлюс"</p>
+                </div>
+
+                <div class="case-section">
+                    <h3>Задача</h3>
+                    <p>Региональная сеть магазинов нуждалась в регулярных поставках товаров из центрального склада в Москве в 5 городов: Казань, Самара, Нижний Новгород, Уфа, Саратов. Требовалось: 3 рейса в неделю, фиксированная стоимость, гибкий график.</p>
+                </div>
+
+                <div class="case-image">
+                    [Фото: Загрузка товаров в фуру]
+                </div>
+
+                <div class="case-section">
+                    <h3>Решение</h3>
+                    <p>Организовали систему сборных грузов с оптимизацией маршрутов. Заключили договор с фиксированной ставкой на год. Внедрили личный кабинет для оформления заявок онлайн. Назначили персонального менеджера для оперативного решения вопросов.</p>
+                </div>
+
+                <div class="case-metrics">
+                    <div class="metric">
+                        <div class="metric-value">156</div>
+                        <div class="metric-label">Рейсов за год</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">850т</div>
+                        <div class="metric-label">Перевезено</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">99.5%</div>
+                        <div class="metric-label">В срок</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">-25%</div>
+                        <div class="metric-label">Экономия</div>
+                    </div>
+                </div>
+
+                <div class="case-section">
+                    <h3>Результат</h3>
+                    <p>За год сотрудничества выполнено 156 рейсов, перевезено 850 тонн товаров. Клиент сэкономил 25% бюджета на логистику благодаря оптимизации маршрутов. 99.5% доставок выполнено точно в срок. Продлили контракт еще на 2 года.</p>
+                </div>
+
+                <div class="case-testimonial">
+                    <div class="testimonial-text">
+                        "Работаем с Динамикой уже год. Главное преимущество - надежность и прозрачность. Всегда знаем где груз, сколько стоит, когда приедет. Это именно то, что нужно для ритейла."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">АС</div>
+                        <div class="author-info">
+                            <h4>Анна Сидорова</h4>
+                            <p>Директор по логистике, ООО "РетейлПлюс"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Case Study 3 -->
+            <div class="case-study">
+                <div class="case-number">03</div>
+                <div class="case-header">
+                    <span class="case-tag">Строительство</span>
+                    <h2 class="case-title">Срочная доставка стройматериалов в Казань</h2>
+                    <p class="case-client">Клиент: ООО "СтройМакс"</p>
+                </div>
+
+                <div class="case-section">
+                    <h3>Задача</h3>
+                    <p>Строительной компании срочно потребовались материалы для завершения объекта. Задержка грузила бы простой 50 рабочих. Нужна была доставка 24 тонн стройматериалов из Москвы в Казань за 48 часов.</p>
+                </div>
+
+                <div class="case-image">
+                    [Фото: Фура со стройматериалами]
+                </div>
+
+                <div class="case-section">
+                    <h3>Решение</h3>
+                    <p>Приняли заявку в 14:00, через 3 часа фура уже была загружена и в пути. Организовали экспресс-доставку с двумя водителями для непрерывного движения. Координировали с клиентом в режиме реального времени.</p>
+                </div>
+
+                <div class="case-metrics">
+                    <div class="metric">
+                        <div class="metric-value">24т</div>
+                        <div class="metric-label">Вес груза</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">820км</div>
+                        <div class="metric-label">Расстояние</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">36ч</div>
+                        <div class="metric-label">Время в пути</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">3ч</div>
+                        <div class="metric-label">От заявки до отправки</div>
+                    </div>
+                </div>
+
+                <div class="case-section">
+                    <h3>Результат</h3>
+                    <p>Материалы доставлены за 36 часов вместо требуемых 48. Клиент избежал простоя и штрафов на сумму 500 000 рублей. Объект сдан в срок. С тех пор обслуживаем все логистические потребности этой компании.</p>
+                </div>
+
+                <div class="case-testimonial">
+                    <div class="testimonial-text">
+                        "Динамика спасла наш проект! Невероятно быстрая реакция и организация. Груз приехал даже раньше, чем мы рассчитывали. Это настоящие профессионалы!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ВК</div>
+                        <div class="author-info">
+                            <h4>Владимир Козлов</h4>
+                            <p>Прораб, ООО "СтройМакс"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+        <div class="container">
+            <div class="text-center text-white">
+                <h2 class="mb-4">Готовы обсудить ваш проект?</h2>
+                <p class="lead mb-4">Расскажите о вашей задаче, и мы предложим оптимальное решение</p>
+                <a href="tel:+79874165187" class="btn btn-light btn-lg px-5">
+                    <i class="bi bi-telephone-fill me-2"></i>Позвонить сейчас
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/template-loader.js"></script>
+</body>
+</html>
