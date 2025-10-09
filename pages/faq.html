@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Часто задаваемые вопросы - ТК Динамика</title>
+    <meta name="description" content="Ответы на частые вопросы о грузоперевозках, ценах, условиях работы и услугах транспортной компании Динамика">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -14,7 +15,7 @@
     <div id="header-placeholder"></div>
 
     <!-- Hero Section -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-light" style="padding-top: 120px !important;">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-8 mx-auto">
@@ -42,173 +43,865 @@
         </div>
     </section>
 
-    <!-- FAQ Categories -->
+    <!-- FAQ Content -->
     <section class="py-5">
         <div class="container">
-            <!-- Category Tabs -->
-            <ul class="nav nav-pills justify-content-center mb-5" id="faqTabs" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active me-2 mb-2" id="general-tab" data-bs-toggle="pill" data-bs-target="#general" type="button" role="tab">
-                        <i class="bi bi-info-circle me-2"></i>Общие вопросы
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link me-2 mb-2" id="services-tab" data-bs-toggle="pill" data-bs-target="#services" type="button" role="tab">
-                        <i class="bi bi-truck me-2"></i>Услуги и тарифы
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link me-2 mb-2" id="documents-tab" data-bs-toggle="pill" data-bs-target="#documents" type="button" role="tab">
-                        <i class="bi bi-file-text me-2"></i>Документы
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link me-2 mb-2" id="payment-tab" data-bs-toggle="pill" data-bs-target="#payment" type="button" role="tab">
-                        <i class="bi bi-credit-card me-2"></i>Оплата
-                    </button>
-                </li>
-            </ul>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <!-- Main Categories Accordion -->
+                    <div class="accordion accordion-flush" id="faqAccordion">
 
-            <!-- Tab Content -->
-            <div class="tab-content" id="faqTabContent">
-                <!-- General Questions -->
-                <div class="tab-pane fade show active" id="general" role="tabpanel">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="accordion" id="generalAccordion">
-                                <!-- Question 1 -->
-                                <div class="accordion-item border-0 shadow-sm mb-3">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#general1">
-                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
-                                            Как долго работает ваша компания?
-                                        </button>
-                                    </h2>
-                                    <div id="general1" class="accordion-collapse collapse show" data-bs-parent="#generalAccordion">
-                                        <div class="accordion-body">
-                                            Транспортная компания "Динамика" работает на рынке грузоперевозок более 15 лет. За это время мы выполнили свыше 50 000 успешных перевозок и заслужили доверие более 1000 постоянных клиентов.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Question 2 -->
-                                <div class="accordion-item border-0 shadow-sm mb-3">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#general2">
-                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
-                                            По каким регионам вы осуществляете перевозки?
-                                        </button>
-                                    </h2>
-                                    <div id="general2" class="accordion-collapse collapse" data-bs-parent="#generalAccordion">
-                                        <div class="accordion-body">
-                                            Мы осуществляем грузоперевозки по всей территории Российской Федерации. Основные направления: Москва, Санкт-Петербург, Екатеринбург, Новосибирск, Казань, Нижний Новгород и другие крупные города России.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Question 3 -->
-                                <div class="accordion-item border-0 shadow-sm mb-3">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#general3">
-                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
-                                            Какие гарантии вы предоставляете?
-                                        </button>
-                                    </h2>
-                                    <div id="general3" class="accordion-collapse collapse" data-bs-parent="#generalAccordion">
-                                        <div class="accordion-body">
-                                            Мы гарантируем сохранность груза, соблюдение сроков доставки и полное страховое покрытие. Все грузы застрахованы на полную стоимость. В случае нарушения сроков доставки предусмотрены компенсации.
+                        <!-- Category 1: Для кого сервис -->
+                        <div class="accordion-item border mb-3 shadow-sm category-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#category1">
+                                    <span class="me-3">🧭</span> Для кого наш сервис?
+                                </button>
+                            </h2>
+                            <div id="category1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body p-4">
+                                    <div class="accordion" id="cat1Questions">
+                                        <!-- Q1 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Для кого ваш сервис?
+                                                </button>
+                                            </h3>
+                                            <div id="q1" class="accordion-collapse collapse" data-bs-parent="#cat1Questions">
+                                                <div class="accordion-body">
+                                                    <p>Наш сервис подходит для компаний, у которых перевозки происходят регулярно, но не ежедневно.</p>
+                                                    <p>Если отгрузки бывают несколько раз в неделю, но не каждый день — нанимать логиста в штат невыгодно.</p>
+                                                    <p>Мы полностью берём эту функцию на себя и сопровождаем каждую перевозку, как ваш внутренний сотрудник.</p>
+                                                    <p>Иногда с нами работают и компании с ежедневными рейсами — но только в экстренных случаях (например, не приехала машина).</p>
+                                                    <p>На постоянной основе это клиенту просто дороже, чем содержать своего логиста.</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <!-- Services Questions -->
-                <div class="tab-pane fade" id="services" role="tabpanel">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="accordion" id="servicesAccordion">
-                                <!-- Question 1 -->
-                                <div class="accordion-item border-0 shadow-sm mb-3">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#services1">
-                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
-                                            Как рассчитывается стоимость перевозки?
-                                        </button>
-                                    </h2>
-                                    <div id="services1" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
-                                        <div class="accordion-body">
-                                            Стоимость рассчитывается индивидуально и зависит от: расстояния перевозки, веса и габаритов груза, типа транспорта, срочности доставки, дополнительных услуг. Воспользуйтесь нашим онлайн-калькулятором или обратитесь к менеджеру.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Question 2 -->
-                                <div class="accordion-item border-0 shadow-sm mb-3">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#services2">
-                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
-                                            Какие типы грузов вы перевозите?
-                                        </button>
-                                    </h2>
-                                    <div id="services2" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
-                                        <div class="accordion-body">
-                                            Мы перевозим различные типы грузов: сборные и полные грузы, промышленные товары, потребительские товары, негабаритные грузы, рефрижераторные грузы. Не перевозим опасные грузы, наркотические вещества и контрабанду.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Documents Questions -->
-                <div class="tab-pane fade" id="documents" role="tabpanel">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="accordion" id="documentsAccordion">
-                                <!-- Question 1 -->
-                                <div class="accordion-item border-0 shadow-sm mb-3">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#documents1">
-                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
-                                            Какие документы нужны для оформления перевозки?
-                                        </button>
-                                    </h2>
-                                    <div id="documents1" class="accordion-collapse collapse" data-bs-parent="#documentsAccordion">
-                                        <div class="accordion-body">
-                                            Для оформления перевозки потребуются: паспорт или доверенность представителя, документы на груз (накладная, счет-фактура), упаковочный лист, при необходимости - разрешительные документы и сертификаты.
+                        <!-- Category 2: Что делает логист -->
+                        <div class="accordion-item border mb-3 shadow-sm category-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#category2">
+                                    <span class="me-3">🚛</span> Что делает ваш логист на аутсорсе?
+                                </button>
+                            </h2>
+                            <div id="category2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body p-4">
+                                    <div class="accordion" id="cat2Questions">
+                                        <!-- Q2 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Что делает ваш логист на аутсорсе?
+                                                </button>
+                                            </h3>
+                                            <div id="q2" class="accordion-collapse collapse" data-bs-parent="#cat2Questions">
+                                                <div class="accordion-body">
+                                                    <p>Мы выполняем полный цикл логистической работы:</p>
+                                                    <ul>
+                                                        <li>размещаем заявки на платформе ATI.su (наш аккаунт работает уже 12+ лет, рейтинг 5★);</li>
+                                                        <li>подбираем перевозчика;</li>
+                                                        <li>оформляем документы;</li>
+                                                        <li>контролируем выполнение рейса до выгрузки;</li>
+                                                        <li>решаем все вопросы с транспортом и водителями.</li>
+                                                    </ul>
+                                                    <p>В отличие от многих транспортных компаний, мы не зарабатываем на разнице ставок — у нас фиксированная комиссия.</p>
+                                                    <p>Если рыночная цена перевозки падает, мы честно сообщаем об этом клиенту и предлагаем более выгодный вариант.</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <!-- Payment Questions -->
-                <div class="tab-pane fade" id="payment" role="tabpanel">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="accordion" id="paymentAccordion">
-                                <!-- Question 1 -->
-                                <div class="accordion-item border-0 shadow-sm mb-3">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#payment1">
-                                            <i class="bi bi-chevron-right me-3 accordion-icon"></i>
-                                            Какие способы оплаты вы принимаете?
-                                        </button>
-                                    </h2>
-                                    <div id="payment1" class="accordion-collapse collapse" data-bs-parent="#paymentAccordion">
-                                        <div class="accordion-body">
-                                            Мы принимаем: безналичную оплату по счету, наличную оплату, банковские карты, электронные платежи. Работаем как с НДС, так и без НДС. Возможна отсрочка платежа для постоянных клиентов.
+                        <!-- Category 3: Оплата и условия -->
+                        <div class="accordion-item border mb-3 shadow-sm category-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#category3">
+                                    <span class="me-3">💸</span> Оплата и условия
+                                </button>
+                            </h2>
+                            <div id="category3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body p-4">
+                                    <div class="accordion" id="cat3Questions">
+                                        <!-- Q3 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Как рассчитывается комиссия?
+                                                </button>
+                                            </h3>
+                                            <div id="q3" class="accordion-collapse collapse" data-bs-parent="#cat3Questions">
+                                                <div class="accordion-body">
+                                                    <p>Комиссия фиксированная — <strong>5 000 ₽</strong>, либо <strong>6 000 ₽ с НДС</strong>.</p>
+                                                    <p>Это комфортная ставка, рассчитанная по нашей финансовой модели.</p>
+                                                    <p>Мы зарабатываем не за счёт наценок, а за счёт повторных заказов.</p>
+                                                    <p>В счёте процент может отображаться как сервисный сбор, но итоговая сумма всегда фиксирована и прозрачна.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q4 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Есть ли скрытые платежи или минимальные объёмы?
+                                                </button>
+                                            </h3>
+                                            <div id="q4" class="accordion-collapse collapse" data-bs-parent="#cat3Questions">
+                                                <div class="accordion-body">
+                                                    <p>Нет, никаких скрытых условий нет.</p>
+                                                    <p>Клиент оплачивает только перевозку и нашу комиссию.</p>
+                                                    <p>Единственные возможные доплаты — штрафы, предусмотренные Уставом автотранспорта:</p>
+                                                    <ul>
+                                                        <li>20% от фрахта за срыв погрузки;</li>
+                                                        <li>1% в час за простой на межгороде;</li>
+                                                        <li>5% в час при городских перевозках.</li>
+                                                    </ul>
+                                                    <p>Такие случаи редки, и часто перевозчики идут навстречу, ничего не требуя.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q5 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Как происходит оплата?
+                                                </button>
+                                            </h3>
+                                            <div id="q5" class="accordion-collapse collapse" data-bs-parent="#cat3Questions">
+                                                <div class="accordion-body">
+                                                    <p>Оплата производится на погрузке, когда машина прибыла и начала загрузку.</p>
+                                                    <p><strong>Возможные варианты:</strong></p>
+                                                    <ul>
+                                                        <li>50% на погрузке, 50% перед выгрузкой;</li>
+                                                        <li>100% перед выгрузкой (по согласованию).</li>
+                                                    </ul>
+                                                    <p>Машина выгружается только после поступления средств на расчётный счёт.</p>
+                                                    <p>Всё максимально прозрачно — вы видите транспорт и процесс перед оплатой.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q6 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Есть ли абонентская плата или регулярные платежи?
+                                                </button>
+                                            </h3>
+                                            <div id="q6" class="accordion-collapse collapse" data-bs-parent="#cat3Questions">
+                                                <div class="accordion-body">
+                                                    <p>Нет. Мы работаем по факту перевозки.</p>
+                                                    <p>Вы платите только тогда, когда реально используете наш сервис — никаких подписок, депозитов или фиксированных ежемесячных сумм.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q7 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q7">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Какие документы оформляются?
+                                                </button>
+                                            </h3>
+                                            <div id="q7" class="accordion-collapse collapse" data-bs-parent="#cat3Questions">
+                                                <div class="accordion-body">
+                                                    <p>Мы заключаем договор-заявку — короткий документ, где указаны:</p>
+                                                    <ul>
+                                                        <li>маршрут;</li>
+                                                        <li>параметры груза;</li>
+                                                        <li>стоимость рейса;</li>
+                                                        <li>основные условия.</li>
+                                                    </ul>
+                                                    <p>Договор оформляется после того, как найдена машина и клиент подтвердил перевозку — всё оперативно, без бюрократии.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q8 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q8">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Что происходит, если перевозка сорвалась?
+                                                </button>
+                                            </h3>
+                                            <div id="q8" class="accordion-collapse collapse" data-bs-parent="#cat3Questions">
+                                                <div class="accordion-body">
+                                                    <p>Если перевозка не состоялась по вине перевозчика, клиент не платит комиссию.</p>
+                                                    <p>При срывах или простоях мы руководствуемся нормами Устава автотранспорта, но в большинстве случаев решаем всё без штрафов.</p>
+                                                    <p>Наша задача — не искать виноватых, а быстро найти замену и довести рейс до конца.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q9 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q9">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Сколько времени занимает запуск первого рейса?
+                                                </button>
+                                            </h3>
+                                            <div id="q9" class="accordion-collapse collapse" data-bs-parent="#cat3Questions">
+                                                <div class="accordion-body">
+                                                    <p>Мы начинаем работу сразу после устного согласования условий — не ждём подписания договора.</p>
+                                                    <p>Клиент сообщает задачу, мы объясняем условия, и если всё устраивает — сразу выходим на поиск транспорта.</p>
+                                                    <div class="alert alert-warning mt-3" role="alert">
+                                                        <i class="bi bi-exclamation-triangle me-2"></i>
+                                                        <strong>Важно:</strong> Если клиент параллельно обращается в несколько компаний, один и тот же груз может быть выставлен 10–15 раз, и цена быстро растёт. Иногда выгоднее подождать и доверить поиск одной команде — итоговая стоимость будет значительно ниже.
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Category 4: Дополнительные вопросы -->
+                        <div class="accordion-item border mb-3 shadow-sm category-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#category4">
+                                    <span class="me-3">🧩</span> Дополнительные вопросы
+                                </button>
+                            </h2>
+                            <div id="category4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body p-4">
+                                    <div class="accordion" id="cat4Questions">
+                                        <!-- Q10 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q10">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Можно ли поручить вам постоянное ведение логистики?
+                                                </button>
+                                            </h3>
+                                            <div id="q10" class="accordion-collapse collapse" data-bs-parent="#cat4Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да, конечно.</p>
+                                                    <p>Мы можем полностью взять на себя функцию логиста на постоянной основе.</p>
+                                                    <p>Логист на связи с раннего утра до поздней ночи, всегда готов принять новую заявку.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q11 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q11">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Как быстро вы находите машину после заявки?
+                                                </button>
+                                            </h3>
+                                            <div id="q11" class="accordion-collapse collapse" data-bs-parent="#cat4Questions">
+                                                <div class="accordion-body">
+                                                    <p>Скорость зависит от маршрута и сезона:</p>
+                                                    <ul>
+                                                        <li>в крупных городах транспорт находится быстро;</li>
+                                                        <li>в отдалённых населённых пунктах — чуть дольше и может стоить дороже.</li>
+                                                    </ul>
+                                                    <p>Мы сразу информируем клиента о сроках и стоимости.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q12 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q12">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    С какими типами грузов вы работаете?
+                                                </button>
+                                            </h3>
+                                            <div id="q12" class="accordion-collapse collapse" data-bs-parent="#cat4Questions">
+                                                <div class="accordion-body">
+                                                    <p>Мы работаем со всеми типами грузов, <strong>кроме продуктов питания</strong>.</p>
+                                                    <p>Всё остальное — промышленная продукция, оборудование, стройматериалы и т. д.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q13 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q13">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Работаете ли вы с частными лицами или только с компаниями?
+                                                </button>
+                                            </h3>
+                                            <div id="q13" class="accordion-collapse collapse" data-bs-parent="#cat4Questions">
+                                                <div class="accordion-body">
+                                                    <p>Мы открыты для всех:</p>
+                                                    <ul>
+                                                        <li>юридические лица;</li>
+                                                        <li>ИП;</li>
+                                                        <li>частные клиенты.</li>
+                                                    </ul>
+                                                    <p>Главное — чёткое понимание задачи и прозрачные условия.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q14 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q14">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Можно ли работать без договора?
+                                                </button>
+                                            </h3>
+                                            <div id="q14" class="accordion-collapse collapse" data-bs-parent="#cat4Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да, без проблем.</p>
+                                                    <p>Многие клиенты не запрашивают договор, особенно при разовых рейсах.</p>
+                                                    <p>Если договор нужен для отчётности — оформляем быстро и просто.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q15 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q15">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Можно ли оплатить перевозку после выгрузки, по факту?
+                                                </button>
+                                            </h3>
+                                            <div id="q15" class="accordion-collapse collapse" data-bs-parent="#cat4Questions">
+                                                <div class="accordion-body">
+                                                    <p>Нет, постоплаты нет.</p>
+                                                    <p>Максимум — оплата перед выгрузкой, при наличии уважительных причин.</p>
+                                                    <p>Такой подход гарантирует надёжность перевозчиков.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q16 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q16">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Что происходит, если рейс отменяется по инициативе клиента?
+                                                </button>
+                                            </h3>
+                                            <div id="q16" class="accordion-collapse collapse" data-bs-parent="#cat4Questions">
+                                                <div class="accordion-body">
+                                                    <p>Зависит от времени уведомления:</p>
+                                                    <ul>
+                                                        <li>за сутки и более — штрафов нет;</li>
+                                                        <li>в день погрузки — решается индивидуально.</li>
+                                                    </ul>
+                                                    <p>По Уставу автотранспорта перевозчик может требовать до 20% от стоимости фрахта, но в 90% случаев штраф не превышает 5 000 ₽.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q17 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q17">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Предоставляете ли вы закрывающие документы?
+                                                </button>
+                                            </h3>
+                                            <div id="q17" class="accordion-collapse collapse" data-bs-parent="#cat4Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да.</p>
+                                                    <ul>
+                                                        <li>Без НДС — акт выполненных работ;</li>
+                                                        <li>С НДС — УПД.</li>
+                                                    </ul>
+                                                    <p>Документы готовятся оперативно, без задержек.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 5: Процессы и ответственность -->
+                        <div class="accordion-item border mb-3 shadow-sm category-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#category5">
+                                    <span class="me-3">⚙️</span> Процессы и ответственность
+                                </button>
+                            </h2>
+                            <div id="category5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body p-4">
+                                    <div class="accordion" id="cat5Questions">
+                                        <!-- Q18 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q18">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Можно ли объединять грузы нескольких отправителей (догруз)?
+                                                </button>
+                                            </h3>
+                                            <div id="q18" class="accordion-collapse collapse" data-bs-parent="#cat5Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да, можем, если груз не занимает большую часть машины (до 3–4 м по полу).</p>
+                                                    <p>Если груз длиннее — перевозка уже не будет вдвое дешевле, так как перевозчику нужно сохранить прибыль.</p>
+                                                    <p>Догруз подходит для компактных отправлений.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q19 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q19">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Как вы проверяете перевозчиков?
+                                                </button>
+                                            </h3>
+                                            <div id="q19" class="accordion-collapse collapse" data-bs-parent="#cat5Questions">
+                                                <div class="accordion-body">
+                                                    <p>Мы тщательно проверяем всех перевозчиков:</p>
+                                                    <ul>
+                                                        <li>анализируем профиль на ATI.su (дата регистрации, активность, контакты);</li>
+                                                        <li>связываемся напрямую при сомнениях;</li>
+                                                        <li>проверяем документы и отзывы.</li>
+                                                    </ul>
+                                                    <p>За годы работы мы предотвратили попытки мошенничества, включая кражу 800 тонн металла с базы в Подмосковье.</p>
+                                                    <p><strong>Опыт и внимание — наша лучшая защита.</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q20 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q20">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Что вы делаете, если перевозчик нарушает сроки?
+                                                </button>
+                                            </h3>
+                                            <div id="q20" class="accordion-collapse collapse" data-bs-parent="#cat5Questions">
+                                                <div class="accordion-body">
+                                                    <p>Мы закладываем реалистичные сроки и держим связь на всех этапах.</p>
+                                                    <p>Иногда возможны задержки из-за пробок или ремонта дорог — это рабочие моменты.</p>
+                                                    <p>Если клиент требует компенсацию — разбираем индивидуально.</p>
+                                                    <p>Такие случаи крайне редки.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q21 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q21">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Можно ли доверить вам контроль доставки без моего участия?
+                                                </button>
+                                            </h3>
+                                            <div id="q21" class="accordion-collapse collapse" data-bs-parent="#cat5Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да.</p>
+                                                    <p>Вы просто сообщаете точки погрузки и выгрузки — дальше всё делаем мы.</p>
+                                                    <p>Машина приедет вовремя и выгрузится по плану.</p>
+                                                    <p>Мы не занимаемся погрузочными работами, только логистикой.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 6: Доверие и репутация -->
+                        <div class="accordion-item border mb-3 shadow-sm category-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#category6">
+                                    <span class="me-3">🤝</span> Доверие и репутация
+                                </button>
+                            </h2>
+                            <div id="category6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body p-4">
+                                    <div class="accordion" id="cat6Questions">
+                                        <!-- Q22 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q22">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Как убедиться, что вы — не посредники, а профессиональные логисты?
+                                                </button>
+                                            </h3>
+                                            <div id="q22" class="accordion-collapse collapse" data-bs-parent="#cat6Questions">
+                                                <div class="accordion-body">
+                                                    <p>Мы честно говорим: мы посредники, но профессиональные.</p>
+                                                    <p>Наша задача — связать клиента и перевозчика максимально эффективно, сэкономив вам деньги, время и нервы.</p>
+                                                    <p>Просто позвоните, расскажите задачу — и убедитесь сами в нашем подходе.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q23 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q23">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    С кем вы уже работали?
+                                                </button>
+                                            </h3>
+                                            <div id="q23" class="accordion-collapse collapse" data-bs-parent="#cat6Questions">
+                                                <div class="accordion-body">
+                                                    <p>У нас есть <a href="clients.html">страница клиентов</a> — выгрузка из 1С за 7 лет.</p>
+                                                    <p>Там указаны все организации, которые реально пользовались нашими услугами.</p>
+                                                    <p>Это открытая информация и доказательство опыта.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 7: Частые возражения -->
+                        <div class="accordion-item border mb-3 shadow-sm category-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#category7">
+                                    <span class="me-3">🔥</span> Частые возражения
+                                </button>
+                            </h2>
+                            <div id="category7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body p-4">
+                                    <div class="accordion" id="cat7Questions">
+                                        <!-- Q24 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q24">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Что если груз повредят или потеряют? Кто несёт ответственность?
+                                                </button>
+                                            </h3>
+                                            <div id="q24" class="accordion-collapse collapse" data-bs-parent="#cat7Questions">
+                                                <div class="accordion-body">
+                                                    <p>В соответствии с Гражданским кодексом РФ и Уставом автомобильного транспорта, мы как перевозчики несём полную ответственность за груз.</p>
+                                                    <p>Если что-то повреждено или утеряно — мы отвечаем за это.</p>
+                                                    <div class="alert alert-info mt-3" role="alert">
+                                                        <strong>Наш опыт за 7 лет:</strong>
+                                                        <ul class="mb-0 mt-2">
+                                                            <li>Было всего несколько случаев повреждения груза;</li>
+                                                            <li>Ни одного случая полной утери;</li>
+                                                            <li>Во всех случаях порчи клиентам были выплачены компенсации.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q25 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q25">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Почему не разместить заявку на ATI самому? В чём ваша ценность?
+                                                </button>
+                                            </h3>
+                                            <div id="q25" class="accordion-collapse collapse" data-bs-parent="#cat7Questions">
+                                                <div class="accordion-body">
+                                                    <p>Конечно, клиент может сам разместить заявку на ATI.su, но есть нюансы:</p>
+
+                                                    <h6 class="mt-3 mb-2">1. Репутация и рейтинг</h6>
+                                                    <ul>
+                                                        <li>Для регистрации нужно время и документы;</li>
+                                                        <li>Перевозчики не берут грузы у новых аккаунтов — нет доверия;</li>
+                                                        <li>Наш аккаунт работает 12+ лет, рейтинг 5★ (такой получить даже за 5 лет невозможно);</li>
+                                                        <li>У нас откликов в разы больше, чем у нового пользователя.</li>
+                                                    </ul>
+
+                                                    <h6 class="mt-3 mb-2">2. Экспертиза</h6>
+                                                    <ul>
+                                                        <li>Есть нюансы, как правильно описать груз, выставить параметры, выбрать перевозчика;</li>
+                                                        <li>То, что нам требует 5 минут, неподготовленный человек делает час — и результат может быть хуже.</li>
+                                                    </ul>
+
+                                                    <h6 class="mt-3 mb-2">3. Целевая аудитория</h6>
+                                                    <ul>
+                                                        <li>Те, кто хочет найти дешевле и готов тратить время — это не наша ЦА;</li>
+                                                        <li>Мы для тех, кому важна оперативность, надёжность и экономия нервов.</li>
+                                                    </ul>
+
+                                                    <div class="alert alert-secondary mt-3" role="alert">
+                                                        <strong>Пример:</strong> Семь лет назад перевозка по МО в радиусе 10 км от МКАД стоила 10 000 ₽ в закупке, мы продавали за 12 000 ₽. Для кого-то это было дорого — они искали за 10 000 ₽ сами. Но наши клиенты платили за скорость и гарантию результата.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q27 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q27">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Работаете ли в выходные и праздники? Когда можно подать заявку?
+                                                </button>
+                                            </h3>
+                                            <div id="q27" class="accordion-collapse collapse" data-bs-parent="#cat7Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да, мы работаем в выходные и праздники.</p>
+
+                                                    <div class="alert alert-warning mt-3" role="alert">
+                                                        <strong>Нюанс для новых клиентов:</strong>
+                                                        <ul class="mb-0 mt-2">
+                                                            <li>Если вы новый клиент и не записаны в телефоне логиста, он может не взять трубку в нерабочее время;</li>
+                                                            <li>Это связано с защитой от спама и нерелевантных звонков.</li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="alert alert-success mt-3" role="alert">
+                                                        <strong>Для постоянных клиентов:</strong>
+                                                        <ul class="mb-0 mt-2">
+                                                            <li>Логист всегда на связи — в выходные, праздники, в любое время;</li>
+                                                            <li>Ваши заявки принимаются круглосуточно.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q28 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q28">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Что если я сам найду дешевле на ATI?
+                                                </button>
+                                            </h3>
+                                            <div id="q28" class="accordion-collapse collapse" data-bs-parent="#cat7Questions">
+                                                <div class="accordion-body">
+                                                    <p>Те, кто ищут самую дешёвую перевозку и готовы тратить время и усилия — это не совсем наша целевая аудитория.</p>
+
+                                                    <h6 class="mt-3 mb-2">Наше позиционирование:</h6>
+                                                    <ul>
+                                                        <li>Мы не самые дешёвые, но самые надёжные и оперативные;</li>
+                                                        <li>Наша ценность — в гарантии результата, экономии времени и нервов;</li>
+                                                        <li>Фиксированная маржа 5 000–6 000 ₽ — это плата за профессионализм и репутацию 12+ лет.</li>
+                                                    </ul>
+
+                                                    <p class="mt-3">Если для вас критична каждая тысяча рублей — вы можете искать сами. Наши клиенты платят за то, что мы закроем задачу быстро, качественно и без головной боли.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 8: Масштабирование -->
+                        <div class="accordion-item border mb-3 shadow-sm category-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#category8">
+                                    <span class="me-3">🚀</span> Масштабирование
+                                </button>
+                            </h2>
+                            <div id="category8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body p-4">
+                                    <div class="accordion" id="cat8Questions">
+                                        <!-- Q29 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q29">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Можете ли организовать несколько машин одновременно?
+                                                </button>
+                                            </h3>
+                                            <div id="q29" class="accordion-collapse collapse" data-bs-parent="#cat8Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да, мы можем организовать несколько машин одновременно — и много раз это делали.</p>
+
+                                                    <h6 class="mt-3 mb-2">Типичные сценарии:</h6>
+                                                    <ul>
+                                                        <li>Переезды складов, производств;</li>
+                                                        <li>Перевозка башенных кранов;</li>
+                                                        <li>Грузы в контейнерах;</li>
+                                                        <li>Крупные партии стройматериалов.</li>
+                                                    </ul>
+
+                                                    <h6 class="mt-3 mb-2">Главное условие:</h6>
+                                                    <ul>
+                                                        <li>Со стороны заказчика должна быть организована оперативная погрузка и разгрузка;</li>
+                                                        <li>Мы можем предоставить неограниченное количество машин, но пропускная способность на погрузке/выгрузке часто ограничена — мы подстраиваемся под это.</li>
+                                                    </ul>
+
+                                                    <div class="alert alert-info mt-3" role="alert">
+                                                        <strong>Частая ошибка клиентов:</strong>
+                                                        <ul class="mb-0 mt-2">
+                                                            <li>Заказывают 20 машин в день;</li>
+                                                            <li>Мы объясняем, что погрузка одной машины занимает ~1 час;</li>
+                                                            <li>Клиент понимает, что нужно меньше машин за раз и растянуть график.</li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <p class="mt-3">Мы помогаем оптимизировать логистику под реальные возможности.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q30 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q30">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Работаете ли с негабаритом, опасными грузами, спецтехникой?
+                                                </button>
+                                            </h3>
+                                            <div id="q30" class="accordion-collapse collapse" data-bs-parent="#cat8Questions">
+                                                <div class="accordion-body">
+                                                    <p>Нет, мы не работаем с:</p>
+                                                    <ul>
+                                                        <li>Негабаритными грузами;</li>
+                                                        <li>Опасными грузами (ADR);</li>
+                                                        <li>Продуктами питания;</li>
+                                                        <li>Арендой спецтехники.</li>
+                                                    </ul>
+                                                    <p>Мы специализируемся на стандартных грузоперевозках — промышленная продукция, оборудование, стройматериалы, мебель и т. д.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q31 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q31">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Что если я не знаю точный вес или объём груза?
+                                                </button>
+                                            </h3>
+                                            <div id="q31" class="accordion-collapse collapse" data-bs-parent="#cat8Questions">
+                                                <div class="accordion-body">
+                                                    <p>Не проблема — просто скажите, что у вас за груз, и мы примерно всё поймём.</p>
+
+                                                    <h6 class="mt-3 mb-2">В 99% случаев мы понимаем:</h6>
+                                                    <ul>
+                                                        <li>Какая нужна машина;</li>
+                                                        <li>С какими параметрами (тоннаж, объём, тип кузова);</li>
+                                                        <li>С каким видом загрузки (верхняя, задняя, боковая).</li>
+                                                    </ul>
+
+                                                    <p class="mt-3">Мы с удовольствием проконсультируем и поможем подобрать подходящий транспорт под ваш груз.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q32 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q32">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Можно ли забрать груз из нескольких точек (сборный груз)?
+                                                </button>
+                                            </h3>
+                                            <div id="q32" class="accordion-collapse collapse" data-bs-parent="#cat8Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да, без проблем — сколько нужно точек, столько и сделаем.</p>
+
+                                                    <div class="alert alert-warning mt-3" role="alert">
+                                                        <strong>Нюанс:</strong> Это, как правило, отражается на цене — каждая дополнительная точка увеличивает стоимость.
+                                                    </div>
+
+                                                    <p>Всё зависит от маршрута и логистики, но мы всегда найдём оптимальное решение.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q33 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q33">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Можно ли изменить детали заказа после подтверждения?
+                                                </button>
+                                            </h3>
+                                            <div id="q33" class="accordion-collapse collapse" data-bs-parent="#cat8Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да, в целом можно, но зависит от того, какие детали.</p>
+
+                                                    <h6 class="mt-3 mb-2">Пример — смена места выгрузки:</h6>
+                                                    <ul>
+                                                        <li>Часто можно изменить только если новое место недалеко от изначального;</li>
+                                                        <li>Перевозчики выстраивают маршрут заранее и берут следующую загрузку после вашей выгрузки;</li>
+                                                        <li>Если новое место сильно меняет маршрут — может быть проблема.</li>
+                                                    </ul>
+
+                                                    <h6 class="mt-3 mb-2">Общий подход:</h6>
+                                                    <ul>
+                                                        <li>Всё решается индивидуально и зависит от возможностей перевозчика;</li>
+                                                        <li>Мы всегда что-нибудь придумаем и найдём выход из ситуации.</li>
+                                                    </ul>
+
+                                                    <p class="mt-3"><strong>Гибкость — одна из наших сильных сторон.</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Category 9: Условия и ограничения -->
+                        <div class="accordion-item border mb-3 shadow-sm category-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#category9">
+                                    <span class="me-3">💎</span> Условия и ограничения
+                                </button>
+                            </h2>
+                            <div id="category9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body p-4">
+                                    <div class="accordion" id="cat9Questions">
+                                        <!-- Q34 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q34">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Есть ли минимальный заказ или ограничения по маршруту?
+                                                </button>
+                                            </h3>
+                                            <div id="q34" class="accordion-collapse collapse" data-bs-parent="#cat9Questions">
+                                                <div class="accordion-body">
+                                                    <p>Нет, минимального заказа нет.</p>
+                                                    <p>Мы работаем с любыми объёмами — от небольших грузов до крупных партий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Q35 -->
+                                        <div class="accordion-item border-0 mb-2 question-item">
+                                            <h3 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q35">
+                                                    <i class="bi bi-chevron-right me-2 accordion-icon"></i>
+                                                    Предоставляете ли фото груза при погрузке/выгрузке?
+                                                </button>
+                                            </h3>
+                                            <div id="q35" class="accordion-collapse collapse" data-bs-parent="#cat9Questions">
+                                                <div class="accordion-body">
+                                                    <p>Да, если необходимо — конечно, можем всё предоставить.</p>
+                                                    <p>Фото при погрузке и выгрузке помогают контролировать состояние груза и подтверждают факт выполнения услуги.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -226,7 +919,7 @@
                         <a href="tel:+79874165187" class="btn btn-primary">
                             <i class="bi bi-telephone-fill me-2"></i>Позвонить
                         </a>
-                        <a href="#" class="btn btn-outline-primary">
+                        <a href="mailto:info@dinamika-cargo.ru" class="btn btn-outline-primary">
                             <i class="bi bi-envelope me-2"></i>Написать
                         </a>
                     </div>
@@ -244,18 +937,76 @@
     <script src="../assets/js/script.js"></script>
 
     <style>
+    /* Category items styling */
+    .category-item {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .category-item .accordion-button {
+        background-color: #f8f9fa;
+        padding: 1.25rem 1.5rem;
+    }
+
+    .category-item .accordion-button:not(.collapsed) {
+        background-color: #0d6efd;
+        color: white;
+    }
+
+    /* Question items styling */
+    .question-item .accordion-button {
+        font-size: 0.95rem;
+        padding: 0.875rem 1rem;
+        background-color: #fff;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .question-item .accordion-button:not(.collapsed) {
+        background-color: #f8f9fa;
+        color: #0d6efd;
+    }
+
+    /* Accordion icon animation */
     .accordion-icon {
         transition: transform 0.2s ease;
+        font-size: 0.875rem;
     }
+
     .accordion-button:not(.collapsed) .accordion-icon {
         transform: rotate(90deg);
     }
-    .accordion-button {
-        font-weight: 500;
-    }
+
+    /* Focus styles */
     .accordion-button:focus {
         box-shadow: none;
-        border-color: rgba(0,123,255,.25);
+        border-color: rgba(13, 110, 253, 0.25);
+    }
+
+    /* Accordion body styling */
+    .question-item .accordion-body {
+        padding: 1.25rem 1rem 1.25rem 2.5rem;
+        background-color: #fff;
+    }
+
+    /* Alert styling in FAQ */
+    .accordion-body .alert {
+        font-size: 0.9rem;
+    }
+
+    .accordion-body .alert ul {
+        padding-left: 1.25rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .category-item .accordion-button {
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .question-item .accordion-body {
+            padding: 1rem 0.75rem 1rem 2rem;
+        }
     }
     </style>
 
@@ -263,16 +1014,34 @@
     // FAQ Search functionality
     document.getElementById('faqSearch').addEventListener('input', function(e) {
         const searchTerm = e.target.value.toLowerCase();
-        const accordionItems = document.querySelectorAll('.accordion-item');
+        const categoryItems = document.querySelectorAll('.category-item');
 
-        accordionItems.forEach(item => {
-            const question = item.querySelector('.accordion-button').textContent.toLowerCase();
-            const answer = item.querySelector('.accordion-body').textContent.toLowerCase();
+        categoryItems.forEach(category => {
+            const questions = category.querySelectorAll('.question-item');
+            let hasVisibleQuestions = false;
 
-            if (question.includes(searchTerm) || answer.includes(searchTerm)) {
-                item.style.display = 'block';
+            questions.forEach(question => {
+                const questionText = question.querySelector('.accordion-button').textContent.toLowerCase();
+                const answerText = question.querySelector('.accordion-body').textContent.toLowerCase();
+
+                if (questionText.includes(searchTerm) || answerText.includes(searchTerm)) {
+                    question.style.display = 'block';
+                    hasVisibleQuestions = true;
+                } else {
+                    question.style.display = searchTerm ? 'none' : 'block';
+                }
+            });
+
+            // Show/hide entire category based on whether it has visible questions
+            if (searchTerm) {
+                category.style.display = hasVisibleQuestions ? 'block' : 'none';
+                // Expand category if it has matching questions
+                if (hasVisibleQuestions) {
+                    const categoryCollapse = category.querySelector('.accordion-collapse');
+                    categoryCollapse.classList.add('show');
+                }
             } else {
-                item.style.display = searchTerm ? 'none' : 'block';
+                category.style.display = 'block';
             }
         });
     });
