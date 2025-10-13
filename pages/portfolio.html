@@ -41,39 +41,262 @@
     </section>
 
 
-    <!-- Portfolio Grid -->
+    <!-- Секция 1: Комплексные решения -->
     <section class="py-5">
         <div class="container">
-            <div class="row g-4" id="portfolioGrid">
-                <!-- Case 1 -->
-                <div class="col-lg-6 portfolio-item">
-                    <div class="card border-0 shadow-lg h-100 overflow-hidden">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-5">
-                                <div style="width: 100%; height: 100%; background-color: #e9ecef;"></div>
-                            </div>
-                            <div class="col-md-7">
-                                <div class="card-body h-100 d-flex flex-column">
-                                    <h4 class="card-title mb-3">Логистика сети супермаркетов</h4>
-                                    <p class="card-text">Организация централизованной доставки товаров для сети из 50 магазинов. Сокращение логистических затрат на 25%.</p>
-                                    <div class="mt-auto">
-                                        <div class="row text-center mb-3">
-                                            <div class="col-4">
-                                                <small class="text-muted">Маршруты</small>
-                                                <div class="fw-bold">150+</div>
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold mb-3">Комплексные решения</h2>
+                <p class="text-muted">Крупные проекты, требующие особого подхода</p>
+            </div>
+
+            <!-- Multi-item Carousel Wrapper -->
+            <div class="position-relative px-5">
+                <div id="projectsCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <div class="row g-4">
+                                <!-- Проект 1 -->
+                                <div class="col-lg-6">
+                                    <div class="card border-0 shadow-lg h-100 overflow-hidden">
+                                        <div class="row g-0 h-100">
+                                            <div class="col-md-5">
+                                                <img src="../assets/images/projects/project-001/01.jpg" alt="Логистика сети супермаркетов" style="width: 100%; height: 100%; min-height: 250px; object-fit: cover;">
                                             </div>
-                                            <div class="col-4">
-                                                <small class="text-muted">Срок</small>
-                                                <div class="fw-bold">6 мес.</div>
-                                            </div>
-                                            <div class="col-4">
-                                                <small class="text-muted">Экономия</small>
-                                                <div class="fw-bold">25%</div>
+                                            <div class="col-md-7">
+                                                <div class="card-body h-100 d-flex flex-column">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <h4 class="card-title mb-0">Логистика сети супермаркетов</h4>
+                                                        <span class="badge bg-success ms-2">Завершен</span>
+                                                    </div>
+                                                    <p class="card-text text-muted mb-3">Организация централизованной доставки для сети из 50 магазинов</p>
+                                                    <div class="mt-auto">
+                                                        <div class="mb-3">
+                                                            <div class="d-flex align-items-center mb-2">
+                                                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                                                <span>Москва → Санкт-Петербург → Казань</span>
+                                                            </div>
+                                                            <div class="d-flex justify-content-between text-center mt-3">
+                                                                <div>
+                                                                    <small class="text-muted d-block">Рейсов</small>
+                                                                    <strong>150+</strong>
+                                                                </div>
+                                                                <div>
+                                                                    <small class="text-muted d-block">Пройдено</small>
+                                                                    <strong>45 000 км</strong>
+                                                                </div>
+                                                                <div>
+                                                                    <small class="text-muted d-block">Срок</small>
+                                                                    <strong>6 мес.</strong>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="projects/project-001.html" class="btn btn-primary w-100">Подробнее</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#caseModal1">
-                                            Подробнее
-                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Проект 2 -->
+                                <div class="col-lg-6">
+                                    <div class="card border-0 shadow-lg h-100 overflow-hidden">
+                                        <div class="row g-0 h-100">
+                                            <div class="col-md-5">
+                                                <img src="../Project-foto/BASH/WhatsApp Image 2025-09-26 at 10.51.30.jpeg" alt="Перевозка промышленного оборудования" style="width: 100%; height: 100%; min-height: 250px; object-fit: cover;">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body h-100 d-flex flex-column">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <h4 class="card-title mb-0">Перевозка промоборудования</h4>
+                                                        <span class="badge bg-success ms-2">Завершен</span>
+                                                    </div>
+                                                    <p class="card-text text-muted mb-3">Доставка крупногабаритного оборудования весом до 50 тонн</p>
+                                                    <div class="mt-auto">
+                                                        <div class="mb-3">
+                                                            <div class="d-flex align-items-center mb-2">
+                                                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                                                <span>Москва → Новосибирск</span>
+                                                            </div>
+                                                            <div class="d-flex justify-content-between text-center mt-3">
+                                                                <div>
+                                                                    <small class="text-muted d-block">Рейсов</small>
+                                                                    <strong>8</strong>
+                                                                </div>
+                                                                <div>
+                                                                    <small class="text-muted d-block">Пройдено</small>
+                                                                    <strong>20 000 км</strong>
+                                                                </div>
+                                                                <div>
+                                                                    <small class="text-muted d-block">Срок</small>
+                                                                    <strong>2 мес.</strong>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="projects/project-002.html" class="btn btn-primary w-100">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                            <div class="row g-4">
+                                <!-- Проект 3 -->
+                                <div class="col-lg-6">
+                                    <div class="card border-0 shadow-lg h-100 overflow-hidden">
+                                        <div class="row g-0 h-100">
+                                            <div class="col-md-5">
+                                                <div style="width: 100%; height: 100%; min-height: 250px; background-color: #e9ecef;"></div>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body h-100 d-flex flex-column">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <h4 class="card-title mb-0">Холодильная логистика</h4>
+                                                        <span class="badge bg-success ms-2">Завершен</span>
+                                                    </div>
+                                                    <p class="card-text text-muted mb-3">Организация холодовой цепи для федеральной торговой сети</p>
+                                                    <div class="mt-auto">
+                                                        <div class="mb-3">
+                                                            <div class="d-flex align-items-center mb-2">
+                                                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                                                <span>Санкт-Петербург → 25 городов РФ</span>
+                                                            </div>
+                                                            <div class="d-flex justify-content-between text-center mt-3">
+                                                                <div>
+                                                                    <small class="text-muted d-block">Рейсов</small>
+                                                                    <strong>200+</strong>
+                                                                </div>
+                                                                <div>
+                                                                    <small class="text-muted d-block">Пройдено</small>
+                                                                    <strong>65 000 км</strong>
+                                                                </div>
+                                                                <div>
+                                                                    <small class="text-muted d-block">Срок</small>
+                                                                    <strong>12 мес.</strong>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="projects/project-003.html" class="btn btn-primary w-100">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Проект 4 -->
+                                <div class="col-lg-6">
+                                    <div class="card border-0 shadow-lg h-100 overflow-hidden">
+                                        <div class="row g-0 h-100">
+                                            <div class="col-md-5">
+                                                <div style="width: 100%; height: 100%; min-height: 250px; background-color: #e9ecef;"></div>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body h-100 d-flex flex-column">
+                                                    <div class="d-flex align-items-center mb-2">
+                                                        <h4 class="card-title mb-0">Стройматериалы по ЮФО</h4>
+                                                        <span class="badge bg-success ms-2">Завершен</span>
+                                                    </div>
+                                                    <p class="card-text text-muted mb-3">Регулярные поставки стройматериалов для строительной компании</p>
+                                                    <div class="mt-auto">
+                                                        <div class="mb-3">
+                                                            <div class="d-flex align-items-center mb-2">
+                                                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                                                <span>Москва → Краснодар → Ростов</span>
+                                                            </div>
+                                                            <div class="d-flex justify-content-between text-center mt-3">
+                                                                <div>
+                                                                    <small class="text-muted d-block">Рейсов</small>
+                                                                    <strong>75</strong>
+                                                                </div>
+                                                                <div>
+                                                                    <small class="text-muted d-block">Пройдено</small>
+                                                                    <strong>30 000 км</strong>
+                                                                </div>
+                                                                <div>
+                                                                    <small class="text-muted d-block">Срок</small>
+                                                                    <strong>4 мес.</strong>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="projects/project-004.html" class="btn btn-primary w-100">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Назад</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Вперёд</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 2: Выполненные рейсы -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold mb-3">Выполненные рейсы</h2>
+                <p class="text-muted">Ежедневная работа нашего автопарка</p>
+            </div>
+
+            <div class="accordion" id="deliveryAccordion">
+                <!-- Рейс 1 -->
+                <div class="accordion-item border-0 shadow-sm mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#delivery1">
+                            <div class="d-flex w-100 justify-content-between align-items-center pe-3">
+                                <span><strong>Москва → Казань</strong></span>
+                                <span class="text-muted small">1 200 км • 15.03.2025</span>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="delivery1" class="accordion-collapse collapse" data-bs-parent="#deliveryAccordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div style="width: 100%; height: 200px; background-color: #dee2e6; border-radius: 8px;"></div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="row g-3">
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Тип транспорта</small>
+                                            <strong>Фура 20 тонн</strong>
+                                        </div>
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Груз</small>
+                                            <strong>Стройматериалы, 18 т</strong>
+                                        </div>
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Время в пути</small>
+                                            <strong>14 часов</strong>
+                                        </div>
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Стоимость</small>
+                                            <strong>85 000 ₽</strong>
+                                        </div>
+                                        <div class="col-12">
+                                            <small class="text-muted d-block">Особенности</small>
+                                            <span class="badge bg-secondary">Стандартная перевозка</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -81,35 +304,44 @@
                     </div>
                 </div>
 
-                <!-- Case 2 -->
-                <div class="col-lg-6 portfolio-item">
-                    <div class="card border-0 shadow-lg h-100 overflow-hidden">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-5">
-                                <div style="width: 100%; height: 100%; background-color: #e9ecef;"></div>
+                <!-- Рейс 2 -->
+                <div class="accordion-item border-0 shadow-sm mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#delivery2">
+                            <div class="d-flex w-100 justify-content-between align-items-center pe-3">
+                                <span><strong>Санкт-Петербург → Самара</strong></span>
+                                <span class="text-muted small">1 800 км • 12.03.2025</span>
                             </div>
-                            <div class="col-md-7">
-                                <div class="card-body h-100 d-flex flex-column">
-                                    <h4 class="card-title mb-3">Перевозка промышленного оборудования</h4>
-                                    <p class="card-text">Доставка крупногабаритного оборудования для металлургического завода весом до 50 тонн.</p>
-                                    <div class="mt-auto">
-                                        <div class="row text-center mb-3">
-                                            <div class="col-4">
-                                                <small class="text-muted">Вес</small>
-                                                <div class="fw-bold">50т</div>
-                                            </div>
-                                            <div class="col-4">
-                                                <small class="text-muted">Расстояние</small>
-                                                <div class="fw-bold">2500км</div>
-                                            </div>
-                                            <div class="col-4">
-                                                <small class="text-muted">Сложность</small>
-                                                <div class="fw-bold">Высокая</div>
-                                            </div>
+                        </button>
+                    </h2>
+                    <div id="delivery2" class="accordion-collapse collapse" data-bs-parent="#deliveryAccordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div style="width: 100%; height: 200px; background-color: #dee2e6; border-radius: 8px;"></div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="row g-3">
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Тип транспорта</small>
+                                            <strong>Рефрижератор 15 т</strong>
                                         </div>
-                                        <button class="btn btn-outline-warning w-100" data-bs-toggle="modal" data-bs-target="#caseModal2">
-                                            Подробнее
-                                        </button>
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Груз</small>
+                                            <strong>Продукты питания, 12 т</strong>
+                                        </div>
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Время в пути</small>
+                                            <strong>20 часов</strong>
+                                        </div>
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Температурный режим</small>
+                                            <strong>-18°C</strong>
+                                        </div>
+                                        <div class="col-12">
+                                            <small class="text-muted d-block">Особенности</small>
+                                            <span class="badge bg-info">❄️ Температурный режим</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -117,71 +349,44 @@
                     </div>
                 </div>
 
-                <!-- Case 3 -->
-                <div class="col-lg-6 portfolio-item">
-                    <div class="card border-0 shadow-lg h-100 overflow-hidden">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-5">
-                                <div style="width: 100%; height: 100%; background-color: #e9ecef;"></div>
+                <!-- Рейс 3 -->
+                <div class="accordion-item border-0 shadow-sm mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#delivery3">
+                            <div class="d-flex w-100 justify-content-between align-items-center pe-3">
+                                <span><strong>Москва → Краснодар</strong></span>
+                                <span class="text-muted small">1 500 км • 10.03.2025</span>
                             </div>
-                            <div class="col-md-7">
-                                <div class="card-body h-100 d-flex flex-column">
-                                    <h4 class="card-title mb-3">Доставка замороженных продуктов</h4>
-                                    <p class="card-text">Организация холодовой цепи для доставки замороженных продуктов в федеральную торговую сеть.</p>
-                                    <div class="mt-auto">
-                                        <div class="row text-center mb-3">
-                                            <div class="col-4">
-                                                <small class="text-muted">Температура</small>
-                                                <div class="fw-bold">-18°C</div>
-                                            </div>
-                                            <div class="col-4">
-                                                <small class="text-muted">Города</small>
-                                                <div class="fw-bold">25</div>
-                                            </div>
-                                            <div class="col-4">
-                                                <small class="text-muted">Качество</small>
-                                                <div class="fw-bold">100%</div>
-                                            </div>
-                                        </div>
-                                        <button class="btn btn-outline-info w-100" data-bs-toggle="modal" data-bs-target="#caseModal3">
-                                            Подробнее
-                                        </button>
-                                    </div>
+                        </button>
+                    </h2>
+                    <div id="delivery3" class="accordion-collapse collapse" data-bs-parent="#deliveryAccordion">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div style="width: 100%; height: 200px; background-color: #dee2e6; border-radius: 8px;"></div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Case 4 -->
-                <div class="col-lg-6 portfolio-item">
-                    <div class="card border-0 shadow-lg h-100 overflow-hidden">
-                        <div class="row g-0 h-100">
-                            <div class="col-md-5">
-                                <div style="width: 100%; height: 100%; background-color: #e9ecef;"></div>
-                            </div>
-                            <div class="col-md-7">
-                                <div class="card-body h-100 d-flex flex-column">
-                                    <h4 class="card-title mb-3">Логистика для интернет-магазина</h4>
-                                    <p class="card-text">Создание системы экспресс-доставки для крупного интернет-магазина с доставкой в день заказа.</p>
-                                    <div class="mt-auto">
-                                        <div class="row text-center mb-3">
-                                            <div class="col-4">
-                                                <small class="text-muted">Заказов/день</small>
-                                                <div class="fw-bold">1000+</div>
-                                            </div>
-                                            <div class="col-4">
-                                                <small class="text-muted">Скорость</small>
-                                                <div class="fw-bold">1 день</div>
-                                            </div>
-                                            <div class="col-4">
-                                                <small class="text-muted">Покрытие</small>
-                                                <div class="fw-bold">5 городов</div>
-                                            </div>
+                                <div class="col-md-8">
+                                    <div class="row g-3">
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Тип транспорта</small>
+                                            <strong>Длинномер 25 тонн</strong>
                                         </div>
-                                        <button class="btn btn-outline-danger w-100" data-bs-toggle="modal" data-bs-target="#caseModal4">
-                                            Подробнее
-                                        </button>
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Груз</small>
+                                            <strong>Металлоконструкции, 22 т</strong>
+                                        </div>
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Время в пути</small>
+                                            <strong>18 часов</strong>
+                                        </div>
+                                        <div class="col-6">
+                                            <small class="text-muted d-block">Стоимость</small>
+                                            <strong>120 000 ₽</strong>
+                                        </div>
+                                        <div class="col-12">
+                                            <small class="text-muted d-block">Особенности</small>
+                                            <span class="badge bg-warning">⚠️ Негабаритный груз</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +398,7 @@
     </section>
 
     <!-- Client Testimonials -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-white">
         <div class="container">
             <h2 class="text-center mb-5">Отзывы клиентов</h2>
             <div class="row g-4">
@@ -295,6 +500,41 @@
     }
     .sticky-top {
         z-index: 1020;
+    }
+    /* Multi-item Carousel styles */
+    #projectsCarousel .carousel-item {
+        display: none;
+        transition: transform 0.6s ease-in-out;
+    }
+    #projectsCarousel .carousel-item.active {
+        display: block;
+    }
+    #projectsCarousel .carousel-control-prev,
+    #projectsCarousel .carousel-control-next {
+        width: 50px;
+        height: 50px;
+        background-color: rgba(0, 123, 255, 0.8);
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+    #projectsCarousel .carousel-control-prev {
+        left: -25px;
+    }
+    #projectsCarousel .carousel-control-next {
+        right: -25px;
+    }
+    #projectsCarousel .carousel-control-prev:hover,
+    #projectsCarousel .carousel-control-next:hover {
+        background-color: rgba(0, 123, 255, 1);
+        transform: translateY(-50%) scale(1.1);
+    }
+    #projectsCarousel .carousel-control-prev-icon,
+    #projectsCarousel .carousel-control-next-icon {
+        width: 24px;
+        height: 24px;
     }
     </style>
 
