@@ -40,3 +40,4 @@ node_modules/
 github-mcp-server/
 mcp-servers/
 playwright-mcp/ 
+.env
