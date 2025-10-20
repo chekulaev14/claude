@@ -8,7 +8,9 @@ class TemplateLoader {
     // Определяем базовый путь в зависимости от текущей страницы
     getBasePath() {
         const path = window.location.pathname;
-        if (path.includes('/pages/')) {
+        if (path.includes('/pages/projects/')) {
+            return '../../'; // Для страниц в папке pages/projects
+        } else if (path.includes('/pages/')) {
             return '../'; // Для страниц в папке pages
         }
         return './'; // Для главной страницы
@@ -53,8 +55,26 @@ class TemplateLoader {
         const header = document.querySelector('header');
         if (!header) return;
 
+        // Исправляем пути для страниц в папке pages/projects
+        if (this.basePath === '../../') {
+            // Логотип - ведет на главную страницу
+            const logo = header.querySelector('.navbar-brand');
+            if (logo) logo.href = '../../';
+
+            const logoImg = header.querySelector('.navbar-brand img');
+            if (logoImg) logoImg.src = '../../assets/images/color_big.png';
+
+            // Обновляем все ссылки меню - просто добавляем ../ в начало
+            const allLinks = header.querySelectorAll('.dropdown-item, .nav-link:not(.dropdown-toggle)');
+            allLinks.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href && href.startsWith('/pages/')) {
+                    link.href = '..' + href;
+                }
+            });
+        }
         // Исправляем пути для страниц в папке pages
-        if (this.basePath === '../') {
+        else if (this.basePath === '../') {
             // Логотип - ведет на главную страницу
             const logo = header.querySelector('.navbar-brand');
             if (logo) logo.href = '../';
