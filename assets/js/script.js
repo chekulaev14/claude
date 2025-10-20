@@ -55,32 +55,34 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 
-    // Initialize Swiper carousel for services
-    const servicesSwiper = new Swiper('.services-swiper', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        breakpoints: {
-            768: {
-                slidesPerView: 2,
+    // Initialize Swiper carousel for services (only if Swiper is loaded and element exists)
+    if (typeof Swiper !== 'undefined' && document.querySelector('.services-swiper')) {
+        const servicesSwiper = new Swiper('.services-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
             },
-            992: {
-                slidesPerView: 3,
-            }
-        },
-        autoplay: {
-            delay: 15000,
-            disableOnInteraction: false,
-        },
-    });
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                },
+                992: {
+                    slidesPerView: 3,
+                }
+            },
+            autoplay: {
+                delay: 15000,
+                disableOnInteraction: false,
+            },
+        });
+    }
 
     // Contact form handling
     const contactForm = document.getElementById('contactForm');
