@@ -20,7 +20,7 @@ body {
 
 /* Wide container for projects section - 50% wider than standard */
 .container-wide {
-    max-width: 2100px;
+    max-width: 2100px !important;
     margin: 0 auto;
     padding: 0 20px;
 }
