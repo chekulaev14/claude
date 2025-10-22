@@ -110,7 +110,7 @@ async function main() {
   }
 
   const startIndex = progress.lastProcessedIndex + 1;
-  const batchSize = 95;
+  const batchSize = 89;
   const endIndex = Math.min(startIndex + batchSize, validClients.length);
 
   console.log(`📊 Всего клиентов: ${clients.length}`);
