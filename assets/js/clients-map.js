@@ -29,6 +29,11 @@ function initMap() {
     // Создать info window
     infoWindow = new google.maps.InfoWindow();
 
+    // Слушатель изменения зума для масштабирования маркеров
+    map.addListener('zoom_changed', () => {
+        updateMarkerScale();
+    });
+
     // Загрузить данные клиентов
     loadClientsData();
 }
@@ -88,6 +93,36 @@ function getMarkerColor(count) {
     if (count >= 50) return '#8b5cf6'; // Фиолетовый
     if (count >= 11) return '#3b82f6'; // Синий
     return '#10b981'; // Зеленый
+}
+
+/**
+ * Обновить масштаб маркеров при изменении зума
+ */
+function updateMarkerScale() {
+    const zoom = map.getZoom();
+    const defaultZoom = 4; // Начальный зум
+
+    // Рассчитать масштаб: при зуме больше defaultZoom - уменьшаем маркеры
+    let scale;
+    if (zoom <= defaultZoom) {
+        // При отдалении или дефолтном зуме - базовый размер
+        scale = 1.5;
+    } else {
+        // При приближении - уменьшаем маркеры
+        // Формула: чем больше зум, тем меньше маркер
+        scale = 1.5 / (1 + (zoom - defaultZoom) * 0.15);
+    }
+
+    // Обновить все маркеры
+    markers.forEach(marker => {
+        const currentIcon = marker.getIcon();
+        if (currentIcon && currentIcon.path) {
+            marker.setIcon({
+                ...currentIcon,
+                scale: scale
+            });
+        }
+    });
 }
 
 /**

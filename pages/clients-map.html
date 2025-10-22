@@ -112,6 +112,15 @@
                 <h1 class="section-title">География наших клиентов</h1>
                 <p class="section-subtitle">Интерактивная карта клиентов ТК Динамика по всей России</p>
 
+                <!-- Уведомление о заполнении -->
+                <div class="alert alert-info d-flex align-items-center mb-4" role="alert">
+                    <i class="bi bi-info-circle-fill me-3 fs-4"></i>
+                    <div>
+                        <strong>Страница находится на этапе заполнения.</strong>
+                        <br>Плановая дата окончания работ: <strong>1 ноября 2025</strong>
+                    </div>
+                </div>
+
                 <!-- Статистика -->
                 <div class="map-stats mb-4">
                     <div class="row">
@@ -126,31 +135,6 @@
                         <div class="col-md-4 stat-item">
                             <span class="stat-number" id="totalRegions">-</span>
                             <span class="stat-label">Регионов</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Легенда -->
-                <div class="map-legend">
-                    <h5 class="mb-3">Легенда карты</h5>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="legend-item">
-                                <div class="legend-marker small">5</div>
-                                <span>1-10 клиентов</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="legend-item">
-                                <div class="legend-marker medium">25</div>
-                                <span>11-50 клиентов</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="legend-item">
-                                <div class="legend-marker large">75</div>
-                                <span>50+ клиентов</span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -176,6 +160,31 @@
                         <a href="portfolio.html" class="btn btn-outline-primary btn-lg w-100">
                             🚚 Наши проекты
                         </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Форма обратной связи -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body p-4">
+                                <h3 class="text-center mb-4">Обратная связь</h3>
+                                <p class="text-center text-muted mb-4">Оставьте ваш номер телефона, и мы вам перезвоним</p>
+                                <form id="callbackForm">
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Номер телефона</label>
+                                        <input type="tel" class="form-control form-control-lg" id="phone" placeholder="+7 (___) ___-__-__" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-danger btn-lg w-100">
+                                        <i class="bi bi-telephone-fill me-2"></i>Позвоните мне
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

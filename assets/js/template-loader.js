@@ -64,12 +64,13 @@ class TemplateLoader {
             const logoImg = header.querySelector('.navbar-brand img');
             if (logoImg) logoImg.src = '../../assets/images/color_big.png';
 
-            // Обновляем все ссылки меню - просто добавляем ../ в начало
+            // Обновляем все ссылки меню - убираем / в начале для относительных путей
             const allLinks = header.querySelectorAll('.dropdown-item, .nav-link:not(.dropdown-toggle)');
             allLinks.forEach(link => {
                 const href = link.getAttribute('href');
                 if (href && href.startsWith('/pages/')) {
-                    link.href = '..' + href;
+                    // /pages/portfolio.html → ../portfolio.html
+                    link.href = '..' + href.replace('/pages', '');
                 }
             });
         }
