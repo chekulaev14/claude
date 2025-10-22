@@ -698,10 +698,10 @@
             <div class="form-centered">
                 <h3>Оставить заявку</h3>
                 <p>Позвоним в течение 5 минут</p>
-                <form>
+                <form id="callbackForm" class="callback-form">
                     <div class="form-group">
                         <label>Телефон</label>
-                        <input type="tel" placeholder="+7 (999) 999-99-99" value="+7 " required>
+                        <input type="tel" id="callbackPhone" name="phone" placeholder="+7 (999) 999-99-99" value="+7 " required>
                     </div>
                     <button type="submit" class="btn-green">Позвоните мне</button>
                     <a href="calculator-new.html" class="btn-outline-green">Заполнить подробную форму</a>
@@ -751,6 +751,7 @@
     <!-- Template Loader -->
     <script src="assets/js/template-loader.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/forms-handler.js"></script>
 
     <script>
         // Accordion functionality

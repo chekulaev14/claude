@@ -514,9 +514,9 @@
                     <h2 class="mb-4">Любой груз, любой трансопрт, любой маршрут</h2>
                     <p class="lead mb-4">Оставляйте заявку, сделаем расчет!</p>
                     <div style="max-width: 400px; margin: 0 auto;">
-                        <form>
+                        <form id="portfolioCallbackForm" class="callback-form">
                             <div class="mb-3">
-                                <input type="tel" class="form-control form-control-lg" placeholder="+7 (___) ___-__-__" required>
+                                <input type="tel" id="portfolioPhone" name="phone" class="form-control form-control-lg" placeholder="+7 (___) ___-__-__" value="+7 " required>
                             </div>
                             <button type="submit" class="btn btn-light btn-lg w-100">
                                 <i class="bi bi-telephone-fill me-2"></i>Позвоните мне
@@ -535,6 +535,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/template-loader.js"></script>
     <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/forms-handler.js"></script>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

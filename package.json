@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@modelcontextprotocol/server-github": "^2025.4.8",
-    "ai": "^3.2.0"
+    "ai": "^3.2.0",
+    "nodemailer": "^7.0.9"
   },
   "devDependencies": {
     "shadcn": "^3.4.2"
