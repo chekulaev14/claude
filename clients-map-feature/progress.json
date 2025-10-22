@@ -1,12 +1,12 @@
 {
-  "lastProcessedIndex": 240,
-  "lastProcessedCompany": "КАПИТАЛ ",
-  "lastProcessedInn": "4716046476",
-  "totalProcessed": 235,
+  "lastProcessedIndex": 3,
+  "lastProcessedCompany": " КМЗ-Спецмаш",
+  "lastProcessedInn": "3305709037",
+  "totalProcessed": 238,
   "totalInFile": 793,
-  "remaining": 552,
-  "note": "Обработаны компании с индексами 146-240. Следующий запуск начнётся с индекса 241.",
-  "lastUpdate": "2025-10-22T09:22:57.266Z",
+  "remaining": 789,
+  "note": "Обработаны компании с индексами 0-3. Следующий запуск начнётся с индекса 4.",
+  "lastUpdate": "2025-10-22T10:31:09.145Z",
   "processedCompanies": [
     {
       "index": 0,
@@ -1182,6 +1182,21 @@
       "index": 240,
       "name": "КАПИТАЛ ",
       "inn": "4716046476"
+    },
+    {
+      "index": 1,
+      "name": " ДЭП № 40",
+      "inn": "4011022162"
+    },
+    {
+      "index": 2,
+      "name": " ЗАВОД ПРОИЗВОДСТВА ИЗВЕСТИ",
+      "inn": "3317000830"
+    },
+    {
+      "index": 3,
+      "name": " КМЗ-Спецмаш",
+      "inn": "3305709037"
     }
   ]
 }

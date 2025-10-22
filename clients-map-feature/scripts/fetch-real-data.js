@@ -240,13 +240,55 @@ async function main() {
   // Сохранить результаты
   console.log('--- ЭТАП 4: Сохранение данных ---\n');
 
-  // Полные данные
+  // Полные данные - ОБЪЕДИНЯЕМ с существующими
   const fullDataPath = path.join(OUTPUT_DIR, 'clients-map-data.json');
-  fs.writeFileSync(fullDataPath, JSON.stringify(mapData, null, 2));
+  let existingData = [];
+
+  if (fs.existsSync(fullDataPath)) {
+    existingData = JSON.parse(fs.readFileSync(fullDataPath, 'utf8'));
+    console.log(`📂 Загружены существующие данные: ${existingData.length} городов`);
+  }
+
+  // Объединяем данные по городам
+  const mergedMap = new Map();
+
+  // Добавляем существующие данные
+  existingData.forEach(city => {
+    const key = `${city.city}|${city.region}`;
+    mergedMap.set(key, city);
+  });
+
+  // Добавляем/обновляем новыми данными
+  mapData.forEach(city => {
+    const key = `${city.city}|${city.region}`;
+
+    if (mergedMap.has(key)) {
+      // Город уже есть - объединяем клиентов
+      const existing = mergedMap.get(key);
+      const existingInns = new Set(existing.clients.map(c => c.inn));
+
+      // Добавляем только новых клиентов (по ИНН)
+      city.clients.forEach(client => {
+        if (!existingInns.has(client.inn)) {
+          existing.clients.push(client);
+          existingInns.add(client.inn);
+        }
+      });
+
+      existing.count = existing.clients.length;
+    } else {
+      // Новый город - добавляем целиком
+      mergedMap.set(key, city);
+    }
+  });
+
+  const mergedData = Array.from(mergedMap.values());
+
+  fs.writeFileSync(fullDataPath, JSON.stringify(mergedData, null, 2));
   console.log(`✓ Сохранено: clients-map-data.json`);
 
   // Упрощенные данные (без списка клиентов)
-  const simpleData = mapData.map(r => ({
+  const simpleData = mergedData.map(r => ({
     city: r.city,
     region: r.region,
     lat: r.lat,
@@ -259,12 +301,14 @@ async function main() {
   console.log(`✓ Сохранено: clients-map-simple.json`);
 
   // Статистика
-  const totalClients = mapData.reduce((sum, city) => sum + city.count, 0);
-  const uniqueRegions = new Set(mapData.map(city => city.region)).size;
+  const totalClients = mergedData.reduce((sum, city) => sum + city.count, 0);
+  const uniqueRegions = new Set(mergedData.map(city => city.region)).size;
+  const newClients = mapData.reduce((sum, city) => sum + city.count, 0);
 
   console.log('\n--- ИТОГО ---');
-  console.log(`📊 Клиентов на карте: ${totalClients}`);
-  console.log(`📍 Городов: ${mapData.length}`);
+  console.log(`➕ Новых клиентов в этом запуске: ${newClients}`);
+  console.log(`📊 Всего клиентов на карте: ${totalClients}`);
+  console.log(`📍 Городов: ${mergedData.length}`);
   console.log(`🗺️  Регионов: ${uniqueRegions}`);
   console.log('\n✅ Готово!');
 }
