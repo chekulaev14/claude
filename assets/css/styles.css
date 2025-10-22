@@ -18,6 +18,13 @@ body {
     padding: 0 20px;
 }
 
+/* Wide container for projects section - 50% wider than standard */
+.container-wide {
+    max-width: 2100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 /* Contact Form Section */
 .contact-form-section {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
