@@ -64,13 +64,13 @@ class TemplateLoader {
             const logoImg = header.querySelector('.navbar-brand img');
             if (logoImg) logoImg.src = '../../assets/images/color_big.png';
 
-            // Обновляем все ссылки меню - убираем / в начале для относительных путей
+            // Обновляем все ссылки меню для pages/projects
             const allLinks = header.querySelectorAll('.dropdown-item, .nav-link:not(.dropdown-toggle)');
             allLinks.forEach(link => {
                 const href = link.getAttribute('href');
-                if (href && href.startsWith('/pages/')) {
-                    // /pages/portfolio.html → ../portfolio.html
-                    link.href = '..' + href.replace('/pages', '');
+                if (href && href.endsWith('.html') && !href.startsWith('http')) {
+                    // clients.html → ../clients.html
+                    link.href = '../' + href;
                 }
             });
         }
@@ -83,12 +83,11 @@ class TemplateLoader {
             const logoImg = header.querySelector('.navbar-brand img');
             if (logoImg) logoImg.src = '../assets/images/color_big.png';
 
-            // Ссылки в dropdown остаются как есть (относительные пути в папке pages)
-            // Основные ссылки меню остаются как есть (относительные пути в папке pages)
+            // Ссылки уже правильные для страниц pages (clients.html, portfolio.html, etc.)
         } else {
             // Для главной страницы
             const logo = header.querySelector('.navbar-brand');
-            if (logo) logo.href = '/';
+            if (logo) logo.href = './';
 
             const logoImg = header.querySelector('.navbar-brand img');
             if (logoImg) logoImg.src = 'assets/images/color_big.png';
@@ -97,7 +96,7 @@ class TemplateLoader {
             const allLinks = header.querySelectorAll('.dropdown-item, .nav-link:not(.dropdown-toggle)');
             allLinks.forEach(link => {
                 const href = link.getAttribute('href');
-                if (href && href.endsWith('.html') && !href.includes('pages/')) {
+                if (href && href.endsWith('.html') && !href.startsWith('http')) {
                     link.href = 'pages/' + href;
                 }
             });
