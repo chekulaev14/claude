@@ -1,8 +1,13 @@
 {
   "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.35",
+    "@anthropic-ai/sdk": "^0.67.0",
     "@modelcontextprotocol/server-github": "^2025.4.8",
-    "ai": "^3.2.0",
-    "nodemailer": "^7.0.9"
+    "ai": "^5.0.76",
+    "llm-scraper": "^1.6.0",
+    "nodemailer": "^7.0.9",
+    "playwright": "^1.56.1",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "shadcn": "^3.4.2"
