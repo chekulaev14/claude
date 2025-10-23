@@ -28,10 +28,16 @@
         .hero {
             min-height: 95vh;
             background: linear-gradient(135deg, rgba(255,255,255,0.96) 0%, rgba(245,245,245,0.93) 100%),
-                        url('https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1920&q=80') center/cover;
+                        url('assets/images/hero-bg.webp') center/cover;
             padding: 100px 5%;
             padding-top: 140px;
             position: relative;
+        }
+
+        /* Fallback для старых браузеров */
+        .no-webp .hero {
+            background: linear-gradient(135deg, rgba(255,255,255,0.96) 0%, rgba(245,245,245,0.93) 100%),
+                        url('assets/images/hero-bg-original.jpg') center/cover;
         }
 
         .hero::before {
