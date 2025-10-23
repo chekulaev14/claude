@@ -70,8 +70,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (dateInput) data.departureDate = dateInput.value;
             }
 
-            // Send to Netlify Function
-            const response = await fetch('/.netlify/functions/send-email', {
+            // Add Web3Forms access key
+            data.access_key = '2d53317e-70c5-4989-9fd8-c9beb10a4491';
+
+            // Send to Web3Forms
+            const response = await fetch('https://api.web3forms.com/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
