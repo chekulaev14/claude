@@ -167,14 +167,33 @@ document.addEventListener('DOMContentLoaded', function() {
         mapCallbackForm.addEventListener('submit', (e) => handleFormSubmit(e, 'callback-clients-map'));
     }
 
-    // 7. Mobile callback modal
-    const mobileCallbackForm = document.getElementById('mobileCallbackForm');
-    if (mobileCallbackForm) {
-        const phoneInput = mobileCallbackForm.querySelector('#mobileCallbackPhone');
-        if (phoneInput) formatPhoneNumber(phoneInput);
+    // 7. Mobile callback modal (инициализируется позже, после загрузки footer)
+    function initMobileCallbackForm() {
+        const mobileCallbackForm = document.getElementById('mobileCallbackForm');
+        if (mobileCallbackForm && !mobileCallbackForm.dataset.initialized) {
+            const phoneInput = mobileCallbackForm.querySelector('#mobileCallbackPhone');
+            if (phoneInput) formatPhoneNumber(phoneInput);
 
-        mobileCallbackForm.addEventListener('submit', (e) => handleFormSubmit(e, 'callback-mobile'));
+            mobileCallbackForm.addEventListener('submit', (e) => handleFormSubmit(e, 'callback-mobile'));
+            mobileCallbackForm.dataset.initialized = 'true';
+            console.log('✅ Mobile callback form initialized');
+        }
     }
+
+    // Пробуем инициализировать сразу
+    initMobileCallbackForm();
+
+    // Инициализируем при открытии модального окна (на случай если footer еще не загружен)
+    document.addEventListener('shown.bs.modal', function(e) {
+        if (e.target.id === 'mobileCallbackModal') {
+            initMobileCallbackForm();
+        }
+    });
+
+    // Инициализируем после небольшой задержки (на случай если footer загружается)
+    setTimeout(() => {
+        initMobileCallbackForm();
+    }, 500);
 
     // Handle all .callback-form class (fallback for any callback forms)
     document.querySelectorAll('.callback-form').forEach(form => {
