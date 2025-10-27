@@ -93,6 +93,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (phoneInput) {
                     phoneInput.value = '+7 ';
                 }
+
+                // Close modal if form is inside a modal
+                const modal = form.closest('.modal');
+                if (modal) {
+                    const modalInstance = bootstrap.Modal.getInstance(modal);
+                    if (modalInstance) {
+                        modalInstance.hide();
+                    }
+                }
             } else {
                 // Error from server
                 throw new Error(result.error || 'Ошибка отправки');
@@ -164,14 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const phoneInput = mobileCallbackForm.querySelector('#mobileCallbackPhone');
         if (phoneInput) formatPhoneNumber(phoneInput);
 
-        mobileCallbackForm.addEventListener('submit', async (e) => {
-            await handleFormSubmit(e, 'callback-mobile');
-            // Close modal after successful submission
-            const modal = bootstrap.Modal.getInstance(document.getElementById('mobileCallbackModal'));
-            if (modal) {
-                modal.hide();
-            }
-        });
+        mobileCallbackForm.addEventListener('submit', (e) => handleFormSubmit(e, 'callback-mobile'));
     }
 
     // Handle all .callback-form class (fallback for any callback forms)
