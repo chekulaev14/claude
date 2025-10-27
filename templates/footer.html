@@ -27,3 +27,24 @@
         </div>
     </div>
 </footer>
+
+<!-- Mobile Callback Modal -->
+<div class="modal fade" id="mobileCallbackModal" tabindex="-1" aria-labelledby="mobileCallbackModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mobileCallbackModalLabel">Обратный звонок</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="mobileCallbackForm" class="callback-form">
+                    <div class="mb-3">
+                        <label for="mobileCallbackPhone" class="form-label">Ваш телефон</label>
+                        <input type="tel" class="form-control" id="mobileCallbackPhone" name="phone" placeholder="+7 (999) 999-99-99" value="+7 " required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Позвоните мне!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

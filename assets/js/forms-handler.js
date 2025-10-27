@@ -158,6 +158,22 @@ document.addEventListener('DOMContentLoaded', function() {
         mapCallbackForm.addEventListener('submit', (e) => handleFormSubmit(e, 'callback-clients-map'));
     }
 
+    // 7. Mobile callback modal
+    const mobileCallbackForm = document.getElementById('mobileCallbackForm');
+    if (mobileCallbackForm) {
+        const phoneInput = mobileCallbackForm.querySelector('#mobileCallbackPhone');
+        if (phoneInput) formatPhoneNumber(phoneInput);
+
+        mobileCallbackForm.addEventListener('submit', async (e) => {
+            await handleFormSubmit(e, 'callback-mobile');
+            // Close modal after successful submission
+            const modal = bootstrap.Modal.getInstance(document.getElementById('mobileCallbackModal'));
+            if (modal) {
+                modal.hide();
+            }
+        });
+    }
+
     // Handle all .callback-form class (fallback for any callback forms)
     document.querySelectorAll('.callback-form').forEach(form => {
         // Skip if already handled by ID
@@ -166,7 +182,8 @@ document.addEventListener('DOMContentLoaded', function() {
             form.id === 'callbackForm' ||
             form.id === 'portfolioCallbackForm' ||
             form.id === 'faqCallbackForm' ||
-            form.id === 'mapCallbackForm'
+            form.id === 'mapCallbackForm' ||
+            form.id === 'mobileCallbackForm'
         )) {
             return;
         }
