@@ -6,6 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
         input.addEventListener('input', function(e) {
             let value = e.target.value.replace(/\D/g, '');
 
+            // Ограничиваем максимум 11 цифр (7 + 10 цифр номера)
+            if (value.length > 11) {
+                value = value.slice(0, 11);
+            }
+
             if (value.length > 0) {
                 if (value[0] === '8') {
                     value = '7' + value.slice(1);
@@ -103,45 +108,43 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (dateInput) data.departureDate = dateInput.value;
             }
 
-            // СРАЗУ отправляем в Telegram (резервный канал)
+            // Отправляем в Telegram (основной канал)
             sendToTelegram(data);
 
-            // Add Web3Forms access key
-            data.access_key = '2d53317e-70c5-4989-9fd8-c9beb10a4491';
+            // Пробуем отправить в Web3Forms (резервный канал, не критично если упадет)
+            try {
+                data.access_key = '2d53317e-70c5-4989-9fd8-c9beb10a4491';
+                await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data),
+                    keepalive: true
+                }).catch(() => {
+                    // Игнорируем ошибки Web3Forms (может быть заблокирован)
+                    console.log('Web3Forms недоступен, заявка отправлена в Telegram');
+                });
+            } catch (e) {
+                // Web3Forms не критичен, продолжаем
+            }
 
-            // Send to Web3Forms
-            const response = await fetch('https://api.web3forms.com/submit', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(data),
-                keepalive: true
-            });
+            // Всегда показываем успех (Telegram - основной канал)
+            alert('✅ Заявка успешно отправлена!\n\nМы свяжемся с вами в течение 5 минут.');
+            form.reset();
 
-            const result = await response.json();
+            // Reset phone input to +7
+            if (phoneInput) {
+                phoneInput.value = '+7 ';
+            }
 
-            if (response.ok) {
-                // Success
-                alert('✅ Заявка успешно отправлена!\n\nМы свяжемся с вами в течение 5 минут.');
-                form.reset();
-
-                // Reset phone input to +7
-                if (phoneInput) {
-                    phoneInput.value = '+7 ';
+            // Close modal if form is inside a modal
+            const modal = form.closest('.modal');
+            if (modal) {
+                const modalInstance = bootstrap.Modal.getInstance(modal);
+                if (modalInstance) {
+                    modalInstance.hide();
                 }
-
-                // Close modal if form is inside a modal
-                const modal = form.closest('.modal');
-                if (modal) {
-                    const modalInstance = bootstrap.Modal.getInstance(modal);
-                    if (modalInstance) {
-                        modalInstance.hide();
-                    }
-                }
-            } else {
-                // Error from server
-                throw new Error(result.error || 'Ошибка отправки');
             }
 
         } catch (error) {
