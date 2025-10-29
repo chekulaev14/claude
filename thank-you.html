@@ -223,7 +223,8 @@
 
             <div class="additional-form">
                 <h3 id="formTitle">💡 Хотите уточнить детали?</h3>
-                <p>Это поможет нам подготовить более точное предложение (необязательно)</p>
+                <p>Ваша заявка уже принята! Мы обязательно свяжемся с вами в ближайшее время.</p>
+                <p style="margin-bottom: 25px; font-size: 14px; color: #636e72;">Дополнительная информация необязательна, но поможет нам подготовить более точное предложение.</p>
 
                 <form id="additionalForm">
                     <!-- Поля будут добавлены динамически -->
@@ -231,12 +232,12 @@
 
                     <div class="form-group">
                         <label>Тип груза</label>
-                        <input type="text" name="cargoType" placeholder="Например: паллеты, оборудование, мебель">
+                        <input type="text" name="cargoType" placeholder="Например: стройматериалы, оборудование, мебель, металлоизделия">
                     </div>
 
                     <div class="form-group">
                         <label>Вес груза (кг)</label>
-                        <input type="number" name="weight" placeholder="Например: 500">
+                        <input type="text" name="weight" placeholder="Например: 500" pattern="[0-9]*" inputmode="numeric">
                     </div>
 
                     <div class="form-group">
@@ -246,8 +247,7 @@
                             <option value="gazelle">Газель (до 1.5 тонн)</option>
                             <option value="truck5t">Грузовик 5 тонн</option>
                             <option value="truck10t">Грузовик 10 тонн</option>
-                            <option value="truck20t">Фура 20 тонн</option>
-                            <option value="longtruck">Длинномер</option>
+                            <option value="truck20t">Фура или длинномер 20 тонн</option>
                         </select>
                     </div>
 
@@ -268,6 +268,7 @@
         const fromCity = params.get('from');
         const toCity = params.get('to');
         const date = params.get('date');
+        const utmTerm = params.get('utm_term');
 
         // Отображаем информацию о заявке
         const leadInfoDiv = document.getElementById('leadInfo');
@@ -285,6 +286,9 @@
         if (date) {
             infoHTML += `<div class="info-item"><span class="info-icon">📅</span> Дата отправки: ${date}</div>`;
         }
+        if (utmTerm) {
+            infoHTML += `<div class="info-item"><span class="info-icon">🔑</span> Ключевое слово: ${decodeURIComponent(utmTerm)}</div>`;
+        }
 
         leadInfoDiv.innerHTML = infoHTML;
 
@@ -293,6 +297,14 @@
 
         if (!fromCity || !toCity || !date) {
             document.getElementById('formTitle').textContent = '💡 Добавьте маршрут для точного расчета';
+            // Обновляем текст под заголовком
+            const formTexts = document.querySelectorAll('.additional-form p');
+            if (formTexts[0]) {
+                formTexts[0].textContent = 'Ваша заявка уже принята! Мы обязательно свяжемся с вами в ближайшее время.';
+            }
+            if (formTexts[1]) {
+                formTexts[1].textContent = 'Добавьте маршрут и детали груза, чтобы мы могли подготовить предложение заранее (необязательно).';
+            }
 
             let routeHTML = '';
 
@@ -384,8 +396,7 @@
                     'gazelle': 'Газель (до 1.5 тонн)',
                     'truck5t': 'Грузовик 5 тонн',
                     'truck10t': 'Грузовик 10 тонн',
-                    'truck20t': 'Фура 20 тонн',
-                    'longtruck': 'Длинномер'
+                    'truck20t': 'Фура или длинномер 20 тонн'
                 };
                 message += `🚛 Транспорт: ${vehicleNames[data.vehicleType]}\n`;
             }

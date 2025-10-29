@@ -46,6 +46,18 @@ document.addEventListener('DOMContentLoaded', function() {
         if (data.fromCity) message += `📍 Откуда: ${data.fromCity}\n`;
         if (data.toCity) message += `📍 Куда: ${data.toCity}\n`;
         if (data.departureDate) message += `📅 Дата: ${data.departureDate}\n`;
+
+        // Добавляем UTM метки если есть
+        if (data.utmKeyword) {
+            message += `\n🔑 Ключевое слово: ${data.utmKeyword}\n`;
+        }
+        if (data.utmSource) {
+            message += `📊 Источник: ${data.utmSource}\n`;
+        }
+        if (data.utmCampaign) {
+            message += `📢 Кампания: ${data.utmCampaign}\n`;
+        }
+
         message += `\n🔖 Тип формы: ${data.formType}`;
 
         const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
@@ -91,11 +103,23 @@ document.addEventListener('DOMContentLoaded', function() {
         submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Отправка...';
 
         try {
+            // Читаем UTM метки из URL
+            const urlParams = new URLSearchParams(window.location.search);
+
             // Prepare data
             const data = {
                 phone: phone,
                 formType: formType
             };
+
+            // Добавляем UTM параметры если есть
+            const utmTerm = urlParams.get('utm_term');
+            const utmSource = urlParams.get('utm_source');
+            const utmCampaign = urlParams.get('utm_campaign');
+
+            if (utmTerm) data.utmKeyword = decodeURIComponent(utmTerm);
+            if (utmSource) data.utmSource = utmSource;
+            if (utmCampaign) data.utmCampaign = utmCampaign;
 
             // Add additional fields for detailed form
             if (formType === 'detailed') {
@@ -142,6 +166,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             if (data.departureDate) {
                 thankYouParams.set('date', data.departureDate);
+            }
+
+            // Добавляем UTM метки
+            if (data.utmKeyword) {
+                thankYouParams.set('utm_term', data.utmKeyword);
             }
 
             // Редиректим на thank-you страницу
