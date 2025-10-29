@@ -144,11 +144,18 @@
         }
         .form-group input:focus { outline: none; border-color: #2563eb; background: #fff; }
         .form-group input[type="date"] {
-            padding: 14px 16px;
+            padding: 14px 40px 14px 16px;
             height: 52px;
             line-height: 1.5;
             width: 100%;
             box-sizing: border-box;
+        }
+
+        /* Скрываем иконку календаря в Opera/Chrome если выходит за пределы */
+        .form-group input[type="date"]::-webkit-calendar-picker-indicator {
+            position: absolute;
+            right: 16px;
+            cursor: pointer;
         }
 
         .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
