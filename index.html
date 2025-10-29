@@ -628,6 +628,29 @@
             }
         }
     </style>
+
+    <!-- UTM Headline Script -->
+    <script>
+        // Маппинг gbid → заголовки (выполняется ДО отрисовки страницы)
+        const groupHeadlines = {
+            '5670905255': 'Перевозка длинномерами до 24 метров',
+            '5670905256': 'Грузоперевозки для бизнеса с фиксированной комиссией',
+            '5670905257': 'Междугородние перевозки по всей России',
+            '5670905258': 'Грузоперевозки по Москве и Московской области',
+            '5670905259': 'Перевозки грузов по всей России',
+            '5670905260': 'Попутная доставка груза - выгодно и быстро',
+            '5670905261': 'Перевозка фурой от 5 до 20 тонн'
+        };
+
+        // Читаем параметр utm_content (gbid)
+        const params = new URLSearchParams(window.location.search);
+        const gbid = params.get('utm_content');
+
+        // Сохраняем заголовок в sessionStorage для быстрого доступа
+        if (gbid && groupHeadlines[gbid]) {
+            sessionStorage.setItem('heroHeadline', groupHeadlines[gbid]);
+        }
+    </script>
 </head>
 <body>
     <!-- Header Placeholder -->
@@ -637,7 +660,14 @@
         <div class="container">
             <div class="hero-layout">
                 <div class="hero-text">
-                    <h1>Перевозки по <strong>городу, региону, РФ</strong></h1>
+                    <h1 id="hero-headline">Перевозки по <strong>городу, региону, РФ</strong></h1>
+                    <script>
+                        // Мгновенная подстановка (выполняется сразу после H1)
+                        const savedHeadline = sessionStorage.getItem('heroHeadline');
+                        if (savedHeadline) {
+                            document.getElementById('hero-headline').innerHTML = '<strong>' + savedHeadline + '</strong>';
+                        }
+                    </script>
                     <p>От 100 кг до 24 тонн догрузом или отдельной машиной с фиксированной комиссией <strong class="highlight-price">до 6000 рублей</strong></p>
                     <div class="feature-minimal">
                         <div class="feature-minimal-item">

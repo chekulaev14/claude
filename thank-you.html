@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заявка принята - Динамика Карго</title>
+    <meta name="description" content="Ваша заявка успешно отправлена. Мы свяжемся с вами в течение 5 минут.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
+    <link rel="apple-touch-icon" href="/assets/images/favicon-new.png?v=4">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeGxooF2L5rdIFszMLZBYhcVhT11u83MY&libraries=places"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103783702', 'ym');
+
+        ym(103783702, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/103783702" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <style>
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .thank-you-container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        .success-header {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: #fff;
+            padding: 50px 40px;
+            text-align: center;
+        }
+
+        .success-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            animation: scaleIn 0.5s ease-out;
+        }
+
+        @keyframes scaleIn {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+
+        .success-header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .success-header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .content-section {
+            padding: 40px;
+        }
+
+        .lead-info {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #2563eb;
+        }
+
+        .lead-info h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #2d3436;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+            font-size: 16px;
+            color: #636e72;
+        }
+
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-icon {
+            font-size: 20px;
+        }
+
+        .additional-form h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2d3436;
+            margin-bottom: 10px;
+        }
+
+        .additional-form p {
+            color: #636e72;
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 13px;
+            color: #636e72;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 14px 16px;
+            background: #fafafa;
+            border: 1px solid #dfe6e9;
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            transition: all 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #2563eb;
+            background: #fff;
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 16px;
+            background: #2563eb;
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-submit:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .back-link a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .success-header {
+                padding: 40px 25px;
+            }
+
+            .success-header h1 {
+                font-size: 26px;
+            }
+
+            .content-section {
+                padding: 30px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="success-header">
+            <div class="success-icon">✅</div>
+            <h1>Заявка успешно отправлена!</h1>
+            <p>Мы свяжемся с вами в течение 5 минут</p>
+        </div>
+
+        <div class="content-section">
+            <div class="lead-info" id="leadInfo">
+                <h3>Ваша заявка:</h3>
+                <!-- Данные будут подставлены через JavaScript -->
+            </div>
+
+            <div class="additional-form">
+                <h3 id="formTitle">💡 Хотите уточнить детали?</h3>
+                <p>Это поможет нам подготовить более точное предложение (необязательно)</p>
+
+                <form id="additionalForm">
+                    <!-- Поля будут добавлены динамически -->
+                    <div id="dynamicFields"></div>
+
+                    <div class="form-group">
+                        <label>Тип груза</label>
+                        <input type="text" name="cargoType" placeholder="Например: паллеты, оборудование, мебель">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Вес груза (кг)</label>
+                        <input type="number" name="weight" placeholder="Например: 500">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Тип транспорта</label>
+                        <select name="vehicleType">
+                            <option value="">Выберите тип</option>
+                            <option value="gazelle">Газель (до 1.5 тонн)</option>
+                            <option value="truck5t">Грузовик 5 тонн</option>
+                            <option value="truck10t">Грузовик 10 тонн</option>
+                            <option value="truck20t">Фура 20 тонн</option>
+                            <option value="longtruck">Длинномер</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Отправить дополнение</button>
+                </form>
+            </div>
+
+            <div class="back-link">
+                <a href="/">← Вернуться на главную</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Читаем параметры из URL
+        const params = new URLSearchParams(window.location.search);
+        const phone = params.get('phone');
+        const fromCity = params.get('from');
+        const toCity = params.get('to');
+        const date = params.get('date');
+
+        // Отображаем информацию о заявке
+        const leadInfoDiv = document.getElementById('leadInfo');
+        let infoHTML = '<h3>Ваша заявка:</h3>';
+
+        if (phone) {
+            infoHTML += `<div class="info-item"><span class="info-icon">📱</span> Телефон: ${phone}</div>`;
+        }
+        if (fromCity) {
+            infoHTML += `<div class="info-item"><span class="info-icon">📍</span> Откуда: ${fromCity}</div>`;
+        }
+        if (toCity) {
+            infoHTML += `<div class="info-item"><span class="info-icon">📍</span> Куда: ${toCity}</div>`;
+        }
+        if (date) {
+            infoHTML += `<div class="info-item"><span class="info-icon">📅</span> Дата отправки: ${date}</div>`;
+        }
+
+        leadInfoDiv.innerHTML = infoHTML;
+
+        // Если нет маршрута - добавляем поля для маршрута
+        const dynamicFieldsDiv = document.getElementById('dynamicFields');
+
+        if (!fromCity || !toCity || !date) {
+            document.getElementById('formTitle').textContent = '💡 Добавьте маршрут для точного расчета';
+
+            let routeHTML = '';
+
+            if (!fromCity) {
+                routeHTML += `
+                    <div class="form-group">
+                        <label>Откуда</label>
+                        <input type="text" id="departure" name="from" placeholder="Город отправления" required>
+                    </div>
+                `;
+            }
+
+            if (!toCity) {
+                routeHTML += `
+                    <div class="form-group">
+                        <label>Куда</label>
+                        <input type="text" id="destination" name="to" placeholder="Город назначения" required>
+                    </div>
+                `;
+            }
+
+            if (!date) {
+                routeHTML += `
+                    <div class="form-group">
+                        <label>Дата отправки</label>
+                        <input type="date" name="date" required>
+                    </div>
+                `;
+            }
+
+            dynamicFieldsDiv.innerHTML = routeHTML;
+
+            // Инициализируем Google Autocomplete для новых полей
+            window.addEventListener('load', function() {
+                if (typeof google !== 'undefined' && google.maps && google.maps.places) {
+                    const departureInput = document.getElementById('departure');
+                    if (departureInput) {
+                        new google.maps.places.Autocomplete(departureInput, {
+                            types: ['(cities)'],
+                            componentRestrictions: { country: 'ru' }
+                        });
+                    }
+
+                    const destinationInput = document.getElementById('destination');
+                    if (destinationInput) {
+                        new google.maps.places.Autocomplete(destinationInput, {
+                            types: ['(cities)'],
+                            componentRestrictions: { country: 'ru' }
+                        });
+                    }
+                }
+            });
+        }
+
+        // Обработка отправки дополнительной формы
+        document.getElementById('additionalForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData);
+
+            // Проверяем заполнено ли хоть одно поле
+            const hasAnyData = Object.values(data).some(value => value && value.trim() !== '');
+
+            if (!hasAnyData) {
+                // Форма пустая
+                alert('ℹ️ Вы отправили пустое дополнение.\n\nЕсли хотите что-то дополнить, заполните поля и отправьте повторно.\n\nЭто необязательно - мы уже приняли вашу заявку! ✅');
+                return;
+            }
+
+            // Добавляем исходные данные
+            data.originalPhone = phone;
+            data.isAdditional = true;
+
+            const botToken = '7779064115:AAHlm2qSOU1v2YIohlcMPWger1RZjkIRJ5I';
+            const chatId = '273360546';
+
+            let message = `📝 ДОПОЛНЕНИЕ К ЗАЯВКЕ\n\n`;
+            message += `📱 Телефон: ${phone}\n`;
+            message += `\n--- Дополнительная информация ---\n`;
+
+            if (data.from) message += `📍 Откуда: ${data.from}\n`;
+            if (data.to) message += `📍 Куда: ${data.to}\n`;
+            if (data.date) message += `📅 Дата: ${data.date}\n`;
+            if (data.cargoType) message += `📦 Тип груза: ${data.cargoType}\n`;
+            if (data.weight) message += `⚖️ Вес: ${data.weight} кг\n`;
+            if (data.vehicleType) {
+                const vehicleNames = {
+                    'gazelle': 'Газель (до 1.5 тонн)',
+                    'truck5t': 'Грузовик 5 тонн',
+                    'truck10t': 'Грузовик 10 тонн',
+                    'truck20t': 'Фура 20 тонн',
+                    'longtruck': 'Длинномер'
+                };
+                message += `🚛 Транспорт: ${vehicleNames[data.vehicleType]}\n`;
+            }
+
+            // Блокируем кнопку и показываем загрузку
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            const originalBtnText = submitBtn.innerHTML;
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = 'Отправка...';
+
+            try {
+                const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+                const params = new URLSearchParams({
+                    chat_id: chatId,
+                    text: message,
+                    parse_mode: 'HTML'
+                });
+
+                await fetch(url, {
+                    method: 'POST',
+                    body: params
+                });
+
+                alert('✅ Дополнительная информация отправлена!\n\nСпасибо, что уточнили детали. Мы учтём это при подготовке предложения.');
+                e.target.reset();
+
+            } catch (error) {
+                console.error('Error:', error);
+                alert('❌ Произошла ошибка при отправке.\n\nПожалуйста, позвоните нам напрямую:\n8-800-707-29-36');
+            } finally {
+                // Восстанавливаем кнопку
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalBtnText;
+            }
+        });
+    </script>
+</body>
+</html>

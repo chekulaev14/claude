@@ -129,23 +129,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Web3Forms не критичен, продолжаем
             }
 
-            // Всегда показываем успех (Telegram - основной канал)
-            alert('✅ Заявка успешно отправлена!\n\nМы свяжемся с вами в течение 5 минут.');
-            form.reset();
+            // Формируем URL для редиректа на thank-you страницу
+            const thankYouParams = new URLSearchParams();
+            thankYouParams.set('phone', phone);
 
-            // Reset phone input to +7
-            if (phoneInput) {
-                phoneInput.value = '+7 ';
+            // Добавляем дополнительные параметры для детальной формы
+            if (data.fromCity) {
+                thankYouParams.set('from', data.fromCity);
+            }
+            if (data.toCity) {
+                thankYouParams.set('to', data.toCity);
+            }
+            if (data.departureDate) {
+                thankYouParams.set('date', data.departureDate);
             }
 
-            // Close modal if form is inside a modal
-            const modal = form.closest('.modal');
-            if (modal) {
-                const modalInstance = bootstrap.Modal.getInstance(modal);
-                if (modalInstance) {
-                    modalInstance.hide();
-                }
-            }
+            // Редиректим на thank-you страницу
+            window.location.href = `/thank-you.html?${thankYouParams.toString()}`;
 
         } catch (error) {
             console.error('Form submission error:', error);
