@@ -30,6 +30,39 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Send to Telegram (резервный канал + гарантированная доставка)
+    function sendToTelegram(data) {
+        const botToken = '7779064115:AAHlm2qSOU1v2YIohlcMPWger1RZjkIRJ5I';
+        const chatId = '273360546';
+
+        // Формируем сообщение
+        let message = `🆕 НОВАЯ ЗАЯВКА с сайта\n\n`;
+        message += `📱 Телефон: ${data.phone}\n`;
+        if (data.fromCity) message += `📍 Откуда: ${data.fromCity}\n`;
+        if (data.toCity) message += `📍 Куда: ${data.toCity}\n`;
+        if (data.departureDate) message += `📅 Дата: ${data.departureDate}\n`;
+        message += `\n🔖 Тип формы: ${data.formType}`;
+
+        const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+        const params = new URLSearchParams({
+            chat_id: chatId,
+            text: message,
+            parse_mode: 'HTML'
+        });
+
+        // Используем sendBeacon для гарантированной отправки даже при закрытии страницы
+        if (navigator.sendBeacon) {
+            navigator.sendBeacon(url, params);
+        } else {
+            // Fallback для старых браузеров
+            fetch(url, {
+                method: 'POST',
+                body: params,
+                keepalive: true
+            }).catch(err => console.log('Telegram send error:', err));
+        }
+    }
+
     // Handle form submission
     async function handleFormSubmit(e, formType) {
         e.preventDefault();
@@ -70,6 +103,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (dateInput) data.departureDate = dateInput.value;
             }
 
+            // СРАЗУ отправляем в Telegram (резервный канал)
+            sendToTelegram(data);
+
             // Add Web3Forms access key
             data.access_key = '2d53317e-70c5-4989-9fd8-c9beb10a4491';
 
@@ -79,7 +115,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify(data)
+                body: JSON.stringify(data),
+                keepalive: true
             });
 
             const result = await response.json();
