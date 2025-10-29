@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Web3Forms не критичен, продолжаем
             }
 
-            // Формируем URL для редиректа на thank-you страницу
+            // Формируем URL для thank-you страницы
             const thankYouParams = new URLSearchParams();
             thankYouParams.set('phone', phone);
 
@@ -173,8 +173,28 @@ document.addEventListener('DOMContentLoaded', function() {
                 thankYouParams.set('utm_term', data.utmKeyword);
             }
 
-            // Редиректим на thank-you страницу
-            window.location.href = `/thank-you.html?${thankYouParams.toString()}`;
+            // Открываем thank-you страницу в новой вкладке
+            window.open(`/thank-you.html?${thankYouParams.toString()}`, '_blank');
+
+            // Показываем уведомление на текущей странице
+            alert('✅ Заявка успешно отправлена!\n\nСтраница с подробностями открыта в новой вкладке.');
+
+            // Очищаем форму
+            form.reset();
+
+            // Reset phone input to +7
+            if (phoneInput) {
+                phoneInput.value = '+7 ';
+            }
+
+            // Close modal if form is inside a modal
+            const modal = form.closest('.modal');
+            if (modal) {
+                const modalInstance = bootstrap.Modal.getInstance(modal);
+                if (modalInstance) {
+                    modalInstance.hide();
+                }
+            }
 
         } catch (error) {
             console.error('Form submission error:', error);
