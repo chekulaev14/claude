@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Send to Telegram (резервный канал + гарантированная доставка)
     function sendToTelegram(data) {
         const botToken = '7779064115:AAHlm2qSOU1v2YIohlcMPWger1RZjkIRJ5I';
-        const chatId = '273360546';
+        const chatId = '-5037073171'; // Группа Telegram (со знаком минус для групп)
 
         // Формируем сообщение
         let message = `🆕 НОВАЯ ЗАЯВКА с сайта\n\n`;
