@@ -1005,6 +1005,46 @@
       }
 
       /**
+       * Send form data to Telegram bot
+       */
+      function sendToTelegram(data) {
+        const botToken = '7779064115:AAHlm2qSOU1v2YIohlcMPWger1RZjkIRJ5I'
+        const chatId = '273360546'
+
+        // Формируем сообщение
+        let message = `🧮 ЗАЯВКА ИЗ КАЛЬКУЛЯТОРА\n\n`
+        message += `📱 Телефон: ${data.phone}\n`
+        message += `👤 Тип: ${data.mode === 'legal' ? 'Юр. лицо' : 'Физ. лицо'}\n`
+        if (data.inn) message += `🏢 ИНН: ${data.inn}\n`
+        if (data.meta && data.meta.fromCity && data.meta.toCity) {
+          message += `📍 Маршрут: ${data.meta.fromCity} → ${data.meta.toCity}\n`
+        }
+        if (data.meta && data.meta.loadingDate) message += `📅 Дата: ${data.meta.loadingDate}\n`
+        if (data.meta && data.meta.vehicleType) message += `🚛 Транспорт: ${data.meta.vehicleType}\n`
+        message += `💰 Сумма: ${data.total.toLocaleString()} ₽\n`
+        message += `📊 НДС: ${data.selectedTaxMode === 'nv' ? 'без НДС' : 'с НДС'}`
+
+        const url = `https://api.telegram.org/bot${botToken}/sendMessage`
+        const params = new URLSearchParams({
+          chat_id: chatId,
+          text: message,
+          parse_mode: 'HTML'
+        })
+
+        // Используем sendBeacon для гарантированной отправки
+        if (navigator.sendBeacon) {
+          navigator.sendBeacon(url, params)
+        } else {
+          // Fallback для старых браузеров
+          fetch(url, {
+            method: 'POST',
+            body: params,
+            keepalive: true
+          }).catch(err => console.log('Telegram send error:', err))
+        }
+      }
+
+      /**
        * Initialize Google Maps
        */
       function initGoogleMaps() {
@@ -1678,7 +1718,7 @@
         })
 
         // Submit request form
-        $(document).off('submit', '#requestForm').on('submit', '#requestForm', async function(e) {
+        $(document).off('submit', '#requestForm').on('submit', '#requestForm', function(e) {
           e.preventDefault()
           $('#requestError').hide().text('')
           const mode = $('#requestModal').data('mode')
@@ -1694,25 +1734,18 @@
           }
           const payload = buildRequestPayload({ mode, inn, phone })
           $('#requestSubmit').prop('disabled', true).text('Отправляем...')
-          try {
-            const res = await fetch('send-calculator-request.php', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(payload)
-            })
-            const data = await res.json().catch(() => ({}))
-            if (!res.ok || data.success === false) throw new Error(data.message || 'Ошибка отправки')
-            $('#requestSubmit').text('Отправлено!')
-            setTimeout(() => {
-              const modal = bootstrap.Modal.getInstance(document.getElementById('requestModal'))
-              modal && modal.hide()
-              $('#requestSubmit').prop('disabled', false).text('Отправить заявку')
-              $('#requestForm')[0].reset()
-            }, 800)
-          } catch (err) {
-            $('#requestError').show().text(err.message || 'Не удалось отправить заявку')
+
+          // Отправляем в Telegram
+          sendToTelegram(payload)
+
+          // Показываем успех
+          $('#requestSubmit').text('Отправлено!')
+          setTimeout(() => {
+            const modal = bootstrap.Modal.getInstance(document.getElementById('requestModal'))
+            modal && modal.hide()
             $('#requestSubmit').prop('disabled', false).text('Отправить заявку')
-          }
+            $('#requestForm')[0].reset()
+          }, 800)
         })
 
         // Open modal helper
