@@ -10,6 +10,10 @@ class TemplateLoader {
         const path = window.location.pathname;
         if (path.includes('/pages/projects/')) {
             return '../../'; // Для страниц в папке pages/projects
+        } else if (path.includes('/regions/')) {
+            return '/'; // Для страниц городов в папке regions (используем абсолютные пути)
+        } else if (path.includes('/templates/')) {
+            return '../'; // Для шаблонов в папке templates (тестирование)
         } else if (path.includes('/pages/')) {
             return '../'; // Для страниц в папке pages
         }
@@ -54,6 +58,25 @@ class TemplateLoader {
     fixPaths() {
         const header = document.querySelector('header');
         if (!header) return;
+
+        // Исправляем пути для страниц городов в /regions/
+        if (this.basePath === '/') {
+            const logo = header.querySelector('.navbar-brand');
+            if (logo) logo.href = '/';
+
+            const logoImg = header.querySelector('.navbar-brand img');
+            if (logoImg) logoImg.src = '/assets/images/color_big.png';
+
+            // Добавляем /pages/ к ссылкам меню
+            const allLinks = header.querySelectorAll('.dropdown-item, .nav-link:not(.dropdown-toggle)');
+            allLinks.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href && href.endsWith('.html') && !href.startsWith('http') && !href.startsWith('/')) {
+                    link.href = '/pages/' + href;
+                }
+            });
+            return;
+        }
 
         // Исправляем пути для страниц в папке pages/projects
         if (this.basePath === '../../') {
