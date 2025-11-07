@@ -1851,7 +1851,7 @@ html {
 }
 
 .city-hero {
-    padding: 140px 5% 80px;
+    padding: 100px 5% 80px;
     background: linear-gradient(135deg, rgba(255,255,255,0.98) 0%, rgba(250,250,250,0.96) 100%);
 }
 
@@ -2086,7 +2086,7 @@ html {
 /* Адаптив для мобильных */
 @media (max-width: 768px) {
     .city-hero {
-        padding: 120px 25px 60px;
+        padding: 90px 25px 60px;
     }
     
     .city-hero h1 {
@@ -2122,5 +2122,133 @@ html {
     .btn-primary, .btn-secondary {
         width: 100%;
         text-align: center;
+    }
+}
+
+/* ==========================================
+   Стили для таблицы маршрутов и цен
+   ========================================== */
+
+.cluster-routes-pricing {
+    max-width: 1200px;
+    margin-bottom: 60px;
+}
+
+.cluster-routes-pricing h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2d3436;
+    margin-bottom: 20px;
+}
+
+.cluster-routes-pricing p {
+    font-size: 16px;
+    color: #636e72;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.routes-pricing-table {
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.routes-pricing-table thead {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+}
+
+.routes-pricing-table thead th {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 18px 15px;
+    text-align: left;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.routes-pricing-table thead th:first-child {
+    padding-left: 25px;
+}
+
+.routes-pricing-table tbody tr {
+    border-bottom: 1px solid #e5e7eb;
+    transition: all 0.2s ease;
+}
+
+.routes-pricing-table tbody tr:hover {
+    background: #f8fafc;
+    transform: scale(1.01);
+}
+
+.routes-pricing-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.routes-pricing-table tbody td {
+    padding: 18px 15px;
+    font-size: 15px;
+    color: #2d3436;
+}
+
+.routes-pricing-table tbody td:first-child {
+    padding-left: 25px;
+    font-weight: 600;
+}
+
+.routes-pricing-table tbody td:first-child a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.routes-pricing-table tbody td:first-child a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.routes-pricing-table tbody td:nth-child(2) {
+    color: #636e72;
+    font-size: 14px;
+}
+
+.routes-pricing-table tbody td:not(:first-child):not(:nth-child(2)) {
+    font-weight: 600;
+    color: #10b981;
+    text-align: center;
+}
+
+/* Адаптив для таблицы */
+@media (max-width: 968px) {
+    .routes-pricing-table {
+        font-size: 13px;
+    }
+
+    .routes-pricing-table thead th,
+    .routes-pricing-table tbody td {
+        padding: 12px 8px;
+        font-size: 12px;
+    }
+
+    .routes-pricing-table thead th:first-child,
+    .routes-pricing-table tbody td:first-child {
+        padding-left: 12px;
+    }
+}
+
+@media (max-width: 640px) {
+    .routes-pricing-table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .cluster-routes-pricing p {
+        font-size: 14px;
     }
 }
