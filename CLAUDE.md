@@ -24,9 +24,19 @@
 
 
 # Файлы и структура проекта
-Стили CSS в папке /Users/petrcekulaev/Desktop/CLAUDE/assets
-Шаблоны страниц в папке /Users/petrcekulaev/Desktop/CLAUDE/templates
+Стили CSS в папке /assets/css/
+Шаблоны страниц в папке /templates/
+SEO-тексты для кластеров в папке /seo-texts/{cluster}/
+Фото для кластеров в папке /assets/images/clusters/{cluster}/
 При перемещении блоков кода лучше использовать два отдельных Edit вместо одного MultiEdit, чтобы избежать конфликтов строк.
+
+# Скрипты генерации страниц
+generate_mezhgorod_pages.py - генерирует страницы кластера "межгород" из шаблона + MD файлов
+  - Шаблон: /templates/cluster-mezhgorod.html (плейсхолдеры: {{TITLE}}, {{H1}}, {{INTRO}}, {{SECTIONS}}, {{CTA_TEXT}}, {{CITY_NAME}}, {{CITY_URL}})
+  - SEO-тексты: /seo-texts/mezhgorod/mezhgorod-{город}.md
+  - Фото: /assets/images/clusters/mezhgorod/ (24 шт, выбираются случайно)
+  - Результат: /regions/{город}/mezhgorod/index.html
+  - Запуск: python3 generate_mezhgorod_pages.py [--test] [--city X]
 
 # Git и деплой
 Сайт выложен на Github Pages (с Пайтон не работает) и когда пушим изменения сразу видно на домене dinamika-cargo.ru
