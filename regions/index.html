@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Регионы - ТК Динамика</title>
-    <meta name="description" content="География работы ТК Динамика. Грузоперевозки в города России: Москва, Санкт-Петербург, Казань, Челябинск и другие областные центры.">
+    <title>Грузоперевозки по России - Все регионы | ТК Динамика</title>
+    <meta name="description" content="География работы ТК Динамика. Грузоперевозки в 61 город России: Москва, Санкт-Петербург, Казань, Екатеринбург и другие. Доставка грузов от 100 кг до 24 тонн.">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
@@ -12,6 +12,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="/assets/css/styles.css" rel="stylesheet">
 
     <!-- Yandex.Metrika counter -->
@@ -32,48 +33,163 @@
     <!-- Header Placeholder -->
     <div id="header-placeholder"></div>
 
-    <main class="regions-page" style="padding-top: 100px;">
-        <section class="container py-5">
-            <h1 class="mb-4">География работы ТК Динамика</h1>
+    <main class="regions-page">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav aria-label="breadcrumb" class="pt-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                    <li class="breadcrumb-item active">Регионы</li>
+                </ol>
+            </nav>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="lead mb-5">
-                        Транспортная компания «Динамика» осуществляет грузоперевозки по всей России.
-                        Мы работаем в крупных городах и областных центрах, обеспечивая надёжную доставку грузов в любую точку страны.
-                    </p>
-                </div>
-            </div>
+            <!-- Hero Section -->
+            <section class="hero-section mt-2 mb-5">
+                <h1>Грузоперевозки по всей России</h1>
+                <p class="lead mt-4">Транспортная компания «Динамика» осуществляет грузоперевозки в <strong>61 город</strong> России. Доставляем грузы от 100 кг до 24 тонн с полным страхованием и документальным сопровождением.</p>
+            </section>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="mb-4">Города присутствия</h2>
-
-                    <div class="row g-3">
-                        <div class="col-md-4">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        <a href="/regions/chelyabinsk/" class="text-decoration-none">Челябинск</a>
-                                    </h5>
-                                    <p class="card-text text-muted">Грузоперевозки в Челябинске и Челябинской области</p>
-                                </div>
-                            </div>
+            <!-- Stats -->
+            <section class="stats-section mb-5">
+                <div class="row text-center g-4">
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card p-4 rounded bg-light h-100">
+                            <i class="bi bi-geo-alt text-primary fs-1 mb-3"></i>
+                            <div class="stat-number">61</div>
+                            <div class="stat-label">город</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card p-4 rounded bg-light h-100">
+                            <i class="bi bi-calendar-check text-primary fs-1 mb-3"></i>
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">лет опыта</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card p-4 rounded bg-light h-100">
+                            <i class="bi bi-truck text-primary fs-1 mb-3"></i>
+                            <div class="stat-number">24т</div>
+                            <div class="stat-label">макс. вес</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card p-4 rounded bg-light h-100">
+                            <i class="bi bi-shield-check text-primary fs-1 mb-3"></i>
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">страхование</div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="row mt-5">
-                <div class="col-md-12">
-                    <div class="alert alert-info">
-                        <h5>Не нашли свой город?</h5>
-                        <p class="mb-0">Мы осуществляем доставку грузов по всей России.
-                        <a href="/contacts.html">Свяжитесь с нами</a> для расчёта стоимости доставки в ваш город.</p>
-                    </div>
+            <!-- Cities Grid -->
+            <section class="cities-section mb-5">
+                <h2 class="mb-4">Города присутствия</h2>
+                <div class="row g-3">
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/balashikha/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Балашиха</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/vidnoye/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Видное</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/vladivostok/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Владивосток</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/volgograd/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Волгоград</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/voronezh/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Воронеж</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/voskresensk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Воскресенск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/dzerzhinsky/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Дзержинский</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/dmitrov/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Дмитров</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/dolgoprudny/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Долгопрудный</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/domodedovo/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Домодедово</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/dubna/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Дубна</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/egoryevsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Егорьевск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/ekaterinburg/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Екатеринбург</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/zhukovsky/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Жуковский</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/ivanteyevka/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Ивантеевка</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/izhevsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Ижевск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/irkutsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Иркутск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/kazan/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Казань</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/kaluga/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Калуга</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/klin/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Клин</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/kolomna/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Коломна</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/korolev/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Королёв</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/krasnogorsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Красногорск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/krasnodar/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Краснодар</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/krasnoyarsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Красноярск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/lobnya/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Лобня</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/lyubertsy/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Люберцы</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/moscow/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Москва</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/mytishchi/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Мытищи</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/naberezhnye-chelny/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Набережные Челны</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/nizhnekamsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Нижнекамск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/nizhny-novgorod/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Нижний Новгород</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/novosibirsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Новосибирск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/noginsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Ногинск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/obninsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Обнинск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/odintsovo/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Одинцово</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/omsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Омск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/orekhovo-zuevo/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Орехово-Зуево</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/perm/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Пермь</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/podolsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Подольск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/pushkino/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Пушкино</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/ramenskoye/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Раменское</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/reutov/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Реутов</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/rostov-on-don/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Ростов-на-Дону</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/samara/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Самара</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/saint-petersburg/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Санкт-Петербург</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/sergiev-posad/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Сергиев Посад</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/serpukhov/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Серпухов</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/stupino/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Ступино</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/tver/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Тверь</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/tula/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Тула</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/tyumen/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Тюмень</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/ufa/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Уфа</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/fryazino/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Фрязино</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/khabarovsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Хабаровск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/khimki/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Химки</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/chelyabinsk/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Челябинск</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/chekhov/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Чехов</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/shchelkovo/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Щёлково</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/elektrostal/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Электросталь</a></div>
+                    <div class="col-6 col-md-4 col-lg-3"><a href="/regions/yaroslavl/" class="city-link"><i class="bi bi-geo-alt-fill"></i> Ярославль</a></div>
                 </div>
+            </section>
+
+            <!-- CTA -->
+            <section class="cta-section my-5 py-5 bg-light rounded text-center">
+                <h2 class="mb-3">Не нашли свой город?</h2>
+                <p class="lead mb-4">Мы осуществляем доставку грузов по всей России. Оставьте заявку — рассчитаем стоимость в любое направление!</p>
+                <div class="cta-buttons">
+                    <a href="/calculator-new.html" class="btn btn-primary btn-lg me-2 mb-2">Рассчитать стоимость</a>
+                    <a href="#contact-form" class="btn btn-outline-primary btn-lg mb-2">Оставить заявку</a>
+                </div>
+            </section>
+
+            <!-- Contact Form -->
+            <div id="contact-form" class="contact-form-section my-5">
+                <div class="text-center mb-3">
+                    <h3 class="mb-2">Получить расчет стоимости</h3>
+                    <p class="text-muted"><i class="bi bi-clock me-2"></i>Ответим в течение 5 минут</p>
+                </div>
+                <form id="regionsContactForm" class="minimal-card">
+                    <div class="form-group">
+                        <label>Телефон</label>
+                        <input type="tel" id="phone" name="phone" value="+7 " placeholder="+7 (999) 999-99-99" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Откуда</label>
+                            <input type="text" id="departure" name="departure" placeholder="Город отправления" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Куда</label>
+                            <input type="text" id="destination" name="destination" placeholder="Город назначения" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Дата отправки</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <button type="submit" class="btn-green">Отправить заявку</button>
+                </form>
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- Footer Placeholder -->
@@ -84,5 +200,124 @@
     <!-- Template Loader -->
     <script src="/assets/js/template-loader.js"></script>
     <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/forms-handler.js"></script>
+
+    <style>
+    /* Stats */
+    .stat-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .stat-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #0d6efd;
+        line-height: 1;
+    }
+    .stat-label {
+        font-size: 0.9rem;
+        color: #6c757d;
+        margin-top: 0.5rem;
+    }
+
+    /* City Links */
+    .city-link {
+        display: block;
+        padding: 1rem;
+        background: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #212529;
+        transition: all 0.3s ease;
+    }
+    .city-link:hover {
+        background: #0d6efd;
+        color: #fff;
+        border-color: #0d6efd;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(13,110,253,0.3);
+    }
+    .city-link i {
+        color: #0d6efd;
+        margin-right: 0.5rem;
+    }
+    .city-link:hover i {
+        color: #fff;
+    }
+
+    /* CTA */
+    .cta-section {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+
+    /* Contact Form */
+    .contact-form-section {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .minimal-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        color: #495057;
+    }
+    .form-group input {
+        width: 100%;
+        padding: 0.875rem 1.25rem;
+        border: 2px solid #e9ecef;
+        border-radius: 10px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+    .form-group input:focus {
+        outline: none;
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 3px rgba(13,110,253,0.1);
+    }
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .btn-green {
+        width: 100%;
+        padding: 1rem;
+        background: #28a745;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .btn-green:hover {
+        background: #218838;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(40,167,69,0.3);
+    }
+
+    @media (max-width: 768px) {
+        .stat-number {
+            font-size: 2rem;
+        }
+        .form-row {
+            grid-template-columns: 1fr;
+        }
+    }
+    </style>
 </body>
 </html>
