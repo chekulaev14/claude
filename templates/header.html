@@ -1,7 +1,7 @@
 <header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="./">
-            <img src="assets/images/color_big.png" alt="ТК Динамика" style="height: 54px; width: auto;" class="me-3">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <img src="/assets/images/color_big.png" alt="ТК Динамика" style="height: 54px; width: auto;" class="me-3">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -13,21 +13,88 @@
                         Клиенты
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="clientsDropdown">
-                        <li><a class="dropdown-item" href="clients.html">Список клиентов</a></li>
-                        <li><a class="dropdown-item" href="clients-map.html">География клиентов</a></li>
+                        <li><a class="dropdown-item" href="/clients.html">Список клиентов</a></li>
+                        <li><a class="dropdown-item" href="/clients-map.html">География клиентов</a></li>
                     </ul>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="/regions/">Регионы</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Выполненные работы</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="regionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Регионы
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-regions" aria-labelledby="regionsDropdown">
+                        <li><a class="dropdown-item" href="/regions/">Все регионы</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/regions/balashikha/">Балашиха</a></li>
+                        <li><a class="dropdown-item" href="/regions/vidnoye/">Видное</a></li>
+                        <li><a class="dropdown-item" href="/regions/vladivostok/">Владивосток</a></li>
+                        <li><a class="dropdown-item" href="/regions/volgograd/">Волгоград</a></li>
+                        <li><a class="dropdown-item" href="/regions/voronezh/">Воронеж</a></li>
+                        <li><a class="dropdown-item" href="/regions/voskresensk/">Воскресенск</a></li>
+                        <li><a class="dropdown-item" href="/regions/dzerzhinsky/">Дзержинский</a></li>
+                        <li><a class="dropdown-item" href="/regions/dmitrov/">Дмитров</a></li>
+                        <li><a class="dropdown-item" href="/regions/dolgoprudny/">Долгопрудный</a></li>
+                        <li><a class="dropdown-item" href="/regions/domodedovo/">Домодедово</a></li>
+                        <li><a class="dropdown-item" href="/regions/dubna/">Дубна</a></li>
+                        <li><a class="dropdown-item" href="/regions/egoryevsk/">Егорьевск</a></li>
+                        <li><a class="dropdown-item" href="/regions/ekaterinburg/">Екатеринбург</a></li>
+                        <li><a class="dropdown-item" href="/regions/zhukovsky/">Жуковский</a></li>
+                        <li><a class="dropdown-item" href="/regions/ivanteyevka/">Ивантеевка</a></li>
+                        <li><a class="dropdown-item" href="/regions/izhevsk/">Ижевск</a></li>
+                        <li><a class="dropdown-item" href="/regions/irkutsk/">Иркутск</a></li>
+                        <li><a class="dropdown-item" href="/regions/kazan/">Казань</a></li>
+                        <li><a class="dropdown-item" href="/regions/kaluga/">Калуга</a></li>
+                        <li><a class="dropdown-item" href="/regions/klin/">Клин</a></li>
+                        <li><a class="dropdown-item" href="/regions/kolomna/">Коломна</a></li>
+                        <li><a class="dropdown-item" href="/regions/korolev/">Королёв</a></li>
+                        <li><a class="dropdown-item" href="/regions/krasnogorsk/">Красногорск</a></li>
+                        <li><a class="dropdown-item" href="/regions/krasnodar/">Краснодар</a></li>
+                        <li><a class="dropdown-item" href="/regions/krasnoyarsk/">Красноярск</a></li>
+                        <li><a class="dropdown-item" href="/regions/lobnya/">Лобня</a></li>
+                        <li><a class="dropdown-item" href="/regions/lyubertsy/">Люберцы</a></li>
+                        <li><a class="dropdown-item" href="/regions/moscow/">Москва</a></li>
+                        <li><a class="dropdown-item" href="/regions/mytishchi/">Мытищи</a></li>
+                        <li><a class="dropdown-item" href="/regions/naberezhnye-chelny/">Набережные Челны</a></li>
+                        <li><a class="dropdown-item" href="/regions/nizhnekamsk/">Нижнекамск</a></li>
+                        <li><a class="dropdown-item" href="/regions/nizhny-novgorod/">Нижний Новгород</a></li>
+                        <li><a class="dropdown-item" href="/regions/novosibirsk/">Новосибирск</a></li>
+                        <li><a class="dropdown-item" href="/regions/noginsk/">Ногинск</a></li>
+                        <li><a class="dropdown-item" href="/regions/obninsk/">Обнинск</a></li>
+                        <li><a class="dropdown-item" href="/regions/odintsovo/">Одинцово</a></li>
+                        <li><a class="dropdown-item" href="/regions/omsk/">Омск</a></li>
+                        <li><a class="dropdown-item" href="/regions/orekhovo-zuevo/">Орехово-Зуево</a></li>
+                        <li><a class="dropdown-item" href="/regions/perm/">Пермь</a></li>
+                        <li><a class="dropdown-item" href="/regions/podolsk/">Подольск</a></li>
+                        <li><a class="dropdown-item" href="/regions/pushkino/">Пушкино</a></li>
+                        <li><a class="dropdown-item" href="/regions/ramenskoye/">Раменское</a></li>
+                        <li><a class="dropdown-item" href="/regions/reutov/">Реутов</a></li>
+                        <li><a class="dropdown-item" href="/regions/rostov-on-don/">Ростов-на-Дону</a></li>
+                        <li><a class="dropdown-item" href="/regions/samara/">Самара</a></li>
+                        <li><a class="dropdown-item" href="/regions/saint-petersburg/">Санкт-Петербург</a></li>
+                        <li><a class="dropdown-item" href="/regions/sergiev-posad/">Сергиев Посад</a></li>
+                        <li><a class="dropdown-item" href="/regions/serpukhov/">Серпухов</a></li>
+                        <li><a class="dropdown-item" href="/regions/stupino/">Ступино</a></li>
+                        <li><a class="dropdown-item" href="/regions/tver/">Тверь</a></li>
+                        <li><a class="dropdown-item" href="/regions/tula/">Тула</a></li>
+                        <li><a class="dropdown-item" href="/regions/tyumen/">Тюмень</a></li>
+                        <li><a class="dropdown-item" href="/regions/ufa/">Уфа</a></li>
+                        <li><a class="dropdown-item" href="/regions/fryazino/">Фрязино</a></li>
+                        <li><a class="dropdown-item" href="/regions/khabarovsk/">Хабаровск</a></li>
+                        <li><a class="dropdown-item" href="/regions/khimki/">Химки</a></li>
+                        <li><a class="dropdown-item" href="/regions/chelyabinsk/">Челябинск</a></li>
+                        <li><a class="dropdown-item" href="/regions/chekhov/">Чехов</a></li>
+                        <li><a class="dropdown-item" href="/regions/shchelkovo/">Щёлково</a></li>
+                        <li><a class="dropdown-item" href="/regions/elektrostal/">Электросталь</a></li>
+                        <li><a class="dropdown-item" href="/regions/yaroslavl/">Ярославль</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="faq.html">Ответы на вопросы</a>
+                    <a class="nav-link" href="/portfolio.html">Выполненные работы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacts.html">Контакты</a>
+                    <a class="nav-link" href="/faq.html">Ответы на вопросы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contacts.html">Контакты</a>
                 </li>
             </ul>
             <div class="d-flex flex-column align-items-center justify-content-center d-md-none w-100 mt-3 gap-2">

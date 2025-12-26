@@ -2252,3 +2252,9 @@ html {
         font-size: 14px;
     }
 }
+
+/* Regions dropdown menu with scroll */
+.dropdown-menu-regions {
+    max-height: 400px;
+    overflow-y: auto;
+}
