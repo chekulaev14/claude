@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Грузоперевозки в [ГОРОД] - ТК Динамика</title>
-    <meta name="description" content="Грузоперевозки в [ГОРОД] от ТК Динамика. Перевозка грузов от 100 кг до 24 тонн. Фиксированная комиссия от 5000 руб. Работаем 7 лет, 850+ клиентов. ☎ 8-800-707-29-36">
+    <title>Грузоперевозки в {{CITY_PREPOSITIONAL}} - ТК Динамика</title>
+    <meta name="description" content="Грузоперевозки в {{CITY_PREPOSITIONAL}} от ТК Динамика. Перевозка грузов от 100 кг до 24 тонн. Фиксированная комиссия от 5000 руб. Работаем 10 лет, 850+ клиентов.">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
@@ -12,6 +12,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="/assets/css/styles.css" rel="stylesheet">
 
     <!-- Yandex.Metrika counter -->
@@ -33,120 +34,274 @@
     <div id="header-placeholder"></div>
 
     <main class="city-page">
-        <section class="city-hero">
-            <div class="container">
-                <h1>Грузоперевозки [ГОРОД] — надёжно и точно в срок</h1>
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav aria-label="breadcrumb" class="pt-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                    <li class="breadcrumb-item"><a href="/regions/">Регионы</a></li>
+                    <li class="breadcrumb-item active">{{CITY_NAME}}</li>
+                </ol>
+            </nav>
 
-                <div class="city-intro">
-                    <p>Нужна <strong>доставка грузов в [ГОРОДЕ]</strong>? Мы вам в этом поможем! <strong>Транспортная компания</strong> «Динамика» предлагает грузоперевозки по [ОБЛАСТИ], [ГОРОДУ] и всей России. Работаем с юридическими и физическими лицами: <strong>перевозка грузов</strong> весом от 100 кг до 24 тонн, точно соблюдая сроки и условия доставки.</p>
+            <!-- Hero Section -->
+            <section class="city-hero mt-2">
+                <h1>Грузоперевозки {{CITY_NAME}} — надёжно и точно в срок</h1>
 
-                    <p><strong>Экспедиторская компания</strong> с опытом более 10 лет — обеспечиваем <strong>транспортные услуги в [ГОРОДЕ]</strong> по фиксированной цене и с полной прозрачностью. Гарантируем страхование груза, чёткую координацию на всех этапах и удобную систему расчёта стоимости онлайн.</p>
+                <div class="city-intro mt-4">
+                    <p class="lead">Нужна <strong>доставка грузов в {{CITY_PREPOSITIONAL}}</strong>? Мы вам в этом поможем! <strong>Транспортная компания</strong> «Динамика» предлагает грузоперевозки по {{REGION_DATIVE}}, {{CITY_NAME}} и всей России. Работаем с юридическими и физическими лицами: <strong>перевозка грузов</strong> весом от 100 кг до 24 тонн, точно соблюдая сроки и условия доставки.</p>
+
+                    <p><strong>Экспедиторская компания</strong> с опытом более 10 лет — обеспечиваем <strong>транспортные услуги в {{CITY_PREPOSITIONAL}}</strong> по фиксированной цене и с полной прозрачностью. Гарантируем страхование груза, чёткую координацию на всех этапах и удобную систему расчёта стоимости онлайн.</p>
                 </div>
+            </section>
 
-                <div class="city-features">
-                    <h2>Почему выбирают нас</h2>
-                    <ul>
-                        <li><strong>Опыт более 10 лет</strong> — знаем все нюансы логистики и транспортировки.</li>
-                        <li><strong>Собственный автопарк</strong> — регулярные рейсы, доступность транспорта в нужное время.</li>
-                        <li><strong>Без скрытых платежей</strong> — прозрачные тарифы, все условия прописаны заранее.</li>
-                        <li><strong>Доставка 24/7</strong> — работаем без выходных и перерывов.</li>
-                        <li><strong>Поддержка на всех этапах</strong> — персональный менеджер сопровождает заказ.</li>
-                    </ul>
+            <!-- Stats Section -->
+            <section class="stats-section my-5">
+                <div class="row text-center g-4">
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card p-4 rounded bg-light h-100">
+                            <i class="bi bi-calendar-check text-primary fs-1 mb-3"></i>
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">лет на рынке</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card p-4 rounded bg-light h-100">
+                            <i class="bi bi-people text-primary fs-1 mb-3"></i>
+                            <div class="stat-number">850+</div>
+                            <div class="stat-label">клиентов</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card p-4 rounded bg-light h-100">
+                            <i class="bi bi-truck text-primary fs-1 mb-3"></i>
+                            <div class="stat-number">24т</div>
+                            <div class="stat-label">макс. вес груза</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-card p-4 rounded bg-light h-100">
+                            <i class="bi bi-shield-check text-primary fs-1 mb-3"></i>
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">страхование</div>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-                <div class="city-services">
-                    <h2>Наши услуги грузоперевозок в [ГОРОДЕ]</h2>
-                    <div class="services-grid">
-                        <a href="mezhgorod.html" class="service-card">
-                            <h3>Междугородние грузоперевозки</h3>
-                            <p>Доставка из [ГОРОДА] по всей России: 1-20 тонн, любые маршруты</p>
+            <!-- Features Section -->
+            <section class="city-features my-5">
+                <h2 class="mb-4">Почему выбирают нас</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="feature-item d-flex align-items-start">
+                            <i class="bi bi-clock-history text-primary fs-3 me-3"></i>
+                            <div>
+                                <strong>Опыт более 10 лет</strong>
+                                <p class="mb-0 text-muted">Знаем все нюансы логистики и транспортировки</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item d-flex align-items-start">
+                            <i class="bi bi-truck text-primary fs-3 me-3"></i>
+                            <div>
+                                <strong>Собственный автопарк</strong>
+                                <p class="mb-0 text-muted">Регулярные рейсы, доступность транспорта в нужное время</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item d-flex align-items-start">
+                            <i class="bi bi-currency-exchange text-primary fs-3 me-3"></i>
+                            <div>
+                                <strong>Без скрытых платежей</strong>
+                                <p class="mb-0 text-muted">Прозрачные тарифы, все условия прописаны заранее</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item d-flex align-items-start">
+                            <i class="bi bi-clock text-primary fs-3 me-3"></i>
+                            <div>
+                                <strong>Доставка 24/7</strong>
+                                <p class="mb-0 text-muted">Работаем без выходных и перерывов</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item d-flex align-items-start">
+                            <i class="bi bi-headset text-primary fs-3 me-3"></i>
+                            <div>
+                                <strong>Поддержка на всех этапах</strong>
+                                <p class="mb-0 text-muted">Персональный менеджер сопровождает заказ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-item d-flex align-items-start">
+                            <i class="bi bi-geo-alt text-primary fs-3 me-3"></i>
+                            <div>
+                                <strong>Вся Россия</strong>
+                                <p class="mb-0 text-muted">Доставка в любой город РФ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="city-services my-5">
+                <h2 class="mb-4">Наши услуги грузоперевозок в {{CITY_PREPOSITIONAL}}</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <a href="mezhgorod/" class="service-card d-block p-4 border rounded text-decoration-none h-100">
+                            <i class="bi bi-signpost-2 text-primary fs-2 mb-3"></i>
+                            <h3 class="h5">Междугородние грузоперевозки</h3>
+                            <p class="text-muted mb-0">Доставка из {{CITY_GENITIVE}} по всей России: 1-20 тонн, любые маршруты</p>
                         </a>
-                        <a href="transportnaya-kompaniya.html" class="service-card">
-                            <h3>Услуги транспортной компании</h3>
-                            <p>Полный комплекс услуг: от экспедирования до страхования груза</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a href="transportnaya/" class="service-card d-block p-4 border rounded text-decoration-none h-100">
+                            <i class="bi bi-building text-primary fs-2 mb-3"></i>
+                            <h3 class="h5">Услуги транспортной компании</h3>
+                            <p class="text-muted mb-0">Полный комплекс услуг: от экспедирования до страхования груза</p>
                         </a>
-                        <a href="dlinnomer.html" class="service-card">
-                            <h3>Длинномеры и шаланды</h3>
-                            <p>Перевозка негабаритных грузов до 24 метров из [ГОРОДА]</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a href="dlinnomer/" class="service-card d-block p-4 border rounded text-decoration-none h-100">
+                            <i class="bi bi-arrows-expand text-primary fs-2 mb-3"></i>
+                            <h3 class="h5">Длинномеры и шаланды</h3>
+                            <p class="text-muted mb-0">Перевозка негабаритных грузов до 24 метров из {{CITY_GENITIVE}}</p>
                         </a>
-                        <a href="po-rossii.html" class="service-card">
-                            <h3>Грузоперевозки по России</h3>
-                            <p>Маршруты из [ГОРОДА] во все регионы РФ с отслеживанием</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a href="po-rossii/" class="service-card d-block p-4 border rounded text-decoration-none h-100">
+                            <i class="bi bi-map text-primary fs-2 mb-3"></i>
+                            <h3 class="h5">Грузоперевозки по России</h3>
+                            <p class="text-muted mb-0">Маршруты из {{CITY_GENITIVE}} во все регионы РФ с отслеживанием</p>
                         </a>
-                        <a href="fura.html" class="service-card">
-                            <h3>Перевозка фурой</h3>
-                            <p>Полные загрузки фур 5-20 тонн из [ГОРОДА] и обратно</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a href="fura/" class="service-card d-block p-4 border rounded text-decoration-none h-100">
+                            <i class="bi bi-truck-front text-primary fs-2 mb-3"></i>
+                            <h3 class="h5">Перевозка фурой</h3>
+                            <p class="text-muted mb-0">Полные загрузки фур 5-20 тонн из {{CITY_GENITIVE}} и обратно</p>
                         </a>
                     </div>
                 </div>
+            </section>
 
-                <div class="city-routes">
-                    <h2>Популярные маршруты и соседние направления в [ГОРОДЕ]</h2>
-                    <p>Компания «Динамика» организует доставку грузов как из [ГОРОДА], так и в него. Часто доставляем по направлениям:</p>
-
-                    <div class="routes-grid">
-                        <div class="routes-column">
-                            <h3>Из [ГОРОДА]:</h3>
-                            <ul>
-                                <li><a href="[МАРШРУТ_1_ИЗ_URL]">Грузоперевозки [ГОРОД] [ГОРОД_1]</a></li>
-                                <li><a href="[МАРШРУТ_2_ИЗ_URL]">Грузоперевозки [ГОРОД] [ГОРОД_2]</a></li>
-                                <li><a href="[МАРШРУТ_3_ИЗ_URL]">Грузоперевозки [ГОРОД] [ГОРОД_3]</a></li>
-                                <li><a href="[МАРШРУТ_4_ИЗ_URL]">Грузоперевозки [ГОРОД] [ГОРОД_4]</a></li>
-                                <li><a href="[МАРШРУТ_5_ИЗ_URL]">Грузоперевозки [ГОРОД] [ГОРОД_5]</a></li>
-                            </ul>
-                        </div>
-                        <div class="routes-column">
-                            <h3>В [ГОРОД]:</h3>
-                            <ul>
-                                <li><a href="[МАРШРУТ_1_В_URL]">Грузоперевозки [ГОРОД_6] [ГОРОД]</a></li>
-                                <li><a href="[МАРШРУТ_2_В_URL]">Грузоперевозки [ГОРОД_7] [ГОРОД]</a></li>
-                                <li><a href="[МАРШРУТ_3_В_URL]">Грузоперевозки [ГОРОД_8] [ГОРОД]</a></li>
-                                <li><a href="[МАРШРУТ_4_В_URL]">Грузоперевозки [ГОРОД_9] [ГОРОД]</a></li>
-                                <li><a href="[МАРШРУТ_5_В_URL]">Грузоперевозки [ГОРОД_10] [ГОРОД]</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="city-cta">
-                    <h2>Закажите грузоперевозку уже сейчас</h2>
-                    <p>Рассчитайте стоимость прямо на сайте с помощью онлайн-калькулятора или оставьте заявку через форму. <strong>Мы свяжемся с вами в течение 15 минут.</strong> Работаем по всей России — <strong>грузоперевозки в [ГОРОД]</strong> без задержек и переплат.</p>
-
+            <!-- CTA Section -->
+            <section class="cta-section my-5 py-5 bg-light rounded text-center">
+                <div class="container">
+                    <h2 class="mb-3">Закажите грузоперевозку уже сейчас</h2>
+                    <p class="lead mb-4">Рассчитайте стоимость прямо на сайте с помощью онлайн-калькулятора или оставьте заявку через форму. <strong>Мы свяжемся с вами в течение 15 минут.</strong></p>
                     <div class="cta-buttons">
-                        <a href="/calculator-new.html" class="btn-primary">Рассчитать стоимость</a>
-                        <a href="#contact-form" class="btn-secondary">Оставить заявку</a>
+                        <a href="/calculator-new.html" class="btn btn-primary btn-lg me-2 mb-2">Рассчитать стоимость</a>
+                        <a href="#contact-form" class="btn btn-outline-primary btn-lg mb-2">Оставить заявку</a>
                     </div>
                 </div>
+            </section>
 
-                <!-- Форма обратной связи -->
-                <div id="contact-form" class="contact-form-section">
-                    <h3>Получить расчет стоимости</h3>
-                    <p>Ответим в течение 5 минут</p>
-                    <form id="cityContactForm" class="minimal-card">
-                        <div class="form-group">
-                            <label>Телефон</label>
-                            <input type="tel" id="phone" name="phone" value="+7 " placeholder="+7 (999) 999-99-99" required>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label>Откуда</label>
-                                <input type="text" id="departure" name="departure" placeholder="Город отправления" required>
-                            </div>
-                            <div class="form-group">
-                                <label>Куда</label>
-                                <input type="text" id="destination" name="destination" placeholder="Город назначения" required>
+            <!-- FAQ Section -->
+            <section class="faq-section my-5">
+                <h2 class="text-center mb-4">Часто задаваемые вопросы</h2>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item mb-3">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                Как быстро вы находите машину после заявки?
+                            </button>
+                        </h3>
+                        <div id="faq1" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Скорость поиска машины зависит от маршрута (областные центры быстрее), дня недели (конец недели быстрее) и времени суток (утро до 9:00 — быстрее). Мы сразу информируем клиента о сроках и стоимости с учётом всех этих нюансов.
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label>Дата отправки</label>
-                            <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                Как рассчитывается комиссия?
+                            </button>
+                        </h3>
+                        <div id="faq2" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p><strong>Без НДС:</strong> комиссия 5 000 ₽ + 1% от общей стоимости перевозки.</p>
+                                <p><strong>С НДС:</strong> комиссия 6 000 ₽ + 1,5% от общей стоимости перевозки.</p>
+                                <p class="mb-0">Мы всегда ищем для вас выгодный вариант и показываем прозрачный расчёт.</p>
+                            </div>
                         </div>
-                        <button type="submit" class="btn-green">Отправить заявку</button>
-                    </form>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                Что если я не знаю точный вес или объём груза?
+                            </button>
+                        </h3>
+                        <div id="faq3" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Не проблема — просто скажите, что у вас за груз, и мы примерно всё поймём. В 99% случаев мы понимаем, какая нужна машина, с какими параметрами и с каким видом загрузки. Мы с удовольствием проконсультируем и поможем подобрать подходящий транспорт.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                Какие документы нужны для перевозки?
+                            </button>
+                        </h3>
+                        <div id="faq4" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Для стандартной перевозки достаточно товарной накладной или УПД. Мы оформляем транспортную накладную, договор-заявку и все необходимые документы. При работе с НДС предоставляем полный пакет закрывающих документов.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                Как застрахован груз?
+                            </button>
+                        </h3>
+                        <div id="faq5" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Все грузы застрахованы на полную стоимость. Страхование включено в стоимость перевозки. В случае повреждения или утраты груза мы компенсируем ущерб в полном объёме согласно договору.
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+
+            <!-- Contact Form -->
+            <div id="contact-form" class="contact-form-section my-5">
+                <div class="text-center mb-3">
+                    <h3 class="mb-2">Получить расчет стоимости</h3>
+                    <p class="text-muted"><i class="bi bi-clock me-2"></i>Ответим в течение 5 минут</p>
+                </div>
+                <form id="cityContactForm" class="minimal-card">
+                    <div class="form-group">
+                        <label>Телефон</label>
+                        <input type="tel" id="phone" name="phone" value="+7 " placeholder="+7 (999) 999-99-99" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Откуда</label>
+                            <input type="text" id="departure" name="departure" placeholder="Город отправления" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Куда</label>
+                            <input type="text" id="destination" name="destination" placeholder="Город назначения" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Дата отправки</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <button type="submit" class="btn-green">Отправить заявку</button>
+                </form>
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- Footer Placeholder -->
@@ -158,5 +313,163 @@
     <script src="/assets/js/template-loader.js"></script>
     <script src="/assets/js/script.js"></script>
     <script src="/assets/js/forms-handler.js"></script>
+
+    <style>
+    /* Stats Section */
+    .stat-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .stat-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #0d6efd;
+        line-height: 1;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+        color: #6c757d;
+        margin-top: 0.5rem;
+    }
+
+    /* Features Section */
+    .feature-item {
+        padding: 1rem;
+        border-radius: 8px;
+        transition: background 0.3s ease;
+    }
+
+    .feature-item:hover {
+        background: #f8f9fa;
+    }
+
+    /* Services Section */
+    .service-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        color: #212529;
+    }
+
+    .service-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        border-color: #0d6efd !important;
+    }
+
+    .service-card h3 {
+        color: #212529;
+    }
+
+    /* CTA Section */
+    .cta-section {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+
+    /* FAQ Section */
+    .faq-section .accordion-button {
+        font-weight: 500;
+        padding: 1.25rem 1.5rem;
+    }
+
+    .faq-section .accordion-button:not(.collapsed) {
+        background-color: #f8f9fa;
+        color: #0d6efd;
+    }
+
+    .faq-section .accordion-item {
+        border-radius: 8px;
+        border: 1px solid #dee2e6;
+        overflow: hidden;
+    }
+
+    .faq-section .accordion-body {
+        padding: 1.5rem;
+        line-height: 1.8;
+    }
+
+    /* Contact Form */
+    .contact-form-section {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .minimal-card {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        color: #495057;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 0.875rem 1.25rem;
+        border: 2px solid #e9ecef;
+        border-radius: 10px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .form-group input:focus {
+        outline: none;
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 3px rgba(13,110,253,0.1);
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .btn-green {
+        width: 100%;
+        padding: 1rem;
+        background: #28a745;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .btn-green:hover {
+        background: #218838;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(40,167,69,0.3);
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+        .stat-number {
+            font-size: 2rem;
+        }
+
+        .form-row {
+            grid-template-columns: 1fr;
+        }
+
+        .cta-buttons .btn {
+            width: 100%;
+        }
+    }
+    </style>
 </body>
 </html>
