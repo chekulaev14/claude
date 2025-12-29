@@ -1,0 +1,3 @@
+[submodule "telegram-bot-email"]
+	path = telegram-bot-email
+	url = https://github.com/chekulaev14/telegram-bot-email.git

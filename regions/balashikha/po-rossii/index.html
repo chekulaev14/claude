@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузоперевозки по России Балашиха - ТК Динамика</title>
+    <meta name="description" content="Компания "Динамика" организует грузоперевозки по россии из Балашихи во все регионы страны. Подбираем транспорт для производителей, торговых компаний,...">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
+    <link rel="apple-touch-icon" href="/assets/images/favicon-new.png?v=4">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="/assets/css/styles.css" rel="stylesheet">
+
+    <style>
+        .cluster-hero {
+            padding-top: 120px;
+            padding-bottom: 40px;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .cluster-hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        .cluster-intro {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        /* Иконки преимуществ */
+        .advantages-icons {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-bottom: 0;
+        }
+        .advantage-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .advantage-item .icon {
+            width: 48px;
+            height: 48px;
+            background: #f0f7ff;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2563eb;
+            font-size: 20px;
+        }
+        .advantage-item .text {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2d3436;
+        }
+
+        /* Секции контента */
+        .content-section {
+            padding: 60px 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .content-section:nth-child(odd) {
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .content-section h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #2d3436;
+        }
+        .content-section p,
+        .content-section ul,
+        .content-section ol {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #636e72;
+        }
+        .content-section ul,
+        .content-section ol {
+            padding-left: 1.5rem;
+        }
+        .content-section li {
+            margin-bottom: 0.5rem;
+        }
+        .content-section img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .section-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Отзывы */
+        .reviews-section {
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            padding: 80px 0;
+        }
+        .reviews-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            color: #2d3436;
+        }
+        .review-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            height: 100%;
+        }
+        .review-card .stars {
+            color: #ffc107;
+            margin-bottom: 15px;
+        }
+        .review-card .text {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #636e72;
+            margin-bottom: 20px;
+        }
+        .review-card .author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .review-card .author-avatar {
+            width: 48px;
+            height: 48px;
+            background: #2563eb;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .review-card .author-info .name {
+            font-weight: 600;
+            color: #2d3436;
+        }
+        .review-card .author-info .company {
+            font-size: 13px;
+            color: #636e72;
+        }
+
+        @media (max-width: 768px) {
+            .advantages-icons {
+                gap: 20px;
+            }
+            .advantage-item {
+                flex: 1 1 45%;
+            }
+            .content-section img {
+                height: 220px;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="cluster-hero">
+        <div class="container">
+            <h1>Грузоперевозки по России Балашиха</h1>
+            <p class="cluster-intro">Компания "Динамика" организует <strong>грузоперевозки по россии</strong> из Балашихи во все регионы страны. Подбираем транспорт для производителей, торговых компаний, строительных организаций, интернет-магазинов. Работаем с любыми объёмами.</p>
+
+            <!-- Иконки преимуществ -->
+            <div class="advantages-icons">
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-clock"></i></div>
+                    <div class="text">Расчёт за 5 минут</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-shield-check"></i></div>
+                    <div class="text">Страхование груза</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-cash-stack"></i></div>
+                    <div class="text">Прозрачные цены</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-truck"></i></div>
+                    <div class="text">850+ клиентов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Текст слева, картинка справа -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 section-text">
+                    <h2>Малотоннажный транспорт</h2>
+                    <p>Небольшие партии везём на <strong>грузоперевозки 1 тонна по россии</strong>. Компактная газель 3 метра берёт до 1000 кг и 6-7 м³. Подходит для образцов продукции, запчастей, комплектующих, оргтехники, документации. Подача за 1-2 часа в любой район.</p>
+                    <p>Средние партии доставляем на <strong>грузоперевозки по россии газель 1.5 тонны</strong>. Удлинённая версия до 4.2 метра вмещает 4-5 европаллет и до 9 м³. Популярна у интернет-магазинов, поставщиков, сервисов, дилеров. Проходит в узкие дворы — удобно для адресной доставки клиентам.</p>
+                    <p>Посмотреть <strong>грузоперевозки по россии газель цена</strong> можно в калькуляторе на сайте — расчёт за 3 минуты. <strong>Грузоперевозки по россии газель</strong> востребованы для регулярных рейсов с небольшими партиями товаров.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/assets/images/clusters/po-rossii/articlesection108section_image.png" alt="Малотоннажный транспорт">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Картинка слева, текст справа -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2 section-text">
+                    <h2>Среднетоннажный сегмент</h2>
+                    <p>Партии до 5 тонн везём на <strong>грузоперевозки по россии 5 тонн</strong>. Бортовые машины 5-6 метров и фургоны вмещают 8-10 европаллет. Справляются с мебелью, строительными материалами, оборудованием, промтоварами. Откидные борта упрощают погрузку длинномеров — труб, профилей, балок.</p>
+                    <p>Более тяжёлые грузы доставляем на <strong>грузоперевозки 10 тонн по россии</strong>. Среднетоннажники повышенной грузоподъёмности подходят для металлоконструкций, станков, промоборудования. Объём 30-40 м³ позволяет загрузить до 15 европаллет. Стоимость километра выгоднее малотоннажников на 20-25%.</p>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <img src="/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg" alt="Среднетоннажный сегмент">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Текст слева, картинка справа -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 section-text">
+                    <h2>Крупнотоннажные машины</h2>
+                    <p>Крупные объёмы везём на <strong>грузоперевозки 20 тонн по россии</strong>. Еврофуры 13.6 метров вмещают 33 европаллеты и до 82 м³. Основной транспорт для межрегиональных поставок стройматериалов, промышленной продукции, товаров народного потребления.</p>
+                    <p><strong>Грузоперевозки междугороднее по россии</strong> на 20-тонниках наиболее выгодны при полной загрузке кузова. При неполной — собираем консолидированный рейс с грузами других клиентов. Экономия достигает 40-50%. Контролируем весь маршрут от погрузки до получения.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png" alt="Крупнотоннажные машины">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Картинка слева, текст справа -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2 section-text">
+                    <h2>Формирование стоимости</h2>
+                    <p><strong>Стоимость грузоперевозок по россии</strong> формируется из километража, типа транспорта, срочности доставки, сезонности. Работаем прозрачно — показываем закупочную цену и нашу комиссию. Без скрытых наценок. Наша комиссия: 5000 ₽ + 1% или 6000 ₽ + 1,5%.</p>
+                    <p><strong>Грузоперевозки по россии цена</strong> зависит от загруженности маршрута. На популярных направлениях тарифы ниже благодаря обратной загрузке перевозчиков. Чтобы <strong>рассчитать грузоперевозку по россии</strong>, используйте онлайн-калькулятор или позвоните менеджеру. КП готовим за 10 минут. Вы сможете <strong>грузоперевозки по россии цены рассчитать</strong> для разных вариантов транспорта и выбрать оптимальный.</p>
+                    <p>Базовая ставка <strong>грузоперевозки по россии за километр</strong>: от 15 ₽ на газель, от 18 ₽ на 5-тонник, от 30 ₽ на фуру. Итоговая сумма включает подачу машины, километраж, работу водителя, экспедирование. Для рефрижератора добавляется 25-30% к базе.</p>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <img src="/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg" alt="Формирование стоимости">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Текст слева, картинка справа -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 section-text">
+                    <h2>Срочно и недорого</h2>
+                    <p>Когда нужна экстренная отправка, организуем <strong>грузоперевозки по россии срочно</strong>. Находим машину за 1-3 часа, подаём в день обращения. Работаем 24/7 без выходных. Экспресс-доставка дороже на 30-40%, но гарантирует соблюдение жёстких сроков поставки.</p>
+                    <p>Если время позволяет, выбирайте <strong>грузоперевозки по россии недорого</strong> — сборный рейс. Груз едет вместе с другими по тому же направлению. Экономия 40-55%. Подходит для негабаритных грузов, когда цена важнее скорости доставки. Отслеживаем перемещение на каждом этапе.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg" alt="Срочно и недорого">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Картинка слева, текст справа -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2 section-text">
+                    <h2>Наши преимущества</h2>
+                    <ul>
+                        <li><strong>Честность</strong> — видите цену перевозчика и нашу комиссию</li>
+                        <li><strong>Быстрота</strong> — <strong>грузоперевозки по россии цена</strong> за 5 минут</li>
+                        <li><strong>Гибкость</strong> — подбираем транспорт под груз и задачу</li>
+                        <li><strong>Надёжность</strong> — страхование, договор, гарантии сроков</li>
+                        <li><strong>Контроль</strong> — онлайн-мониторинг маршрута</li>
+                    </ul>
+                    <p>Оставьте заявку через форму или звоните напрямую. Менеджер рассчитает маршрут, зарезервирует транспорт. Находим машину в 99% случаев. Оформление занимает 15 минут. Доставка точно в срок с документами.</p>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <img src="/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg" alt="Наши преимущества">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2>Отзывы наших клиентов</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text">Заказывали перевозку оборудования из Балашиха в Казань. Всё прошло отлично — машина подана вовремя, груз доставлен без повреждений. Особенно понравилась прозрачность ценообразования.</p>
+                        <div class="author">
+                            <div class="author-avatar">АС</div>
+                            <div class="author-info">
+                                <div class="name">Алексей Смирнов</div>
+                                <div class="company">ООО "ТехноСтрой"</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text">Работаем с Динамикой уже полгода. Регулярно отправляем товар в регионы. Всегда быстро находят транспорт, даже на срочные заявки. Рекомендую!</p>
+                        <div class="author">
+                            <div class="author-avatar">МК</div>
+                            <div class="author-info">
+                                <div class="name">Марина Козлова</div>
+                                <div class="company">ИП Козлова М.В.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p class="text">Переезжали офис из Балашиха в Нижний Новгород. Ребята помогли организовать перевозку мебели и техники. Всё аккуратно упаковали и доставили в целости.</p>
+                        <div class="author">
+                            <div class="author-avatar">ДП</div>
+                            <div class="author-info">
+                                <div class="name">Дмитрий Петров</div>
+                                <div class="company">Частный клиент</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма обратной связи -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="text-center mb-4">Обратная связь</h3>
+                            <p class="text-center text-muted mb-4">Оставьте ваш номер телефона, и мы вам перезвоним</p>
+                            <form id="callbackForm" class="callback-form">
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Номер телефона</label>
+                                    <input type="tel" class="form-control form-control-lg" id="phone" name="phone" placeholder="+7 (___) ___-__-__" value="+7 " required>
+                                </div>
+                                <button type="submit" class="btn btn-danger btn-lg w-100">
+                                    <i class="bi bi-telephone-fill me-2"></i>Позвоните мне
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Template Loader -->
+    <script src="/assets/js/template-loader.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/forms-handler.js"></script>
+</body>
+</html>

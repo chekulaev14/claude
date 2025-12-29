@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вакансии и карьера - ТК Динамика</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-gradient-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold mb-4">Присоединяйтесь к нашей команде</h1>
+                    <p class="lead mb-4">Мы ищем талантливых людей, готовых развиваться в динамично растущей логистической компании</p>
+                    <div class="d-flex gap-3">
+                        <a href="#vacancies" class="btn btn-light btn-lg">Смотреть вакансии</a>
+                        <a href="#" class="btn btn-outline-light btn-lg">Отправить резюме</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/500x400?text=Наша+команда" alt="Команда" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Work With Us -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Почему стоит работать с нами</h2>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <i class="bi bi-graph-up-arrow text-primary" style="font-size: 3rem;"></i>
+                        <h4 class="mt-3">Карьерный рост</h4>
+                        <p class="text-muted">Прозрачная система продвижения и развития карьеры</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <i class="bi bi-currency-exchange text-success" style="font-size: 3rem;"></i>
+                        <h4 class="mt-3">Достойная оплата</h4>
+                        <p class="text-muted">Конкурентная зарплата + премии за результат</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <i class="bi bi-shield-check text-info" style="font-size: 3rem;"></i>
+                        <h4 class="mt-3">Социальные гарантии</h4>
+                        <p class="text-muted">Полный соцпакет и медицинская страховка</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Vacancies -->
+    <section class="py-5 bg-light" id="vacancies">
+        <div class="container">
+            <h2 class="text-center mb-5">Открытые вакансии</h2>
+
+            <!-- Filters -->
+            <div class="row mb-4">
+                <div class="col-lg-8 mx-auto">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <select class="form-select" id="departmentFilter">
+                                <option value="">Все отделы</option>
+                                <option value="logistics">Логистика</option>
+                                <option value="drivers">Водители</option>
+                                <option value="office">Офис</option>
+                                <option value="warehouse">Склад</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <select class="form-select" id="experienceFilter">
+                                <option value="">Любой опыт</option>
+                                <option value="junior">Без опыта</option>
+                                <option value="middle">1-3 года</option>
+                                <option value="senior">3+ лет</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <select class="form-select" id="locationFilter">
+                                <option value="">Все города</option>
+                                <option value="togliatti">Тольятти</option>
+                                <option value="moscow">Москва</option>
+                                <option value="spb">Санкт-Петербург</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vacancies List -->
+            <div class="row g-4">
+                <!-- Vacancy 1 -->
+                <div class="col-12 vacancy-item" data-department="drivers" data-experience="middle" data-location="togliatti">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-lg-8">
+                                    <div class="d-flex align-items-start justify-content-between mb-2">
+                                        <h5 class="mb-0">Водитель-дальнобойщик</h5>
+                                        <span class="badge bg-success">Срочно</span>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Зарплата:</small>
+                                            <div class="fw-bold text-success">80 000 - 120 000₽</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Опыт:</small>
+                                            <div>От 2 лет</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Город:</small>
+                                            <div>Тольятти</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Тип:</small>
+                                            <div>Полная занятость</div>
+                                        </div>
+                                    </div>
+                                    <p class="mb-2">Требуются водители категории E для междугородних перевозок. Современная техника, достойная оплата.</p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge bg-light text-dark">Категория E</span>
+                                        <span class="badge bg-light text-dark">Опыт вождения</span>
+                                        <span class="badge bg-light text-dark">Дальние рейсы</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 text-lg-end">
+                                    <button class="btn btn-primary mb-2 w-100">Откликнуться</button>
+                                    <button class="btn btn-outline-primary w-100">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vacancy 2 -->
+                <div class="col-12 vacancy-item" data-department="logistics" data-experience="middle" data-location="togliatti">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-lg-8">
+                                    <div class="d-flex align-items-start justify-content-between mb-2">
+                                        <h5 class="mb-0">Логист-диспетчер</h5>
+                                        <span class="badge bg-primary">Новая</span>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Зарплата:</small>
+                                            <div class="fw-bold text-success">50 000 - 70 000₽</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Опыт:</small>
+                                            <div>От 1 года</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Город:</small>
+                                            <div>Тольятти</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Тип:</small>
+                                            <div>Полная занятость</div>
+                                        </div>
+                                    </div>
+                                    <p class="mb-2">Поиск грузов, планирование маршрутов, взаимодействие с клиентами и водителями.</p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge bg-light text-dark">1С</span>
+                                        <span class="badge bg-light text-dark">MS Office</span>
+                                        <span class="badge bg-light text-dark">Коммуникабельность</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 text-lg-end">
+                                    <button class="btn btn-primary mb-2 w-100">Откликнуться</button>
+                                    <button class="btn btn-outline-primary w-100">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vacancy 3 -->
+                <div class="col-12 vacancy-item" data-department="office" data-experience="junior" data-location="togliatti">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-lg-8">
+                                    <div class="d-flex align-items-start justify-content-between mb-2">
+                                        <h5 class="mb-0">Менеджер по продажам</h5>
+                                        <span class="badge bg-info">Можно без опыта</span>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Зарплата:</small>
+                                            <div class="fw-bold text-success">40 000 - 80 000₽</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Опыт:</small>
+                                            <div>Не требуется</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Город:</small>
+                                            <div>Тольятти</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Тип:</small>
+                                            <div>Полная занятость</div>
+                                        </div>
+                                    </div>
+                                    <p class="mb-2">Поиск новых клиентов, консультации по услугам, ведение клиентской базы.</p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge bg-light text-dark">Продажи</span>
+                                        <span class="badge bg-light text-dark">CRM системы</span>
+                                        <span class="badge bg-light text-dark">Обучение</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 text-lg-end">
+                                    <button class="btn btn-primary mb-2 w-100">Откликнуться</button>
+                                    <button class="btn btn-outline-primary w-100">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vacancy 4 -->
+                <div class="col-12 vacancy-item" data-department="warehouse" data-experience="junior" data-location="moscow">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-lg-8">
+                                    <div class="d-flex align-items-start justify-content-between mb-2">
+                                        <h5 class="mb-0">Грузчик-комплектовщик</h5>
+                                        <span class="badge bg-warning">Много вакансий</span>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Зарплата:</small>
+                                            <div class="fw-bold text-success">35 000 - 50 000₽</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Опыт:</small>
+                                            <div>Не требуется</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Город:</small>
+                                            <div>Москва</div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small class="text-muted">Тип:</small>
+                                            <div>Сменный график</div>
+                                        </div>
+                                    </div>
+                                    <p class="mb-2">Погрузка, разгрузка, комплектация заказов на современном складе.</p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge bg-light text-dark">Физическая работа</span>
+                                        <span class="badge bg-light text-dark">Склад</span>
+                                        <span class="badge bg-light text-dark">Обучение</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 text-lg-end">
+                                    <button class="btn btn-primary mb-2 w-100">Откликнуться</button>
+                                    <button class="btn btn-outline-primary w-100">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- No Results -->
+            <div class="text-center mt-5" id="noVacancies" style="display: none;">
+                <i class="bi bi-search text-muted" style="font-size: 4rem;"></i>
+                <h4 class="mt-3">Подходящих вакансий не найдено</h4>
+                <p class="text-muted">Попробуйте изменить параметры поиска или отправьте нам свое резюме</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Что мы предлагаем</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-cash-coin text-success fs-1 mb-3"></i>
+                            <h5>Достойная зарплата</h5>
+                            <p class="text-muted">Конкурентная оплата труда + ежемесячные премии</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-heart-pulse text-danger fs-1 mb-3"></i>
+                            <h5>Медстрахование</h5>
+                            <p class="text-muted">ДМС для сотрудника и его семьи</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-book text-primary fs-1 mb-3"></i>
+                            <h5>Обучение</h5>
+                            <p class="text-muted">Корпоративное обучение и повышение квалификации</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-calendar-event text-warning fs-1 mb-3"></i>
+                            <h5>Отпуск</h5>
+                            <p class="text-muted">28 дней оплачиваемого отпуска + дополнительные дни</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Form -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="text-center mb-4">
+                        <h2>Не нашли подходящую вакансию?</h2>
+                        <p class="lead">Отправьте нам свое резюме, и мы обязательно рассмотрим ваше предложение</p>
+                    </div>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="tel" class="form-control" placeholder="Телефон" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="col-12">
+                            <select class="form-select" required>
+                                <option value="">Интересующая должность</option>
+                                <option>Водитель</option>
+                                <option>Логист</option>
+                                <option>Менеджер</option>
+                                <option>Другое</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label class="form-label">Прикрепить резюме</label>
+                                <input type="file" class="form-control" accept=".pdf,.doc,.docx">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" required>
+                                <label class="form-check-label">
+                                    Согласен на обработку персональных данных
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-light btn-lg w-100">
+                                <i class="bi bi-send me-2"></i>Отправить резюме
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/template-loader.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+    <style>
+    .bg-gradient-primary {
+        background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    }
+    </style>
+
+    <script>
+    // Vacancy filtering
+    function filterVacancies() {
+        const department = document.getElementById('departmentFilter').value;
+        const experience = document.getElementById('experienceFilter').value;
+        const location = document.getElementById('locationFilter').value;
+
+        const vacancies = document.querySelectorAll('.vacancy-item');
+        let visibleCount = 0;
+
+        vacancies.forEach(vacancy => {
+            const vDepartment = vacancy.dataset.department;
+            const vExperience = vacancy.dataset.experience;
+            const vLocation = vacancy.dataset.location;
+
+            const showDepartment = !department || vDepartment === department;
+            const showExperience = !experience || vExperience === experience;
+            const showLocation = !location || vLocation === location;
+
+            if (showDepartment && showExperience && showLocation) {
+                vacancy.style.display = 'block';
+                visibleCount++;
+            } else {
+                vacancy.style.display = 'none';
+            }
+        });
+
+        document.getElementById('noVacancies').style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    // Add event listeners
+    document.getElementById('departmentFilter').addEventListener('change', filterVacancies);
+    document.getElementById('experienceFilter').addEventListener('change', filterVacancies);
+    document.getElementById('locationFilter').addEventListener('change', filterVacancies);
+    </script>
+</body>
+</html>

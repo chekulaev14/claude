@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страхование грузов - ТК Динамика</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-success text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-5 fw-bold mb-4">Страхование грузов</h1>
+                    <p class="lead">Полная защита вашего груза на всем пути следования</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insurance Calculator -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0"><i class="bi bi-calculator me-2"></i>Калькулятор страхования</h5>
+                        </div>
+                        <div class="card-body">
+                            <form id="insuranceCalculator">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Стоимость груза (₽)</label>
+                                        <input type="number" class="form-control" id="cargoValue" placeholder="Введите стоимость">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Тип груза</label>
+                                        <select class="form-select" id="cargoType">
+                                            <option value="">Выберите тип</option>
+                                            <option value="standard">Обычный груз</option>
+                                            <option value="fragile">Хрупкий груз</option>
+                                            <option value="electronics">Электроника</option>
+                                            <option value="documents">Документы</option>
+                                            <option value="precious">Ценности</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Расстояние перевозки</label>
+                                        <select class="form-select" id="distance">
+                                            <option value="">Выберите расстояние</option>
+                                            <option value="city">По городу</option>
+                                            <option value="regional">Межгород (до 500км)</option>
+                                            <option value="longdist">Дальнее расстояние (500+ км)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Тип страхования</label>
+                                        <select class="form-select" id="insuranceType">
+                                            <option value="">Выберите тип</option>
+                                            <option value="basic">Базовое (3%)</option>
+                                            <option value="extended">Расширенное (5%)</option>
+                                            <option value="full">Полное (7%)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-success mt-3" onclick="calculateInsurance()">
+                                    <i class="bi bi-calculator me-2"></i>Рассчитать
+                                </button>
+                            </form>
+
+                            <div id="calculatorResult" class="alert alert-success mt-4 d-none">
+                                <h6>Результат расчета:</h6>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="mb-1"><strong>Стоимость страхования:</strong> <span id="insuranceCost"></span> ₽</p>
+                                        <p class="mb-1"><strong>Страховая сумма:</strong> <span id="insuranceSum"></span> ₽</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="mb-1"><strong>Тариф:</strong> <span id="insuranceRate"></span>%</p>
+                                        <p class="mb-1"><strong>Тип покрытия:</strong> <span id="coverageType"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-header bg-info text-white">
+                            <h6 class="mb-0">Быстрое оформление</h6>
+                        </div>
+                        <div class="card-body">
+                            <p class="small">Оформите страховку онлайн за 2 минуты</p>
+                            <button class="btn btn-info w-100 mb-3">Оформить страховку</button>
+                            <div class="small text-muted">
+                                <p class="mb-1">✓ Мгновенное оформление</p>
+                                <p class="mb-1">✓ Электронный полис</p>
+                                <p class="mb-0">✓ SMS-подтверждение</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insurance Types -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Виды страхования</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-primary text-white text-center">
+                            <h5 class="mb-0">Базовое</h5>
+                            <div class="mt-2">
+                                <span class="h4">3%</span>
+                                <small>от стоимости</small>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>✓ Утрата груза</li>
+                                <li>✓ Повреждение</li>
+                                <li>✓ Порча от влаги</li>
+                                <li>✓ Кража</li>
+                                <li class="text-muted">✗ Форс-мажор</li>
+                                <li class="text-muted">✗ Задержка доставки</li>
+                            </ul>
+                            <div class="mt-3">
+                                <small class="text-muted">Покрытие до 100 000 ₽</small>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Выбрать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 border-warning">
+                        <div class="card-header bg-warning text-dark text-center position-relative">
+                            <span class="badge bg-dark position-absolute top-0 start-50 translate-middle">Популярное</span>
+                            <h5 class="mb-0 mt-2">Расширенное</h5>
+                            <div class="mt-2">
+                                <span class="h4">5%</span>
+                                <small>от стоимости</small>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>✓ Утрата груза</li>
+                                <li>✓ Повреждение</li>
+                                <li>✓ Порча от влаги</li>
+                                <li>✓ Кража</li>
+                                <li>✓ Форс-мажор</li>
+                                <li class="text-muted">✗ Задержка доставки</li>
+                            </ul>
+                            <div class="mt-3">
+                                <small class="text-muted">Покрытие до 500 000 ₽</small>
+                            </div>
+                            <button class="btn btn-warning w-100 mt-3">Выбрать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-header bg-success text-white text-center">
+                            <h5 class="mb-0">Полное</h5>
+                            <div class="mt-2">
+                                <span class="h4">7%</span>
+                                <small>от стоимости</small>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>✓ Утрата груза</li>
+                                <li>✓ Повреждение</li>
+                                <li>✓ Порча от влаги</li>
+                                <li>✓ Кража</li>
+                                <li>✓ Форс-мажор</li>
+                                <li>✓ Задержка доставки</li>
+                            </ul>
+                            <div class="mt-3">
+                                <small class="text-muted">Покрытие до 1 000 000 ₽</small>
+                            </div>
+                            <button class="btn btn-success w-100 mt-3">Выбрать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Claims Process -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Процедура возмещения</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">1</div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6>Уведомление</h6>
+                                    <p class="small text-muted">Сообщите о страховом случае в течение 24 часов</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <div class="bg-warning text-dark rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">2</div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6>Документы</h6>
+                                    <p class="small text-muted">Предоставьте необходимые документы и фото</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <div class="bg-info text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">3</div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6>Экспертиза</h6>
+                                    <p class="small text-muted">Проводится оценка ущерба в течение 3-5 дней</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">4</div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6>Выплата</h6>
+                                    <p class="small text-muted">Возмещение в течение 10 рабочих дней</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Часто задаваемые вопросы</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="insuranceFAQ">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Что покрывает базовое страхование?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#insuranceFAQ">
+                                <div class="accordion-body">
+                                    Базовое страхование покрывает утрату, повреждение, порчу от влаги и кражу груза. Максимальная сумма покрытия составляет 100 000 рублей.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Как быстро происходит выплата?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#insuranceFAQ">
+                                <div class="accordion-body">
+                                    После подачи всех необходимых документов выплата производится в течение 10 рабочих дней. В простых случаях - до 5 дней.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Какие документы нужны для страхового случая?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#insuranceFAQ">
+                                <div class="accordion-body">
+                                    Необходимы: страховой полис, накладная, фото повреждений, акт приема-передачи, документы подтверждающие стоимость груза.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/template-loader.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script>
+        function calculateInsurance() {
+            const cargoValue = parseFloat(document.getElementById('cargoValue').value);
+            const cargoType = document.getElementById('cargoType').value;
+            const distance = document.getElementById('distance').value;
+            const insuranceType = document.getElementById('insuranceType').value;
+
+            if (!cargoValue || !cargoType || !distance || !insuranceType) {
+                alert('Пожалуйста, заполните все поля');
+                return;
+            }
+
+            let baseRate;
+            let coverageType;
+
+            switch(insuranceType) {
+                case 'basic':
+                    baseRate = 0.03;
+                    coverageType = 'Базовое покрытие';
+                    break;
+                case 'extended':
+                    baseRate = 0.05;
+                    coverageType = 'Расширенное покрытие';
+                    break;
+                case 'full':
+                    baseRate = 0.07;
+                    coverageType = 'Полное покрытие';
+                    break;
+            }
+
+            // Apply multipliers based on cargo type and distance
+            let multiplier = 1;
+
+            if (cargoType === 'fragile') multiplier *= 1.2;
+            if (cargoType === 'electronics') multiplier *= 1.3;
+            if (cargoType === 'precious') multiplier *= 1.5;
+
+            if (distance === 'regional') multiplier *= 1.1;
+            if (distance === 'longdist') multiplier *= 1.2;
+
+            const finalRate = baseRate * multiplier;
+            const insuranceCost = cargoValue * finalRate;
+
+            document.getElementById('insuranceCost').textContent = Math.round(insuranceCost);
+            document.getElementById('insuranceSum').textContent = cargoValue.toLocaleString();
+            document.getElementById('insuranceRate').textContent = (finalRate * 100).toFixed(1);
+            document.getElementById('coverageType').textContent = coverageType;
+
+            document.getElementById('calculatorResult').classList.remove('d-none');
+        }
+    </script>
+</body>
+</html>

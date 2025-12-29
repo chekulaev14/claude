@@ -1,0 +1,50 @@
+<footer style="background: #2d3436; color: white; padding: 40px 0; margin-top: 80px;">
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 30px;">
+            <!-- Logo & Tagline -->
+            <div style="flex: 1; min-width: 250px;">
+                <h3 style="color: white; margin-bottom: 10px; font-size: 24px; font-weight: 700;">ТК Динамика</h3>
+                <p style="color: #b2bec3; margin: 0; font-size: 14px;">Грузоперевозки по России</p>
+            </div>
+
+            <!-- Contacts -->
+            <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+                <div>
+                    <p style="color: #b2bec3; margin: 0 0 8px 0; font-size: 13px;">Телефон</p>
+                    <a href="tel:88007072936" style="color: white; text-decoration: none; font-size: 18px; font-weight: 600; display: block; margin-bottom: 5px;">8-800-707-29-36</a>
+                    <a href="tel:89874165187" style="color: white; text-decoration: none; font-size: 16px; font-weight: 500;">8-987-416-51-87</a>
+                </div>
+                <div>
+                    <p style="color: #b2bec3; margin: 0 0 8px 0; font-size: 13px;">Email</p>
+                    <a href="mailto:kontekst-rt@yandex.ru" style="color: white; text-decoration: none; font-size: 16px;">kontekst-rt@yandex.ru</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div style="flex-basis: 100%; text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #636e72;">
+                <p style="color: #b2bec3; margin: 0; font-size: 13px;">&copy; 2025 ТК Динамика. Все права защищены.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Mobile Callback Modal -->
+<div class="modal fade" id="mobileCallbackModal" tabindex="-1" aria-labelledby="mobileCallbackModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mobileCallbackModalLabel">Обратный звонок</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="mobileCallbackForm" class="callback-form">
+                    <div class="mb-3">
+                        <label for="mobileCallbackPhone" class="form-label">Ваш телефон</label>
+                        <input type="tel" class="form-control" id="mobileCallbackPhone" name="phone" placeholder="+7 (999) 999-99-99" value="+7 " required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Позвоните мне!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши клиенты - ТК Динамика</title>
+    <meta name="description" content="Клиенты ТК Динамика. Отзывы и партнеры транспортной компании по грузоперевозкам. ☎ 8-987-416-51-87">
+    <meta name="keywords" content="клиенты, отзывы, партнеры, грузоперевозки, транспортная компания">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Наши клиенты - ТК Динамика">
+    <meta property="og:description" content="Клиенты ТК Динамика. Отзывы и партнеры транспортной компании по грузоперевозкам.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
+    <link rel="apple-touch-icon" href="/assets/images/favicon-new.png?v=4">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103783702', 'ym');
+
+        ym(103783702, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/103783702" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <section class="services" id="clients">
+            <div class="container">
+                <h1 class="section-title">Наши клиенты</h1>
+                <p class="section-subtitle">Более 880 партнеров доверяют нам свои грузоперевозки</p>
+
+                <div class="text-center mb-4">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        Список составлен на основе выгрузки из 1С. Представлены организации, которые хотя бы раз оплатили перевозку
+                    </small>
+                </div>
+
+                <!-- Алфавитная навигация -->
+                <div class="alphabet-nav mb-4">
+                    <div class="d-flex flex-wrap justify-content-center gap-1" id="alphabetNav">
+                        <!-- Будет заполнено JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Статистика -->
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="alert alert-info">
+                            <div class="row text-center">
+                                <div class="col-md-4">
+                                    <strong>Всего клиентов:</strong> <span id="totalClients">0</span>
+                                </div>
+                                <div class="col-md-4">
+                                    <strong>Показано:</strong> <span id="shownClients">0</span>
+                                </div>
+                                <div class="col-md-4">
+                                    <strong>Страница:</strong> <span id="currentPage">1</span> из <span id="totalPages">1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Список клиентов -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div id="clientsList" class="row">
+                                    <!-- Будет заполнено JavaScript -->
+                                </div>
+                                <div id="loadingSpinner" class="text-center py-4">
+                                    <div class="spinner-border" role="status">
+                                        <span class="visually-hidden">Загрузка...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Пагинация -->
+                <nav aria-label="Навигация по страницам" class="mt-4">
+                    <ul class="pagination justify-content-center" id="pagination">
+                        <!-- Будет заполнено JavaScript -->
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Форма обратной связи -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body p-4">
+                                <h3 class="text-center mb-4">Обратная связь</h3>
+                                <p class="text-center text-muted mb-4">Оставьте ваш номер телефона, и мы вам перезвоним</p>
+                                <form id="callbackForm" class="callback-form">
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Номер телефона</label>
+                                        <input type="tel" class="form-control form-control-lg" id="phone" name="phone" placeholder="+7 (___) ___-__-__" value="+7 " required>
+                                    </div>
+                                    <button type="submit" class="btn btn-danger btn-lg w-100">
+                                        <i class="bi bi-telephone-fill me-2"></i>Позвоните мне
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Кнопки навигации -->
+        <section class="py-5 bg-white">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <a href="clients-map.html" class="btn btn-outline-primary btn-lg w-100">
+                            🗺️ География клиентов
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="portfolio.html" class="btn btn-outline-primary btn-lg w-100">
+                            🚚 Наши проекты
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <!-- Bootstrap 5.3 JS -->
+    
+    <!-- Template Loader -->
+    <script src="../assets/js/template-loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/forms-handler.js"></script>
+    <script src="../assets/js/clients.js"></script>
+</body>
+</html>

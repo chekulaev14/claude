@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Динамика Карго - Грузовые перевозки</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Google Maps API -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeGxooF2L5rdIFszMLZBYhcVhT11u83MY&libraries=places"></script>
+</head>
+
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main>
+        <!-- Hero Section with Form -->
+        <section class="hero-section position-relative py-5" style="background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); min-height: 500px;">
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><pattern id="trucks" patternUnits="userSpaceOnUse" width="100" height="100"><path d="M10 10h20v10h-5v5h-10v-5h-5z" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100%" height="100%" fill="url(%23trucks)"/></svg>') repeat;"></div>
+
+            <div class="container position-relative">
+                <div class="row align-items-center min-vh-50">
+                    <div class="col-lg-6 text-white">
+                        <h1 class="display-4 fw-bold mb-4">
+                            <span class="text-warning">Быстро расчитаем,</span><br>
+                            быстро привезем
+                        </h1>
+                        <p class="lead mb-4">От газели до фуры, от 100 кг до 20 тонн, догрузом или отдельной машиной!</p>
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="text-center">
+                                <div class="bg-white text-primary rounded-circle p-3 mb-2" style="width: 60px; height: 60px; display: inline-flex; align-items: center; justify-content: center;">
+                                    <i class="bi bi-truck" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <small>Любой транспорт</small>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-white text-primary rounded-circle p-3 mb-2" style="width: 60px; height: 60px; display: inline-flex; align-items: center; justify-content: center;">
+                                    <i class="bi bi-clock" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <small>24/7 работаем</small>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-white text-primary rounded-circle p-3 mb-2" style="width: 60px; height: 60px; display: inline-flex; align-items: center; justify-content: center;">
+                                    <i class="bi bi-shield-check" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <small>Гарантия качества</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card shadow-lg border-0">
+                            <div class="card-header bg-warning text-dark text-center py-3">
+                                <h5 class="mb-0 fw-bold">Получить расчет стоимости</h5>
+                            </div>
+                            <div class="card-body p-4">
+                                <form id="contactForm" class="contact-form">
+                                    <div class="row g-3">
+                                        <div class="col-12">
+                                            <label class="form-label fw-semibold">
+                                                <i class="bi bi-telephone me-2"></i>Телефон
+                                            </label>
+                                            <input type="tel" class="form-control form-control-lg" id="phone" name="phone"
+                                                placeholder="+7 (999) 999-99-99" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">
+                                                <i class="bi bi-geo-alt me-2"></i>Откуда
+                                            </label>
+                                            <input type="text" class="form-control form-control-lg" id="departure" name="departure"
+                                                placeholder="Город отправления" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label fw-semibold">
+                                                <i class="bi bi-geo-alt-fill me-2"></i>Куда
+                                            </label>
+                                            <input type="text" class="form-control form-control-lg" id="destination" name="destination"
+                                                placeholder="Город назначения" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <label class="form-label fw-semibold">
+                                                <i class="bi bi-calendar3 me-2"></i>Дата отправки
+                                            </label>
+                                            <input type="date" class="form-control form-control-lg" id="date" name="date" required>
+                                        </div>
+                                        <div class="col-12 pt-2">
+                                            <button type="submit" class="btn btn-primary btn-lg w-100 mb-3">
+                                                <i class="bi bi-send me-2"></i>Отправить заявку
+                                            </button>
+                                            <a href="calculator-new.html" class="btn btn-outline-primary w-100">
+                                                <i class="bi bi-calculator me-2"></i>Подробный калькулятор
+                                            </a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section - New Design -->
+        <section class="py-5" style="background: linear-gradient(to right, #f8fafc 0%, #e2e8f0 100%);">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="mb-3 text-dark">
+                            <span class="text-primary">Более 850 клиентов</span> за 7 лет работы
+                        </h2>
+                        <p class="lead text-muted mb-4">Выполнено более 3500 рейсов по всей России</p>
+
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-3 col-6">
+                                <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body text-center py-4">
+                                        <div class="text-primary mb-2">
+                                            <i class="bi bi-people-fill" style="font-size: 2.5rem;"></i>
+                                        </div>
+                                        <h3 class="text-primary">850+</h3>
+                                        <p class="text-muted small mb-0">Довольных клиентов</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body text-center py-4">
+                                        <div class="text-success mb-2">
+                                            <i class="bi bi-truck" style="font-size: 2.5rem;"></i>
+                                        </div>
+                                        <h3 class="text-success">3500+</h3>
+                                        <p class="text-muted small mb-0">Выполненных рейсов</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body text-center py-4">
+                                        <div class="text-warning mb-2">
+                                            <i class="bi bi-calendar-check" style="font-size: 2.5rem;"></i>
+                                        </div>
+                                        <h3 class="text-warning">7</h3>
+                                        <p class="text-muted small mb-0">Лет на рынке</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body text-center py-4">
+                                        <div class="text-info mb-2">
+                                            <i class="bi bi-geo-alt" style="font-size: 2.5rem;"></i>
+                                        </div>
+                                        <h3 class="text-info">100+</h3>
+                                        <p class="text-muted small mb-0">Городов России</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="pages/clients.html" class="btn btn-primary btn-lg px-5">
+                            <i class="bi bi-eye me-2"></i>Ознакомиться с нашими клиентами
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section - Enhanced Design -->
+        <section class="services py-5 bg-white" id="services">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-6 fw-bold text-dark mb-3">Наши услуги</h2>
+                    <p class="lead text-muted">Полный спектр грузоперевозок для любых потребностей</p>
+                    <div class="bg-primary mx-auto" style="width: 60px; height: 4px; border-radius: 2px;"></div>
+                </div>
+
+                <div class="services-container">
+                    <!-- Swiper Container with enhanced styling -->
+                    <div class="swiper services-swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Service Card 1 - Enhanced -->
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-lg h-100 service-card-enhanced">
+                                    <div class="card-header bg-primary text-white text-center py-4 position-relative">
+                                        <div class="service-icon-enhanced mb-3">
+                                            <i class="bi bi-truck" style="font-size: 3rem;"></i>
+                                        </div>
+                                        <h4 class="fw-bold mb-0">ГРУЗОПЕРЕВОЗКИ<br>МЕЖГОРОД</h4>
+                                        <div class="position-absolute top-0 end-0 m-3">
+                                            <span class="badge bg-warning text-dark">Популярно</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-4">
+                                        <div class="service-specs-enhanced">
+                                            <div class="spec-item mb-3 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-box me-2"></i>Тип кузова
+                                                    </span>
+                                                    <span class="badge bg-primary">Открытый / Закрытый</span>
+                                                </div>
+                                            </div>
+                                            <div class="spec-item mb-3 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-rulers me-2"></i>Длина кузова
+                                                    </span>
+                                                    <span class="badge bg-success">от 3 до 16 метров</span>
+                                                </div>
+                                            </div>
+                                            <div class="spec-item mb-4 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-speedometer2 me-2"></i>Грузоподъемность
+                                                    </span>
+                                                    <span class="badge bg-warning text-dark">до 20 тонн</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="pages/intercity.html" class="btn btn-outline-primary w-100 btn-lg">
+                                            <i class="bi bi-arrow-right me-2"></i>Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Service Card 2 - Enhanced -->
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-lg h-100 service-card-enhanced">
+                                    <div class="card-header bg-success text-white text-center py-4 position-relative">
+                                        <div class="service-icon-enhanced mb-3">
+                                            <i class="bi bi-building" style="font-size: 3rem;"></i>
+                                        </div>
+                                        <h4 class="fw-bold mb-0">ГРУЗОПЕРЕВОЗКИ<br>ФУРА</h4>
+                                        <div class="position-absolute top-0 end-0 m-3">
+                                            <span class="badge bg-light text-dark">Надежно</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-4">
+                                        <div class="service-specs-enhanced">
+                                            <div class="spec-item mb-3 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-box me-2"></i>Тип кузова
+                                                    </span>
+                                                    <span class="badge bg-success">Закрытый</span>
+                                                </div>
+                                            </div>
+                                            <div class="spec-item mb-3 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-rulers me-2"></i>Длина кузова
+                                                    </span>
+                                                    <span class="badge bg-info">от 12 до 16 метров</span>
+                                                </div>
+                                            </div>
+                                            <div class="spec-item mb-4 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-speedometer2 me-2"></i>Грузоподъемность
+                                                    </span>
+                                                    <span class="badge bg-danger">до 24 тонн</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="pages/truck.html" class="btn btn-outline-success w-100 btn-lg">
+                                            <i class="bi bi-arrow-right me-2"></i>Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Service Card 3 - Enhanced -->
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-lg h-100 service-card-enhanced">
+                                    <div class="card-header bg-warning text-dark text-center py-4 position-relative">
+                                        <div class="service-icon-enhanced mb-3">
+                                            <i class="bi bi-distribute-horizontal" style="font-size: 3rem;"></i>
+                                        </div>
+                                        <h4 class="fw-bold mb-0">ГРУЗОПЕРЕВОЗКИ ДЛИННОМЕР<br>ШАЛАНДА</h4>
+                                        <div class="position-absolute top-0 end-0 m-3">
+                                            <span class="badge bg-dark text-white">Спец</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-4">
+                                        <div class="service-specs-enhanced">
+                                            <div class="spec-item mb-3 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-box me-2"></i>Тип кузова
+                                                    </span>
+                                                    <span class="badge bg-warning text-dark">Открытый</span>
+                                                </div>
+                                            </div>
+                                            <div class="spec-item mb-3 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-rulers me-2"></i>Длина кузова
+                                                    </span>
+                                                    <span class="badge bg-primary">от 12 до 16 метров</span>
+                                                </div>
+                                            </div>
+                                            <div class="spec-item mb-4 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-speedometer2 me-2"></i>Грузоподъемность
+                                                    </span>
+                                                    <span class="badge bg-success">до 24 тонн</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="pages/long-trailer.html" class="btn btn-outline-warning w-100 btn-lg">
+                                            <i class="bi bi-arrow-right me-2"></i>Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Service Card 4 - Enhanced -->
+                            <div class="swiper-slide">
+                                <div class="card border-0 shadow-lg h-100 service-card-enhanced">
+                                    <div class="card-header bg-info text-white text-center py-4 position-relative">
+                                        <div class="service-icon-enhanced mb-3">
+                                            <i class="bi bi-boxes" style="font-size: 3rem;"></i>
+                                        </div>
+                                        <h4 class="fw-bold mb-0">ГРУЗОПЕРЕВОЗКИ ДОГРУЗ<br>ПОПУТНО</h4>
+                                        <div class="position-absolute top-0 end-0 m-3">
+                                            <span class="badge bg-success">Эконом</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-4">
+                                        <div class="service-specs-enhanced">
+                                            <div class="spec-item mb-3 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-box me-2"></i>Тип кузова
+                                                    </span>
+                                                    <span class="badge bg-info">Открытый / Закрытый</span>
+                                                </div>
+                                            </div>
+                                            <div class="spec-item mb-3 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-rulers me-2"></i>Длина кузова
+                                                    </span>
+                                                    <span class="badge bg-warning text-dark">до 16 метров</span>
+                                                </div>
+                                            </div>
+                                            <div class="spec-item mb-4 p-3 bg-light rounded">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="fw-semibold text-muted">
+                                                        <i class="bi bi-speedometer2 me-2"></i>Грузоподъемность
+                                                    </span>
+                                                    <span class="badge bg-primary">до 20 тонн</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="pages/partial.html" class="btn btn-outline-info w-100 btn-lg">
+                                            <i class="bi bi-arrow-right me-2"></i>Подробнее
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Enhanced Swiper Pagination -->
+                        <div class="swiper-pagination mt-4"></div>
+
+                        <!-- Enhanced Swiper Navigation -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Template Loader -->
+    <script src="../assets/js/template-loader.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Google Places Autocomplete -->
+    <script>
+        function initAutocomplete() {
+            // Автокомплит для поля "Откуда"
+            const departureInput = document.getElementById('departure');
+            if (departureInput) {
+                const departureAutocomplete = new google.maps.places.Autocomplete(departureInput, {
+                    types: ['(cities)'], // Только города
+                    componentRestrictions: { country: 'ru' }, // Только Россия
+                    fields: ['place_id', 'formatted_address', 'name', 'geometry'] // Нужные поля
+                });
+            }
+
+            // Автокомплит для поля "Куда"
+            const destinationInput = document.getElementById('destination');
+            if (destinationInput) {
+                const destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput, {
+                    types: ['(cities)'], // Только города
+                    componentRestrictions: { country: 'ru' }, // Только Россия
+                    fields: ['place_id', 'formatted_address', 'name', 'geometry'] // Нужные поля
+                });
+            }
+        }
+
+        // Инициализация автокомплита после загрузки Google Maps API
+        window.addEventListener('load', function() {
+            if (typeof google !== 'undefined' && google.maps && google.maps.places) {
+                initAutocomplete();
+            } else {
+                // Если API еще не загружен, ждем его загрузки
+                const checkGoogleMaps = setInterval(function() {
+                    if (typeof google !== 'undefined' && google.maps && google.maps.places) {
+                        clearInterval(checkGoogleMaps);
+                        initAutocomplete();
+                    }
+                }, 100);
+            }
+        });
+
+        // Enhanced Swiper initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            const swiper = new Swiper('.services-swiper', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                    dynamicBullets: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 40,
+                    },
+                },
+                effect: 'slide',
+                speed: 800,
+            });
+        });
+    </script>
+
+    <style>
+        .service-card-enhanced {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card-enhanced:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
+        }
+        .service-icon-enhanced {
+            transition: transform 0.3s ease;
+        }
+        .service-card-enhanced:hover .service-icon-enhanced {
+            transform: scale(1.1);
+        }
+        .spec-item {
+            transition: background-color 0.3s ease;
+        }
+        .service-card-enhanced:hover .spec-item {
+            background-color: #f0f9ff !important;
+        }
+    </style>
+</body>
+</html>
