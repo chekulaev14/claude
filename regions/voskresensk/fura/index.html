@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузоперевозки фура Воскресенск - ТК Динамика</title>
+    <meta name="description" content="Грузоперевозки фура Воскресенск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
+    <link rel="apple-touch-icon" href="/assets/images/favicon-new.png?v=4">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="/assets/css/styles.css" rel="stylesheet">
+
+    <style>
+        .cluster-hero {
+            padding-top: 120px;
+            padding-bottom: 40px;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .cluster-hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        .cluster-intro {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        /* Иконки преимуществ */
+        .advantages-icons {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-bottom: 0;
+        }
+        .advantage-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .advantage-item .icon {
+            width: 48px;
+            height: 48px;
+            background: #f0f7ff;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2563eb;
+            font-size: 20px;
+        }
+        .advantage-item .text {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2d3436;
+        }
+
+        /* Секции контента */
+        .content-section {
+            padding: 60px 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .content-section:nth-child(odd) {
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .content-section h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #2d3436;
+        }
+        .content-section p,
+        .content-section ul,
+        .content-section ol {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #636e72;
+        }
+        .content-section ul,
+        .content-section ol {
+            padding-left: 1.5rem;
+        }
+        .content-section li {
+            margin-bottom: 0.5rem;
+        }
+        .content-section img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .section-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Отзывы */
+        .reviews-section {
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            padding: 80px 0;
+        }
+        .reviews-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            color: #2d3436;
+        }
+        .review-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            height: 100%;
+        }
+        .review-card .stars {
+            color: #ffc107;
+            margin-bottom: 15px;
+        }
+        .review-card .text {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #636e72;
+            margin-bottom: 20px;
+        }
+        .review-card .author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .review-card .author-avatar {
+            width: 48px;
+            height: 48px;
+            background: #2563eb;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .review-card .author-info .name {
+            font-weight: 600;
+            color: #2d3436;
+        }
+        .review-card .author-info .company {
+            font-size: 13px;
+            color: #636e72;
+        }
+
+        /* Другие услуги */
+        .other-services .service-card {
+            display: block;
+            padding: 1.5rem;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #212529;
+            height: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+        .other-services .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            border-color: #2563eb;
+        }
+        .other-services .service-card i {
+            font-size: 2rem;
+            color: #2563eb;
+            margin-bottom: 1rem;
+        }
+        .other-services .service-card h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .other-services .service-card p {
+            font-size: 0.9rem;
+            color: #636e72;
+            margin-bottom: 0;
+        }
+
+        /* FAQ Section */
+        .faq-section .accordion-button {
+            font-weight: 500;
+            padding: 1.25rem 1.5rem;
+        }
+        .faq-section .accordion-button:not(.collapsed) {
+            background-color: #f8f9fa;
+            color: #2563eb;
+        }
+        .faq-section .accordion-item {
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            overflow: hidden;
+        }
+        .faq-section .accordion-body {
+            padding: 1.5rem;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .advantages-icons {
+                gap: 20px;
+            }
+            .advantage-item {
+                flex: 1 1 45%;
+            }
+            .content-section img {
+                height: 220px;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="cluster-hero">
+        <div class="container">
+            <h1>Грузоперевозки фура Воскресенск</h1>
+            <p class="cluster-intro"><strong>Доставка фурами по России</strong> из Воскресенска обеспечивает транспортную связь промышленного города Подмосковья с регионами страны. Воскресенские химические предприятия, производители строительных материалов и логистические центры используют <strong>перевозки фурами</strong> для транспортировки минеральных удобрений, стройматериалов и химической продукции весом до 20 тонн за рейс. <strong>Фура для перевозки груза</strong> объёмом 82-96 м³ вмещает химическую продукцию на сумму 1.5-2.5 миллиона рублей с выходом на Новорязанское шоссе за 15 минут от промышленных зон. <strong>Грузоперевозки фурой 20 тонн</strong> из Воскресенска выполняются ежедневно по 70-100 рейсам с различными типами грузов от минеральных удобрений до стройматериалов.</p>
+
+            <!-- Иконки преимуществ -->
+            <div class="advantages-icons">
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-clock"></i></div>
+                    <div class="text">Расчёт за 5 минут</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-shield-check"></i></div>
+                    <div class="text">Страхование груза</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-cash-stack"></i></div>
+                    <div class="text">Прозрачные цены</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-truck"></i></div>
+                    <div class="text">850+ клиентов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg" alt="Транспорт для воскресенских грузов" loading="lazy">
+                </div>
+                <div class="col-lg-7 section-text">
+                    <h2>Транспорт для воскресенских грузов</h2>
+                    <p><strong>Перевозка грузов фурами 20 тонн</strong> из Воскресенска осуществляется тентованными полуприцепами для перевозки минеральных удобрений в биг-бэгах весом 18-20 тонн с креплением для защиты от смещения. <strong>Доставка фурой 20 тонн</strong> цемента, гипса и сухих строительных смесей весом 20 тонн выполняется в упаковке с соблюдением правил перевозки сыпучих материалов. <strong>Фура 20 тонн перевозка</strong> химической продукции в контейнерах весом 16-20 тонн требует специальных разрешений и соблюдения правил ADR для опасных грузов. <strong>Грузоперевозки фура 20</strong> с GPS-мониторингом применяются для отслеживания химической продукции от завода до получателя в режиме реального времени. <strong>Перевозки фурой 20</strong> стройматериалов — кирпича, блоков, сухих смесей — весом 20 тонн выполняются с креплением стяжными ремнями для предотвращения повреждений при транспортировке.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 section-text">
+                    <h2>Маршруты из промышленного центра</h2>
+                    <p><strong>Доставку грузов фурами</strong> из Воскресенска в Санкт-Петербург (810 км) заказывают производители химической продукции для поставки удобрений на склады Северо-Запада — время в пути 10-11 часов по трассе М11. <strong>Фура доставка</strong> в Казань (930 км) выполняется за 12-13 часов с транспортировкой стройматериалов на строительные объекты Поволжья по трассе М7. <strong>Перевозка фурами по России</strong> в восточном направлении — Нижний Новгород, Самара, Екатеринбург — обеспечивает поставки минеральных удобрений на сельхозпредприятия за 5-22 часа. <strong>Грузоперевозки фурами по России</strong> на юг через Рязань доставляют химическую продукцию и стройматериалы на объекты Юга России за 12-18 часов. <strong>Перевозки фурами</strong> по Московской области используются для ежедневных поставок стройматериалов весом 20 тонн с возможностью 2-3 рейсов в день.</p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg" alt="Маршруты из промышленного центра" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/fura/347278595891170.jpeg" alt="Ценообразование на воскресенские перевозки" loading="lazy">
+                </div>
+                <div class="col-lg-7 section-text">
+                    <h2>Ценообразование на воскресенские перевозки</h2>
+                    <p><strong>Грузоперевозки фурой цена</strong> из Воскресенска до Санкт-Петербурга составляет 53-63 тысячи рублей за полную загрузку 20 тонн при расстоянии 810 км по федеральным трассам. <strong>Стоимость грузоперевозок фурой</strong> до Казани (930 км) находится в диапазоне 58-68 тысяч рублей, включая топливо и оплату водителя на маршруте. <strong>Цена доставки фурой</strong> химической продукции класса опасности ADR возрастает на 25-30% за счёт требований к специализированному транспорту и разрешениям. <strong>Сколько стоит доставка фурой</strong> минеральных удобрений весом 20 тонн при объёме 35 м³ на 20-25% дешевле объёмных лёгких грузов за счёт полной загрузки по весу. <strong>Стоимость доставки фурой</strong> стройматериалов весом 20 тонн наиболее выгодна для перевозчика и на 15-18% дешевле лёгких грузов того же объёма. <strong>Цена перевозки фурой 20 тонн</strong> включает обязательное страхование груза на сумму до 1.8 миллиона рублей.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 section-text">
+                    <h2>Расчёт транспортных расходов</h2>
+                    <p><strong>Сколько стоят грузоперевозки на фуре</strong> зависит от типа груза — химическая продукция с требованиями ADR на 25-30% дороже обычных стройматериалов. <strong>Стоимость перевозки фура 20 тонн</strong> тяжёлых грузов весом 20 тонн при объёме 40 м³ наиболее выгодна и на 20-25% дешевле объёмных грузов. <strong>Стоимость перевозки фурой</strong> по направлениям с гарантированной обратной загрузкой (Санкт-Петербург, Казань) на 15-20% ниже тупиковых маршрутов. <strong>Перевозка грузов фурами 20 тонн цена</strong> при срочной доставке с временным окном ±4 часа возрастает на 25-30%, но обеспечивает прибытие точно к началу работы стройки или склада. <strong>Грузоперевозки фурой по России цены</strong> для химических предприятий с ежемесячным объёмом от 40-60 рейсов снижаются на 15-18% за счёт корпоративных тарифов.</p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/fura/heavy_truck_1.jpg" alt="Расчёт транспортных расходов" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg" alt="Продукция воскресенских заводов" loading="lazy">
+                </div>
+                <div class="col-lg-7 section-text">
+                    <h2>Продукция воскресенских заводов</h2>
+                    <p>Химические предприятия отправляют <strong>доставку фурами по России</strong> минеральных удобрений — аммиачной селитры, карбамида, NPK-комплексов — весом 18-20 тонн на сельхозпредприятия и в агрохолдинги регионов. Производители стройматериалов используют <strong>перевозки фурой 20</strong> цемента, гипса и сухих строительных смесей весом 20 тонн на строительные базы и объекты монтажа. Логистические центры заказывают <strong>грузоперевозки фурой 20 тонн</strong> товаров народного потребления в паллетах весом 14-18 тонн для торговых сетей Московской области. Производственные предприятия отправляют химическую продукцию и промышленные товары весом до 20 тонн на склады дистрибьюторов по всей России. Дистрибьюторы консолидируют грузы разных производителей для формирования полной загрузки и оптимизации транспортных издержек на тонну продукции.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 section-text">
+                    <h2>Конкурентные преимущества воскресенских перевозчиков</h2>
+                    <p><strong>Цена доставки фурой</strong> у воскресенских компаний конкурентоспособна за счёт расположения на Новорязанском шоссе с прямым выходом на трассу М5 для доставки в восточном направлении. Расстояние от Москвы (88 км от МКАД) обеспечивает доступ к федеральным трассам без пробок в центре столицы для оптимизации маршрутов. Развитая химическая промышленность города гарантирует стабильные грузопотоки минеральных удобрений и стройматериалов в разные регионы России. Воскресенские перевозчики предлагают комплексное экспедирование с организацией перевозки химических грузов класса ADR, доставкой стройматериалов непосредственно на объекты монтажа и формированием сборных грузов от разных производителей для оптимизации стоимости.</p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/fura/unnamed-2.jpg" alt="Конкурентные преимущества воскресенских перевозчиков" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Другие услуги -->
+    <section class="other-services py-5">
+        <div class="container">
+            <h2 class="mb-4">Другие услуги в Воскресенске</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a href="../mezhgorod/" class="service-card">
+                        <i class="bi bi-signpost-2"></i>
+                        <h3>Междугородние грузоперевозки</h3>
+                        <p>Доставка по всей России: 1-20 тонн, любые маршруты</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../transportnaya/" class="service-card">
+                        <i class="bi bi-building"></i>
+                        <h3>Услуги транспортной компании</h3>
+                        <p>Полный комплекс услуг: от экспедирования до страхования груза</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../dlinnomer/" class="service-card">
+                        <i class="bi bi-arrows-expand"></i>
+                        <h3>Длинномеры и шаланды</h3>
+                        <p>Перевозка любых грузов на открытых машинах до 24 метров</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../po-rossii/" class="service-card">
+                        <i class="bi bi-map"></i>
+                        <h3>Грузоперевозки по России</h3>
+                        <p>Маршруты во все регионы РФ с отслеживанием</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Часто задаваемые вопросы</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Какой максимальный вес для фуры?
+                        </button>
+                    </h3>
+                    <div id="faq1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Стандартная еврофура: до 20 тонн при объёме 82-96 м³. Подбираем машину под ваш груз — важны и вес, и объём.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Можно ли загрузить фуру частично?
+                        </button>
+                    </h3>
+                    <div id="faq2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Да, работаем с догрузом, если груз занимает до 3-4 метров по полу. Для более крупных грузов выгоднее полная загрузка.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Какие машины есть?
+                        </button>
+                    </h3>
+                    <div id="faq3" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Работаем с любым тоннажем: от газелей (1-1,5 тонны) до фур (20 тонн). Подбираем машину с нужным типом кузова: закрытый фургон, тент, платформа, рефрижератор.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            Как рассчитывается комиссия?
+                        </button>
+                    </h3>
+                    <div id="faq4" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p><strong>Без НДС:</strong> комиссия 5 000 ₽ + 1% от стоимости перевозки.</p><p><strong>С НДС:</strong> комиссия 6 000 ₽ + 1,5% от стоимости перевозки.</p><p class="mb-0">Мы показываем закупочную цену и нашу комиссию отдельно — всё прозрачно.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            Как вы проверяете перевозчиков?
+                        </button>
+                    </h3>
+                    <div id="faq5" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Тщательно проверяем на ATI.su: активность аккаунта, изменения в руководстве, задаём проверочные вопросы. За 7 лет работы у нас не украли ни одного груза.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2>Отзывы наших клиентов</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text">Заказывали перевозку оборудования из Воскресенска в Казань. Всё прошло отлично — машина подана вовремя, груз доставлен без повреждений. Особенно понравилась прозрачность ценообразования.</p>
+                        <div class="author">
+                            <div class="author-avatar">АС</div>
+                            <div class="author-info">
+                                <div class="name">Алексей Смирнов</div>
+                                <div class="company">ООО "ТехноСтрой"</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text">Работаем с Динамикой уже полгода. Регулярно отправляем товар в регионы. Всегда быстро находят транспорт, даже на срочные заявки. Рекомендую!</p>
+                        <div class="author">
+                            <div class="author-avatar">МК</div>
+                            <div class="author-info">
+                                <div class="name">Марина Козлова</div>
+                                <div class="company">ИП Козлова М.В.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p class="text">Переезжали офис из Воскресенска в Нижний Новгород. Ребята помогли организовать перевозку мебели и техники. Всё аккуратно упаковали и доставили в целости.</p>
+                        <div class="author">
+                            <div class="author-avatar">ДП</div>
+                            <div class="author-info">
+                                <div class="name">Дмитрий Петров</div>
+                                <div class="company">Частный клиент</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма обратной связи -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="text-center mb-4">Обратная связь</h3>
+                            <p class="text-center text-muted mb-4">Оставьте ваш номер телефона, и мы вам перезвоним</p>
+                            <form id="callbackForm" class="callback-form">
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Номер телефона</label>
+                                    <input type="tel" class="form-control form-control-lg" id="phone" name="phone" placeholder="+7 (___) ___-__-__" value="+7 " required>
+                                </div>
+                                <button type="submit" class="btn btn-danger btn-lg w-100">
+                                    <i class="bi bi-telephone-fill me-2"></i>Позвоните мне
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Template Loader -->
+    <script src="/assets/js/template-loader.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/forms-handler.js"></script>
+</body>
+</html>

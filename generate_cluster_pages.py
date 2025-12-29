@@ -420,9 +420,16 @@ def generate_cluster_page(city_slug, cluster, template):
     html = html.replace('{{TITLE}}', h1)
     html = html.replace('{{META_DESCRIPTION}}', f"{h1}. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36")
     html = html.replace('{{H1}}', h1)
-    # Обрабатываем intro — убираем markdown
-    intro_text = parsed['intro'] if parsed['intro'] else (parsed['sections'][0]['content'][:200] + '...' if parsed['sections'] else '')
-    intro_text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', intro_text, flags=re.DOTALL)
+    # Обрабатываем intro
+    if parsed['intro']:
+        intro_text = parsed['intro']
+        intro_text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', intro_text, flags=re.DOTALL)
+    else:
+        # Берём первый абзац первой секции целиком (без обрезки)
+        content = parsed['sections'][0]['content'] if parsed['sections'] else ''
+        first_paragraph = content.split('\n\n')[0] if content else ''
+        # Убираем markdown разметку
+        intro_text = re.sub(r'\*\*(.+?)\*\*', r'\1', first_paragraph, flags=re.DOTALL)
     html = html.replace('{{INTRO}}', intro_text)
     html = html.replace('{{SECTIONS}}', sections_html)
     html = html.replace('{{CITY_NAME_RU}}', city_name)
