@@ -83,13 +83,6 @@
     "region": "Московская область",
     "region_dative": "Московской области"
   },
-  "irkutsk": {
-    "name": "Иркутск",
-    "genitive": "Иркутска",
-    "prepositional": "Иркутске",
-    "region": "Иркутская область",
-    "region_dative": "Иркутской области"
-  },
   "ivanteyevka": {
     "name": "Ивантеевка",
     "genitive": "Ивантеевки",
@@ -117,13 +110,6 @@
     "prepositional": "Казани",
     "region": "Республика Татарстан",
     "region_dative": "Республике Татарстан"
-  },
-  "khabarovsk": {
-    "name": "Хабаровск",
-    "genitive": "Хабаровска",
-    "prepositional": "Хабаровске",
-    "region": "Хабаровский край",
-    "region_dative": "Хабаровскому краю"
   },
   "khimki": {
     "name": "Химки",
@@ -153,26 +139,12 @@
     "region": "Московская область",
     "region_dative": "Московской области"
   },
-  "krasnodar": {
-    "name": "Краснодар",
-    "genitive": "Краснодара",
-    "prepositional": "Краснодаре",
-    "region": "Краснодарский край",
-    "region_dative": "Краснодарскому краю"
-  },
   "krasnogorsk": {
     "name": "Красногорск",
     "genitive": "Красногорска",
     "prepositional": "Красногорске",
     "region": "Московская область",
     "region_dative": "Московской области"
-  },
-  "krasnoyarsk": {
-    "name": "Красноярск",
-    "genitive": "Красноярска",
-    "prepositional": "Красноярске",
-    "region": "Красноярский край",
-    "region_dative": "Красноярскому краю"
   },
   "lobnya": {
     "name": "Лобня",
@@ -187,13 +159,6 @@
     "prepositional": "Люберцах",
     "region": "Московская область",
     "region_dative": "Московской области"
-  },
-  "moscow": {
-    "name": "Москва",
-    "genitive": "Москвы",
-    "prepositional": "Москве",
-    "region": "Москва",
-    "region_dative": "Москве"
   },
   "mytishchi": {
     "name": "Мытищи",
@@ -230,13 +195,6 @@
     "region": "Московская область",
     "region_dative": "Московской области"
   },
-  "novosibirsk": {
-    "name": "Новосибирск",
-    "genitive": "Новосибирска",
-    "prepositional": "Новосибирске",
-    "region": "Новосибирская область",
-    "region_dative": "Новосибирской области"
-  },
   "obninsk": {
     "name": "Обнинск",
     "genitive": "Обнинска",
@@ -250,13 +208,6 @@
     "prepositional": "Одинцово",
     "region": "Московская область",
     "region_dative": "Московской области"
-  },
-  "omsk": {
-    "name": "Омск",
-    "genitive": "Омска",
-    "prepositional": "Омске",
-    "region": "Омская область",
-    "region_dative": "Омской области"
   },
   "orekhovo-zuevo": {
     "name": "Орехово-Зуево",
@@ -286,26 +237,12 @@
     "region": "Московская область",
     "region_dative": "Московской области"
   },
-  "ramenskoye": {
-    "name": "Раменское",
-    "genitive": "Раменского",
-    "prepositional": "Раменском",
-    "region": "Московская область",
-    "region_dative": "Московской области"
-  },
   "reutov": {
     "name": "Реутов",
     "genitive": "Реутова",
     "prepositional": "Реутове",
     "region": "Московская область",
     "region_dative": "Московской области"
-  },
-  "rostov-on-don": {
-    "name": "Ростов-на-Дону",
-    "genitive": "Ростова-на-Дону",
-    "prepositional": "Ростове-на-Дону",
-    "region": "Ростовская область",
-    "region_dative": "Ростовской области"
   },
   "saint-petersburg": {
     "name": "Санкт-Петербург",
@@ -342,13 +279,6 @@
     "region": "Московская область",
     "region_dative": "Московской области"
   },
-  "stupino": {
-    "name": "Ступино",
-    "genitive": "Ступино",
-    "prepositional": "Ступино",
-    "region": "Московская область",
-    "region_dative": "Московской области"
-  },
   "tula": {
     "name": "Тула",
     "genitive": "Тулы",
@@ -363,47 +293,12 @@
     "region": "Тверская область",
     "region_dative": "Тверской области"
   },
-  "tyumen": {
-    "name": "Тюмень",
-    "genitive": "Тюмени",
-    "prepositional": "Тюмени",
-    "region": "Тюменская область",
-    "region_dative": "Тюменской области"
-  },
   "ufa": {
     "name": "Уфа",
     "genitive": "Уфы",
     "prepositional": "Уфе",
     "region": "Республика Башкортостан",
     "region_dative": "Республике Башкортостан"
-  },
-  "vidnoye": {
-    "name": "Видное",
-    "genitive": "Видного",
-    "prepositional": "Видном",
-    "region": "Московская область",
-    "region_dative": "Московской области"
-  },
-  "vladivostok": {
-    "name": "Владивосток",
-    "genitive": "Владивостока",
-    "prepositional": "Владивостоке",
-    "region": "Приморский край",
-    "region_dative": "Приморскому краю"
-  },
-  "volgograd": {
-    "name": "Волгоград",
-    "genitive": "Волгограда",
-    "prepositional": "Волгограде",
-    "region": "Волгоградская область",
-    "region_dative": "Волгоградской области"
-  },
-  "voronezh": {
-    "name": "Воронеж",
-    "genitive": "Воронежа",
-    "prepositional": "Воронеже",
-    "region": "Воронежская область",
-    "region_dative": "Воронежской области"
   },
   "voskresensk": {
     "name": "Воскресенск",
@@ -423,6 +318,20 @@
     "name": "Жуковский",
     "genitive": "Жуковского",
     "prepositional": "Жуковском",
+    "region": "Московская область",
+    "region_dative": "Московской области"
+  },
+  "moskva": {
+    "name": "Москва",
+    "genitive": "Москвы",
+    "prepositional": "Москве",
+    "region": "Москва",
+    "region_dative": "Москве"
+  },
+  "ramenskoe": {
+    "name": "Раменское",
+    "genitive": "Раменского",
+    "prepositional": "Раменском",
     "region": "Московская область",
     "region_dative": "Московской области"
   }
