@@ -271,24 +271,43 @@ def generate_sections_html(sections, cluster, used_images):
         # Жирный текст (включая многострочный)
         content_html = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content_html, flags=re.DOTALL)
 
-        # Обработка списков (- item)
+        # Обработка списков (- item и 1. item)
         lines = content_html.split('\n')
         processed_lines = []
-        in_list = False
+        in_ul = False  # маркированный список
+        in_ol = False  # нумерованный список
         for line in lines:
             stripped = line.strip()
-            if stripped.startswith('- '):
-                if not in_list:
+            # Нумерованный список (1. 2. 3. и т.д.)
+            ol_match = re.match(r'^(\d+)\.\s+(.+)$', stripped)
+            if ol_match:
+                if in_ul:
+                    processed_lines.append('</ul>')
+                    in_ul = False
+                if not in_ol:
+                    processed_lines.append('<ol>')
+                    in_ol = True
+                processed_lines.append(f'<li>{ol_match.group(2)}</li>')
+            elif stripped.startswith('- '):
+                if in_ol:
+                    processed_lines.append('</ol>')
+                    in_ol = False
+                if not in_ul:
                     processed_lines.append('<ul>')
-                    in_list = True
+                    in_ul = True
                 processed_lines.append(f'<li>{stripped[2:]}</li>')
             else:
-                if in_list:
+                if in_ul:
                     processed_lines.append('</ul>')
-                    in_list = False
+                    in_ul = False
+                if in_ol:
+                    processed_lines.append('</ol>')
+                    in_ol = False
                 processed_lines.append(line)
-        if in_list:
+        if in_ul:
             processed_lines.append('</ul>')
+        if in_ol:
+            processed_lines.append('</ol>')
         content_html = '\n'.join(processed_lines)
 
         # Абзацы (только для текста вне списков)
@@ -298,7 +317,7 @@ def generate_sections_html(sections, cluster, used_images):
             p = p.strip()
             if not p:
                 continue
-            if p.startswith('<ul>') or p.startswith('<li>'):
+            if p.startswith('<ul>') or p.startswith('<ol>') or p.startswith('<li>'):
                 result_parts.append(p)
             else:
                 result_parts.append(f'<p>{p}</p>')
