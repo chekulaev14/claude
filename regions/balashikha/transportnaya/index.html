@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Транспортная компания в Балашихе - ТК Динамика</title>
-    <meta name="description" content="Компания «Динамика» — авто транспортная компания в Балашихе, специализирующаяся на организации грузоперевозок по всей России. Входим в список официальных...">
+    <title>Транспортная компания Балашиха - ТК Динамика</title>
+    <meta name="description" content="Транспортная компания Балашиха. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
@@ -159,6 +159,57 @@
             color: #636e72;
         }
 
+        /* Другие услуги */
+        .other-services .service-card {
+            display: block;
+            padding: 1.5rem;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #212529;
+            height: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+        .other-services .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            border-color: #2563eb;
+        }
+        .other-services .service-card i {
+            font-size: 2rem;
+            color: #2563eb;
+            margin-bottom: 1rem;
+        }
+        .other-services .service-card h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .other-services .service-card p {
+            font-size: 0.9rem;
+            color: #636e72;
+            margin-bottom: 0;
+        }
+
+        /* FAQ Section */
+        .faq-section .accordion-button {
+            font-weight: 500;
+            padding: 1.25rem 1.5rem;
+        }
+        .faq-section .accordion-button:not(.collapsed) {
+            background-color: #f8f9fa;
+            color: #2563eb;
+        }
+        .faq-section .accordion-item {
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            overflow: hidden;
+        }
+        .faq-section .accordion-body {
+            padding: 1.5rem;
+            line-height: 1.8;
+        }
+
         @media (max-width: 768px) {
             .advantages-icons {
                 gap: 20px;
@@ -180,7 +231,7 @@
     <!-- Hero Section -->
     <section class="cluster-hero">
         <div class="container">
-            <h1>Транспортная компания в Балашихе</h1>
+            <h1>Транспортная компания Балашиха</h1>
             <p class="cluster-intro">Компания «Динамика» — <strong>авто транспортная компания</strong> в Балашихе, специализирующаяся на организации грузоперевозок по всей России. Входим в список <strong>официальных транспортных компаний</strong> с полным пакетом документов и честным ценообразованием.</p>
 
             <!-- Иконки преимуществ -->
@@ -205,106 +256,203 @@
         </div>
     </section>
 
-    <!-- Section 1: Текст слева, картинка справа -->
+
     <section class="content-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 section-text">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg" alt="Услуги транспортной компании" loading="lazy">
+                </div>
+                <div class="col-lg-7 section-text">
                     <h2>Услуги транспортной компании</h2>
-                    <p><strong>Услуги транспортной компании</strong> «Динамика» охватывают весь спектр логистики:</p>
-                    <ul>
-                        <li>Подбор транспорта под любой тип груза</li>
-                        <li>Организация межрегиональных перевозок</li>
-                        <li>Экспедиторское сопровождение от точки А до точки Б</li>
-                        <li>Моментальный расчёт стоимости онлайн</li>
-                        <li>Оформление всех документов для бухгалтерии</li>
-                    </ul>
-                    <p>Мы предлагаем <strong>доставку транспортной компанией</strong> по фиксированной комиссии. Вы видите закупочную цену перевозки + нашу наценку: 5000₽ + 1% без НДС или 6000₽ + 1,5% с НДС.</p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="/assets/images/clusters/transportnaya/file_1516273043_669673358.jpg" alt="Услуги транспортной компании">
+                    <p><strong>Услуги транспортной компании</strong> «Динамика» охватывают весь спектр логистики:
+<ul>
+<li>Подбор транспорта под любой тип груза</li>
+<li>Организация межрегиональных перевозок</li>
+<li>Экспедиторское сопровождение от точки А до точки Б</li>
+<li>Моментальный расчёт стоимости онлайн</li>
+<li>Оформление всех документов для бухгалтерии</li>
+</ul></p><p>Мы предлагаем <strong>доставку транспортной компанией</strong> по фиксированной комиссии. Вы видите закупочную цену перевозки + нашу наценку: 5000₽ + 1% без НДС или 6000₽ + 1,5% с НДС.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section 2: Картинка слева, текст справа -->
     <section class="content-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-2 section-text">
+                <div class="col-lg-7 section-text">
                     <h2>Как рассчитать стоимость?</h2>
-                    <p>На нашем <strong>сайте транспортной компании</strong> легко <strong>рассчитать транспортную компанию</strong> за несколько минут. Калькулятор показывает полную картину:</p>
-                    <ul>
-                        <li>Рыночная цена перевозки</li>
-                        <li>Фиксированная комиссия «Динамики»</li>
-                        <li>Итоговая стоимость с НДС и без</li>
-                    </ul>
-                    <p>Расчёт прозрачный — вы понимаете, за что платите.</p>
+                    <p>На нашем <strong>сайте транспортной компании</strong> легко <strong>рассчитать транспортную компанию</strong> за несколько минут. Калькулятор показывает полную картину:
+<ul>
+<li>Рыночная цена перевозки</li>
+<li>Фиксированная комиссия «Динамики»</li>
+<li>Итоговая стоимость с НДС и без</li>
+</ul></p><p>Расчёт прозрачный — вы понимаете, за что платите.</p>
                 </div>
-                <div class="col-lg-6 order-lg-1">
-                    <img src="/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg" alt="Как рассчитать стоимость?">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/transportnaya/transcomp.jpg" alt="Как рассчитать стоимость?" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section 3: Текст слева, картинка справа -->
     <section class="content-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 section-text">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/transportnaya/section.jpg" alt="Транспортные компании России" loading="lazy">
+                </div>
+                <div class="col-lg-7 section-text">
                     <h2>Транспортные компании России</h2>
                     <p>«Динамика» входит в число надёжных <strong>транспортных компаний России</strong>, работающих на рынке межрегиональных перевозок. Мы — <strong>транспортные компании по перевозке</strong> грузов разной сложности: от документов до промышленного оборудования.</p>
                 </div>
-                <div class="col-lg-6">
-                    <img src="/assets/images/clusters/transportnaya/premium.jpg" alt="Транспортные компании России">
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Section 4: Картинка слева, текст справа -->
     <section class="content-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-2 section-text">
+                <div class="col-lg-7 section-text">
                     <h2>Отправка груза из Балашихи</h2>
-                    <p>Чтобы <strong>отправить транспортной компанией</strong> груз в любой регион:</p>
-                    <ol>
-                        <li>Оставьте заявку через сайт или по телефону</li>
-                        <li>Получите детальный расчёт стоимости за 5 минут</li>
-                        <li>Согласуйте дату и время подачи транспорта</li>
-                        <li>Организуем <strong>отправку транспортной компанией</strong> под ключ</li>
-                        <li>Доставляем груз + передаём документы</li>
-                    </ol>
+                    <p>Чтобы <strong>отправить транспортной компанией</strong> груз в любой регион:
+1. Оставьте заявку через сайт или по телефону
+2. Получите детальный расчёт стоимости за 5 минут
+3. Согласуйте дату и время подачи транспорта
+4. Организуем <strong>отправку транспортной компанией</strong> под ключ
+5. Доставляем груз + передаём документы</p>
                 </div>
-                <div class="col-lg-6 order-lg-1">
-                    <img src="/assets/images/clusters/transportnaya/ct_block_item_75745_2_5_image_ZpsC0Y6K.jpg" alt="Отправка груза из Балашихи">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg" alt="Отправка груза из Балашихи" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section 5: Текст слева, картинка справа -->
     <section class="content-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 section-text">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/transportnaya/transportnaya-logistika-1200x696.jpg" alt="Почему клиенты выбирают нас?" loading="lazy">
+                </div>
+                <div class="col-lg-7 section-text">
                     <h2>Почему клиенты выбирают нас?</h2>
                     <ul>
-                        <li>Официальная работа с документами</li>
-                        <li>Честные цены без скрытых доплат</li>
-                        <li>Быстрый расчёт и подбор транспорта</li>
-                        <li>База проверенных перевозчиков</li>
-                        <li>География — вся Россия</li>
-                        <li>Страхование грузов</li>
-                        <li>Трекинг в реальном времени</li>
-                    </ul>
-                    <p>Закажите перевозку в «Динамике» — транспортной компании с фиксированной комиссией и прозрачными расчётами!</p>
+<li>Официальная работа с документами</li>
+<li>Честные цены без скрытых доплат</li>
+<li>Быстрый расчёт и подбор транспорта</li>
+<li>База проверенных перевозчиков</li>
+<li>География — вся Россия</li>
+<li>Страхование грузов</li>
+<li>Трекинг в реальном времени</li>
+</ul><p>Закажите перевозку в «Динамике» — транспортной компании с фиксированной комиссией и прозрачными расчётами!</p>
                 </div>
-                <div class="col-lg-6">
-                    <img src="/assets/images/clusters/transportnaya/section.jpg" alt="Почему клиенты выбирают нас?">
+            </div>
+        </div>
+    </section>
+
+    <!-- Другие услуги -->
+    <section class="other-services py-5">
+        <div class="container">
+            <h2 class="mb-4">Другие услуги в Балашихе</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a href="../mezhgorod/" class="service-card">
+                        <i class="bi bi-signpost-2"></i>
+                        <h3>Междугородние грузоперевозки</h3>
+                        <p>Доставка по всей России: 1-20 тонн, любые маршруты</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../dlinnomer/" class="service-card">
+                        <i class="bi bi-arrows-expand"></i>
+                        <h3>Длинномеры и шаланды</h3>
+                        <p>Перевозка любых грузов на открытых машинах до 24 метров</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../po-rossii/" class="service-card">
+                        <i class="bi bi-map"></i>
+                        <h3>Грузоперевозки по России</h3>
+                        <p>Маршруты во все регионы РФ с отслеживанием</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../fura/" class="service-card">
+                        <i class="bi bi-truck-front"></i>
+                        <h3>Перевозка фурой</h3>
+                        <p>Полные загрузки фур 5-20 тонн</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Часто задаваемые вопросы</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Чем вы отличаетесь от других компаний?
+                        </button>
+                    </h3>
+                    <div id="faq1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Мы не зарабатываем на разнице ставок — у нас фиксированная комиссия. Вы видите закупочную цену и нашу наценку отдельно.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Какие документы вы оформляете?
+                        </button>
+                    </h3>
+                    <div id="faq2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Договор-заявку, транспортную накладную и все необходимые документы. При работе с НДС предоставляем полный пакет закрывающих документов (УПД).
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Как вы проверяете перевозчиков?
+                        </button>
+                    </h3>
+                    <div id="faq3" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Тщательно проверяем на ATI.su: активность аккаунта, изменения в руководстве, задаём проверочные вопросы. За 7 лет работы у нас не украли ни одного груза.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            С кем вы уже работали?
+                        </button>
+                    </h3>
+                    <div id="faq4" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            У нас есть страница клиентов — выгрузка из 1С за 7 лет. Там указаны все организации, которые пользовались нашими услугами.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            Что происходит при срыве погрузки?
+                        </button>
+                    </h3>
+                    <div id="faq5" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Отмена за день и более — без штрафа. В день погрузки: если водитель далеко — в ~50% случаев договариваемся без штрафа.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -324,7 +472,7 @@
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                         </div>
-                        <p class="text">Заказывали перевозку оборудования из Балашиха в Казань. Всё прошло отлично — машина подана вовремя, груз доставлен без повреждений. Особенно понравилась прозрачность ценообразования.</p>
+                        <p class="text">Заказывали перевозку оборудования из Балашихи в Казань. Всё прошло отлично — машина подана вовремя, груз доставлен без повреждений. Особенно понравилась прозрачность ценообразования.</p>
                         <div class="author">
                             <div class="author-avatar">АС</div>
                             <div class="author-info">
@@ -362,7 +510,7 @@
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-half"></i>
                         </div>
-                        <p class="text">Переезжали офис из Балашиха в Нижний Новгород. Ребята помогли организовать перевозку мебели и техники. Всё аккуратно упаковали и доставили в целости.</p>
+                        <p class="text">Переезжали офис из Балашихи в Нижний Новгород. Ребята помогли организовать перевозку мебели и техники. Всё аккуратно упаковали и доставили в целости.</p>
                         <div class="author">
                             <div class="author-avatar">ДП</div>
                             <div class="author-info">

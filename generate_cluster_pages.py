@@ -112,6 +112,68 @@ CLUSTER_INFO = {
     }
 }
 
+# FAQ для каждого кластера (по 5 вопросов, распределены равномерно)
+CLUSTER_FAQ = {
+    'mezhgorod': [
+        {'question': 'Как быстро вы находите машину?', 'answer': 'Скорость поиска зависит от маршрута (областные центры быстрее), дня недели (конец недели быстрее) и времени суток (утро до 9:00 — быстрее). Мы сразу информируем клиента о сроках и стоимости.'},
+        {'question': 'Как рассчитывается комиссия?', 'answer': '<p><strong>Без НДС:</strong> комиссия 5 000 ₽ + 1% от стоимости перевозки.</p><p><strong>С НДС:</strong> комиссия 6 000 ₽ + 1,5% от стоимости перевозки.</p><p class="mb-0">Мы показываем закупочную цену и нашу комиссию отдельно — всё прозрачно.</p>'},
+        {'question': 'Какие машины есть?', 'answer': 'Работаем с любым тоннажем: от газелей (1-1,5 тонны) до фур (20 тонн). Подбираем машину с нужным типом кузова: закрытый фургон, тент, платформа, рефрижератор.'},
+        {'question': 'Как отслеживать груз в пути?', 'answer': 'Мы контролируем перевозку на всех этапах и информируем вас о местоположении груза. По запросу предоставляем фото при погрузке и выгрузке.'},
+        {'question': 'Что если груз повредят в дороге?', 'answer': 'Мы несём полную ответственность за груз согласно ГК РФ и Уставу автомобильного транспорта. За 7 лет работы — ни одного случая полной утери груза, все повреждения компенсированы.'},
+    ],
+    'transportnaya': [
+        {'question': 'Чем вы отличаетесь от других компаний?', 'answer': 'Мы не зарабатываем на разнице ставок — у нас фиксированная комиссия. Вы видите закупочную цену и нашу наценку отдельно.'},
+        {'question': 'Какие документы вы оформляете?', 'answer': 'Договор-заявку, транспортную накладную и все необходимые документы. При работе с НДС предоставляем полный пакет закрывающих документов (УПД).'},
+        {'question': 'Как вы проверяете перевозчиков?', 'answer': 'Тщательно проверяем на ATI.su: активность аккаунта, изменения в руководстве, задаём проверочные вопросы. За 7 лет работы у нас не украли ни одного груза.'},
+        {'question': 'С кем вы уже работали?', 'answer': 'У нас есть страница клиентов — выгрузка из 1С за 7 лет. Там указаны все организации, которые пользовались нашими услугами.'},
+        {'question': 'Что происходит при срыве погрузки?', 'answer': 'Отмена за день и более — без штрафа. В день погрузки: если водитель далеко — в ~50% случаев договариваемся без штрафа.'},
+    ],
+    'dlinnomer': [
+        {'question': 'Что если я не знаю точный вес груза?', 'answer': 'Не проблема — просто опишите груз, и мы подберём подходящую машину. В 99% случаев мы понимаем, какой транспорт нужен.'},
+        {'question': 'Предоставляете ли фото груза?', 'answer': 'Да, по запросу предоставляем фото при погрузке и выгрузке. Это помогает контролировать состояние груза.'},
+        {'question': 'Можно ли организовать несколько машин?', 'answer': 'Да, организуем любое количество машин: переезды складов, перевозка башенных кранов, крупные партии стройматериалов.'},
+        {'question': 'Как происходит оплата?', 'answer': 'Оплата на погрузке, когда машина прибыла. Возможны варианты: 50/50 или 100% перед выгрузкой. Машина выгружается после поступления средств.'},
+        {'question': 'Сколько времени занимает доставка?', 'answer': 'Зависит от расстояния: Москва — СПб за 1 день, Москва — Екатеринбург за 2-3 дня, до Владивостока — 10-14 дней.'},
+    ],
+    'po-rossii': [
+        {'question': 'В какие города России вы доставляете?', 'answer': 'Доставляем в любой город РФ — от областных центров до небольших населённых пунктов. Работаем со всеми регионами.'},
+        {'question': 'Сколько времени занимает доставка?', 'answer': 'Зависит от расстояния: Москва — СПб за 1 день, Москва — Екатеринбург за 2-3 дня, до Владивостока — 10-14 дней.'},
+        {'question': 'Как быстро вы находите машину?', 'answer': 'Скорость поиска зависит от маршрута (областные центры быстрее), дня недели (конец недели быстрее) и времени суток (утро до 9:00 — быстрее). Мы сразу информируем клиента о сроках и стоимости.'},
+        {'question': 'Как происходит оплата?', 'answer': 'Оплата на погрузке, когда машина прибыла. Возможны варианты: 50/50 или 100% перед выгрузкой. Машина выгружается после поступления средств.'},
+        {'question': 'Что если груз повредят в дороге?', 'answer': 'Мы несём полную ответственность за груз согласно ГК РФ и Уставу автомобильного транспорта. За 7 лет работы — ни одного случая полной утери груза, все повреждения компенсированы.'},
+    ],
+    'fura': [
+        {'question': 'Какой максимальный вес для фуры?', 'answer': 'Стандартная еврофура: до 20 тонн при объёме 82-96 м³. Подбираем машину под ваш груз — важны и вес, и объём.'},
+        {'question': 'Можно ли загрузить фуру частично?', 'answer': 'Да, работаем с догрузом, если груз занимает до 3-4 метров по полу. Для более крупных грузов выгоднее полная загрузка.'},
+        {'question': 'Какие машины есть?', 'answer': 'Работаем с любым тоннажем: от газелей (1-1,5 тонны) до фур (20 тонн). Подбираем машину с нужным типом кузова: закрытый фургон, тент, платформа, рефрижератор.'},
+        {'question': 'Как рассчитывается комиссия?', 'answer': '<p><strong>Без НДС:</strong> комиссия 5 000 ₽ + 1% от стоимости перевозки.</p><p><strong>С НДС:</strong> комиссия 6 000 ₽ + 1,5% от стоимости перевозки.</p><p class="mb-0">Мы показываем закупочную цену и нашу комиссию отдельно — всё прозрачно.</p>'},
+        {'question': 'Как вы проверяете перевозчиков?', 'answer': 'Тщательно проверяем на ATI.su: активность аккаунта, изменения в руководстве, задаём проверочные вопросы. За 7 лет работы у нас не украли ни одного груза.'},
+    ],
+}
+
+
+def generate_faq_html(cluster):
+    """Генерирует HTML блок FAQ для кластера"""
+    faq_items = CLUSTER_FAQ.get(cluster, [])
+    if not faq_items:
+        return ''
+
+    html_parts = []
+    for idx, item in enumerate(faq_items, 1):
+        html_parts.append(f'''                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq{idx}">
+                            {item['question']}
+                        </button>
+                    </h3>
+                    <div id="faq{idx}" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            {item['answer']}
+                        </div>
+                    </div>
+                </div>''')
+    return '\n'.join(html_parts)
+
 
 def generate_other_clusters_html(current_cluster):
     """Генерирует HTML блок с другими кластерами для перелинковки"""
@@ -203,40 +265,73 @@ def generate_sections_html(sections, cluster, used_images):
     images = get_cluster_images(cluster)
     available_images = [img for img in images if img not in used_images]
 
-    # Количество изображений зависит от длины текста
-    total_text = ' '.join([s['content'] for s in sections])
-    if len(total_text) > 5000:
-        num_images = 3
-    elif len(total_text) > 2500:
-        num_images = 2
-    else:
-        num_images = 1
-
-    # Выбираем секции для изображений
-    image_positions = []
-    if len(sections) >= num_images:
-        step = len(sections) // (num_images + 1)
-        for i in range(num_images):
-            image_positions.append((i + 1) * step)
-
     for idx, section in enumerate(sections):
         # Преобразуем markdown в HTML
         content_html = section['content']
-        # Жирный текст
-        content_html = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', content_html)
-        # Абзацы
-        paragraphs = content_html.split('\n\n')
-        content_html = ''.join([f'<p>{p.strip()}</p>' for p in paragraphs if p.strip()])
+        # Жирный текст (включая многострочный)
+        content_html = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content_html, flags=re.DOTALL)
 
-        # Определяем, нужно ли изображение
-        has_image = idx in image_positions and available_images
+        # Обработка списков (- item)
+        lines = content_html.split('\n')
+        processed_lines = []
+        in_list = False
+        for line in lines:
+            stripped = line.strip()
+            if stripped.startswith('- '):
+                if not in_list:
+                    processed_lines.append('<ul>')
+                    in_list = True
+                processed_lines.append(f'<li>{stripped[2:]}</li>')
+            else:
+                if in_list:
+                    processed_lines.append('</ul>')
+                    in_list = False
+                processed_lines.append(line)
+        if in_list:
+            processed_lines.append('</ul>')
+        content_html = '\n'.join(processed_lines)
+
+        # Абзацы (только для текста вне списков)
+        paragraphs = content_html.split('\n\n')
+        result_parts = []
+        for p in paragraphs:
+            p = p.strip()
+            if not p:
+                continue
+            if p.startswith('<ul>') or p.startswith('<li>'):
+                result_parts.append(p)
+            else:
+                result_parts.append(f'<p>{p}</p>')
+        content_html = ''.join(result_parts)
+
+        # Количество фото зависит от длины секции
+        section_length = len(section['content'])
+        if section_length > 5000:
+            num_images = 3
+        elif section_length > 2500:
+            num_images = 2
+        else:
+            num_images = 1
+
+        # Собираем фото для этой секции
+        section_images = []
+        for _ in range(num_images):
+            if available_images:
+                img = random.choice(available_images)
+                available_images.remove(img)
+                used_images.add(img)
+                section_images.append(img)
+
         image_left = idx % 2 == 0
 
-        if has_image:
-            # Выбираем случайное изображение
-            img = random.choice(available_images)
-            available_images.remove(img)
-            used_images.add(img)
+        if section_images:
+            # Генерируем HTML для изображений
+            if len(section_images) == 1:
+                images_html = f'<img src="{section_images[0]}" alt="{section["title"]}" loading="lazy">'
+            else:
+                # Несколько фото — в ряд
+                img_items = ''.join([f'<div class="col"><img src="{img}" alt="{section["title"]}" loading="lazy" class="img-fluid rounded"></div>' for img in section_images])
+                images_html = f'<div class="row g-2">{img_items}</div>'
 
             if image_left:
                 html_parts.append(f'''
@@ -244,7 +339,7 @@ def generate_sections_html(sections, cluster, used_images):
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img src="{img}" alt="{section['title']}" loading="lazy">
+                    {images_html}
                 </div>
                 <div class="col-lg-7 section-text">
                     <h2>{section['title']}</h2>
@@ -263,7 +358,7 @@ def generate_sections_html(sections, cluster, used_images):
                     {content_html}
                 </div>
                 <div class="col-lg-5">
-                    <img src="{img}" alt="{section['title']}" loading="lazy">
+                    {images_html}
                 </div>
             </div>
         </div>
@@ -318,7 +413,10 @@ def generate_cluster_page(city_slug, cluster, template):
     html = html.replace('{{TITLE}}', h1)
     html = html.replace('{{META_DESCRIPTION}}', f"{h1}. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36")
     html = html.replace('{{H1}}', h1)
-    html = html.replace('{{INTRO}}', parsed['intro'] if parsed['intro'] else parsed['sections'][0]['content'][:200] + '...' if parsed['sections'] else '')
+    # Обрабатываем intro — убираем markdown
+    intro_text = parsed['intro'] if parsed['intro'] else (parsed['sections'][0]['content'][:200] + '...' if parsed['sections'] else '')
+    intro_text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', intro_text, flags=re.DOTALL)
+    html = html.replace('{{INTRO}}', intro_text)
     html = html.replace('{{SECTIONS}}', sections_html)
     html = html.replace('{{CITY_NAME_RU}}', city_name)
     html = html.replace('{{CITY_NAME_GENITIVE}}', city_genitive)
@@ -327,6 +425,10 @@ def generate_cluster_page(city_slug, cluster, template):
     # Генерируем блок других кластеров
     other_clusters_html = generate_other_clusters_html(cluster)
     html = html.replace('{{OTHER_CLUSTERS}}', other_clusters_html)
+
+    # Генерируем FAQ для кластера
+    faq_html = generate_faq_html(cluster)
+    html = html.replace('{{FAQ_ITEMS}}', faq_html)
 
     return html
 
