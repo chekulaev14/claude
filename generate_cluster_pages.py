@@ -532,6 +532,9 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
     html = html.replace('{{CLUSTER_SLUG}}', cluster)
     html = html.replace('{{CLUSTER_TITLE}}', CLUSTER_INFO[cluster]['title'])
     html = html.replace('{{LOCAL_PHONE}}', local_phone)
+    html = html.replace('{{BC_NAME}}', bc_name)
+    html = html.replace('{{BC_STREET}}', bc_street)
+    html = html.replace('{{FULL_ADDRESS}}', full_address)
 
     # Генерируем блок других кластеров
     other_clusters_html = generate_other_clusters_html(cluster)
