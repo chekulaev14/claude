@@ -7,5 +7,23 @@
       "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-fura_zakaz-2000x1200.jpg",
       "Порядок оформления": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg"
     }
+  },
+  "khimki": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Онлайн-расчёт": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Популярные маршруты из Химок": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg"
+    }
+  },
+  "tula": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Расчёт стоимости": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Востребованные маршруты из Тулы": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/image;s=1280x960-2.jpg"
+    }
   }
 }

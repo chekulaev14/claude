@@ -1,0 +1,290 @@
+{
+  "balashikha": {
+    "name": "East Gate",
+    "street": "пр. Ленина, 25",
+    "office": "133",
+    "postalCode": ""
+  },
+  "chekhov": {
+    "name": "LOFT",
+    "street": "Улица Чехова, 20Б к35",
+    "office": "215",
+    "postalCode": ""
+  },
+  "chelyabinsk": {
+    "name": "Челябинск-Сити",
+    "street": "Улица Кирова, 159",
+    "office": "103",
+    "postalCode": ""
+  },
+  "dmitrov": {
+    "name": "Дмитровский Посад",
+    "street": "Торговая площадь, 1",
+    "office": "240",
+    "postalCode": ""
+  },
+  "dolgoprudny": {
+    "name": "Лихачевский технопарк",
+    "street": "Лихачёвский проезд, 8",
+    "office": "335",
+    "postalCode": ""
+  },
+  "domodedovo": {
+    "name": "БЦ Орел",
+    "street": "Каширское шоссе, 7",
+    "office": "419",
+    "postalCode": ""
+  },
+  "dubna": {
+    "name": "Сервис-экспорт",
+    "street": "Проспект Боголюбова, 26",
+    "office": "314",
+    "postalCode": ""
+  },
+  "dzerzhinsky": {
+    "name": "Деловое пространство АТС",
+    "street": "Лесная улица, 4",
+    "office": "480",
+    "postalCode": ""
+  },
+  "egoryevsk": {
+    "name": "АБК",
+    "street": "Улица Парижской Коммуны, 1Б лит Б1",
+    "office": "394",
+    "postalCode": ""
+  },
+  "ekaterinburg": {
+    "name": "Астор",
+    "street": "Улица 8 Марта, 212",
+    "office": "452",
+    "postalCode": ""
+  },
+  "elektrostal": {
+    "name": "Эл-Офис",
+    "street": "Проспект Ленина, 25",
+    "office": "309",
+    "postalCode": ""
+  },
+  "fryazino": {
+    "name": "Союз",
+    "street": "Пионерская улица, 4 к1",
+    "office": "144",
+    "postalCode": ""
+  },
+  "ivanteyevka": {
+    "name": "Альянс",
+    "street": "Улица Новая Слобода, 1",
+    "office": "108",
+    "postalCode": ""
+  },
+  "izhevsk": {
+    "name": "Конструктор",
+    "street": "Улица Карла Маркса, 2",
+    "office": "499",
+    "postalCode": ""
+  },
+  "kaluga": {
+    "name": "Набережный",
+    "street": "Улица Салтыкова-Щедрина, 76 к4",
+    "office": "151",
+    "postalCode": ""
+  },
+  "kazan": {
+    "name": "Арго",
+    "street": "Чистопольская улица, 19а",
+    "office": "448",
+    "postalCode": ""
+  },
+  "khimki": {
+    "name": "Технопарк Химки",
+    "street": "Ленинградская улица, 29",
+    "office": "223",
+    "postalCode": ""
+  },
+  "klin": {
+    "name": "Горт-М",
+    "street": "Улица Захватаева, 4",
+    "office": "361",
+    "postalCode": ""
+  },
+  "kolomna": {
+    "name": "Легион",
+    "street": "Улица Шилова, 15Б",
+    "office": "388",
+    "postalCode": ""
+  },
+  "korolev": {
+    "name": "Орион",
+    "street": "Улица Фрунзе, 1в",
+    "office": "191",
+    "postalCode": ""
+  },
+  "krasnogorsk": {
+    "name": "Успенский",
+    "street": "Успенская улица, 5",
+    "office": "120",
+    "postalCode": ""
+  },
+  "lobnya": {
+    "name": "БЦ на Промышленной",
+    "street": "Промышленная ул., 1А",
+    "office": "152",
+    "postalCode": ""
+  },
+  "lyubertsy": {
+    "name": "Деловое пространство Вертолёт",
+    "street": "Улица 8 Марта, 6",
+    "office": "215",
+    "postalCode": ""
+  },
+  "moskva": {
+    "name": "Neo Geo",
+    "street": "Улица Бутлерова, 17",
+    "office": "389",
+    "postalCode": ""
+  },
+  "mytishchi": {
+    "name": "Горизонт",
+    "street": "Улица Колонцова, 5",
+    "office": "119",
+    "postalCode": ""
+  },
+  "naberezhnye-chelny": {
+    "name": "Дирекция К",
+    "street": "проспект Мусы Джалиля, 29/2",
+    "office": "108",
+    "postalCode": ""
+  },
+  "nizhnekamsk": {
+    "name": "БЦ на Строителей",
+    "street": "пр-т Строителей, 6А",
+    "office": "449",
+    "postalCode": ""
+  },
+  "nizhny-novgorod": {
+    "name": "Новая площадь",
+    "street": "Улица Костина, 3",
+    "office": "314",
+    "postalCode": ""
+  },
+  "noginsk": {
+    "name": "Изотоп",
+    "street": "Улица Климова, 52",
+    "office": "140",
+    "postalCode": ""
+  },
+  "obninsk": {
+    "name": "Капитал",
+    "street": "Проспект Маркса, 70",
+    "office": "369",
+    "postalCode": ""
+  },
+  "odintsovo": {
+    "name": "Westeast",
+    "street": "Улица Маршала Неделина, 6а",
+    "office": "502",
+    "postalCode": ""
+  },
+  "orekhovo-zuevo": {
+    "name": "Силуэт",
+    "street": "Центральный бульвар, 4",
+    "office": "321",
+    "postalCode": ""
+  },
+  "perm": {
+    "name": "Навигатор",
+    "street": "Улица Лодыгина, 9",
+    "office": "350",
+    "postalCode": ""
+  },
+  "podolsk": {
+    "name": "Зингер-плаза",
+    "street": "Комсомольская улица, 1",
+    "office": "139",
+    "postalCode": ""
+  },
+  "pushkino": {
+    "name": "Флагман",
+    "street": "Улица Грибоедова, 7",
+    "office": "351",
+    "postalCode": ""
+  },
+  "ramenskoe": {
+    "name": "Эксперт",
+    "street": "Улица Свободы, 4",
+    "office": "488",
+    "postalCode": ""
+  },
+  "reutov": {
+    "name": "Символ",
+    "street": "Ашхабадская улица, 14",
+    "office": "463",
+    "postalCode": ""
+  },
+  "saint-petersburg": {
+    "name": "Альпийский",
+    "street": "Альпийский переулок, 29",
+    "office": "255",
+    "postalCode": ""
+  },
+  "samara": {
+    "name": "Информатика",
+    "street": "Стара Загора, 27",
+    "office": "315",
+    "postalCode": ""
+  },
+  "sergiev-posad": {
+    "name": "Виктория",
+    "street": "Проспект Красной Армии, 203в",
+    "office": "215",
+    "postalCode": ""
+  },
+  "serpukhov": {
+    "name": "Plaza",
+    "street": "Улица Ворошилова, 130а",
+    "office": "204",
+    "postalCode": ""
+  },
+  "shchelkovo": {
+    "name": "Капитал",
+    "street": "Пролетарский проспект, 8а",
+    "office": "241",
+    "postalCode": ""
+  },
+  "tula": {
+    "name": "Магистраль",
+    "street": "Улица Болдина, 98",
+    "office": "498",
+    "postalCode": ""
+  },
+  "tver": {
+    "name": "Орбита",
+    "street": "Улица Мусоргского, 12",
+    "office": "223",
+    "postalCode": ""
+  },
+  "ufa": {
+    "name": "Лондон",
+    "street": "Кавказская улица, 8/1",
+    "office": "347",
+    "postalCode": ""
+  },
+  "voskresensk": {
+    "name": "Дом бытовых услуг",
+    "street": "Советская улица, 4",
+    "office": "504",
+    "postalCode": ""
+  },
+  "yaroslavl": {
+    "name": "Омега",
+    "street": "Ленинградский проспект, 33",
+    "office": "111",
+    "postalCode": ""
+  },
+  "zhukovsky": {
+    "name": "Чайка",
+    "street": "Улица Мясищева, 1",
+    "office": "150",
+    "postalCode": ""
+  }
+}
