@@ -7,6 +7,7 @@
 import os
 import re
 import random
+import json
 
 # Базовые пути
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -14,6 +15,7 @@ TEMPLATE_FILE = os.path.join(BASE_DIR, 'templates', 'cluster-template.html')
 SEO_TEXTS_DIR = os.path.join(BASE_DIR, 'seo-texts')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'regions')
 IMAGES_DIR = os.path.join(BASE_DIR, 'assets', 'images', 'clusters')
+MAPPING_FILE = os.path.join(BASE_DIR, 'data', 'images-mapping.json')
 
 # Словарь городов: url-slug → (именительный, родительный, предложный)
 # 48 городов с SEO-текстами
@@ -233,6 +235,21 @@ def parse_markdown(md_content):
     return result
 
 
+def load_images_mapping():
+    """Загружает маппинг картинок из JSON файла"""
+    if os.path.exists(MAPPING_FILE):
+        with open(MAPPING_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def save_images_mapping(mapping):
+    """Сохраняет маппинг картинок в JSON файл"""
+    os.makedirs(os.path.dirname(MAPPING_FILE), exist_ok=True)
+    with open(MAPPING_FILE, 'w', encoding='utf-8') as f:
+        json.dump(mapping, f, ensure_ascii=False, indent=2)
+
+
 def get_cluster_images(cluster):
     """Получает список изображений для кластера"""
     cluster_dir = os.path.join(IMAGES_DIR, cluster)
@@ -247,11 +264,50 @@ def get_cluster_images(cluster):
     return images
 
 
-def generate_sections_html(sections, cluster, used_images):
-    """Генерирует HTML для секций с изображениями"""
+def get_image_for_section(city, cluster, section_title, images, mapping):
+    """
+    Получает картинку для секции:
+    - Если уже есть в маппинге → возвращает её
+    - Если нет → выбирает случайную и сохраняет в маппинг
+    """
+    # Проверяем, есть ли уже маппинг
+    if city in mapping and cluster in mapping[city]:
+        if section_title in mapping[city][cluster]:
+            saved_image = mapping[city][cluster][section_title]
+            # Проверяем, что файл существует
+            image_path = saved_image.replace('/assets/images/', os.path.join(BASE_DIR, 'assets', 'images') + '/')
+            if os.path.exists(image_path):
+                return saved_image
+
+    # Нет маппинга → выбираем случайную картинку
+    if not images:
+        return None
+
+    # Исключаем уже использованные в других секциях этого кластера/города
+    used_in_cluster = []
+    if city in mapping and cluster in mapping[city]:
+        used_in_cluster = list(mapping[city][cluster].values())
+
+    available = [img for img in images if img not in used_in_cluster]
+    if not available:
+        available = images  # Если все использованы, берём любую
+
+    selected = random.choice(available)
+
+    # Сохраняем в маппинг
+    if city not in mapping:
+        mapping[city] = {}
+    if cluster not in mapping[city]:
+        mapping[city][cluster] = {}
+    mapping[city][cluster][section_title] = selected
+
+    return selected
+
+
+def generate_sections_html(sections, cluster, city, mapping):
+    """Генерирует HTML для секций с изображениями (с использованием маппинга)"""
     html_parts = []
     images = get_cluster_images(cluster)
-    available_images = [img for img in images if img not in used_images]
 
     for idx, section in enumerate(sections):
         # Преобразуем markdown в HTML
@@ -320,13 +376,13 @@ def generate_sections_html(sections, cluster, used_images):
         else:
             num_images = 1
 
-        # Собираем фото для этой секции
+        # Получаем фото для этой секции из маппинга
         section_images = []
-        for _ in range(num_images):
-            if available_images:
-                img = random.choice(available_images)
-                available_images.remove(img)
-                used_images.add(img)
+        for img_idx in range(num_images):
+            # Создаём уникальный ключ для каждой картинки в секции
+            section_key = f"{section['title']}_img{img_idx}" if num_images > 1 else section['title']
+            img = get_image_for_section(city, cluster, section_key, images, mapping)
+            if img:
                 section_images.append(img)
 
         image_left = idx % 2 == 0
@@ -382,7 +438,7 @@ def generate_sections_html(sections, cluster, used_images):
     return '\n'.join(html_parts)
 
 
-def generate_cluster_page(city_slug, cluster, template):
+def generate_cluster_page(city_slug, cluster, template, mapping):
     """Генерирует HTML страницу для города и кластера"""
 
     # Получаем падежи города
@@ -411,9 +467,8 @@ def generate_cluster_page(city_slug, cluster, template):
     if city_name not in h1 and city_genitive not in h1 and city_prepositional not in h1:
         h1 = f"{h1} {city_name}"
 
-    # Генерируем секции
-    used_images = set()
-    sections_html = generate_sections_html(parsed['sections'], cluster, used_images)
+    # Генерируем секции с использованием маппинга
+    sections_html = generate_sections_html(parsed['sections'], cluster, city_slug, mapping)
 
     # Заменяем плейсхолдеры
     html = template
@@ -457,6 +512,10 @@ def main():
 
     print("=== Генератор кластерных страниц ===\n")
 
+    # Загрузка маппинга картинок
+    mapping = load_images_mapping()
+    print(f"Загружен маппинг картинок: {len(mapping)} городов\n")
+
     # Загрузка шаблона
     template = load_template()
     print(f"Шаблон: {TEMPLATE_FILE}\n")
@@ -480,8 +539,8 @@ def main():
         city_name = CITIES[city_slug][0]
 
         for cluster in clusters:
-            # Генерируем HTML
-            html = generate_cluster_page(city_slug, cluster, template)
+            # Генерируем HTML с использованием маппинга
+            html = generate_cluster_page(city_slug, cluster, template, mapping)
 
             if not html:
                 skipped += 1
@@ -497,6 +556,10 @@ def main():
 
             print(f"✓ {city_name} / {cluster} → /regions/{city_slug}/{cluster}/index.html")
             created += 1
+
+    # Сохраняем обновлённый маппинг
+    save_images_mapping(mapping)
+    print(f"\n💾 Маппинг картинок сохранён в {MAPPING_FILE}")
 
     print(f"\n=== Готово! ===")
     print(f"Создано страниц: {created}")
