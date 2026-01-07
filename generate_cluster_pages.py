@@ -488,8 +488,12 @@ def generate_cluster_page(city_slug, cluster, template, mapping):
     html = html.replace('{{INTRO}}', intro_text)
     html = html.replace('{{SECTIONS}}', sections_html)
     html = html.replace('{{CITY_NAME_RU}}', city_name)
+    html = html.replace('{{CITY_NAME}}', city_name)
     html = html.replace('{{CITY_NAME_GENITIVE}}', city_genitive)
     html = html.replace('{{CITY_NAME_PREPOSITIONAL}}', city_prepositional)
+    html = html.replace('{{CITY_SLUG}}', city_slug)
+    html = html.replace('{{CLUSTER_SLUG}}', cluster)
+    html = html.replace('{{CLUSTER_TITLE}}', CLUSTER_INFO[cluster]['title'])
 
     # Генерируем блок других кластеров
     other_clusters_html = generate_other_clusters_html(cluster)

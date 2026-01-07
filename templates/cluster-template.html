@@ -10,10 +10,68 @@
     <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
     <link rel="apple-touch-icon" href="/assets/images/favicon-new.png?v=4">
 
+    <link rel="canonical" href="https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/{{CLUSTER_SLUG}}/">
+
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="/assets/css/styles.css" rel="stylesheet">
+
+    <!-- Schema.org Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Транспортная компания Динамика",
+        "url": "https://dinamika-cargo.ru",
+        "logo": "https://dinamika-cargo.ru/assets/images/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+7-800-707-29-36",
+            "contactType": "customer service",
+            "areaServed": "RU",
+            "availableLanguage": "Russian"
+        },
+        "sameAs": [
+            "https://vk.com/dinamika_cargo",
+            "https://t.me/dinamika_cargo"
+        ]
+    }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Главная",
+                "item": "https://dinamika-cargo.ru/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Регионы",
+                "item": "https://dinamika-cargo.ru/regions/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "{{CITY_NAME}}",
+                "item": "https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "{{CLUSTER_TITLE}}",
+                "item": "https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/{{CLUSTER_SLUG}}/"
+            }
+        ]
+    }
+    </script>
 
     <style>
         .cluster-hero {
@@ -227,6 +285,18 @@
 <body>
     <!-- Header -->
     <div id="header-placeholder"></div>
+
+    <!-- Breadcrumbs -->
+    <nav aria-label="breadcrumb" class="pt-4 bg-light">
+        <div class="container">
+            <ol class="breadcrumb mb-0 py-3">
+                <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                <li class="breadcrumb-item"><a href="/regions/">Регионы</a></li>
+                <li class="breadcrumb-item"><a href="/regions/{{CITY_SLUG}}/">{{CITY_NAME}}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{CLUSTER_TITLE}}</li>
+            </ol>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
     <section class="cluster-hero">

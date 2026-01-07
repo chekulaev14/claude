@@ -1,0 +1,34 @@
+# robots.txt для dinamika-cargo.ru
+# Транспортная компания "Динамика" - грузоперевозки по России
+
+User-agent: *
+Allow: /
+
+# Разрешаем индексировать основной контент
+Allow: /regions/
+Allow: /routes/
+Allow: /assets/css/
+Allow: /assets/images/
+
+# Запрещаем индексировать технические файлы и папки
+Disallow: /assets/js/
+Disallow: /templates/
+Disallow: /data/
+Disallow: /*.json
+Disallow: /*.md
+Disallow: /*.py
+Disallow: /.git
+
+# Sitemap (будет добавлен после создания всех страниц)
+# Sitemap: https://dinamika-cargo.ru/sitemap.xml
+
+# Специфичные User-agents
+User-agent: Yandex
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Частота обхода (crawl-delay)
+# User-agent: *
+# Crawl-delay: 1
