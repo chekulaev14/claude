@@ -273,6 +273,51 @@
                 </div>
             </section>
 
+            <!-- Контакты и карта -->
+            <section class="py-5 bg-light rounded">
+                <div class="container">
+                    <h2 class="mb-4">Наш офис в Балашихе</h2>
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">БЦ East Gate</h5>
+                                    <p class="card-text">
+                                        <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                                        <strong>Адрес:</strong><br>
+                                        пр. Ленина, 25, офис 133
+                                    </p>
+                                    <p class="card-text">
+                                        <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                        <strong>Телефон городской:</strong><br>
+                                        <a href="tel:+7-495-168-54-08" class="text-decoration-none">+7-495-168-54-08</a>
+                                    </p>
+                                    <p class="card-text">
+                                        <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                        <strong>Бесплатный:</strong><br>
+                                        <a href="tel:8-800-500-03-20" class="text-decoration-none">8-800-500-03-20</a>
+                                    </p>
+                                    <p class="card-text">
+                                        <i class="bi bi-phone-fill text-primary me-2"></i>
+                                        <strong>Сотовый (лучше звонить сюда):</strong><br>
+                                        <a href="tel:+7-926-706-98-29" class="text-decoration-none">+7-926-706-98-29</a>
+                                    </p>
+                                    <p class="card-text">
+                                        <i class="bi bi-clock-fill text-primary me-2"></i>
+                                        <strong>Режим работы:</strong><br>
+                                        Пн-Пт: 9:00 - 18:00<br>
+                                        Сб-Вс: по договорённости
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="map" style="width: 100%; height: 450px; border-radius: 8px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Contact Form -->
             <div id="contact-form" class="contact-form-section my-5">
                 <div class="text-center mb-3">
@@ -313,6 +358,50 @@
     <script src="/assets/js/template-loader.js"></script>
     <script src="/assets/js/script.js"></script>
     <script src="/assets/js/forms-handler.js"></script>
+
+    <!-- Яндекс.Карты API -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=4a699c0f-112d-4cf0-a1ee-fa70c817500a&lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [55.751574, 37.573856],
+                zoom: 15,
+                controls: ['zoomControl', 'fullscreenControl']
+            });
+
+            // Геокодируем адрес и ставим метку
+            var address = "Балашиха, пр. Ленина, 25";
+            ymaps.geocode(address).then(function (res) {
+                var firstGeoObject = res.geoObjects.get(0);
+                var coords = firstGeoObject.geometry.getCoordinates();
+
+                // Центрируем карту
+                myMap.setCenter(coords, 16);
+
+                // Добавляем метку с правильным контентом
+                var placemark = new ymaps.Placemark(coords, {
+                    balloonContent: '<div style="padding: 10px;">' +
+                        '<strong style="font-size: 16px;">Филиал ТК «Динамика» в Балашихе</strong><br><br>' +
+                        '<strong>БЦ East Gate</strong><br>' +
+                        'пр. Ленина, 25, офис 133<br><br>' +
+                        '<strong>Телефон городской:</strong><br>' +
+                        '<a href="tel:+7-495-168-54-08">+7-495-168-54-08</a><br><br>' +
+                        '<strong>Бесплатный:</strong><br>' +
+                        '<a href="tel:8-800-500-03-20">8-800-500-03-20</a><br><br>' +
+                        '<strong>Сотовый (лучше звонить сюда):</strong><br>' +
+                        '<a href="tel:+7-926-706-98-29">+7-926-706-98-29</a>' +
+                        '</div>'
+                }, {
+                    preset: 'islands#redIcon'
+                });
+
+                myMap.geoObjects.add(placemark);
+            }).catch(function(err) {
+                console.error('Ошибка геокодирования:', err);
+            });
+        }
+    </script>
 
     <style>
     /* Stats Section */

@@ -10,6 +10,8 @@ import os
 # Пути
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CITIES_FILE = os.path.join(BASE_DIR, 'data', 'cities.json')
+ADDRESSES_FILE = os.path.join(BASE_DIR, 'data', 'city-addresses.json')
+PHONES_FILE = os.path.join(BASE_DIR, 'data', 'city-phones.json')
 TEMPLATE_FILE = os.path.join(BASE_DIR, 'templates', 'city-index-template.html')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'regions')
 
@@ -18,20 +20,40 @@ def load_cities():
     with open(CITIES_FILE, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+def load_addresses():
+    """Загружает адреса БЦ из JSON"""
+    with open(ADDRESSES_FILE, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def load_phones():
+    """Загружает телефоны городов из JSON"""
+    with open(PHONES_FILE, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
 def load_template():
     """Загружает HTML шаблон"""
     with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
         return f.read()
 
-def generate_city_page(city_slug, city_data, template):
+def generate_city_page(city_slug, city_data, addresses, phones, template):
     """Генерирует HTML страницу для города"""
     html = template
 
-    # Замена плейсхолдеров
+    # Замена плейсхолдеров города
     html = html.replace('{{CITY_NAME}}', city_data['name'])
     html = html.replace('{{CITY_GENITIVE}}', city_data['genitive'])
     html = html.replace('{{CITY_PREPOSITIONAL}}', city_data['prepositional'])
     html = html.replace('{{REGION_DATIVE}}', city_data['region_dative'])
+
+    # Замена плейсхолдеров БЦ и контактов
+    address_data = addresses.get(city_slug, {})
+    html = html.replace('{{BC_NAME}}', address_data.get('name', ''))
+    html = html.replace('{{BC_ADDRESS}}', address_data.get('street', ''))
+    html = html.replace('{{BC_OFFICE}}', address_data.get('office', ''))
+
+    # Замена телефона
+    phone = phones.get(city_slug, '')
+    html = html.replace('{{PHONE_CITY}}', phone)
 
     return html
 
@@ -40,9 +62,13 @@ def main():
 
     # Загрузка данных
     cities = load_cities()
+    addresses = load_addresses()
+    phones = load_phones()
     template = load_template()
 
     print(f"Загружено городов: {len(cities)}")
+    print(f"Загружено адресов БЦ: {len(addresses)}")
+    print(f"Загружено телефонов: {len(phones)}")
     print(f"Шаблон: {TEMPLATE_FILE}\n")
 
     # Создание директории regions если нет
@@ -60,7 +86,7 @@ def main():
         os.makedirs(city_dir, exist_ok=True)
 
         # Генерируем HTML
-        html = generate_city_page(city_slug, city_data, template)
+        html = generate_city_page(city_slug, city_data, addresses, phones, template)
 
         # Сохраняем файл
         with open(output_file, 'w', encoding='utf-8') as f:
