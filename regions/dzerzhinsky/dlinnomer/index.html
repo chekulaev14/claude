@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузоперевозки длинномер Дзержинский - ТК Динамика</title>
+    <meta name="description" content="Грузоперевозки длинномер Дзержинский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
+    <link rel="apple-touch-icon" href="/assets/images/favicon-new.png?v=4">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="/assets/css/styles.css" rel="stylesheet">
+
+    <style>
+        .cluster-hero {
+            padding-top: 120px;
+            padding-bottom: 40px;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .cluster-hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        .cluster-intro {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        /* Иконки преимуществ */
+        .advantages-icons {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-bottom: 0;
+        }
+        .advantage-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .advantage-item .icon {
+            width: 48px;
+            height: 48px;
+            background: #f0f7ff;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2563eb;
+            font-size: 20px;
+        }
+        .advantage-item .text {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2d3436;
+        }
+
+        /* Секции контента */
+        .content-section {
+            padding: 60px 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .content-section:nth-child(odd) {
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .content-section h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #2d3436;
+        }
+        .content-section p,
+        .content-section ul,
+        .content-section ol {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #636e72;
+        }
+        .content-section ul,
+        .content-section ol {
+            padding-left: 1.5rem;
+        }
+        .content-section li {
+            margin-bottom: 0.5rem;
+        }
+        .content-section img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .section-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Отзывы */
+        .reviews-section {
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            padding: 80px 0;
+        }
+        .reviews-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            color: #2d3436;
+        }
+        .review-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            height: 100%;
+        }
+        .review-card .stars {
+            color: #ffc107;
+            margin-bottom: 15px;
+        }
+        .review-card .text {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #636e72;
+            margin-bottom: 20px;
+        }
+        .review-card .author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .review-card .author-avatar {
+            width: 48px;
+            height: 48px;
+            background: #2563eb;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .review-card .author-info .name {
+            font-weight: 600;
+            color: #2d3436;
+        }
+        .review-card .author-info .company {
+            font-size: 13px;
+            color: #636e72;
+        }
+
+        /* Другие услуги */
+        .other-services .service-card {
+            display: block;
+            padding: 1.5rem;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #212529;
+            height: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+        .other-services .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            border-color: #2563eb;
+        }
+        .other-services .service-card i {
+            font-size: 2rem;
+            color: #2563eb;
+            margin-bottom: 1rem;
+        }
+        .other-services .service-card h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .other-services .service-card p {
+            font-size: 0.9rem;
+            color: #636e72;
+            margin-bottom: 0;
+        }
+
+        /* FAQ Section */
+        .faq-section .accordion-button {
+            font-weight: 500;
+            padding: 1.25rem 1.5rem;
+        }
+        .faq-section .accordion-button:not(.collapsed) {
+            background-color: #f8f9fa;
+            color: #2563eb;
+        }
+        .faq-section .accordion-item {
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            overflow: hidden;
+        }
+        .faq-section .accordion-body {
+            padding: 1.5rem;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .advantages-icons {
+                gap: 20px;
+            }
+            .advantage-item {
+                flex: 1 1 45%;
+            }
+            .content-section img {
+                height: 220px;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="cluster-hero">
+        <div class="container">
+            <h1>Грузоперевозки длинномер Дзержинский</h1>
+            <p class="cluster-intro">Аренда длинномера востребована для перевозки металлопроката, труб, ЖБИ длиной 6-13 м на объекты. Стандартные борта 4-6 м тесны — торчат края, нужны разрешения, риски высоки. Длинномер 12 метров аренда устраняет проблему: весь материал укладывается в габариты платформы. Производства, склады, стройки заказывают регулярно.</p>
+
+            <!-- Иконки преимуществ -->
+            <div class="advantages-icons">
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-clock"></i></div>
+                    <div class="text">Расчёт за 5 минут</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-shield-check"></i></div>
+                    <div class="text">Страхование груза</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-cash-stack"></i></div>
+                    <div class="text">Прозрачные цены</div>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon"><i class="bi bi-truck"></i></div>
+                    <div class="text">850+ клиентов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/dlinnomer/image;s=1152x864.jpg" alt="Решения для длинных материалов" loading="lazy">
+                </div>
+                <div class="col-lg-7 section-text">
+                    <h2>Решения для длинных материалов</h2>
+                    <p><strong>Аренда длинномера</strong> востребована для перевозки металлопроката, труб, ЖБИ длиной 6-13 м на объекты. Стандартные борта 4-6 м тесны — торчат края, нужны разрешения, риски высоки. <strong>Длинномер 12 метров аренда</strong> устраняет проблему: весь материал укладывается в габариты платформы. Производства, склады, стройки заказывают регулярно.</p><p><strong>Перевозка груза длинномером</strong> обеспечивает сохранность материалов до адреса. Балки, швеллеры, трубы размещаются целиком — нагрузка распределяется равномерно, деформации отсутствуют. <strong>Длинномер 20 тонн аренда</strong> забирает весь объём за один заход — 19-20 т против нескольких рейсов стандартным грузовиком. Компании снижают транспортные расходы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 section-text">
+                    <h2>Выгоды открытых бортов</h2>
+                    <p><strong>Аренда шаланды</strong> эффективна по финансам и срокам. Без тента легче — дополнительный резерв для груза. Кран загружает быстро. <strong>Перевозка металла на открытой шаланде</strong> быстрее на операцию — не тратить время на тент. Металлобазы ценят скорость.</p><p><strong>Аренда шаланды 12 м</strong> перевозит полную линейку металла: трубы круглые ВГП и ЭСВ 20-530 мм, профильные квадратные и прямоугольные для конструкций, уголки равнополочные и неравнополочные всех размеров, швеллеры прокатные и гнутые для каркасов, двутавры всех номеров для балок, арматуру А3-А500С диаметров 6-40 мм, листы 1-20 мм, профнастил, металлочерепицу, фасадные кассеты. Борта образуют ограждение. Коники удерживают круглый прокат. <strong>Шаланда 12 метров аренда</strong> доставляет к работам — кран выгружает.</p><p><strong>Перевозка бортовой шаландой</strong> обеспечивает контроль. Отправитель наблюдает укладку. Водитель отслеживает сдвиги. Получатель принимает товар. <strong>Перевозка грузов шаландами</strong> исключает претензии, ускоряет приёмку.</p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg" alt="Выгоды открытых бортов" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/dlinnomer/images-14.jpeg" alt="Технические данные" loading="lazy">
+                </div>
+                <div class="col-lg-7 section-text">
+                    <h2>Технические данные</h2>
+                    <p><strong>Аренда длинномера 12 метров для перевозки</strong> — оптимальное сочетание объёма и манёвренности. Автопоезд входит на промышленные зоны и строительные площадки. Грузовая часть вмещает заводские размеры. Ширина позволяет размещать два ряда.</p><p><strong>Грузоперевозки длинномер 20 тонн</strong> закрывают основную массу заказов региона. Стройки комплектуют ЖБИ. Склады отпускают металлопрокат. Пилорамы формируют пакеты. Один автомобиль против нескольких — меньше единиц, быстрее оборот.</p><p><strong>Длинномер 12 метров 20 тонн аренда</strong> транспортирует металлопрокат и ЖБИ массой тоннажа. Снабженцы рассчитывают заявки.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 section-text">
+                    <h2>Безопасность перевозок</h2>
+                    <p><strong>Перевозки длинномер</strong> выполняются по нормам крепления негабаритных грузов. Водители устанавливают коники. Прокат размещают между стоек. Стропы обхватывают груз. Цепи создают прижим.</p><p><strong>Аренда длинномера для перевозки</strong> включает такелаж и водителя. Предрейсовая проверка: техосмотр, ревизия, фотофиксация. На маршруте: остановки для подтяжки. Протокол снижает происшествия.</p><p><strong>Перевозки шаланда</strong> надёжны. Борта выдерживают нагрузку. Рифлёный пол фиксирует груз. Задняя стенка на замках. Боковины откидываются.</p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/dlinnomer/15711845830678.jpeg" alt="Безопасность перевозок" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img src="/assets/images/clusters/dlinnomer/diploma.jpg" alt="Экономическая выгода" loading="lazy">
+                </div>
+                <div class="col-lg-7 section-text">
+                    <h2>Экономическая выгода</h2>
+                    <p><strong>Аренда длинномера цена</strong> из компонентов: подача, километры, простой. Расчёт показывает сумму. Альтернативы дороже — экономия.</p><p><strong>Грузоперевозки длинномерами</strong> окупаются при систематических поставках. Подрядчик сберегает средства. За год накапливаются суммы.</p><p><strong>Аренда шаланда цена</strong> выгодна для предприятий. Разница даёт гибкость. База экономит годовые суммы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 section-text">
+                    <h2>Использование в промышленности</h2>
+                    <p><strong>Аренда шаланды 12</strong> нужна складам для распределения металла застройщикам и производствам. Заказ: швеллер, уголок, двутавр, арматура, труба. Снабженец получает номенклатуру.</p><p>Строительство применяет <strong>грузоперевозки шаланда</strong> для железобетонных изделий. Плиты, перемычки, блоки, лотки. Шаланда к крану. Нет перевалки.</p><p><strong>Перевозка длинномером</strong> востребована для пиломатериалов. Доска, брус пакетами. Борта удерживают объём. Базы снабжают застройщиков.</p><p>Производства заказывают <strong>аренду длинномера</strong> под заготовки. Раскроенные детали пакетами. Цеха получают по графику.</p><p>Химические заводы выпускают продукцию. Металлические реакторы, колонны синтеза из нержавеющей стали длиной метров. <strong>Длинномер 12 метров аренда</strong> везёт оборудование для производства химикатов массой тонн. Заводы выпускают кислоты, щёлочи, растворители.</p><p>Производители полимеров выпускают материалы. Металлические экструдеры, реакторы полимеризации из стали длиной метров. <strong>Перевозка груза длинномером</strong> доставляет оборудование для производства пластиков массой тонн. Заводы выпускают полиэтилен, полипропилен, ПВХ.</p><p>Производители синтетического каучука выпускают материалы. Металлические реакторы, смесители из нержавейки объёмом кубометров. <strong>Длинномер 20 тонн аренда</strong> везёт оборудование для производства каучука массой тонн. Шинные заводы получают сырьё для резиновых изделий.</p><p>Производители лакокрасочных материалов выпускают продукцию. Металлические диспергаторы, смесители из нержавейки объёмом кубометров. <strong>Аренда шаланды 12 м</strong> везёт оборудование для производства красок массой тонн. Строительство получает лакокрасочные материалы.</p><p>Производители бытовой химии выпускают товары. Металлические реакторы, фасовочные линии из нержавеющей стали длиной метров. <strong>Грузоперевозки длинномер 20 тонн</strong> везут оборудование для производства моющих средств массой тонн. Торговля получает бытовую химию для розницы.</p><p>Производители удобрений выпускают продукцию. Металлические реакторы, грануляторы из нержавейки длиной метров. <strong>Перевозка бортовой шаландой</strong> везёт оборудование для производства удобрений массой тонн. Сельское хозяйство получает минеральные удобрения.</p><p>Производители пластмассовых изделий выпускают продукцию. Металлические термопластавтоматы, экструзионные линии из стали длиной метров. <strong>Аренда длинномера для перевозки</strong> доставляет оборудование для литья пластика массой тонн. Заводы выпускают упаковку, детали для промышленности.</p><p>Производители резинотехнических изделий выпускают продукцию. Металлические вулканизаторы, каландры из стали длиной метров. <strong>Длинномер 12 метров 20 тонн аренда</strong> везёт оборудование для производства резины массой тонн. Автомобилестроение получает уплотнители, шланги.</p><p>Производители стеклопластиков выпускают материалы. Металлические формы для формования, автоклавы из стали длиной метров. <strong>Перевозка грузов шаландами</strong> везут оборудование для производства композитов массой тонн. Промышленность получает лёгкие прочные детали.</p><p>Производители клеев и герметиков выпускают составы. Металлические реакторы, смесители из нержавейки объёмом кубометров. <strong>Аренда шаланды 12 м</strong> везёт оборудование для производства клеев массой тонн. Строительство получает герметики для монтажа.</p><p>Производители промышленных газов выпускают продукцию. Металлические криогенные резервуары, разделительные колонны из стали длиной метров. <strong>Длинномер 20 тонн аренда</strong> везёт оборудование для производства кислорода, азота массой тонн. Промышленность получает технические газы.</p><p>Производители катализаторов выпускают материалы. Металлические реакторы, прокалочные печи из нержавейки длиной метров. <strong>Аренда длинномера для перевозки</strong> доставляет оборудование для производства катализаторов массой тонн. Нефтепереработка получает катализаторы для процессов.</p><p>Производители ПАВ выпускают поверхностно-активные вещества. Металлические реакторы синтеза из нержавеющей стали объёмом кубометров. <strong>Длинномер 12 метров 20 тонн аренда</strong> везёт оборудование для производства ПАВ массой тонн. Химическая промышленность получает компоненты для моющих средств.</p><p>Производители органических кислот выпускают продукцию. Металлические колонны ректификации, реакторы из нержавейки длиной метров. <strong>Перевозка грузов шаландами</strong> везут оборудование для производства кислот массой тонн. Пищевая промышленность получает консерванты.</p><p>Производители растворителей выпускают продукцию. Металлические ректификационные колонны из стали длиной метров. <strong>Аренда шаланды 12 м</strong> везёт оборудование для очистки растворителей массой тонн. Лакокрасочная промышленность получает растворители для красок.</p><p>Производители пластификаторов выпускают добавки. Металлические реакторы синтеза из нержавейки объёмом кубометров. <strong>Длинномер 20 тонн аренда</strong> везёт оборудование для производства пластификаторов массой тонн. Производство пластмасс получает добавки для придания эластичности.</p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="row g-2"><div class="col"><img src="/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_nedorogo_1.jpg" alt="Использование в промышленности" loading="lazy" class="img-fluid rounded"></div><div class="col"><img src="/assets/images/clusters/dlinnomer/3.jpg" alt="Использование в промышленности" loading="lazy" class="img-fluid rounded"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Другие услуги -->
+    <section class="other-services py-5">
+        <div class="container">
+            <h2 class="mb-4">Другие услуги в Дзержинском</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a href="../mezhgorod/" class="service-card">
+                        <i class="bi bi-signpost-2"></i>
+                        <h3>Междугородние грузоперевозки</h3>
+                        <p>Доставка по всей России: 1-20 тонн, любые маршруты</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../transportnaya/" class="service-card">
+                        <i class="bi bi-building"></i>
+                        <h3>Услуги транспортной компании</h3>
+                        <p>Полный комплекс услуг: от экспедирования до страхования груза</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../po-rossii/" class="service-card">
+                        <i class="bi bi-map"></i>
+                        <h3>Грузоперевозки по России</h3>
+                        <p>Маршруты во все регионы РФ с отслеживанием</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../fura/" class="service-card">
+                        <i class="bi bi-truck-front"></i>
+                        <h3>Перевозка фурой</h3>
+                        <p>Полные загрузки фур 5-20 тонн</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Часто задаваемые вопросы</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Что если я не знаю точный вес груза?
+                        </button>
+                    </h3>
+                    <div id="faq1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Не проблема — просто опишите груз, и мы подберём подходящую машину. В 99% случаев мы понимаем, какой транспорт нужен.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Предоставляете ли фото груза?
+                        </button>
+                    </h3>
+                    <div id="faq2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Да, по запросу предоставляем фото при погрузке и выгрузке. Это помогает контролировать состояние груза.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Можно ли организовать несколько машин?
+                        </button>
+                    </h3>
+                    <div id="faq3" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Да, организуем любое количество машин: переезды складов, перевозка башенных кранов, крупные партии стройматериалов.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            Как происходит оплата?
+                        </button>
+                    </h3>
+                    <div id="faq4" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Оплата на погрузке, когда машина прибыла. Возможны варианты: 50/50 или 100% перед выгрузкой. Машина выгружается после поступления средств.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            Сколько времени занимает доставка?
+                        </button>
+                    </h3>
+                    <div id="faq5" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Зависит от расстояния: Москва — СПб за 1 день, Москва — Екатеринбург за 2-3 дня, до Владивостока — 10-14 дней.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2>Отзывы наших клиентов</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text">Заказывали перевозку оборудования из Дзержинского в Казань. Всё прошло отлично — машина подана вовремя, груз доставлен без повреждений. Особенно понравилась прозрачность ценообразования.</p>
+                        <div class="author">
+                            <div class="author-avatar">АС</div>
+                            <div class="author-info">
+                                <div class="name">Алексей Смирнов</div>
+                                <div class="company">ООО "ТехноСтрой"</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text">Работаем с Динамикой уже полгода. Регулярно отправляем товар в регионы. Всегда быстро находят транспорт, даже на срочные заявки. Рекомендую!</p>
+                        <div class="author">
+                            <div class="author-avatar">МК</div>
+                            <div class="author-info">
+                                <div class="name">Марина Козлова</div>
+                                <div class="company">ИП Козлова М.В.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p class="text">Переезжали офис из Дзержинского в Нижний Новгород. Ребята помогли организовать перевозку мебели и техники. Всё аккуратно упаковали и доставили в целости.</p>
+                        <div class="author">
+                            <div class="author-avatar">ДП</div>
+                            <div class="author-info">
+                                <div class="name">Дмитрий Петров</div>
+                                <div class="company">Частный клиент</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма обратной связи -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="text-center mb-4">Обратная связь</h3>
+                            <p class="text-center text-muted mb-4">Оставьте ваш номер телефона, и мы вам перезвоним</p>
+                            <form id="callbackForm" class="callback-form">
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Номер телефона</label>
+                                    <input type="tel" class="form-control form-control-lg" id="phone" name="phone" placeholder="+7 (___) ___-__-__" value="+7 " required>
+                                </div>
+                                <button type="submit" class="btn btn-danger btn-lg w-100">
+                                    <i class="bi bi-telephone-fill me-2"></i>Позвоните мне
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Template Loader -->
+    <script src="/assets/js/template-loader.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/forms-handler.js"></script>
+</body>
+</html>
