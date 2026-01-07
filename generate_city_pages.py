@@ -2,10 +2,15 @@
 """
 Генератор страниц городов для ТК Динамика
 Создаёт /regions/{город}/index.html для всех городов из cities.json
+
+Использование:
+  python3 generate_city_pages.py              # Все города
+  python3 generate_city_pages.py --city balashikha  # Только Балашиха
 """
 
 import json
 import os
+import sys
 
 # Пути
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -60,6 +65,14 @@ def generate_city_page(city_slug, city_data, addresses, phones, template):
 def main():
     print("=== Генератор страниц городов ===\n")
 
+    # Парсинг аргументов
+    target_city = None
+    if '--city' in sys.argv:
+        idx = sys.argv.index('--city')
+        if idx + 1 < len(sys.argv):
+            target_city = sys.argv[idx + 1]
+            print(f"🎯 Режим: генерация только города '{target_city}'\n")
+
     # Загрузка данных
     cities = load_cities()
     addresses = load_addresses()
@@ -70,6 +83,13 @@ def main():
     print(f"Загружено адресов БЦ: {len(addresses)}")
     print(f"Загружено телефонов: {len(phones)}")
     print(f"Шаблон: {TEMPLATE_FILE}\n")
+
+    # Фильтруем города если указан --city
+    if target_city:
+        if target_city not in cities:
+            print(f"❌ Ошибка: город '{target_city}' не найден в cities.json")
+            return
+        cities = {target_city: cities[target_city]}
 
     # Создание директории regions если нет
     os.makedirs(OUTPUT_DIR, exist_ok=True)
