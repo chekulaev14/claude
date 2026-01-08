@@ -10,6 +10,12 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #fff;
+    padding-top: 100px; /* Отступ для фиксированного хедера (высота ~96px) */
+}
+
+/* Главная страница без отступа - hero под хедером */
+body.no-header-padding {
+    padding-top: 0;
 }
 
 /* Container переопределён - оставляем Bootstrap по умолчанию */
