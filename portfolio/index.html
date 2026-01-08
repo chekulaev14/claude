@@ -53,12 +53,6 @@
 
     <!-- Критические стили для предотвращения FOUC -->
     <style>
-        /* Фиксируем высоту placeholder для header чтобы не прыгала страница */
-        #header-placeholder {
-            min-height: 70px;
-            display: block;
-        }
-
         /* Скрываем содержимое аккордеонов до инициализации Bootstrap */
         .accordion-collapse {
             display: none !important;
@@ -74,7 +68,7 @@
     <div id="header-placeholder"></div>
 
     <!-- Breadcrumb -->
-    <section class="py-3 bg-light" style="border-bottom: 1px solid #dee2e6;">
+    <section class="breadcrumb-section">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0">
@@ -86,7 +80,7 @@
     </section>
 
     <!-- Секция 1: Комплексные решения -->
-    <section class="py-5 section-with-texture">
+    <section class="pt-3 pb-5 section-with-texture">
         <div class="container-wide" style="max-width: 1800px !important; width: auto !important; margin: 0 auto; padding: 0 20px;">
             <div class="text-center mb-4">
                 <h2 class="display-6 fw-bold mb-3">Примеры долгосрочных проектов</h2>
