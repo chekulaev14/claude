@@ -57,5 +57,87 @@
       "Наши преимущества": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
       "Как заказать?": "/assets/images/clusters/mezhgorod/image;s=1280x960-2.jpg"
     }
+  },
+  "voskresensk": {
+    "mezhgorod": {
+      "Тарифы по грузоподъёмности": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg",
+      "Онлайн-расчёт": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Популярные направления из Воскресенска": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg",
+      "Как оформить заказ?": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-fura_zakaz-2000x1200.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/13912687-tarify-na-transportnye-uslugi-chto-eto.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/home1-slider1.jpg",
+      "Отправка груза из Воскресенска": "/assets/images/clusters/transportnaya/ct_block_item_75745_2_5_image_ZpsC0Y6K.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg"
+    },
+    "dlinnomer": {
+      "Решения для габаритных грузов": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Экономика шаланды": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg",
+      "Технические данные": "/assets/images/clusters/dlinnomer/15711845830678.jpeg",
+      "Надёжное крепление": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Финансовая эффективность": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Применение в бизнесе_img0": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Применение в бизнесе_img1": "/assets/images/clusters/dlinnomer/15353570518231.jpeg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg"
+    },
+    "fura": {
+      "Транспорт для воскресенских грузов": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Маршруты из промышленного центра": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Ценообразование на воскресенские перевозки": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Продукция воскресенских заводов": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Конкурентные преимущества воскресенских перевозчиков": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg"
+    }
+  },
+  "dzerzhinsky": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg",
+      "Онлайн-расчёт": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg",
+      "Популярные направления из Дзержинского": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/images-14.jpeg",
+      "Отправка груза из Дзержинского": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/транспортная компания.jpg"
+    },
+    "dlinnomer": {
+      "Решения для длинных материалов": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Выгоды открытых бортов": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Технические данные": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Безопасность перевозок": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Экономическая выгода": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Использование в промышленности_img0": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Использование в промышленности_img1": "/assets/images/clusters/dlinnomer/Rectangle-707-14-1024x827.png"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg"
+    },
+    "fura": {
+      "Транспорт для дзержинских грузов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Маршруты из промышленного центра": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Ценообразование на дзержинские перевозки": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Продукция дзержинских заводов": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Конкурентные преимущества дзержинских перевозчиков": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg"
+    }
   }
 }

@@ -45,6 +45,7 @@ def generate_city_page(city_slug, city_data, addresses, phones, template):
     html = template
 
     # Замена плейсхолдеров города
+    html = html.replace('{{CITY_SLUG}}', city_slug)
     html = html.replace('{{CITY_NAME}}', city_data['name'])
     html = html.replace('{{CITY_GENITIVE}}', city_data['genitive'])
     html = html.replace('{{CITY_PREPOSITIONAL}}', city_data['prepositional'])

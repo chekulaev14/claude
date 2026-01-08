@@ -18,6 +18,7 @@ IMAGES_DIR = os.path.join(BASE_DIR, 'assets', 'images', 'clusters')
 MAPPING_FILE = os.path.join(BASE_DIR, 'data', 'images-mapping.json')
 CITY_PHONES_FILE = os.path.join(BASE_DIR, 'data', 'city-phones.json')
 CITY_ADDRESSES_FILE = os.path.join(BASE_DIR, 'data', 'city-addresses.json')
+IMAGE_ALTS_FILE = os.path.join(BASE_DIR, 'data', 'image-alts.json')
 
 # Словарь городов: url-slug → (именительный, родительный, предложный)
 # 48 городов с SEO-текстами
@@ -268,6 +269,14 @@ def load_city_addresses():
     return {}
 
 
+def load_image_alts():
+    """Загружает SEO alt-тексты для изображений из JSON файла"""
+    if os.path.exists(IMAGE_ALTS_FILE):
+        with open(IMAGE_ALTS_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
 def get_cluster_images(cluster):
     """Получает список изображений для кластера"""
     cluster_dir = os.path.join(IMAGES_DIR, cluster)
@@ -322,10 +331,14 @@ def get_image_for_section(city, cluster, section_title, images, mapping):
     return selected
 
 
-def generate_sections_html(sections, cluster, city, mapping):
+def generate_sections_html(sections, cluster, city, mapping, image_alts, city_name):
     """Генерирует HTML для секций с изображениями (с использованием маппинга)"""
     html_parts = []
     images = get_cluster_images(cluster)
+
+    # Получаем alt-тексты для кластера
+    cluster_alts = image_alts.get(cluster, [])
+    alt_counter = 0  # Счётчик для циклического выбора alt
 
     for idx, section in enumerate(sections):
         # Преобразуем markdown в HTML
@@ -406,12 +419,21 @@ def generate_sections_html(sections, cluster, city, mapping):
         image_left = idx % 2 == 0
 
         if section_images:
-            # Генерируем HTML для изображений
+            # Генерируем HTML для изображений с SEO alt-текстами
+            def get_next_alt():
+                nonlocal alt_counter
+                if cluster_alts:
+                    alt_text = cluster_alts[alt_counter % len(cluster_alts)]
+                    alt_counter += 1
+                    return f"{alt_text} {city_name}"
+                return section["title"]
+
             if len(section_images) == 1:
-                images_html = f'<img src="{section_images[0]}" alt="{section["title"]}" loading="lazy">'
+                alt = get_next_alt()
+                images_html = f'<img src="{section_images[0]}" alt="{alt}" loading="lazy">'
             else:
                 # Несколько фото — в ряд
-                img_items = ''.join([f'<div class="col"><img src="{img}" alt="{section["title"]}" loading="lazy" class="img-fluid rounded"></div>' for img in section_images])
+                img_items = ''.join([f'<div class="col"><img src="{img}" alt="{get_next_alt()}" loading="lazy" class="img-fluid rounded"></div>' for img in section_images])
                 images_html = f'<div class="row g-2">{img_items}</div>'
 
             if image_left:
@@ -456,7 +478,7 @@ def generate_sections_html(sections, cluster, city, mapping):
     return '\n'.join(html_parts)
 
 
-def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses):
+def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts):
     """Генерирует HTML страницу для города и кластера"""
 
     # Получаем падежи города
@@ -504,8 +526,8 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
     if city_name not in h1 and city_genitive not in h1 and city_prepositional not in h1:
         h1 = f"{h1} {city_name}"
 
-    # Генерируем секции с использованием маппинга
-    sections_html = generate_sections_html(parsed['sections'], cluster, city_slug, mapping)
+    # Генерируем секции с использованием маппинга и alt-текстов
+    sections_html = generate_sections_html(parsed['sections'], cluster, city_slug, mapping, image_alts, city_name)
 
     # Заменяем плейсхолдеры
     html = template
@@ -569,6 +591,10 @@ def main():
     city_addresses = load_city_addresses()
     print(f"Загружено адресов БЦ: {len(city_addresses)}\n")
 
+    # Загрузка alt-текстов для изображений
+    image_alts = load_image_alts()
+    print(f"Загружено alt-текстов: {sum(len(v) for v in image_alts.values())} (кластеров: {len(image_alts)})\n")
+
     # Загрузка шаблона
     template = load_template()
     print(f"Шаблон: {TEMPLATE_FILE}\n")
@@ -592,8 +618,8 @@ def main():
         city_name = CITIES[city_slug][0]
 
         for cluster in clusters:
-            # Генерируем HTML с использованием маппинга
-            html = generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses)
+            # Генерируем HTML с использованием маппинга и alt-текстов
+            html = generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts)
 
             if not html:
                 skipped += 1
