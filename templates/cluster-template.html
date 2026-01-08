@@ -455,8 +455,18 @@
                             </p>
                             <p class="card-text">
                                 <i class="bi bi-telephone-fill text-primary me-2"></i>
-                                <strong>Телефон:</strong><br>
+                                <strong>Телефон городской:</strong><br>
                                 <a href="tel:{{LOCAL_PHONE}}" class="text-decoration-none">{{LOCAL_PHONE}}</a>
+                            </p>
+                            <p class="card-text">
+                                <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                <strong>Бесплатный:</strong><br>
+                                <a href="tel:8-800-500-03-20" class="text-decoration-none">8-800-500-03-20</a>
+                            </p>
+                            <p class="card-text">
+                                <i class="bi bi-phone-fill text-primary me-2"></i>
+                                <strong>Дежурный логист (MAX, Telegram):</strong><br>
+                                <a href="tel:+79874165187" class="text-decoration-none">8-987-416-51-87</a>
                             </p>
                             <p class="card-text">
                                 <i class="bi bi-clock-fill text-primary me-2"></i>
@@ -496,7 +506,17 @@
 
                 // Добавляем метку
                 var placemark = new ymaps.Placemark(coords, {
-                    balloonContent: '<strong>{{BC_NAME}}</strong><br>{{FULL_ADDRESS}}<br><a href="tel:{{LOCAL_PHONE}}">{{LOCAL_PHONE}}</a>'
+                    balloonContent: '<div style="padding: 10px;">' +
+                        '<strong style="font-size: 16px;">Филиал ТК «Динамика» в {{CITY_NAME_PREPOSITIONAL}}</strong><br><br>' +
+                        '<strong>{{BC_NAME}}</strong><br>' +
+                        '{{FULL_ADDRESS}}<br><br>' +
+                        '<strong>Телефон городской:</strong><br>' +
+                        '<a href="tel:{{LOCAL_PHONE}}">{{LOCAL_PHONE}}</a><br><br>' +
+                        '<strong>Бесплатный:</strong><br>' +
+                        '<a href="tel:8-800-500-03-20">8-800-500-03-20</a><br><br>' +
+                        '<strong>Дежурный логист (MAX, Telegram):</strong><br>' +
+                        '<a href="tel:+79874165187">8-987-416-51-87</a>' +
+                        '</div>'
                 }, {
                     preset: 'islands#redIcon'
                 });

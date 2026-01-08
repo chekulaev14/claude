@@ -624,7 +624,7 @@
                 <div class="col-md-6 mb-4 mb-md-0">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">East Gate</h5>
+                            <h5 class="card-title">БЦ East Gate</h5>
                             <p class="card-text">
                                 <i class="bi bi-geo-alt-fill text-primary me-2"></i>
                                 <strong>Адрес:</strong><br>
@@ -632,8 +632,18 @@
                             </p>
                             <p class="card-text">
                                 <i class="bi bi-telephone-fill text-primary me-2"></i>
-                                <strong>Телефон:</strong><br>
+                                <strong>Телефон городской:</strong><br>
                                 <a href="tel:+7-495-168-54-08" class="text-decoration-none">+7-495-168-54-08</a>
+                            </p>
+                            <p class="card-text">
+                                <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                <strong>Бесплатный:</strong><br>
+                                <a href="tel:8-800-500-03-20" class="text-decoration-none">8-800-500-03-20</a>
+                            </p>
+                            <p class="card-text">
+                                <i class="bi bi-phone-fill text-primary me-2"></i>
+                                <strong>Дежурный логист (MAX, Telegram):</strong><br>
+                                <a href="tel:+79874165187" class="text-decoration-none">8-987-416-51-87</a>
                             </p>
                             <p class="card-text">
                                 <i class="bi bi-clock-fill text-primary me-2"></i>
@@ -673,7 +683,17 @@
 
                 // Добавляем метку
                 var placemark = new ymaps.Placemark(coords, {
-                    balloonContent: '<strong>East Gate</strong><br>пр. Ленина, 25, офис 133<br><a href="tel:+7-495-168-54-08">+7-495-168-54-08</a>'
+                    balloonContent: '<div style="padding: 10px;">' +
+                        '<strong style="font-size: 16px;">Филиал ТК «Динамика» в Балашихе</strong><br><br>' +
+                        '<strong>БЦ East Gate</strong><br>' +
+                        'пр. Ленина, 25, офис 133<br><br>' +
+                        '<strong>Телефон городской:</strong><br>' +
+                        '<a href="tel:+7-495-168-54-08">+7-495-168-54-08</a><br><br>' +
+                        '<strong>Бесплатный:</strong><br>' +
+                        '<a href="tel:8-800-500-03-20">8-800-500-03-20</a><br><br>' +
+                        '<strong>Дежурный логист (MAX, Telegram):</strong><br>' +
+                        '<a href="tel:+79874165187">8-987-416-51-87</a>' +
+                        '</div>'
                 }, {
                     preset: 'islands#redIcon'
                 });

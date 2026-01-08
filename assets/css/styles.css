@@ -12,7 +12,8 @@ body {
     background-color: #fff;
 }
 
-.container {
+/* Container переопределён - оставляем Bootstrap по умолчанию */
+.container-custom {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
@@ -1874,7 +1875,6 @@ html {
 }
 
 .city-features {
-    max-width: 900px;
     margin-bottom: 60px;
 }
 
@@ -1898,7 +1898,6 @@ html {
 }
 
 .city-services {
-    max-width: 1200px;
     margin-bottom: 60px;
 }
 
