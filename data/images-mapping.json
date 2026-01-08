@@ -220,6 +220,30 @@
       "Транспортные компании России": "/assets/images/clusters/transportnaya/1-2.jpg",
       "Как отправить груз?": "/assets/images/clusters/transportnaya/section.jpg",
       "Почему выбирают нас?": "/assets/images/clusters/transportnaya/images-15.jpeg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт для крупногабаритных грузов": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Открытая платформа как универсальное решение": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Типовые размеры и грузоподъёмность": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Особенности крепления и безопасности": "/assets/images/clusters/dlinnomer/daf-shalanda-xizmati-3-1024x768.jpg",
+      "Экономическая выгода использования": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Области применения транспорта": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg"
+    },
+    "po-rossii": {
+      "Лёгкие грузы: газели и малотоннажники": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Средний тоннаж: универсальные машины": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Крупнотоннажный транспорт: фуры и полуприцепы": "/assets/images/clusters/po-rossii/005.png",
+      "Расчёт стоимости и тарифы": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Срочные и экономичные варианты": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Преимущества работы с \"Динамикой\"": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg"
+    },
+    "fura": {
+      "Типы фур для междугородних перевозок": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Что перевозят фурами из Москвы": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Стоимость перевозок фурой": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Расчёт стоимости перевозки": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "География перевозок из столицы": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Преимущества полной загрузки": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg"
     }
   },
   "chekhov": {

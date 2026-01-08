@@ -8,6 +8,7 @@ import os
 import re
 import random
 import json
+import math
 
 # Базовые пути
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -76,6 +77,31 @@ CITIES = {
 
 # Кластеры
 CLUSTERS = ['mezhgorod', 'transportnaya', 'dlinnomer', 'po-rossii', 'fura']
+
+# 17 крупных городов (из generate_route_pages.py)
+MAJOR_CITIES = [
+    'moskva', 'kazan', 'samara', 'kaluga', 'obninsk', 'tula', 'tver',
+    'yaroslavl', 'saint-petersburg', 'nizhny-novgorod', 'nizhnekamsk',
+    'naberezhnye-chelny', 'izhevsk', 'ufa', 'chelyabinsk', 'ekaterinburg', 'perm'
+]
+
+# 31 город Московской области
+MOSCOW_REGION_CITIES = [
+    'balashikha', 'podolsk', 'khimki', 'korolev', 'mytishchi', 'lyubertsy',
+    'krasnogorsk', 'elektrostal', 'kolomna', 'odintsovo', 'domodedovo',
+    'serpukhov', 'shchelkovo', 'orekhovo-zuevo', 'ramenskoe', 'dolgoprudny',
+    'zhukovsky', 'pushkino', 'reutov', 'sergiev-posad', 'voskresensk',
+    'lobnya', 'klin', 'ivanteyevka', 'dubna', 'egoryevsk', 'chekhov',
+    'dmitrov', 'noginsk', 'fryazino', 'dzerzhinsky'
+]
+
+# Крупные города без Москвы (для маршрутов с Подмосковьем)
+MAJOR_CITIES_NO_MOSCOW = [c for c in MAJOR_CITIES if c != 'moskva']
+
+# Алиасы для URL маршрутов
+CITY_URL_ALIASES = {
+    'saint-petersburg': 'spb'
+}
 
 # Информация о кластерах для перелинковки
 CLUSTER_INFO = {
@@ -167,6 +193,128 @@ def generate_faq_html(cluster):
                     </div>
                 </div>''')
     return '\n'.join(html_parts)
+
+
+def calculate_distance(lat1, lon1, lat2, lon2):
+    """Расчёт расстояния между двумя точками (формула Хаверсайна × 1.3)"""
+    R = 6371
+    lat1_rad = math.radians(lat1)
+    lat2_rad = math.radians(lat2)
+    delta_lat = math.radians(lat2 - lat1)
+    delta_lon = math.radians(lon2 - lon1)
+    a = math.sin(delta_lat/2)**2 + math.cos(lat1_rad) * math.cos(lat2_rad) * math.sin(delta_lon/2)**2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
+    return int(R * c * 1.3)
+
+
+def calculate_prices(distance_km):
+    """Расчёт цен: 1-3т: км×30 (мин 20к), 5т: км×40 (мин 25к), 10т: км×50 (мин 30к), 20т: км×80 (мин 40к)"""
+    return {
+        '1t': max(distance_km * 30, 20000),
+        '5t': max(distance_km * 40, 25000),
+        '10t': max(distance_km * 50, 30000),
+        '20t': max(distance_km * 80, 40000)
+    }
+
+
+def format_price(price):
+    """Форматирование цены с разделителями тысяч"""
+    return f"{price:,}".replace(',', ' ')
+
+
+def get_route_slug(city_from, city_to):
+    """Генерирует slug для маршрута"""
+    from_slug = CITY_URL_ALIASES.get(city_from, city_from)
+    to_slug = CITY_URL_ALIASES.get(city_to, city_to)
+    return f"{from_slug}-{to_slug}"
+
+
+def get_destinations_for_city(city_slug):
+    """Получает список городов назначения для города"""
+    if city_slug == 'moskva':
+        # Москва → все крупные кроме себя
+        return [c for c in MAJOR_CITIES if c != 'moskva']
+    elif city_slug in MOSCOW_REGION_CITIES:
+        # Подмосковье → крупные без Москвы
+        return MAJOR_CITIES_NO_MOSCOW
+    elif city_slug in MAJOR_CITIES:
+        # Крупный город → все крупные кроме себя
+        return [c for c in MAJOR_CITIES if c != city_slug]
+    else:
+        return []
+
+
+def get_routes_for_cluster(city_slug, cluster, city_addresses):
+    """
+    Возвращает 3 маршрута для кластера (детерминированно).
+    5 кластеров × 3 маршрута = 15, у нас 16 доступных → без повторов.
+    """
+    destinations = get_destinations_for_city(city_slug)
+    if not destinations:
+        return []
+
+    # Сортируем для детерминированности
+    destinations = sorted(destinations)
+
+    # Индекс кластера определяет какие 3 маршрута взять
+    cluster_idx = CLUSTERS.index(cluster)
+    start_idx = cluster_idx * 3
+
+    # Берём 3 маршрута (циклически если выходим за границы)
+    routes = []
+    for i in range(3):
+        idx = (start_idx + i) % len(destinations)
+        dest = destinations[idx]
+        routes.append(dest)
+
+    return routes
+
+
+def generate_routes_table_html(city_slug, cluster, city_addresses):
+    """Генерирует HTML таблицы маршрутов для кластера (3 прямых + 3 обратных = 6 строк)"""
+    routes = get_routes_for_cluster(city_slug, cluster, city_addresses)
+    if not routes:
+        return ''
+
+    city_name = CITIES.get(city_slug, (city_slug,))[0]
+    city_addr = city_addresses.get(city_slug, {})
+    lat_from = city_addr.get('latitude', 55.75)
+    lon_from = city_addr.get('longitude', 37.62)
+
+    rows = []
+
+    for dest_slug in routes:
+        dest_name = CITIES.get(dest_slug, (dest_slug,))[0]
+        dest_addr = city_addresses.get(dest_slug, {})
+        lat_to = dest_addr.get('latitude', 55.75)
+        lon_to = dest_addr.get('longitude', 37.62)
+
+        distance = calculate_distance(lat_from, lon_from, lat_to, lon_to)
+        prices = calculate_prices(distance)
+
+        # Прямой маршрут
+        route_slug = get_route_slug(city_slug, dest_slug)
+        rows.append(f'''                        <tr>
+                            <td><a href="/routes/{route_slug}/">{city_name} — {dest_name}</a></td>
+                            <td>{distance} км</td>
+                            <td>от {format_price(prices["1t"])} ₽</td>
+                            <td>от {format_price(prices["5t"])} ₽</td>
+                            <td>от {format_price(prices["10t"])} ₽</td>
+                            <td>от {format_price(prices["20t"])} ₽</td>
+                        </tr>''')
+
+        # Обратный маршрут
+        reverse_slug = get_route_slug(dest_slug, city_slug)
+        rows.append(f'''                        <tr>
+                            <td><a href="/routes/{reverse_slug}/">{dest_name} — {city_name}</a></td>
+                            <td>{distance} км</td>
+                            <td>от {format_price(prices["1t"])} ₽</td>
+                            <td>от {format_price(prices["5t"])} ₽</td>
+                            <td>от {format_price(prices["10t"])} ₽</td>
+                            <td>от {format_price(prices["20t"])} ₽</td>
+                        </tr>''')
+
+    return '\n'.join(rows)
 
 
 def generate_other_clusters_html(current_cluster):
@@ -588,6 +736,10 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
     # Генерируем FAQ для кластера
     faq_html = generate_faq_html(cluster)
     html = html.replace('{{FAQ_ITEMS}}', faq_html)
+
+    # Генерируем таблицу маршрутов
+    routes_table_html = generate_routes_table_html(city_slug, cluster, city_addresses)
+    html = html.replace('{{ROUTES_TABLE}}', routes_table_html)
 
     return html
 

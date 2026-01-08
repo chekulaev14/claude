@@ -305,6 +305,41 @@
             line-height: 1.8;
         }
 
+        /* Таблица маршрутов */
+        .routes-table {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .routes-table th {
+            font-weight: 600;
+            color: #2d3436;
+            border-bottom: 2px solid #dee2e6;
+            padding: 1rem;
+            white-space: nowrap;
+        }
+        .routes-table td {
+            padding: 1rem;
+            vertical-align: middle;
+        }
+        .routes-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        .routes-table .route-link {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .routes-table .route-link:hover {
+            text-decoration: underline;
+        }
+        .routes-table .price {
+            font-weight: 600;
+            color: #2d3436;
+            white-space: nowrap;
+        }
+
         @media (max-width: 768px) {
             .advantages-icons {
                 gap: 20px;
@@ -315,6 +350,11 @@
             .content-section img {
                 height: 220px;
                 margin-top: 20px;
+            }
+            .routes-table th,
+            .routes-table td {
+                padding: 0.75rem 0.5rem;
+                font-size: 0.9rem;
             }
         }
     </style>
@@ -481,6 +521,78 @@
                         <p>Полные загрузки фур 5-20 тонн</p>
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Популярные маршруты -->
+    <section class="routes-section py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Популярные маршруты из Щёлкова</h2>
+            <p class="text-muted mb-4">Организуем грузоперевозки по всем направлениям. Цены указаны ориентировочно.</p>
+            <div class="table-responsive">
+                <table class="table table-hover routes-table">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Маршрут</th>
+                            <th>Расстояние</th>
+                            <th>1-3 т</th>
+                            <th>5 т</th>
+                            <th>10 т</th>
+                            <th>20 т</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="/routes/shchelkovo-nizhnekamsk/">Щёлково — Нижнекамск</a></td>
+                            <td>1122 км</td>
+                            <td>от 33 660 ₽</td>
+                            <td>от 44 880 ₽</td>
+                            <td>от 56 100 ₽</td>
+                            <td>от 89 760 ₽</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/routes/nizhnekamsk-shchelkovo/">Нижнекамск — Щёлково</a></td>
+                            <td>1122 км</td>
+                            <td>от 33 660 ₽</td>
+                            <td>от 44 880 ₽</td>
+                            <td>от 56 100 ₽</td>
+                            <td>от 89 760 ₽</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/routes/shchelkovo-nizhny-novgorod/">Щёлково — Нижний Новгород</a></td>
+                            <td>485 км</td>
+                            <td>от 20 000 ₽</td>
+                            <td>от 25 000 ₽</td>
+                            <td>от 30 000 ₽</td>
+                            <td>от 40 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/routes/nizhny-novgorod-shchelkovo/">Нижний Новгород — Щёлково</a></td>
+                            <td>485 км</td>
+                            <td>от 20 000 ₽</td>
+                            <td>от 25 000 ₽</td>
+                            <td>от 30 000 ₽</td>
+                            <td>от 40 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/routes/shchelkovo-obninsk/">Щёлково — Обнинск</a></td>
+                            <td>163 км</td>
+                            <td>от 20 000 ₽</td>
+                            <td>от 25 000 ₽</td>
+                            <td>от 30 000 ₽</td>
+                            <td>от 40 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td><a href="/routes/obninsk-shchelkovo/">Обнинск — Щёлково</a></td>
+                            <td>163 км</td>
+                            <td>от 20 000 ₽</td>
+                            <td>от 25 000 ₽</td>
+                            <td>от 30 000 ₽</td>
+                            <td>от 40 000 ₽</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
