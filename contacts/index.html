@@ -6,7 +6,7 @@
     <title>Контакты - ТК Динамика</title>
     <meta name="description" content="Контакты ТК Динамика. Телефон, адрес, время работы транспортной компании. ☎ 8-987-416-51-87">
     <meta name="keywords" content="контакты, телефон, адрес, офис, грузоперевозки, связь">
-    
+
     <!-- Open Graph -->
     <meta property="og:title" content="Контакты - ТК Динамика">
     <meta property="og:description" content="Контакты ТК Динамика. Телефон, адрес, время работы транспортной компании.">
@@ -66,7 +66,7 @@
         "@type": "LocalBusiness",
         "@id": "https://dinamika-cargo.ru/contacts/#localbusiness",
         "name": "ТК Динамика",
-        "description": "Транспортная компания по грузоперевозкам по России. Перевозка грузов от 100 кг до 24 тонн.",
+        "description": "Федеральная транспортная компания по грузоперевозкам по России. Перевозка грузов от 100 кг до 24 тонн.",
         "url": "https://dinamika-cargo.ru/contacts/",
         "logo": "https://dinamika-cargo.ru/assets/images/color_big.png",
         "image": "https://dinamika-cargo.ru/assets/images/color_big.png",
@@ -75,13 +75,15 @@
         "address": {
             "@type": "PostalAddress",
             "addressCountry": "RU",
-            "addressLocality": "Москва",
-            "addressRegion": "Москва"
+            "streetAddress": "ул. Ленина, 44 к3",
+            "addressLocality": "Тольятти",
+            "addressRegion": "Самарская область",
+            "postalCode": "445020"
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "55.7558",
-            "longitude": "37.6173"
+            "latitude": "53.539268",
+            "longitude": "49.411293"
         },
         "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
@@ -93,14 +95,9 @@
         "areaServed": {
             "@type": "Country",
             "name": "Россия"
-        },
-        "parentOrganization": {
-            "@id": "https://dinamika-cargo.ru/#organization"
         }
     }
     </script>
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeGxooF2L5rdIFszMLZBYhcVhT11u83MY&callback=initMap"></script>
 </head>
 <body>
     <!-- Header Placeholder -->
@@ -120,103 +117,60 @@
 
     <!-- Main Content -->
     <main>
-        <!-- Contact Info & Map Section -->
-        <section class="py-5" style="background: url('../assets/images/russia-map.webp') center/cover no-repeat; position: relative;">
-            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,0.92);"></div>
-            <div class="container" style="position: relative; z-index: 1;">
-                <div class="row g-4">
-                    <!-- Contact Information -->
-                    <div class="col-lg-6">
-                        <div class="h-100">
-                            <h2 class="mb-4">Наши контакты</h2>
-
-                            <!-- Company Cards -->
-                            <div class="row g-3 mb-4">
-                                <div class="col-12">
-                                    <div class="card border-primary">
-                                        <div class="card-body text-start">
-                                            <h5 class="card-title text-primary text-start">
-                                                ООО "Динамика", без НДС<br>
-                                                ООО "Динамика Плюс", с НДС
-                                            </h5>
-                                            <div class="contact-info d-flex flex-column align-items-start" style="gap: 0.25rem;">
-                                                <!-- Адрес -->
-                                                <div class="d-flex align-items-center">
-                                                    <i class="bi bi-geo-alt-fill text-primary me-2 fs-5 flex-shrink-0"></i>
-                                                    <span class="small">г. Тольятти, ул. Ленина, 44 к3</span>
-                                                </div>
-
-                                                <!-- Телефоны -->
-                                                <div class="d-flex align-items-center">
-                                                    <i class="bi bi-telephone-fill text-primary me-2 fs-5 flex-shrink-0"></i>
-                                                    <div class="d-flex gap-3">
-                                                        <a href="tel:88007072936" class="text-decoration-none fw-bold small text-nowrap">8-800-707-29-36</a>
-                                                        <a href="tel:+79874165187" class="text-decoration-none small text-nowrap">8-987-416-51-87</a>
-                                                    </div>
-                                                </div>
-
-                                                <!-- География -->
-                                                <div class="d-flex align-items-center">
-                                                    <i class="bi bi-globe text-success me-2 fs-5 flex-shrink-0"></i>
-                                                    <span class="text-success fw-bold small">Работаем по всей РФ</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!-- Contact Methods -->
-                            <h3 class="mb-3">Способы связи</h3>
-                            <div class="row g-3">
-                                <div class="col-md-4">
-                                    <div class="text-center p-3 bg-light rounded">
-                                        <i class="bi bi-telephone-fill fs-2 text-primary mb-2"></i>
-                                        <h6>Звонок</h6>
-                                        <a href="tel:88007072936" class="btn btn-sm btn-outline-primary">8-800</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="text-center p-3 bg-light rounded">
-                                        <i class="bi bi-telegram fs-2 text-info mb-2"></i>
-                                        <h6>Telegram</h6>
-                                        <a href="https://t.me/+79874165187" class="btn btn-sm btn-outline-info" target="_blank">Написать</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="text-center p-3 bg-light rounded">
-                                        <i class="bi bi-whatsapp fs-2 text-success mb-2"></i>
-                                        <h6>WhatsApp</h6>
-                                        <a href="https://wa.me/79874165187" class="btn btn-sm btn-outline-success" target="_blank">Написать</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Working Hours -->
-                            <div class="mt-4 p-3 bg-light rounded">
-                                <h5 class="mb-3">Время работы</h5>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <p class="mb-2"><i class="bi bi-clock text-primary me-2"></i><strong>Прием новых заявок:</strong> 7 дней в неделю с 9:00 до 20:00</p>
-                                        <p class="mb-0"><i class="bi bi-shield-check text-success me-2"></i><strong>Заявки в работе:</strong> 24/7</p>
-                                    </div>
+        <!-- Контакты и карта -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h1 class="mb-4">Головной офис в Тольятти</h1>
+                <p class="lead mb-4">
+                    <strong>Динамика</strong> — федеральная транспортная компания. Организуем грузоперевозки по всей России от 100 кг до 24 тонн.
+                    Работаем с клиентами в <a href="/regions/">48 городах России</a>.
+                </p>
+                <div class="row">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">ООО «Динамика» / ООО «Динамика Плюс»</h5>
+                                <p class="card-text">
+                                    <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                                    <strong>Адрес:</strong><br>
+                                    г. Тольятти, ул. Ленина, 44 к3
+                                </p>
+                                <p class="card-text">
+                                    <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                    <strong>Бесплатный:</strong><br>
+                                    <a href="tel:88007072936" class="text-decoration-none fs-5 fw-bold">8-800-707-29-36</a>
+                                </p>
+                                <p class="card-text">
+                                    <i class="bi bi-phone-fill text-primary me-2"></i>
+                                    <strong>Дежурный логист (Telegram, WhatsApp):</strong><br>
+                                    <a href="tel:+79874165187" class="text-decoration-none">+7-987-416-51-87</a>
+                                </p>
+                                <p class="card-text">
+                                    <i class="bi bi-clock-fill text-primary me-2"></i>
+                                    <strong>Режим работы:</strong><br>
+                                    Приём заявок: 7 дней в неделю, 9:00–20:00<br>
+                                    Заявки в работе: 24/7
+                                </p>
+                                <div class="mt-3 d-flex gap-2 flex-wrap">
+                                    <a href="https://t.me/+79874165187" class="btn btn-outline-info" target="_blank">
+                                        <i class="bi bi-telegram"></i> Telegram
+                                    </a>
+                                    <a href="https://wa.me/79874165187" class="btn btn-outline-success" target="_blank">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp
+                                    </a>
+                                    <a href="/regions/" class="btn btn-primary">
+                                        <i class="bi bi-geo-alt me-1"></i> Все регионы
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Google Map -->
-                    <div class="col-lg-6">
-                        <div class="h-100">
-                            <h2 class="mb-4">Наш офис на карте</h2>
-                            <div id="map" style="height: 500px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div>
-                        </div>
+                    <div class="col-md-6">
+                        <div id="map" style="width: 100%; height: 400px; border-radius: 8px;"></div>
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
 
     <!-- Footer Placeholder -->
@@ -230,91 +184,25 @@
     <script src="/assets/js/template-loader.js"></script>
     <script src="/assets/js/script.js"></script>
 
-    <!-- Google Maps Initialize -->
-    <script>
-        function initMap() {
-            // Координаты офиса в Тольятти, ул. Ленина, 44 к3
-            const officeLocation = { lat: 53.539268, lng: 49.411293 };
-
-            // Создание карты
-            const map = new google.maps.Map(document.getElementById("map"), {
+    <!-- Яндекс.Карты API -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=4a699c0f-112d-4cf0-a1ee-fa70c817500a&lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [53.539268, 49.411293],
                 zoom: 16,
-                center: officeLocation,
-                mapTypeControl: false,
-                streetViewControl: true,
-                fullscreenControl: true,
-                styles: [
-                    {
-                        "featureType": "all",
-                        "elementType": "geometry.fill",
-                        "stylers": [{"weight": "2.00"}]
-                    },
-                    {
-                        "featureType": "all",
-                        "elementType": "geometry.stroke",
-                        "stylers": [{"color": "#9c9c9c"}]
-                    },
-                    {
-                        "featureType": "all",
-                        "elementType": "labels.text",
-                        "stylers": [{"visibility": "on"}]
-                    }
-                ]
+                controls: ['zoomControl', 'fullscreenControl']
             });
 
-            // Создание маркера
-            const marker = new google.maps.Marker({
-                position: officeLocation,
-                map: map,
-                title: 'ТК Динамика - г. Тольятти, ул. Ленина, 44 к3',
-                animation: google.maps.Animation.DROP
+            // Добавляем метку без балуна (при клике ничего не происходит)
+            var placemark = new ymaps.Placemark([53.539268, 49.411293], {}, {
+                preset: 'islands#redIcon',
+                balloonPanelMaxMapArea: 0
             });
 
-            // Информационное окно
-            const infoWindow = new google.maps.InfoWindow({
-                content: `
-                    <div style="padding: 10px; max-width: 300px;">
-                        <h5 style="margin: 0 0 10px 0; color: #0d6efd;">ТК Динамика</h5>
-                        <p style="margin: 5px 0;"><strong>Адрес:</strong> г. Тольятти, ул. Ленина, 44 к3</p>
-                        <p style="margin: 5px 0;"><strong>Телефон:</strong> <a href="tel:+79874165187">8-987-416-51-87</a></p>
-                        <p style="margin: 5px 0;"><strong>Время работы:</strong> Пн-Пт 9:00-18:00</p>
-                        <div style="margin-top: 10px;">
-                            <a href="tel:+79874165187" style="margin-right: 10px; text-decoration: none;">📞 Позвонить</a>
-                            <a href="https://t.me/+79874165187" target="_blank" style="margin-right: 10px; text-decoration: none;">💬 Telegram</a>
-                            <a href="https://wa.me/79874165187" target="_blank" style="text-decoration: none;">📱 WhatsApp</a>
-                        </div>
-                    </div>
-                `
-            });
-
-            // Открытие информационного окна при клике на маркер
-            marker.addListener("click", () => {
-                infoWindow.open(map, marker);
-            });
-
-            // Открыть информационное окно по умолчанию
-            infoWindow.open(map, marker);
+            myMap.geoObjects.add(placemark);
         }
-
-        // Fallback если Google Maps не загрузился
-        window.addEventListener('load', function() {
-            setTimeout(function() {
-                if (typeof google === 'undefined' || !google.maps) {
-                    document.getElementById('map').innerHTML = `
-                        <div class="d-flex align-items-center justify-content-center h-100 bg-light border rounded">
-                            <div class="text-center">
-                                <i class="bi bi-geo-alt-fill fs-1 text-muted mb-3"></i>
-                                <h5>Карта временно недоступна</h5>
-                                <p class="text-muted">г. Тольятти, ул. Ленина, 44 к3</p>
-                                <a href="https://yandex.ru/maps/?text=Тольятти%20Ленина%2044к3" target="_blank" class="btn btn-primary">
-                                    Открыть в Яндекс.Картах
-                                </a>
-                            </div>
-                        </div>
-                    `;
-                }
-            }, 3000);
-        });
     </script>
 </body>
 </html>
