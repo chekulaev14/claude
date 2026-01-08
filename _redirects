@@ -1,0 +1,14 @@
+# Redirects from old /pages/ URLs to new clean URLs
+/pages/clients.html    /clients/    301
+/pages/clients-map.html    /clients-map/    301
+/pages/portfolio.html    /portfolio/    301
+/pages/faq.html    /faq/    301
+/pages/contacts.html    /contacts/    301
+/pages/prices.html    /prices/    301
+/pages/routes.html    /routes/    301
+
+# Projects redirects
+/pages/projects/project-001.html    /projects/project-001.html    301
+/pages/projects/project-002.html    /projects/project-002.html    301
+/pages/projects/project-003.html    /projects/project-003.html    301
+/pages/projects/project-005.html    /projects/project-005.html    301
