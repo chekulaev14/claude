@@ -3,288 +3,384 @@
     "name": "БЦ East Gate",
     "street": "пр. Ленина, 25",
     "office": "133",
-    "postalCode": ""
+    "postalCode": "143900",
+    "latitude": 55.79766,
+    "longitude": 37.939133
   },
   "chekhov": {
     "name": "БЦ LOFT",
     "street": "Улица Чехова, 20Б к35",
     "office": "215",
-    "postalCode": ""
+    "postalCode": "142301",
+    "latitude": 55.143085,
+    "longitude": 37.472441
   },
   "chelyabinsk": {
     "name": "БЦ Челябинск-Сити",
     "street": "Улица Кирова, 159",
     "office": "103",
-    "postalCode": ""
+    "postalCode": "454091",
+    "latitude": 55.164639,
+    "longitude": 61.401224
   },
   "dmitrov": {
     "name": "БЦ Дмитровский Посад",
     "street": "Торговая площадь, 1",
     "office": "240",
-    "postalCode": ""
+    "postalCode": "141800",
+    "latitude": 56.346277,
+    "longitude": 37.517042
   },
   "dolgoprudny": {
     "name": "БЦ Лихачевский технопарк",
     "street": "Лихачёвский проезд, 8",
     "office": "335",
-    "postalCode": ""
+    "postalCode": "141701",
+    "latitude": 55.921798,
+    "longitude": 37.512901
   },
   "domodedovo": {
     "name": "БЦ Орел",
     "street": "Каширское шоссе, 7",
     "office": "419",
-    "postalCode": ""
+    "postalCode": "142000",
+    "latitude": 55.448699,
+    "longitude": 37.764492
   },
   "dubna": {
     "name": "БЦ Сервис-экспорт",
     "street": "Проспект Боголюбова, 26",
     "office": "314",
-    "postalCode": ""
+    "postalCode": "141981",
+    "latitude": 56.73515,
+    "longitude": 37.15467
   },
   "dzerzhinsky": {
     "name": "БЦ Деловое пространство АТС",
     "street": "Лесная улица, 4",
     "office": "480",
-    "postalCode": ""
+    "postalCode": "140090",
+    "latitude": 55.630024,
+    "longitude": 37.85488
   },
   "egoryevsk": {
     "name": "БЦ АБК",
     "street": "Улица Парижской Коммуны, 1Б лит Б1",
     "office": "394",
-    "postalCode": ""
+    "postalCode": "140301",
+    "latitude": 55.383055,
+    "longitude": 39.035842
   },
   "ekaterinburg": {
     "name": "БЦ Астор",
     "street": "Улица 8 Марта, 212",
     "office": "452",
-    "postalCode": ""
+    "postalCode": "620085",
+    "latitude": 56.785857,
+    "longitude": 60.605236
   },
   "elektrostal": {
     "name": "БЦ Эл-Офис",
     "street": "Проспект Ленина, 25",
     "office": "309",
-    "postalCode": ""
+    "postalCode": "144005",
+    "latitude": 55.796506,
+    "longitude": 38.440285
   },
   "fryazino": {
     "name": "БЦ Союз",
     "street": "Пионерская улица, 4 к1",
     "office": "144",
-    "postalCode": ""
+    "postalCode": "141195",
+    "latitude": 55.954375,
+    "longitude": 38.044838
   },
   "ivanteyevka": {
     "name": "БЦ Альянс",
     "street": "Улица Новая Слобода, 1",
     "office": "108",
-    "postalCode": ""
+    "postalCode": "141280",
+    "latitude": 55.968882,
+    "longitude": 37.913028
   },
   "izhevsk": {
     "name": "БЦ Конструктор",
     "street": "Улица Карла Маркса, 2",
     "office": "499",
-    "postalCode": ""
+    "postalCode": "426032",
+    "latitude": 56.820838,
+    "longitude": 53.208903
   },
   "kaluga": {
     "name": "БЦ Набережный",
     "street": "Улица Салтыкова-Щедрина, 76 к4",
     "office": "151",
-    "postalCode": ""
+    "postalCode": "248000",
+    "latitude": 54.498612,
+    "longitude": 36.289782
   },
   "kazan": {
     "name": "БЦ Арго",
     "street": "Чистопольская улица, 19а",
     "office": "448",
-    "postalCode": ""
+    "postalCode": "420124",
+    "latitude": 55.81996,
+    "longitude": 49.114858
   },
   "khimki": {
     "name": "БЦ Технопарк Химки",
     "street": "Ленинградская улица, 29",
     "office": "223",
-    "postalCode": ""
+    "postalCode": "141402",
+    "latitude": 55.903302,
+    "longitude": 37.420365
   },
   "klin": {
     "name": "БЦ Горт-М",
     "street": "Улица Захватаева, 4",
     "office": "361",
-    "postalCode": ""
+    "postalCode": "141606",
+    "latitude": 56.329242,
+    "longitude": 36.729956
   },
   "kolomna": {
     "name": "БЦ Легион",
     "street": "Улица Шилова, 15Б",
     "office": "388",
-    "postalCode": ""
+    "postalCode": "140407",
+    "latitude": 55.089712,
+    "longitude": 38.761945
   },
   "korolev": {
     "name": "БЦ Орион",
     "street": "Улица Фрунзе, 1в",
     "office": "191",
-    "postalCode": ""
+    "postalCode": "141070",
+    "latitude": 55.92312,
+    "longitude": 37.825901
   },
   "krasnogorsk": {
     "name": "БЦ Успенский",
     "street": "Успенская улица, 5",
     "office": "120",
-    "postalCode": ""
+    "postalCode": "143409",
+    "latitude": 55.83342,
+    "longitude": 37.2909
   },
   "lobnya": {
     "name": "БЦ на Промышленной",
     "street": "Промышленная ул., 1А",
     "office": "152",
-    "postalCode": ""
+    "postalCode": "141730",
+    "latitude": 56.018142,
+    "longitude": 37.480067
   },
   "lyubertsy": {
     "name": "Деловое пространство Вертолёт",
     "street": "Улица 8 Марта, 6",
     "office": "215",
-    "postalCode": ""
+    "postalCode": "140007",
+    "latitude": 55.697021,
+    "longitude": 37.875838
   },
   "moskva": {
     "name": "БЦ Neo Geo",
     "street": "Улица Бутлерова, 17",
     "office": "389",
-    "postalCode": ""
+    "postalCode": "117342",
+    "latitude": 55.65015,
+    "longitude": 37.539626
   },
   "mytishchi": {
     "name": "БЦ Горизонт",
     "street": "Улица Колонцова, 5",
     "office": "119",
-    "postalCode": ""
+    "postalCode": "141009",
+    "latitude": 55.913777,
+    "longitude": 37.763351
   },
   "naberezhnye-chelny": {
     "name": "БЦ Дирекция К",
     "street": "проспект Мусы Джалиля, 29/2",
     "office": "108",
-    "postalCode": ""
+    "postalCode": "423800",
+    "latitude": 55.684772,
+    "longitude": 52.299287
   },
   "nizhnekamsk": {
     "name": "БЦ на Строителей",
     "street": "пр-т Строителей, 6А",
     "office": "449",
-    "postalCode": ""
+    "postalCode": "423575",
+    "latitude": 55.627295,
+    "longitude": 51.819461
   },
   "nizhny-novgorod": {
     "name": "БЦ Новая площадь",
     "street": "Улица Костина, 3",
     "office": "314",
-    "postalCode": ""
+    "postalCode": "603000",
+    "latitude": 56.311931,
+    "longitude": 43.990616
   },
   "noginsk": {
     "name": "БЦ Изотоп",
     "street": "Улица Климова, 52",
     "office": "140",
-    "postalCode": ""
+    "postalCode": "142412",
+    "latitude": 55.870955,
+    "longitude": 38.463183
   },
   "obninsk": {
     "name": "БЦ Капитал",
     "street": "Проспект Маркса, 70",
     "office": "369",
-    "postalCode": ""
+    "postalCode": "249039",
+    "latitude": 55.118663,
+    "longitude": 36.602009
   },
   "odintsovo": {
     "name": "БЦ Westeast",
     "street": "Улица Маршала Неделина, 6а",
     "office": "502",
-    "postalCode": ""
+    "postalCode": "143002",
+    "latitude": 55.677722,
+    "longitude": 37.269547
   },
   "orekhovo-zuevo": {
     "name": "БЦ Силуэт",
     "street": "Центральный бульвар, 4",
     "office": "321",
-    "postalCode": ""
+    "postalCode": "142600",
+    "latitude": 55.804607,
+    "longitude": 38.977649
   },
   "perm": {
     "name": "БЦ Навигатор",
     "street": "Улица Лодыгина, 9",
     "office": "350",
-    "postalCode": ""
+    "postalCode": "614990",
+    "latitude": 57.966706,
+    "longitude": 56.237762
   },
   "podolsk": {
     "name": "БЦ Зингер-плаза",
     "street": "Комсомольская улица, 1",
     "office": "139",
-    "postalCode": ""
+    "postalCode": "142100",
+    "latitude": 55.427882,
+    "longitude": 37.550109
   },
   "pushkino": {
     "name": "БЦ Флагман",
     "street": "Улица Грибоедова, 7",
     "office": "351",
-    "postalCode": ""
+    "postalCode": "141207",
+    "latitude": 56.007931,
+    "longitude": 37.838576
   },
   "ramenskoe": {
     "name": "БЦ Эксперт",
     "street": "Улица Свободы, 4",
     "office": "488",
-    "postalCode": ""
+    "postalCode": "140103",
+    "latitude": 55.577052,
+    "longitude": 38.233125
   },
   "reutov": {
     "name": "БЦ Символ",
     "street": "Ашхабадская улица, 14",
     "office": "463",
-    "postalCode": ""
+    "postalCode": "143960",
+    "latitude": 55.758564,
+    "longitude": 37.862579
   },
   "saint-petersburg": {
     "name": "БЦ Альпийский",
     "street": "Альпийский переулок, 29",
     "office": "255",
-    "postalCode": ""
+    "postalCode": "192286",
+    "latitude": 59.853491,
+    "longitude": 30.383736
   },
   "samara": {
     "name": "БЦ Информатика",
     "street": "Стара Загора, 27",
     "office": "315",
-    "postalCode": ""
+    "postalCode": "443090",
+    "latitude": 53.224854,
+    "longitude": 50.199879
   },
   "sergiev-posad": {
     "name": "БЦ Виктория",
     "street": "Проспект Красной Армии, 203в",
     "office": "215",
-    "postalCode": ""
+    "postalCode": "141310",
+    "latitude": 56.322984,
+    "longitude": 38.143752
   },
   "serpukhov": {
     "name": "БЦ Plaza",
     "street": "Улица Ворошилова, 130а",
     "office": "204",
-    "postalCode": ""
+    "postalCode": "142200",
+    "latitude": 54.920413,
+    "longitude": 37.435861
   },
   "shchelkovo": {
     "name": "БЦ Капитал",
     "street": "Пролетарский проспект, 8а",
     "office": "241",
-    "postalCode": ""
+    "postalCode": "141100",
+    "latitude": 55.921965,
+    "longitude": 38.000488
   },
   "tula": {
     "name": "БЦ Магистраль",
     "street": "Улица Болдина, 98",
     "office": "498",
-    "postalCode": ""
+    "postalCode": "300028",
+    "latitude": 54.17243,
+    "longitude": 37.573887
   },
   "tver": {
     "name": "БЦ Орбита",
     "street": "Улица Мусоргского, 12",
     "office": "223",
-    "postalCode": ""
+    "postalCode": "170026",
+    "latitude": 56.870597,
+    "longitude": 35.90197
   },
   "ufa": {
     "name": "БЦ Лондон",
     "street": "Кавказская улица, 8/1",
     "office": "347",
-    "postalCode": ""
+    "postalCode": "450103",
+    "latitude": 54.706672,
+    "longitude": 55.975535
   },
   "voskresensk": {
     "name": "БЦ Дом бытовых услуг",
     "street": "Советская улица, 4",
     "office": "504",
-    "postalCode": ""
+    "postalCode": "140200",
+    "latitude": 55.319817,
+    "longitude": 38.683729
   },
   "yaroslavl": {
     "name": "БЦ Омега",
     "street": "Ленинградский проспект, 33",
     "office": "111",
-    "postalCode": ""
+    "postalCode": "150044",
+    "latitude": 57.67443,
+    "longitude": 39.818804
   },
   "zhukovsky": {
     "name": "БЦ Чайка",
     "street": "Улица Мясищева, 1",
     "office": "150",
-    "postalCode": ""
+    "postalCode": "140187",
+    "latitude": 55.600704,
+    "longitude": 38.106858
   }
 }
