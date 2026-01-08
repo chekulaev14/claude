@@ -47,6 +47,41 @@
       "Популярные маршруты из Химок": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
       "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg",
       "Порядок заказа": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/transportnaya-logistika-1200x696.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/25atk_1920_500_png_5_80.png",
+      "Как отправить груз из Химок?": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg"
+    },
+    "dlinnomer": {
+      "Специализированная техника для длинномерных материалов": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Практичность открытой платформы_img0": "/assets/images/clusters/dlinnomer/image;s=1080x1920-2.jpg",
+      "Практичность открытой платформы_img1": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Габаритные параметры и вместимость_img0": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Габаритные параметры и вместимость_img1": "/assets/images/clusters/dlinnomer/bortovoj-dlinnomer.jpg",
+      "Требования безопасности и крепление_img0": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Требования безопасности и крепление_img1": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Экономическая целесообразность": "/assets/images/clusters/dlinnomer/15a2877a59d5000b0b0a85c8da5b9efb.jpeg",
+      "Сферы применения транспорта_img0": "/assets/images/clusters/dlinnomer/2-2.jpg",
+      "Сферы применения транспорта_img1": "/assets/images/clusters/dlinnomer/15353570518231.jpeg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg"
+    },
+    "fura": {
+      "Полуприцепы для логистического хаба": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "География отправлений из города": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Тарифы логистического центра": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Формирование стоимости доставки": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Грузы из химкинских складов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Преимущества химкинского транспортного узла": "/assets/images/clusters/fura/heavy_truck_1.jpg"
     }
   },
   "tula": {
@@ -56,6 +91,37 @@
       "Востребованные маршруты из Тулы": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
       "Наши преимущества": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
       "Как заказать?": "/assets/images/clusters/mezhgorod/image;s=1280x960-2.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/3.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/13912687-tarify-na-transportnye-uslugi-chto-eto.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/home1-slider1.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg"
+    },
+    "dlinnomer": {
+      "Транспортное решение для габаритных грузов": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Открытая платформа — скорость и экономия": "/assets/images/clusters/dlinnomer/2-2.jpg",
+      "Характеристики и вместимость": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Требования к креплению груза": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Расчёт стоимости перевозки": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Отраслевое применение транспорта": "/assets/images/clusters/dlinnomer/Rectangle-707-14-1024x827.png"
+    },
+    "po-rossii": {
+      "Газели для лёгких грузов": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Средний тоннаж": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Фуры для больших объёмов": "/assets/images/clusters/po-rossii/karta.png",
+      "Расчёт стоимости": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Срочные и бюджетные варианты": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Преимущества \"Динамики\"": "/assets/images/clusters/po-rossii/005.png"
+    },
+    "fura": {
+      "Транспорт для тульских грузов": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Маршруты из оружейной столицы": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Ценообразование на перевозки": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Факторы формирования тарифов": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Что производит и отправляет область": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Логистические преимущества региона": "/assets/images/clusters/fura/2020-photo-17.jpg"
     }
   },
   "voskresensk": {
@@ -138,6 +204,1744 @@
       "Расчёт транспортных расходов": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
       "Продукция дзержинских заводов": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
       "Конкурентные преимущества дзержинских перевозчиков": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg"
+    }
+  },
+  "moskva": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Популярные направления из Москвы": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg",
+      "Почему мы?": "/assets/images/clusters/mezhgorod/image;s=1280x960-2.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/892f39f74cb4785b31faa957574.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/25atk_1920_500_png_5_80.png",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/1-2.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/section.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/images-15.jpeg"
+    }
+  },
+  "chekhov": {
+    "mezhgorod": {
+      "Тарифы по грузоподъёмности": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg",
+      "Прозрачный расчёт": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Популярные направления из Чехова": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Как оформить заказ?": "/assets/images/clusters/mezhgorod/image;s=960x1280.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/3.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/images-14.jpeg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg",
+      "Отправка груза из Чехова": "/assets/images/clusters/transportnaya/transcomp.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/892f39f74cb4785b31faa957574.jpg"
+    },
+    "dlinnomer": {
+      "Доставка крупногабаритных материалов": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Эффективность открытых платформ": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg",
+      "Параметры транспорта": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Безопасность фиксации": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Экономическая выгода": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Применение в бизнесе_img0": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Применение в бизнесе_img1": "/assets/images/clusters/dlinnomer/images-14.jpeg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png"
+    },
+    "fura": {
+      "Транспорт для чеховских грузов": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Маршруты из промышленного центра": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Ценообразование на чеховские перевозки": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Продукция чеховских предприятий": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Конкурентные преимущества чеховских перевозчиков": "/assets/images/clusters/fura/347278595891170.jpeg"
+    }
+  },
+  "chelyabinsk": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg",
+      "Расчёт стоимости": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Востребованные направления из Челябинска": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/images-14.jpeg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/transcomp.jpg",
+      "Как отправить груз из Челябинска?": "/assets/images/clusters/transportnaya/section.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/1-2.jpg"
+    },
+    "dlinnomer": {
+      "Транспорт для крупногабаритных промышленных грузов": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Преимущества открытой конструкции": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Технические параметры и вместимость": "/assets/images/clusters/dlinnomer/images-14.jpeg",
+      "Безопасность и крепление груза": "/assets/images/clusters/dlinnomer/15a2877a59d5000b0b0a85c8da5b9efb.jpeg",
+      "Экономическая выгода использования": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Отраслевое применение": "/assets/images/clusters/dlinnomer/Rectangle-707-14-1024x827.png"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Среднетоннажный транспорт": "/assets/images/clusters/po-rossii/karta.png",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Расчёт стоимости": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/77.970.jpg"
+    },
+    "fura": {
+      "Транспорт для уральских грузов": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Маршруты из металлургической столицы": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Ценообразование на металлургические перевозки": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Калькуляция транспортных расходов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Продукция челябинских заводов": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Преимущества челябинских перевозчиков": "/assets/images/clusters/fura/unnamed-2.jpg"
+    }
+  },
+  "dmitrov": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg",
+      "Онлайн-калькулятор": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg",
+      "Популярные маршруты из Дмитрова": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/file_1516273043_669673358.jpg",
+      "Как отправить груз из Дмитрова?": "/assets/images/clusters/transportnaya/transcomp.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg"
+    },
+    "dlinnomer": {
+      "Специализированная транспортировка": "/assets/images/clusters/dlinnomer/image;s=1920x1080.jpg",
+      "Выгоды шаланды": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Технические характеристики": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Крепление груза": "/assets/images/clusters/dlinnomer/15a2877a59d5000b0b0a85c8da5b9efb.jpeg",
+      "Финансовая эффективность": "/assets/images/clusters/dlinnomer/sh.jpg",
+      "Использование в экономике_img0": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Использование в экономике_img1": "/assets/images/clusters/dlinnomer/Rectangle-707-14-1024x827.png"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/karta.png",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/005.png",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg"
+    },
+    "fura": {
+      "Полуприцепы для дмитровских грузов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "География отправлений из города": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Стоимость дмитровских перевозок": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Грузы из дмитровских предприятий": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Преимущества дмитровских перевозчиков": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg"
+    }
+  },
+  "dolgoprudny": {
+    "mezhgorod": {
+      "Тарифы по грузоподъёмности": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Онлайн-расчёт": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Популярные маршруты из Долгопрудного": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/892f39f74cb4785b31faa957574.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/home1-slider1.jpg",
+      "Как отправить груз из Долгопрудного?": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/1-2.jpg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт для длинномерных материалов": "/assets/images/clusters/dlinnomer/15353570518231.jpeg",
+      "Открытая платформа для металлопроката_img0": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Открытая платформа для металлопроката_img1": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Технические характеристики и вместимость": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Безопасность и крепление груза_img0": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Безопасность и крепление груза_img1": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Экономическая целесообразность": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Применение в строительстве_img0": "/assets/images/clusters/dlinnomer/image;s=1080x1920-2.jpg",
+      "Применение в строительстве_img1": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/77.970.jpg"
+    },
+    "fura": {
+      "Полуприцепы для научных грузов": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Маршруты из наукограда": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Стоимость долгопрудненских перевозок": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Грузы из долгопрудненских предприятий": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Преимущества долгопрудненских перевозчиков": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg"
+    }
+  },
+  "domodedovo": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Онлайн-расчёт": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Популярные маршруты из Домодедово": "/assets/images/clusters/mezhgorod/image;s=960x1280.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/13912687-tarify-na-transportnye-uslugi-chto-eto.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/892f39f74cb4785b31faa957574.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg",
+      "Отправка груза из Домодедово": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/3.jpg"
+    },
+    "dlinnomer": {
+      "Транспортировка протяжённых грузов": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg",
+      "Эффективность шаланды": "/assets/images/clusters/dlinnomer/sh.jpg",
+      "Размеры и возможности": "/assets/images/clusters/dlinnomer/image;s=1920x1080.jpg",
+      "Безопасность перевозок": "/assets/images/clusters/dlinnomer/15711845830678.jpeg",
+      "Финансовая выгода": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Сферы применения_img0": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Сферы применения_img1": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/005.png",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/karta.png"
+    },
+    "fura": {
+      "Полуприцепы для авиационных грузов": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Направления доставки из авиаузла": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Стоимость доставки авиагрузов": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Калькуляция транспортных расходов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Грузы из аэропорта Домодедово": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Преимущества домодедовских перевозчиков": "/assets/images/clusters/fura/2020-photo-17.jpg"
+    }
+  },
+  "dubna": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/image;s=960x1280.jpg",
+      "Онлайн-расчёт": "/assets/images/clusters/mezhgorod/image;s=1280x960-2.jpg",
+      "Популярные направления из Дубны": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg",
+      "Как оформить заказ?": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/1-2.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/транспортная компания.jpg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт для габаритных материалов": "/assets/images/clusters/dlinnomer/i-74.jpg",
+      "Экономика открытых платформ": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg",
+      "Габариты и грузовместимость": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Крепление груза и безопасность": "/assets/images/clusters/dlinnomer/Rectangle-707-14-1024x827.png",
+      "Экономическая выгода": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Области применения транспорта_img0": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Области применения транспорта_img1": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/mapa.jpg"
+    },
+    "fura": {
+      "Транспорт для дубненских грузов": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Маршруты из наукограда": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Ценообразование на дубненские перевозки": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Продукция дубненских предприятий": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Конкурентные преимущества дубненских перевозчиков": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg"
+    }
+  },
+  "egoryevsk": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Расчёт стоимости онлайн": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Популярные маршруты из Егорьевска": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/images-15.jpeg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/25atk_1920_500_png_5_80.png",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/images-14.jpeg",
+      "Как отправить груз из Егорьевска?": "/assets/images/clusters/transportnaya/892f39f74cb4785b31faa957574.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg"
+    },
+    "dlinnomer": {
+      "Перевозка длинных материалов": "/assets/images/clusters/dlinnomer/images-14.jpeg",
+      "Преимущества открытых бортов": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Технические данные": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Надёжная фиксация": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Финансовая выгода": "/assets/images/clusters/dlinnomer/perevozki_dlinnomernyh_gruzov_0.jpg",
+      "Использование в производстве_img0": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Использование в производстве_img1": "/assets/images/clusters/dlinnomer/Fura_bort.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/77.970.jpg"
+    },
+    "fura": {
+      "Полуприцепы для егорьевских грузов": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Направления доставки из города": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Стоимость егорьевских перевозок": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Грузы из егорьевских предприятий": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Преимущества егорьевских перевозчиков": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg"
+    }
+  },
+  "ekaterinburg": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Популярные маршруты из Екатеринбурга": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/25atk_1920_500_png_5_80.png",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/транспортная компания.jpg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт для крупногабаритных грузов": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Практичность открытой платформы": "/assets/images/clusters/dlinnomer/15a2877a59d5000b0b0a85c8da5b9efb.jpeg",
+      "Размеры и грузовые характеристики": "/assets/images/clusters/dlinnomer/daf-shalanda-xizmati-3-1024x768.jpg",
+      "Крепление груза и требования безопасности": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Экономическая целесообразность": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Отраслевое применение_img0": "/assets/images/clusters/dlinnomer/2-2.jpg",
+      "Отраслевое применение_img1": "/assets/images/clusters/dlinnomer/bortovoj-dlinnomer.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Крупнотоннажные перевозки": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Формирование тарифов": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Преимущества": "/assets/images/clusters/po-rossii/77.970.jpg"
+    },
+    "fura": {
+      "Полуприцепы для уральских производителей": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "География отправлений из столицы Урала": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Стоимость промышленных перевозок": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Факторы формирования тарифов": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Номенклатура уральской продукции": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Конкурентные преимущества уральских перевозчиков": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg"
+    }
+  },
+  "elektrostal": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg",
+      "Онлайн-калькулятор": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-fura_zakaz-2000x1200.jpg",
+      "Востребованные направления из Электростали": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/image;s=1280x960-2.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/транспортная компания.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/file_1516273043_669673358.jpg",
+      "Как отправить груз из Электростали?": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/home1-slider1.jpg"
+    },
+    "dlinnomer": {
+      "Доставка протяжённых материалов": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_nedorogo_1.jpg",
+      "Открытая платформа выгоднее": "/assets/images/clusters/dlinnomer/daf-shalanda-xizmati-3-1024x768.jpg",
+      "Технические данные": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Фиксация по правилам": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Экономический эффект": "/assets/images/clusters/dlinnomer/image;s=1080x1920-2.jpg",
+      "Применение в экономике_img0": "/assets/images/clusters/dlinnomer/15353570518231.jpeg",
+      "Применение в экономике_img1": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/karta.png",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/005.png",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png"
+    },
+    "fura": {
+      "Транспорт для металлургических грузов": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Маршруты из металлургической столицы": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Тарифы на металлургические перевозки": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Калькуляция транспортных расходов": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Продукция электростальских заводов": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Конкурентные преимущества электростальских перевозчиков": "/assets/images/clusters/fura/maxresdefault.jpg"
+    }
+  },
+  "fryazino": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Популярные маршруты из Фрязино": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/892f39f74cb4785b31faa957574.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/image_7786938_15455522.png",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/25atk_1920_500_png_5_80.png",
+      "Как отправить груз из Фрязино?": "/assets/images/clusters/transportnaya/file_1516273043_669673358.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт для габаритных материалов": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Экономика открытых платформ": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Габариты и грузовместимость": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Крепление груза и безопасность": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Экономическая выгода": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Области применения транспорта_img0": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Области применения транспорта_img1": "/assets/images/clusters/dlinnomer/image;s=1080x1920-2.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/005.png",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg"
+    },
+    "fura": {
+      "Полуприцепы для фрязинских грузов": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Направления доставки из наукограда": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Стоимость фрязинских перевозок": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Грузы из фрязинских предприятий": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Преимущества фрязинских перевозчиков": "/assets/images/clusters/fura/heavy_truck_1.jpg"
+    }
+  },
+  "ivanteyevka": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/image;s=960x1280.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-fura_zakaz-2000x1200.jpg",
+      "Популярные маршруты из Ивантеевки": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/25atk_1920_500_png_5_80.png",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Отправка груза из Ивантеевки": "/assets/images/clusters/transportnaya/transcomp.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/section.jpg"
+    },
+    "dlinnomer": {
+      "Логистика габаритов": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Открытые платформы выгоднее": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Характеристики техники": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Безопасность перевозок": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Финансовые показатели": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg",
+      "Использование в промышленности_img0": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Использование в промышленности_img1": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/005.png",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg"
+    },
+    "fura": {
+      "Полуприцепы для ивантеевских грузов": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Направления доставки из города": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Стоимость ивантеевских перевозок": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Грузы из ивантеевских предприятий": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Преимущества ивантеевских перевозчиков": "/assets/images/clusters/fura/heavy_truck_1.jpg"
+    }
+  },
+  "izhevsk": {
+    "mezhgorod": {
+      "Тарифы по грузоподъёмности": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg",
+      "Прозрачный расчёт": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Популярные направления из Ижевска": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg",
+      "Как оформить заказ?": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Как отправить груз из Ижевска?": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/ct_block_item_75745_2_5_image_ZpsC0Y6K.jpg"
+    },
+    "dlinnomer": {
+      "Решение для длинномерных промышленных грузов": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Преимущества открытой конструкции": "/assets/images/clusters/dlinnomer/sh.jpg",
+      "Габариты и грузовые возможности": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Крепление груза и безопасность": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Экономическая целесообразность": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Отраслевое применение транспорта": "/assets/images/clusters/dlinnomer/diploma.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/karta.png",
+      "Крупнотоннажные перевозки": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Расчёт тарифов": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Срочная и бюджетная доставка": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/GT_auto_1.jpg"
+    },
+    "fura": {
+      "Транспорт для промышленных грузов": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Направления отправки из Удмуртии": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Ценообразование на промышленные перевозки": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Факторы формирования стоимости": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Продукция ижевских заводов": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Конкурентные преимущества удмуртских перевозчиков": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg"
+    }
+  },
+  "kaluga": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg",
+      "Прозрачное ценообразование": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg",
+      "Популярные маршруты из Калуги": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Как оформить заказ?": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/image_7786938_15455522.png",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Отправка груза из Калуги": "/assets/images/clusters/transportnaya/file_1516273043_669673358.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/section.jpg"
+    },
+    "dlinnomer": {
+      "Решение для длинномерных грузов": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Преимущества открытой платформы": "/assets/images/clusters/dlinnomer/daf-shalanda-xizmati-3-1024x768.jpg",
+      "Технические параметры и вместимость": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Крепление груза и безопасность": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg",
+      "Экономическая целесообразность": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Отраслевое применение": "/assets/images/clusters/dlinnomer/images-14.jpeg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт для небольших объёмов": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Среднетоннажный транспорт": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Фуры для больших объёмов": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Расчёт стоимости": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Экспресс и бюджетные варианты": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Преимущества \"Динамики\"": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg"
+    },
+    "fura": {
+      "Особенности перевозок из автомобильного кластера": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "География доставки из области": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Тарифная политика калужских перевозчиков": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Расчёт транспортных издержек": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Что отправляют калужские предприятия": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Преимущества калужского транспортного хаба": "/assets/images/clusters/fura/2020-photo-17.jpg"
+    }
+  },
+  "kazan": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg",
+      "Популярные направления из Казани": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/транспортная компания.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg",
+      "Как отправить груз из Казани?": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/file_1516273043_669673358.jpg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт для крупногабаритных грузов": "/assets/images/clusters/dlinnomer/perevozki_dlinnomernyh_gruzov_0.jpg",
+      "Открытая платформа для металлопроката": "/assets/images/clusters/dlinnomer/image;s=1920x1080.jpg",
+      "Типоразмеры и технические характеристики": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg",
+      "Крепление и требования безопасности": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Экономическая эффективность": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Отраслевое применение": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт для компактных грузов": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Среднетоннажники для средних партий": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Крупнотоннажные перевозки фурами": "/assets/images/clusters/po-rossii/karta.png",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Экспресс-доставка и бюджетные варианты": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Что предлагает \"Динамика\"": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg"
+    },
+    "fura": {
+      "Специфика грузоперевозок из Татарстана": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Направления доставки из республики": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Тарифы на перевозки фурой": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Расчёт стоимости междугородних рейсов": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Что отправляют татарстанские компании": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Преимущества работы с казанскими перевозчиками": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg"
+    }
+  },
+  "klin": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg",
+      "Онлайн-калькулятор": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Востребованные направления из Клина": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/transportnaya-logistika-1200x696.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/25atk_1920_500_png_5_80.png",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/транспортная компания.jpg",
+      "Как отправить груз из Клина?": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Эффективность шаланды": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Параметры и вместимость": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Крепление по правилам": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Экономическая выгода": "/assets/images/clusters/dlinnomer/perevozki_dlinnomernyh_gruzov_0.jpg",
+      "Применение в экономике_img0": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_nedorogo_1.jpg",
+      "Применение в экономике_img1": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg"
+    },
+    "fura": {
+      "Транспорт для клинских грузов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Маршруты из промышленного города": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Ценообразование на клинские перевозки": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Продукция клинских предприятий": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Конкурентные преимущества клинских перевозчиков": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg"
+    }
+  },
+  "kolomna": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg",
+      "Популярные маршруты из Коломны": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/17785909.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/транспортная компания.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/13912687-tarify-na-transportnye-uslugi-chto-eto.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/section.jpg"
+    },
+    "dlinnomer": {
+      "Транспорт для габаритных грузов": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Экономика шаланды": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Размеры и вместимость": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Безопасность и крепление": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Финансовая рациональность": "/assets/images/clusters/dlinnomer/i-74.jpg",
+      "Отраслевое использование_img0": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Отраслевое использование_img1": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg"
+    },
+    "fura": {
+      "Полуприцепы для коломенских заводов": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Направления доставки из города": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Стоимость коломенских перевозок": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Номенклатура коломенской продукции": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Преимущества коломенских перевозчиков": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg"
+    }
+  },
+  "korolev": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Популярные направления из Королёва": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-fura_zakaz-2000x1200.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/ct_block_item_75745_2_5_image_ZpsC0Y6K.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg",
+      "Отправка груза из Королёва": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/13912687-tarify-na-transportnye-uslugi-chto-eto.jpg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт для габаритных материалов": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Преимущества открытой конструкции": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Габариты и грузоподъёмность": "/assets/images/clusters/dlinnomer/image;s=1920x1080.jpg",
+      "Крепление и безопасность": "/assets/images/clusters/dlinnomer/sh.jpg",
+      "Экономическая выгода": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Применение в промышленности_img0": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Применение в промышленности_img1": "/assets/images/clusters/dlinnomer/Fura_bort.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Крупнотоннажные перевозки": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Формирование тарифов": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Срочно и недорого": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg"
+    },
+    "fura": {
+      "Специализированный транспорт для наукограда": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Направления доставки из города": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Ценообразование на высокотехнологичные перевозки": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Расчёт стоимости спецперевозок": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Продукция королёвских предприятий": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Специализация королёвских перевозчиков": "/assets/images/clusters/fura/347278595891170.jpeg"
+    }
+  },
+  "krasnogorsk": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Расчёт стоимости онлайн": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg",
+      "Популярные маршруты из Красногорска": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/1-2.jpg",
+      "Отправка груза из Красногорска": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/transportnaya-logistika-1200x696.jpg"
+    },
+    "dlinnomer": {
+      "Решение для крупногабаритных грузов": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Преимущества шаланды": "/assets/images/clusters/dlinnomer/daf-shalanda-xizmati-3-1024x768.jpg",
+      "Размерные характеристики": "/assets/images/clusters/dlinnomer/15711845830678.jpeg",
+      "Крепление по стандартам": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Финансовая выгода": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Сферы использования_img0": "/assets/images/clusters/dlinnomer/image;s=1080x1920-2.jpg",
+      "Сферы использования_img1": "/assets/images/clusters/dlinnomer/perevozki_dlinnomernyh_gruzov_0.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg"
+    },
+    "fura": {
+      "Типы транспорта для красногорских грузов": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "География доставки из города": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Ценообразование на красногорские перевозки": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Расчёт стоимости доставки": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Грузы из красногорских комплексов": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Преимущества красногорских перевозчиков": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg"
+    }
+  },
+  "lobnya": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg",
+      "Расчёт стоимости": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Популярные маршруты из Лобни": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/image;s=960x1280.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/транспортная компания.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/section.jpg"
+    },
+    "dlinnomer": {
+      "Логистика длинных материалов": "/assets/images/clusters/dlinnomer/2-2.jpg",
+      "Преимущества открытых платформ": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Размеры и грузоподъёмность": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Безопасная фиксация": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Финансовая рациональность": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Отраслевое применение_img0": "/assets/images/clusters/dlinnomer/images-15.jpeg",
+      "Отраслевое применение_img1": "/assets/images/clusters/dlinnomer/15353570518231.jpeg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png"
+    },
+    "fura": {
+      "Полуприцепы для лобненских грузов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "География отправлений из города": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Стоимость лобненских перевозок": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Грузы из лобненских складов": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Преимущества лобненских перевозчиков": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg"
+    }
+  },
+  "lyubertsy": {
+    "mezhgorod": {
+      "Тарифы по грузоподъёмности": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Прозрачный расчёт": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg",
+      "Популярные направления из Люберец": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Как оформить заказ?": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/images-14.jpeg",
+      "Как отправить груз из Люберец?": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg"
+    },
+    "dlinnomer": {
+      "Логистика длинномерных материалов": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Выгоды бестентового транспорта": "/assets/images/clusters/dlinnomer/images-14.jpeg",
+      "Технические параметры": "/assets/images/clusters/dlinnomer/bortovoj-dlinnomer.jpg",
+      "Правила крепления и безопасность": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Экономическая рациональность": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Применение в экономике_img0": "/assets/images/clusters/dlinnomer/Rectangle-707-14-1024x827.png",
+      "Применение в экономике_img1": "/assets/images/clusters/dlinnomer/Fura_bort.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/karta.png",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg"
+    },
+    "fura": {
+      "Специализированный транспорт для авиапрома": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Направления отправки из города": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Стоимость люберецких перевозок": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Формирование тарифов на перевозки": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Продукция люберецких заводов": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Конкурентные преимущества люберецких перевозчиков": "/assets/images/clusters/fura/heavy_truck_1.jpg"
+    }
+  },
+  "mytishchi": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Расчёт стоимости": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg",
+      "Популярные маршруты из Мытищ": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/13912687-tarify-na-transportnye-uslugi-chto-eto.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/25atk_1920_500_png_5_80.png",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/transportnaya-logistika-1200x696.jpg"
+    },
+    "dlinnomer": {
+      "Транспортировка габаритных строительных грузов": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Экономика открытой платформы": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Размеры и вместимость": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Безопасность и фиксация": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg",
+      "Финансовая эффективность": "/assets/images/clusters/dlinnomer/image;s=1080x1920-2.jpg",
+      "Отраслевое использование_img0": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Отраслевое использование_img1": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/articlesection108section_image.png"
+    },
+    "fura": {
+      "Транспортная инфраструктура города": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Маршруты доставки из Подмосковья": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Тарифы на междугородние перевозки": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Расчёт стоимости транспортировки": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Продукция мытищинских предприятий": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Специфика мытищинской логистики": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Типы полуприцепов для разных грузов": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Организация регулярных отправок": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Документальное оформление перевозок": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Сезонные колебания спроса": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Контроль качества перевозок": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Дополнительные услуги при доставке": "/assets/images/clusters/fura/maxresdefault.jpg"
+    }
+  },
+  "naberezhnye-chelny": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/image;s=960x1280.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg",
+      "Популярные маршруты из Набережных Челнов": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/892f39f74cb4785b31faa957574.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/image_7786938_15455522.png",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/3.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/transcomp.jpg"
+    },
+    "dlinnomer": {
+      "Транспорт для габаритных промышленных грузов": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Практичность открытой платформы": "/assets/images/clusters/dlinnomer/15711845830678.jpeg",
+      "Размеры и грузовместимость": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Требования к креплению и безопасности": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Экономический эффект использования": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Сферы применения": "/assets/images/clusters/dlinnomer/2-2.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Фуры": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/005.png",
+      "Экспресс и бюджет": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Преимущества": "/assets/images/clusters/po-rossii/mapa.jpg"
+    },
+    "fura": {
+      "Специализированный транспорт для автопрома": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Маршруты из автомобильной столицы": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Стоимость автомобильных перевозок": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Калькуляция транспортных расходов": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Грузы из автомобильного гиганта": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Преимущества челнинских перевозчиков": "/assets/images/clusters/fura/maxresdefault.jpg"
+    }
+  },
+  "nizhnekamsk": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Расчёт стоимости": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Популярные направления из Нижнекамска": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/image;s=960x1280.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/транспортная компания.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/3.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/image_7786938_15455522.png",
+      "Отправка груза из Нижнекамска": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/transportnaya-logistika-1200x696.jpg"
+    },
+    "dlinnomer": {
+      "Специализированная техника для длинных грузов": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Открытая конструкция для металлопроката": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Габариты и технические возможности": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Фиксация груза и стандарты безопасности": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_nedorogo_1.jpg",
+      "Экономическая эффективность использования": "/assets/images/clusters/dlinnomer/image;s=1920x1080.jpg",
+      "Отраслевое применение транспорта": "/assets/images/clusters/dlinnomer/bortovoj-dlinnomer.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Фуры": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Расчёт стоимости": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Срочно и недорого": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Преимущества": "/assets/images/clusters/po-rossii/005.png"
+    },
+    "fura": {
+      "Транспорт для химических грузов": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Направления доставки из города": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Тарификация химических перевозок": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Расчёт стоимости рейсов": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Продукция нефтехимического комбината": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Специализация нижнекамских перевозчиков": "/assets/images/clusters/fura/maxresdefault.jpg"
+    }
+  },
+  "nizhny-novgorod": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Популярные маршруты из Нижнего Новгорода": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/13912687-tarify-na-transportnye-uslugi-chto-eto.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Как отправить груз из Нижнего Новгорода?": "/assets/images/clusters/transportnaya/transcomp.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/o-kompanii.jpg"
+    },
+    "dlinnomer": {
+      "Специализированная техника для металлопроката": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg",
+      "Преимущества открытой платформы": "/assets/images/clusters/dlinnomer/15711845830678.jpeg",
+      "Технические характеристики транспорта": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Требования к креплению и безопасность_img0": "/assets/images/clusters/dlinnomer/bortovoj-dlinnomer.jpg",
+      "Требования к креплению и безопасность_img1": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Экономическая целесообразность использования": "/assets/images/clusters/dlinnomer/2-2.jpg",
+      "Отраслевое применение специализированного транспорта_img0": "/assets/images/clusters/dlinnomer/15a2877a59d5000b0b0a85c8da5b9efb.jpeg",
+      "Отраслевое применение специализированного транспорта_img1": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg"
+    },
+    "po-rossii": {
+      "Компактный транспорт": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Среднетоннажный транспорт": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Крупнотоннажные фуры": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Срочные и экономичные варианты": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Преимущества \"Динамики\"": "/assets/images/clusters/po-rossii/005.png"
+    },
+    "fura": {
+      "Специализированный транспорт для поволжских грузов": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "География отправлений из города": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Стоимость транспортных услуг": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Факторы формирования тарифов": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Продукция нижегородских заводов": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Конкурентные преимущества нижегородских перевозчиков": "/assets/images/clusters/fura/heavy_truck_1.jpg"
+    }
+  },
+  "noginsk": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg",
+      "Расчёт стоимости": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Востребованные направления из Ногинска": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/home1-slider1.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/section.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/images-15.jpeg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/image_7786938_15455522.png"
+    },
+    "dlinnomer": {
+      "Логистика длинномерных грузов": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Преимущества открытых бортов": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_nedorogo_1.jpg",
+      "Размеры и вместимость": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Надёжное крепление": "/assets/images/clusters/dlinnomer/images-15.jpeg",
+      "Экономика перевозок": "/assets/images/clusters/dlinnomer/images-14.jpeg",
+      "Применение в промышленности_img0": "/assets/images/clusters/dlinnomer/daf-shalanda-xizmati-3-1024x768.jpg",
+      "Применение в промышленности_img1": "/assets/images/clusters/dlinnomer/sh.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/005.png",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg"
+    },
+    "fura": {
+      "Транспорт для ногинских грузов": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Маршруты из промышленного города": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Ценообразование на ногинские перевозки": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Продукция ногинских предприятий": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Конкурентные преимущества ногинских перевозчиков": "/assets/images/clusters/fura/2020-photo-17.jpg"
+    }
+  },
+  "obninsk": {
+    "mezhgorod": {
+      "Тарифы по грузоподъёмности": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg",
+      "Честные цены": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Популярные направления из Обнинска": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Почему мы?": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/images-15.jpeg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Как отправить груз из Обнинска?": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/premium.jpg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт для металла и ЖБИ": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Шаланда — эффективность открытой платформы": "/assets/images/clusters/dlinnomer/images-15.jpeg",
+      "Габариты и грузоподъёмность": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Правила крепления и безопасность": "/assets/images/clusters/dlinnomer/15711845830678.jpeg",
+      "Расчёт стоимости и выгода": "/assets/images/clusters/dlinnomer/2-2.jpg",
+      "Применение в различных отраслях": "/assets/images/clusters/dlinnomer/i-74.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Среднетоннажные машины": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/005.png",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Срочные и экономичные варианты": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Преимущества компании": "/assets/images/clusters/po-rossii/77.970.jpg"
+    },
+    "fura": {
+      "Специфика грузоперевозок из Калужской области": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Направления доставки из региона": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Тарифы на перевозки фурой": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Расчёт стоимости междугородних рейсов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Что отправляют калужские компании": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Преимущества работы с обнинскими перевозчиками": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg"
+    }
+  },
+  "odintsovo": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Расчёт стоимости": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Популярные направления из Одинцово": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/транспортная компания.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Как отправить груз из Одинцово?": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/home1-slider1.jpg"
+    },
+    "dlinnomer": {
+      "Логистика длинных материалов": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Выгоды открытого транспорта": "/assets/images/clusters/dlinnomer/i-74.jpg",
+      "Параметры и грузоподъёмность": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg",
+      "Крепление по стандартам": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Экономическая эффективность": "/assets/images/clusters/dlinnomer/bortovoj-dlinnomer.jpg",
+      "Применение в бизнесе_img0": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Применение в бизнесе_img1": "/assets/images/clusters/dlinnomer/15353570518231.jpeg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/karta.png",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg"
+    },
+    "fura": {
+      "Типы транспорта для одинцовских грузов": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "География отправлений из города": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Тарификация одинцовских перевозок": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Расчёт стоимости доставки": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Грузы из одинцовских комплексов": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Преимущества одинцовских перевозчиков": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg"
+    }
+  },
+  "orekhovo-zuevo": {
+    "mezhgorod": {
+      "Тарифы по грузоподъёмности": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg",
+      "Расчёт стоимости онлайн": "/assets/images/clusters/mezhgorod/IMG_20220719_131027_1-scaled.jpg",
+      "Востребованные направления из Орехово-Зуево": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/home1-slider1.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/dopolnytelnaja-professyonalnaja-prohramma.jpg.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Отправка груза из Орехово-Зуево": "/assets/images/clusters/transportnaya/section.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/3.jpg"
+    },
+    "dlinnomer": {
+      "Логистика габаритных материалов": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Экономика открытого транспорта": "/assets/images/clusters/dlinnomer/image;s=1920x1080.jpg",
+      "Параметры техники": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Крепление по нормам": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Экономический эффект": "/assets/images/clusters/dlinnomer/Rectangle-707-14-1024x827.png",
+      "Применение в бизнесе_img0": "/assets/images/clusters/dlinnomer/bortovoj-dlinnomer.jpg",
+      "Применение в бизнесе_img1": "/assets/images/clusters/dlinnomer/image;s=1080x1920-2.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg"
+    },
+    "fura": {
+      "Транспорт для текстильных грузов": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Направления доставки из текстильного центра": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Тарифы на орехово-зуевские перевозки": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Калькуляция транспортных расходов": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Продукция орехово-зуевских фабрик": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Конкурентные преимущества орехово-зуевских перевозчиков": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg"
+    }
+  },
+  "perm": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Онлайн-калькулятор": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg",
+      "Популярные направления из Перми": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg",
+      "Как оформить заказ?": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/transportnaya-logistika-1200x696.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/home1-slider1.jpg",
+      "Как отправить груз из Перми?": "/assets/images/clusters/transportnaya/images-15.jpeg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/1-2.jpg"
+    },
+    "dlinnomer": {
+      "Транспорт для длинномерных промышленных грузов": "/assets/images/clusters/dlinnomer/sh.jpg",
+      "Экономичность открытой платформы": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg",
+      "Габаритные характеристики и вместимость": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Безопасность перевозки и крепление_img0": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Безопасность перевозки и крепление_img1": "/assets/images/clusters/dlinnomer/bortovoj-dlinnomer.jpg",
+      "Экономическая эффективность": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg",
+      "Отраслевое применение транспорта_img0": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Отраслевое применение транспорта_img1": "/assets/images/clusters/dlinnomer/i-74.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/GT_auto_1.jpg"
+    },
+    "fura": {
+      "Транспорт для пермских грузов": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Направления доставки из Прикамья": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Тарификация уральских перевозок": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Расчёт стоимости перевозок": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Продукция прикамских заводов": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Преимущества пермских перевозчиков": "/assets/images/clusters/fura/347278595891170.jpeg"
+    }
+  },
+  "podolsk": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/17785909.jpg",
+      "Расчёт стоимости онлайн": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Востребованные направления из Подольска": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/images-14.jpeg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/1-2.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/892f39f74cb4785b31faa957574.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/транспортная компания.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg"
+    },
+    "dlinnomer": {
+      "Транспорт для габаритных промышленных грузов": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Экономичность открытой конструкции_img0": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Экономичность открытой конструкции_img1": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Технические характеристики и грузоподъёмность": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Безопасность транспортировки и крепление_img0": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg",
+      "Безопасность транспортировки и крепление_img1": "/assets/images/clusters/dlinnomer/images-14.jpeg",
+      "Экономическая эффективность услуги": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Отраслевое применение транспорта_img0": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg",
+      "Отраслевое применение транспорта_img1": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg"
+    },
+    "po-rossii": {
+      "Лёгкие грузовики": "/assets/images/clusters/po-rossii/karta.png",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Еврофуры": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Расчёт тарифов": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Срочная и экономная доставка": "/assets/images/clusters/po-rossii/005.png",
+      "Преимущества": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg"
+    },
+    "fura": {
+      "Транспорт для подольской продукции": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Маршруты из промышленного центра": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Стоимость перевозок из Подольска": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Калькуляция транспортных расходов": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Номенклатура подольских грузов": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Конкурентные преимущества подольских перевозчиков": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg"
+    }
+  },
+  "pushkino": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Онлайн-калькулятор": "/assets/images/clusters/mezhgorod/image;s=1280x960-2.jpg",
+      "Популярные маршруты из Пушкино": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/image;s=960x1280.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/file_1516273043_669673358.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/images-15.jpeg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/home1-slider1.jpg",
+      "Как отправить груз из Пушкино?": "/assets/images/clusters/transportnaya/images-14.jpeg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg"
+    },
+    "dlinnomer": {
+      "Специализированная доставка": "/assets/images/clusters/dlinnomer/15353570518231.jpeg",
+      "Эффективность открытых борт": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Размеры и грузоподъёмность": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Безопасная фиксация": "/assets/images/clusters/dlinnomer/image;s=1080x1920.jpg",
+      "Финансовая рациональность": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Сферы использования_img0": "/assets/images/clusters/dlinnomer/2-2.jpg",
+      "Сферы использования_img1": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/005.png",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/karta.png",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/mapa.jpg"
+    },
+    "fura": {
+      "Полуприцепы для пушкинских грузов": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Направления доставки из города": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Стоимость пушкинских перевозок": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Грузы из пушкинских предприятий": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Преимущества пушкинских перевозчиков": "/assets/images/clusters/fura/unnamed-2.jpg"
+    }
+  },
+  "ramenskoe": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-fura_zakaz-2000x1200.jpg",
+      "Популярные маршруты из Раменского": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/image_7786938_15455522.png",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg"
+    },
+    "dlinnomer": {
+      "Специализированная логистика": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg",
+      "Преимущества открытых платформ": "/assets/images/clusters/dlinnomer/images-15.jpeg",
+      "Технические параметры": "/assets/images/clusters/dlinnomer/15711845830678.jpeg",
+      "Безопасность перевозок": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Финансовая эффективность": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Отраслевое применение_img0": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg",
+      "Отраслевое применение_img1": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/karta.png",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png"
+    },
+    "fura": {
+      "Полуприцепы для раменских грузов": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Маршруты из промышленного центра": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Стоимость раменских перевозок": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Грузы из раменских предприятий": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Преимущества раменских перевозчиков": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg"
+    }
+  },
+  "reutov": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Расчёт стоимости онлайн": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Востребованные направления из Реутова": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg",
+      "Как заказать?": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/13912687-tarify-na-transportnye-uslugi-chto-eto.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/section.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/3.jpg"
+    },
+    "dlinnomer": {
+      "Специализированный транспорт для габаритных материалов": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Экономика открытых платформ": "/assets/images/clusters/dlinnomer/sh.jpg",
+      "Габариты и грузовместимость": "/assets/images/clusters/dlinnomer/kamaz_dlinnomer_perevozki_v_saratove_0.jpg",
+      "Крепление груза и безопасность": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_nedorogo_1.jpg",
+      "Экономическая выгода": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Области применения транспорта_img0": "/assets/images/clusters/dlinnomer/images-15.jpeg",
+      "Области применения транспорта_img1": "/assets/images/clusters/dlinnomer/images-14.jpeg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg"
+    },
+    "fura": {
+      "Транспорт для реутовских грузов": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Маршруты из промышленного города": "/assets/images/clusters/fura/heavy_truck_1.jpg",
+      "Ценообразование на реутовские перевозки": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Продукция реутовских предприятий": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Конкурентные преимущества реутовских перевозчиков": "/assets/images/clusters/fura/maxresdefault.jpg"
+    }
+  },
+  "saint-petersburg": {
+    "mezhgorod": {
+      "Тарифы по грузоподъёмности": "/assets/images/clusters/mezhgorod/1ec52051496147dfa506f2b789a21136.jpg",
+      "Расчёт стоимости онлайн": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg",
+      "Популярные направления из Санкт-Петербурга": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg",
+      "Как заказать перевозку?": "/assets/images/clusters/mezhgorod/17785909.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/transcomp.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/section.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg"
+    },
+    "dlinnomer": {
+      "Решение для длинномерных материалов": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Открытая платформа — скорость и выгода": "/assets/images/clusters/dlinnomer/images-14.jpeg",
+      "Параметры транспорта": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Крепление и безопасность": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Расчёт стоимости": "/assets/images/clusters/dlinnomer/bortovoj-dlinnomer.jpg",
+      "Применение в промышленности": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт для мелких партий": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Среднетоннажный транспорт для объёмных грузов": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Крупнотоннажные фуры для больших объёмов": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Формирование стоимости доставки": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/karta.png",
+      "Преимущества \"Динамики\"": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg"
+    },
+    "fura": {
+      "Типы транспорта для петербургских грузов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Маршруты из северной столицы": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Ценообразование на петербургские перевозки": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Калькуляция стоимости междугородних рейсов": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Грузы из петербургского порта": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Логистические преимущества петербургского узла": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg"
+    }
+  },
+  "samara": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg",
+      "Популярные направления из Самары": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Как заказать перевозку?": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/transcomp.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg",
+      "Отправка груза из Самары": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/3.jpg"
+    },
+    "dlinnomer": {
+      "Транспорт для негабаритных грузов": "/assets/images/clusters/dlinnomer/15a2877a59d5000b0b0a85c8da5b9efb.jpeg",
+      "Шаланда — практичность открытой платформы": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Параметры и вместимость": "/assets/images/clusters/dlinnomer/sh.jpg",
+      "Безопасность перевозки": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_nedorogo_1.jpg",
+      "Стоимость и рентабельность": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Сферы применения": "/assets/images/clusters/dlinnomer/15353570518231.jpeg"
+    },
+    "po-rossii": {
+      "Компактные отправления на газелях": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Средний тоннаж для объёмных грузов": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Фуры для крупных партий": "/assets/images/clusters/po-rossii/karta.png",
+      "Как формируется цена": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Срочная доставка и бюджетные решения": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Преимущества \"Динамики\"": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg"
+    },
+    "fura": {
+      "Виды полуприцепов для поволжских грузов": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Основные маршруты из областного центра": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Формирование цен на доставку": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Детализация транспортных расходов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Номенклатура грузов из Самарской области": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Конкурентные преимущества поволжских перевозчиков": "/assets/images/clusters/fura/2020-photo-17.jpg"
+    }
+  },
+  "sergiev-posad": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg",
+      "Прозрачные цены": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-fura_zakaz-2000x1200.jpg",
+      "Популярные маршруты из Сергиева Посада": "/assets/images/clusters/mezhgorod/image;s=1280x960-2.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/транспортная компания.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/3.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Как отправить груз из Сергиева Посада?": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg"
+    },
+    "dlinnomer": {
+      "Доставка протяжённых материалов": "/assets/images/clusters/dlinnomer/image;s=1920x1080.jpg",
+      "Открытые платформы выгоднее": "/assets/images/clusters/dlinnomer/i-74.jpg",
+      "Размеры и возможности": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Безопасность и стандарты": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Финансовые выгоды": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Отраслевое использование_img0": "/assets/images/clusters/dlinnomer/15353570518231.jpeg",
+      "Отраслевое использование_img1": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/005.png",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg"
+    },
+    "fura": {
+      "Полуприцепы для посадских грузов": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Направления доставки из города": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Стоимость посадских перевозок": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Грузы из посадских предприятий": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Преимущества посадских перевозчиков": "/assets/images/clusters/fura/347278595891170.jpeg"
+    }
+  },
+  "serpukhov": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Прозрачный расчёт": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg",
+      "Популярные направления из Серпухова": "/assets/images/clusters/mezhgorod/Shtorniy_polupricep_magistralnye_perevozki.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/image;s=1024x1024.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/3.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Как отправить груз?": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/transportnaya/o-kompanii.jpg"
+    },
+    "dlinnomer": {
+      "Доставка габаритных материалов": "/assets/images/clusters/dlinnomer/perevozki_dlinnomernyh_gruzov_0.jpg",
+      "Преимущества открытой платформы": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Технические данные": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Фиксация по правилам": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Экономический расчёт": "/assets/images/clusters/dlinnomer/image;s=1080x1920-2.jpg",
+      "Применение в промышленности_img0": "/assets/images/clusters/dlinnomer/image;s=2000x1500.jpg",
+      "Применение в промышленности_img1": "/assets/images/clusters/dlinnomer/15711845830678.jpeg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/karta.png",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/005.png"
+    },
+    "fura": {
+      "Транспорт для серпуховских грузов": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Маршруты из промышленного центра": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Ценообразование на серпуховские перевозки": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Продукция серпуховских предприятий": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Конкурентные преимущества серпуховских перевозчиков": "/assets/images/clusters/fura/heavy_truck_1.jpg"
+    }
+  },
+  "shchelkovo": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Онлайн-калькулятор": "/assets/images/clusters/mezhgorod/gruzoperevozki_4_tonny_foton_0.jpg",
+      "Популярные маршруты из Щёлково": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/17785909.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/transcomp.jpg",
+      "Как отправить груз из Щёлково?": "/assets/images/clusters/transportnaya/image_7786938_15455522.png",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/4M8E8D69QvKfyT7SZRcyYOVJ.jpg"
+    },
+    "dlinnomer": {
+      "Транспорт для длинномерных грузов": "/assets/images/clusters/dlinnomer/QU6yBZMwcvxI.jpg",
+      "Выгода шаланды": "/assets/images/clusters/dlinnomer/Rectangle-707-14-1024x827.png",
+      "Размеры и вместимость": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Безопасность перевозок": "/assets/images/clusters/dlinnomer/j7nrxv8f.jpg",
+      "Финансовая рациональность": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Отраслевое применение_img0": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Отраслевое применение_img1": "/assets/images/clusters/dlinnomer/sh.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Среднетоннажный сегмент": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Крупнотоннажные машины": "/assets/images/clusters/po-rossii/mapa.jpg",
+      "Формирование стоимости": "/assets/images/clusters/po-rossii/dostavka_po_vsey_rossii1-2.png",
+      "Срочно и бюджетно": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Наши преимущества": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg"
+    },
+    "fura": {
+      "Типы полуприцепов для щёлковских грузов": "/assets/images/clusters/fura/vyolfgo5rzi0yuu23hcpejp8l17pindf.jpg",
+      "География отправлений из города": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Стоимость щёлковских перевозок": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Формирование тарифов на доставку": "/assets/images/clusters/fura/f916b23424467fbc0c91abd9049e4d9a.jpg",
+      "Грузы из щёлковских складов": "/assets/images/clusters/fura/maxresdefault.jpg",
+      "Преимущества щёлковских перевозчиков": "/assets/images/clusters/fura/347278595891170.jpeg"
+    }
+  },
+  "tver": {
+    "mezhgorod": {
+      "Тарифы по тоннажу": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg",
+      "Онлайн-калькулятор": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Популярные направления из Твери": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Как оформить заказ?": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/transportnaya/o-kompanii.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Как отправить груз из Твери?": "/assets/images/clusters/transportnaya/premium.jpg",
+      "Наши преимущества": "/assets/images/clusters/transportnaya/transcomp.jpg"
+    },
+    "dlinnomer": {
+      "Транспорт для длинномерных материалов": "/assets/images/clusters/dlinnomer/daf-shalanda-xizmati-3-1024x768.jpg",
+      "Эффективность открытой платформы": "/assets/images/clusters/dlinnomer/image;s=1152x864.jpg",
+      "Параметры и грузоподъёмность": "/assets/images/clusters/dlinnomer/2-2.jpg",
+      "Крепление и безопасность перевозки": "/assets/images/clusters/dlinnomer/d3.jpg",
+      "Стоимость и экономический эффект": "/assets/images/clusters/dlinnomer/16438071035173.jpg",
+      "Применение в отраслях": "/assets/images/clusters/dlinnomer/images-14.jpeg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт для компактных партий": "/assets/images/clusters/po-rossii/karta.png",
+      "Среднетоннажные машины для объёмных грузов": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Крупнотоннажный транспорт для больших объёмов": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Формирование стоимости доставки": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Экспресс-доставка и бюджетные решения": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Преимущества работы с \"Динамикой\"": "/assets/images/clusters/po-rossii/stoimost-gruzoperevozok.jpg"
+    },
+    "fura": {
+      "Типы транспорта для верхневолжских грузов": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "География отправлений из области": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Стоимость транспортных услуг": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Номенклатура отправляемой продукции": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Конкурентные преимущества тверских перевозчиков": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg"
+    }
+  },
+  "ufa": {
+    "mezhgorod": {
+      "Тарифы и грузоподъёмность": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg",
+      "Онлайн-расчёт стоимости": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Популярные маршруты из Уфы": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-pyat_tonn.jpg",
+      "Почему выбирают нас?": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-arhangelsk-mezhgorod.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/gruzoperevozki-po-rossii-asvgruz.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/1-2.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/25atk_1920_500_png_5_80.png",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Отправка груза из Уфы": "/assets/images/clusters/transportnaya/images-14.jpeg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/ct_block_item_75745_2_5_image_ZpsC0Y6K.jpg"
+    },
+    "dlinnomer": {
+      "Специализированная техника для габаритных грузов": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Экономичность открытой платформы": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_skaniya_nedorogo_2.jpg",
+      "Размерные характеристики и вместимость": "/assets/images/clusters/dlinnomer/2-2.jpg",
+      "Требования безопасности и крепление": "/assets/images/clusters/dlinnomer/16228913199123.jpeg",
+      "Экономическая эффективность": "/assets/images/clusters/dlinnomer/sue9rcggj56vyrpav3kb30v3r61o2369.jpg",
+      "Сферы применения": "/assets/images/clusters/dlinnomer/15711845830678.jpeg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/005.png",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Формирование цены": "/assets/images/clusters/po-rossii/articlesection108section_image.png",
+      "Срочно и экономично": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/rf-gruzoperevozki_1-2.jpg"
+    },
+    "fura": {
+      "Полуприцепы для башкирских грузов": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "География отправлений из республики": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Тарифы на перевозки из Башкортостана": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Расчёт стоимости химических перевозок": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Номенклатура башкирских грузов": "/assets/images/clusters/fura/unnamed-2.jpg",
+      "Специализация уфимских перевозчиков": "/assets/images/clusters/fura/maxresdefault.jpg"
+    }
+  },
+  "yaroslavl": {
+    "mezhgorod": {
+      "Тарифы и типы транспорта": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-noyabrsk-mezgorod-1.jpg",
+      "Прозрачный расчёт цены": "/assets/images/clusters/mezhgorod/gruzoperevozki-orenburg-mezhgorod-fura_zakaz-2000x1200.jpg",
+      "Популярные маршруты из Ярославля": "/assets/images/clusters/mezhgorod/full_mdPTAlbf.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-orenburg-mezhgorod.jpg",
+      "Порядок заказа": "/assets/images/clusters/mezhgorod/gruzoperevozki-mezhgorod-gazel-tral-fura-ref-v-krasnodare-1-1M8Yc7axeCYuxPorPHTu-ZPQeCKk0nIk.jpeg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/3.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/150_1920x0_c4d.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/image_7786938_15455522.png",
+      "Отправка груза из Ярославля": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/file_1516273043_669673358.jpg"
+    },
+    "dlinnomer": {
+      "Специализированная техника для габаритных грузов": "/assets/images/clusters/dlinnomer/15711845830678.jpeg",
+      "Преимущества открытой конструкции": "/assets/images/clusters/dlinnomer/15a2877a59d5000b0b0a85c8da5b9efb.jpeg",
+      "Технические характеристики": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Безопасность и крепление": "/assets/images/clusters/dlinnomer/Fura_bort.jpg",
+      "Экономическая выгода": "/assets/images/clusters/dlinnomer/perevozki_dlinnomerom_nedorogo_1.jpg",
+      "Отраслевое применение": "/assets/images/clusters/dlinnomer/sh.jpg"
+    },
+    "po-rossii": {
+      "Малотоннажный транспорт для компактных грузов": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Среднетоннажные машины для объёмных партий": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Крупнотоннажный транспорт для больших объёмов": "/assets/images/clusters/po-rossii/s0a8fywkc0jta3yk4pcm6la2pfh5h1dz.jpg",
+      "Формирование стоимости перевозки": "/assets/images/clusters/po-rossii/77.970.jpg",
+      "Экспресс-доставка и экономичные решения": "/assets/images/clusters/po-rossii/GT_auto_1.jpg",
+      "Преимущества работы с \"Динамикой\"": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png"
+    },
+    "fura": {
+      "Полуприцепы для волжских грузов": "/assets/images/clusters/fura/8f51cc0b5908bdfd695cafb1b35a7db5.jpg",
+      "Направления отправки из области": "/assets/images/clusters/fura/hegelmann-truck-newsroom1920x1080-2-4f203f45.jpeg",
+      "Тарифы на транспортные услуги": "/assets/images/clusters/fura/347278595891170.jpeg",
+      "Формирование стоимости рейса": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Продукция ярославских предприятий": "/assets/images/clusters/fura/2020-photo-17.jpg",
+      "Преимущества ярославских перевозчиков": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg"
+    }
+  },
+  "zhukovsky": {
+    "mezhgorod": {
+      "Грузоподъёмность и тарифы": "/assets/images/clusters/mezhgorod/Depositphotos_67471675_xl-2015.jpg",
+      "Прозрачный расчёт": "/assets/images/clusters/mezhgorod/cropped-gruzoperevozki-tyumen-mezhgorod-glavnaya.jpg",
+      "Популярные направления из Жуковского": "/assets/images/clusters/mezhgorod/image;s=1280x960.jpg",
+      "Наши преимущества": "/assets/images/clusters/mezhgorod/file_1689252234_232974753.jpg",
+      "Порядок оформления": "/assets/images/clusters/mezhgorod/image;s=960x1280.jpg"
+    },
+    "transportnaya": {
+      "Услуги транспортной компании": "/assets/images/clusters/transportnaya/c5385764-76d1-489f-a2c4-34bffbde9912.jpg",
+      "Как рассчитать стоимость?": "/assets/images/clusters/transportnaya/ct_block_item_75745_651807_5_image_t8AnrjOa.jpg",
+      "Транспортные компании России": "/assets/images/clusters/transportnaya/1-2.jpg",
+      "Отправка груза из Жуковского": "/assets/images/clusters/transportnaya/transcomp.jpg",
+      "Почему клиенты выбирают нас?": "/assets/images/clusters/transportnaya/trucking-cover.jpg.jpg"
+    },
+    "dlinnomer": {
+      "Логистика протяжённых грузов": "/assets/images/clusters/dlinnomer/1601414589575.jpeg",
+      "Выгоды шаланды": "/assets/images/clusters/dlinnomer/perevozki_dlinnomernyh_gruzov_0.jpg",
+      "Технические характеристики": "/assets/images/clusters/dlinnomer/3.jpg",
+      "Надёжность и крепление": "/assets/images/clusters/dlinnomer/diploma.jpg",
+      "Экономическая эффективность": "/assets/images/clusters/dlinnomer/15a2877a59d5000b0b0a85c8da5b9efb.jpeg",
+      "Отраслевое применение_img0": "/assets/images/clusters/dlinnomer/1565764962024undefined-scaled.jpg",
+      "Отраслевое применение_img1": "/assets/images/clusters/dlinnomer/image;s=1080x1920-2.jpg"
+    },
+    "po-rossii": {
+      "Лёгкий транспорт": "/assets/images/clusters/po-rossii/Frame-1-3-1200x696-2.png",
+      "Среднетоннажники": "/assets/images/clusters/po-rossii/005.png",
+      "Крупнотоннажный транспорт": "/assets/images/clusters/po-rossii/gruzoperevozki-po-rossii-asvgruz.jpg",
+      "Расчёт цены": "/assets/images/clusters/po-rossii/20150316_00026184-1.jpg",
+      "Срочная и экономичная доставка": "/assets/images/clusters/po-rossii/TsJ7f4c5zQWBeTFjlwuj.jpeg",
+      "Преимущества работы": "/assets/images/clusters/po-rossii/articlesection108section_image.png"
+    },
+    "fura": {
+      "Транспорт для авиационных грузов": "/assets/images/clusters/fura/0b30dca34aad09cec0ad4850c9f.jpg",
+      "Маршруты из авиационного центра": "/assets/images/clusters/fura/aw0zlt2q4a71ba88l5szxv7za5dwf8pd.jpg",
+      "Ценообразование на жуковские перевозки": "/assets/images/clusters/fura/Грузоперевозки-по-России-тентовая-фура-20-тонн-Иркутск-1.jpg.jpg",
+      "Расчёт транспортных расходов": "/assets/images/clusters/fura/1453386049_trucks_daf_009-2560x1600.jpg",
+      "Продукция жуковских заводов": "/assets/images/clusters/fura/slide-1.82e8d84dd7e014108cc328e222f7a5cf-2.jpg",
+      "Конкурентные преимущества жуковских перевозчиков": "/assets/images/clusters/fura/maxresdefault.jpg"
     }
   }
 }

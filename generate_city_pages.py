@@ -51,11 +51,19 @@ def generate_city_page(city_slug, city_data, addresses, phones, template):
     html = html.replace('{{CITY_PREPOSITIONAL}}', city_data['prepositional'])
     html = html.replace('{{REGION_DATIVE}}', city_data['region_dative'])
 
+    # Замена плейсхолдеров региона
+    html = html.replace('{{REGION_NAME}}', city_data.get('region', ''))
+
     # Замена плейсхолдеров БЦ и контактов
     address_data = addresses.get(city_slug, {})
     html = html.replace('{{BC_NAME}}', address_data.get('name', ''))
     html = html.replace('{{BC_ADDRESS}}', address_data.get('street', ''))
     html = html.replace('{{BC_OFFICE}}', address_data.get('office', ''))
+
+    # Координаты и индекс для Schema.org LocalBusiness
+    html = html.replace('{{POSTAL_CODE}}', address_data.get('postalCode', ''))
+    html = html.replace('{{LATITUDE}}', str(address_data.get('latitude', 0)))
+    html = html.replace('{{LONGITUDE}}', str(address_data.get('longitude', 0)))
 
     # Замена телефона
     phone = phones.get(city_slug, '')

@@ -17,20 +17,47 @@
 
     <link rel="canonical" href="https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/">
 
-    <!-- Schema.org Organization -->
+    <!-- Schema.org LocalBusiness -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Транспортная компания Динамика",
-        "url": "https://dinamika-cargo.ru",
-        "logo": "https://dinamika-cargo.ru/assets/images/logo.png",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "{{PHONE_CITY}}",
-            "contactType": "customer service",
-            "areaServed": "RU",
-            "availableLanguage": "Russian"
+        "@type": "LocalBusiness",
+        "@id": "https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/#schema",
+        "name": "Динамика — грузоперевозки в {{CITY_PREPOSITIONAL}}",
+        "description": "Грузоперевозки в {{CITY_PREPOSITIONAL}} от ТК Динамика. Перевозка грузов от 100 кг до 24 тонн.",
+        "telephone": "{{PHONE_CITY}}",
+        "email": "kontekst-rt@yandex.ru",
+        "url": "https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/",
+        "image": "https://dinamika-cargo.ru/assets/images/logo.png",
+        "priceRange": "от 5000 ₽",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{BC_ADDRESS}}, офис {{BC_OFFICE}}",
+            "addressLocality": "{{CITY_NAME}}",
+            "addressRegion": "{{REGION_NAME}}",
+            "postalCode": "{{POSTAL_CODE}}",
+            "addressCountry": "RU"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": {{LATITUDE}},
+            "longitude": {{LONGITUDE}}
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }
+        ],
+        "parentOrganization": {
+            "@type": "Organization",
+            "@id": "https://dinamika-cargo.ru/#organization",
+            "name": "ТК Динамика",
+            "telephone": "8-800-707-29-36",
+            "email": "kontekst-rt@yandex.ru",
+            "url": "https://dinamika-cargo.ru"
         }
     }
     </script>

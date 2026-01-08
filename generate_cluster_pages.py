@@ -19,6 +19,7 @@ MAPPING_FILE = os.path.join(BASE_DIR, 'data', 'images-mapping.json')
 CITY_PHONES_FILE = os.path.join(BASE_DIR, 'data', 'city-phones.json')
 CITY_ADDRESSES_FILE = os.path.join(BASE_DIR, 'data', 'city-addresses.json')
 IMAGE_ALTS_FILE = os.path.join(BASE_DIR, 'data', 'image-alts.json')
+CITIES_FILE = os.path.join(BASE_DIR, 'data', 'cities.json')
 
 # Словарь городов: url-slug → (именительный, родительный, предложный)
 # 48 городов с SEO-текстами
@@ -277,6 +278,14 @@ def load_image_alts():
     return {}
 
 
+def load_cities_data():
+    """Загружает данные городов (регион и т.д.) из JSON файла"""
+    if os.path.exists(CITIES_FILE):
+        with open(CITIES_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
 def get_cluster_images(cluster):
     """Получает список изображений для кластера"""
     cluster_dir = os.path.join(IMAGES_DIR, cluster)
@@ -478,11 +487,15 @@ def generate_sections_html(sections, cluster, city, mapping, image_alts, city_na
     return '\n'.join(html_parts)
 
 
-def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts):
+def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data):
     """Генерирует HTML страницу для города и кластера"""
 
     # Получаем падежи города
     city_name, city_genitive, city_prepositional = CITIES.get(city_slug, (city_slug, city_slug, city_slug))
+
+    # Получаем данные города (регион и т.д.)
+    city_data = cities_data.get(city_slug, {})
+    region_name = city_data.get('region', 'Московская область')
 
     # Получаем локальный номер телефона
     local_phone = city_phones.get(city_slug, "+7-495-000-00-00")
@@ -492,13 +505,17 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
         "name": "Бизнес-центр",
         "street": "ул. Центральная, 1",
         "office": "101",
-        "postalCode": ""
+        "postalCode": "",
+        "latitude": 0,
+        "longitude": 0
     })
 
     bc_name = address_data.get("name", "Бизнес-центр")
     bc_street = address_data.get("street", "")
     bc_office = address_data.get("office", "")
     bc_postal = address_data.get("postalCode", "")
+    bc_latitude = address_data.get("latitude", 0)
+    bc_longitude = address_data.get("longitude", 0)
 
     # Полный адрес для отображения
     full_address = f"{bc_street}, офис {bc_office}"
@@ -558,6 +575,12 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
     html = html.replace('{{BC_STREET}}', bc_street)
     html = html.replace('{{FULL_ADDRESS}}', full_address)
 
+    # Плейсхолдеры для Schema.org LocalBusiness
+    html = html.replace('{{REGION_NAME}}', region_name)
+    html = html.replace('{{POSTAL_CODE}}', bc_postal)
+    html = html.replace('{{LATITUDE}}', str(bc_latitude))
+    html = html.replace('{{LONGITUDE}}', str(bc_longitude))
+
     # Генерируем блок других кластеров
     other_clusters_html = generate_other_clusters_html(cluster)
     html = html.replace('{{OTHER_CLUSTERS}}', other_clusters_html)
@@ -595,6 +618,10 @@ def main():
     image_alts = load_image_alts()
     print(f"Загружено alt-текстов: {sum(len(v) for v in image_alts.values())} (кластеров: {len(image_alts)})\n")
 
+    # Загрузка данных городов (регион)
+    cities_data = load_cities_data()
+    print(f"Загружено данных городов: {len(cities_data)}\n")
+
     # Загрузка шаблона
     template = load_template()
     print(f"Шаблон: {TEMPLATE_FILE}\n")
@@ -619,7 +646,7 @@ def main():
 
         for cluster in clusters:
             # Генерируем HTML с использованием маппинга и alt-текстов
-            html = generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts)
+            html = generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data)
 
             if not html:
                 skipped += 1
