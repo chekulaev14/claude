@@ -53,7 +53,7 @@ def load_cargo_clusters():
 
 
 def generate_cargo_clusters_html(cargo_clusters):
-    """Генерирует HTML блок с cargo-кластерами (перевозка по типам грузов)"""
+    """Генерирует HTML блок с cargo-кластерами (минималистичные теги)"""
     if not cargo_clusters:
         return ''
 
@@ -61,14 +61,10 @@ def generate_cargo_clusters_html(cargo_clusters):
     for cluster_slug, config in cargo_clusters.items():
         icon = config.get('icon', 'bi-box')
         title = config.get('title', cluster_slug)
-        description = config.get('description', '')
-        html_parts.append(f'''                <div class="col-md-6 col-lg-3">
-                    <a href="{cluster_slug}/" class="service-card">
+        html_parts.append(f'''                    <a href="{cluster_slug}/" class="cargo-tag">
                         <i class="bi {icon}"></i>
-                        <h3>{title}</h3>
-                        <p>{description}</p>
-                    </a>
-                </div>''')
+                        <span>{title}</span>
+                    </a>''')
     return '\n'.join(html_parts)
 
 

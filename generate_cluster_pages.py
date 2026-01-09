@@ -77,7 +77,7 @@ CITIES = {
     "zhukovsky": ("Жуковский", "Жуковского", "Жуковском"),
 }
 
-# Кластеры
+# Кластеры (только основные, без cargo-кластеров)
 CLUSTERS = ['mezhgorod', 'transportnaya', 'dlinnomer', 'po-rossii', 'fura']
 
 # 17 крупных городов (из generate_route_pages.py)
@@ -345,7 +345,7 @@ def load_cargo_clusters():
 
 
 def generate_cargo_clusters_html(cargo_clusters):
-    """Генерирует HTML блок с cargo-кластерами (перевозка по типам грузов)"""
+    """Генерирует HTML блок с cargo-кластерами (минималистичные теги)"""
     if not cargo_clusters:
         return ''
 
@@ -353,14 +353,10 @@ def generate_cargo_clusters_html(cargo_clusters):
     for cluster_slug, config in cargo_clusters.items():
         icon = config.get('icon', 'bi-box')
         title = config.get('title', cluster_slug)
-        description = config.get('description', '')
-        html_parts.append(f'''                <div class="col-md-6 col-lg-3">
-                    <a href="../{cluster_slug}/" class="service-card">
+        html_parts.append(f'''                    <a href="../{cluster_slug}/" class="cargo-tag">
                         <i class="bi {icon}"></i>
-                        <h3>{title}</h3>
-                        <p>{description}</p>
-                    </a>
-                </div>''')
+                        <span>{title}</span>
+                    </a>''')
     return '\n'.join(html_parts)
 
 
@@ -755,7 +751,6 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
     # Читаем и парсим MD
     with open(md_file, 'r', encoding='utf-8') as f:
         md_content = f.read()
-
     parsed = parse_markdown(md_content)
 
     if not parsed['h1']:
@@ -763,7 +758,6 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
 
     # Преобразуем H1 в именительный падеж для SEO
     h1 = parsed['h1']
-    # Заменяем "в {предложный}" на именительный без "в"
     h1 = h1.replace(f" в {city_prepositional}", f" {city_name}")
     h1 = h1.replace(f" в {city_genitive}", f" {city_name}")
     # Если города нет вообще - добавляем

@@ -1,7 +1,7 @@
 {
   "truby": {
     "title": "Перевозка труб",
-    "icon": "bi-pipe",
+    "icon": "bi-cylinder",
     "description": "Металлические, стальные, пластиковые трубы",
     "h1_template": "Перевозка труб в {{CITY_PREPOSITIONAL}}",
     "intro_template": "Доставка <strong>металлических</strong>, <strong>стальных</strong> и <strong>пластиковых труб</strong> в {{CITY_PREPOSITIONAL}}. Перевозим <strong>профильные трубы</strong>, <strong>трубы ППУ</strong>, <strong>трубы большого диаметра</strong> и <strong>длинные трубы</strong> до 12 метров.",
