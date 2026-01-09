@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{TITLE}} - ТК Динамика</title>
-    <meta name="description" content="{{META_DESCRIPTION}}">
+    <title>Перевозка труб {{CITY_NAME}} - ТК Динамика</title>
+    <meta name="description" content="Перевозка труб {{CITY_NAME}}: металлических, стальных, пластиковых, труб большого диаметра. Машина с кониками. ☎ 8-800-707-29-36">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
     <link rel="apple-touch-icon" href="/assets/images/favicon-new.png?v=4">
 
-    <link rel="canonical" href="https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/{{CLUSTER_SLUG}}/">
+    <link rel="canonical" href="https://dinamika-cargo.ru/regions/{{CITY_URL}}/truby/">
 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -36,26 +36,26 @@
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/{{CLUSTER_SLUG}}/#schema",
-        "name": "{{CLUSTER_TITLE}} {{CITY_NAME}} — ТК Динамика",
-        "description": "{{META_DESCRIPTION}}",
-        "telephone": "{{LOCAL_PHONE}}",
+        "@id": "https://dinamika-cargo.ru/regions/{{CITY_URL}}/truby/#schema",
+        "name": "Перевозка труб {{CITY_NAME}} — ТК Динамика",
+        "description": "Перевозка труб {{CITY_NAME}}: металлических, стальных, пластиковых, труб большого диаметра. Машина с кониками.",
+        "telephone": "+7-495-956-10-10",
         "email": "kontekst-rt@yandex.ru",
-        "url": "https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/{{CLUSTER_SLUG}}/",
+        "url": "https://dinamika-cargo.ru/regions/{{CITY_URL}}/truby/",
         "image": "https://dinamika-cargo.ru/assets/images/logo.png",
         "priceRange": "от 5000 ₽",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "{{FULL_ADDRESS}}",
-            "addressLocality": "{{CITY_NAME}}",
-            "addressRegion": "{{REGION_NAME}}",
-            "postalCode": "{{POSTAL_CODE}}",
+            "streetAddress": "Улица Бутлерова, 17, офис 389",
+            "addressLocality": "Москва",
+            "addressRegion": "Москва",
+            "postalCode": "117342",
             "addressCountry": "RU"
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": {{LATITUDE}},
-            "longitude": {{LONGITUDE}}
+            "latitude": 55.65015,
+            "longitude": 37.539626
         },
         "openingHoursSpecification": [
             {
@@ -98,25 +98,14 @@
                 "@type": "ListItem",
                 "position": 3,
                 "name": "{{CITY_NAME}}",
-                "item": "https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/"
+                "item": "https://dinamika-cargo.ru/regions/{{CITY_URL}}/"
             },
             {
                 "@type": "ListItem",
                 "position": 4,
-                "name": "{{CLUSTER_TITLE}}",
-                "item": "https://dinamika-cargo.ru/regions/{{CITY_SLUG}}/{{CLUSTER_SLUG}}/"
+                "name": "Перевозка труб",
+                "item": "https://dinamika-cargo.ru/regions/{{CITY_URL}}/truby/"
             }
-        ]
-    }
-    </script>
-
-    <!-- Schema.org FAQPage -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-{{FAQ_SCHEMA}}
         ]
     }
     </script>
@@ -165,25 +154,6 @@
             font-size: 14px;
             font-weight: 600;
             color: #2d3436;
-        }
-
-        /* Галерея фото */
-        .photo-gallery {
-            padding: 40px 0;
-        }
-        .photo-gallery .gallery-item {
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        .photo-gallery .gallery-item img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-        .photo-gallery .gallery-item:hover img {
-            transform: scale(1.05);
         }
 
         /* Секции контента */
@@ -286,6 +256,25 @@
             margin-bottom: 0;
         }
 
+        /* Галерея фото */
+        .photo-gallery {
+            padding: 40px 0;
+        }
+        .photo-gallery .gallery-item {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .photo-gallery .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .photo-gallery .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
         @media (max-width: 768px) {
             .advantages-icons {
                 gap: 20px;
@@ -314,8 +303,8 @@
             <ol class="breadcrumb mb-0 py-3">
                 <li class="breadcrumb-item"><a href="/">Главная</a></li>
                 <li class="breadcrumb-item"><a href="/regions/">Регионы</a></li>
-                <li class="breadcrumb-item"><a href="/regions/{{CITY_SLUG}}/">{{CITY_NAME}}</a></li>
-                <li class="breadcrumb-item active" aria-current="page">{{CLUSTER_TITLE}}</li>
+                <li class="breadcrumb-item"><a href="/regions/{{CITY_URL}}/">{{CITY_NAME}}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Перевозка труб</li>
             </ol>
         </div>
     </nav>
@@ -323,8 +312,8 @@
     <!-- Hero Section -->
     <section class="cluster-hero">
         <div class="container">
-            <h1>{{H1}}</h1>
-            <p class="cluster-intro">{{INTRO}}</p>
+            <h1>Перевозка труб в {{CITY_PREPOSITIONAL}}</h1>
+            <p class="cluster-intro">Доставка <strong>металлических</strong>, <strong>стальных</strong> и <strong>пластиковых труб</strong> в {{CITY_PREPOSITIONAL}}. Перевозим <strong>профильные трубы</strong>, <strong>трубы ППУ</strong>, <strong>трубы большого диаметра</strong> и <strong>длинные трубы</strong> до 12 метров.</p>
 
             <!-- Иконки преимуществ -->
             <div class="advantages-icons">
@@ -354,22 +343,22 @@
             <div class="row g-4">
                 <div class="col-6 col-md-3">
                     <div class="gallery-item">
-                        <img src="{{IMAGE_1}}" alt="{{IMAGE_ALT_1}}" loading="lazy">
+                        <img src="{{IMAGE_1}}" alt="перевозка труб" loading="lazy">
                     </div>
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="gallery-item">
-                        <img src="{{IMAGE_2}}" alt="{{IMAGE_ALT_2}}" loading="lazy">
+                        <img src="{{IMAGE_2}}" alt="перевозка труб большого диаметра" loading="lazy">
                     </div>
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="gallery-item">
-                        <img src="{{IMAGE_3}}" alt="{{IMAGE_ALT_3}}" loading="lazy">
+                        <img src="{{IMAGE_3}}" alt="машина с кониками для перевозки труб" loading="lazy">
                     </div>
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="gallery-item">
-                        <img src="{{IMAGE_4}}" alt="{{IMAGE_ALT_4}}" loading="lazy">
+                        <img src="{{IMAGE_4}}" alt="перевозка стальных труб" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -377,24 +366,123 @@
     </section>
 
     <!-- Основной контент -->
-{{CONTENT_SECTIONS}}
-
-    <!-- Перевозка по типам грузов -->
-    <section class="other-services py-5 bg-light">
+    <section class="content-section">
         <div class="container">
-            <h2 class="mb-4">Перевозка по типам грузов</h2>
-            <div class="row g-4">
-{{OTHER_CARGO_CLUSTERS}}
+            <h2>Как перевозим</h2>
+            <p><strong>Трубы небольшого диаметра</strong> — крепим ремнями на бортовой машине или тентованной с верхней загрузкой. Коники не нужны.</p>
+            <p><strong>Большие трубы и трубы большого диаметра</strong> — нужна <strong>машина с кониками для перевозки труб</strong>.</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2>Подбор коников по диаметру трубы</h2>
+            <div class="table-responsive">
+                <table class="cargo-table">
+                    <thead>
+                        <tr>
+                            <th>Диаметр трубы</th>
+                            <th>Высота коников</th>
+                            <th>Транспорт</th>
+                            <th>Погрузка</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>до 200 мм</td>
+                            <td>не нужны</td>
+                            <td>Бортовая, тент</td>
+                            <td>Любая</td>
+                        </tr>
+                        <tr>
+                            <td>200–500 мм</td>
+                            <td>1,5 м</td>
+                            <td>Бортовая с кониками</td>
+                            <td>Кран, манипулятор</td>
+                        </tr>
+                        <tr>
+                            <td>200–500 мм</td>
+                            <td>1,5 м</td>
+                            <td>Тент с кониками</td>
+                            <td>Только кран</td>
+                        </tr>
+                        <tr>
+                            <td>500–800 мм</td>
+                            <td>2 м</td>
+                            <td>Бортовая с кониками</td>
+                            <td>Кран, манипулятор</td>
+                        </tr>
+                        <tr>
+                            <td>500–800 мм</td>
+                            <td>2 м</td>
+                            <td>Тент с кониками</td>
+                            <td>Только кран</td>
+                        </tr>
+                        <tr>
+                            <td>от 800 мм</td>
+                            <td>2,5 м</td>
+                            <td>Бортовая с кониками</td>
+                            <td>Кран, манипулятор</td>
+                        </tr>
+                        <tr>
+                            <td>от 800 мм</td>
+                            <td>2,5 м</td>
+                            <td>Тент с кониками</td>
+                            <td>Только кран</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2>Что перевозим</h2>
+            <ul>
+                <li><strong>Стальные трубы</strong></li>
+                <li><strong>Металлические трубы</strong></li>
+                <li><strong>Профильные трубы</strong></li>
+                <li><strong>Пластиковые трубы</strong></li>
+                <li><strong>Трубы ППУ</strong> (в пенополиуретановой изоляции)</li>
+                <li><strong>Длинные трубы</strong> до 12 м</li>
+            </ul>
         </div>
     </section>
 
     <!-- Другие услуги -->
     <section class="other-services py-5">
         <div class="container">
-            <h2 class="mb-4">Другие услуги в {{CITY_NAME_PREPOSITIONAL}}</h2>
+            <h2 class="mb-4">Другие услуги в {{CITY_PREPOSITIONAL}}</h2>
             <div class="row g-4">
-{{OTHER_CLUSTERS}}
+                <div class="col-md-6 col-lg-3">
+                    <a href="../mezhgorod/" class="service-card">
+                        <i class="bi bi-signpost-2"></i>
+                        <h3>Междугородние грузоперевозки</h3>
+                        <p>Доставка по всей России: 1-20 тонн, любые маршруты</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../dlinnomer/" class="service-card">
+                        <i class="bi bi-arrows-expand"></i>
+                        <h3>Длинномеры и шаланды</h3>
+                        <p>Перевозка негабаритных и длинномерных грузов</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../po-rossii/" class="service-card">
+                        <i class="bi bi-map"></i>
+                        <h3>Грузоперевозки по России</h3>
+                        <p>Маршруты во все регионы РФ с отслеживанием</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="../fura/" class="service-card">
+                        <i class="bi bi-truck-front"></i>
+                        <h3>Перевозка фурой</h3>
+                        <p>Полные загрузки фур 5-20 тонн</p>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -404,7 +492,66 @@
         <div class="container">
             <h2 class="text-center mb-4">Часто задаваемые вопросы</h2>
             <div class="accordion" id="faqAccordion">
-{{FAQ_ITEMS}}
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Какие трубы можно перевозить?
+                        </button>
+                    </h3>
+                    <div id="faq1" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Перевозим любые: стальные, металлические, профильные, пластиковые. Длина до 12 метров, диаметр любой.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Нужны ли коники для перевозки труб?
+                        </button>
+                    </h3>
+                    <div id="faq2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Зависит от диаметра. Трубы до 200 мм — коники не нужны, крепим ремнями. От 200 мм — нужна машина с кониками.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Как происходит погрузка?
+                        </button>
+                    </h3>
+                    <div id="faq3" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Бортовая машина грузится краном или манипулятором. Тент с кониками — только краном сверху.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            Как происходит оплата?
+                        </button>
+                    </h3>
+                    <div id="faq4" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Оплата на погрузке, когда машина прибыла. Возможны варианты: 50/50 или 100% перед выгрузкой.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            Сколько времени занимает доставка?
+                        </button>
+                    </h3>
+                    <div id="faq5" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Зависит от расстояния: Москва — СПб за 1 день, Москва — Екатеринбург за 2-3 дня.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -412,37 +559,31 @@
     <!-- Контакты и карта -->
     <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="mb-4">Наш офис в {{CITY_NAME_PREPOSITIONAL}}</h2>
+            <h2 class="mb-4">Контакты</h2>
             <div class="row">
                 <div class="col-md-6 mb-4 mb-md-0">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">{{BC_NAME}}</h5>
+                            <h5 class="card-title">ТК Динамика</h5>
                             <p class="card-text">
                                 <i class="bi bi-geo-alt-fill text-primary me-2"></i>
                                 <strong>Адрес:</strong><br>
-                                {{FULL_ADDRESS}}
-                            </p>
-                            <p class="card-text">
-                                <i class="bi bi-telephone-fill text-primary me-2"></i>
-                                <strong>Телефон городской:</strong><br>
-                                <a href="tel:{{LOCAL_PHONE}}" class="text-decoration-none">{{LOCAL_PHONE}}</a>
+                                Москва, ул. Бутлерова, 17, офис 389
                             </p>
                             <p class="card-text">
                                 <i class="bi bi-telephone-fill text-primary me-2"></i>
                                 <strong>Бесплатный:</strong><br>
-                                <a href="tel:+7-800-500-03-20" class="text-decoration-none">+7-800-500-03-20</a>
+                                <a href="tel:8-800-707-29-36" class="text-decoration-none">8-800-707-29-36</a>
                             </p>
                             <p class="card-text">
                                 <i class="bi bi-phone-fill text-primary me-2"></i>
-                                <strong>Дежурный логист (MAX, Telegram):</strong><br>
+                                <strong>Мобильный:</strong><br>
                                 <a href="tel:+7-987-416-51-87" class="text-decoration-none">+7-987-416-51-87</a>
                             </p>
                             <p class="card-text">
                                 <i class="bi bi-clock-fill text-primary me-2"></i>
                                 <strong>Режим работы:</strong><br>
-                                Пн-Пт: 9:00 - 18:00<br>
-                                Сб-Вс: по договорённости
+                                Пн-Пт: 9:00 - 18:00
                             </p>
                         </div>
                     </div>
@@ -459,8 +600,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="mb-4">Любой груз, любой транспорт, любой маршрут</h2>
-                    <p class="lead mb-4">Оставляйте заявку, сделаем расчет!</p>
+                    <h2 class="mb-4">Рассчитать стоимость перевозки труб</h2>
+                    <p class="lead mb-4">Оставьте заявку — перезвоним за 5 минут</p>
                     <div style="max-width: 400px; margin: 0 auto;">
                         <form id="callbackForm" class="callback-form">
                             <div class="mb-3">
@@ -490,7 +631,7 @@
                 controls: ['zoomControl', 'fullscreenControl']
             });
 
-            var address = "{{CITY_NAME}}, {{BC_STREET}}";
+            var address = "Москва, Улица Бутлерова, 17";
             ymaps.geocode(address).then(function (res) {
                 var firstGeoObject = res.geoObjects.get(0);
                 var coords = firstGeoObject.geometry.getCoordinates();

@@ -3,9 +3,7 @@
     "title": "Перевозка труб",
     "icon": "bi-cylinder",
     "description": "Металлические, стальные, пластиковые трубы",
-    "h1_template": "Перевозка труб в {{CITY_PREPOSITIONAL}}",
-    "intro_template": "Доставка <strong>металлических</strong>, <strong>стальных</strong> и <strong>пластиковых труб</strong> в {{CITY_PREPOSITIONAL}}. Перевозим <strong>профильные трубы</strong>, <strong>трубы ППУ</strong>, <strong>трубы большого диаметра</strong> и <strong>длинные трубы</strong> до 12 метров.",
-    "content_file": "truby.html",
+    "template": "cargo-truby-template.html",
     "faq": [
       {"question": "Какие трубы можно перевозить?", "answer": "Перевозим любые: стальные, металлические, профильные, пластиковые. Длина до 12 метров, диаметр любой."},
       {"question": "Нужны ли коники для перевозки труб?", "answer": "Зависит от диаметра. Трубы до 200 мм — коники не нужны, крепим ремнями. От 200 мм — нужна машина с кониками."},

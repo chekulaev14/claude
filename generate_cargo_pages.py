@@ -18,7 +18,7 @@ import math
 
 # Базовые пути
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-TEMPLATE_FILE = os.path.join(BASE_DIR, 'templates', 'cluster-cargo-template.html')
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'regions')
 IMAGES_DIR = os.path.join(BASE_DIR, 'assets', 'images', 'clusters')
 DATA_DIR = os.path.join(BASE_DIR, 'data')
@@ -107,9 +107,6 @@ BASE_CLUSTERS = {
     }
 }
 
-# Папка с контентом для грузовых кластеров
-CARGO_CONTENT_DIR = os.path.join(BASE_DIR, 'seo-texts', 'cargo')
-
 # CARGO_CLUSTERS загружается из JSON в main()
 
 
@@ -132,31 +129,13 @@ def save_json(filepath, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def load_template():
-    """Загружает HTML шаблон"""
-    with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
+def load_template(template_name):
+    """Загружает HTML шаблон по имени файла"""
+    template_path = os.path.join(TEMPLATES_DIR, template_name)
+    with open(template_path, 'r', encoding='utf-8') as f:
         return f.read()
 
 
-def load_content_file(cluster, cargo_clusters):
-    """Загружает HTML контент для кластера из файла"""
-    cluster_config = cargo_clusters.get(cluster, {})
-    content_file = cluster_config.get('content_file')
-
-    if not content_file:
-        return ''
-
-    filepath = os.path.join(CARGO_CONTENT_DIR, content_file)
-    if os.path.exists(filepath):
-        with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read()
-            # Убираем HTML комментарии в начале файла
-            import re
-            content = re.sub(r'<!--.*?-->\s*', '', content, flags=re.DOTALL)
-            return content.strip()
-
-    print(f"  ⚠ Файл контента не найден: {filepath}")
-    return ''
 
 
 def get_cluster_images(cluster):
@@ -325,10 +304,6 @@ def generate_cargo_page(city_slug, cluster, template, cluster_config, images_map
 
     page_images = get_images_for_page(city_slug, cluster, all_images, images_mapping)
 
-    # Генерируем H1 и intro с подстановкой города
-    h1 = cluster_config['h1_template'].replace('{{CITY_PREPOSITIONAL}}', city_prepositional)
-    intro = cluster_config['intro_template'].replace('{{CITY_PREPOSITIONAL}}', city_prepositional)
-
     # Мета-теги: используем сохранённые или генерируем новые
     meta_key = f"{city_slug}/{cluster}"
     existing_meta = meta_mapping.get(meta_key, {})
@@ -364,17 +339,13 @@ def generate_cargo_page(city_slug, cluster, template, cluster_config, images_map
     html = html.replace('{{CITY_NAME}}', city_name)
     html = html.replace('{{CITY_NAME_GENITIVE}}', city_genitive)
     html = html.replace('{{CITY_NAME_PREPOSITIONAL}}', city_prepositional)
+    html = html.replace('{{CITY_PREPOSITIONAL}}', city_prepositional)
     html = html.replace('{{CITY_SLUG}}', city_slug)
+    html = html.replace('{{CITY_URL}}', city_slug)
 
     # Кластер
     html = html.replace('{{CLUSTER_SLUG}}', cluster)
     html = html.replace('{{CLUSTER_TITLE}}', cluster_config['title'])
-    html = html.replace('{{H1}}', h1)
-    html = html.replace('{{INTRO}}', intro)
-
-    # Контент — загружаем из файла
-    content_sections = load_content_file(cluster, cargo_clusters)
-    html = html.replace('{{CONTENT_SECTIONS}}', content_sections)
 
     # Изображения (4 штуки)
     for i, img in enumerate(page_images, 1):
@@ -443,10 +414,6 @@ def main():
     print(f"Адреса городов: {len(city_addresses)}")
     print(f"Данные городов: {len(cities_data)}\n")
 
-    # Загружаем шаблон
-    template = load_template()
-    print(f"Шаблон: {TEMPLATE_FILE}\n")
-
     # Определяем города и кластеры
     cities = [args.city] if args.city else list(CITIES.keys())
     if args.test:
@@ -470,6 +437,20 @@ def main():
     for cluster in clusters:
         cluster_config = cargo_clusters[cluster]
         print(f"\n--- Кластер: {cluster} ({cluster_config['title']}) ---")
+
+        # Загружаем шаблон для этого кластера
+        template_name = cluster_config.get('template')
+        if not template_name:
+            print(f"⚠ Нет шаблона для кластера {cluster} в cargo-clusters.json")
+            continue
+
+        template_path = os.path.join(TEMPLATES_DIR, template_name)
+        if not os.path.exists(template_path):
+            print(f"⚠ Шаблон {template_name} не найден")
+            continue
+
+        template = load_template(template_name)
+        print(f"Шаблон: {template_name}")
 
         # Проверяем наличие фото
         images = get_cluster_images(cluster)

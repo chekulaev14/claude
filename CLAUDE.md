@@ -40,13 +40,13 @@ SEO-тексты для кластеров в папке /seo-texts/{cluster}/
 
 ## generate_cargo_pages.py — грузовые кластеры (truby и др.)
 Генерирует страницы кластеров по типам грузов (перевозка труб, стройматериалов и т.д.)
-  - Шаблон: /templates/cluster-cargo-template.html
-  - Конфиг: /data/cargo-clusters.json (title, icon, faq, image_alts, content_file)
-  - Контент: /seo-texts/cargo/{content_file}.html
+  - Шаблоны: /templates/cargo-{cluster}-template.html (отдельный шаблон для каждого кластера!)
+  - Конфиг: /data/cargo-clusters.json (title, icon, template, faq, image_alts)
   - Фото: /assets/images/clusters/{cluster}/
   - Маппинги: /data/cargo-images-mapping.json, /data/cargo-meta-mapping.json
   - Результат: /regions/{город}/{cluster}/index.html
   - Флаги: --test (1 город), --city X, --cluster Y
+  - Плейсхолдеры в шаблоне: {{CITY_NAME}}, {{CITY_PREPOSITIONAL}}, {{CITY_URL}}, {{IMAGE_1-4}}, {{IMAGE_ALT_1-4}}, {{FAQ_ITEMS}}, {{FAQ_SCHEMA}}
 
 ## generate_city_pages.py — главные страницы городов
 Генерирует /regions/{город}/index.html
