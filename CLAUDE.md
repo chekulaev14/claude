@@ -11,8 +11,6 @@
 Читай PRD.md для понимания общей концепции проекта и отчитывайся что прочитал
 Читай tasks.md для понимания стратегических задач, каждый раз отчитывайся что прочитал и пиши весь список задач
 Читай strategy.md - SEO-стратегия контента (index + кластеры)
-Читай clustery.md - семантическое ядро (5 кластеров, 89 фраз)
-Читай seo-structure.md - полная структура городов (48) и маршрутов (272) 
 После каждого действия, спрашивай закоммитить или нет. Если да, то делай коммит и пуш
 После выполнения каждой задачи отчет об использовании MCP отчет в чем была проблема и как ты ее решил
 Производи мониторинг ответов в терминале на твои запросы, если есть ошибки, то анализируй их и пиши в конце действия в отчете что за ошибка и почему. Будем принимать решение о вписании некоторых ошибок в этот файл, чтобы в будущем их избежать.
@@ -31,12 +29,36 @@ SEO-тексты для кластеров в папке /seo-texts/{cluster}/
 При перемещении блоков кода лучше использовать два отдельных Edit вместо одного MultiEdit, чтобы избежать конфликтов строк.
 
 # Скрипты генерации страниц
-generate_mezhgorod_pages.py - генерирует страницы кластера "межгород" из шаблона + MD файлов
-  - Шаблон: /templates/cluster-mezhgorod.html (плейсхолдеры: {{TITLE}}, {{H1}}, {{INTRO}}, {{SECTIONS}}, {{CTA_TEXT}}, {{CITY_NAME}}, {{CITY_URL}})
-  - SEO-тексты: /seo-texts/mezhgorod/mezhgorod-{город}.md
-  - Фото: /assets/images/clusters/mezhgorod/ (24 шт, выбираются случайно)
-  - Результат: /regions/{город}/mezhgorod/index.html
-  - Запуск: python3 generate_mezhgorod_pages.py [--test] [--city X]
+
+## generate_cluster_pages.py — основные кластеры (5 шт)
+Генерирует страницы кластеров: mezhgorod, transportnaya, dlinnomer, po-rossii, fura
+  - Шаблон: /templates/cluster-template.html
+  - SEO-тексты: /seo-texts/{cluster}/{cluster}-{город}.md
+  - Фото: /assets/images/clusters/{cluster}/
+  - Результат: /regions/{город}/{cluster}/index.html
+  - Флаги: --test (1 город), --city X (конкретный город), --cluster Y (конкретный кластер)
+
+## generate_cargo_pages.py — грузовые кластеры (truby и др.)
+Генерирует страницы кластеров по типам грузов (перевозка труб, стройматериалов и т.д.)
+  - Шаблон: /templates/cluster-cargo-template.html
+  - Конфиг: /data/cargo-clusters.json (title, icon, faq, image_alts, content_file)
+  - Контент: /seo-texts/cargo/{content_file}.html
+  - Фото: /assets/images/clusters/{cluster}/
+  - Маппинги: /data/cargo-images-mapping.json, /data/cargo-meta-mapping.json
+  - Результат: /regions/{город}/{cluster}/index.html
+  - Флаги: --test (1 город), --city X, --cluster Y
+
+## generate_city_pages.py — главные страницы городов
+Генерирует /regions/{город}/index.html
+  - Шаблон: /templates/city-index-template.html
+  - Данные: /data/cities.json, /data/city-addresses.json, /data/city-phones.json
+  - Cargo-кластеры: /data/cargo-clusters.json (выводятся как теги)
+  - Флаги: --city X (конкретный город)
+
+## generate_route_pages.py — страницы маршрутов (1264 шт)
+  - Шаблон: /templates/route-template.html
+  - Результат: /routes/{откуда}-{куда}/index.html
+  - Флаги: --test (ограниченная генерация)
 
 # Git и деплой
 Сайт выложен на Github Pages и деплоится с ветки main-secure (НЕ main!)

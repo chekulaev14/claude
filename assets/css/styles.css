@@ -2335,3 +2335,58 @@ html {
         margin-right: 8px;
     }
 }
+
+/* ==========================================
+   Cargo Table (стилизованная таблица)
+   ========================================== */
+
+.cargo-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.cargo-table thead th {
+    background: #2c5aa0;
+    color: white;
+    padding: 16px 20px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.cargo-table tbody tr {
+    transition: background 0.2s ease;
+}
+
+.cargo-table tbody tr:nth-child(odd) {
+    background: #f8f9fa !important;
+}
+
+.cargo-table tbody tr:nth-child(even) {
+    background: white !important;
+}
+
+.cargo-table tbody tr:hover {
+    background: #e8f0fd;
+}
+
+.cargo-table td {
+    padding: 14px 20px;
+    border-bottom: 1px solid #e9ecef;
+    font-size: 15px;
+}
+
+.cargo-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .cargo-table thead th,
+    .cargo-table td {
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+}
