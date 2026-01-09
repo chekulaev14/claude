@@ -2149,6 +2149,39 @@ html {
 }
 
 /* ==========================================
+   Стили для cargo-кластеров (truby и др.)
+   ========================================== */
+
+.cluster-hero {
+    padding: 20px 0 40px;
+    background: #fff;
+}
+
+.cluster-hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2d3436;
+    margin-bottom: 20px;
+}
+
+.cluster-intro {
+    font-size: 18px;
+    color: #636e72;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .cluster-hero {
+        padding: 15px 0 30px;
+    }
+
+    .cluster-hero h1 {
+        font-size: 28px;
+    }
+}
+
+/* ==========================================
    Стили для таблицы маршрутов и цен
    ========================================== */
 
@@ -2309,6 +2342,18 @@ html {
     background: #2c5aa0;
     color: white;
     text-decoration: none;
+}
+
+.cargo-tag.disabled {
+    cursor: default;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.cargo-tag.disabled:hover {
+    border-color: #e9ecef;
+    background: white;
+    color: #333;
 }
 
 .cargo-tag i {

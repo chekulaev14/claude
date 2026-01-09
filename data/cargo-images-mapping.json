@@ -4,5 +4,287 @@
     "/assets/images/clusters/truby/50.webp",
     "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp",
     "/assets/images/clusters/truby/6d2b426b57c21a4ec3eae259af03b0bede15dee2.webp"
+  ],
+  "chekhov/truby": [
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp",
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp",
+    "/assets/images/clusters/truby/1200x686.webp"
+  ],
+  "chelyabinsk/truby": [
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/1200x686.webp",
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp"
+  ],
+  "dmitrov/truby": [
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp"
+  ],
+  "dolgoprudny/truby": [
+    "/assets/images/clusters/truby/9o02z86fa34l78gttocap5zut5h0bhzg.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/1200x686.webp"
+  ],
+  "domodedovo/truby": [
+    "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp",
+    "/assets/images/clusters/truby/trubovoz343.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/1200x686.webp"
+  ],
+  "dubna/truby": [
+    "/assets/images/clusters/truby/trubovoz343.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp",
+    "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp"
+  ],
+  "dzerzhinsky/truby": [
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp",
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/50.webp"
+  ],
+  "egoryevsk/truby": [
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/1200x686.webp"
+  ],
+  "ekaterinburg/truby": [
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/6d2b426b57c21a4ec3eae259af03b0bede15dee2.webp",
+    "/assets/images/clusters/truby/50.webp"
+  ],
+  "elektrostal/truby": [
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp"
+  ],
+  "fryazino/truby": [
+    "/assets/images/clusters/truby/truby-img-3.webp",
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp",
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/9o02z86fa34l78gttocap5zut5h0bhzg.webp"
+  ],
+  "ivanteyevka/truby": [
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp",
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp"
+  ],
+  "izhevsk/truby": [
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/6d2b426b57c21a4ec3eae259af03b0bede15dee2.webp",
+    "/assets/images/clusters/truby/9o02z86fa34l78gttocap5zut5h0bhzg.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp"
+  ],
+  "kaluga/truby": [
+    "/assets/images/clusters/truby/9o02z86fa34l78gttocap5zut5h0bhzg.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/6d2b426b57c21a4ec3eae259af03b0bede15dee2.webp"
+  ],
+  "kazan/truby": [
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp",
+    "/assets/images/clusters/truby/truby-img-3.webp",
+    "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp",
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp"
+  ],
+  "khimki/truby": [
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp",
+    "/assets/images/clusters/truby/50.webp"
+  ],
+  "klin/truby": [
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp",
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp"
+  ],
+  "kolomna/truby": [
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp",
+    "/assets/images/clusters/truby/6d2b426b57c21a4ec3eae259af03b0bede15dee2.webp"
+  ],
+  "korolev/truby": [
+    "/assets/images/clusters/truby/1200x686.webp",
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/truby-pnd.webp"
+  ],
+  "krasnogorsk/truby": [
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp"
+  ],
+  "lobnya/truby": [
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp"
+  ],
+  "lyubertsy/truby": [
+    "/assets/images/clusters/truby/1200x686.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp",
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp",
+    "/assets/images/clusters/truby/truby-img-3.webp"
+  ],
+  "moskva/truby": [
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp",
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp"
+  ],
+  "mytishchi/truby": [
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/6d2b426b57c21a4ec3eae259af03b0bede15dee2.webp",
+    "/assets/images/clusters/truby/07325e24c064921ad67df85d8a408e60.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp"
+  ],
+  "naberezhnye-chelny/truby": [
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/07325e24c064921ad67df85d8a408e60.webp",
+    "/assets/images/clusters/truby/truby-img-2.webp"
+  ],
+  "nizhnekamsk/truby": [
+    "/assets/images/clusters/truby/truby-img-2.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/image1.webp"
+  ],
+  "nizhny-novgorod/truby": [
+    "/assets/images/clusters/truby/50.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/1200x686.webp",
+    "/assets/images/clusters/truby/6d2b426b57c21a4ec3eae259af03b0bede15dee2.webp"
+  ],
+  "noginsk/truby": [
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/1200x686.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp"
+  ],
+  "obninsk/truby": [
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/trubovoz343.webp",
+    "/assets/images/clusters/truby/9o02z86fa34l78gttocap5zut5h0bhzg.webp",
+    "/assets/images/clusters/truby/07325e24c064921ad67df85d8a408e60.webp"
+  ],
+  "odintsovo/truby": [
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/50.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/image1.webp"
+  ],
+  "orekhovo-zuevo/truby": [
+    "/assets/images/clusters/truby/1200x686.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/truby-img-2.webp"
+  ],
+  "perm/truby": [
+    "/assets/images/clusters/truby/1200x686.webp",
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp"
+  ],
+  "podolsk/truby": [
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp",
+    "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp",
+    "/assets/images/clusters/truby/truby-img-3.webp",
+    "/assets/images/clusters/truby/truby-img-2.webp"
+  ],
+  "pushkino/truby": [
+    "/assets/images/clusters/truby/3-large-pipes-on-transportation.webp",
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp"
+  ],
+  "ramenskoe/truby": [
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/50.webp",
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp"
+  ],
+  "reutov/truby": [
+    "/assets/images/clusters/truby/50.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/7bc20c22fe0adbf39c207d904662a.webp"
+  ],
+  "saint-petersburg/truby": [
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp",
+    "/assets/images/clusters/truby/9o02z86fa34l78gttocap5zut5h0bhzg.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/trubovoz343.webp"
+  ],
+  "samara/truby": [
+    "/assets/images/clusters/truby/6d2b426b57c21a4ec3eae259af03b0bede15dee2.webp",
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/truby-img-2.webp"
+  ],
+  "sergiev-posad/truby": [
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/truby-img-3.webp",
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp"
+  ],
+  "serpukhov/truby": [
+    "/assets/images/clusters/truby/9o02z86fa34l78gttocap5zut5h0bhzg.webp",
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp",
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/truby-img-3.webp"
+  ],
+  "shchelkovo/truby": [
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/trubovoz343.webp",
+    "/assets/images/clusters/truby/perevozka-trub-n-bestyah-nezhdaninka-1.webp",
+    "/assets/images/clusters/truby/truby-img-3.webp"
+  ],
+  "tula/truby": [
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/07325e24c064921ad67df85d8a408e60.webp",
+    "/assets/images/clusters/truby/truby-img-3.webp"
+  ],
+  "tver/truby": [
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/50.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp",
+    "/assets/images/clusters/truby/9o02z86fa34l78gttocap5zut5h0bhzg.webp"
+  ],
+  "ufa/truby": [
+    "/assets/images/clusters/truby/truby-img-2.webp",
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/truby-img-3.webp"
+  ],
+  "voskresensk/truby": [
+    "/assets/images/clusters/truby/50.webp",
+    "/assets/images/clusters/truby/image1.webp",
+    "/assets/images/clusters/truby/trubovoz343.webp",
+    "/assets/images/clusters/truby/b697928cf516fe3adcf6ec885390cc21517c654d.webp"
+  ],
+  "yaroslavl/truby": [
+    "/assets/images/clusters/truby/zagruzka-tvel-ecopex-pogruzchikom.webp",
+    "/assets/images/clusters/truby/dsc06793.webp",
+    "/assets/images/clusters/truby/truby-pnd.webp",
+    "/assets/images/clusters/truby/truby-optimized.webp"
+  ],
+  "zhukovsky/truby": [
+    "/assets/images/clusters/truby/1200x686.webp",
+    "/assets/images/clusters/truby/truby-img-3.webp",
+    "/assets/images/clusters/truby/truby-optimized.webp",
+    "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp"
   ]
 }

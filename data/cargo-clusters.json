@@ -1,9 +1,10 @@
 {
   "truby": {
-    "title": "Перевозка труб",
-    "icon": "bi-cylinder",
+    "title": "Трубы",
+    "icon": "bi-circle",
     "description": "Металлические, стальные, пластиковые трубы",
     "template": "cargo-truby-template.html",
+    "enabled": true,
     "faq": [
       {"question": "Какие трубы можно перевозить?", "answer": "Перевозим любые: стальные, металлические, профильные, пластиковые. Длина до 12 метров, диаметр любой."},
       {"question": "Нужны ли коники для перевозки труб?", "answer": "Зависит от диаметра. Трубы до 200 мм — коники не нужны, крепим ремнями. От 200 мм — нужна машина с кониками."},
@@ -17,5 +18,80 @@
       "машина с кониками для перевозки труб",
       "перевозка стальных труб"
     ]
+  },
+  "armatura": {
+    "title": "Арматура",
+    "icon": "bi-grip-vertical",
+    "description": "Строительная арматура, металлопрокат"
+  },
+  "zhbi": {
+    "title": "ЖБИ",
+    "icon": "bi-bricks",
+    "description": "Железобетонные изделия, плиты, блоки"
+  },
+  "bytovki": {
+    "title": "Бытовки",
+    "icon": "bi-house",
+    "description": "Строительные и жилые бытовки"
+  },
+  "gazgoldery": {
+    "title": "Газгольдеры",
+    "icon": "bi-droplet-half",
+    "description": "Ёмкости для хранения газа"
+  },
+  "emkosti": {
+    "title": "Ёмкости",
+    "icon": "bi-bucket",
+    "description": "Резервуары, баки, цистерны"
+  },
+  "pilomaterialy": {
+    "title": "Пиломатериалы",
+    "icon": "bi-tree",
+    "description": "Доски, брус, пиломатериалы"
+  },
+  "vodnyj-transport": {
+    "title": "Водный транспорт",
+    "icon": "bi-water",
+    "description": "Лодки, катера, яхты"
+  },
+  "lep": {
+    "title": "ЛЭП",
+    "icon": "bi-lightning-charge",
+    "description": "Линии электропередач, опоры"
+  },
+  "mebel": {
+    "title": "Мебель",
+    "icon": "bi-lamp",
+    "description": "Офисная и домашняя мебель"
+  },
+  "metallokonstruktsii": {
+    "title": "Металлоконструкции",
+    "icon": "bi-building",
+    "description": "Фермы, балки, каркасы"
+  },
+  "negabaritnye-gruzy": {
+    "title": "Негабаритные грузы",
+    "icon": "bi-arrows-fullscreen",
+    "description": "Крупногабаритные и тяжёлые грузы"
+  },
+  "promyshlennoe-oborudovanie": {
+    "title": "Промышленное оборудование",
+    "icon": "bi-gear-wide-connected",
+    "description": "Станки, линии, агрегаты"
+  },
+  "opasnye-gruzy": {
+    "title": "Опасные грузы",
+    "icon": "bi-exclamation-triangle",
+    "description": "ADR-перевозки, класс опасности 1-9"
+  },
+  "sbornye-gruzy": {
+    "title": "Сборные грузы",
+    "icon": "bi-boxes",
+    "description": "Догруз, мелкие партии"
+  },
+  "poputnye-gruzy": {
+    "title": "Попутные грузы",
+    "icon": "bi-truck",
+    "description": "Попутная доставка, экономия"
   }
 }

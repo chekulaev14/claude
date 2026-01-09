@@ -239,24 +239,31 @@ def generate_other_clusters_html(current_cluster):
 
 
 def generate_other_cargo_clusters_html(current_cluster, cargo_clusters):
-    """Генерирует HTML блок с другими грузовыми кластерами для перелинковки"""
+    """Генерирует HTML блок с другими грузовыми кластерами (минималистичные теги)
+    Кликабельны только кластеры с enabled: true в JSON
+    """
     html_parts = []
     for cluster, config in cargo_clusters.items():
         if cluster == current_cluster:
             continue  # Пропускаем текущий кластер
         icon = config.get('icon', 'bi-box')
-        html_parts.append(f'''                <div class="col-md-6 col-lg-3">
-                    <a href="../{cluster}/" class="service-card">
+        title = config.get('title', cluster)
+        if config.get('enabled', False):
+            # Кликабельная ссылка
+            html_parts.append(f'''                    <a href="../{cluster}/" class="cargo-tag">
                         <i class="bi {icon}"></i>
-                        <h3>{config['title']}</h3>
-                    </a>
-                </div>''')
+                        <span>{title}</span>
+                    </a>''')
+        else:
+            # Некликабельный тег
+            html_parts.append(f'''                    <span class="cargo-tag disabled">
+                        <i class="bi {icon}"></i>
+                        <span>{title}</span>
+                    </span>''')
 
     # Если нет других cargo-кластеров — возвращаем заглушку
     if not html_parts:
-        return '''                <div class="col-12">
-                    <p class="text-muted">Скоро здесь появятся другие типы грузов</p>
-                </div>'''
+        return '''                    <p class="text-muted">Скоро здесь появятся другие типы грузов</p>'''
 
     return '\n'.join(html_parts)
 

@@ -345,7 +345,9 @@ def load_cargo_clusters():
 
 
 def generate_cargo_clusters_html(cargo_clusters):
-    """Генерирует HTML блок с cargo-кластерами (минималистичные теги)"""
+    """Генерирует HTML блок с cargo-кластерами (минималистичные теги)
+    Кликабельны только кластеры с enabled: true в JSON
+    """
     if not cargo_clusters:
         return ''
 
@@ -353,10 +355,18 @@ def generate_cargo_clusters_html(cargo_clusters):
     for cluster_slug, config in cargo_clusters.items():
         icon = config.get('icon', 'bi-box')
         title = config.get('title', cluster_slug)
-        html_parts.append(f'''                    <a href="../{cluster_slug}/" class="cargo-tag">
+        if config.get('enabled', False):
+            # Кликабельная ссылка
+            html_parts.append(f'''                    <a href="../{cluster_slug}/" class="cargo-tag">
                         <i class="bi {icon}"></i>
                         <span>{title}</span>
                     </a>''')
+        else:
+            # Некликабельный тег
+            html_parts.append(f'''                    <span class="cargo-tag disabled">
+                        <i class="bi {icon}"></i>
+                        <span>{title}</span>
+                    </span>''')
     return '\n'.join(html_parts)
 
 

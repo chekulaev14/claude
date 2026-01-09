@@ -16,7 +16,16 @@ def main():
     # Региональные страницы
     for root, dirs, files in os.walk("regions"):
         dirs[:] = [d for d in dirs if not d.startswith('.')]
-        
+
+        for file in files:
+            if file == "index.html":
+                url_path = root.replace("\\", "/") + "/"
+                urls.append(url_path)
+
+    # Страницы маршрутов
+    for root, dirs, files in os.walk("routes"):
+        dirs[:] = [d for d in dirs if not d.startswith('.')]
+
         for file in files:
             if file == "index.html":
                 url_path = root.replace("\\", "/") + "/"
