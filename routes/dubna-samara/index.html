@@ -338,78 +338,6 @@
             line-height: 1.8;
         }
 
-        /* Контакты */
-        .contacts-section {
-            padding: 60px 0;
-        }
-        .contacts-section h2 {
-            margin-bottom: 1.5rem;
-        }
-        .contact-card {
-            background: white;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-            height: 100%;
-        }
-        .contact-card h5 {
-            font-weight: 600;
-            margin-bottom: 20px;
-            color: #2d3436;
-        }
-        .contact-card p {
-            margin-bottom: 12px;
-        }
-        .contact-card i {
-            color: #2563eb;
-            margin-right: 10px;
-        }
-        .contact-card a {
-            color: #2563eb;
-            text-decoration: none;
-        }
-        .contact-card a:hover {
-            text-decoration: underline;
-        }
-
-        /* CTA */
-        .cta-section {
-            background: #2563eb;
-            color: white;
-            padding: 60px 0;
-            text-align: center;
-        }
-        .cta-section h2 {
-            margin-bottom: 1rem;
-        }
-        .cta-section p {
-            opacity: 0.9;
-            margin-bottom: 2rem;
-        }
-        .cta-form {
-            max-width: 400px;
-            margin: 0 auto;
-        }
-        .cta-form input {
-            padding: 14px 20px;
-            font-size: 1rem;
-            border: none;
-            border-radius: 8px;
-            margin-bottom: 12px;
-        }
-        .cta-form button {
-            background: white;
-            color: #2563eb;
-            font-weight: 600;
-            padding: 14px 32px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-        .cta-form button:hover {
-            transform: translateY(-2px);
-        }
 
         @media (max-width: 768px) {
             .route-hero h1 {
@@ -625,37 +553,69 @@
         </div>
     </section>
 
-    <!-- Контакты -->
-    <section class="contacts-section">
+    <!-- Контакты и карта -->
+    <section class="py-5 bg-light">
         <div class="container">
-            <h2>Наш офис в Дубне</h2>
+            <h2 class="mb-4">Наш офис в Дубне</h2>
             <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="contact-card">
-                        <h5>БЦ Сервис-экспорт</h5>
-                        <p><i class="bi bi-geo-alt-fill"></i><strong>Адрес:</strong> Проспект Боголюбова, 26, офис 314</p>
-                        <p><i class="bi bi-telephone-fill"></i><strong>Телефон:</strong> <a href="tel:+7-496-658-57-75">+7-496-658-57-75</a></p>
-                        <p><i class="bi bi-telephone-fill"></i><strong>Бесплатный:</strong> <a href="tel:+78007072936">8-800-707-29-36</a></p>
-                        <p><i class="bi bi-clock-fill"></i><strong>Режим работы:</strong> Пн-Пт: 9:00-18:00</p>
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">БЦ Сервис-экспорт</h5>
+                            <p class="card-text">
+                                <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                                <strong>Адрес:</strong><br>
+                                Проспект Боголюбова, 26, офис 314
+                            </p>
+                            <p class="card-text">
+                                <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                <strong>Телефон городской:</strong><br>
+                                <a href="tel:+7-496-658-57-75" class="text-decoration-none">+7-496-658-57-75</a>
+                            </p>
+                            <p class="card-text">
+                                <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                <strong>Бесплатный:</strong><br>
+                                <a href="tel:+7-800-500-03-20" class="text-decoration-none">+7-800-500-03-20</a>
+                            </p>
+                            <p class="card-text">
+                                <i class="bi bi-phone-fill text-primary me-2"></i>
+                                <strong>Дежурный логист (MAX, Telegram):</strong><br>
+                                <a href="tel:+7-987-416-51-87" class="text-decoration-none">+7-987-416-51-87</a>
+                            </p>
+                            <p class="card-text">
+                                <i class="bi bi-clock-fill text-primary me-2"></i>
+                                <strong>Режим работы:</strong><br>
+                                Пн-Пт: 9:00 - 18:00<br>
+                                Сб-Вс: по договорённости
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <div id="officeMap" style="width: 100%; height: 300px; border-radius: 12px;"></div>
+                <div class="col-md-6">
+                    <div id="officeMap" style="width: 100%; height: 400px; border-radius: 8px;"></div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="cta-section">
+    <section class="py-5 bg-primary text-white">
         <div class="container">
-            <h2>Заказать перевозку Дубна — Самара</h2>
-            <p>Оставьте заявку — рассчитаем стоимость за 5 минут</p>
-            <div class="cta-form">
-                <form id="routeCallbackForm">
-                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="+7 (___) ___-__-__" value="+7 " required>
-                    <button type="submit"><i class="bi bi-telephone-fill me-2"></i>Позвоните мне</button>
-                </form>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Заказать перевозку Дубна — Самара</h2>
+                    <p class="lead mb-4">Оставьте заявку — рассчитаем стоимость за 5 минут</p>
+                    <div style="max-width: 400px; margin: 0 auto;">
+                        <form id="callbackForm" class="callback-form">
+                            <div class="mb-3">
+                                <input type="tel" id="phone" name="phone" class="form-control form-control-lg" placeholder="+7 (___) ___-__-__" value="+7 " required>
+                            </div>
+                            <button type="submit" class="btn btn-light btn-lg w-100">
+                                <i class="bi bi-telephone-fill me-2"></i>Позвоните мне
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

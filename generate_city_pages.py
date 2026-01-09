@@ -11,6 +11,7 @@
 import json
 import os
 import sys
+import re
 
 # Пути
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -19,6 +20,7 @@ ADDRESSES_FILE = os.path.join(BASE_DIR, 'data', 'city-addresses.json')
 PHONES_FILE = os.path.join(BASE_DIR, 'data', 'city-phones.json')
 TEMPLATE_FILE = os.path.join(BASE_DIR, 'templates', 'city-index-template.html')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'regions')
+META_MAPPING_FILE = os.path.join(BASE_DIR, 'data', 'cities-meta-mapping.json')
 
 def load_cities():
     """Загружает данные городов из JSON"""
@@ -40,13 +42,80 @@ def load_template():
     with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
         return f.read()
 
-def generate_city_page(city_slug, city_data, addresses, phones, template):
-    """Генерирует HTML страницу для города"""
+
+def load_meta_mapping():
+    """Загружает маппинг мета-тегов (если существует)"""
+    if os.path.exists(META_MAPPING_FILE):
+        with open(META_MAPPING_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def save_meta_mapping(mapping):
+    """Сохраняет маппинг мета-тегов"""
+    with open(META_MAPPING_FILE, 'w', encoding='utf-8') as f:
+        json.dump(mapping, f, ensure_ascii=False, indent=2)
+
+
+def extract_meta_from_html(html_content):
+    """Извлекает мета-теги из существующего HTML"""
+    meta = {}
+
+    title_match = re.search(r'<title>([^<]+)</title>', html_content)
+    if title_match:
+        meta['title'] = title_match.group(1)
+
+    desc_match = re.search(r'<meta name="description" content="([^"]+)"', html_content)
+    if desc_match:
+        meta['description'] = desc_match.group(1)
+
+    canonical_match = re.search(r'<link rel="canonical" href="([^"]+)"', html_content)
+    if canonical_match:
+        meta['canonical'] = canonical_match.group(1)
+
+    return meta
+
+
+def get_existing_meta(city_slug, meta_mapping):
+    """Получает сохранённые мета-теги для города"""
+    if city_slug in meta_mapping:
+        return meta_mapping[city_slug]
+
+    existing_file = os.path.join(OUTPUT_DIR, city_slug, 'index.html')
+    if os.path.exists(existing_file):
+        with open(existing_file, 'r', encoding='utf-8') as f:
+            html = f.read()
+        return extract_meta_from_html(html)
+
+    return None
+
+
+def generate_city_page(city_slug, city_data, addresses, phones, template, existing_meta=None):
+    """Генерирует HTML страницу для города. Если existing_meta передан, использует сохранённые мета-теги."""
+    city_name = city_data['name']
+
+    # Мета-теги: используем сохранённые или генерируем новые
+    if existing_meta and 'title' in existing_meta:
+        meta_title = existing_meta['title']
+    else:
+        meta_title = f"Грузоперевозки {city_name} — ТК Динамика | Доставка грузов по России"
+
+    if existing_meta and 'description' in existing_meta:
+        meta_description = existing_meta['description']
+    else:
+        meta_description = f"Грузоперевозки в {city_data['prepositional']}. Междугородние перевозки, транспортные услуги, длинномеры, фуры. Доставка по России от 1 до 20 тонн. ☎ 8-800-707-29-36"
+
+    meta_canonical = f"https://dinamika-cargo.ru/regions/{city_slug}/"
+
     html = template
+
+    # Мета-теги (заменяем сгенерированные шаблоном на сохранённые/новые)
+    html = re.sub(r'<title>[^<]+</title>', f'<title>{meta_title}</title>', html)
+    html = re.sub(r'<meta name="description" content="[^"]+"', f'<meta name="description" content="{meta_description}"', html)
 
     # Замена плейсхолдеров города
     html = html.replace('{{CITY_SLUG}}', city_slug)
-    html = html.replace('{{CITY_NAME}}', city_data['name'])
+    html = html.replace('{{CITY_NAME}}', city_name)
     html = html.replace('{{CITY_GENITIVE}}', city_data['genitive'])
     html = html.replace('{{CITY_PREPOSITIONAL}}', city_data['prepositional'])
     html = html.replace('{{REGION_DATIVE}}', city_data['region_dative'])
@@ -69,7 +138,14 @@ def generate_city_page(city_slug, city_data, addresses, phones, template):
     phone = phones.get(city_slug, '')
     html = html.replace('{{PHONE_CITY}}', phone)
 
-    return html
+    # Возвращаем HTML и мета-теги для сохранения
+    generated_meta = {
+        'title': meta_title,
+        'description': meta_description,
+        'canonical': meta_canonical
+    }
+
+    return html, generated_meta
 
 def main():
     print("=== Генератор страниц городов ===\n")
@@ -87,10 +163,12 @@ def main():
     addresses = load_addresses()
     phones = load_phones()
     template = load_template()
+    meta_mapping = load_meta_mapping()
 
     print(f"Загружено городов: {len(cities)}")
     print(f"Загружено адресов БЦ: {len(addresses)}")
     print(f"Загружено телефонов: {len(phones)}")
+    print(f"Загружено мета-тегов: {len(meta_mapping)}")
     print(f"Шаблон: {TEMPLATE_FILE}\n")
 
     # Фильтруем города если указан --city
@@ -114,8 +192,14 @@ def main():
         # Создаём папку города
         os.makedirs(city_dir, exist_ok=True)
 
+        # Получаем сохранённые мета-теги (если есть)
+        existing_meta = get_existing_meta(city_slug, meta_mapping)
+
         # Генерируем HTML
-        html = generate_city_page(city_slug, city_data, addresses, phones, template)
+        html, generated_meta = generate_city_page(city_slug, city_data, addresses, phones, template, existing_meta)
+
+        # Сохраняем мета-теги в маппинг
+        meta_mapping[city_slug] = generated_meta
 
         # Сохраняем файл
         with open(output_file, 'w', encoding='utf-8') as f:
@@ -124,8 +208,13 @@ def main():
         print(f"✓ {city_data['name']} → /regions/{city_slug}/index.html")
         created += 1
 
+    # Сохраняем маппинг мета-тегов
+    save_meta_mapping(meta_mapping)
+    print(f"\n💾 Маппинг мета-тегов сохранён в {META_MAPPING_FILE}")
+
     print(f"\n=== Готово! ===")
     print(f"Создано страниц: {created}")
+    print(f"Сохранено мета-тегов: {len(meta_mapping)}")
     print(f"Пропущено: {skipped}")
 
 if __name__ == '__main__':

@@ -17,6 +17,7 @@ SEO_TEXTS_DIR = os.path.join(BASE_DIR, 'seo-texts')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'regions')
 IMAGES_DIR = os.path.join(BASE_DIR, 'assets', 'images', 'clusters')
 MAPPING_FILE = os.path.join(BASE_DIR, 'data', 'images-mapping.json')
+META_MAPPING_FILE = os.path.join(BASE_DIR, 'data', 'clusters-meta-mapping.json')
 CITY_PHONES_FILE = os.path.join(BASE_DIR, 'data', 'city-phones.json')
 CITY_ADDRESSES_FILE = os.path.join(BASE_DIR, 'data', 'city-addresses.json')
 IMAGE_ALTS_FILE = os.path.join(BASE_DIR, 'data', 'image-alts.json')
@@ -66,7 +67,7 @@ CITIES = {
     "samara": ("Самара", "Самары", "Самаре"),
     "sergiev-posad": ("Сергиев Посад", "Сергиева Посада", "Сергиевом Посаде"),
     "serpukhov": ("Серпухов", "Серпухова", "Серпухове"),
-    "shchelkovo": ("Щёлково", "Щёлкова", "Щёлкове"),
+    "shchelkovo": ("Щелково", "Щелкова", "Щелково"),
     "tula": ("Тула", "Тулы", "Туле"),
     "tver": ("Тверь", "Твери", "Твери"),
     "ufa": ("Уфа", "Уфы", "Уфе"),
@@ -402,6 +403,55 @@ def save_images_mapping(mapping):
         json.dump(mapping, f, ensure_ascii=False, indent=2)
 
 
+def load_meta_mapping():
+    """Загружает маппинг мета-тегов из JSON файла"""
+    if os.path.exists(META_MAPPING_FILE):
+        with open(META_MAPPING_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def save_meta_mapping(mapping):
+    """Сохраняет маппинг мета-тегов в JSON файл"""
+    os.makedirs(os.path.dirname(META_MAPPING_FILE), exist_ok=True)
+    with open(META_MAPPING_FILE, 'w', encoding='utf-8') as f:
+        json.dump(mapping, f, ensure_ascii=False, indent=2)
+
+
+def extract_meta_from_html(html_content):
+    """Извлекает мета-теги из существующего HTML"""
+    meta = {}
+
+    title_match = re.search(r'<title>([^<]+)</title>', html_content)
+    if title_match:
+        meta['title'] = title_match.group(1)
+
+    desc_match = re.search(r'<meta name="description" content="([^"]+)"', html_content)
+    if desc_match:
+        meta['description'] = desc_match.group(1)
+
+    canonical_match = re.search(r'<link rel="canonical" href="([^"]+)"', html_content)
+    if canonical_match:
+        meta['canonical'] = canonical_match.group(1)
+
+    return meta
+
+
+def get_existing_meta(city_slug, cluster, meta_mapping):
+    """Получает сохранённые мета-теги для кластера города"""
+    key = f"{city_slug}/{cluster}"
+    if key in meta_mapping:
+        return meta_mapping[key]
+
+    existing_file = os.path.join(OUTPUT_DIR, city_slug, cluster, 'index.html')
+    if os.path.exists(existing_file):
+        with open(existing_file, 'r', encoding='utf-8') as f:
+            html = f.read()
+        return extract_meta_from_html(html)
+
+    return None
+
+
 def load_city_phones():
     """Загружает готовые номера телефонов из JSON файла"""
     if os.path.exists(CITY_PHONES_FILE):
@@ -635,8 +685,8 @@ def generate_sections_html(sections, cluster, city, mapping, image_alts, city_na
     return '\n'.join(html_parts)
 
 
-def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data):
-    """Генерирует HTML страницу для города и кластера"""
+def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data, existing_meta=None):
+    """Генерирует HTML страницу для города и кластера. Если existing_meta передан, использует сохранённые мета-теги."""
 
     # Получаем падежи города
     city_name, city_genitive, city_prepositional = CITIES.get(city_slug, (city_slug, city_slug, city_slug))
@@ -694,10 +744,23 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
     # Генерируем секции с использованием маппинга и alt-текстов
     sections_html = generate_sections_html(parsed['sections'], cluster, city_slug, mapping, image_alts, city_name)
 
+    # Мета-теги: используем сохранённые или генерируем новые
+    if existing_meta and 'title' in existing_meta:
+        meta_title = existing_meta['title']
+    else:
+        meta_title = h1
+
+    if existing_meta and 'description' in existing_meta:
+        meta_description = existing_meta['description']
+    else:
+        meta_description = f"{h1}. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36"
+
+    meta_canonical = f"https://dinamika-cargo.ru/regions/{city_slug}/{cluster}/"
+
     # Заменяем плейсхолдеры
     html = template
-    html = html.replace('{{TITLE}}', h1)
-    html = html.replace('{{META_DESCRIPTION}}', f"{h1}. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36")
+    html = html.replace('{{TITLE}}', meta_title)
+    html = html.replace('{{META_DESCRIPTION}}', meta_description)
     html = html.replace('{{H1}}', h1)
     # Обрабатываем intro
     if parsed['intro']:
@@ -741,7 +804,14 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
     routes_table_html = generate_routes_table_html(city_slug, cluster, city_addresses)
     html = html.replace('{{ROUTES_TABLE}}', routes_table_html)
 
-    return html
+    # Возвращаем HTML и мета-теги для сохранения
+    generated_meta = {
+        'title': meta_title,
+        'description': meta_description,
+        'canonical': meta_canonical
+    }
+
+    return html, generated_meta
 
 
 def main():
@@ -774,6 +844,10 @@ def main():
     cities_data = load_cities_data()
     print(f"Загружено данных городов: {len(cities_data)}\n")
 
+    # Загрузка маппинга мета-тегов
+    meta_mapping = load_meta_mapping()
+    print(f"Загружен маппинг мета-тегов: {len(meta_mapping)}\n")
+
     # Загрузка шаблона
     template = load_template()
     print(f"Шаблон: {TEMPLATE_FILE}\n")
@@ -797,12 +871,21 @@ def main():
         city_name = CITIES[city_slug][0]
 
         for cluster in clusters:
-            # Генерируем HTML с использованием маппинга и alt-текстов
-            html = generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data)
+            # Получаем сохранённые мета-теги (если есть)
+            existing_meta = get_existing_meta(city_slug, cluster, meta_mapping)
 
-            if not html:
+            # Генерируем HTML с использованием маппинга и alt-текстов
+            result = generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data, existing_meta)
+
+            if not result:
                 skipped += 1
                 continue
+
+            html, generated_meta = result
+
+            # Сохраняем мета-теги в маппинг
+            meta_key = f"{city_slug}/{cluster}"
+            meta_mapping[meta_key] = generated_meta
 
             # Создаём папку и сохраняем
             output_dir = os.path.join(OUTPUT_DIR, city_slug, cluster)
@@ -815,12 +898,17 @@ def main():
             print(f"✓ {city_name} / {cluster} → /regions/{city_slug}/{cluster}/index.html")
             created += 1
 
-    # Сохраняем обновлённый маппинг
+    # Сохраняем обновлённый маппинг картинок
     save_images_mapping(mapping)
     print(f"\n💾 Маппинг картинок сохранён в {MAPPING_FILE}")
 
+    # Сохраняем маппинг мета-тегов
+    save_meta_mapping(meta_mapping)
+    print(f"💾 Маппинг мета-тегов сохранён в {META_MAPPING_FILE}")
+
     print(f"\n=== Готово! ===")
     print(f"Создано страниц: {created}")
+    print(f"Сохранено мета-тегов: {len(meta_mapping)}")
     print(f"Пропущено: {skipped}")
 
 

@@ -13,6 +13,7 @@ import json
 import os
 import sys
 import math
+import re
 
 # Пути
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -21,6 +22,7 @@ ADDRESSES_FILE = os.path.join(BASE_DIR, 'data', 'city-addresses.json')
 PHONES_FILE = os.path.join(BASE_DIR, 'data', 'city-phones.json')
 TEMPLATE_FILE = os.path.join(BASE_DIR, 'templates', 'route-template.html')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'routes')
+META_MAPPING_FILE = os.path.join(BASE_DIR, 'data', 'routes-meta-mapping.json')
 
 # 17 крупных городов (областные центры и крупные города РФ)
 MAJOR_CITIES = [
@@ -76,6 +78,58 @@ def load_json(filepath):
     """Загружает JSON файл"""
     with open(filepath, 'r', encoding='utf-8') as f:
         return json.load(f)
+
+
+def load_meta_mapping():
+    """Загружает маппинг мета-тегов (если существует)"""
+    if os.path.exists(META_MAPPING_FILE):
+        with open(META_MAPPING_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def save_meta_mapping(mapping):
+    """Сохраняет маппинг мета-тегов"""
+    with open(META_MAPPING_FILE, 'w', encoding='utf-8') as f:
+        json.dump(mapping, f, ensure_ascii=False, indent=2)
+
+
+def extract_meta_from_html(html_content):
+    """Извлекает мета-теги из существующего HTML"""
+    meta = {}
+
+    # Title
+    title_match = re.search(r'<title>([^<]+)</title>', html_content)
+    if title_match:
+        meta['title'] = title_match.group(1)
+
+    # Description
+    desc_match = re.search(r'<meta name="description" content="([^"]+)"', html_content)
+    if desc_match:
+        meta['description'] = desc_match.group(1)
+
+    # Canonical
+    canonical_match = re.search(r'<link rel="canonical" href="([^"]+)"', html_content)
+    if canonical_match:
+        meta['canonical'] = canonical_match.group(1)
+
+    return meta
+
+
+def get_existing_meta(route_slug, meta_mapping):
+    """Получает сохранённые мета-теги для маршрута"""
+    # Сначала проверяем маппинг
+    if route_slug in meta_mapping:
+        return meta_mapping[route_slug]
+
+    # Если нет в маппинге, пробуем извлечь из существующего файла
+    existing_file = os.path.join(OUTPUT_DIR, route_slug, 'index.html')
+    if os.path.exists(existing_file):
+        with open(existing_file, 'r', encoding='utf-8') as f:
+            html = f.read()
+        return extract_meta_from_html(html)
+
+    return None
 
 
 def load_template():
@@ -180,8 +234,8 @@ def generate_faq_html(city_from_name, city_to_name, distance, delivery_time, pri
     return '\n'.join(html_parts)
 
 
-def generate_route_page(city_from, city_to, cities, addresses, phones, template):
-    """Генерирует HTML страницу для маршрута"""
+def generate_route_page(city_from, city_to, cities, addresses, phones, template, existing_meta=None):
+    """Генерирует HTML страницу для маршрута. Если existing_meta передан, использует сохранённые мета-теги."""
 
     # Данные города отправления
     from_data = cities.get(city_from, {})
@@ -244,8 +298,26 @@ def generate_route_page(city_from, city_to, cities, addresses, phones, template)
     # Генерируем FAQ
     faq_html = generate_faq_html(city_from_name, city_to_name, distance, delivery_time, prices)
 
+    # Мета-теги: используем сохранённые или генерируем новые
+    if existing_meta and 'title' in existing_meta:
+        meta_title = existing_meta['title']
+    else:
+        meta_title = f"Грузоперевозки {city_from_name} — {city_to_name} | Цены, сроки - ТК Динамика"
+
+    if existing_meta and 'description' in existing_meta:
+        meta_description = existing_meta['description']
+    else:
+        meta_description = f"Грузоперевозки {city_from_name} — {city_to_name}. Расстояние {distance} км. Доставка от 1 до 20 тонн. Прозрачные цены, расчёт за 5 минут. ☎ 8-800-707-29-36"
+
+    # Canonical всегда одинаковый
+    meta_canonical = f"https://dinamika-cargo.ru/routes/{route_slug}/"
+
     # Заменяем плейсхолдеры
     html = template
+
+    # Мета-теги (заменяем сгенерированные шаблоном на сохранённые/новые)
+    html = re.sub(r'<title>[^<]+</title>', f'<title>{meta_title}</title>', html)
+    html = re.sub(r'<meta name="description" content="[^"]+"', f'<meta name="description" content="{meta_description}"', html)
 
     # Города
     html = html.replace('{{CITY_FROM}}', city_from_name)
@@ -288,7 +360,14 @@ def generate_route_page(city_from, city_to, cities, addresses, phones, template)
     # FAQ
     html = html.replace('{{FAQ_ITEMS}}', faq_html)
 
-    return html
+    # Возвращаем HTML и мета-теги для сохранения в маппинг
+    generated_meta = {
+        'title': meta_title,
+        'description': meta_description,
+        'canonical': meta_canonical
+    }
+
+    return html, generated_meta
 
 
 def generate_all_routes():
@@ -339,10 +418,12 @@ def main():
     addresses = load_json(ADDRESSES_FILE)
     phones = load_json(PHONES_FILE)
     template = load_template()
+    meta_mapping = load_meta_mapping()
 
     print(f"Загружено городов: {len(cities)}")
     print(f"Загружено адресов: {len(addresses)}")
     print(f"Загружено телефонов: {len(phones)}")
+    print(f"Загружено мета-тегов: {len(meta_mapping)}")
     print(f"Шаблон: {TEMPLATE_FILE}\n")
 
     # Генерируем список маршрутов
@@ -376,8 +457,14 @@ def main():
         route_slug = get_route_slug(city_from, city_to)
 
         try:
+            # Получаем сохранённые мета-теги (если есть)
+            existing_meta = get_existing_meta(route_slug, meta_mapping)
+
             # Генерируем HTML
-            html = generate_route_page(city_from, city_to, cities, addresses, phones, template)
+            html, generated_meta = generate_route_page(city_from, city_to, cities, addresses, phones, template, existing_meta)
+
+            # Сохраняем мета-теги в маппинг
+            meta_mapping[route_slug] = generated_meta
 
             # Создаём папку маршрута
             route_dir = os.path.join(OUTPUT_DIR, route_slug)
@@ -397,8 +484,13 @@ def main():
             print(f"✗ Ошибка {route_slug}: {e}")
             errors += 1
 
+    # Сохраняем маппинг мета-тегов
+    save_meta_mapping(meta_mapping)
+    print(f"\n💾 Маппинг мета-тегов сохранён в {META_MAPPING_FILE}")
+
     print(f"\n=== Готово! ===")
     print(f"Создано страниц: {created}")
+    print(f"Сохранено мета-тегов: {len(meta_mapping)}")
     print(f"Ошибок: {errors}")
 
 

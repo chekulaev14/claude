@@ -1,0 +1,1202 @@
+{
+  "balashikha/mezhgorod": {
+    "title": "Грузоперевозки межгород Балашиха - ТК Динамика",
+    "description": "Грузоперевозки межгород Балашиха. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/mezhgorod/"
+  },
+  "balashikha/transportnaya": {
+    "title": "Транспортная компания Балашиха - ТК Динамика",
+    "description": "Транспортная компания Балашиха. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/transportnaya/"
+  },
+  "balashikha/dlinnomer": {
+    "title": "Грузоперевозки длинномер Балашиха - ТК Динамика",
+    "description": "Грузоперевозки длинномер Балашиха. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/dlinnomer/"
+  },
+  "balashikha/po-rossii": {
+    "title": "Грузоперевозки по России Балашиха - ТК Динамика",
+    "description": "Грузоперевозки по России Балашиха. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/po-rossii/"
+  },
+  "balashikha/fura": {
+    "title": "Грузоперевозки фура Балашиха - ТК Динамика",
+    "description": "Грузоперевозки фура Балашиха. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/fura/"
+  },
+  "chekhov/mezhgorod": {
+    "title": "Грузоперевозки межгород Чехов - ТК Динамика",
+    "description": "Грузоперевозки межгород Чехов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/mezhgorod/"
+  },
+  "chekhov/transportnaya": {
+    "title": "Транспортная компания Чехов - ТК Динамика",
+    "description": "Транспортная компания Чехов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/transportnaya/"
+  },
+  "chekhov/dlinnomer": {
+    "title": "Грузоперевозки длинномер Чехов - ТК Динамика",
+    "description": "Грузоперевозки длинномер Чехов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/dlinnomer/"
+  },
+  "chekhov/po-rossii": {
+    "title": "Грузоперевозки по России Чехов - ТК Динамика",
+    "description": "Грузоперевозки по России Чехов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/po-rossii/"
+  },
+  "chekhov/fura": {
+    "title": "Грузоперевозки фура Чехов - ТК Динамика",
+    "description": "Грузоперевозки фура Чехов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/fura/"
+  },
+  "chelyabinsk/mezhgorod": {
+    "title": "Грузоперевозки межгород Челябинск - ТК Динамика",
+    "description": "Грузоперевозки межгород Челябинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/mezhgorod/"
+  },
+  "chelyabinsk/transportnaya": {
+    "title": "Транспортная компания Челябинск - ТК Динамика",
+    "description": "Транспортная компания Челябинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/transportnaya/"
+  },
+  "chelyabinsk/dlinnomer": {
+    "title": "Грузоперевозки длинномер Челябинск - ТК Динамика",
+    "description": "Грузоперевозки длинномер Челябинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/dlinnomer/"
+  },
+  "chelyabinsk/po-rossii": {
+    "title": "Грузоперевозки по России Челябинск - ТК Динамика",
+    "description": "Грузоперевозки по России Челябинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/po-rossii/"
+  },
+  "chelyabinsk/fura": {
+    "title": "Грузоперевозки фура Челябинск - ТК Динамика",
+    "description": "Грузоперевозки фура Челябинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/fura/"
+  },
+  "dmitrov/mezhgorod": {
+    "title": "Грузоперевозки межгород Дмитров - ТК Динамика",
+    "description": "Грузоперевозки межгород Дмитров. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/mezhgorod/"
+  },
+  "dmitrov/transportnaya": {
+    "title": "Транспортная компания Дмитров - ТК Динамика",
+    "description": "Транспортная компания Дмитров. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/transportnaya/"
+  },
+  "dmitrov/dlinnomer": {
+    "title": "Грузоперевозки длинномер Дмитров - ТК Динамика",
+    "description": "Грузоперевозки длинномер Дмитров. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/dlinnomer/"
+  },
+  "dmitrov/po-rossii": {
+    "title": "Грузоперевозки по России Дмитров - ТК Динамика",
+    "description": "Грузоперевозки по России Дмитров. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/po-rossii/"
+  },
+  "dmitrov/fura": {
+    "title": "Грузоперевозки фура Дмитров - ТК Динамика",
+    "description": "Грузоперевозки фура Дмитров. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/fura/"
+  },
+  "dolgoprudny/mezhgorod": {
+    "title": "Грузоперевозки межгород Долгопрудный - ТК Динамика",
+    "description": "Грузоперевозки межгород Долгопрудный. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/mezhgorod/"
+  },
+  "dolgoprudny/transportnaya": {
+    "title": "Транспортная компания Долгопрудный - ТК Динамика",
+    "description": "Транспортная компания Долгопрудный. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/transportnaya/"
+  },
+  "dolgoprudny/dlinnomer": {
+    "title": "Грузоперевозки длинномер Долгопрудный - ТК Динамика",
+    "description": "Грузоперевозки длинномер Долгопрудный. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/dlinnomer/"
+  },
+  "dolgoprudny/po-rossii": {
+    "title": "Грузоперевозки по России Долгопрудный - ТК Динамика",
+    "description": "Грузоперевозки по России Долгопрудный. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/po-rossii/"
+  },
+  "dolgoprudny/fura": {
+    "title": "Грузоперевозки фура Долгопрудный - ТК Динамика",
+    "description": "Грузоперевозки фура Долгопрудный. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/fura/"
+  },
+  "domodedovo/mezhgorod": {
+    "title": "Грузоперевозки межгород в Домодедово - ТК Динамика",
+    "description": "Грузоперевозки межгород в Домодедово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/mezhgorod/"
+  },
+  "domodedovo/transportnaya": {
+    "title": "Транспортная компания в Домодедово - ТК Динамика",
+    "description": "Транспортная компания в Домодедово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/transportnaya/"
+  },
+  "domodedovo/dlinnomer": {
+    "title": "Грузоперевозки длинномер Домодедово - ТК Динамика",
+    "description": "Грузоперевозки длинномер Домодедово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/dlinnomer/"
+  },
+  "domodedovo/po-rossii": {
+    "title": "Грузоперевозки по России Домодедово - ТК Динамика",
+    "description": "Грузоперевозки по России Домодедово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/po-rossii/"
+  },
+  "domodedovo/fura": {
+    "title": "Грузоперевозки фура Домодедово - ТК Динамика",
+    "description": "Грузоперевозки фура Домодедово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/fura/"
+  },
+  "dubna/mezhgorod": {
+    "title": "Грузоперевозки межгород Дубна - ТК Динамика",
+    "description": "Грузоперевозки межгород Дубна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/mezhgorod/"
+  },
+  "dubna/transportnaya": {
+    "title": "Транспортная компания Дубна - ТК Динамика",
+    "description": "Транспортная компания Дубна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/transportnaya/"
+  },
+  "dubna/dlinnomer": {
+    "title": "Грузоперевозки длинномер Дубна - ТК Динамика",
+    "description": "Грузоперевозки длинномер Дубна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/dlinnomer/"
+  },
+  "dubna/po-rossii": {
+    "title": "Грузоперевозки по России Дубна - ТК Динамика",
+    "description": "Грузоперевозки по России Дубна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/po-rossii/"
+  },
+  "dubna/fura": {
+    "title": "Грузоперевозки фура Дубна - ТК Динамика",
+    "description": "Грузоперевозки фура Дубна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/fura/"
+  },
+  "dzerzhinsky/mezhgorod": {
+    "title": "Грузоперевозки межгород Дзержинский - ТК Динамика",
+    "description": "Грузоперевозки межгород Дзержинский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/mezhgorod/"
+  },
+  "dzerzhinsky/transportnaya": {
+    "title": "Транспортная компания Дзержинский - ТК Динамика",
+    "description": "Транспортная компания Дзержинский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/transportnaya/"
+  },
+  "dzerzhinsky/dlinnomer": {
+    "title": "Грузоперевозки длинномер Дзержинский - ТК Динамика",
+    "description": "Грузоперевозки длинномер Дзержинский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/dlinnomer/"
+  },
+  "dzerzhinsky/po-rossii": {
+    "title": "Грузоперевозки по России Дзержинский - ТК Динамика",
+    "description": "Грузоперевозки по России Дзержинский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/po-rossii/"
+  },
+  "dzerzhinsky/fura": {
+    "title": "Грузоперевозки фура Дзержинский - ТК Динамика",
+    "description": "Грузоперевозки фура Дзержинский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/fura/"
+  },
+  "egoryevsk/mezhgorod": {
+    "title": "Грузоперевозки межгород Егорьевск - ТК Динамика",
+    "description": "Грузоперевозки межгород Егорьевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/mezhgorod/"
+  },
+  "egoryevsk/transportnaya": {
+    "title": "Транспортная компания Егорьевск - ТК Динамика",
+    "description": "Транспортная компания Егорьевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/transportnaya/"
+  },
+  "egoryevsk/dlinnomer": {
+    "title": "Грузоперевозки длинномер Егорьевск - ТК Динамика",
+    "description": "Грузоперевозки длинномер Егорьевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/dlinnomer/"
+  },
+  "egoryevsk/po-rossii": {
+    "title": "Грузоперевозки по России Егорьевск - ТК Динамика",
+    "description": "Грузоперевозки по России Егорьевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/po-rossii/"
+  },
+  "egoryevsk/fura": {
+    "title": "Грузоперевозки фура Егорьевск - ТК Динамика",
+    "description": "Грузоперевозки фура Егорьевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/fura/"
+  },
+  "ekaterinburg/mezhgorod": {
+    "title": "Грузоперевозки межгород Екатеринбург - ТК Динамика",
+    "description": "Грузоперевозки межгород Екатеринбург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/mezhgorod/"
+  },
+  "ekaterinburg/transportnaya": {
+    "title": "Транспортная компания Екатеринбург - ТК Динамика",
+    "description": "Транспортная компания Екатеринбург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/transportnaya/"
+  },
+  "ekaterinburg/dlinnomer": {
+    "title": "Грузоперевозки длинномер Екатеринбург - ТК Динамика",
+    "description": "Грузоперевозки длинномер Екатеринбург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/dlinnomer/"
+  },
+  "ekaterinburg/po-rossii": {
+    "title": "Грузоперевозки по России Екатеринбург - ТК Динамика",
+    "description": "Грузоперевозки по России Екатеринбург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/po-rossii/"
+  },
+  "ekaterinburg/fura": {
+    "title": "Грузоперевозки фура Екатеринбург - ТК Динамика",
+    "description": "Грузоперевозки фура Екатеринбург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/fura/"
+  },
+  "elektrostal/mezhgorod": {
+    "title": "Грузоперевозки межгород Электросталь - ТК Динамика",
+    "description": "Грузоперевозки межгород Электросталь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/mezhgorod/"
+  },
+  "elektrostal/transportnaya": {
+    "title": "Транспортная компания Электросталь - ТК Динамика",
+    "description": "Транспортная компания Электросталь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/transportnaya/"
+  },
+  "elektrostal/dlinnomer": {
+    "title": "Грузоперевозки длинномер Электросталь - ТК Динамика",
+    "description": "Грузоперевозки длинномер Электросталь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/dlinnomer/"
+  },
+  "elektrostal/po-rossii": {
+    "title": "Грузоперевозки по России Электросталь - ТК Динамика",
+    "description": "Грузоперевозки по России Электросталь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/po-rossii/"
+  },
+  "elektrostal/fura": {
+    "title": "Грузоперевозки фура Электросталь - ТК Динамика",
+    "description": "Грузоперевозки фура Электросталь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/fura/"
+  },
+  "fryazino/mezhgorod": {
+    "title": "Грузоперевозки межгород Фрязино - ТК Динамика",
+    "description": "Грузоперевозки межгород Фрязино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/mezhgorod/"
+  },
+  "fryazino/transportnaya": {
+    "title": "Транспортная компания Фрязино - ТК Динамика",
+    "description": "Транспортная компания Фрязино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/transportnaya/"
+  },
+  "fryazino/dlinnomer": {
+    "title": "Грузоперевозки длинномер Фрязино - ТК Динамика",
+    "description": "Грузоперевозки длинномер Фрязино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/dlinnomer/"
+  },
+  "fryazino/po-rossii": {
+    "title": "Грузоперевозки по России Фрязино - ТК Динамика",
+    "description": "Грузоперевозки по России Фрязино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/po-rossii/"
+  },
+  "fryazino/fura": {
+    "title": "Грузоперевозки фура Фрязино - ТК Динамика",
+    "description": "Грузоперевозки фура Фрязино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/fura/"
+  },
+  "ivanteyevka/mezhgorod": {
+    "title": "Грузоперевозки межгород Ивантеевка - ТК Динамика",
+    "description": "Грузоперевозки межгород Ивантеевка. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/mezhgorod/"
+  },
+  "ivanteyevka/transportnaya": {
+    "title": "Транспортная компания Ивантеевка - ТК Динамика",
+    "description": "Транспортная компания Ивантеевка. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/transportnaya/"
+  },
+  "ivanteyevka/dlinnomer": {
+    "title": "Грузоперевозки длинномер Ивантеевка - ТК Динамика",
+    "description": "Грузоперевозки длинномер Ивантеевка. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/dlinnomer/"
+  },
+  "ivanteyevka/po-rossii": {
+    "title": "Грузоперевозки по России Ивантеевка - ТК Динамика",
+    "description": "Грузоперевозки по России Ивантеевка. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/po-rossii/"
+  },
+  "ivanteyevka/fura": {
+    "title": "Грузоперевозки фура Ивантеевка - ТК Динамика",
+    "description": "Грузоперевозки фура Ивантеевка. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/fura/"
+  },
+  "izhevsk/mezhgorod": {
+    "title": "Грузоперевозки межгород Ижевск - ТК Динамика",
+    "description": "Грузоперевозки межгород Ижевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/mezhgorod/"
+  },
+  "izhevsk/transportnaya": {
+    "title": "Транспортная компания Ижевск - ТК Динамика",
+    "description": "Транспортная компания Ижевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/transportnaya/"
+  },
+  "izhevsk/dlinnomer": {
+    "title": "Грузоперевозки длинномер Ижевск - ТК Динамика",
+    "description": "Грузоперевозки длинномер Ижевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/dlinnomer/"
+  },
+  "izhevsk/po-rossii": {
+    "title": "Грузоперевозки по России Ижевск - ТК Динамика",
+    "description": "Грузоперевозки по России Ижевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/po-rossii/"
+  },
+  "izhevsk/fura": {
+    "title": "Грузоперевозки фура Ижевск - ТК Динамика",
+    "description": "Грузоперевозки фура Ижевск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/fura/"
+  },
+  "kaluga/mezhgorod": {
+    "title": "Грузоперевозки межгород Калуга - ТК Динамика",
+    "description": "Грузоперевозки межгород Калуга. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/mezhgorod/"
+  },
+  "kaluga/transportnaya": {
+    "title": "Транспортная компания Калуга - ТК Динамика",
+    "description": "Транспортная компания Калуга. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/transportnaya/"
+  },
+  "kaluga/dlinnomer": {
+    "title": "Грузоперевозки длинномер Калуга - ТК Динамика",
+    "description": "Грузоперевозки длинномер Калуга. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/dlinnomer/"
+  },
+  "kaluga/po-rossii": {
+    "title": "Грузоперевозки по России Калуга - ТК Динамика",
+    "description": "Грузоперевозки по России Калуга. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/po-rossii/"
+  },
+  "kaluga/fura": {
+    "title": "Грузоперевозки фура Калуга - ТК Динамика",
+    "description": "Грузоперевозки фура Калуга. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/fura/"
+  },
+  "kazan/mezhgorod": {
+    "title": "Грузоперевозки межгород Казань - ТК Динамика",
+    "description": "Грузоперевозки межгород Казань. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/mezhgorod/"
+  },
+  "kazan/transportnaya": {
+    "title": "Транспортная компания Казань - ТК Динамика",
+    "description": "Транспортная компания Казань. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/transportnaya/"
+  },
+  "kazan/dlinnomer": {
+    "title": "Грузоперевозки длинномер Казань - ТК Динамика",
+    "description": "Грузоперевозки длинномер Казань. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/dlinnomer/"
+  },
+  "kazan/po-rossii": {
+    "title": "Грузоперевозки по России Казань - ТК Динамика",
+    "description": "Грузоперевозки по России Казань. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/po-rossii/"
+  },
+  "kazan/fura": {
+    "title": "Грузоперевозки фура Казань - ТК Динамика",
+    "description": "Грузоперевозки фура Казань. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/fura/"
+  },
+  "khimki/mezhgorod": {
+    "title": "Грузоперевозки межгород Химки - ТК Динамика",
+    "description": "Грузоперевозки межгород Химки. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/mezhgorod/"
+  },
+  "khimki/transportnaya": {
+    "title": "Транспортная компания Химки - ТК Динамика",
+    "description": "Транспортная компания Химки. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/transportnaya/"
+  },
+  "khimki/dlinnomer": {
+    "title": "Грузоперевозки длинномер Химки - ТК Динамика",
+    "description": "Грузоперевозки длинномер Химки. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/dlinnomer/"
+  },
+  "khimki/po-rossii": {
+    "title": "Грузоперевозки по России Химки - ТК Динамика",
+    "description": "Грузоперевозки по России Химки. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/po-rossii/"
+  },
+  "khimki/fura": {
+    "title": "Грузоперевозки фура Химки - ТК Динамика",
+    "description": "Грузоперевозки фура Химки. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/fura/"
+  },
+  "klin/mezhgorod": {
+    "title": "Грузоперевозки межгород Клин - ТК Динамика",
+    "description": "Грузоперевозки межгород Клин. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/mezhgorod/"
+  },
+  "klin/transportnaya": {
+    "title": "Транспортная компания Клин - ТК Динамика",
+    "description": "Транспортная компания Клин. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/transportnaya/"
+  },
+  "klin/dlinnomer": {
+    "title": "Грузоперевозки длинномер Клин - ТК Динамика",
+    "description": "Грузоперевозки длинномер Клин. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/dlinnomer/"
+  },
+  "klin/po-rossii": {
+    "title": "Грузоперевозки по России Клин - ТК Динамика",
+    "description": "Грузоперевозки по России Клин. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/po-rossii/"
+  },
+  "klin/fura": {
+    "title": "Грузоперевозки фура Клин - ТК Динамика",
+    "description": "Грузоперевозки фура Клин. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/fura/"
+  },
+  "kolomna/mezhgorod": {
+    "title": "Грузоперевозки межгород Коломна - ТК Динамика",
+    "description": "Грузоперевозки межгород Коломна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/mezhgorod/"
+  },
+  "kolomna/transportnaya": {
+    "title": "Транспортная компания Коломна - ТК Динамика",
+    "description": "Транспортная компания Коломна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/transportnaya/"
+  },
+  "kolomna/dlinnomer": {
+    "title": "Грузоперевозки длинномер Коломна - ТК Динамика",
+    "description": "Грузоперевозки длинномер Коломна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/dlinnomer/"
+  },
+  "kolomna/po-rossii": {
+    "title": "Грузоперевозки по России Коломна - ТК Динамика",
+    "description": "Грузоперевозки по России Коломна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/po-rossii/"
+  },
+  "kolomna/fura": {
+    "title": "Грузоперевозки фура Коломна - ТК Динамика",
+    "description": "Грузоперевозки фура Коломна. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/fura/"
+  },
+  "korolev/mezhgorod": {
+    "title": "Грузоперевозки межгород Королёв - ТК Динамика",
+    "description": "Грузоперевозки межгород Королёв. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/mezhgorod/"
+  },
+  "korolev/transportnaya": {
+    "title": "Транспортная компания Королёв - ТК Динамика",
+    "description": "Транспортная компания Королёв. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/transportnaya/"
+  },
+  "korolev/dlinnomer": {
+    "title": "Грузоперевозки длинномер Королёв - ТК Динамика",
+    "description": "Грузоперевозки длинномер Королёв. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/dlinnomer/"
+  },
+  "korolev/po-rossii": {
+    "title": "Грузоперевозки по России Королёв - ТК Динамика",
+    "description": "Грузоперевозки по России Королёв. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/po-rossii/"
+  },
+  "korolev/fura": {
+    "title": "Грузоперевозки фура Королёв - ТК Динамика",
+    "description": "Грузоперевозки фура Королёв. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/fura/"
+  },
+  "krasnogorsk/mezhgorod": {
+    "title": "Грузоперевозки межгород Красногорск - ТК Динамика",
+    "description": "Грузоперевозки межгород Красногорск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/mezhgorod/"
+  },
+  "krasnogorsk/transportnaya": {
+    "title": "Транспортная компания Красногорск - ТК Динамика",
+    "description": "Транспортная компания Красногорск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/transportnaya/"
+  },
+  "krasnogorsk/dlinnomer": {
+    "title": "Грузоперевозки длинномер Красногорск - ТК Динамика",
+    "description": "Грузоперевозки длинномер Красногорск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/dlinnomer/"
+  },
+  "krasnogorsk/po-rossii": {
+    "title": "Грузоперевозки по России Красногорск - ТК Динамика",
+    "description": "Грузоперевозки по России Красногорск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/po-rossii/"
+  },
+  "krasnogorsk/fura": {
+    "title": "Грузоперевозки фура Красногорск - ТК Динамика",
+    "description": "Грузоперевозки фура Красногорск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/fura/"
+  },
+  "lobnya/mezhgorod": {
+    "title": "Грузоперевозки межгород Лобня - ТК Динамика",
+    "description": "Грузоперевозки межгород Лобня. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/mezhgorod/"
+  },
+  "lobnya/transportnaya": {
+    "title": "Транспортная компания Лобня - ТК Динамика",
+    "description": "Транспортная компания Лобня. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/transportnaya/"
+  },
+  "lobnya/dlinnomer": {
+    "title": "Грузоперевозки длинномер Лобня - ТК Динамика",
+    "description": "Грузоперевозки длинномер Лобня. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/dlinnomer/"
+  },
+  "lobnya/po-rossii": {
+    "title": "Грузоперевозки по России Лобня - ТК Динамика",
+    "description": "Грузоперевозки по России Лобня. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/po-rossii/"
+  },
+  "lobnya/fura": {
+    "title": "Грузоперевозки фура Лобня - ТК Динамика",
+    "description": "Грузоперевозки фура Лобня. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/fura/"
+  },
+  "lyubertsy/mezhgorod": {
+    "title": "Грузоперевозки межгород Люберцы - ТК Динамика",
+    "description": "Грузоперевозки межгород Люберцы. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/mezhgorod/"
+  },
+  "lyubertsy/transportnaya": {
+    "title": "Транспортная компания Люберцы - ТК Динамика",
+    "description": "Транспортная компания Люберцы. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/transportnaya/"
+  },
+  "lyubertsy/dlinnomer": {
+    "title": "Грузоперевозки длинномер Люберцы - ТК Динамика",
+    "description": "Грузоперевозки длинномер Люберцы. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/dlinnomer/"
+  },
+  "lyubertsy/po-rossii": {
+    "title": "Грузоперевозки по России Люберцы - ТК Динамика",
+    "description": "Грузоперевозки по России Люберцы. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/po-rossii/"
+  },
+  "lyubertsy/fura": {
+    "title": "Грузоперевозки фура Люберцы - ТК Динамика",
+    "description": "Грузоперевозки фура Люберцы. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/fura/"
+  },
+  "moskva/mezhgorod": {
+    "title": "Грузоперевозки межгород Москва - ТК Динамика",
+    "description": "Грузоперевозки межгород Москва. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/mezhgorod/"
+  },
+  "moskva/transportnaya": {
+    "title": "Транспортная компания Москва - ТК Динамика",
+    "description": "Транспортная компания Москва. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/transportnaya/"
+  },
+  "moskva/dlinnomer": {
+    "title": "Грузоперевозки длинномер Москва - ТК Динамика",
+    "description": "Грузоперевозки длинномер Москва. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/dlinnomer/"
+  },
+  "moskva/po-rossii": {
+    "title": "Грузоперевозки по России Москва - ТК Динамика",
+    "description": "Грузоперевозки по России Москва. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/po-rossii/"
+  },
+  "moskva/fura": {
+    "title": "Грузоперевозки фура Москва - ТК Динамика",
+    "description": "Грузоперевозки фура Москва. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/fura/"
+  },
+  "mytishchi/mezhgorod": {
+    "title": "Грузоперевозки межгород Мытищи - ТК Динамика",
+    "description": "Грузоперевозки межгород Мытищи. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/mezhgorod/"
+  },
+  "mytishchi/transportnaya": {
+    "title": "Транспортная компания Мытищи - ТК Динамика",
+    "description": "Транспортная компания Мытищи. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/transportnaya/"
+  },
+  "mytishchi/dlinnomer": {
+    "title": "Грузоперевозки длинномер Мытищи - ТК Динамика",
+    "description": "Грузоперевозки длинномер Мытищи. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/dlinnomer/"
+  },
+  "mytishchi/po-rossii": {
+    "title": "Грузоперевозки по России Мытищи - ТК Динамика",
+    "description": "Грузоперевозки по России Мытищи. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/po-rossii/"
+  },
+  "mytishchi/fura": {
+    "title": "Грузоперевозки фура Мытищи - ТК Динамика",
+    "description": "Грузоперевозки фура Мытищи. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/fura/"
+  },
+  "naberezhnye-chelny/mezhgorod": {
+    "title": "Грузоперевозки межгород Набережные Челны - ТК Динамика",
+    "description": "Грузоперевозки межгород Набережные Челны. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/mezhgorod/"
+  },
+  "naberezhnye-chelny/transportnaya": {
+    "title": "Транспортная компания Набережные Челны - ТК Динамика",
+    "description": "Транспортная компания Набережные Челны. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/transportnaya/"
+  },
+  "naberezhnye-chelny/dlinnomer": {
+    "title": "Грузоперевозки длинномер Набережные Челны - ТК Динамика",
+    "description": "Грузоперевозки длинномер Набережные Челны. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/dlinnomer/"
+  },
+  "naberezhnye-chelny/po-rossii": {
+    "title": "Грузоперевозки по России Набережные Челны - ТК Динамика",
+    "description": "Грузоперевозки по России Набережные Челны. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/po-rossii/"
+  },
+  "naberezhnye-chelny/fura": {
+    "title": "Грузоперевозки фура Набережные Челны - ТК Динамика",
+    "description": "Грузоперевозки фура Набережные Челны. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/fura/"
+  },
+  "nizhnekamsk/mezhgorod": {
+    "title": "Грузоперевозки межгород Нижнекамск - ТК Динамика",
+    "description": "Грузоперевозки межгород Нижнекамск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/mezhgorod/"
+  },
+  "nizhnekamsk/transportnaya": {
+    "title": "Транспортная компания Нижнекамск - ТК Динамика",
+    "description": "Транспортная компания Нижнекамск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/transportnaya/"
+  },
+  "nizhnekamsk/dlinnomer": {
+    "title": "Грузоперевозки длинномер Нижнекамск - ТК Динамика",
+    "description": "Грузоперевозки длинномер Нижнекамск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/dlinnomer/"
+  },
+  "nizhnekamsk/po-rossii": {
+    "title": "Грузоперевозки по России Нижнекамск - ТК Динамика",
+    "description": "Грузоперевозки по России Нижнекамск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/po-rossii/"
+  },
+  "nizhnekamsk/fura": {
+    "title": "Грузоперевозки фура Нижнекамск - ТК Динамика",
+    "description": "Грузоперевозки фура Нижнекамск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/fura/"
+  },
+  "nizhny-novgorod/mezhgorod": {
+    "title": "Грузоперевозки межгород Нижний Новгород - ТК Динамика",
+    "description": "Грузоперевозки межгород Нижний Новгород. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/mezhgorod/"
+  },
+  "nizhny-novgorod/transportnaya": {
+    "title": "Транспортная компания Нижний Новгород - ТК Динамика",
+    "description": "Транспортная компания Нижний Новгород. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/transportnaya/"
+  },
+  "nizhny-novgorod/dlinnomer": {
+    "title": "Грузоперевозки длинномер Нижний Новгород - ТК Динамика",
+    "description": "Грузоперевозки длинномер Нижний Новгород. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/dlinnomer/"
+  },
+  "nizhny-novgorod/po-rossii": {
+    "title": "Грузоперевозки по России Нижний Новгород - ТК Динамика",
+    "description": "Грузоперевозки по России Нижний Новгород. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/po-rossii/"
+  },
+  "nizhny-novgorod/fura": {
+    "title": "Грузоперевозки фура Нижний Новгород - ТК Динамика",
+    "description": "Грузоперевозки фура Нижний Новгород. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/fura/"
+  },
+  "noginsk/mezhgorod": {
+    "title": "Грузоперевозки межгород Ногинск - ТК Динамика",
+    "description": "Грузоперевозки межгород Ногинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/mezhgorod/"
+  },
+  "noginsk/transportnaya": {
+    "title": "Транспортная компания Ногинск - ТК Динамика",
+    "description": "Транспортная компания Ногинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/transportnaya/"
+  },
+  "noginsk/dlinnomer": {
+    "title": "Грузоперевозки длинномер Ногинск - ТК Динамика",
+    "description": "Грузоперевозки длинномер Ногинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/dlinnomer/"
+  },
+  "noginsk/po-rossii": {
+    "title": "Грузоперевозки по России Ногинск - ТК Динамика",
+    "description": "Грузоперевозки по России Ногинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/po-rossii/"
+  },
+  "noginsk/fura": {
+    "title": "Грузоперевозки фура Ногинск - ТК Динамика",
+    "description": "Грузоперевозки фура Ногинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/fura/"
+  },
+  "obninsk/mezhgorod": {
+    "title": "Грузоперевозки межгород Обнинск - ТК Динамика",
+    "description": "Грузоперевозки межгород Обнинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/mezhgorod/"
+  },
+  "obninsk/transportnaya": {
+    "title": "Транспортная компания Обнинск - ТК Динамика",
+    "description": "Транспортная компания Обнинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/transportnaya/"
+  },
+  "obninsk/dlinnomer": {
+    "title": "Грузоперевозки длинномер Обнинск - ТК Динамика",
+    "description": "Грузоперевозки длинномер Обнинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/dlinnomer/"
+  },
+  "obninsk/po-rossii": {
+    "title": "Грузоперевозки по России Обнинск - ТК Динамика",
+    "description": "Грузоперевозки по России Обнинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/po-rossii/"
+  },
+  "obninsk/fura": {
+    "title": "Грузоперевозки фура Обнинск - ТК Динамика",
+    "description": "Грузоперевозки фура Обнинск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/fura/"
+  },
+  "odintsovo/mezhgorod": {
+    "title": "Грузоперевозки межгород в Одинцово - ТК Динамика",
+    "description": "Грузоперевозки межгород в Одинцово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/mezhgorod/"
+  },
+  "odintsovo/transportnaya": {
+    "title": "Транспортная компания в Одинцово - ТК Динамика",
+    "description": "Транспортная компания в Одинцово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/transportnaya/"
+  },
+  "odintsovo/dlinnomer": {
+    "title": "Грузоперевозки длинномер Одинцово - ТК Динамика",
+    "description": "Грузоперевозки длинномер Одинцово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/dlinnomer/"
+  },
+  "odintsovo/po-rossii": {
+    "title": "Грузоперевозки по России Одинцово - ТК Динамика",
+    "description": "Грузоперевозки по России Одинцово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/po-rossii/"
+  },
+  "odintsovo/fura": {
+    "title": "Грузоперевозки фура Одинцово - ТК Динамика",
+    "description": "Грузоперевозки фура Одинцово. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/fura/"
+  },
+  "orekhovo-zuevo/mezhgorod": {
+    "title": "Грузоперевозки межгород в Орехово-Зуево - ТК Динамика",
+    "description": "Грузоперевозки межгород в Орехово-Зуево. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/mezhgorod/"
+  },
+  "orekhovo-zuevo/transportnaya": {
+    "title": "Транспортная компания в Орехово-Зуево - ТК Динамика",
+    "description": "Транспортная компания в Орехово-Зуево. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/transportnaya/"
+  },
+  "orekhovo-zuevo/dlinnomer": {
+    "title": "Грузоперевозки длинномер Орехово-Зуево - ТК Динамика",
+    "description": "Грузоперевозки длинномер Орехово-Зуево. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/dlinnomer/"
+  },
+  "orekhovo-zuevo/po-rossii": {
+    "title": "Грузоперевозки по России Орехово-Зуево - ТК Динамика",
+    "description": "Грузоперевозки по России Орехово-Зуево. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/po-rossii/"
+  },
+  "orekhovo-zuevo/fura": {
+    "title": "Грузоперевозки фура Орехово-Зуево - ТК Динамика",
+    "description": "Грузоперевозки фура Орехово-Зуево. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/fura/"
+  },
+  "perm/mezhgorod": {
+    "title": "Грузоперевозки межгород Пермь - ТК Динамика",
+    "description": "Грузоперевозки межгород Пермь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/mezhgorod/"
+  },
+  "perm/transportnaya": {
+    "title": "Транспортная компания Пермь - ТК Динамика",
+    "description": "Транспортная компания Пермь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/transportnaya/"
+  },
+  "perm/dlinnomer": {
+    "title": "Грузоперевозки длинномер Пермь - ТК Динамика",
+    "description": "Грузоперевозки длинномер Пермь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/dlinnomer/"
+  },
+  "perm/po-rossii": {
+    "title": "Грузоперевозки по России Пермь - ТК Динамика",
+    "description": "Грузоперевозки по России Пермь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/po-rossii/"
+  },
+  "perm/fura": {
+    "title": "Грузоперевозки фура Пермь - ТК Динамика",
+    "description": "Грузоперевозки фура Пермь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/fura/"
+  },
+  "podolsk/mezhgorod": {
+    "title": "Грузоперевозки межгород Подольск - ТК Динамика",
+    "description": "Грузоперевозки межгород Подольск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/mezhgorod/"
+  },
+  "podolsk/transportnaya": {
+    "title": "Транспортная компания Подольск - ТК Динамика",
+    "description": "Транспортная компания Подольск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/transportnaya/"
+  },
+  "podolsk/dlinnomer": {
+    "title": "Грузоперевозки длинномер Подольск - ТК Динамика",
+    "description": "Грузоперевозки длинномер Подольск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/dlinnomer/"
+  },
+  "podolsk/po-rossii": {
+    "title": "Грузоперевозки по России Подольск - ТК Динамика",
+    "description": "Грузоперевозки по России Подольск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/po-rossii/"
+  },
+  "podolsk/fura": {
+    "title": "Грузоперевозки фура Подольск - ТК Динамика",
+    "description": "Грузоперевозки фура Подольск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/fura/"
+  },
+  "pushkino/mezhgorod": {
+    "title": "Грузоперевозки межгород Пушкино - ТК Динамика",
+    "description": "Грузоперевозки межгород Пушкино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/mezhgorod/"
+  },
+  "pushkino/transportnaya": {
+    "title": "Транспортная компания Пушкино - ТК Динамика",
+    "description": "Транспортная компания Пушкино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/transportnaya/"
+  },
+  "pushkino/dlinnomer": {
+    "title": "Грузоперевозки длинномер Пушкино - ТК Динамика",
+    "description": "Грузоперевозки длинномер Пушкино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/dlinnomer/"
+  },
+  "pushkino/po-rossii": {
+    "title": "Грузоперевозки по России Пушкино - ТК Динамика",
+    "description": "Грузоперевозки по России Пушкино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/po-rossii/"
+  },
+  "pushkino/fura": {
+    "title": "Грузоперевозки фура Пушкино - ТК Динамика",
+    "description": "Грузоперевозки фура Пушкино. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/fura/"
+  },
+  "ramenskoe/mezhgorod": {
+    "title": "Грузоперевозки межгород Раменское - ТК Динамика",
+    "description": "Грузоперевозки межгород Раменское. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/mezhgorod/"
+  },
+  "ramenskoe/transportnaya": {
+    "title": "Транспортная компания Раменское - ТК Динамика",
+    "description": "Транспортная компания Раменское. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/transportnaya/"
+  },
+  "ramenskoe/dlinnomer": {
+    "title": "Грузоперевозки длинномер Раменское - ТК Динамика",
+    "description": "Грузоперевозки длинномер Раменское. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/dlinnomer/"
+  },
+  "ramenskoe/po-rossii": {
+    "title": "Грузоперевозки по России Раменское - ТК Динамика",
+    "description": "Грузоперевозки по России Раменское. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/po-rossii/"
+  },
+  "ramenskoe/fura": {
+    "title": "Грузоперевозки фура Раменское - ТК Динамика",
+    "description": "Грузоперевозки фура Раменское. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/fura/"
+  },
+  "reutov/mezhgorod": {
+    "title": "Грузоперевозки межгород Реутов - ТК Динамика",
+    "description": "Грузоперевозки межгород Реутов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/mezhgorod/"
+  },
+  "reutov/transportnaya": {
+    "title": "Транспортная компания Реутов - ТК Динамика",
+    "description": "Транспортная компания Реутов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/transportnaya/"
+  },
+  "reutov/dlinnomer": {
+    "title": "Грузоперевозки длинномер Реутов - ТК Динамика",
+    "description": "Грузоперевозки длинномер Реутов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/dlinnomer/"
+  },
+  "reutov/po-rossii": {
+    "title": "Грузоперевозки по России Реутов - ТК Динамика",
+    "description": "Грузоперевозки по России Реутов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/po-rossii/"
+  },
+  "reutov/fura": {
+    "title": "Грузоперевозки фура Реутов - ТК Динамика",
+    "description": "Грузоперевозки фура Реутов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/fura/"
+  },
+  "saint-petersburg/mezhgorod": {
+    "title": "Грузоперевозки межгород Санкт-Петербург - ТК Динамика",
+    "description": "Грузоперевозки межгород Санкт-Петербург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/mezhgorod/"
+  },
+  "saint-petersburg/transportnaya": {
+    "title": "Транспортная компания Санкт-Петербург - ТК Динамика",
+    "description": "Транспортная компания Санкт-Петербург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/transportnaya/"
+  },
+  "saint-petersburg/dlinnomer": {
+    "title": "Грузоперевозки длинномер Санкт-Петербург - ТК Динамика",
+    "description": "Грузоперевозки длинномер Санкт-Петербург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/dlinnomer/"
+  },
+  "saint-petersburg/po-rossii": {
+    "title": "Грузоперевозки по России Санкт-Петербург - ТК Динамика",
+    "description": "Грузоперевозки по России Санкт-Петербург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/po-rossii/"
+  },
+  "saint-petersburg/fura": {
+    "title": "Грузоперевозки фура Санкт-Петербург - ТК Динамика",
+    "description": "Грузоперевозки фура Санкт-Петербург. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/fura/"
+  },
+  "samara/mezhgorod": {
+    "title": "Грузоперевозки межгород Самара - ТК Динамика",
+    "description": "Грузоперевозки межгород Самара. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/mezhgorod/"
+  },
+  "samara/transportnaya": {
+    "title": "Транспортная компания Самара - ТК Динамика",
+    "description": "Транспортная компания Самара. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/transportnaya/"
+  },
+  "samara/dlinnomer": {
+    "title": "Грузоперевозки длинномер Самара - ТК Динамика",
+    "description": "Грузоперевозки длинномер Самара. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/dlinnomer/"
+  },
+  "samara/po-rossii": {
+    "title": "Грузоперевозки по России Самара - ТК Динамика",
+    "description": "Грузоперевозки по России Самара. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/po-rossii/"
+  },
+  "samara/fura": {
+    "title": "Грузоперевозки фура Самара - ТК Динамика",
+    "description": "Грузоперевозки фура Самара. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/fura/"
+  },
+  "sergiev-posad/mezhgorod": {
+    "title": "Грузоперевозки межгород Сергиев Посад - ТК Динамика",
+    "description": "Грузоперевозки межгород Сергиев Посад. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/mezhgorod/"
+  },
+  "sergiev-posad/transportnaya": {
+    "title": "Транспортная компания Сергиев Посад - ТК Динамика",
+    "description": "Транспортная компания Сергиев Посад. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/transportnaya/"
+  },
+  "sergiev-posad/dlinnomer": {
+    "title": "Грузоперевозки длинномер Сергиев Посад - ТК Динамика",
+    "description": "Грузоперевозки длинномер Сергиев Посад. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/dlinnomer/"
+  },
+  "sergiev-posad/po-rossii": {
+    "title": "Грузоперевозки по России Сергиев Посад - ТК Динамика",
+    "description": "Грузоперевозки по России Сергиев Посад. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/po-rossii/"
+  },
+  "sergiev-posad/fura": {
+    "title": "Грузоперевозки фура Сергиев Посад - ТК Динамика",
+    "description": "Грузоперевозки фура Сергиев Посад. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/fura/"
+  },
+  "serpukhov/mezhgorod": {
+    "title": "Грузоперевозки межгород Серпухов - ТК Динамика",
+    "description": "Грузоперевозки межгород Серпухов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/mezhgorod/"
+  },
+  "serpukhov/transportnaya": {
+    "title": "Транспортная компания Серпухов - ТК Динамика",
+    "description": "Транспортная компания Серпухов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/transportnaya/"
+  },
+  "serpukhov/dlinnomer": {
+    "title": "Грузоперевозки длинномер Серпухов - ТК Динамика",
+    "description": "Грузоперевозки длинномер Серпухов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/dlinnomer/"
+  },
+  "serpukhov/po-rossii": {
+    "title": "Грузоперевозки по России Серпухов - ТК Динамика",
+    "description": "Грузоперевозки по России Серпухов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/po-rossii/"
+  },
+  "serpukhov/fura": {
+    "title": "Грузоперевозки фура Серпухов - ТК Динамика",
+    "description": "Грузоперевозки фура Серпухов. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/fura/"
+  },
+  "shchelkovo/mezhgorod": {
+    "title": "Грузоперевозки межгород в Щёлково Щелково - ТК Динамика",
+    "description": "Грузоперевозки межгород в Щёлково Щелково. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/mezhgorod/"
+  },
+  "shchelkovo/transportnaya": {
+    "title": "Транспортная компания в Щёлково Щелково - ТК Динамика",
+    "description": "Транспортная компания в Щёлково Щелково. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/transportnaya/"
+  },
+  "shchelkovo/dlinnomer": {
+    "title": "Грузоперевозки длинномер Щелково - ТК Динамика",
+    "description": "Грузоперевозки длинномер Щелково. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/dlinnomer/"
+  },
+  "shchelkovo/po-rossii": {
+    "title": "Грузоперевозки по России Щёлково Щелково - ТК Динамика",
+    "description": "Грузоперевозки по России Щёлково Щелково. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/po-rossii/"
+  },
+  "shchelkovo/fura": {
+    "title": "Грузоперевозки фура Щёлково Щелково - ТК Динамика",
+    "description": "Грузоперевозки фура Щёлково Щелково. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/fura/"
+  },
+  "tula/mezhgorod": {
+    "title": "Грузоперевозки межгород Тула - ТК Динамика",
+    "description": "Грузоперевозки межгород Тула. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/mezhgorod/"
+  },
+  "tula/transportnaya": {
+    "title": "Транспортная компания Тула - ТК Динамика",
+    "description": "Транспортная компания Тула. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/transportnaya/"
+  },
+  "tula/dlinnomer": {
+    "title": "Грузоперевозки длинномер Тула - ТК Динамика",
+    "description": "Грузоперевозки длинномер Тула. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/dlinnomer/"
+  },
+  "tula/po-rossii": {
+    "title": "Грузоперевозки по России Тула - ТК Динамика",
+    "description": "Грузоперевозки по России Тула. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/po-rossii/"
+  },
+  "tula/fura": {
+    "title": "Грузоперевозки фура Тула - ТК Динамика",
+    "description": "Грузоперевозки фура Тула. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/fura/"
+  },
+  "tver/mezhgorod": {
+    "title": "Грузоперевозки межгород Тверь - ТК Динамика",
+    "description": "Грузоперевозки межгород Тверь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/mezhgorod/"
+  },
+  "tver/transportnaya": {
+    "title": "Транспортная компания Тверь - ТК Динамика",
+    "description": "Транспортная компания Тверь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/transportnaya/"
+  },
+  "tver/dlinnomer": {
+    "title": "Грузоперевозки длинномер Тверь - ТК Динамика",
+    "description": "Грузоперевозки длинномер Тверь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/dlinnomer/"
+  },
+  "tver/po-rossii": {
+    "title": "Грузоперевозки по России Тверь - ТК Динамика",
+    "description": "Грузоперевозки по России Тверь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/po-rossii/"
+  },
+  "tver/fura": {
+    "title": "Грузоперевозки фура Тверь - ТК Динамика",
+    "description": "Грузоперевозки фура Тверь. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/fura/"
+  },
+  "ufa/mezhgorod": {
+    "title": "Грузоперевозки межгород Уфа - ТК Динамика",
+    "description": "Грузоперевозки межгород Уфа. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/mezhgorod/"
+  },
+  "ufa/transportnaya": {
+    "title": "Транспортная компания Уфа - ТК Динамика",
+    "description": "Транспортная компания Уфа. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/transportnaya/"
+  },
+  "ufa/dlinnomer": {
+    "title": "Грузоперевозки длинномер Уфа - ТК Динамика",
+    "description": "Грузоперевозки длинномер Уфа. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/dlinnomer/"
+  },
+  "ufa/po-rossii": {
+    "title": "Грузоперевозки по России Уфа - ТК Динамика",
+    "description": "Грузоперевозки по России Уфа. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/po-rossii/"
+  },
+  "ufa/fura": {
+    "title": "Грузоперевозки фура Уфа - ТК Динамика",
+    "description": "Грузоперевозки фура Уфа. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/fura/"
+  },
+  "voskresensk/mezhgorod": {
+    "title": "Грузоперевозки межгород Воскресенск - ТК Динамика",
+    "description": "Грузоперевозки межгород Воскресенск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/mezhgorod/"
+  },
+  "voskresensk/transportnaya": {
+    "title": "Транспортная компания Воскресенск - ТК Динамика",
+    "description": "Транспортная компания Воскресенск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/transportnaya/"
+  },
+  "voskresensk/dlinnomer": {
+    "title": "Грузоперевозки длинномер Воскресенск - ТК Динамика",
+    "description": "Грузоперевозки длинномер Воскресенск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/dlinnomer/"
+  },
+  "voskresensk/po-rossii": {
+    "title": "Грузоперевозки по России Воскресенск - ТК Динамика",
+    "description": "Грузоперевозки по России Воскресенск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/po-rossii/"
+  },
+  "voskresensk/fura": {
+    "title": "Грузоперевозки фура Воскресенск - ТК Динамика",
+    "description": "Грузоперевозки фура Воскресенск. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/fura/"
+  },
+  "yaroslavl/mezhgorod": {
+    "title": "Грузоперевозки межгород Ярославль - ТК Динамика",
+    "description": "Грузоперевозки межгород Ярославль. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/mezhgorod/"
+  },
+  "yaroslavl/transportnaya": {
+    "title": "Транспортная компания Ярославль - ТК Динамика",
+    "description": "Транспортная компания Ярославль. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/transportnaya/"
+  },
+  "yaroslavl/dlinnomer": {
+    "title": "Грузоперевозки длинномер Ярославль - ТК Динамика",
+    "description": "Грузоперевозки длинномер Ярославль. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/dlinnomer/"
+  },
+  "yaroslavl/po-rossii": {
+    "title": "Грузоперевозки по России Ярославль - ТК Динамика",
+    "description": "Грузоперевозки по России Ярославль. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/po-rossii/"
+  },
+  "yaroslavl/fura": {
+    "title": "Грузоперевозки фура Ярославль - ТК Динамика",
+    "description": "Грузоперевозки фура Ярославль. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/fura/"
+  },
+  "zhukovsky/mezhgorod": {
+    "title": "Грузоперевозки межгород Жуковский - ТК Динамика",
+    "description": "Грузоперевозки межгород Жуковский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/mezhgorod/"
+  },
+  "zhukovsky/transportnaya": {
+    "title": "Транспортная компания Жуковский - ТК Динамика",
+    "description": "Транспортная компания Жуковский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/transportnaya/"
+  },
+  "zhukovsky/dlinnomer": {
+    "title": "Грузоперевозки длинномер Жуковский - ТК Динамика",
+    "description": "Грузоперевозки длинномер Жуковский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/dlinnomer/"
+  },
+  "zhukovsky/po-rossii": {
+    "title": "Грузоперевозки по России Жуковский - ТК Динамика",
+    "description": "Грузоперевозки по России Жуковский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/po-rossii/"
+  },
+  "zhukovsky/fura": {
+    "title": "Грузоперевозки фура Жуковский - ТК Динамика",
+    "description": "Грузоперевозки фура Жуковский. Быстрый расчёт, прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/fura/"
+  }
+}
