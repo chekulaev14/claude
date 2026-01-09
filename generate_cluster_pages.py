@@ -22,6 +22,7 @@ CITY_PHONES_FILE = os.path.join(BASE_DIR, 'data', 'city-phones.json')
 CITY_ADDRESSES_FILE = os.path.join(BASE_DIR, 'data', 'city-addresses.json')
 IMAGE_ALTS_FILE = os.path.join(BASE_DIR, 'data', 'image-alts.json')
 CITIES_FILE = os.path.join(BASE_DIR, 'data', 'cities.json')
+CARGO_CLUSTERS_FILE = os.path.join(BASE_DIR, 'data', 'cargo-clusters.json')
 
 # Словарь городов: url-slug → (именительный, родительный, предложный)
 # 48 городов с SEO-текстами
@@ -330,6 +331,34 @@ def generate_other_clusters_html(current_cluster):
                         <i class="bi {info['icon']}"></i>
                         <h3>{info['title']}</h3>
                         <p>{info['description']}</p>
+                    </a>
+                </div>''')
+    return '\n'.join(html_parts)
+
+
+def load_cargo_clusters():
+    """Загружает конфигурацию cargo-кластеров из JSON"""
+    if os.path.exists(CARGO_CLUSTERS_FILE):
+        with open(CARGO_CLUSTERS_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def generate_cargo_clusters_html(cargo_clusters):
+    """Генерирует HTML блок с cargo-кластерами (перевозка по типам грузов)"""
+    if not cargo_clusters:
+        return ''
+
+    html_parts = []
+    for cluster_slug, config in cargo_clusters.items():
+        icon = config.get('icon', 'bi-box')
+        title = config.get('title', cluster_slug)
+        description = config.get('description', '')
+        html_parts.append(f'''                <div class="col-md-6 col-lg-3">
+                    <a href="../{cluster_slug}/" class="service-card">
+                        <i class="bi {icon}"></i>
+                        <h3>{title}</h3>
+                        <p>{description}</p>
                     </a>
                 </div>''')
     return '\n'.join(html_parts)
@@ -685,7 +714,7 @@ def generate_sections_html(sections, cluster, city, mapping, image_alts, city_na
     return '\n'.join(html_parts)
 
 
-def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data, existing_meta=None):
+def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data, cargo_clusters, existing_meta=None):
     """Генерирует HTML страницу для города и кластера. Если existing_meta передан, использует сохранённые мета-теги."""
 
     # Получаем падежи города
@@ -796,6 +825,10 @@ def generate_cluster_page(city_slug, cluster, template, mapping, city_phones, ci
     other_clusters_html = generate_other_clusters_html(cluster)
     html = html.replace('{{OTHER_CLUSTERS}}', other_clusters_html)
 
+    # Генерируем блок cargo-кластеров (перевозка по типам грузов)
+    cargo_clusters_html = generate_cargo_clusters_html(cargo_clusters)
+    html = html.replace('{{CARGO_CLUSTERS}}', cargo_clusters_html)
+
     # Генерируем FAQ для кластера
     faq_html = generate_faq_html(cluster)
     html = html.replace('{{FAQ_ITEMS}}', faq_html)
@@ -848,6 +881,10 @@ def main():
     meta_mapping = load_meta_mapping()
     print(f"Загружен маппинг мета-тегов: {len(meta_mapping)}\n")
 
+    # Загрузка cargo-кластеров
+    cargo_clusters = load_cargo_clusters()
+    print(f"Загружено cargo-кластеров: {len(cargo_clusters)}\n")
+
     # Загрузка шаблона
     template = load_template()
     print(f"Шаблон: {TEMPLATE_FILE}\n")
@@ -875,7 +912,7 @@ def main():
             existing_meta = get_existing_meta(city_slug, cluster, meta_mapping)
 
             # Генерируем HTML с использованием маппинга и alt-текстов
-            result = generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data, existing_meta)
+            result = generate_cluster_page(city_slug, cluster, template, mapping, city_phones, city_addresses, image_alts, cities_data, cargo_clusters, existing_meta)
 
             if not result:
                 skipped += 1

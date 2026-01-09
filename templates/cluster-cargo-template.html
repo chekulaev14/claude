@@ -110,6 +110,17 @@
     }
     </script>
 
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+{{FAQ_SCHEMA}}
+        ]
+    }
+    </script>
+
     <style>
         .cluster-hero {
             padding-top: 120px;
@@ -156,6 +167,25 @@
             color: #2d3436;
         }
 
+        /* Галерея фото */
+        .photo-gallery {
+            padding: 40px 0;
+        }
+        .photo-gallery .gallery-item {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .photo-gallery .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .photo-gallery .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
         /* Секции контента */
         .content-section {
             padding: 60px 0;
@@ -163,7 +193,6 @@
         }
         .content-section:nth-child(odd) {
             background-color: #f8f9fa;
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
         .content-section h2 {
             font-size: 1.75rem;
@@ -178,80 +207,51 @@
             line-height: 1.8;
             color: #636e72;
         }
-        .content-section ul,
-        .content-section ol {
+        .content-section ul {
             padding-left: 1.5rem;
         }
         .content-section li {
             margin-bottom: 0.5rem;
         }
-        .content-section img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-        .section-text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
 
-        /* Отзывы */
-        .reviews-section {
-            background-color: #f8f9fa;
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            padding: 80px 0;
-        }
-        .reviews-section h2 {
-            text-align: center;
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 3rem;
-            color: #2d3436;
-        }
-        .review-card {
+        /* Таблица */
+        .specs-table {
             background: white;
             border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-            height: 100%;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
-        .review-card .stars {
-            color: #ffc107;
-            margin-bottom: 15px;
-        }
-        .review-card .text {
-            font-size: 15px;
-            line-height: 1.7;
-            color: #636e72;
-            margin-bottom: 20px;
-        }
-        .review-card .author {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-        .review-card .author-avatar {
-            width: 48px;
-            height: 48px;
-            background: #2563eb;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: 700;
-            font-size: 18px;
-        }
-        .review-card .author-info .name {
+        .specs-table th {
+            background: #f8f9fa;
             font-weight: 600;
             color: #2d3436;
+            padding: 1rem;
         }
-        .review-card .author-info .company {
-            font-size: 13px;
-            color: #636e72;
+        .specs-table td {
+            padding: 1rem;
+            vertical-align: middle;
+        }
+        .specs-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        /* FAQ Section */
+        .faq-section .accordion-button {
+            font-weight: 500;
+            padding: 1.25rem 1.5rem;
+        }
+        .faq-section .accordion-button:not(.collapsed) {
+            background-color: #f8f9fa;
+            color: #2563eb;
+        }
+        .faq-section .accordion-item {
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            overflow: hidden;
+        }
+        .faq-section .accordion-body {
+            padding: 1.5rem;
+            line-height: 1.8;
         }
 
         /* Другие услуги */
@@ -286,60 +286,6 @@
             margin-bottom: 0;
         }
 
-        /* FAQ Section */
-        .faq-section .accordion-button {
-            font-weight: 500;
-            padding: 1.25rem 1.5rem;
-        }
-        .faq-section .accordion-button:not(.collapsed) {
-            background-color: #f8f9fa;
-            color: #2563eb;
-        }
-        .faq-section .accordion-item {
-            border-radius: 8px;
-            border: 1px solid #dee2e6;
-            overflow: hidden;
-        }
-        .faq-section .accordion-body {
-            padding: 1.5rem;
-            line-height: 1.8;
-        }
-
-        /* Таблица маршрутов */
-        .routes-table {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-        .routes-table th {
-            font-weight: 600;
-            color: #2d3436;
-            border-bottom: 2px solid #dee2e6;
-            padding: 1rem;
-            white-space: nowrap;
-        }
-        .routes-table td {
-            padding: 1rem;
-            vertical-align: middle;
-        }
-        .routes-table tbody tr:hover {
-            background-color: #f8f9fa;
-        }
-        .routes-table .route-link {
-            color: #2563eb;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        .routes-table .route-link:hover {
-            text-decoration: underline;
-        }
-        .routes-table .price {
-            font-weight: 600;
-            color: #2d3436;
-            white-space: nowrap;
-        }
-
         @media (max-width: 768px) {
             .advantages-icons {
                 gap: 20px;
@@ -347,14 +293,13 @@
             .advantage-item {
                 flex: 1 1 45%;
             }
-            .content-section img {
-                height: 220px;
-                margin-top: 20px;
-            }
-            .routes-table th,
-            .routes-table td {
+            .specs-table th,
+            .specs-table td {
                 padding: 0.75rem 0.5rem;
                 font-size: 0.9rem;
+            }
+            .photo-gallery .gallery-item img {
+                height: 180px;
             }
         }
     </style>
@@ -403,7 +348,46 @@
         </div>
     </section>
 
-{{SECTIONS}}
+    <!-- Галерея фото -->
+    <section class="photo-gallery bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="gallery-item">
+                        <img src="{{IMAGE_1}}" alt="{{IMAGE_ALT_1}}" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="gallery-item">
+                        <img src="{{IMAGE_2}}" alt="{{IMAGE_ALT_2}}" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="gallery-item">
+                        <img src="{{IMAGE_3}}" alt="{{IMAGE_ALT_3}}" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="gallery-item">
+                        <img src="{{IMAGE_4}}" alt="{{IMAGE_ALT_4}}" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Основной контент -->
+{{CONTENT_SECTIONS}}
+
+    <!-- Перевозка по типам грузов -->
+    <section class="other-services py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Перевозка по типам грузов</h2>
+            <div class="row g-4">
+{{OTHER_CARGO_CLUSTERS}}
+            </div>
+        </div>
+    </section>
 
     <!-- Другие услуги -->
     <section class="other-services py-5">
@@ -415,113 +399,12 @@
         </div>
     </section>
 
-    <!-- Перевозка по типам грузов -->
-    <section class="other-services py-5 bg-light">
-        <div class="container">
-            <h2 class="mb-4">Перевозка по типам грузов</h2>
-            <div class="row g-4">
-{{CARGO_CLUSTERS}}
-            </div>
-        </div>
-    </section>
-
-    <!-- Популярные маршруты -->
-    <section class="routes-section py-5 bg-light">
-        <div class="container">
-            <h2 class="mb-4">Популярные маршруты из {{CITY_NAME_GENITIVE}}</h2>
-            <p class="text-muted mb-4">Организуем грузоперевозки по всем направлениям. Цены указаны ориентировочно.</p>
-            <div class="table-responsive">
-                <table class="table table-hover routes-table">
-                    <thead class="table-light">
-                        <tr>
-                            <th>Маршрут</th>
-                            <th>Расстояние</th>
-                            <th>1-3 т</th>
-                            <th>5 т</th>
-                            <th>10 т</th>
-                            <th>20 т</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-{{ROUTES_TABLE}}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
     <!-- FAQ Section -->
     <section class="faq-section py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">Часто задаваемые вопросы</h2>
             <div class="accordion" id="faqAccordion">
 {{FAQ_ITEMS}}
-            </div>
-        </div>
-    </section>
-
-    <!-- Отзывы -->
-    <section class="reviews-section">
-        <div class="container">
-            <h2>Отзывы наших клиентов</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="review-card">
-                        <div class="stars">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <p class="text">Заказывали перевозку оборудования из {{CITY_NAME_GENITIVE}} в Казань. Всё прошло отлично — машина подана вовремя, груз доставлен без повреждений. Особенно понравилась прозрачность ценообразования.</p>
-                        <div class="author">
-                            <div class="author-avatar">АС</div>
-                            <div class="author-info">
-                                <div class="name">Алексей Смирнов</div>
-                                <div class="company">ООО "ТехноСтрой"</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="review-card">
-                        <div class="stars">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <p class="text">Работаем с Динамикой уже полгода. Регулярно отправляем товар в регионы. Всегда быстро находят транспорт, даже на срочные заявки. Рекомендую!</p>
-                        <div class="author">
-                            <div class="author-avatar">МК</div>
-                            <div class="author-info">
-                                <div class="name">Марина Козлова</div>
-                                <div class="company">ИП Козлова М.В.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="review-card">
-                        <div class="stars">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half"></i>
-                        </div>
-                        <p class="text">Переезжали офис из {{CITY_NAME_GENITIVE}} в Нижний Новгород. Ребята помогли организовать перевозку мебели и техники. Всё аккуратно упаковали и доставили в целости.</p>
-                        <div class="author">
-                            <div class="author-avatar">ДП</div>
-                            <div class="author-info">
-                                <div class="name">Дмитрий Петров</div>
-                                <div class="company">Частный клиент</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -607,13 +490,11 @@
                 controls: ['zoomControl', 'fullscreenControl']
             });
 
-            // Геокодируем адрес и ставим метку
             var address = "{{CITY_NAME}}, {{BC_STREET}}";
             ymaps.geocode(address).then(function (res) {
                 var firstGeoObject = res.geoObjects.get(0);
                 var coords = firstGeoObject.geometry.getCoordinates();
 
-                // Добавляем метку без балуна
                 var placemark = new ymaps.Placemark(coords, {}, {
                     preset: 'islands#redIcon',
                     balloonPanelMaxMapArea: 0

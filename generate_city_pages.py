@@ -21,6 +21,7 @@ PHONES_FILE = os.path.join(BASE_DIR, 'data', 'city-phones.json')
 TEMPLATE_FILE = os.path.join(BASE_DIR, 'templates', 'city-index-template.html')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'regions')
 META_MAPPING_FILE = os.path.join(BASE_DIR, 'data', 'cities-meta-mapping.json')
+CARGO_CLUSTERS_FILE = os.path.join(BASE_DIR, 'data', 'cargo-clusters.json')
 
 def load_cities():
     """Загружает данные городов из JSON"""
@@ -41,6 +42,34 @@ def load_template():
     """Загружает HTML шаблон"""
     with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
         return f.read()
+
+
+def load_cargo_clusters():
+    """Загружает конфигурацию cargo-кластеров из JSON"""
+    if os.path.exists(CARGO_CLUSTERS_FILE):
+        with open(CARGO_CLUSTERS_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def generate_cargo_clusters_html(cargo_clusters):
+    """Генерирует HTML блок с cargo-кластерами (перевозка по типам грузов)"""
+    if not cargo_clusters:
+        return ''
+
+    html_parts = []
+    for cluster_slug, config in cargo_clusters.items():
+        icon = config.get('icon', 'bi-box')
+        title = config.get('title', cluster_slug)
+        description = config.get('description', '')
+        html_parts.append(f'''                <div class="col-md-6 col-lg-3">
+                    <a href="{cluster_slug}/" class="service-card">
+                        <i class="bi {icon}"></i>
+                        <h3>{title}</h3>
+                        <p>{description}</p>
+                    </a>
+                </div>''')
+    return '\n'.join(html_parts)
 
 
 def load_meta_mapping():
@@ -90,7 +119,7 @@ def get_existing_meta(city_slug, meta_mapping):
     return None
 
 
-def generate_city_page(city_slug, city_data, addresses, phones, template, existing_meta=None):
+def generate_city_page(city_slug, city_data, addresses, phones, template, cargo_clusters, existing_meta=None):
     """Генерирует HTML страницу для города. Если existing_meta передан, использует сохранённые мета-теги."""
     city_name = city_data['name']
 
@@ -138,6 +167,10 @@ def generate_city_page(city_slug, city_data, addresses, phones, template, existi
     phone = phones.get(city_slug, '')
     html = html.replace('{{PHONE_CITY}}', phone)
 
+    # Генерируем блок cargo-кластеров (перевозка по типам грузов)
+    cargo_clusters_html = generate_cargo_clusters_html(cargo_clusters)
+    html = html.replace('{{CARGO_CLUSTERS}}', cargo_clusters_html)
+
     # Возвращаем HTML и мета-теги для сохранения
     generated_meta = {
         'title': meta_title,
@@ -164,11 +197,13 @@ def main():
     phones = load_phones()
     template = load_template()
     meta_mapping = load_meta_mapping()
+    cargo_clusters = load_cargo_clusters()
 
     print(f"Загружено городов: {len(cities)}")
     print(f"Загружено адресов БЦ: {len(addresses)}")
     print(f"Загружено телефонов: {len(phones)}")
     print(f"Загружено мета-тегов: {len(meta_mapping)}")
+    print(f"Загружено cargo-кластеров: {len(cargo_clusters)}")
     print(f"Шаблон: {TEMPLATE_FILE}\n")
 
     # Фильтруем города если указан --city
@@ -196,7 +231,7 @@ def main():
         existing_meta = get_existing_meta(city_slug, meta_mapping)
 
         # Генерируем HTML
-        html, generated_meta = generate_city_page(city_slug, city_data, addresses, phones, template, existing_meta)
+        html, generated_meta = generate_city_page(city_slug, city_data, addresses, phones, template, cargo_clusters, existing_meta)
 
         # Сохраняем мета-теги в маппинг
         meta_mapping[city_slug] = generated_meta
