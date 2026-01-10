@@ -1726,5 +1726,293 @@
     "/assets/images/clusters/emkosti/5.webp",
     "/assets/images/clusters/emkosti/19.webp",
     "/assets/images/clusters/emkosti/10.webp"
+  ],
+  "balashikha/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/11.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp"
+  ],
+  "chekhov/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/4.webp",
+    "/assets/images/clusters/pilomaterialy/3.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp"
+  ],
+  "chelyabinsk/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp",
+    "/assets/images/clusters/pilomaterialy/3.webp"
+  ],
+  "dmitrov/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/13.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp",
+    "/assets/images/clusters/pilomaterialy/11.webp",
+    "/assets/images/clusters/pilomaterialy/9.webp"
+  ],
+  "dolgoprudny/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp",
+    "/assets/images/clusters/pilomaterialy/8.webp",
+    "/assets/images/clusters/pilomaterialy/11.webp"
+  ],
+  "domodedovo/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/11.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp"
+  ],
+  "dubna/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/13.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp"
+  ],
+  "dzerzhinsky/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/4.webp"
+  ],
+  "egoryevsk/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/7.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/11.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp"
+  ],
+  "ekaterinburg/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/11.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/4.webp"
+  ],
+  "elektrostal/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/8.webp"
+  ],
+  "fryazino/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/8.webp",
+    "/assets/images/clusters/pilomaterialy/11.webp",
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp"
+  ],
+  "ivanteyevka/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/16.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp"
+  ],
+  "izhevsk/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/13.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/3.webp"
+  ],
+  "kaluga/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/9.webp",
+    "/assets/images/clusters/pilomaterialy/13.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp"
+  ],
+  "kazan/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp"
+  ],
+  "khimki/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/8.webp"
+  ],
+  "klin/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/11.webp"
+  ],
+  "kolomna/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/8.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp"
+  ],
+  "korolev/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/11.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/4.webp",
+    "/assets/images/clusters/pilomaterialy/16.webp"
+  ],
+  "krasnogorsk/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/9.webp",
+    "/assets/images/clusters/pilomaterialy/16.webp"
+  ],
+  "lobnya/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/8.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp"
+  ],
+  "lyubertsy/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/4.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/13.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp"
+  ],
+  "moskva/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp",
+    "/assets/images/clusters/pilomaterialy/3.webp"
+  ],
+  "mytishchi/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp"
+  ],
+  "naberezhnye-chelny/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/16.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp"
+  ],
+  "nizhnekamsk/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp"
+  ],
+  "nizhny-novgorod/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp"
+  ],
+  "noginsk/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp",
+    "/assets/images/clusters/pilomaterialy/11.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp"
+  ],
+  "obninsk/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/16.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp"
+  ],
+  "odintsovo/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/4.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp"
+  ],
+  "orekhovo-zuevo/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/11.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/3.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp"
+  ],
+  "perm/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/8.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp"
+  ],
+  "podolsk/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/13.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp"
+  ],
+  "pushkino/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/9.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp"
+  ],
+  "ramenskoe/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/16.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp"
+  ],
+  "reutov/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/9.webp",
+    "/assets/images/clusters/pilomaterialy/3.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/8.webp"
+  ],
+  "saint-petersburg/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/9.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp"
+  ],
+  "samara/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/9.webp",
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp"
+  ],
+  "sergiev-posad/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/4.webp",
+    "/assets/images/clusters/pilomaterialy/8.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp"
+  ],
+  "serpukhov/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/6.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp"
+  ],
+  "shchelkovo/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/4.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp",
+    "/assets/images/clusters/pilomaterialy/9.webp"
+  ],
+  "tula/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/9.webp",
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/12.webp"
+  ],
+  "tver/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/5.webp",
+    "/assets/images/clusters/pilomaterialy/4.webp",
+    "/assets/images/clusters/pilomaterialy/14.webp",
+    "/assets/images/clusters/pilomaterialy/3.webp"
+  ],
+  "ufa/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/6.webp",
+    "/assets/images/clusters/pilomaterialy/8.webp",
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/11.webp"
+  ],
+  "voskresensk/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/9.webp",
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/15.webp"
+  ],
+  "yaroslavl/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/2.webp",
+    "/assets/images/clusters/pilomaterialy/6.webp",
+    "/assets/images/clusters/pilomaterialy/4.webp",
+    "/assets/images/clusters/pilomaterialy/7.webp"
+  ],
+  "zhukovsky/pilomaterialy": [
+    "/assets/images/clusters/pilomaterialy/10.webp",
+    "/assets/images/clusters/pilomaterialy/12.webp",
+    "/assets/images/clusters/pilomaterialy/1.webp",
+    "/assets/images/clusters/pilomaterialy/11.webp"
   ]
 }

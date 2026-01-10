@@ -1438,5 +1438,245 @@
     "title": "Ёмкости Жуковский",
     "description": "Ёмкости Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
     "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/emkosti/"
+  },
+  "balashikha/pilomaterialy": {
+    "title": "Пиломатериалы Балашиха",
+    "description": "Пиломатериалы Балашиха. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/pilomaterialy/"
+  },
+  "chekhov/pilomaterialy": {
+    "title": "Пиломатериалы Чехов",
+    "description": "Пиломатериалы Чехов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/pilomaterialy/"
+  },
+  "chelyabinsk/pilomaterialy": {
+    "title": "Пиломатериалы Челябинск",
+    "description": "Пиломатериалы Челябинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/pilomaterialy/"
+  },
+  "dmitrov/pilomaterialy": {
+    "title": "Пиломатериалы Дмитров",
+    "description": "Пиломатериалы Дмитров. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/pilomaterialy/"
+  },
+  "dolgoprudny/pilomaterialy": {
+    "title": "Пиломатериалы Долгопрудный",
+    "description": "Пиломатериалы Долгопрудный. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/pilomaterialy/"
+  },
+  "domodedovo/pilomaterialy": {
+    "title": "Пиломатериалы Домодедово",
+    "description": "Пиломатериалы Домодедово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/pilomaterialy/"
+  },
+  "dubna/pilomaterialy": {
+    "title": "Пиломатериалы Дубна",
+    "description": "Пиломатериалы Дубна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/pilomaterialy/"
+  },
+  "dzerzhinsky/pilomaterialy": {
+    "title": "Пиломатериалы Дзержинский",
+    "description": "Пиломатериалы Дзержинский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/pilomaterialy/"
+  },
+  "egoryevsk/pilomaterialy": {
+    "title": "Пиломатериалы Егорьевск",
+    "description": "Пиломатериалы Егорьевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/pilomaterialy/"
+  },
+  "ekaterinburg/pilomaterialy": {
+    "title": "Пиломатериалы Екатеринбург",
+    "description": "Пиломатериалы Екатеринбург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/pilomaterialy/"
+  },
+  "elektrostal/pilomaterialy": {
+    "title": "Пиломатериалы Электросталь",
+    "description": "Пиломатериалы Электросталь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/pilomaterialy/"
+  },
+  "fryazino/pilomaterialy": {
+    "title": "Пиломатериалы Фрязино",
+    "description": "Пиломатериалы Фрязино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/pilomaterialy/"
+  },
+  "ivanteyevka/pilomaterialy": {
+    "title": "Пиломатериалы Ивантеевка",
+    "description": "Пиломатериалы Ивантеевка. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/pilomaterialy/"
+  },
+  "izhevsk/pilomaterialy": {
+    "title": "Пиломатериалы Ижевск",
+    "description": "Пиломатериалы Ижевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/pilomaterialy/"
+  },
+  "kaluga/pilomaterialy": {
+    "title": "Пиломатериалы Калуга",
+    "description": "Пиломатериалы Калуга. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/pilomaterialy/"
+  },
+  "kazan/pilomaterialy": {
+    "title": "Пиломатериалы Казань",
+    "description": "Пиломатериалы Казань. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/pilomaterialy/"
+  },
+  "khimki/pilomaterialy": {
+    "title": "Пиломатериалы Химки",
+    "description": "Пиломатериалы Химки. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/pilomaterialy/"
+  },
+  "klin/pilomaterialy": {
+    "title": "Пиломатериалы Клин",
+    "description": "Пиломатериалы Клин. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/pilomaterialy/"
+  },
+  "kolomna/pilomaterialy": {
+    "title": "Пиломатериалы Коломна",
+    "description": "Пиломатериалы Коломна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/pilomaterialy/"
+  },
+  "korolev/pilomaterialy": {
+    "title": "Пиломатериалы Королёв",
+    "description": "Пиломатериалы Королёв. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/pilomaterialy/"
+  },
+  "krasnogorsk/pilomaterialy": {
+    "title": "Пиломатериалы Красногорск",
+    "description": "Пиломатериалы Красногорск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/pilomaterialy/"
+  },
+  "lobnya/pilomaterialy": {
+    "title": "Пиломатериалы Лобня",
+    "description": "Пиломатериалы Лобня. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/pilomaterialy/"
+  },
+  "lyubertsy/pilomaterialy": {
+    "title": "Пиломатериалы Люберцы",
+    "description": "Пиломатериалы Люберцы. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/pilomaterialy/"
+  },
+  "moskva/pilomaterialy": {
+    "title": "Пиломатериалы Москва",
+    "description": "Пиломатериалы Москва. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/pilomaterialy/"
+  },
+  "mytishchi/pilomaterialy": {
+    "title": "Пиломатериалы Мытищи",
+    "description": "Пиломатериалы Мытищи. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/pilomaterialy/"
+  },
+  "naberezhnye-chelny/pilomaterialy": {
+    "title": "Пиломатериалы Набережные Челны",
+    "description": "Пиломатериалы Набережные Челны. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/pilomaterialy/"
+  },
+  "nizhnekamsk/pilomaterialy": {
+    "title": "Пиломатериалы Нижнекамск",
+    "description": "Пиломатериалы Нижнекамск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/pilomaterialy/"
+  },
+  "nizhny-novgorod/pilomaterialy": {
+    "title": "Пиломатериалы Нижний Новгород",
+    "description": "Пиломатериалы Нижний Новгород. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/pilomaterialy/"
+  },
+  "noginsk/pilomaterialy": {
+    "title": "Пиломатериалы Ногинск",
+    "description": "Пиломатериалы Ногинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/pilomaterialy/"
+  },
+  "obninsk/pilomaterialy": {
+    "title": "Пиломатериалы Обнинск",
+    "description": "Пиломатериалы Обнинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/pilomaterialy/"
+  },
+  "odintsovo/pilomaterialy": {
+    "title": "Пиломатериалы Одинцово",
+    "description": "Пиломатериалы Одинцово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/pilomaterialy/"
+  },
+  "orekhovo-zuevo/pilomaterialy": {
+    "title": "Пиломатериалы Орехово-Зуево",
+    "description": "Пиломатериалы Орехово-Зуево. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/pilomaterialy/"
+  },
+  "perm/pilomaterialy": {
+    "title": "Пиломатериалы Пермь",
+    "description": "Пиломатериалы Пермь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/pilomaterialy/"
+  },
+  "podolsk/pilomaterialy": {
+    "title": "Пиломатериалы Подольск",
+    "description": "Пиломатериалы Подольск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/pilomaterialy/"
+  },
+  "pushkino/pilomaterialy": {
+    "title": "Пиломатериалы Пушкино",
+    "description": "Пиломатериалы Пушкино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/pilomaterialy/"
+  },
+  "ramenskoe/pilomaterialy": {
+    "title": "Пиломатериалы Раменское",
+    "description": "Пиломатериалы Раменское. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/pilomaterialy/"
+  },
+  "reutov/pilomaterialy": {
+    "title": "Пиломатериалы Реутов",
+    "description": "Пиломатериалы Реутов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/pilomaterialy/"
+  },
+  "saint-petersburg/pilomaterialy": {
+    "title": "Пиломатериалы Санкт-Петербург",
+    "description": "Пиломатериалы Санкт-Петербург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/pilomaterialy/"
+  },
+  "samara/pilomaterialy": {
+    "title": "Пиломатериалы Самара",
+    "description": "Пиломатериалы Самара. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/pilomaterialy/"
+  },
+  "sergiev-posad/pilomaterialy": {
+    "title": "Пиломатериалы Сергиев Посад",
+    "description": "Пиломатериалы Сергиев Посад. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/pilomaterialy/"
+  },
+  "serpukhov/pilomaterialy": {
+    "title": "Пиломатериалы Серпухов",
+    "description": "Пиломатериалы Серпухов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/pilomaterialy/"
+  },
+  "shchelkovo/pilomaterialy": {
+    "title": "Пиломатериалы Щелково",
+    "description": "Пиломатериалы Щелково. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/pilomaterialy/"
+  },
+  "tula/pilomaterialy": {
+    "title": "Пиломатериалы Тула",
+    "description": "Пиломатериалы Тула. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/pilomaterialy/"
+  },
+  "tver/pilomaterialy": {
+    "title": "Пиломатериалы Тверь",
+    "description": "Пиломатериалы Тверь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/pilomaterialy/"
+  },
+  "ufa/pilomaterialy": {
+    "title": "Пиломатериалы Уфа",
+    "description": "Пиломатериалы Уфа. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/pilomaterialy/"
+  },
+  "voskresensk/pilomaterialy": {
+    "title": "Пиломатериалы Воскресенск",
+    "description": "Пиломатериалы Воскресенск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/pilomaterialy/"
+  },
+  "yaroslavl/pilomaterialy": {
+    "title": "Пиломатериалы Ярославль",
+    "description": "Пиломатериалы Ярославль. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/pilomaterialy/"
+  },
+  "zhukovsky/pilomaterialy": {
+    "title": "Пиломатериалы Жуковский",
+    "description": "Пиломатериалы Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/pilomaterialy/"
   }
 }
