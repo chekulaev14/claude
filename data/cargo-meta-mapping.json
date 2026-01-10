@@ -1918,5 +1918,245 @@
     "title": "Водный транспорт Жуковский",
     "description": "Водный транспорт Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
     "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/vodnyj-transport/"
+  },
+  "balashikha/lep": {
+    "title": "Опоры ЛЭП Балашиха",
+    "description": "Опоры ЛЭП Балашиха. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/lep/"
+  },
+  "chekhov/lep": {
+    "title": "Опоры ЛЭП Чехов",
+    "description": "Опоры ЛЭП Чехов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/lep/"
+  },
+  "chelyabinsk/lep": {
+    "title": "Опоры ЛЭП Челябинск",
+    "description": "Опоры ЛЭП Челябинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/lep/"
+  },
+  "dmitrov/lep": {
+    "title": "Опоры ЛЭП Дмитров",
+    "description": "Опоры ЛЭП Дмитров. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/lep/"
+  },
+  "dolgoprudny/lep": {
+    "title": "Опоры ЛЭП Долгопрудный",
+    "description": "Опоры ЛЭП Долгопрудный. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/lep/"
+  },
+  "domodedovo/lep": {
+    "title": "Опоры ЛЭП Домодедово",
+    "description": "Опоры ЛЭП Домодедово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/lep/"
+  },
+  "dubna/lep": {
+    "title": "Опоры ЛЭП Дубна",
+    "description": "Опоры ЛЭП Дубна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/lep/"
+  },
+  "dzerzhinsky/lep": {
+    "title": "Опоры ЛЭП Дзержинский",
+    "description": "Опоры ЛЭП Дзержинский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/lep/"
+  },
+  "egoryevsk/lep": {
+    "title": "Опоры ЛЭП Егорьевск",
+    "description": "Опоры ЛЭП Егорьевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/lep/"
+  },
+  "ekaterinburg/lep": {
+    "title": "Опоры ЛЭП Екатеринбург",
+    "description": "Опоры ЛЭП Екатеринбург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/lep/"
+  },
+  "elektrostal/lep": {
+    "title": "Опоры ЛЭП Электросталь",
+    "description": "Опоры ЛЭП Электросталь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/lep/"
+  },
+  "fryazino/lep": {
+    "title": "Опоры ЛЭП Фрязино",
+    "description": "Опоры ЛЭП Фрязино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/lep/"
+  },
+  "ivanteyevka/lep": {
+    "title": "Опоры ЛЭП Ивантеевка",
+    "description": "Опоры ЛЭП Ивантеевка. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/lep/"
+  },
+  "izhevsk/lep": {
+    "title": "Опоры ЛЭП Ижевск",
+    "description": "Опоры ЛЭП Ижевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/lep/"
+  },
+  "kaluga/lep": {
+    "title": "Опоры ЛЭП Калуга",
+    "description": "Опоры ЛЭП Калуга. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/lep/"
+  },
+  "kazan/lep": {
+    "title": "Опоры ЛЭП Казань",
+    "description": "Опоры ЛЭП Казань. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/lep/"
+  },
+  "khimki/lep": {
+    "title": "Опоры ЛЭП Химки",
+    "description": "Опоры ЛЭП Химки. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/lep/"
+  },
+  "klin/lep": {
+    "title": "Опоры ЛЭП Клин",
+    "description": "Опоры ЛЭП Клин. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/lep/"
+  },
+  "kolomna/lep": {
+    "title": "Опоры ЛЭП Коломна",
+    "description": "Опоры ЛЭП Коломна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/lep/"
+  },
+  "korolev/lep": {
+    "title": "Опоры ЛЭП Королёв",
+    "description": "Опоры ЛЭП Королёв. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/lep/"
+  },
+  "krasnogorsk/lep": {
+    "title": "Опоры ЛЭП Красногорск",
+    "description": "Опоры ЛЭП Красногорск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/lep/"
+  },
+  "lobnya/lep": {
+    "title": "Опоры ЛЭП Лобня",
+    "description": "Опоры ЛЭП Лобня. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/lep/"
+  },
+  "lyubertsy/lep": {
+    "title": "Опоры ЛЭП Люберцы",
+    "description": "Опоры ЛЭП Люберцы. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/lep/"
+  },
+  "moskva/lep": {
+    "title": "Опоры ЛЭП Москва",
+    "description": "Опоры ЛЭП Москва. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/lep/"
+  },
+  "mytishchi/lep": {
+    "title": "Опоры ЛЭП Мытищи",
+    "description": "Опоры ЛЭП Мытищи. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/lep/"
+  },
+  "naberezhnye-chelny/lep": {
+    "title": "Опоры ЛЭП Набережные Челны",
+    "description": "Опоры ЛЭП Набережные Челны. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/lep/"
+  },
+  "nizhnekamsk/lep": {
+    "title": "Опоры ЛЭП Нижнекамск",
+    "description": "Опоры ЛЭП Нижнекамск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/lep/"
+  },
+  "nizhny-novgorod/lep": {
+    "title": "Опоры ЛЭП Нижний Новгород",
+    "description": "Опоры ЛЭП Нижний Новгород. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/lep/"
+  },
+  "noginsk/lep": {
+    "title": "Опоры ЛЭП Ногинск",
+    "description": "Опоры ЛЭП Ногинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/lep/"
+  },
+  "obninsk/lep": {
+    "title": "Опоры ЛЭП Обнинск",
+    "description": "Опоры ЛЭП Обнинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/lep/"
+  },
+  "odintsovo/lep": {
+    "title": "Опоры ЛЭП Одинцово",
+    "description": "Опоры ЛЭП Одинцово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/lep/"
+  },
+  "orekhovo-zuevo/lep": {
+    "title": "Опоры ЛЭП Орехово-Зуево",
+    "description": "Опоры ЛЭП Орехово-Зуево. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/lep/"
+  },
+  "perm/lep": {
+    "title": "Опоры ЛЭП Пермь",
+    "description": "Опоры ЛЭП Пермь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/lep/"
+  },
+  "podolsk/lep": {
+    "title": "Опоры ЛЭП Подольск",
+    "description": "Опоры ЛЭП Подольск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/lep/"
+  },
+  "pushkino/lep": {
+    "title": "Опоры ЛЭП Пушкино",
+    "description": "Опоры ЛЭП Пушкино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/lep/"
+  },
+  "ramenskoe/lep": {
+    "title": "Опоры ЛЭП Раменское",
+    "description": "Опоры ЛЭП Раменское. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/lep/"
+  },
+  "reutov/lep": {
+    "title": "Опоры ЛЭП Реутов",
+    "description": "Опоры ЛЭП Реутов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/lep/"
+  },
+  "saint-petersburg/lep": {
+    "title": "Опоры ЛЭП Санкт-Петербург",
+    "description": "Опоры ЛЭП Санкт-Петербург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/lep/"
+  },
+  "samara/lep": {
+    "title": "Опоры ЛЭП Самара",
+    "description": "Опоры ЛЭП Самара. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/lep/"
+  },
+  "sergiev-posad/lep": {
+    "title": "Опоры ЛЭП Сергиев Посад",
+    "description": "Опоры ЛЭП Сергиев Посад. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/lep/"
+  },
+  "serpukhov/lep": {
+    "title": "Опоры ЛЭП Серпухов",
+    "description": "Опоры ЛЭП Серпухов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/lep/"
+  },
+  "shchelkovo/lep": {
+    "title": "Опоры ЛЭП Щелково",
+    "description": "Опоры ЛЭП Щелково. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/lep/"
+  },
+  "tula/lep": {
+    "title": "Опоры ЛЭП Тула",
+    "description": "Опоры ЛЭП Тула. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/lep/"
+  },
+  "tver/lep": {
+    "title": "Опоры ЛЭП Тверь",
+    "description": "Опоры ЛЭП Тверь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/lep/"
+  },
+  "ufa/lep": {
+    "title": "Опоры ЛЭП Уфа",
+    "description": "Опоры ЛЭП Уфа. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/lep/"
+  },
+  "voskresensk/lep": {
+    "title": "Опоры ЛЭП Воскресенск",
+    "description": "Опоры ЛЭП Воскресенск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/lep/"
+  },
+  "yaroslavl/lep": {
+    "title": "Опоры ЛЭП Ярославль",
+    "description": "Опоры ЛЭП Ярославль. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/lep/"
+  },
+  "zhukovsky/lep": {
+    "title": "Опоры ЛЭП Жуковский",
+    "description": "Опоры ЛЭП Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/lep/"
   }
 }

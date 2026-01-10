@@ -2302,5 +2302,293 @@
     "/assets/images/clusters/vodnyj-transport/14.webp",
     "/assets/images/clusters/vodnyj-transport/12.webp",
     "/assets/images/clusters/vodnyj-transport/13.webp"
+  ],
+  "balashikha/lep": [
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/9.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/7.webp"
+  ],
+  "chekhov/lep": [
+    "/assets/images/clusters/lep/5.webp",
+    "/assets/images/clusters/lep/7.webp",
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/6.webp"
+  ],
+  "chelyabinsk/lep": [
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/6.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/14.webp"
+  ],
+  "dmitrov/lep": [
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/3.webp"
+  ],
+  "dolgoprudny/lep": [
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/6.webp"
+  ],
+  "domodedovo/lep": [
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/6.webp"
+  ],
+  "dubna/lep": [
+    "/assets/images/clusters/lep/13.webp",
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/9.webp",
+    "/assets/images/clusters/lep/2.webp"
+  ],
+  "dzerzhinsky/lep": [
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/13.webp",
+    "/assets/images/clusters/lep/6.webp",
+    "/assets/images/clusters/lep/3.webp"
+  ],
+  "egoryevsk/lep": [
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/7.webp"
+  ],
+  "ekaterinburg/lep": [
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/8.webp"
+  ],
+  "elektrostal/lep": [
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/8.webp"
+  ],
+  "fryazino/lep": [
+    "/assets/images/clusters/lep/7.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/5.webp"
+  ],
+  "ivanteyevka/lep": [
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/9.webp"
+  ],
+  "izhevsk/lep": [
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/5.webp",
+    "/assets/images/clusters/lep/13.webp"
+  ],
+  "kaluga/lep": [
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/8.webp"
+  ],
+  "kazan/lep": [
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/5.webp",
+    "/assets/images/clusters/lep/11.webp"
+  ],
+  "khimki/lep": [
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/8.webp"
+  ],
+  "klin/lep": [
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/6.webp",
+    "/assets/images/clusters/lep/5.webp"
+  ],
+  "kolomna/lep": [
+    "/assets/images/clusters/lep/6.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/4.webp"
+  ],
+  "korolev/lep": [
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/6.webp"
+  ],
+  "krasnogorsk/lep": [
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/5.webp",
+    "/assets/images/clusters/lep/13.webp"
+  ],
+  "lobnya/lep": [
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/9.webp",
+    "/assets/images/clusters/lep/12.webp"
+  ],
+  "lyubertsy/lep": [
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/14.webp"
+  ],
+  "moskva/lep": [
+    "/assets/images/clusters/lep/5.webp",
+    "/assets/images/clusters/lep/9.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/11.webp"
+  ],
+  "mytishchi/lep": [
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/12.webp"
+  ],
+  "naberezhnye-chelny/lep": [
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/3.webp"
+  ],
+  "nizhnekamsk/lep": [
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/9.webp",
+    "/assets/images/clusters/lep/13.webp"
+  ],
+  "nizhny-novgorod/lep": [
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/14.webp"
+  ],
+  "noginsk/lep": [
+    "/assets/images/clusters/lep/5.webp",
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/11.webp"
+  ],
+  "obninsk/lep": [
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/7.webp"
+  ],
+  "odintsovo/lep": [
+    "/assets/images/clusters/lep/6.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/11.webp"
+  ],
+  "orekhovo-zuevo/lep": [
+    "/assets/images/clusters/lep/6.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/13.webp"
+  ],
+  "perm/lep": [
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/12.webp"
+  ],
+  "podolsk/lep": [
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/7.webp",
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/1.webp"
+  ],
+  "pushkino/lep": [
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/9.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/1.webp"
+  ],
+  "ramenskoe/lep": [
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/9.webp"
+  ],
+  "reutov/lep": [
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/9.webp"
+  ],
+  "saint-petersburg/lep": [
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/6.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/13.webp"
+  ],
+  "samara/lep": [
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/7.webp",
+    "/assets/images/clusters/lep/1.webp"
+  ],
+  "sergiev-posad/lep": [
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/5.webp",
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/6.webp"
+  ],
+  "serpukhov/lep": [
+    "/assets/images/clusters/lep/9.webp",
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/13.webp"
+  ],
+  "shchelkovo/lep": [
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/4.webp"
+  ],
+  "tula/lep": [
+    "/assets/images/clusters/lep/14.webp",
+    "/assets/images/clusters/lep/4.webp",
+    "/assets/images/clusters/lep/6.webp",
+    "/assets/images/clusters/lep/13.webp"
+  ],
+  "tver/lep": [
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/13.webp",
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/5.webp"
+  ],
+  "ufa/lep": [
+    "/assets/images/clusters/lep/9.webp",
+    "/assets/images/clusters/lep/5.webp",
+    "/assets/images/clusters/lep/8.webp",
+    "/assets/images/clusters/lep/7.webp"
+  ],
+  "voskresensk/lep": [
+    "/assets/images/clusters/lep/2.webp",
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/6.webp",
+    "/assets/images/clusters/lep/13.webp"
+  ],
+  "yaroslavl/lep": [
+    "/assets/images/clusters/lep/1.webp",
+    "/assets/images/clusters/lep/10.webp",
+    "/assets/images/clusters/lep/11.webp",
+    "/assets/images/clusters/lep/4.webp"
+  ],
+  "zhukovsky/lep": [
+    "/assets/images/clusters/lep/3.webp",
+    "/assets/images/clusters/lep/7.webp",
+    "/assets/images/clusters/lep/12.webp",
+    "/assets/images/clusters/lep/14.webp"
   ]
 }
