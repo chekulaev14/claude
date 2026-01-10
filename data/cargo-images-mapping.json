@@ -2014,5 +2014,293 @@
     "/assets/images/clusters/pilomaterialy/12.webp",
     "/assets/images/clusters/pilomaterialy/1.webp",
     "/assets/images/clusters/pilomaterialy/11.webp"
+  ],
+  "balashikha/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp"
+  ],
+  "chekhov/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/10.webp"
+  ],
+  "chelyabinsk/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/5.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/14.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp"
+  ],
+  "dmitrov/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/14.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp"
+  ],
+  "dolgoprudny/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp",
+    "/assets/images/clusters/vodnyj-transport/10.webp"
+  ],
+  "domodedovo/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/8.webp",
+    "/assets/images/clusters/vodnyj-transport/10.webp",
+    "/assets/images/clusters/vodnyj-transport/5.webp",
+    "/assets/images/clusters/vodnyj-transport/4.webp"
+  ],
+  "dubna/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp"
+  ],
+  "dzerzhinsky/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/12.webp",
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp"
+  ],
+  "egoryevsk/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/8.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/5.webp"
+  ],
+  "ekaterinburg/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/15.webp",
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp"
+  ],
+  "elektrostal/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/12.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp"
+  ],
+  "fryazino/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/12.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/3.webp"
+  ],
+  "ivanteyevka/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/8.webp"
+  ],
+  "izhevsk/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/10.webp",
+    "/assets/images/clusters/vodnyj-transport/14.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp"
+  ],
+  "kaluga/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp",
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp"
+  ],
+  "kazan/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/3.webp"
+  ],
+  "khimki/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/10.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp",
+    "/assets/images/clusters/vodnyj-transport/2.webp"
+  ],
+  "klin/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/14.webp"
+  ],
+  "kolomna/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/15.webp"
+  ],
+  "korolev/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/14.webp",
+    "/assets/images/clusters/vodnyj-transport/5.webp",
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/8.webp"
+  ],
+  "krasnogorsk/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/13.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp",
+    "/assets/images/clusters/vodnyj-transport/8.webp"
+  ],
+  "lobnya/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/8.webp",
+    "/assets/images/clusters/vodnyj-transport/15.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp",
+    "/assets/images/clusters/vodnyj-transport/10.webp"
+  ],
+  "lyubertsy/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/9.webp",
+    "/assets/images/clusters/vodnyj-transport/15.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp"
+  ],
+  "moskva/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/10.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/2.webp"
+  ],
+  "mytishchi/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/14.webp",
+    "/assets/images/clusters/vodnyj-transport/15.webp",
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp"
+  ],
+  "naberezhnye-chelny/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp",
+    "/assets/images/clusters/vodnyj-transport/12.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp"
+  ],
+  "nizhnekamsk/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/10.webp",
+    "/assets/images/clusters/vodnyj-transport/12.webp",
+    "/assets/images/clusters/vodnyj-transport/15.webp"
+  ],
+  "nizhny-novgorod/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/7.webp",
+    "/assets/images/clusters/vodnyj-transport/15.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp",
+    "/assets/images/clusters/vodnyj-transport/4.webp"
+  ],
+  "noginsk/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/5.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/8.webp"
+  ],
+  "obninsk/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp",
+    "/assets/images/clusters/vodnyj-transport/12.webp"
+  ],
+  "odintsovo/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp"
+  ],
+  "orekhovo-zuevo/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp",
+    "/assets/images/clusters/vodnyj-transport/3.webp"
+  ],
+  "perm/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/8.webp",
+    "/assets/images/clusters/vodnyj-transport/3.webp"
+  ],
+  "podolsk/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/15.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp",
+    "/assets/images/clusters/vodnyj-transport/8.webp"
+  ],
+  "pushkino/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/3.webp",
+    "/assets/images/clusters/vodnyj-transport/5.webp",
+    "/assets/images/clusters/vodnyj-transport/12.webp"
+  ],
+  "ramenskoe/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/10.webp",
+    "/assets/images/clusters/vodnyj-transport/12.webp"
+  ],
+  "reutov/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/10.webp",
+    "/assets/images/clusters/vodnyj-transport/8.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp"
+  ],
+  "saint-petersburg/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/5.webp",
+    "/assets/images/clusters/vodnyj-transport/3.webp"
+  ],
+  "samara/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/2.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/9.webp",
+    "/assets/images/clusters/vodnyj-transport/3.webp"
+  ],
+  "sergiev-posad/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/1.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp"
+  ],
+  "serpukhov/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/14.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/6.webp"
+  ],
+  "shchelkovo/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/15.webp",
+    "/assets/images/clusters/vodnyj-transport/7.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp",
+    "/assets/images/clusters/vodnyj-transport/14.webp"
+  ],
+  "tula/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/10.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/16.webp",
+    "/assets/images/clusters/vodnyj-transport/5.webp"
+  ],
+  "tver/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/8.webp",
+    "/assets/images/clusters/vodnyj-transport/2.webp"
+  ],
+  "ufa/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/15.webp",
+    "/assets/images/clusters/vodnyj-transport/4.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp",
+    "/assets/images/clusters/vodnyj-transport/12.webp"
+  ],
+  "voskresensk/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/12.webp",
+    "/assets/images/clusters/vodnyj-transport/5.webp",
+    "/assets/images/clusters/vodnyj-transport/14.webp",
+    "/assets/images/clusters/vodnyj-transport/11.webp"
+  ],
+  "yaroslavl/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/14.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp",
+    "/assets/images/clusters/vodnyj-transport/10.webp",
+    "/assets/images/clusters/vodnyj-transport/2.webp"
+  ],
+  "zhukovsky/vodnyj-transport": [
+    "/assets/images/clusters/vodnyj-transport/6.webp",
+    "/assets/images/clusters/vodnyj-transport/14.webp",
+    "/assets/images/clusters/vodnyj-transport/12.webp",
+    "/assets/images/clusters/vodnyj-transport/13.webp"
   ]
 }

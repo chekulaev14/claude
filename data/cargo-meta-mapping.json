@@ -1678,5 +1678,245 @@
     "title": "Пиломатериалы Жуковский",
     "description": "Пиломатериалы Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
     "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/pilomaterialy/"
+  },
+  "balashikha/vodnyj-transport": {
+    "title": "Водный транспорт Балашиха",
+    "description": "Водный транспорт Балашиха. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/vodnyj-transport/"
+  },
+  "chekhov/vodnyj-transport": {
+    "title": "Водный транспорт Чехов",
+    "description": "Водный транспорт Чехов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/vodnyj-transport/"
+  },
+  "chelyabinsk/vodnyj-transport": {
+    "title": "Водный транспорт Челябинск",
+    "description": "Водный транспорт Челябинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/vodnyj-transport/"
+  },
+  "dmitrov/vodnyj-transport": {
+    "title": "Водный транспорт Дмитров",
+    "description": "Водный транспорт Дмитров. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/vodnyj-transport/"
+  },
+  "dolgoprudny/vodnyj-transport": {
+    "title": "Водный транспорт Долгопрудный",
+    "description": "Водный транспорт Долгопрудный. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/vodnyj-transport/"
+  },
+  "domodedovo/vodnyj-transport": {
+    "title": "Водный транспорт Домодедово",
+    "description": "Водный транспорт Домодедово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/vodnyj-transport/"
+  },
+  "dubna/vodnyj-transport": {
+    "title": "Водный транспорт Дубна",
+    "description": "Водный транспорт Дубна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/vodnyj-transport/"
+  },
+  "dzerzhinsky/vodnyj-transport": {
+    "title": "Водный транспорт Дзержинский",
+    "description": "Водный транспорт Дзержинский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/vodnyj-transport/"
+  },
+  "egoryevsk/vodnyj-transport": {
+    "title": "Водный транспорт Егорьевск",
+    "description": "Водный транспорт Егорьевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/vodnyj-transport/"
+  },
+  "ekaterinburg/vodnyj-transport": {
+    "title": "Водный транспорт Екатеринбург",
+    "description": "Водный транспорт Екатеринбург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/vodnyj-transport/"
+  },
+  "elektrostal/vodnyj-transport": {
+    "title": "Водный транспорт Электросталь",
+    "description": "Водный транспорт Электросталь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/vodnyj-transport/"
+  },
+  "fryazino/vodnyj-transport": {
+    "title": "Водный транспорт Фрязино",
+    "description": "Водный транспорт Фрязино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/vodnyj-transport/"
+  },
+  "ivanteyevka/vodnyj-transport": {
+    "title": "Водный транспорт Ивантеевка",
+    "description": "Водный транспорт Ивантеевка. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/vodnyj-transport/"
+  },
+  "izhevsk/vodnyj-transport": {
+    "title": "Водный транспорт Ижевск",
+    "description": "Водный транспорт Ижевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/vodnyj-transport/"
+  },
+  "kaluga/vodnyj-transport": {
+    "title": "Водный транспорт Калуга",
+    "description": "Водный транспорт Калуга. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/vodnyj-transport/"
+  },
+  "kazan/vodnyj-transport": {
+    "title": "Водный транспорт Казань",
+    "description": "Водный транспорт Казань. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/vodnyj-transport/"
+  },
+  "khimki/vodnyj-transport": {
+    "title": "Водный транспорт Химки",
+    "description": "Водный транспорт Химки. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/vodnyj-transport/"
+  },
+  "klin/vodnyj-transport": {
+    "title": "Водный транспорт Клин",
+    "description": "Водный транспорт Клин. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/vodnyj-transport/"
+  },
+  "kolomna/vodnyj-transport": {
+    "title": "Водный транспорт Коломна",
+    "description": "Водный транспорт Коломна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/vodnyj-transport/"
+  },
+  "korolev/vodnyj-transport": {
+    "title": "Водный транспорт Королёв",
+    "description": "Водный транспорт Королёв. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/vodnyj-transport/"
+  },
+  "krasnogorsk/vodnyj-transport": {
+    "title": "Водный транспорт Красногорск",
+    "description": "Водный транспорт Красногорск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/vodnyj-transport/"
+  },
+  "lobnya/vodnyj-transport": {
+    "title": "Водный транспорт Лобня",
+    "description": "Водный транспорт Лобня. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/vodnyj-transport/"
+  },
+  "lyubertsy/vodnyj-transport": {
+    "title": "Водный транспорт Люберцы",
+    "description": "Водный транспорт Люберцы. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/vodnyj-transport/"
+  },
+  "moskva/vodnyj-transport": {
+    "title": "Водный транспорт Москва",
+    "description": "Водный транспорт Москва. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/vodnyj-transport/"
+  },
+  "mytishchi/vodnyj-transport": {
+    "title": "Водный транспорт Мытищи",
+    "description": "Водный транспорт Мытищи. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/vodnyj-transport/"
+  },
+  "naberezhnye-chelny/vodnyj-transport": {
+    "title": "Водный транспорт Набережные Челны",
+    "description": "Водный транспорт Набережные Челны. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/vodnyj-transport/"
+  },
+  "nizhnekamsk/vodnyj-transport": {
+    "title": "Водный транспорт Нижнекамск",
+    "description": "Водный транспорт Нижнекамск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/vodnyj-transport/"
+  },
+  "nizhny-novgorod/vodnyj-transport": {
+    "title": "Водный транспорт Нижний Новгород",
+    "description": "Водный транспорт Нижний Новгород. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/vodnyj-transport/"
+  },
+  "noginsk/vodnyj-transport": {
+    "title": "Водный транспорт Ногинск",
+    "description": "Водный транспорт Ногинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/vodnyj-transport/"
+  },
+  "obninsk/vodnyj-transport": {
+    "title": "Водный транспорт Обнинск",
+    "description": "Водный транспорт Обнинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/vodnyj-transport/"
+  },
+  "odintsovo/vodnyj-transport": {
+    "title": "Водный транспорт Одинцово",
+    "description": "Водный транспорт Одинцово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/vodnyj-transport/"
+  },
+  "orekhovo-zuevo/vodnyj-transport": {
+    "title": "Водный транспорт Орехово-Зуево",
+    "description": "Водный транспорт Орехово-Зуево. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/vodnyj-transport/"
+  },
+  "perm/vodnyj-transport": {
+    "title": "Водный транспорт Пермь",
+    "description": "Водный транспорт Пермь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/vodnyj-transport/"
+  },
+  "podolsk/vodnyj-transport": {
+    "title": "Водный транспорт Подольск",
+    "description": "Водный транспорт Подольск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/vodnyj-transport/"
+  },
+  "pushkino/vodnyj-transport": {
+    "title": "Водный транспорт Пушкино",
+    "description": "Водный транспорт Пушкино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/vodnyj-transport/"
+  },
+  "ramenskoe/vodnyj-transport": {
+    "title": "Водный транспорт Раменское",
+    "description": "Водный транспорт Раменское. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/vodnyj-transport/"
+  },
+  "reutov/vodnyj-transport": {
+    "title": "Водный транспорт Реутов",
+    "description": "Водный транспорт Реутов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/vodnyj-transport/"
+  },
+  "saint-petersburg/vodnyj-transport": {
+    "title": "Водный транспорт Санкт-Петербург",
+    "description": "Водный транспорт Санкт-Петербург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/vodnyj-transport/"
+  },
+  "samara/vodnyj-transport": {
+    "title": "Водный транспорт Самара",
+    "description": "Водный транспорт Самара. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/vodnyj-transport/"
+  },
+  "sergiev-posad/vodnyj-transport": {
+    "title": "Водный транспорт Сергиев Посад",
+    "description": "Водный транспорт Сергиев Посад. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/vodnyj-transport/"
+  },
+  "serpukhov/vodnyj-transport": {
+    "title": "Водный транспорт Серпухов",
+    "description": "Водный транспорт Серпухов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/vodnyj-transport/"
+  },
+  "shchelkovo/vodnyj-transport": {
+    "title": "Водный транспорт Щелково",
+    "description": "Водный транспорт Щелково. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/vodnyj-transport/"
+  },
+  "tula/vodnyj-transport": {
+    "title": "Водный транспорт Тула",
+    "description": "Водный транспорт Тула. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/vodnyj-transport/"
+  },
+  "tver/vodnyj-transport": {
+    "title": "Водный транспорт Тверь",
+    "description": "Водный транспорт Тверь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/vodnyj-transport/"
+  },
+  "ufa/vodnyj-transport": {
+    "title": "Водный транспорт Уфа",
+    "description": "Водный транспорт Уфа. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/vodnyj-transport/"
+  },
+  "voskresensk/vodnyj-transport": {
+    "title": "Водный транспорт Воскресенск",
+    "description": "Водный транспорт Воскресенск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/vodnyj-transport/"
+  },
+  "yaroslavl/vodnyj-transport": {
+    "title": "Водный транспорт Ярославль",
+    "description": "Водный транспорт Ярославль. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/vodnyj-transport/"
+  },
+  "zhukovsky/vodnyj-transport": {
+    "title": "Водный транспорт Жуковский",
+    "description": "Водный транспорт Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/vodnyj-transport/"
   }
 }

@@ -353,6 +353,7 @@ def generate_cargo_page(city_slug, cluster, template, cluster_config, images_map
     # Кластер
     html = html.replace('{{CLUSTER_SLUG}}', cluster)
     html = html.replace('{{CLUSTER_TITLE}}', cluster_config['title'])
+    html = html.replace('{{TITLE_EXTENDED}}', cluster_config.get('title_extended', cluster_config['title']))
 
     # Изображения (4 штуки)
     for i, img in enumerate(page_images, 1):
