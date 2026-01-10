@@ -286,5 +286,293 @@
     "/assets/images/clusters/truby/truby-img-3.webp",
     "/assets/images/clusters/truby/truby-optimized.webp",
     "/assets/images/clusters/truby/75f07d8ac24924d240dca6e47a637b24.webp"
+  ],
+  "balashikha/armatura": [
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/6.webp",
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/5.webp"
+  ],
+  "chekhov/armatura": [
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/8.webp"
+  ],
+  "chelyabinsk/armatura": [
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/11.webp"
+  ],
+  "dmitrov/armatura": [
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/9.webp"
+  ],
+  "dolgoprudny/armatura": [
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/1.webp",
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/2.webp"
+  ],
+  "domodedovo/armatura": [
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/13.webp",
+    "/assets/images/clusters/armatura/2.webp"
+  ],
+  "dubna/armatura": [
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/13.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/9.webp"
+  ],
+  "dzerzhinsky/armatura": [
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/3.webp"
+  ],
+  "egoryevsk/armatura": [
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/11.webp"
+  ],
+  "ekaterinburg/armatura": [
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/9.webp"
+  ],
+  "elektrostal/armatura": [
+    "/assets/images/clusters/armatura/13.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/10.webp"
+  ],
+  "fryazino/armatura": [
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/7.webp"
+  ],
+  "ivanteyevka/armatura": [
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/9.webp",
+    "/assets/images/clusters/armatura/1.webp",
+    "/assets/images/clusters/armatura/8.webp"
+  ],
+  "izhevsk/armatura": [
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/6.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/12.webp"
+  ],
+  "kaluga/armatura": [
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/6.webp",
+    "/assets/images/clusters/armatura/10.webp"
+  ],
+  "kazan/armatura": [
+    "/assets/images/clusters/armatura/9.webp",
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/12.webp"
+  ],
+  "khimki/armatura": [
+    "/assets/images/clusters/armatura/9.webp",
+    "/assets/images/clusters/armatura/13.webp",
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/1.webp"
+  ],
+  "klin/armatura": [
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/7.webp"
+  ],
+  "kolomna/armatura": [
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/13.webp"
+  ],
+  "korolev/armatura": [
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/5.webp"
+  ],
+  "krasnogorsk/armatura": [
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/13.webp",
+    "/assets/images/clusters/armatura/3.webp"
+  ],
+  "lobnya/armatura": [
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/6.webp",
+    "/assets/images/clusters/armatura/7.webp"
+  ],
+  "lyubertsy/armatura": [
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/9.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/8.webp"
+  ],
+  "moskva/armatura": [
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/13.webp"
+  ],
+  "mytishchi/armatura": [
+    "/assets/images/clusters/armatura/6.webp",
+    "/assets/images/clusters/armatura/1.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/12.webp"
+  ],
+  "naberezhnye-chelny/armatura": [
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/7.webp"
+  ],
+  "nizhnekamsk/armatura": [
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/13.webp",
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/6.webp"
+  ],
+  "nizhny-novgorod/armatura": [
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/1.webp"
+  ],
+  "noginsk/armatura": [
+    "/assets/images/clusters/armatura/6.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/2.webp"
+  ],
+  "obninsk/armatura": [
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/9.webp",
+    "/assets/images/clusters/armatura/13.webp"
+  ],
+  "odintsovo/armatura": [
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/7.webp"
+  ],
+  "orekhovo-zuevo/armatura": [
+    "/assets/images/clusters/armatura/3.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/10.webp"
+  ],
+  "perm/armatura": [
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/12.webp"
+  ],
+  "podolsk/armatura": [
+    "/assets/images/clusters/armatura/1.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/3.webp"
+  ],
+  "pushkino/armatura": [
+    "/assets/images/clusters/armatura/13.webp",
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/9.webp",
+    "/assets/images/clusters/armatura/3.webp"
+  ],
+  "ramenskoe/armatura": [
+    "/assets/images/clusters/armatura/13.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/6.webp"
+  ],
+  "reutov/armatura": [
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/7.webp"
+  ],
+  "saint-petersburg/armatura": [
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/10.webp"
+  ],
+  "samara/armatura": [
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/1.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/13.webp"
+  ],
+  "sergiev-posad/armatura": [
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/7.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/9.webp"
+  ],
+  "serpukhov/armatura": [
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/11.webp",
+    "/assets/images/clusters/armatura/5.webp"
+  ],
+  "shchelkovo/armatura": [
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/11.webp"
+  ],
+  "tula/armatura": [
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/6.webp"
+  ],
+  "tver/armatura": [
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/13.webp",
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/5.webp"
+  ],
+  "ufa/armatura": [
+    "/assets/images/clusters/armatura/6.webp",
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/1.webp",
+    "/assets/images/clusters/armatura/11.webp"
+  ],
+  "voskresensk/armatura": [
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/9.webp",
+    "/assets/images/clusters/armatura/10.webp",
+    "/assets/images/clusters/armatura/11.webp"
+  ],
+  "yaroslavl/armatura": [
+    "/assets/images/clusters/armatura/5.webp",
+    "/assets/images/clusters/armatura/12.webp",
+    "/assets/images/clusters/armatura/6.webp",
+    "/assets/images/clusters/armatura/9.webp"
+  ],
+  "zhukovsky/armatura": [
+    "/assets/images/clusters/armatura/2.webp",
+    "/assets/images/clusters/armatura/4.webp",
+    "/assets/images/clusters/armatura/8.webp",
+    "/assets/images/clusters/armatura/6.webp"
   ]
 }
