@@ -2158,5 +2158,485 @@
     "title": "Опоры ЛЭП Жуковский",
     "description": "Опоры ЛЭП Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
     "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/lep/"
+  },
+  "balashikha/metallokonstruktsii": {
+    "title": "Металлоконструкции Балашиха",
+    "description": "Металлоконструкции Балашиха. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/metallokonstruktsii/"
+  },
+  "chekhov/metallokonstruktsii": {
+    "title": "Металлоконструкции Чехов",
+    "description": "Металлоконструкции Чехов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/metallokonstruktsii/"
+  },
+  "chelyabinsk/metallokonstruktsii": {
+    "title": "Металлоконструкции Челябинск",
+    "description": "Металлоконструкции Челябинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/metallokonstruktsii/"
+  },
+  "dmitrov/metallokonstruktsii": {
+    "title": "Металлоконструкции Дмитров",
+    "description": "Металлоконструкции Дмитров. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/metallokonstruktsii/"
+  },
+  "dolgoprudny/metallokonstruktsii": {
+    "title": "Металлоконструкции Долгопрудный",
+    "description": "Металлоконструкции Долгопрудный. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/metallokonstruktsii/"
+  },
+  "domodedovo/metallokonstruktsii": {
+    "title": "Металлоконструкции Домодедово",
+    "description": "Металлоконструкции Домодедово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/metallokonstruktsii/"
+  },
+  "dubna/metallokonstruktsii": {
+    "title": "Металлоконструкции Дубна",
+    "description": "Металлоконструкции Дубна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/metallokonstruktsii/"
+  },
+  "dzerzhinsky/metallokonstruktsii": {
+    "title": "Металлоконструкции Дзержинский",
+    "description": "Металлоконструкции Дзержинский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/metallokonstruktsii/"
+  },
+  "egoryevsk/metallokonstruktsii": {
+    "title": "Металлоконструкции Егорьевск",
+    "description": "Металлоконструкции Егорьевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/metallokonstruktsii/"
+  },
+  "ekaterinburg/metallokonstruktsii": {
+    "title": "Металлоконструкции Екатеринбург",
+    "description": "Металлоконструкции Екатеринбург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/metallokonstruktsii/"
+  },
+  "elektrostal/metallokonstruktsii": {
+    "title": "Металлоконструкции Электросталь",
+    "description": "Металлоконструкции Электросталь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/metallokonstruktsii/"
+  },
+  "fryazino/metallokonstruktsii": {
+    "title": "Металлоконструкции Фрязино",
+    "description": "Металлоконструкции Фрязино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/metallokonstruktsii/"
+  },
+  "ivanteyevka/metallokonstruktsii": {
+    "title": "Металлоконструкции Ивантеевка",
+    "description": "Металлоконструкции Ивантеевка. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/metallokonstruktsii/"
+  },
+  "izhevsk/metallokonstruktsii": {
+    "title": "Металлоконструкции Ижевск",
+    "description": "Металлоконструкции Ижевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/metallokonstruktsii/"
+  },
+  "kaluga/metallokonstruktsii": {
+    "title": "Металлоконструкции Калуга",
+    "description": "Металлоконструкции Калуга. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/metallokonstruktsii/"
+  },
+  "kazan/metallokonstruktsii": {
+    "title": "Металлоконструкции Казань",
+    "description": "Металлоконструкции Казань. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/metallokonstruktsii/"
+  },
+  "khimki/metallokonstruktsii": {
+    "title": "Металлоконструкции Химки",
+    "description": "Металлоконструкции Химки. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/metallokonstruktsii/"
+  },
+  "klin/metallokonstruktsii": {
+    "title": "Металлоконструкции Клин",
+    "description": "Металлоконструкции Клин. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/metallokonstruktsii/"
+  },
+  "kolomna/metallokonstruktsii": {
+    "title": "Металлоконструкции Коломна",
+    "description": "Металлоконструкции Коломна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/metallokonstruktsii/"
+  },
+  "korolev/metallokonstruktsii": {
+    "title": "Металлоконструкции Королёв",
+    "description": "Металлоконструкции Королёв. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/metallokonstruktsii/"
+  },
+  "krasnogorsk/metallokonstruktsii": {
+    "title": "Металлоконструкции Красногорск",
+    "description": "Металлоконструкции Красногорск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/metallokonstruktsii/"
+  },
+  "lobnya/metallokonstruktsii": {
+    "title": "Металлоконструкции Лобня",
+    "description": "Металлоконструкции Лобня. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/metallokonstruktsii/"
+  },
+  "lyubertsy/metallokonstruktsii": {
+    "title": "Металлоконструкции Люберцы",
+    "description": "Металлоконструкции Люберцы. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/metallokonstruktsii/"
+  },
+  "moskva/metallokonstruktsii": {
+    "title": "Металлоконструкции Москва",
+    "description": "Металлоконструкции Москва. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/metallokonstruktsii/"
+  },
+  "mytishchi/metallokonstruktsii": {
+    "title": "Металлоконструкции Мытищи",
+    "description": "Металлоконструкции Мытищи. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/metallokonstruktsii/"
+  },
+  "naberezhnye-chelny/metallokonstruktsii": {
+    "title": "Металлоконструкции Набережные Челны",
+    "description": "Металлоконструкции Набережные Челны. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/metallokonstruktsii/"
+  },
+  "nizhnekamsk/metallokonstruktsii": {
+    "title": "Металлоконструкции Нижнекамск",
+    "description": "Металлоконструкции Нижнекамск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/metallokonstruktsii/"
+  },
+  "nizhny-novgorod/metallokonstruktsii": {
+    "title": "Металлоконструкции Нижний Новгород",
+    "description": "Металлоконструкции Нижний Новгород. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/metallokonstruktsii/"
+  },
+  "noginsk/metallokonstruktsii": {
+    "title": "Металлоконструкции Ногинск",
+    "description": "Металлоконструкции Ногинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/metallokonstruktsii/"
+  },
+  "obninsk/metallokonstruktsii": {
+    "title": "Металлоконструкции Обнинск",
+    "description": "Металлоконструкции Обнинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/metallokonstruktsii/"
+  },
+  "odintsovo/metallokonstruktsii": {
+    "title": "Металлоконструкции Одинцово",
+    "description": "Металлоконструкции Одинцово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/metallokonstruktsii/"
+  },
+  "orekhovo-zuevo/metallokonstruktsii": {
+    "title": "Металлоконструкции Орехово-Зуево",
+    "description": "Металлоконструкции Орехово-Зуево. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/metallokonstruktsii/"
+  },
+  "perm/metallokonstruktsii": {
+    "title": "Металлоконструкции Пермь",
+    "description": "Металлоконструкции Пермь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/metallokonstruktsii/"
+  },
+  "podolsk/metallokonstruktsii": {
+    "title": "Металлоконструкции Подольск",
+    "description": "Металлоконструкции Подольск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/metallokonstruktsii/"
+  },
+  "pushkino/metallokonstruktsii": {
+    "title": "Металлоконструкции Пушкино",
+    "description": "Металлоконструкции Пушкино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/metallokonstruktsii/"
+  },
+  "ramenskoe/metallokonstruktsii": {
+    "title": "Металлоконструкции Раменское",
+    "description": "Металлоконструкции Раменское. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/metallokonstruktsii/"
+  },
+  "reutov/metallokonstruktsii": {
+    "title": "Металлоконструкции Реутов",
+    "description": "Металлоконструкции Реутов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/metallokonstruktsii/"
+  },
+  "saint-petersburg/metallokonstruktsii": {
+    "title": "Металлоконструкции Санкт-Петербург",
+    "description": "Металлоконструкции Санкт-Петербург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/metallokonstruktsii/"
+  },
+  "samara/metallokonstruktsii": {
+    "title": "Металлоконструкции Самара",
+    "description": "Металлоконструкции Самара. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/metallokonstruktsii/"
+  },
+  "sergiev-posad/metallokonstruktsii": {
+    "title": "Металлоконструкции Сергиев Посад",
+    "description": "Металлоконструкции Сергиев Посад. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/metallokonstruktsii/"
+  },
+  "serpukhov/metallokonstruktsii": {
+    "title": "Металлоконструкции Серпухов",
+    "description": "Металлоконструкции Серпухов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/metallokonstruktsii/"
+  },
+  "shchelkovo/metallokonstruktsii": {
+    "title": "Металлоконструкции Щелково",
+    "description": "Металлоконструкции Щелково. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/metallokonstruktsii/"
+  },
+  "tula/metallokonstruktsii": {
+    "title": "Металлоконструкции Тула",
+    "description": "Металлоконструкции Тула. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/metallokonstruktsii/"
+  },
+  "tver/metallokonstruktsii": {
+    "title": "Металлоконструкции Тверь",
+    "description": "Металлоконструкции Тверь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/metallokonstruktsii/"
+  },
+  "ufa/metallokonstruktsii": {
+    "title": "Металлоконструкции Уфа",
+    "description": "Металлоконструкции Уфа. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/metallokonstruktsii/"
+  },
+  "voskresensk/metallokonstruktsii": {
+    "title": "Металлоконструкции Воскресенск",
+    "description": "Металлоконструкции Воскресенск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/metallokonstruktsii/"
+  },
+  "yaroslavl/metallokonstruktsii": {
+    "title": "Металлоконструкции Ярославль",
+    "description": "Металлоконструкции Ярославль. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/metallokonstruktsii/"
+  },
+  "zhukovsky/metallokonstruktsii": {
+    "title": "Металлоконструкции Жуковский",
+    "description": "Металлоконструкции Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/metallokonstruktsii/"
+  },
+  "balashikha/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Балашиха",
+    "description": "Негабаритные грузы Балашиха. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/negabaritnye-gruzy/"
+  },
+  "chekhov/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Чехов",
+    "description": "Негабаритные грузы Чехов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/negabaritnye-gruzy/"
+  },
+  "chelyabinsk/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Челябинск",
+    "description": "Негабаритные грузы Челябинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/negabaritnye-gruzy/"
+  },
+  "dmitrov/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Дмитров",
+    "description": "Негабаритные грузы Дмитров. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/negabaritnye-gruzy/"
+  },
+  "dolgoprudny/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Долгопрудный",
+    "description": "Негабаритные грузы Долгопрудный. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/negabaritnye-gruzy/"
+  },
+  "domodedovo/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Домодедово",
+    "description": "Негабаритные грузы Домодедово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/negabaritnye-gruzy/"
+  },
+  "dubna/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Дубна",
+    "description": "Негабаритные грузы Дубна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/negabaritnye-gruzy/"
+  },
+  "dzerzhinsky/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Дзержинский",
+    "description": "Негабаритные грузы Дзержинский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/negabaritnye-gruzy/"
+  },
+  "egoryevsk/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Егорьевск",
+    "description": "Негабаритные грузы Егорьевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/negabaritnye-gruzy/"
+  },
+  "ekaterinburg/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Екатеринбург",
+    "description": "Негабаритные грузы Екатеринбург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/negabaritnye-gruzy/"
+  },
+  "elektrostal/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Электросталь",
+    "description": "Негабаритные грузы Электросталь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/negabaritnye-gruzy/"
+  },
+  "fryazino/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Фрязино",
+    "description": "Негабаритные грузы Фрязино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/negabaritnye-gruzy/"
+  },
+  "ivanteyevka/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Ивантеевка",
+    "description": "Негабаритные грузы Ивантеевка. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/negabaritnye-gruzy/"
+  },
+  "izhevsk/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Ижевск",
+    "description": "Негабаритные грузы Ижевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/negabaritnye-gruzy/"
+  },
+  "kaluga/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Калуга",
+    "description": "Негабаритные грузы Калуга. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/negabaritnye-gruzy/"
+  },
+  "kazan/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Казань",
+    "description": "Негабаритные грузы Казань. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/negabaritnye-gruzy/"
+  },
+  "khimki/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Химки",
+    "description": "Негабаритные грузы Химки. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/negabaritnye-gruzy/"
+  },
+  "klin/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Клин",
+    "description": "Негабаритные грузы Клин. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/negabaritnye-gruzy/"
+  },
+  "kolomna/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Коломна",
+    "description": "Негабаритные грузы Коломна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/negabaritnye-gruzy/"
+  },
+  "korolev/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Королёв",
+    "description": "Негабаритные грузы Королёв. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/negabaritnye-gruzy/"
+  },
+  "krasnogorsk/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Красногорск",
+    "description": "Негабаритные грузы Красногорск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/negabaritnye-gruzy/"
+  },
+  "lobnya/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Лобня",
+    "description": "Негабаритные грузы Лобня. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/negabaritnye-gruzy/"
+  },
+  "lyubertsy/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Люберцы",
+    "description": "Негабаритные грузы Люберцы. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/negabaritnye-gruzy/"
+  },
+  "moskva/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Москва",
+    "description": "Негабаритные грузы Москва. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/negabaritnye-gruzy/"
+  },
+  "mytishchi/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Мытищи",
+    "description": "Негабаритные грузы Мытищи. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/negabaritnye-gruzy/"
+  },
+  "naberezhnye-chelny/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Набережные Челны",
+    "description": "Негабаритные грузы Набережные Челны. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/negabaritnye-gruzy/"
+  },
+  "nizhnekamsk/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Нижнекамск",
+    "description": "Негабаритные грузы Нижнекамск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/negabaritnye-gruzy/"
+  },
+  "nizhny-novgorod/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Нижний Новгород",
+    "description": "Негабаритные грузы Нижний Новгород. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/negabaritnye-gruzy/"
+  },
+  "noginsk/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Ногинск",
+    "description": "Негабаритные грузы Ногинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/negabaritnye-gruzy/"
+  },
+  "obninsk/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Обнинск",
+    "description": "Негабаритные грузы Обнинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/negabaritnye-gruzy/"
+  },
+  "odintsovo/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Одинцово",
+    "description": "Негабаритные грузы Одинцово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/negabaritnye-gruzy/"
+  },
+  "orekhovo-zuevo/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Орехово-Зуево",
+    "description": "Негабаритные грузы Орехово-Зуево. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/negabaritnye-gruzy/"
+  },
+  "perm/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Пермь",
+    "description": "Негабаритные грузы Пермь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/negabaritnye-gruzy/"
+  },
+  "podolsk/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Подольск",
+    "description": "Негабаритные грузы Подольск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/negabaritnye-gruzy/"
+  },
+  "pushkino/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Пушкино",
+    "description": "Негабаритные грузы Пушкино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/negabaritnye-gruzy/"
+  },
+  "ramenskoe/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Раменское",
+    "description": "Негабаритные грузы Раменское. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/negabaritnye-gruzy/"
+  },
+  "reutov/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Реутов",
+    "description": "Негабаритные грузы Реутов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/negabaritnye-gruzy/"
+  },
+  "saint-petersburg/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Санкт-Петербург",
+    "description": "Негабаритные грузы Санкт-Петербург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/negabaritnye-gruzy/"
+  },
+  "samara/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Самара",
+    "description": "Негабаритные грузы Самара. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/negabaritnye-gruzy/"
+  },
+  "sergiev-posad/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Сергиев Посад",
+    "description": "Негабаритные грузы Сергиев Посад. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/negabaritnye-gruzy/"
+  },
+  "serpukhov/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Серпухов",
+    "description": "Негабаритные грузы Серпухов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/negabaritnye-gruzy/"
+  },
+  "shchelkovo/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Щелково",
+    "description": "Негабаритные грузы Щелково. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/negabaritnye-gruzy/"
+  },
+  "tula/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Тула",
+    "description": "Негабаритные грузы Тула. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/negabaritnye-gruzy/"
+  },
+  "tver/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Тверь",
+    "description": "Негабаритные грузы Тверь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/negabaritnye-gruzy/"
+  },
+  "ufa/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Уфа",
+    "description": "Негабаритные грузы Уфа. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/negabaritnye-gruzy/"
+  },
+  "voskresensk/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Воскресенск",
+    "description": "Негабаритные грузы Воскресенск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/negabaritnye-gruzy/"
+  },
+  "yaroslavl/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Ярославль",
+    "description": "Негабаритные грузы Ярославль. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/negabaritnye-gruzy/"
+  },
+  "zhukovsky/negabaritnye-gruzy": {
+    "title": "Негабаритные грузы Жуковский",
+    "description": "Негабаритные грузы Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/negabaritnye-gruzy/"
   }
 }

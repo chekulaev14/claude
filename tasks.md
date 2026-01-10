@@ -57,8 +57,8 @@
    7. ✅ pilomaterialy — Пиломатериалы (готово, 48 страниц)
    8. ✅ vodnyj-transport — Водный транспорт (готово, 48 страниц)
    9. ✅ lep — ЛЭП (готово, 48 страниц)
-   10. ⏳ metallokonstruktsii — Металлоконструкции
-   11. ⏳ negabaritnye-gruzy — Негабаритные грузы
+   10. ✅ metallokonstruktsii — Металлоконструкции (готово, 48 страниц)
+   11. ✅ negabaritnye-gruzy — Негабаритные грузы (готово, 48 страниц)
    12. ⏳ promyshlennoe-oborudovanie — Промышленное оборудование
    13. ⏳ opasnye-gruzy — Опасные грузы
    14. ⏳ sbornye-gruzy — Сборные грузы

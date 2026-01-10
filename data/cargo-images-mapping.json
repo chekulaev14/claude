@@ -2590,5 +2590,581 @@
     "/assets/images/clusters/lep/7.webp",
     "/assets/images/clusters/lep/12.webp",
     "/assets/images/clusters/lep/14.webp"
+  ],
+  "balashikha/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/1.webp",
+    "/assets/images/clusters/metallokonstruktsii/7.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp",
+    "/assets/images/clusters/metallokonstruktsii/4.webp"
+  ],
+  "chekhov/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/2.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/6.webp",
+    "/assets/images/clusters/metallokonstruktsii/13.webp"
+  ],
+  "chelyabinsk/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/13.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp"
+  ],
+  "dmitrov/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/6.webp",
+    "/assets/images/clusters/metallokonstruktsii/8.webp",
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp"
+  ],
+  "dolgoprudny/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/12.webp",
+    "/assets/images/clusters/metallokonstruktsii/2.webp",
+    "/assets/images/clusters/metallokonstruktsii/8.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp"
+  ],
+  "domodedovo/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/4.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp",
+    "/assets/images/clusters/metallokonstruktsii/17.webp"
+  ],
+  "dubna/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/16.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp",
+    "/assets/images/clusters/metallokonstruktsii/3.webp",
+    "/assets/images/clusters/metallokonstruktsii/6.webp"
+  ],
+  "dzerzhinsky/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/7.webp",
+    "/assets/images/clusters/metallokonstruktsii/6.webp",
+    "/assets/images/clusters/metallokonstruktsii/2.webp"
+  ],
+  "egoryevsk/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp"
+  ],
+  "ekaterinburg/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/18.webp",
+    "/assets/images/clusters/metallokonstruktsii/3.webp",
+    "/assets/images/clusters/metallokonstruktsii/7.webp",
+    "/assets/images/clusters/metallokonstruktsii/8.webp"
+  ],
+  "elektrostal/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/6.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/8.webp"
+  ],
+  "fryazino/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/7.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp"
+  ],
+  "ivanteyevka/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/12.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/2.webp"
+  ],
+  "izhevsk/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/3.webp"
+  ],
+  "kaluga/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp"
+  ],
+  "kazan/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/6.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp",
+    "/assets/images/clusters/metallokonstruktsii/4.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp"
+  ],
+  "khimki/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/18.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/8.webp"
+  ],
+  "klin/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp",
+    "/assets/images/clusters/metallokonstruktsii/4.webp",
+    "/assets/images/clusters/metallokonstruktsii/3.webp"
+  ],
+  "kolomna/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/13.webp",
+    "/assets/images/clusters/metallokonstruktsii/6.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp",
+    "/assets/images/clusters/metallokonstruktsii/3.webp"
+  ],
+  "korolev/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/9.webp",
+    "/assets/images/clusters/metallokonstruktsii/2.webp",
+    "/assets/images/clusters/metallokonstruktsii/7.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp"
+  ],
+  "krasnogorsk/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/12.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/13.webp",
+    "/assets/images/clusters/metallokonstruktsii/4.webp"
+  ],
+  "lobnya/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/8.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp",
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp"
+  ],
+  "lyubertsy/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/8.webp",
+    "/assets/images/clusters/metallokonstruktsii/7.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp"
+  ],
+  "moskva/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/2.webp",
+    "/assets/images/clusters/metallokonstruktsii/4.webp",
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/17.webp"
+  ],
+  "mytishchi/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/7.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/4.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp"
+  ],
+  "naberezhnye-chelny/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/3.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp",
+    "/assets/images/clusters/metallokonstruktsii/13.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp"
+  ],
+  "nizhnekamsk/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp"
+  ],
+  "nizhny-novgorod/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp"
+  ],
+  "noginsk/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/13.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp",
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/4.webp"
+  ],
+  "obninsk/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/12.webp"
+  ],
+  "odintsovo/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/4.webp",
+    "/assets/images/clusters/metallokonstruktsii/3.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp"
+  ],
+  "orekhovo-zuevo/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/7.webp",
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp"
+  ],
+  "perm/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp",
+    "/assets/images/clusters/metallokonstruktsii/2.webp"
+  ],
+  "podolsk/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/4.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp",
+    "/assets/images/clusters/metallokonstruktsii/7.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp"
+  ],
+  "pushkino/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/4.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp"
+  ],
+  "ramenskoe/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/16.webp",
+    "/assets/images/clusters/metallokonstruktsii/8.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp"
+  ],
+  "reutov/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/3.webp",
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp",
+    "/assets/images/clusters/metallokonstruktsii/7.webp"
+  ],
+  "saint-petersburg/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/13.webp",
+    "/assets/images/clusters/metallokonstruktsii/12.webp",
+    "/assets/images/clusters/metallokonstruktsii/3.webp",
+    "/assets/images/clusters/metallokonstruktsii/5.webp"
+  ],
+  "samara/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/2.webp",
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/3.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp"
+  ],
+  "sergiev-posad/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/6.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp"
+  ],
+  "serpukhov/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/13.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp"
+  ],
+  "shchelkovo/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/6.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp"
+  ],
+  "tula/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/9.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp",
+    "/assets/images/clusters/metallokonstruktsii/1.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp"
+  ],
+  "tver/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/2.webp",
+    "/assets/images/clusters/metallokonstruktsii/16.webp",
+    "/assets/images/clusters/metallokonstruktsii/6.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp"
+  ],
+  "ufa/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/5.webp",
+    "/assets/images/clusters/metallokonstruktsii/9.webp",
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/18.webp"
+  ],
+  "voskresensk/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/12.webp",
+    "/assets/images/clusters/metallokonstruktsii/17.webp",
+    "/assets/images/clusters/metallokonstruktsii/8.webp",
+    "/assets/images/clusters/metallokonstruktsii/4.webp"
+  ],
+  "yaroslavl/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/11.webp",
+    "/assets/images/clusters/metallokonstruktsii/8.webp",
+    "/assets/images/clusters/metallokonstruktsii/13.webp",
+    "/assets/images/clusters/metallokonstruktsii/12.webp"
+  ],
+  "zhukovsky/metallokonstruktsii": [
+    "/assets/images/clusters/metallokonstruktsii/1.webp",
+    "/assets/images/clusters/metallokonstruktsii/15.webp",
+    "/assets/images/clusters/metallokonstruktsii/10.webp",
+    "/assets/images/clusters/metallokonstruktsii/7.webp"
+  ],
+  "balashikha/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-file.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp"
+  ],
+  "chekhov/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp"
+  ],
+  "chelyabinsk/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-negabaritnyh-gruzov-2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp"
+  ],
+  "dmitrov/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp"
+  ],
+  "dolgoprudny/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/perevozki-negabaritn.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/608dd1c7e32e9f29b2a9696f737a0a6c.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp"
+  ],
+  "domodedovo/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnie-perevoski-gruzov.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp"
+  ],
+  "dubna/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp"
+  ],
+  "dzerzhinsky/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/zn7o0kitjrs2i0e2k29plv9f4kfn7m1g.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozku-negabaritnogo-gruza.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp"
+  ],
+  "egoryevsk/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/608dd1c7e32e9f29b2a9696f737a0a6c.webp"
+  ],
+  "ekaterinburg/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/perevozki-negabaritn.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/xxl.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozku-negabaritnogo-gruza.webp"
+  ],
+  "elektrostal/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozku-negabaritnogo-gruza.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/608dd1c7e32e9f29b2a9696f737a0a6c.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp"
+  ],
+  "fryazino/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-file.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp"
+  ],
+  "ivanteyevka/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/608dd1c7e32e9f29b2a9696f737a0a6c.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp"
+  ],
+  "izhevsk/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozku-negabaritnogo-gruza.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp"
+  ],
+  "kaluga/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-negabaritnyh-gruzov-2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/xxl.webp"
+  ],
+  "kazan/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp"
+  ],
+  "khimki/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/zn7o0kitjrs2i0e2k29plv9f4kfn7m1g.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-negabaritnyh-gruzov-2.webp"
+  ],
+  "klin/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnie-perevoski-gruzov.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-file.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/zn7o0kitjrs2i0e2k29plv9f4kfn7m1g.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp"
+  ],
+  "kolomna/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozku-negabaritnogo-gruza.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp"
+  ],
+  "korolev/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-negabaritnyh-gruzov-2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp"
+  ],
+  "krasnogorsk/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/zn7o0kitjrs2i0e2k29plv9f4kfn7m1g.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/xxl.webp"
+  ],
+  "lobnya/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/zn7o0kitjrs2i0e2k29plv9f4kfn7m1g.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnie-perevoski-gruzov.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp"
+  ],
+  "lyubertsy/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/xxl.webp"
+  ],
+  "moskva/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-negabaritnyh-gruzov-2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozki-negabaritn.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp"
+  ],
+  "mytishchi/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/608dd1c7e32e9f29b2a9696f737a0a6c.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-file.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp"
+  ],
+  "naberezhnye-chelny/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozki-negabaritn.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp"
+  ],
+  "nizhnekamsk/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozku-negabaritnogo-gruza.webp"
+  ],
+  "nizhny-novgorod/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnie-perevoski-gruzov.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp"
+  ],
+  "noginsk/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp"
+  ],
+  "obninsk/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-3.webp"
+  ],
+  "odintsovo/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/xxl.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnie-perevoski-gruzov.webp"
+  ],
+  "orekhovo-zuevo/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp"
+  ],
+  "perm/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/xxl.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozku-negabaritnogo-gruza.webp"
+  ],
+  "podolsk/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnie-perevoski-gruzov.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-negabaritnyh-gruzov-2.webp"
+  ],
+  "pushkino/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-file.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp"
+  ],
+  "ramenskoe/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/608dd1c7e32e9f29b2a9696f737a0a6c.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp"
+  ],
+  "reutov/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/608dd1c7e32e9f29b2a9696f737a0a6c.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozku-negabaritnogo-gruza.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/zn7o0kitjrs2i0e2k29plv9f4kfn7m1g.webp"
+  ],
+  "saint-petersburg/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-negabaritnyh-gruzov-2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-file.webp"
+  ],
+  "samara/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-file.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/xxl.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp"
+  ],
+  "sergiev-posad/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/zn7o0kitjrs2i0e2k29plv9f4kfn7m1g.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnie-perevoski-gruzov.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp"
+  ],
+  "serpukhov/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnie-perevoski-gruzov.webp"
+  ],
+  "shchelkovo/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp"
+  ],
+  "tula/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-negabaritnyh-gruzov-2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/608dd1c7e32e9f29b2a9696f737a0a6c.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp"
+  ],
+  "tver/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnie-perevoski-gruzov.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp"
+  ],
+  "ufa/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/unnamed-3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/608dd1c7e32e9f29b2a9696f737a0a6c.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-negabaritnyh-gruzov-2.webp"
+  ],
+  "voskresensk/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/negabarit-avtotransportom-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/negabaritnye-perevozki-0.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/shutterstock_1064444312-min.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp"
+  ],
+  "yaroslavl/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/perevozka-ekskavatora.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/okak2.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2016-01-22-oversized.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/perevozku-negabaritnogo-gruza.webp"
+  ],
+  "zhukovsky/negabaritnye-gruzy": [
+    "/assets/images/clusters/negabaritnye-gruzy/_.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/Перевозка тракторов.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/8c10c1d92345cf7263ae784d13b430d3.webp",
+    "/assets/images/clusters/negabaritnye-gruzy/2021-05-20-jc2x8a.webp"
   ]
 }
