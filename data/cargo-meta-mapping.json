@@ -718,5 +718,245 @@
     "title": "ЖБИ Жуковский",
     "description": "ЖБИ Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
     "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/zhbi/"
+  },
+  "balashikha/modulnye-zdaniya": {
+    "title": "Модульные здания Балашиха",
+    "description": "Модульные здания Балашиха. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/modulnye-zdaniya/"
+  },
+  "chekhov/modulnye-zdaniya": {
+    "title": "Модульные здания Чехов",
+    "description": "Модульные здания Чехов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/modulnye-zdaniya/"
+  },
+  "chelyabinsk/modulnye-zdaniya": {
+    "title": "Модульные здания Челябинск",
+    "description": "Модульные здания Челябинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/modulnye-zdaniya/"
+  },
+  "dmitrov/modulnye-zdaniya": {
+    "title": "Модульные здания Дмитров",
+    "description": "Модульные здания Дмитров. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/modulnye-zdaniya/"
+  },
+  "dolgoprudny/modulnye-zdaniya": {
+    "title": "Модульные здания Долгопрудный",
+    "description": "Модульные здания Долгопрудный. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/modulnye-zdaniya/"
+  },
+  "domodedovo/modulnye-zdaniya": {
+    "title": "Модульные здания Домодедово",
+    "description": "Модульные здания Домодедово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/modulnye-zdaniya/"
+  },
+  "dubna/modulnye-zdaniya": {
+    "title": "Модульные здания Дубна",
+    "description": "Модульные здания Дубна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/modulnye-zdaniya/"
+  },
+  "dzerzhinsky/modulnye-zdaniya": {
+    "title": "Модульные здания Дзержинский",
+    "description": "Модульные здания Дзержинский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/modulnye-zdaniya/"
+  },
+  "egoryevsk/modulnye-zdaniya": {
+    "title": "Модульные здания Егорьевск",
+    "description": "Модульные здания Егорьевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/modulnye-zdaniya/"
+  },
+  "ekaterinburg/modulnye-zdaniya": {
+    "title": "Модульные здания Екатеринбург",
+    "description": "Модульные здания Екатеринбург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/modulnye-zdaniya/"
+  },
+  "elektrostal/modulnye-zdaniya": {
+    "title": "Модульные здания Электросталь",
+    "description": "Модульные здания Электросталь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/modulnye-zdaniya/"
+  },
+  "fryazino/modulnye-zdaniya": {
+    "title": "Модульные здания Фрязино",
+    "description": "Модульные здания Фрязино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/modulnye-zdaniya/"
+  },
+  "ivanteyevka/modulnye-zdaniya": {
+    "title": "Модульные здания Ивантеевка",
+    "description": "Модульные здания Ивантеевка. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/modulnye-zdaniya/"
+  },
+  "izhevsk/modulnye-zdaniya": {
+    "title": "Модульные здания Ижевск",
+    "description": "Модульные здания Ижевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/modulnye-zdaniya/"
+  },
+  "kaluga/modulnye-zdaniya": {
+    "title": "Модульные здания Калуга",
+    "description": "Модульные здания Калуга. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/modulnye-zdaniya/"
+  },
+  "kazan/modulnye-zdaniya": {
+    "title": "Модульные здания Казань",
+    "description": "Модульные здания Казань. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/modulnye-zdaniya/"
+  },
+  "khimki/modulnye-zdaniya": {
+    "title": "Модульные здания Химки",
+    "description": "Модульные здания Химки. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/modulnye-zdaniya/"
+  },
+  "klin/modulnye-zdaniya": {
+    "title": "Модульные здания Клин",
+    "description": "Модульные здания Клин. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/modulnye-zdaniya/"
+  },
+  "kolomna/modulnye-zdaniya": {
+    "title": "Модульные здания Коломна",
+    "description": "Модульные здания Коломна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/modulnye-zdaniya/"
+  },
+  "korolev/modulnye-zdaniya": {
+    "title": "Модульные здания Королёв",
+    "description": "Модульные здания Королёв. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/modulnye-zdaniya/"
+  },
+  "krasnogorsk/modulnye-zdaniya": {
+    "title": "Модульные здания Красногорск",
+    "description": "Модульные здания Красногорск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/modulnye-zdaniya/"
+  },
+  "lobnya/modulnye-zdaniya": {
+    "title": "Модульные здания Лобня",
+    "description": "Модульные здания Лобня. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/modulnye-zdaniya/"
+  },
+  "lyubertsy/modulnye-zdaniya": {
+    "title": "Модульные здания Люберцы",
+    "description": "Модульные здания Люберцы. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/modulnye-zdaniya/"
+  },
+  "moskva/modulnye-zdaniya": {
+    "title": "Модульные здания Москва",
+    "description": "Модульные здания Москва. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/modulnye-zdaniya/"
+  },
+  "mytishchi/modulnye-zdaniya": {
+    "title": "Модульные здания Мытищи",
+    "description": "Модульные здания Мытищи. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/modulnye-zdaniya/"
+  },
+  "naberezhnye-chelny/modulnye-zdaniya": {
+    "title": "Модульные здания Набережные Челны",
+    "description": "Модульные здания Набережные Челны. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/modulnye-zdaniya/"
+  },
+  "nizhnekamsk/modulnye-zdaniya": {
+    "title": "Модульные здания Нижнекамск",
+    "description": "Модульные здания Нижнекамск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/modulnye-zdaniya/"
+  },
+  "nizhny-novgorod/modulnye-zdaniya": {
+    "title": "Модульные здания Нижний Новгород",
+    "description": "Модульные здания Нижний Новгород. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/modulnye-zdaniya/"
+  },
+  "noginsk/modulnye-zdaniya": {
+    "title": "Модульные здания Ногинск",
+    "description": "Модульные здания Ногинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/modulnye-zdaniya/"
+  },
+  "obninsk/modulnye-zdaniya": {
+    "title": "Модульные здания Обнинск",
+    "description": "Модульные здания Обнинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/modulnye-zdaniya/"
+  },
+  "odintsovo/modulnye-zdaniya": {
+    "title": "Модульные здания Одинцово",
+    "description": "Модульные здания Одинцово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/modulnye-zdaniya/"
+  },
+  "orekhovo-zuevo/modulnye-zdaniya": {
+    "title": "Модульные здания Орехово-Зуево",
+    "description": "Модульные здания Орехово-Зуево. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/modulnye-zdaniya/"
+  },
+  "perm/modulnye-zdaniya": {
+    "title": "Модульные здания Пермь",
+    "description": "Модульные здания Пермь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/modulnye-zdaniya/"
+  },
+  "podolsk/modulnye-zdaniya": {
+    "title": "Модульные здания Подольск",
+    "description": "Модульные здания Подольск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/modulnye-zdaniya/"
+  },
+  "pushkino/modulnye-zdaniya": {
+    "title": "Модульные здания Пушкино",
+    "description": "Модульные здания Пушкино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/modulnye-zdaniya/"
+  },
+  "ramenskoe/modulnye-zdaniya": {
+    "title": "Модульные здания Раменское",
+    "description": "Модульные здания Раменское. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/modulnye-zdaniya/"
+  },
+  "reutov/modulnye-zdaniya": {
+    "title": "Модульные здания Реутов",
+    "description": "Модульные здания Реутов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/modulnye-zdaniya/"
+  },
+  "saint-petersburg/modulnye-zdaniya": {
+    "title": "Модульные здания Санкт-Петербург",
+    "description": "Модульные здания Санкт-Петербург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/modulnye-zdaniya/"
+  },
+  "samara/modulnye-zdaniya": {
+    "title": "Модульные здания Самара",
+    "description": "Модульные здания Самара. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/modulnye-zdaniya/"
+  },
+  "sergiev-posad/modulnye-zdaniya": {
+    "title": "Модульные здания Сергиев Посад",
+    "description": "Модульные здания Сергиев Посад. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/modulnye-zdaniya/"
+  },
+  "serpukhov/modulnye-zdaniya": {
+    "title": "Модульные здания Серпухов",
+    "description": "Модульные здания Серпухов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/modulnye-zdaniya/"
+  },
+  "shchelkovo/modulnye-zdaniya": {
+    "title": "Модульные здания Щелково",
+    "description": "Модульные здания Щелково. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/modulnye-zdaniya/"
+  },
+  "tula/modulnye-zdaniya": {
+    "title": "Модульные здания Тула",
+    "description": "Модульные здания Тула. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/modulnye-zdaniya/"
+  },
+  "tver/modulnye-zdaniya": {
+    "title": "Модульные здания Тверь",
+    "description": "Модульные здания Тверь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/modulnye-zdaniya/"
+  },
+  "ufa/modulnye-zdaniya": {
+    "title": "Модульные здания Уфа",
+    "description": "Модульные здания Уфа. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/modulnye-zdaniya/"
+  },
+  "voskresensk/modulnye-zdaniya": {
+    "title": "Модульные здания Воскресенск",
+    "description": "Модульные здания Воскресенск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/modulnye-zdaniya/"
+  },
+  "yaroslavl/modulnye-zdaniya": {
+    "title": "Модульные здания Ярославль",
+    "description": "Модульные здания Ярославль. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/modulnye-zdaniya/"
+  },
+  "zhukovsky/modulnye-zdaniya": {
+    "title": "Модульные здания Жуковский",
+    "description": "Модульные здания Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/modulnye-zdaniya/"
   }
 }
