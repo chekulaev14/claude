@@ -1438,5 +1438,293 @@
     "/assets/images/clusters/gazgoldery/3.webp",
     "/assets/images/clusters/gazgoldery/4.webp",
     "/assets/images/clusters/gazgoldery/5.webp"
+  ],
+  "balashikha/emkosti": [
+    "/assets/images/clusters/emkosti/10.webp",
+    "/assets/images/clusters/emkosti/18.webp",
+    "/assets/images/clusters/emkosti/12.webp",
+    "/assets/images/clusters/emkosti/20.webp"
+  ],
+  "chekhov/emkosti": [
+    "/assets/images/clusters/emkosti/18.webp",
+    "/assets/images/clusters/emkosti/1.webp",
+    "/assets/images/clusters/emkosti/20.webp",
+    "/assets/images/clusters/emkosti/5.webp"
+  ],
+  "chelyabinsk/emkosti": [
+    "/assets/images/clusters/emkosti/13.webp",
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/12.webp",
+    "/assets/images/clusters/emkosti/16.webp"
+  ],
+  "dmitrov/emkosti": [
+    "/assets/images/clusters/emkosti/2.webp",
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/12.webp",
+    "/assets/images/clusters/emkosti/18.webp"
+  ],
+  "dolgoprudny/emkosti": [
+    "/assets/images/clusters/emkosti/15.webp",
+    "/assets/images/clusters/emkosti/13.webp",
+    "/assets/images/clusters/emkosti/14.webp",
+    "/assets/images/clusters/emkosti/12.webp"
+  ],
+  "domodedovo/emkosti": [
+    "/assets/images/clusters/emkosti/10.webp",
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/14.webp",
+    "/assets/images/clusters/emkosti/20.webp"
+  ],
+  "dubna/emkosti": [
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/20.webp",
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/22.webp"
+  ],
+  "dzerzhinsky/emkosti": [
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/10.webp",
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/5.webp"
+  ],
+  "egoryevsk/emkosti": [
+    "/assets/images/clusters/emkosti/18.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/4.webp"
+  ],
+  "ekaterinburg/emkosti": [
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/21.webp",
+    "/assets/images/clusters/emkosti/2.webp",
+    "/assets/images/clusters/emkosti/5.webp"
+  ],
+  "elektrostal/emkosti": [
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/6.webp",
+    "/assets/images/clusters/emkosti/20.webp",
+    "/assets/images/clusters/emkosti/4.webp"
+  ],
+  "fryazino/emkosti": [
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/14.webp",
+    "/assets/images/clusters/emkosti/1.webp",
+    "/assets/images/clusters/emkosti/5.webp"
+  ],
+  "ivanteyevka/emkosti": [
+    "/assets/images/clusters/emkosti/5.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/18.webp",
+    "/assets/images/clusters/emkosti/22.webp"
+  ],
+  "izhevsk/emkosti": [
+    "/assets/images/clusters/emkosti/8.webp",
+    "/assets/images/clusters/emkosti/1.webp",
+    "/assets/images/clusters/emkosti/12.webp",
+    "/assets/images/clusters/emkosti/3.webp"
+  ],
+  "kaluga/emkosti": [
+    "/assets/images/clusters/emkosti/5.webp",
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/9.webp"
+  ],
+  "kazan/emkosti": [
+    "/assets/images/clusters/emkosti/10.webp",
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/3.webp"
+  ],
+  "khimki/emkosti": [
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/11.webp",
+    "/assets/images/clusters/emkosti/8.webp",
+    "/assets/images/clusters/emkosti/22.webp"
+  ],
+  "klin/emkosti": [
+    "/assets/images/clusters/emkosti/2.webp",
+    "/assets/images/clusters/emkosti/8.webp",
+    "/assets/images/clusters/emkosti/22.webp",
+    "/assets/images/clusters/emkosti/9.webp"
+  ],
+  "kolomna/emkosti": [
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/20.webp"
+  ],
+  "korolev/emkosti": [
+    "/assets/images/clusters/emkosti/9.webp",
+    "/assets/images/clusters/emkosti/18.webp",
+    "/assets/images/clusters/emkosti/20.webp",
+    "/assets/images/clusters/emkosti/14.webp"
+  ],
+  "krasnogorsk/emkosti": [
+    "/assets/images/clusters/emkosti/5.webp",
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/14.webp",
+    "/assets/images/clusters/emkosti/21.webp"
+  ],
+  "lobnya/emkosti": [
+    "/assets/images/clusters/emkosti/14.webp",
+    "/assets/images/clusters/emkosti/8.webp",
+    "/assets/images/clusters/emkosti/2.webp",
+    "/assets/images/clusters/emkosti/18.webp"
+  ],
+  "lyubertsy/emkosti": [
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/1.webp",
+    "/assets/images/clusters/emkosti/6.webp",
+    "/assets/images/clusters/emkosti/10.webp"
+  ],
+  "moskva/emkosti": [
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/18.webp",
+    "/assets/images/clusters/emkosti/5.webp"
+  ],
+  "mytishchi/emkosti": [
+    "/assets/images/clusters/emkosti/18.webp",
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/9.webp",
+    "/assets/images/clusters/emkosti/21.webp"
+  ],
+  "naberezhnye-chelny/emkosti": [
+    "/assets/images/clusters/emkosti/22.webp",
+    "/assets/images/clusters/emkosti/5.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/2.webp"
+  ],
+  "nizhnekamsk/emkosti": [
+    "/assets/images/clusters/emkosti/9.webp",
+    "/assets/images/clusters/emkosti/15.webp",
+    "/assets/images/clusters/emkosti/11.webp",
+    "/assets/images/clusters/emkosti/20.webp"
+  ],
+  "nizhny-novgorod/emkosti": [
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/21.webp"
+  ],
+  "noginsk/emkosti": [
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/21.webp",
+    "/assets/images/clusters/emkosti/15.webp",
+    "/assets/images/clusters/emkosti/17.webp"
+  ],
+  "obninsk/emkosti": [
+    "/assets/images/clusters/emkosti/20.webp",
+    "/assets/images/clusters/emkosti/2.webp",
+    "/assets/images/clusters/emkosti/4.webp",
+    "/assets/images/clusters/emkosti/10.webp"
+  ],
+  "odintsovo/emkosti": [
+    "/assets/images/clusters/emkosti/12.webp",
+    "/assets/images/clusters/emkosti/2.webp",
+    "/assets/images/clusters/emkosti/22.webp",
+    "/assets/images/clusters/emkosti/3.webp"
+  ],
+  "orekhovo-zuevo/emkosti": [
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/12.webp",
+    "/assets/images/clusters/emkosti/11.webp",
+    "/assets/images/clusters/emkosti/6.webp"
+  ],
+  "perm/emkosti": [
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/14.webp",
+    "/assets/images/clusters/emkosti/11.webp",
+    "/assets/images/clusters/emkosti/4.webp"
+  ],
+  "podolsk/emkosti": [
+    "/assets/images/clusters/emkosti/5.webp",
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/11.webp",
+    "/assets/images/clusters/emkosti/22.webp"
+  ],
+  "pushkino/emkosti": [
+    "/assets/images/clusters/emkosti/22.webp",
+    "/assets/images/clusters/emkosti/12.webp",
+    "/assets/images/clusters/emkosti/2.webp",
+    "/assets/images/clusters/emkosti/7.webp"
+  ],
+  "ramenskoe/emkosti": [
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/18.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/10.webp"
+  ],
+  "reutov/emkosti": [
+    "/assets/images/clusters/emkosti/11.webp",
+    "/assets/images/clusters/emkosti/10.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/2.webp"
+  ],
+  "saint-petersburg/emkosti": [
+    "/assets/images/clusters/emkosti/11.webp",
+    "/assets/images/clusters/emkosti/1.webp",
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/10.webp"
+  ],
+  "samara/emkosti": [
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/6.webp",
+    "/assets/images/clusters/emkosti/18.webp",
+    "/assets/images/clusters/emkosti/19.webp"
+  ],
+  "sergiev-posad/emkosti": [
+    "/assets/images/clusters/emkosti/22.webp",
+    "/assets/images/clusters/emkosti/5.webp",
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/19.webp"
+  ],
+  "serpukhov/emkosti": [
+    "/assets/images/clusters/emkosti/12.webp",
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/13.webp",
+    "/assets/images/clusters/emkosti/20.webp"
+  ],
+  "shchelkovo/emkosti": [
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/10.webp",
+    "/assets/images/clusters/emkosti/6.webp"
+  ],
+  "tula/emkosti": [
+    "/assets/images/clusters/emkosti/8.webp",
+    "/assets/images/clusters/emkosti/11.webp",
+    "/assets/images/clusters/emkosti/10.webp",
+    "/assets/images/clusters/emkosti/12.webp"
+  ],
+  "tver/emkosti": [
+    "/assets/images/clusters/emkosti/20.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/21.webp",
+    "/assets/images/clusters/emkosti/9.webp"
+  ],
+  "ufa/emkosti": [
+    "/assets/images/clusters/emkosti/6.webp",
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/17.webp",
+    "/assets/images/clusters/emkosti/1.webp"
+  ],
+  "voskresensk/emkosti": [
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/4.webp",
+    "/assets/images/clusters/emkosti/1.webp",
+    "/assets/images/clusters/emkosti/14.webp"
+  ],
+  "yaroslavl/emkosti": [
+    "/assets/images/clusters/emkosti/3.webp",
+    "/assets/images/clusters/emkosti/16.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/21.webp"
+  ],
+  "zhukovsky/emkosti": [
+    "/assets/images/clusters/emkosti/7.webp",
+    "/assets/images/clusters/emkosti/5.webp",
+    "/assets/images/clusters/emkosti/19.webp",
+    "/assets/images/clusters/emkosti/10.webp"
   ]
 }
