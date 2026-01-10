@@ -2878,5 +2878,245 @@
     "title": "Промышленное оборудование Жуковский",
     "description": "Промышленное оборудование Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
     "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/promyshlennoe-oborudovanie/"
+  },
+  "balashikha/opasnye-gruzy": {
+    "title": "Опасные грузы Балашиха",
+    "description": "Опасные грузы Балашиха. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/opasnye-gruzy/"
+  },
+  "chekhov/opasnye-gruzy": {
+    "title": "Опасные грузы Чехов",
+    "description": "Опасные грузы Чехов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/opasnye-gruzy/"
+  },
+  "chelyabinsk/opasnye-gruzy": {
+    "title": "Опасные грузы Челябинск",
+    "description": "Опасные грузы Челябинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/opasnye-gruzy/"
+  },
+  "dmitrov/opasnye-gruzy": {
+    "title": "Опасные грузы Дмитров",
+    "description": "Опасные грузы Дмитров. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/opasnye-gruzy/"
+  },
+  "dolgoprudny/opasnye-gruzy": {
+    "title": "Опасные грузы Долгопрудный",
+    "description": "Опасные грузы Долгопрудный. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/opasnye-gruzy/"
+  },
+  "domodedovo/opasnye-gruzy": {
+    "title": "Опасные грузы Домодедово",
+    "description": "Опасные грузы Домодедово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/opasnye-gruzy/"
+  },
+  "dubna/opasnye-gruzy": {
+    "title": "Опасные грузы Дубна",
+    "description": "Опасные грузы Дубна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/opasnye-gruzy/"
+  },
+  "dzerzhinsky/opasnye-gruzy": {
+    "title": "Опасные грузы Дзержинский",
+    "description": "Опасные грузы Дзержинский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/opasnye-gruzy/"
+  },
+  "egoryevsk/opasnye-gruzy": {
+    "title": "Опасные грузы Егорьевск",
+    "description": "Опасные грузы Егорьевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/opasnye-gruzy/"
+  },
+  "ekaterinburg/opasnye-gruzy": {
+    "title": "Опасные грузы Екатеринбург",
+    "description": "Опасные грузы Екатеринбург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/opasnye-gruzy/"
+  },
+  "elektrostal/opasnye-gruzy": {
+    "title": "Опасные грузы Электросталь",
+    "description": "Опасные грузы Электросталь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/opasnye-gruzy/"
+  },
+  "fryazino/opasnye-gruzy": {
+    "title": "Опасные грузы Фрязино",
+    "description": "Опасные грузы Фрязино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/opasnye-gruzy/"
+  },
+  "ivanteyevka/opasnye-gruzy": {
+    "title": "Опасные грузы Ивантеевка",
+    "description": "Опасные грузы Ивантеевка. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/opasnye-gruzy/"
+  },
+  "izhevsk/opasnye-gruzy": {
+    "title": "Опасные грузы Ижевск",
+    "description": "Опасные грузы Ижевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/opasnye-gruzy/"
+  },
+  "kaluga/opasnye-gruzy": {
+    "title": "Опасные грузы Калуга",
+    "description": "Опасные грузы Калуга. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/opasnye-gruzy/"
+  },
+  "kazan/opasnye-gruzy": {
+    "title": "Опасные грузы Казань",
+    "description": "Опасные грузы Казань. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/opasnye-gruzy/"
+  },
+  "khimki/opasnye-gruzy": {
+    "title": "Опасные грузы Химки",
+    "description": "Опасные грузы Химки. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/opasnye-gruzy/"
+  },
+  "klin/opasnye-gruzy": {
+    "title": "Опасные грузы Клин",
+    "description": "Опасные грузы Клин. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/opasnye-gruzy/"
+  },
+  "kolomna/opasnye-gruzy": {
+    "title": "Опасные грузы Коломна",
+    "description": "Опасные грузы Коломна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/opasnye-gruzy/"
+  },
+  "korolev/opasnye-gruzy": {
+    "title": "Опасные грузы Королёв",
+    "description": "Опасные грузы Королёв. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/opasnye-gruzy/"
+  },
+  "krasnogorsk/opasnye-gruzy": {
+    "title": "Опасные грузы Красногорск",
+    "description": "Опасные грузы Красногорск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/opasnye-gruzy/"
+  },
+  "lobnya/opasnye-gruzy": {
+    "title": "Опасные грузы Лобня",
+    "description": "Опасные грузы Лобня. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/opasnye-gruzy/"
+  },
+  "lyubertsy/opasnye-gruzy": {
+    "title": "Опасные грузы Люберцы",
+    "description": "Опасные грузы Люберцы. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/opasnye-gruzy/"
+  },
+  "moskva/opasnye-gruzy": {
+    "title": "Опасные грузы Москва",
+    "description": "Опасные грузы Москва. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/opasnye-gruzy/"
+  },
+  "mytishchi/opasnye-gruzy": {
+    "title": "Опасные грузы Мытищи",
+    "description": "Опасные грузы Мытищи. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/opasnye-gruzy/"
+  },
+  "naberezhnye-chelny/opasnye-gruzy": {
+    "title": "Опасные грузы Набережные Челны",
+    "description": "Опасные грузы Набережные Челны. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/opasnye-gruzy/"
+  },
+  "nizhnekamsk/opasnye-gruzy": {
+    "title": "Опасные грузы Нижнекамск",
+    "description": "Опасные грузы Нижнекамск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/opasnye-gruzy/"
+  },
+  "nizhny-novgorod/opasnye-gruzy": {
+    "title": "Опасные грузы Нижний Новгород",
+    "description": "Опасные грузы Нижний Новгород. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/opasnye-gruzy/"
+  },
+  "noginsk/opasnye-gruzy": {
+    "title": "Опасные грузы Ногинск",
+    "description": "Опасные грузы Ногинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/opasnye-gruzy/"
+  },
+  "obninsk/opasnye-gruzy": {
+    "title": "Опасные грузы Обнинск",
+    "description": "Опасные грузы Обнинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/opasnye-gruzy/"
+  },
+  "odintsovo/opasnye-gruzy": {
+    "title": "Опасные грузы Одинцово",
+    "description": "Опасные грузы Одинцово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/opasnye-gruzy/"
+  },
+  "orekhovo-zuevo/opasnye-gruzy": {
+    "title": "Опасные грузы Орехово-Зуево",
+    "description": "Опасные грузы Орехово-Зуево. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/opasnye-gruzy/"
+  },
+  "perm/opasnye-gruzy": {
+    "title": "Опасные грузы Пермь",
+    "description": "Опасные грузы Пермь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/opasnye-gruzy/"
+  },
+  "podolsk/opasnye-gruzy": {
+    "title": "Опасные грузы Подольск",
+    "description": "Опасные грузы Подольск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/opasnye-gruzy/"
+  },
+  "pushkino/opasnye-gruzy": {
+    "title": "Опасные грузы Пушкино",
+    "description": "Опасные грузы Пушкино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/opasnye-gruzy/"
+  },
+  "ramenskoe/opasnye-gruzy": {
+    "title": "Опасные грузы Раменское",
+    "description": "Опасные грузы Раменское. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/opasnye-gruzy/"
+  },
+  "reutov/opasnye-gruzy": {
+    "title": "Опасные грузы Реутов",
+    "description": "Опасные грузы Реутов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/opasnye-gruzy/"
+  },
+  "saint-petersburg/opasnye-gruzy": {
+    "title": "Опасные грузы Санкт-Петербург",
+    "description": "Опасные грузы Санкт-Петербург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/opasnye-gruzy/"
+  },
+  "samara/opasnye-gruzy": {
+    "title": "Опасные грузы Самара",
+    "description": "Опасные грузы Самара. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/opasnye-gruzy/"
+  },
+  "sergiev-posad/opasnye-gruzy": {
+    "title": "Опасные грузы Сергиев Посад",
+    "description": "Опасные грузы Сергиев Посад. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/opasnye-gruzy/"
+  },
+  "serpukhov/opasnye-gruzy": {
+    "title": "Опасные грузы Серпухов",
+    "description": "Опасные грузы Серпухов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/opasnye-gruzy/"
+  },
+  "shchelkovo/opasnye-gruzy": {
+    "title": "Опасные грузы Щелково",
+    "description": "Опасные грузы Щелково. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/opasnye-gruzy/"
+  },
+  "tula/opasnye-gruzy": {
+    "title": "Опасные грузы Тула",
+    "description": "Опасные грузы Тула. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/opasnye-gruzy/"
+  },
+  "tver/opasnye-gruzy": {
+    "title": "Опасные грузы Тверь",
+    "description": "Опасные грузы Тверь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/opasnye-gruzy/"
+  },
+  "ufa/opasnye-gruzy": {
+    "title": "Опасные грузы Уфа",
+    "description": "Опасные грузы Уфа. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/opasnye-gruzy/"
+  },
+  "voskresensk/opasnye-gruzy": {
+    "title": "Опасные грузы Воскресенск",
+    "description": "Опасные грузы Воскресенск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/opasnye-gruzy/"
+  },
+  "yaroslavl/opasnye-gruzy": {
+    "title": "Опасные грузы Ярославль",
+    "description": "Опасные грузы Ярославль. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/opasnye-gruzy/"
+  },
+  "zhukovsky/opasnye-gruzy": {
+    "title": "Опасные грузы Жуковский",
+    "description": "Опасные грузы Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/opasnye-gruzy/"
   }
 }

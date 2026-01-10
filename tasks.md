@@ -60,7 +60,7 @@
    10. ✅ metallokonstruktsii — Металлоконструкции (готово, 48 страниц)
    11. ✅ negabaritnye-gruzy — Негабаритные грузы (готово, 48 страниц)
    12. ✅ promyshlennoe-oborudovanie — Промышленное оборудование (готово, 48 страниц)
-   13. ⏳ opasnye-gruzy — Опасные грузы
+   13. ✅ opasnye-gruzy — Опасные грузы (готово, 48 страниц)
    14. ⏳ sbornye-gruzy — Сборные грузы
    15. ⏳ poputnye-gruzy — Попутные грузы
 
