@@ -3742,5 +3742,293 @@
     "/assets/images/clusters/opasnye-gruzy/images.webp",
     "/assets/images/clusters/opasnye-gruzy/dangerousgoods.webp",
     "/assets/images/clusters/opasnye-gruzy/mashinka.webp"
+  ],
+  "balashikha/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "chekhov/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "chelyabinsk/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp"
+  ],
+  "dmitrov/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp"
+  ],
+  "dolgoprudny/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp"
+  ],
+  "domodedovo/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "dubna/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp"
+  ],
+  "dzerzhinsky/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "egoryevsk/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp"
+  ],
+  "ekaterinburg/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp"
+  ],
+  "elektrostal/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp"
+  ],
+  "fryazino/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp"
+  ],
+  "ivanteyevka/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp"
+  ],
+  "izhevsk/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp"
+  ],
+  "kaluga/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "kazan/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp"
+  ],
+  "khimki/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp"
+  ],
+  "klin/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp"
+  ],
+  "kolomna/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "korolev/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp"
+  ],
+  "krasnogorsk/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "lobnya/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp"
+  ],
+  "lyubertsy/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp"
+  ],
+  "moskva/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp"
+  ],
+  "mytishchi/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp"
+  ],
+  "naberezhnye-chelny/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp"
+  ],
+  "nizhnekamsk/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "nizhny-novgorod/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "noginsk/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "obninsk/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "odintsovo/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "orekhovo-zuevo/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "perm/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp"
+  ],
+  "podolsk/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp"
+  ],
+  "pushkino/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "ramenskoe/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp"
+  ],
+  "reutov/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "saint-petersburg/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "samara/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp"
+  ],
+  "sergiev-posad/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp"
+  ],
+  "serpukhov/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "shchelkovo/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "tula/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp"
+  ],
+  "tver/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-1.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "ufa/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-6.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp"
+  ],
+  "voskresensk/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-8.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp"
+  ],
+  "yaroslavl/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-10.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-2.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-9.webp"
+  ],
+  "zhukovsky/sbornye-gruzy": [
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-5.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-4.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-7.webp",
+    "/assets/images/clusters/sbornye-gruzy/sbornye-gruzy-3.webp"
   ]
 }
