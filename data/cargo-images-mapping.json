@@ -574,5 +574,293 @@
     "/assets/images/clusters/armatura/4.webp",
     "/assets/images/clusters/armatura/8.webp",
     "/assets/images/clusters/armatura/6.webp"
+  ],
+  "balashikha/zhbi": [
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/9.webp",
+    "/assets/images/clusters/zhbi/14.webp",
+    "/assets/images/clusters/zhbi/16.webp"
+  ],
+  "chekhov/zhbi": [
+    "/assets/images/clusters/zhbi/2.webp",
+    "/assets/images/clusters/zhbi/14.webp",
+    "/assets/images/clusters/zhbi/13.webp",
+    "/assets/images/clusters/zhbi/12.webp"
+  ],
+  "chelyabinsk/zhbi": [
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/9.webp",
+    "/assets/images/clusters/zhbi/12.webp",
+    "/assets/images/clusters/zhbi/8.webp"
+  ],
+  "dmitrov/zhbi": [
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/2.webp"
+  ],
+  "dolgoprudny/zhbi": [
+    "/assets/images/clusters/zhbi/2.webp",
+    "/assets/images/clusters/zhbi/17.webp",
+    "/assets/images/clusters/zhbi/11.webp",
+    "/assets/images/clusters/zhbi/7.webp"
+  ],
+  "domodedovo/zhbi": [
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/11.webp",
+    "/assets/images/clusters/zhbi/16.webp"
+  ],
+  "dubna/zhbi": [
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/12.webp",
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/8.webp"
+  ],
+  "dzerzhinsky/zhbi": [
+    "/assets/images/clusters/zhbi/9.webp",
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/8.webp",
+    "/assets/images/clusters/zhbi/2.webp"
+  ],
+  "egoryevsk/zhbi": [
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/13.webp",
+    "/assets/images/clusters/zhbi/14.webp",
+    "/assets/images/clusters/zhbi/2.webp"
+  ],
+  "ekaterinburg/zhbi": [
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/9.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/12.webp"
+  ],
+  "elektrostal/zhbi": [
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/17.webp"
+  ],
+  "fryazino/zhbi": [
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/13.webp"
+  ],
+  "ivanteyevka/zhbi": [
+    "/assets/images/clusters/zhbi/8.webp",
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/9.webp",
+    "/assets/images/clusters/zhbi/13.webp"
+  ],
+  "izhevsk/zhbi": [
+    "/assets/images/clusters/zhbi/17.webp",
+    "/assets/images/clusters/zhbi/16.webp",
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/15.webp"
+  ],
+  "kaluga/zhbi": [
+    "/assets/images/clusters/zhbi/13.webp",
+    "/assets/images/clusters/zhbi/12.webp",
+    "/assets/images/clusters/zhbi/7.webp",
+    "/assets/images/clusters/zhbi/15.webp"
+  ],
+  "kazan/zhbi": [
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/12.webp"
+  ],
+  "khimki/zhbi": [
+    "/assets/images/clusters/zhbi/8.webp",
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/12.webp",
+    "/assets/images/clusters/zhbi/9.webp"
+  ],
+  "klin/zhbi": [
+    "/assets/images/clusters/zhbi/9.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/6.webp"
+  ],
+  "kolomna/zhbi": [
+    "/assets/images/clusters/zhbi/8.webp",
+    "/assets/images/clusters/zhbi/12.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/3.webp"
+  ],
+  "korolev/zhbi": [
+    "/assets/images/clusters/zhbi/14.webp",
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/2.webp",
+    "/assets/images/clusters/zhbi/11.webp"
+  ],
+  "krasnogorsk/zhbi": [
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/7.webp",
+    "/assets/images/clusters/zhbi/11.webp",
+    "/assets/images/clusters/zhbi/5.webp"
+  ],
+  "lobnya/zhbi": [
+    "/assets/images/clusters/zhbi/13.webp",
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/17.webp",
+    "/assets/images/clusters/zhbi/5.webp"
+  ],
+  "lyubertsy/zhbi": [
+    "/assets/images/clusters/zhbi/7.webp",
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/17.webp",
+    "/assets/images/clusters/zhbi/13.webp"
+  ],
+  "moskva/zhbi": [
+    "/assets/images/clusters/zhbi/8.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/4.webp",
+    "/assets/images/clusters/zhbi/12.webp"
+  ],
+  "mytishchi/zhbi": [
+    "/assets/images/clusters/zhbi/13.webp",
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/16.webp"
+  ],
+  "naberezhnye-chelny/zhbi": [
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/2.webp",
+    "/assets/images/clusters/zhbi/17.webp"
+  ],
+  "nizhnekamsk/zhbi": [
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/14.webp",
+    "/assets/images/clusters/zhbi/16.webp",
+    "/assets/images/clusters/zhbi/13.webp"
+  ],
+  "nizhny-novgorod/zhbi": [
+    "/assets/images/clusters/zhbi/4.webp",
+    "/assets/images/clusters/zhbi/9.webp",
+    "/assets/images/clusters/zhbi/7.webp",
+    "/assets/images/clusters/zhbi/15.webp"
+  ],
+  "noginsk/zhbi": [
+    "/assets/images/clusters/zhbi/4.webp",
+    "/assets/images/clusters/zhbi/8.webp",
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/7.webp"
+  ],
+  "obninsk/zhbi": [
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/8.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/5.webp"
+  ],
+  "odintsovo/zhbi": [
+    "/assets/images/clusters/zhbi/16.webp",
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/14.webp",
+    "/assets/images/clusters/zhbi/4.webp"
+  ],
+  "orekhovo-zuevo/zhbi": [
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/16.webp",
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/17.webp"
+  ],
+  "perm/zhbi": [
+    "/assets/images/clusters/zhbi/12.webp",
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/4.webp",
+    "/assets/images/clusters/zhbi/9.webp"
+  ],
+  "podolsk/zhbi": [
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/14.webp",
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/16.webp"
+  ],
+  "pushkino/zhbi": [
+    "/assets/images/clusters/zhbi/4.webp",
+    "/assets/images/clusters/zhbi/11.webp",
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/12.webp"
+  ],
+  "ramenskoe/zhbi": [
+    "/assets/images/clusters/zhbi/13.webp",
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/16.webp",
+    "/assets/images/clusters/zhbi/4.webp"
+  ],
+  "reutov/zhbi": [
+    "/assets/images/clusters/zhbi/8.webp",
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/13.webp"
+  ],
+  "saint-petersburg/zhbi": [
+    "/assets/images/clusters/zhbi/11.webp",
+    "/assets/images/clusters/zhbi/7.webp",
+    "/assets/images/clusters/zhbi/13.webp",
+    "/assets/images/clusters/zhbi/8.webp"
+  ],
+  "samara/zhbi": [
+    "/assets/images/clusters/zhbi/12.webp",
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/15.webp"
+  ],
+  "sergiev-posad/zhbi": [
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/11.webp",
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/2.webp"
+  ],
+  "serpukhov/zhbi": [
+    "/assets/images/clusters/zhbi/17.webp",
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/11.webp"
+  ],
+  "shchelkovo/zhbi": [
+    "/assets/images/clusters/zhbi/9.webp",
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/3.webp"
+  ],
+  "tula/zhbi": [
+    "/assets/images/clusters/zhbi/8.webp",
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/1.webp",
+    "/assets/images/clusters/zhbi/10.webp"
+  ],
+  "tver/zhbi": [
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/11.webp",
+    "/assets/images/clusters/zhbi/7.webp",
+    "/assets/images/clusters/zhbi/5.webp"
+  ],
+  "ufa/zhbi": [
+    "/assets/images/clusters/zhbi/5.webp",
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/9.webp",
+    "/assets/images/clusters/zhbi/1.webp"
+  ],
+  "voskresensk/zhbi": [
+    "/assets/images/clusters/zhbi/3.webp",
+    "/assets/images/clusters/zhbi/6.webp",
+    "/assets/images/clusters/zhbi/10.webp",
+    "/assets/images/clusters/zhbi/11.webp"
+  ],
+  "yaroslavl/zhbi": [
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/4.webp",
+    "/assets/images/clusters/zhbi/12.webp",
+    "/assets/images/clusters/zhbi/14.webp"
+  ],
+  "zhukovsky/zhbi": [
+    "/assets/images/clusters/zhbi/7.webp",
+    "/assets/images/clusters/zhbi/15.webp",
+    "/assets/images/clusters/zhbi/13.webp",
+    "/assets/images/clusters/zhbi/8.webp"
   ]
 }

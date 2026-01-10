@@ -478,5 +478,245 @@
     "title": "Арматура Жуковский",
     "description": "Арматура Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
     "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/armatura/"
+  },
+  "balashikha/zhbi": {
+    "title": "ЖБИ Балашиха",
+    "description": "ЖБИ Балашиха. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/zhbi/"
+  },
+  "chekhov/zhbi": {
+    "title": "ЖБИ Чехов",
+    "description": "ЖБИ Чехов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/zhbi/"
+  },
+  "chelyabinsk/zhbi": {
+    "title": "ЖБИ Челябинск",
+    "description": "ЖБИ Челябинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/zhbi/"
+  },
+  "dmitrov/zhbi": {
+    "title": "ЖБИ Дмитров",
+    "description": "ЖБИ Дмитров. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/zhbi/"
+  },
+  "dolgoprudny/zhbi": {
+    "title": "ЖБИ Долгопрудный",
+    "description": "ЖБИ Долгопрудный. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/zhbi/"
+  },
+  "domodedovo/zhbi": {
+    "title": "ЖБИ Домодедово",
+    "description": "ЖБИ Домодедово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/zhbi/"
+  },
+  "dubna/zhbi": {
+    "title": "ЖБИ Дубна",
+    "description": "ЖБИ Дубна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/zhbi/"
+  },
+  "dzerzhinsky/zhbi": {
+    "title": "ЖБИ Дзержинский",
+    "description": "ЖБИ Дзержинский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/zhbi/"
+  },
+  "egoryevsk/zhbi": {
+    "title": "ЖБИ Егорьевск",
+    "description": "ЖБИ Егорьевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/zhbi/"
+  },
+  "ekaterinburg/zhbi": {
+    "title": "ЖБИ Екатеринбург",
+    "description": "ЖБИ Екатеринбург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/zhbi/"
+  },
+  "elektrostal/zhbi": {
+    "title": "ЖБИ Электросталь",
+    "description": "ЖБИ Электросталь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/zhbi/"
+  },
+  "fryazino/zhbi": {
+    "title": "ЖБИ Фрязино",
+    "description": "ЖБИ Фрязино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/zhbi/"
+  },
+  "ivanteyevka/zhbi": {
+    "title": "ЖБИ Ивантеевка",
+    "description": "ЖБИ Ивантеевка. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/zhbi/"
+  },
+  "izhevsk/zhbi": {
+    "title": "ЖБИ Ижевск",
+    "description": "ЖБИ Ижевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/zhbi/"
+  },
+  "kaluga/zhbi": {
+    "title": "ЖБИ Калуга",
+    "description": "ЖБИ Калуга. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/zhbi/"
+  },
+  "kazan/zhbi": {
+    "title": "ЖБИ Казань",
+    "description": "ЖБИ Казань. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/zhbi/"
+  },
+  "khimki/zhbi": {
+    "title": "ЖБИ Химки",
+    "description": "ЖБИ Химки. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/zhbi/"
+  },
+  "klin/zhbi": {
+    "title": "ЖБИ Клин",
+    "description": "ЖБИ Клин. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/zhbi/"
+  },
+  "kolomna/zhbi": {
+    "title": "ЖБИ Коломна",
+    "description": "ЖБИ Коломна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/zhbi/"
+  },
+  "korolev/zhbi": {
+    "title": "ЖБИ Королёв",
+    "description": "ЖБИ Королёв. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/zhbi/"
+  },
+  "krasnogorsk/zhbi": {
+    "title": "ЖБИ Красногорск",
+    "description": "ЖБИ Красногорск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/zhbi/"
+  },
+  "lobnya/zhbi": {
+    "title": "ЖБИ Лобня",
+    "description": "ЖБИ Лобня. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/zhbi/"
+  },
+  "lyubertsy/zhbi": {
+    "title": "ЖБИ Люберцы",
+    "description": "ЖБИ Люберцы. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/zhbi/"
+  },
+  "moskva/zhbi": {
+    "title": "ЖБИ Москва",
+    "description": "ЖБИ Москва. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/zhbi/"
+  },
+  "mytishchi/zhbi": {
+    "title": "ЖБИ Мытищи",
+    "description": "ЖБИ Мытищи. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/zhbi/"
+  },
+  "naberezhnye-chelny/zhbi": {
+    "title": "ЖБИ Набережные Челны",
+    "description": "ЖБИ Набережные Челны. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/zhbi/"
+  },
+  "nizhnekamsk/zhbi": {
+    "title": "ЖБИ Нижнекамск",
+    "description": "ЖБИ Нижнекамск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/zhbi/"
+  },
+  "nizhny-novgorod/zhbi": {
+    "title": "ЖБИ Нижний Новгород",
+    "description": "ЖБИ Нижний Новгород. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/zhbi/"
+  },
+  "noginsk/zhbi": {
+    "title": "ЖБИ Ногинск",
+    "description": "ЖБИ Ногинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/zhbi/"
+  },
+  "obninsk/zhbi": {
+    "title": "ЖБИ Обнинск",
+    "description": "ЖБИ Обнинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/zhbi/"
+  },
+  "odintsovo/zhbi": {
+    "title": "ЖБИ Одинцово",
+    "description": "ЖБИ Одинцово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/zhbi/"
+  },
+  "orekhovo-zuevo/zhbi": {
+    "title": "ЖБИ Орехово-Зуево",
+    "description": "ЖБИ Орехово-Зуево. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/zhbi/"
+  },
+  "perm/zhbi": {
+    "title": "ЖБИ Пермь",
+    "description": "ЖБИ Пермь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/zhbi/"
+  },
+  "podolsk/zhbi": {
+    "title": "ЖБИ Подольск",
+    "description": "ЖБИ Подольск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/zhbi/"
+  },
+  "pushkino/zhbi": {
+    "title": "ЖБИ Пушкино",
+    "description": "ЖБИ Пушкино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/zhbi/"
+  },
+  "ramenskoe/zhbi": {
+    "title": "ЖБИ Раменское",
+    "description": "ЖБИ Раменское. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/zhbi/"
+  },
+  "reutov/zhbi": {
+    "title": "ЖБИ Реутов",
+    "description": "ЖБИ Реутов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/zhbi/"
+  },
+  "saint-petersburg/zhbi": {
+    "title": "ЖБИ Санкт-Петербург",
+    "description": "ЖБИ Санкт-Петербург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/zhbi/"
+  },
+  "samara/zhbi": {
+    "title": "ЖБИ Самара",
+    "description": "ЖБИ Самара. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/zhbi/"
+  },
+  "sergiev-posad/zhbi": {
+    "title": "ЖБИ Сергиев Посад",
+    "description": "ЖБИ Сергиев Посад. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/zhbi/"
+  },
+  "serpukhov/zhbi": {
+    "title": "ЖБИ Серпухов",
+    "description": "ЖБИ Серпухов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/zhbi/"
+  },
+  "shchelkovo/zhbi": {
+    "title": "ЖБИ Щелково",
+    "description": "ЖБИ Щелково. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/zhbi/"
+  },
+  "tula/zhbi": {
+    "title": "ЖБИ Тула",
+    "description": "ЖБИ Тула. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/zhbi/"
+  },
+  "tver/zhbi": {
+    "title": "ЖБИ Тверь",
+    "description": "ЖБИ Тверь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/zhbi/"
+  },
+  "ufa/zhbi": {
+    "title": "ЖБИ Уфа",
+    "description": "ЖБИ Уфа. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/zhbi/"
+  },
+  "voskresensk/zhbi": {
+    "title": "ЖБИ Воскресенск",
+    "description": "ЖБИ Воскресенск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/zhbi/"
+  },
+  "yaroslavl/zhbi": {
+    "title": "ЖБИ Ярославль",
+    "description": "ЖБИ Ярославль. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/zhbi/"
+  },
+  "zhukovsky/zhbi": {
+    "title": "ЖБИ Жуковский",
+    "description": "ЖБИ Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/zhbi/"
   }
 }
