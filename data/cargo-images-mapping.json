@@ -1150,5 +1150,293 @@
     "/assets/images/clusters/modulnye-zdaniya/9.webp",
     "/assets/images/clusters/modulnye-zdaniya/5.webp",
     "/assets/images/clusters/modulnye-zdaniya/3.webp"
+  ],
+  "balashikha/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/1.webp"
+  ],
+  "chekhov/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/1.webp"
+  ],
+  "chelyabinsk/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/2.webp"
+  ],
+  "dmitrov/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/1.webp"
+  ],
+  "dolgoprudny/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/6.webp"
+  ],
+  "domodedovo/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/1.webp"
+  ],
+  "dubna/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/2.webp"
+  ],
+  "dzerzhinsky/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/4.webp"
+  ],
+  "egoryevsk/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/2.webp"
+  ],
+  "ekaterinburg/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/3.webp"
+  ],
+  "elektrostal/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/4.webp"
+  ],
+  "fryazino/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/8.webp"
+  ],
+  "ivanteyevka/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/1.webp"
+  ],
+  "izhevsk/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/1.webp"
+  ],
+  "kaluga/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/4.webp"
+  ],
+  "kazan/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/3.webp"
+  ],
+  "khimki/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/8.webp"
+  ],
+  "klin/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/8.webp"
+  ],
+  "kolomna/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/3.webp"
+  ],
+  "korolev/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/6.webp"
+  ],
+  "krasnogorsk/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/4.webp"
+  ],
+  "lobnya/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/2.webp"
+  ],
+  "lyubertsy/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/8.webp"
+  ],
+  "moskva/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/4.webp"
+  ],
+  "mytishchi/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/6.webp"
+  ],
+  "naberezhnye-chelny/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/8.webp"
+  ],
+  "nizhnekamsk/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/6.webp"
+  ],
+  "nizhny-novgorod/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/1.webp"
+  ],
+  "noginsk/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/6.webp"
+  ],
+  "obninsk/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/5.webp"
+  ],
+  "odintsovo/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/8.webp"
+  ],
+  "orekhovo-zuevo/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/2.webp"
+  ],
+  "perm/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/4.webp"
+  ],
+  "podolsk/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/7.webp"
+  ],
+  "pushkino/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/4.webp"
+  ],
+  "ramenskoe/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/2.webp"
+  ],
+  "reutov/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/4.webp"
+  ],
+  "saint-petersburg/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/7.webp"
+  ],
+  "samara/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/3.webp"
+  ],
+  "sergiev-posad/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/2.webp"
+  ],
+  "serpukhov/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/7.webp"
+  ],
+  "shchelkovo/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/4.webp"
+  ],
+  "tula/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/7.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/1.webp"
+  ],
+  "tver/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/5.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/7.webp"
+  ],
+  "ufa/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/8.webp",
+    "/assets/images/clusters/gazgoldery/6.webp"
+  ],
+  "voskresensk/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/1.webp",
+    "/assets/images/clusters/gazgoldery/9.webp",
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/8.webp"
+  ],
+  "yaroslavl/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/6.webp",
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/7.webp"
+  ],
+  "zhukovsky/gazgoldery": [
+    "/assets/images/clusters/gazgoldery/2.webp",
+    "/assets/images/clusters/gazgoldery/3.webp",
+    "/assets/images/clusters/gazgoldery/4.webp",
+    "/assets/images/clusters/gazgoldery/5.webp"
   ]
 }

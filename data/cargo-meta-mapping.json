@@ -958,5 +958,245 @@
     "title": "Модульные здания Жуковский",
     "description": "Модульные здания Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
     "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/modulnye-zdaniya/"
+  },
+  "balashikha/gazgoldery": {
+    "title": "Газгольдеры Балашиха",
+    "description": "Газгольдеры Балашиха. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/balashikha/gazgoldery/"
+  },
+  "chekhov/gazgoldery": {
+    "title": "Газгольдеры Чехов",
+    "description": "Газгольдеры Чехов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chekhov/gazgoldery/"
+  },
+  "chelyabinsk/gazgoldery": {
+    "title": "Газгольдеры Челябинск",
+    "description": "Газгольдеры Челябинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/chelyabinsk/gazgoldery/"
+  },
+  "dmitrov/gazgoldery": {
+    "title": "Газгольдеры Дмитров",
+    "description": "Газгольдеры Дмитров. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dmitrov/gazgoldery/"
+  },
+  "dolgoprudny/gazgoldery": {
+    "title": "Газгольдеры Долгопрудный",
+    "description": "Газгольдеры Долгопрудный. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dolgoprudny/gazgoldery/"
+  },
+  "domodedovo/gazgoldery": {
+    "title": "Газгольдеры Домодедово",
+    "description": "Газгольдеры Домодедово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/domodedovo/gazgoldery/"
+  },
+  "dubna/gazgoldery": {
+    "title": "Газгольдеры Дубна",
+    "description": "Газгольдеры Дубна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dubna/gazgoldery/"
+  },
+  "dzerzhinsky/gazgoldery": {
+    "title": "Газгольдеры Дзержинский",
+    "description": "Газгольдеры Дзержинский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/dzerzhinsky/gazgoldery/"
+  },
+  "egoryevsk/gazgoldery": {
+    "title": "Газгольдеры Егорьевск",
+    "description": "Газгольдеры Егорьевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/egoryevsk/gazgoldery/"
+  },
+  "ekaterinburg/gazgoldery": {
+    "title": "Газгольдеры Екатеринбург",
+    "description": "Газгольдеры Екатеринбург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ekaterinburg/gazgoldery/"
+  },
+  "elektrostal/gazgoldery": {
+    "title": "Газгольдеры Электросталь",
+    "description": "Газгольдеры Электросталь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/elektrostal/gazgoldery/"
+  },
+  "fryazino/gazgoldery": {
+    "title": "Газгольдеры Фрязино",
+    "description": "Газгольдеры Фрязино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/fryazino/gazgoldery/"
+  },
+  "ivanteyevka/gazgoldery": {
+    "title": "Газгольдеры Ивантеевка",
+    "description": "Газгольдеры Ивантеевка. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ivanteyevka/gazgoldery/"
+  },
+  "izhevsk/gazgoldery": {
+    "title": "Газгольдеры Ижевск",
+    "description": "Газгольдеры Ижевск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/izhevsk/gazgoldery/"
+  },
+  "kaluga/gazgoldery": {
+    "title": "Газгольдеры Калуга",
+    "description": "Газгольдеры Калуга. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kaluga/gazgoldery/"
+  },
+  "kazan/gazgoldery": {
+    "title": "Газгольдеры Казань",
+    "description": "Газгольдеры Казань. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kazan/gazgoldery/"
+  },
+  "khimki/gazgoldery": {
+    "title": "Газгольдеры Химки",
+    "description": "Газгольдеры Химки. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/khimki/gazgoldery/"
+  },
+  "klin/gazgoldery": {
+    "title": "Газгольдеры Клин",
+    "description": "Газгольдеры Клин. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/klin/gazgoldery/"
+  },
+  "kolomna/gazgoldery": {
+    "title": "Газгольдеры Коломна",
+    "description": "Газгольдеры Коломна. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/kolomna/gazgoldery/"
+  },
+  "korolev/gazgoldery": {
+    "title": "Газгольдеры Королёв",
+    "description": "Газгольдеры Королёв. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/korolev/gazgoldery/"
+  },
+  "krasnogorsk/gazgoldery": {
+    "title": "Газгольдеры Красногорск",
+    "description": "Газгольдеры Красногорск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/krasnogorsk/gazgoldery/"
+  },
+  "lobnya/gazgoldery": {
+    "title": "Газгольдеры Лобня",
+    "description": "Газгольдеры Лобня. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lobnya/gazgoldery/"
+  },
+  "lyubertsy/gazgoldery": {
+    "title": "Газгольдеры Люберцы",
+    "description": "Газгольдеры Люберцы. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/lyubertsy/gazgoldery/"
+  },
+  "moskva/gazgoldery": {
+    "title": "Газгольдеры Москва",
+    "description": "Газгольдеры Москва. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/moskva/gazgoldery/"
+  },
+  "mytishchi/gazgoldery": {
+    "title": "Газгольдеры Мытищи",
+    "description": "Газгольдеры Мытищи. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/mytishchi/gazgoldery/"
+  },
+  "naberezhnye-chelny/gazgoldery": {
+    "title": "Газгольдеры Набережные Челны",
+    "description": "Газгольдеры Набережные Челны. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/naberezhnye-chelny/gazgoldery/"
+  },
+  "nizhnekamsk/gazgoldery": {
+    "title": "Газгольдеры Нижнекамск",
+    "description": "Газгольдеры Нижнекамск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhnekamsk/gazgoldery/"
+  },
+  "nizhny-novgorod/gazgoldery": {
+    "title": "Газгольдеры Нижний Новгород",
+    "description": "Газгольдеры Нижний Новгород. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/nizhny-novgorod/gazgoldery/"
+  },
+  "noginsk/gazgoldery": {
+    "title": "Газгольдеры Ногинск",
+    "description": "Газгольдеры Ногинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/noginsk/gazgoldery/"
+  },
+  "obninsk/gazgoldery": {
+    "title": "Газгольдеры Обнинск",
+    "description": "Газгольдеры Обнинск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/obninsk/gazgoldery/"
+  },
+  "odintsovo/gazgoldery": {
+    "title": "Газгольдеры Одинцово",
+    "description": "Газгольдеры Одинцово. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/odintsovo/gazgoldery/"
+  },
+  "orekhovo-zuevo/gazgoldery": {
+    "title": "Газгольдеры Орехово-Зуево",
+    "description": "Газгольдеры Орехово-Зуево. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/orekhovo-zuevo/gazgoldery/"
+  },
+  "perm/gazgoldery": {
+    "title": "Газгольдеры Пермь",
+    "description": "Газгольдеры Пермь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/perm/gazgoldery/"
+  },
+  "podolsk/gazgoldery": {
+    "title": "Газгольдеры Подольск",
+    "description": "Газгольдеры Подольск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/podolsk/gazgoldery/"
+  },
+  "pushkino/gazgoldery": {
+    "title": "Газгольдеры Пушкино",
+    "description": "Газгольдеры Пушкино. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/pushkino/gazgoldery/"
+  },
+  "ramenskoe/gazgoldery": {
+    "title": "Газгольдеры Раменское",
+    "description": "Газгольдеры Раменское. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ramenskoe/gazgoldery/"
+  },
+  "reutov/gazgoldery": {
+    "title": "Газгольдеры Реутов",
+    "description": "Газгольдеры Реутов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/reutov/gazgoldery/"
+  },
+  "saint-petersburg/gazgoldery": {
+    "title": "Газгольдеры Санкт-Петербург",
+    "description": "Газгольдеры Санкт-Петербург. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/saint-petersburg/gazgoldery/"
+  },
+  "samara/gazgoldery": {
+    "title": "Газгольдеры Самара",
+    "description": "Газгольдеры Самара. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/samara/gazgoldery/"
+  },
+  "sergiev-posad/gazgoldery": {
+    "title": "Газгольдеры Сергиев Посад",
+    "description": "Газгольдеры Сергиев Посад. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/sergiev-posad/gazgoldery/"
+  },
+  "serpukhov/gazgoldery": {
+    "title": "Газгольдеры Серпухов",
+    "description": "Газгольдеры Серпухов. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/serpukhov/gazgoldery/"
+  },
+  "shchelkovo/gazgoldery": {
+    "title": "Газгольдеры Щелково",
+    "description": "Газгольдеры Щелково. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/shchelkovo/gazgoldery/"
+  },
+  "tula/gazgoldery": {
+    "title": "Газгольдеры Тула",
+    "description": "Газгольдеры Тула. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tula/gazgoldery/"
+  },
+  "tver/gazgoldery": {
+    "title": "Газгольдеры Тверь",
+    "description": "Газгольдеры Тверь. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/tver/gazgoldery/"
+  },
+  "ufa/gazgoldery": {
+    "title": "Газгольдеры Уфа",
+    "description": "Газгольдеры Уфа. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/ufa/gazgoldery/"
+  },
+  "voskresensk/gazgoldery": {
+    "title": "Газгольдеры Воскресенск",
+    "description": "Газгольдеры Воскресенск. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/voskresensk/gazgoldery/"
+  },
+  "yaroslavl/gazgoldery": {
+    "title": "Газгольдеры Ярославль",
+    "description": "Газгольдеры Ярославль. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/yaroslavl/gazgoldery/"
+  },
+  "zhukovsky/gazgoldery": {
+    "title": "Газгольдеры Жуковский",
+    "description": "Газгольдеры Жуковский. Доставка по городу и межгород. Прозрачные цены, страхование груза. ☎ 8-800-707-29-36",
+    "canonical": "https://dinamika-cargo.ru/regions/zhukovsky/gazgoldery/"
   }
 }
