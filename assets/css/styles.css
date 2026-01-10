@@ -2153,7 +2153,7 @@ html {
    ========================================== */
 
 .cluster-hero {
-    padding: 20px 0 40px;
+    padding: 0 0 40px;
     background: #fff;
 }
 
@@ -2173,7 +2173,7 @@ html {
 
 @media (max-width: 768px) {
     .cluster-hero {
-        padding: 15px 0 30px;
+        padding: 0 0 30px;
     }
 
     .cluster-hero h1 {
