@@ -7,10 +7,16 @@
     <meta name="description" content="Контакты ТК Динамика. Телефон, адрес, время работы транспортной компании. ☎ 8-987-416-51-87">
     <meta name="keywords" content="контакты, телефон, адрес, офис, грузоперевозки, связь">
 
+    <link rel="canonical" href="https://dinamika-cargo.ru/contacts/">
+
     <!-- Open Graph -->
     <meta property="og:title" content="Контакты - ТК Динамика">
     <meta property="og:description" content="Контакты ТК Динамика. Телефон, адрес, время работы транспортной компании.">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dinamika-cargo.ru/contacts/">
+    <meta property="og:image" content="https://dinamika-cargo.ru/assets/images/color_big.png">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="ТК Динамика">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
@@ -59,18 +65,71 @@
     }
     </script>
 
-    <!-- Schema.org LocalBusiness -->
+    <!-- Schema.org Organization (главная организация) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://dinamika-cargo.ru/#organization",
+        "name": "ТК Динамика",
+        "legalName": "ООО «Динамика»",
+        "description": "Федеральная транспортная компания по грузоперевозкам по России. Перевозка грузов от 100 кг до 24 тонн. 48 филиалов.",
+        "url": "https://dinamika-cargo.ru",
+        "logo": "https://dinamika-cargo.ru/assets/images/color_big.png",
+        "image": "https://dinamika-cargo.ru/assets/images/color_big.png",
+        "telephone": "+7-800-707-29-36",
+        "email": "kontekst-rt@yandex.ru",
+        "foundingDate": "2017",
+        "numberOfEmployees": {
+            "@type": "QuantitativeValue",
+            "minValue": 10,
+            "maxValue": 50
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "Россия"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "RU",
+            "streetAddress": "ул. Ленина, 44 к3",
+            "addressLocality": "Тольятти",
+            "addressRegion": "Самарская область",
+            "postalCode": "445020"
+        },
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+7-800-707-29-36",
+                "contactType": "customer service",
+                "areaServed": "RU",
+                "availableLanguage": "Russian"
+            },
+            {
+                "@type": "ContactPoint",
+                "telephone": "+7-987-416-51-87",
+                "contactType": "sales",
+                "areaServed": "RU",
+                "availableLanguage": "Russian"
+            }
+        ],
+        "sameAs": [
+            "https://t.me/+79874165187"
+        ]
+    }
+    </script>
+
+    <!-- Schema.org LocalBusiness (головной офис) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://dinamika-cargo.ru/contacts/#localbusiness",
-        "name": "ТК Динамика",
-        "description": "Федеральная транспортная компания по грузоперевозкам по России. Перевозка грузов от 100 кг до 24 тонн.",
+        "@id": "https://dinamika-cargo.ru/contacts/#headquarters",
+        "name": "ТК Динамика — головной офис",
+        "description": "Головной офис транспортной компании Динамика в Тольятти.",
         "url": "https://dinamika-cargo.ru/contacts/",
-        "logo": "https://dinamika-cargo.ru/assets/images/color_big.png",
         "image": "https://dinamika-cargo.ru/assets/images/color_big.png",
-        "telephone": ["+7-800-707-29-36", "+7-987-416-51-87"],
+        "telephone": "+7-800-707-29-36",
         "email": "kontekst-rt@yandex.ru",
         "address": {
             "@type": "PostalAddress",
@@ -82,8 +141,8 @@
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "53.539268",
-            "longitude": "49.411293"
+            "latitude": 53.539268,
+            "longitude": 49.411293
         },
         "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
@@ -92,9 +151,8 @@
             "closes": "18:00"
         },
         "priceRange": "$$",
-        "areaServed": {
-            "@type": "Country",
-            "name": "Россия"
+        "parentOrganization": {
+            "@id": "https://dinamika-cargo.ru/#organization"
         }
     }
     </script>
