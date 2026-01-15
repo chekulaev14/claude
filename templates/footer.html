@@ -1,50 +1,154 @@
-<footer style="background: #2d3436; color: white; padding: 40px 0; margin-top: 80px;">
-    <div class="container">
-        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 30px;">
-            <!-- Logo & Tagline -->
-            <div style="flex: 1; min-width: 250px;">
-                <h3 style="color: white; margin-bottom: 10px; font-size: 24px; font-weight: 700;">ТК Динамика</h3>
-                <p style="color: #b2bec3; margin: 0; font-size: 14px;">Грузоперевозки по России</p>
-            </div>
+    <footer style="background: #2d3436; color: white; padding: 60px 0 0;">
+        <div class="container">
 
-            <!-- Contacts -->
-            <div style="display: flex; gap: 40px; flex-wrap: wrap;">
-                <div>
-                    <p style="color: #b2bec3; margin: 0 0 8px 0; font-size: 13px;">Телефон</p>
-                    <a href="tel:88007072936" style="color: white; text-decoration: none; font-size: 18px; font-weight: 600; display: block; margin-bottom: 5px;">8-800-707-29-36</a>
-                    <a href="tel:89874165187" style="color: white; text-decoration: none; font-size: 16px; font-weight: 500;">8-987-416-51-87</a>
+            <!-- Информация и контакты -->
+            <div class="row g-4 mb-5 pb-5" style="border-bottom: 1px solid #636e72;">
+                <div class="col-md-4">
+                    <h5 style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 20px;">О компании</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 10px;"><a href="/contacts/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Контакты</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/clients/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Наши клиенты</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/portfolio/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Выполненные работы</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/clients-map/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">География клиентов</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/faq/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Ответы на вопросы</a></li>
+                    </ul>
                 </div>
-                <div>
-                    <p style="color: #b2bec3; margin: 0 0 8px 0; font-size: 13px;">Email</p>
-                    <a href="mailto:kontekst-rt@yandex.ru" style="color: white; text-decoration: none; font-size: 16px;">kontekst-rt@yandex.ru</a>
-                </div>
-            </div>
 
-            <!-- Copyright -->
-            <div style="flex-basis: 100%; text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #636e72;">
-                <p style="color: #b2bec3; margin: 0; font-size: 13px;">&copy; 2025 ТК Динамика. Все права защищены.</p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!-- Mobile Callback Modal -->
-<div class="modal fade" id="mobileCallbackModal" tabindex="-1" aria-labelledby="mobileCallbackModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="mobileCallbackModalLabel">Обратный звонок</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form id="mobileCallbackForm" class="callback-form">
-                    <div class="mb-3">
-                        <label for="mobileCallbackPhone" class="form-label">Ваш телефон</label>
-                        <input type="tel" class="form-control" id="mobileCallbackPhone" name="phone" placeholder="+7 (999) 999-99-99" value="+7 " required>
+                <div class="col-md-4">
+                    <h5 style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 20px;">Контакты</h5>
+                    <div style="margin-bottom: 20px;">
+                        <p style="color: #b2bec3; font-size: 13px; margin-bottom: 8px;">Телефон (бесплатный):</p>
+                        <a href="tel:88007072936" style="color: #b2bec3; text-decoration: none; font-size: 16px; display: block; margin-bottom: 8px;">8-800-707-29-36</a>
+                        <a href="tel:89874165187" style="color: #b2bec3; text-decoration: none; font-size: 16px;">8-987-416-51-87</a>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Позвоните мне!</button>
-                </form>
+                    <div>
+                        <p style="color: #b2bec3; font-size: 13px; margin-bottom: 8px;">Email:</p>
+                        <a href="mailto:kontekst-rt@yandex.ru" style="color: #b2bec3; text-decoration: none; font-size: 15px;">kontekst-rt@yandex.ru</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 20px;">График работы</h5>
+                    <p style="color: #b2bec3; font-size: 14px; line-height: 1.8; margin: 0;">
+                        <span style="font-weight: 600;">Приём новых заявок:</span><br>
+                        Понедельник - Пятница: 9:00 - 18:00<br>
+                        Выполнение обязательств: 24/7
+                    </p>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
+
+            <!-- БЛОК 1: Услуги и типы грузов -->
+            <div class="row g-4 mb-5 pb-5" style="border-bottom: 1px solid #636e72;">
+                <!-- Колонка: Услуги -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 20px;">Наши услуги</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/mezhgorod/" style="color: #b2bec3; text-decoration: none; font-size: 14px; transition: color 0.2s;">Междугородние перевозки</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/transportnaya/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Транспортная компания</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/dlinnomer/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Перевозка длинномерами</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/po-rossii/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Грузоперевозки по России</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/fura/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Перевозка фурами</a></li>
+                    </ul>
+                </div>
+
+                <!-- Колонка: Типы грузов 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 20px;">Перевозка грузов</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/truby/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Трубы</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/armatura/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Арматура</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/zhbi/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">ЖБИ</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/modulnye-zdaniya/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Модульные здания</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/gazgoldery/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Газгольдеры</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/emkosti/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Ёмкости</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/pilomaterialy/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Пиломатериалы</a></li>
+                    </ul>
+                </div>
+
+                <!-- Колонка: Типы грузов 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 20px;">Специальные грузы</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/vodnyj-transport/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Водный транспорт</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/lep/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">ЛЭП</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/metallokonstruktsii/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Металлоконструкции</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/negabaritnye-gruzy/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Негабаритные грузы</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/promyshlennoe-oborudovanie/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Промышленное оборудование</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/opasnye-gruzy/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Опасные грузы</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/sbornye-gruzy/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Сборные грузы</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/regions/moskva/poputnye-gruzy/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Попутные грузы</a></li>
+                    </ul>
+                </div>
+
+                <!-- Колонка: Популярные маршруты -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 20px;">Популярные маршруты</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 10px;"><a href="/routes/moskva-spb/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Москва - Санкт-Петербург</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/routes/moskva-ekaterinburg/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Москва - Екатеринбург</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/routes/moskva-kazan/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Москва - Казань</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/routes/spb-ekaterinburg/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">СПб - Екатеринбург</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/routes/moskva-samara/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Москва - Самара</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/routes/moskva-nizhny-novgorod/" style="color: #b2bec3; text-decoration: none; font-size: 14px;">Москва - Нижний Новгород</a></li>
+                        <li style="margin-bottom: 10px;"><a href="/routes/" style="color: #27ae60; text-decoration: none; font-size: 14px; font-weight: 600;">Все маршруты →</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- БЛОК 3: Все города -->
+            <div class="row mb-5 pb-5" style="border-bottom: 1px solid #636e72;">
+                <div class="col-12">
+                    <h5 style="color: white; font-size: 18px; font-weight: 600; margin-bottom: 20px;">Работаем в 48 городах России</h5>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 6px;">
+                        <!-- Крупные города -->
+                        <a href="/regions/moskva/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Москва</a>
+                        <a href="/regions/saint-petersburg/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Санкт-Петербург</a>
+                        <a href="/regions/ekaterinburg/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Екатеринбург</a>
+                        <a href="/regions/kazan/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Казань</a>
+                        <a href="/regions/nizhny-novgorod/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Нижний Новгород</a>
+                        <a href="/regions/samara/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Самара</a>
+                        <a href="/regions/ufa/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Уфа</a>
+                        <a href="/regions/chelyabinsk/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Челябинск</a>
+                        <a href="/regions/perm/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Пермь</a>
+                        <a href="/regions/yaroslavl/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Ярославль</a>
+                        <a href="/regions/tver/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Тверь</a>
+                        <a href="/regions/tula/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Тула</a>
+                        <a href="/regions/kaluga/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Калуга</a>
+                        <a href="/regions/izhevsk/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Ижевск</a>
+                        <a href="/regions/naberezhnye-chelny/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Набережные Челны</a>
+                        <a href="/regions/nizhnekamsk/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Нижнекамск</a>
+                        <a href="/regions/obninsk/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Обнинск</a>
+                        <!-- Подмосковье -->
+                        <a href="/regions/balashikha/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Балашиха</a>
+                        <a href="/regions/chekhov/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Чехов</a>
+                        <a href="/regions/dmitrov/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Дмитров</a>
+                        <a href="/regions/dolgoprudny/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Долгопрудный</a>
+                        <a href="/regions/domodedovo/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Домодедово</a>
+                        <a href="/regions/dubna/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Дубна</a>
+                        <a href="/regions/dzerzhinsky/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Дзержинский</a>
+                        <a href="/regions/egoryevsk/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Егорьевск</a>
+                        <a href="/regions/elektrostal/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Электросталь</a>
+                        <a href="/regions/fryazino/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Фрязино</a>
+                        <a href="/regions/ivanteyevka/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Ивантеевка</a>
+                        <a href="/regions/khimki/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Химки</a>
+                        <a href="/regions/klin/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Клин</a>
+                        <a href="/regions/kolomna/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Коломна</a>
+                        <a href="/regions/korolev/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Королёв</a>
+                        <a href="/regions/krasnogorsk/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Красногорск</a>
+                        <a href="/regions/lobnya/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Лобня</a>
+                        <a href="/regions/lyubertsy/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Люберцы</a>
+                        <a href="/regions/mytishchi/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Мытищи</a>
+                        <a href="/regions/noginsk/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Ногинск</a>
+                        <a href="/regions/odintsovo/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Одинцово</a>
+                        <a href="/regions/orekhovo-zuevo/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Орехово-Зуево</a>
+                        <a href="/regions/podolsk/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Подольск</a>
+                        <a href="/regions/pushkino/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Пушкино</a>
+                        <a href="/regions/ramenskoe/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Раменское</a>
+                        <a href="/regions/reutov/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Реутов</a>
+                        <a href="/regions/sergiev-posad/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Сергиев Посад</a>
+                        <a href="/regions/serpukhov/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Серпухов</a>
+                        <a href="/regions/shchelkovo/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Щёлково</a>
+                        <a href="/regions/voskresensk/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Воскресенск</a>
+                        <a href="/regions/zhukovsky/" style="color: #b2bec3; text-decoration: none; font-size: 14px; padding: 3px 0;">Жуковский</a>
+                    </div>
+                    <a href="/regions/" style="color: #27ae60; text-decoration: none; font-size: 14px; font-weight: 600; display: inline-block; margin-top: 20px;">Все города →</a>

@@ -2435,3 +2435,9 @@ html {
         font-size: 14px;
     }
 }
+
+/* Footer Styles */
+footer a:hover {
+    color: #27ae60 !important;
+    transition: color 0.2s ease;
+}
