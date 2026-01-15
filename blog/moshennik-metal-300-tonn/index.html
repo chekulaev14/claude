@@ -40,6 +40,79 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/103783702" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
+    <!-- Schema.org Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://dinamika-cargo.ru/#organization",
+        "name": "ТК Динамика",
+        "alternateName": "Динамика Карго",
+        "url": "https://dinamika-cargo.ru",
+        "logo": "https://dinamika-cargo.ru/assets/images/color_big.png",
+        "description": "Транспортная компания по грузоперевозкам по России. Перевозка грузов от 100 кг до 24 тонн. Фиксированная комиссия от 5000 руб.",
+        "foundingDate": "2018",
+        "telephone": ["+7-800-707-29-36", "+7-987-416-51-87"],
+        "email": "kontekst-rt@yandex.ru",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "RU",
+            "addressLocality": "Москва"
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "Россия"
+        },
+        "sameAs": [
+            "https://t.me/+79874165187",
+            "https://t.me/dinamikus_bot"
+        ],
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+7-800-707-29-36",
+                "contactType": "customer service",
+                "availableLanguage": "Russian"
+            },
+            {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "areaServed": "RU",
+                "availableLanguage": "Russian",
+                "url": "https://t.me/dinamikus_bot"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Главная",
+                "item": "https://dinamika-cargo.ru/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Блог",
+                "item": "https://dinamika-cargo.ru/blog/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Мошенники украли 300 тонн металла",
+                "item": "https://dinamika-cargo.ru/blog/moshennik-metal-300-tonn/"
+            }
+        ]
+    }
+    </script>
+
     <!-- Schema.org Article -->
     <script type="application/ld+json">
     {
@@ -48,19 +121,17 @@
         "headline": "Мошенники нашли экспедитора на Авито и украли 300 тонн металла",
         "image": "https://dinamika-cargo.ru/assets/images/blog/moshennik_1/oblozhka.png",
         "author": {
-            "@type": "Organization",
-            "name": "ТК Динамика"
+            "@id": "https://dinamika-cargo.ru/#organization"
         },
         "publisher": {
-            "@type": "Organization",
-            "name": "ТК Динамика",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://dinamika-cargo.ru/assets/images/logo.png"
-            }
+            "@id": "https://dinamika-cargo.ru/#organization"
         },
         "datePublished": "2025-01-15",
-        "description": "Реальная история про кражу 300 тонн металлопроката через поддельные документы."
+        "dateModified": "2025-01-15",
+        "wordCount": 350,
+        "description": "Реальная история про кражу 300 тонн металлопроката через поддельные документы.",
+        "articleSection": "Логистика",
+        "inLanguage": "ru-RU"
     }
     </script>
 
@@ -108,6 +179,42 @@
         }
         .article-meta i {
             margin-right: 6px;
+        }
+
+        /* Кнопки "Поделиться" */
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .share-btn i {
+            font-size: 16px;
+        }
+        .share-btn-vk {
+            background: rgba(0, 119, 255, 0.15);
+            color: #0077ff;
+            border: 1px solid rgba(0, 119, 255, 0.3);
+        }
+        .share-btn-vk:hover {
+            background: #0077ff;
+            color: white;
+            transform: translateY(-2px);
+        }
+        .share-btn-telegram {
+            background: rgba(36, 161, 222, 0.15);
+            color: #24a1de;
+            border: 1px solid rgba(36, 161, 222, 0.3);
+        }
+        .share-btn-telegram:hover {
+            background: #24a1de;
+            color: white;
+            transform: translateY(-2px);
         }
 
         .article-cover {
@@ -172,6 +279,86 @@
             text-decoration: underline;
         }
 
+        /* Ссылки в тексте */
+        .article-link {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+        .article-link:hover {
+            color: #1d4ed8;
+        }
+
+        /* Блок популярных маршрутов */
+        .popular-routes {
+            padding: 60px 0;
+            background: #f8f9fa;
+        }
+        .popular-routes h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+        .route-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            text-decoration: none;
+            display: block;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            height: 100%;
+        }
+        .route-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .route-card-title {
+            font-weight: 600;
+            color: #2d3436;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+        .route-card-info {
+            display: flex;
+            gap: 16px;
+            color: #636e72;
+            font-size: 14px;
+        }
+        .route-card-price {
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+        /* Форма обратной связи */
+        .callback-section {
+            padding: 60px 0;
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+        }
+        .callback-section h2 {
+            margin-bottom: 1rem;
+        }
+        .callback-section .lead {
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+        .callback-form-wrapper {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .callback-form-wrapper .form-control {
+            padding: 14px 18px;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            border: none;
+        }
+        .callback-form-wrapper .btn {
+            padding: 14px 32px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+        }
+
         @media (max-width: 768px) {
             .article-header h1 {
                 font-size: 1.75rem;
@@ -215,7 +402,7 @@
     <!-- Cover Image -->
     <div class="container">
         <div class="article-cover">
-            <img src="/assets/images/blog/moshennik_1/oblozhka.png" alt="Мошенники украли 300 тонн металла">
+            <img src="/assets/images/blog/moshennik_1/oblozhka.png" alt="Мошенники украли 300 тонн металла при грузоперевозке - история транспортной компании">
         </div>
     </div>
 
@@ -224,59 +411,71 @@
         <div class="container">
             <div class="article-body">
 
+                <!-- Кнопки "Поделиться" -->
+                <div class="share-buttons" style="margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid #e9ecef; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                    <span style="color: #636e72; font-size: 14px; font-weight: 500;">Поделиться:</span>
+                    <a href="https://vk.com/share.php?url=https://dinamika-cargo.ru/blog/moshennik-metal-300-tonn/&title=Мошенники украли 300 тонн металла" target="_blank" rel="noopener" class="share-btn share-btn-vk" title="Поделиться ВКонтакте">
+                        <i class="bi bi-chat-square-text"></i>
+                        <span>ВКонтакте</span>
+                    </a>
+                    <a href="https://t.me/share/url?url=https://dinamika-cargo.ru/blog/moshennik-metal-300-tonn/&text=Мошенники украли 300 тонн металла" target="_blank" rel="noopener" class="share-btn share-btn-telegram" title="Поделиться в Telegram">
+                        <i class="bi bi-telegram"></i>
+                        <span>Telegram</span>
+                    </a>
+                </div>
+
                 <div class="highlight">
-                    Реальные истории про мошенничество в логистике от практикующего экспедитора с 7-летним опытом.
+                    Реальные истории про мошенничество в логистике из практики нашей компании за 7 лет работы.
                 </div>
 
-                <p>Поступила стандартная заявка на перевозку металлопроката из Москвы в Петербург — согласовали ставку, подобрали две фуры и на следующий день поставили машины на погрузку.</p>
+                <p>Поступила стандартная заявка на <a href="/routes/moskva-spb/" class="article-link">перевозку металлопроката из Москвы в Петербург</a> — согласовали ставку, подобрали две фуры и на следующий день поставили машины на погрузку.</p>
 
-                <p>Загрузились на каком-то строительном объекте, документы оформили, водители выехали. Договорились, что оплата будет перед выгрузкой — утром машины приедут, заказчик переведёт деньги.</p>
+                <p>Загрузились на строительном объекте, документы оформили, водители выехали. Договорились, что оплата будет перед выгрузкой — утром машины приедут, заказчик переведёт деньги.</p>
 
-                <div class="article-image">
-                    <img src="/assets/images/blog/moshennik_1/1.png" alt="Погрузка металлопроката">
-                </div>
 
-                <p>Утром машины уже в Петербурге, звоню заказчику за оплатой. Первый раз он говорит что в машине едет, перезвонит. Через полчаса — что в поезде и неудобно разговаривать. Ещё через час — что садится в самолёт и будет недоступен.</p>
+                <p>Утром машины уже в Петербурге, наш менеджер звонит заказчику за оплатой. Первый раз он говорит что в машине едет, перезвонит. Через полчаса — что в поезде и неудобно разговаривать. Ещё через час — что садится в самолёт и будет недоступен.</p>
 
                 <p><strong>Когда человек одновременно находится в трёх видах транспорта — это верный признак того, что контрагент пытается уйти от контакта.</strong></p>
 
                 <div class="article-image">
-                    <img src="/assets/images/blog/moshennik_1/2.png" alt="Проверка документов">
+                    <img src="/assets/images/blog/moshennik_1/2.png" alt="Проверка ТТН и транспортных документов при грузоперевозке металлопроката">
                 </div>
 
-                <p>Попросил водителей скинуть фото документов. Вроде всё в порядке — ТТН оформлена, печати стоят, но что-то не сходится.</p>
+                <p>Попросили водителей скинуть фото документов. Вроде всё в порядке — ТТН оформлена, печати стоят, но что-то не сходится.</p>
 
-                <p>В накладной был указан директор компании-получателя с очень редкой фамилией. Пробил её через АТИ и нашёл у этого человека ещё одну компанию с другими контактами. Позвонил ему напрямую и спросил про перевозку металла в Петербург — он сказал что впервые об этом слышит. Отправил ему фото документов, и он подтвердил что печать его, но подпись поддельная.</p>
+                <p>В накладной был указан директор компании-отправителя с очень редкой фамилией. Пробили её через АТИ и нашли у этого человека ещё одну компанию с другими контактами. Позвонили ему напрямую и спросили про перевозку металла в Петербург — он сказал что впервые об этом слышит. Отправили ему фото документов, и он подтвердил что печать его, но подпись поддельная.</p>
 
                 <div class="article-image">
-                    <img src="/assets/images/blog/moshennik_1/3.png" alt="Расследование мошенничества">
+                    <img src="/assets/images/blog/moshennik_1/3.png" alt="Расследование мошенничества с поддельными документами в транспортной компании">
                 </div>
 
                 <p>После этого ситуация стала проясняться.</p>
 
-                <p>Связался с контактным лицом, который присутствовал на погрузке в качестве экспедитора со стороны заказчика. Оказалось, что он работает на этом самом строительном объекте и параллельно подрабатывает — разместил на Авито объявление что может приехать проконтролировать погрузку или выгрузку.</p>
+                <p>Наш сотрудник связался с контактным лицом, который присутствовал на погрузке в качестве экспедитора со стороны заказчика. Оказалось, что он работает на этом самом строительном объекте и параллельно подрабатывает — разместил на Авито объявление что может приехать проконтролировать погрузку или выгрузку.</p>
 
                 <p>С ним связались какие-то люди, дали пару мелких заказов и честно оплатили. А через две недели поступил крупный заказ — проконтролировать отгрузку партии металла с металлобазы. Он приехал, только не на металлобазу, а на стройку.</p>
 
-                <div class="article-image">
-                    <img src="/assets/images/blog/moshennik_1/4.png" alt="Схема мошенничества">
-                </div>
 
-                <p>У организаторов схемы возникла проблема — 300 тонн металла невозможно быстро сбыть даже по заниженным ценам. И этот экспедитор сам предложил им решение: часть груза можно выгрузить на его стройке, он договорится с начальством за отдельную плату.</p>
+                <p>У организаторов схемы возникла проблема — 300 тонн металлопроката — <a href="/regions/moskva/truby/" class="article-link">трубы</a>, <a href="/regions/moskva/armatura/" class="article-link">арматура</a>, профиль — невозможно быстро сбыть даже по заниженным ценам. И этот экспедитор сам предложил им решение: часть груза можно выгрузить на его стройке, он договорится с начальством за отдельную плату.</p>
 
-                <p>Названия компаний я специально не указываю, но скажу что это крупные игроки рынка. Уровень организации безопасности на таких объектах меня, мягко говоря, удивил.</p>
+                <p>Названия компаний мы специально не указываем, но скажем что это крупные игроки рынка. Уровень организации безопасности на таких объектах нас, мягко говоря, удивил.</p>
 
-                <p>На упаковке металла были QR-коды производителя — крупного уральского завода. Позвонил им в службу безопасности и передал всю информацию. Они отследили цепочку продаж по своей базе и вышли на реального покупателя, который потом связался со мной.</p>
+                <p>На упаковке металла были QR-коды производителя — крупного уральского завода. Наши сотрудники позвонили им в службу безопасности и передали всю информацию. Они отследили цепочку продаж по своей базе и вышли на реального покупателя, который потом связался с нами.</p>
 
                 <div class="article-image">
-                    <img src="/assets/images/blog/moshennik_1/5.png" alt="Итоги расследования">
+                    <img src="/assets/images/blog/moshennik_1/5.png" alt="Итоги расследования кражи 300 тонн металлопроката при перевозке груза">
                 </div>
 
                 <p><strong>В итоге из трёх машин (две наши и одна от другого перевозчика) удалось вернуть только 60 тонн, остальные 240 тонн ушли безвозвратно.</strong></p>
 
                 <p>Позже выяснилось, что вся схема работала через инсайдера в компании-покупателе — кто-то слил мошенникам информацию о поставке, и они изготовили поддельные доверенности чтобы забрать чужой груз.</p>
 
-                <p>Груз перегрузили на базу одного из перевозчиков. Мне пришлось проконсультироваться с адвокатом по уголовным делам и написать заявление в полицию — это был важный аргумент в пользу того, что я не имею никакого отношения к этой схеме. Владелец груза повёл себя порядочно и оплатил перевозку.</p>
+                <p>Груз перегрузили на базу одного из перевозчиков. Нам пришлось проконсультироваться с адвокатом по уголовным делам и написать заявление в полицию — это был важный аргумент в пользу того, что мы не имеем никакого отношения к этой схеме. Владелец груза повёл себя порядочно и оплатил перевозку.</p>
+
+                <div class="highlight" style="background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%); border-left-color: #f39c12;">
+                    <strong>Это первая история из цикла «Грузоперевозки: криминальное чтиво».</strong><br>
+                    Впереди ещё 6 реальных случаев из нашей практики — следите за обновлениями.
+                </div>
 
                 <!-- Footer -->
                 <div class="article-footer">
@@ -289,14 +488,85 @@
         </div>
     </article>
 
-    <!-- CTA Section -->
-    <section class="py-5 bg-primary text-white">
+    <!-- Популярные маршруты -->
+    <section class="popular-routes">
+        <div class="container">
+            <h2>Популярные маршруты из Москвы</h2>
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-4">
+                    <a href="/routes/moskva-spb/" class="route-card">
+                        <div class="route-card-title">Москва — Санкт-Петербург</div>
+                        <div class="route-card-info">
+                            <span>819 км</span>
+                            <span class="route-card-price">от 24 570 ₽</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="/routes/moskva-kazan/" class="route-card">
+                        <div class="route-card-title">Москва — Казань</div>
+                        <div class="route-card-info">
+                            <span>941 км</span>
+                            <span class="route-card-price">от 28 230 ₽</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="/routes/moskva-nizhny-novgorod/" class="route-card">
+                        <div class="route-card-title">Москва — Нижний Новгород</div>
+                        <div class="route-card-info">
+                            <span>530 км</span>
+                            <span class="route-card-price">от 20 000 ₽</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="/routes/moskva-samara/" class="route-card">
+                        <div class="route-card-title">Москва — Самара</div>
+                        <div class="route-card-info">
+                            <span>1 118 км</span>
+                            <span class="route-card-price">от 33 540 ₽</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="/routes/moskva-ekaterinburg/" class="route-card">
+                        <div class="route-card-title">Москва — Екатеринбург</div>
+                        <div class="route-card-info">
+                            <span>1 852 км</span>
+                            <span class="route-card-price">от 55 560 ₽</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="/routes/" class="route-card" style="background: #f8f9fa; border: 2px dashed #dee2e6;">
+                        <div class="route-card-title" style="color: #636e72;">Все маршруты →</div>
+                        <div class="route-card-info">
+                            <span>1 264 направления</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма обратной связи -->
+    <section class="callback-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="mb-3">Нужна надёжная перевозка?</h2>
-                    <p class="lead mb-4">Работаем прозрачно — показываем закупочную цену и комиссию отдельно</p>
-                    <a href="/#callback" class="btn btn-light btn-lg">Оставить заявку</a>
+                    <h2>Нужна надёжная перевозка?</h2>
+                    <p class="lead">Работаем прозрачно — показываем закупочную цену и комиссию отдельно</p>
+                    <div class="callback-form-wrapper">
+                        <form id="callbackForm" class="callback-form">
+                            <div class="mb-3">
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="+7 (___) ___-__-__" value="+7 " required>
+                            </div>
+                            <button type="submit" class="btn btn-light w-100">
+                                <i class="bi bi-telephone-fill me-2"></i>Перезвоните мне
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -310,5 +580,6 @@
     <!-- Template Loader -->
     <script src="/assets/js/template-loader.js"></script>
     <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/forms-handler.js"></script>
 </body>
 </html>
