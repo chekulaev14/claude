@@ -2441,3 +2441,22 @@ footer a:hover {
     color: #27ae60 !important;
     transition: color 0.2s ease;
 }
+
+/* Footer Mobile Optimization */
+@media (max-width: 768px) {
+    /* Скрыть блоки услуг и городов на мобильных */
+    .footer-services-block,
+    .footer-cities-block {
+        display: none !important;
+    }
+
+    /* Уменьшить отступы в футере на мобильных */
+    footer {
+        padding: 40px 0 0 !important;
+    }
+
+    footer .mb-5.pb-5 {
+        margin-bottom: 20px !important;
+        padding-bottom: 20px !important;
+    }
+}
