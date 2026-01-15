@@ -71,6 +71,26 @@ Python скрипты на GitHub Pages не работают - только с�
 # Создание новых страниц
 При создании новой страницы копируй <head> из index.html, меняй только <title> и meta-теги для SEO. Порядок подключения CSS всегда одинаковый: IBM Plex Sans → Bootstrap → styles.css
 
+## Schema.org (обязательно!)
+Каждая новая страница должна содержать:
+1. **BreadcrumbList** — хлебные крошки
+2. **Ссылка на родительскую организацию**: `"provider": {"@id": "https://dinamika-cargo.ru/#organization"}`
+3. **ТГ бот** в potentialAction:
+```json
+"potentialAction": {
+    "@type": "CommunicateAction",
+    "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://t.me/dinamikus_bot",
+        "actionPlatform": "https://telegram.org"
+    },
+    "name": "Связаться через Telegram бот"
+}
+```
+4. **Alt для картинок** — если на странице есть фото, обязательно прописывай осмысленные alt-атрибуты
+
+Пример Schema.org смотри в /contacts/index.html или /regions/index.html
+
 # Ссылки (важно!)
 ВСЕГДА используй абсолютные пути (начинающиеся с /) для ссылок на папки: /regions/, /assets/css/
 Относительные пути для папок (regions/) работают непредсказуемо: на главной OK, на вложенных страницах ищет /page/regions/ вместо /regions/
