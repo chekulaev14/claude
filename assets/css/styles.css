@@ -12,6 +12,28 @@ body {
     background-color: #fff;
 }
 
+/* Header Shrink on Scroll */
+header.navbar {
+    transition: all 0.3s ease;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+header.navbar .navbar-brand img {
+    transition: height 0.3s ease;
+    height: 54px;
+}
+
+header.navbar.scrolled {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header.navbar.scrolled .navbar-brand img {
+    height: 36px;
+}
+
 /* Breadcrumb секция - единый стиль для всех страниц */
 .breadcrumb-section {
     margin-top: 100px;

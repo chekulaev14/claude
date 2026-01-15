@@ -9,6 +9,7 @@ class TemplateLoader {
         await this.loadFooter();
         this.setActiveMenuItem();
         this.initializeBootstrapComponents();
+        this.initHeaderScroll();
     }
 
     async loadHeader() {
@@ -84,6 +85,27 @@ class TemplateLoader {
                 console.error('Bootstrap not available');
             }
         }, 200);
+    }
+
+    // Header shrink on scroll
+    initHeaderScroll() {
+        setTimeout(() => {
+            const header = document.querySelector('header.navbar');
+            if (!header) return;
+
+            const scrollThreshold = 50;
+
+            const handleScroll = () => {
+                if (window.scrollY > scrollThreshold) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            };
+
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            handleScroll(); // Check initial state
+        }, 100);
     }
 }
 
