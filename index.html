@@ -786,6 +786,229 @@
         </div>
     </section>
 
+    <!-- Популярные направления грузоперевозок -->
+    <section class="popular-routes" style="padding: 80px 0; background: #f8f9fa;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 15px; font-size: 36px; font-weight: 600;">Популярные направления грузоперевозок</h2>
+            <p style="text-align: center; color: #636e72; margin-bottom: 50px; font-size: 18px;">Самые востребованные маршруты по России</p>
+
+            <div class="row g-3" id="featured-routes-container">
+                <!-- Статичный fallback для поисковиков (топ-9) -->
+                <!-- JS заменит эти карточки случайными при загрузке -->
+
+                <!-- 1. Москва → Санкт-Петербург -->
+                <div class="col-md-4">
+                    <a href="/routes/moskva-spb/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Москва</span>
+                            <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Санкт-Петербург</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                            <span>819 км</span>
+                            <span style="color: #27ae60; font-weight: 600;">от 24 570 ₽</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 2. Екатеринбург → Казань -->
+                <div class="col-md-4">
+                    <a href="/routes/ekaterinburg-kazan/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Екатеринбург</span>
+                            <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Казань</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                            <span>930 км</span>
+                            <span style="color: #27ae60; font-weight: 600;">от 27 900 ₽</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 3. Тверь → Ижевск -->
+                <div class="col-md-4">
+                    <a href="/routes/tver-izhevsk/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Тверь</span>
+                            <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Ижевск</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                            <span>1364 км</span>
+                            <span style="color: #27ae60; font-weight: 600;">от 40 920 ₽</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 4. Обнинск → Набережные Челны -->
+                <div class="col-md-4">
+                    <a href="/routes/obninsk-naberezhnye-chelny/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Обнинск</span>
+                            <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Наб. Челны</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                            <span>1288 км</span>
+                            <span style="color: #27ae60; font-weight: 600;">от 38 640 ₽</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 5. Балашиха → Нижнекамск -->
+                <div class="col-md-4">
+                    <a href="/routes/balashikha-nizhnekamsk/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Балашиха</span>
+                            <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Нижнекамск</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                            <span>1128 км</span>
+                            <span style="color: #27ae60; font-weight: 600;">от 33 840 ₽</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 6. Мытищи → Санкт-Петербург -->
+                <div class="col-md-4">
+                    <a href="/routes/mytishchi-spb/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Мытищи</span>
+                            <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Санкт-Петербург</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                            <span>802 км</span>
+                            <span style="color: #27ae60; font-weight: 600;">от 24 060 ₽</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 7. Подольск → Екатеринбург -->
+                <div class="col-md-4">
+                    <a href="/routes/podolsk-ekaterinburg/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Подольск</span>
+                            <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Екатеринбург</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                            <span>1859 км</span>
+                            <span style="color: #27ae60; font-weight: 600;">от 55 770 ₽</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 8. Химки → Казань -->
+                <div class="col-md-4">
+                    <a href="/routes/khimki-kazan/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Химки</span>
+                            <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Казань</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                            <span>947 км</span>
+                            <span style="color: #27ae60; font-weight: 600;">от 28 410 ₽</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 9. Королёв → Самара -->
+                <div class="col-md-4">
+                    <a href="/routes/korolev-samara/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Королёв</span>
+                            <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                            <span style="font-weight: 600; color: #2d3436; font-size: 16px;">Самара</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                            <span>1105 км</span>
+                            <span style="color: #27ae60; font-weight: 600;">от 33 150 ₽</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- JavaScript для динамической ротации маршрутов -->
+            <script>
+            (async function() {
+                try {
+                    // Загружаем данные
+                    const [routesRes, citiesRes] = await Promise.all([
+                        fetch('/data/featured-routes.json'),
+                        fetch('/data/cities.json')
+                    ]);
+
+                    const routes = await routesRes.json();
+                    const cities = await citiesRes.json();
+
+                    // Функция перемешивания массива (Fisher-Yates)
+                    function shuffle(array) {
+                        const arr = [...array];
+                        for (let i = arr.length - 1; i > 0; i--) {
+                            const j = Math.floor(Math.random() * (i + 1));
+                            [arr[i], arr[j]] = [arr[j], arr[i]];
+                        }
+                        return arr;
+                    }
+
+                    // Фильтруем маршруты - берем только те, где оба города есть в cities.json
+                    const validRoutes = routes.filter(route =>
+                        cities[route.from] && cities[route.to]
+                    );
+
+                    // Выбираем случайные 9 маршрутов из валидных
+                    const selectedRoutes = shuffle(validRoutes).slice(0, 9);
+
+                    // Функция для форматирования цены (добавляем пробелы)
+                    function formatPrice(price) {
+                        return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+                    }
+
+                    // Генерируем HTML для маршрутов
+                    const container = document.getElementById('featured-routes-container');
+                    container.innerHTML = selectedRoutes.map(route => {
+                        const fromCity = cities[route.from].name;
+                        const toCity = cities[route.to].name;
+
+                        return `
+                            <div class="col-md-4">
+                                <a href="/routes/${route.route}/" class="route-card" style="display: block; background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 1px solid #e9ecef; transition: all 0.3s;">
+                                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                                        <span style="font-weight: 600; color: #2d3436; font-size: 16px;">${fromCity}</span>
+                                        <i class="bi bi-arrow-right" style="color: #27ae60; font-size: 20px;"></i>
+                                        <span style="font-weight: 600; color: #2d3436; font-size: 16px;">${toCity}</span>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; font-size: 14px; color: #636e72;">
+                                        <span>${route.distance} км</span>
+                                        <span style="color: #27ae60; font-weight: 600;">от ${formatPrice(route.price)} ₽</span>
+                                    </div>
+                                </a>
+                            </div>
+                        `;
+                    }).join('');
+
+                    // Добавляем hover-эффект через CSS
+                    const style = document.createElement('style');
+                    style.textContent = '.route-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); transform: translateY(-2px); }';
+                    document.head.appendChild(style);
+
+                } catch (error) {
+                    console.error('Ошибка загрузки маршрутов:', error);
+                    // Если ошибка - оставляем статичный fallback
+                }
+            })();
+            </script>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/routes/" class="btn btn-primary" style="display: inline-block; padding: 16px 40px; background: #27ae60; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px;">Все маршруты →</a>
+            </div>
+        </div>
+    </section>
+
     <section class="stats">
         <div class="container">
             <div class="stats-layout">

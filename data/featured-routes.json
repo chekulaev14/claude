@@ -1,0 +1,1589 @@
+[
+  {"route":"balashikha-chelyabinsk","from":"balashikha","to":"chelyabinsk","distance":1914,"price":57420}
+,
+  {"route":"balashikha-ekaterinburg","from":"balashikha","to":"ekaterinburg","distance":1815,"price":54450}
+,
+  {"route":"balashikha-izhevsk","from":"balashikha","to":"izhevsk","distance":1230,"price":36900}
+,
+  {"route":"balashikha-kazan","from":"balashikha","to":"kazan","distance":906,"price":27180}
+,
+  {"route":"balashikha-naberezhnye-chelny","from":"balashikha","to":"naberezhnye-chelny","distance":1166,"price":34980}
+,
+  {"route":"balashikha-nizhnekamsk","from":"balashikha","to":"nizhnekamsk","distance":1128,"price":33840}
+,
+  {"route":"balashikha-perm","from":"balashikha","to":"perm","distance":1473,"price":44190}
+,
+  {"route":"balashikha-samara","from":"balashikha","to":"samara","distance":1092,"price":32760}
+,
+  {"route":"balashikha-spb","from":"balashikha","to":"spb","distance":824,"price":24720}
+,
+  {"route":"balashikha-ufa","from":"balashikha","to":"ufa","distance":1490,"price":44700}
+,
+  {"route":"chekhov-chelyabinsk","from":"chekhov","to":"chelyabinsk","distance":1966,"price":58980}
+,
+  {"route":"chekhov-ekaterinburg","from":"chekhov","to":"ekaterinburg","distance":1877,"price":56310}
+,
+  {"route":"chekhov-izhevsk","from":"chekhov","to":"izhevsk","distance":1292,"price":38760}
+,
+  {"route":"chekhov-kazan","from":"chekhov","to":"kazan","distance":957,"price":28710}
+,
+  {"route":"chekhov-naberezhnye-chelny","from":"chekhov","to":"naberezhnye-chelny","distance":1216,"price":36480}
+,
+  {"route":"chekhov-nizhnekamsk","from":"chekhov","to":"nizhnekamsk","distance":1178,"price":35340}
+,
+  {"route":"chekhov-perm","from":"chekhov","to":"perm","distance":1544,"price":46320}
+,
+  {"route":"chekhov-samara","from":"chekhov","to":"samara","distance":1110,"price":33300}
+,
+  {"route":"chekhov-spb","from":"chekhov","to":"spb","distance":874,"price":26220}
+,
+  {"route":"chekhov-ufa","from":"chekhov","to":"ufa","distance":1533,"price":45990}
+,
+  {"route":"chelyabinsk-balashikha","from":"chelyabinsk","to":"balashikha","distance":1914,"price":57420}
+,
+  {"route":"chelyabinsk-chekhov","from":"chelyabinsk","to":"chekhov","distance":1966,"price":58980}
+,
+  {"route":"chelyabinsk-dmitrov","from":"chelyabinsk","to":"dmitrov","distance":1940,"price":58200}
+,
+  {"route":"chelyabinsk-dolgoprudny","from":"chelyabinsk","to":"dolgoprudny","distance":1947,"price":58410}
+,
+  {"route":"chelyabinsk-domodedovo","from":"chelyabinsk","to":"domodedovo","distance":1935,"price":58050}
+,
+  {"route":"chelyabinsk-dubna","from":"chelyabinsk","to":"dubna","distance":1965,"price":58950}
+,
+  {"route":"chelyabinsk-dzerzhinsky","from":"chelyabinsk","to":"dzerzhinsky","distance":1924,"price":57720}
+,
+  {"route":"chelyabinsk-egoryevsk","from":"chelyabinsk","to":"egoryevsk","distance":1834,"price":55020}
+,
+  {"route":"chelyabinsk-elektrostal","from":"chelyabinsk","to":"elektrostal","distance":1874,"price":56220}
+,
+  {"route":"chelyabinsk-fryazino","from":"chelyabinsk","to":"fryazino","distance":1903,"price":57090}
+,
+  {"route":"chelyabinsk-ivanteyevka","from":"chelyabinsk","to":"ivanteyevka","distance":1914,"price":57420}
+,
+  {"route":"chelyabinsk-izhevsk","from":"chelyabinsk","to":"izhevsk","distance":703,"price":21090}
+,
+  {"route":"chelyabinsk-kaluga","from":"chelyabinsk","to":"kaluga","distance":2081,"price":62430}
+,
+  {"route":"chelyabinsk-kazan","from":"chelyabinsk","to":"kazan","distance":1009,"price":30270}
+,
+  {"route":"chelyabinsk-khimki","from":"chelyabinsk","to":"khimki","distance":1954,"price":58620}
+,
+  {"route":"chelyabinsk-klin","from":"chelyabinsk","to":"klin","distance":2003,"price":60090}
+,
+  {"route":"chelyabinsk-kolomna","from":"chelyabinsk","to":"kolomna","distance":1862,"price":55860}
+,
+  {"route":"chelyabinsk-korolev","from":"chelyabinsk","to":"korolev","distance":1921,"price":57630}
+,
+  {"route":"chelyabinsk-krasnogorsk","from":"chelyabinsk","to":"krasnogorsk","distance":1966,"price":58980}
+,
+  {"route":"chelyabinsk-lobnya","from":"chelyabinsk","to":"lobnya","distance":1948,"price":58440}
+,
+  {"route":"chelyabinsk-lyubertsy","from":"chelyabinsk","to":"lyubertsy","distance":1921,"price":57630}
+,
+  {"route":"chelyabinsk-moskva","from":"chelyabinsk","to":"moskva","distance":1949,"price":58470}
+,
+  {"route":"chelyabinsk-mytishchi","from":"chelyabinsk","to":"mytishchi","distance":1927,"price":57810}
+,
+  {"route":"chelyabinsk-naberezhnye-chelny","from":"chelyabinsk","to":"naberezhnye-chelny","distance":749,"price":22470}
+,
+  {"route":"chelyabinsk-nizhnekamsk","from":"chelyabinsk","to":"nizhnekamsk","distance":788,"price":23640}
+,
+  {"route":"chelyabinsk-nizhny-novgorod","from":"chelyabinsk","to":"nizhny-novgorod","distance":1422,"price":42660}
+,
+  {"route":"chelyabinsk-noginsk","from":"chelyabinsk","to":"noginsk","distance":1871,"price":56130}
+,
+  {"route":"chelyabinsk-obninsk","from":"chelyabinsk","to":"obninsk","distance":2038,"price":61140}
+,
+  {"route":"chelyabinsk-odintsovo","from":"chelyabinsk","to":"odintsovo","distance":1971,"price":59130}
+,
+  {"route":"chelyabinsk-orekhovo-zuevo","from":"chelyabinsk","to":"orekhovo-zuevo","distance":1830,"price":54900}
+,
+  {"route":"chelyabinsk-podolsk","from":"chelyabinsk","to":"podolsk","distance":1953,"price":58590}
+,
+  {"route":"chelyabinsk-pushkino","from":"chelyabinsk","to":"pushkino","distance":1919,"price":57570}
+,
+  {"route":"chelyabinsk-ramenskoe","from":"chelyabinsk","to":"ramenskoe","distance":1895,"price":56850}
+,
+  {"route":"chelyabinsk-reutov","from":"chelyabinsk","to":"reutov","distance":1921,"price":57630}
+,
+  {"route":"chelyabinsk-samara","from":"chelyabinsk","to":"samara","distance":986,"price":29580}
+,
+  {"route":"chelyabinsk-sergiev-posad","from":"chelyabinsk","to":"sergiev-posad","distance":1890,"price":56700}
+,
+  {"route":"chelyabinsk-serpukhov","from":"chelyabinsk","to":"serpukhov","distance":1975,"price":59250}
+,
+  {"route":"chelyabinsk-shchelkovo","from":"chelyabinsk","to":"shchelkovo","distance":1907,"price":57210}
+,
+  {"route":"chelyabinsk-spb","from":"chelyabinsk","to":"spb","distance":2476,"price":74280}
+,
+  {"route":"chelyabinsk-tula","from":"chelyabinsk","to":"tula","distance":1987,"price":59610}
+,
+  {"route":"chelyabinsk-tver","from":"chelyabinsk","to":"tver","distance":2062,"price":61860}
+,
+  {"route":"chelyabinsk-voskresensk","from":"chelyabinsk","to":"voskresensk","distance":1863,"price":55890}
+,
+  {"route":"chelyabinsk-yaroslavl","from":"chelyabinsk","to":"yaroslavl","distance":1755,"price":52650}
+,
+  {"route":"chelyabinsk-zhukovsky","from":"chelyabinsk","to":"zhukovsky","distance":1904,"price":57120}
+,
+  {"route":"dmitrov-chelyabinsk","from":"dmitrov","to":"chelyabinsk","distance":1940,"price":58200}
+,
+  {"route":"dmitrov-ekaterinburg","from":"dmitrov","to":"ekaterinburg","distance":1831,"price":54930}
+,
+  {"route":"dmitrov-izhevsk","from":"dmitrov","to":"izhevsk","distance":1248,"price":37440}
+,
+  {"route":"dmitrov-kazan","from":"dmitrov","to":"kazan","distance":937,"price":28110}
+,
+  {"route":"dmitrov-naberezhnye-chelny","from":"dmitrov","to":"naberezhnye-chelny","distance":1195,"price":35850}
+,
+  {"route":"dmitrov-nizhnekamsk","from":"dmitrov","to":"nizhnekamsk","distance":1159,"price":34770}
+,
+  {"route":"dmitrov-perm","from":"dmitrov","to":"perm","distance":1481,"price":44430}
+,
+  {"route":"dmitrov-samara","from":"dmitrov","to":"samara","distance":1147,"price":34410}
+,
+  {"route":"dmitrov-spb","from":"dmitrov","to":"spb","distance":743,"price":22290}
+,
+  {"route":"dmitrov-ufa","from":"dmitrov","to":"ufa","distance":1524,"price":45720}
+,
+  {"route":"dolgoprudny-chelyabinsk","from":"dolgoprudny","to":"chelyabinsk","distance":1947,"price":58410}
+,
+  {"route":"dolgoprudny-ekaterinburg","from":"dolgoprudny","to":"ekaterinburg","distance":1844,"price":55320}
+,
+  {"route":"dolgoprudny-izhevsk","from":"dolgoprudny","to":"izhevsk","distance":1260,"price":37800}
+,
+  {"route":"dolgoprudny-kazan","from":"dolgoprudny","to":"kazan","distance":939,"price":28170}
+,
+  {"route":"dolgoprudny-naberezhnye-chelny","from":"dolgoprudny","to":"naberezhnye-chelny","distance":1199,"price":35970}
+,
+  {"route":"dolgoprudny-nizhnekamsk","from":"dolgoprudny","to":"nizhnekamsk","distance":1161,"price":34830}
+,
+  {"route":"dolgoprudny-perm","from":"dolgoprudny","to":"perm","distance":1500,"price":45000}
+,
+  {"route":"dolgoprudny-samara","from":"dolgoprudny","to":"samara","distance":1130,"price":33900}
+,
+  {"route":"dolgoprudny-spb","from":"dolgoprudny","to":"spb","distance":788,"price":23640}
+,
+  {"route":"dolgoprudny-ufa","from":"dolgoprudny","to":"ufa","distance":1524,"price":45720}
+,
+  {"route":"domodedovo-chelyabinsk","from":"domodedovo","to":"chelyabinsk","distance":1935,"price":58050}
+,
+  {"route":"domodedovo-ekaterinburg","from":"domodedovo","to":"ekaterinburg","distance":1842,"price":55260}
+,
+  {"route":"domodedovo-izhevsk","from":"domodedovo","to":"izhevsk","distance":1256,"price":37680}
+,
+  {"route":"domodedovo-kazan","from":"domodedovo","to":"kazan","distance":926,"price":27780}
+,
+  {"route":"domodedovo-naberezhnye-chelny","from":"domodedovo","to":"naberezhnye-chelny","distance":1186,"price":35580}
+,
+  {"route":"domodedovo-nizhnekamsk","from":"domodedovo","to":"nizhnekamsk","distance":1147,"price":34410}
+,
+  {"route":"domodedovo-perm","from":"domodedovo","to":"perm","distance":1505,"price":45150}
+,
+  {"route":"domodedovo-samara","from":"domodedovo","to":"samara","distance":1094,"price":32820}
+,
+  {"route":"domodedovo-spb","from":"domodedovo","to":"spb","distance":854,"price":25620}
+,
+  {"route":"domodedovo-ufa","from":"domodedovo","to":"ufa","distance":1506,"price":45180}
+,
+  {"route":"dubna-chelyabinsk","from":"dubna","to":"chelyabinsk","distance":1965,"price":58950}
+,
+  {"route":"dubna-ekaterinburg","from":"dubna","to":"ekaterinburg","distance":1849,"price":55470}
+,
+  {"route":"dubna-izhevsk","from":"dubna","to":"izhevsk","distance":1268,"price":38040}
+,
+  {"route":"dubna-kazan","from":"dubna","to":"kazan","distance":967,"price":29010}
+,
+  {"route":"dubna-naberezhnye-chelny","from":"dubna","to":"naberezhnye-chelny","distance":1224,"price":36720}
+,
+  {"route":"dubna-nizhnekamsk","from":"dubna","to":"nizhnekamsk","distance":1188,"price":35640}
+,
+  {"route":"dubna-perm","from":"dubna","to":"perm","distance":1493,"price":44790}
+,
+  {"route":"dubna-samara","from":"dubna","to":"samara","distance":1192,"price":35760}
+,
+  {"route":"dubna-spb","from":"dubna","to":"spb","distance":683,"price":20490}
+,
+  {"route":"dubna-ufa","from":"dubna","to":"ufa","distance":1554,"price":46620}
+,
+  {"route":"dzerzhinsky-chelyabinsk","from":"dzerzhinsky","to":"chelyabinsk","distance":1924,"price":57720}
+,
+  {"route":"dzerzhinsky-ekaterinburg","from":"dzerzhinsky","to":"ekaterinburg","distance":1828,"price":54840}
+,
+  {"route":"dzerzhinsky-izhevsk","from":"dzerzhinsky","to":"izhevsk","distance":1243,"price":37290}
+,
+  {"route":"dzerzhinsky-kazan","from":"dzerzhinsky","to":"kazan","distance":916,"price":27480}
+,
+  {"route":"dzerzhinsky-naberezhnye-chelny","from":"dzerzhinsky","to":"naberezhnye-chelny","distance":1175,"price":35250}
+,
+  {"route":"dzerzhinsky-nizhnekamsk","from":"dzerzhinsky","to":"nizhnekamsk","distance":1137,"price":34110}
+,
+  {"route":"dzerzhinsky-perm","from":"dzerzhinsky","to":"perm","distance":1488,"price":44640}
+,
+  {"route":"dzerzhinsky-samara","from":"dzerzhinsky","to":"samara","distance":1093,"price":32790}
+,
+  {"route":"dzerzhinsky-spb","from":"dzerzhinsky","to":"spb","distance":838,"price":25140}
+,
+  {"route":"dzerzhinsky-ufa","from":"dzerzhinsky","to":"ufa","distance":1497,"price":44910}
+,
+  {"route":"egoryevsk-chelyabinsk","from":"egoryevsk","to":"chelyabinsk","distance":1834,"price":55020}
+,
+  {"route":"egoryevsk-ekaterinburg","from":"egoryevsk","to":"ekaterinburg","distance":1744,"price":52320}
+,
+  {"route":"egoryevsk-izhevsk","from":"egoryevsk","to":"izhevsk","distance":1159,"price":34770}
+,
+  {"route":"egoryevsk-kazan","from":"egoryevsk","to":"kazan","distance":824,"price":24720}
+,
+  {"route":"egoryevsk-naberezhnye-chelny","from":"egoryevsk","to":"naberezhnye-chelny","distance":1084,"price":32520}
+,
+  {"route":"egoryevsk-nizhnekamsk","from":"egoryevsk","to":"nizhnekamsk","distance":1045,"price":31350}
+,
+  {"route":"egoryevsk-perm","from":"egoryevsk","to":"perm","distance":1411,"price":42330}
+,
+  {"route":"egoryevsk-samara","from":"egoryevsk","to":"samara","distance":990,"price":29700}
+,
+  {"route":"egoryevsk-spb","from":"egoryevsk","to":"spb","distance":929,"price":27870}
+,
+  {"route":"egoryevsk-ufa","from":"egoryevsk","to":"ufa","distance":1402,"price":42060}
+,
+  {"route":"ekaterinburg-balashikha","from":"ekaterinburg","to":"balashikha","distance":1815,"price":54450}
+,
+  {"route":"ekaterinburg-chekhov","from":"ekaterinburg","to":"chekhov","distance":1877,"price":56310}
+,
+  {"route":"ekaterinburg-dmitrov","from":"ekaterinburg","to":"dmitrov","distance":1831,"price":54930}
+,
+  {"route":"ekaterinburg-dolgoprudny","from":"ekaterinburg","to":"dolgoprudny","distance":1844,"price":55320}
+,
+  {"route":"ekaterinburg-domodedovo","from":"ekaterinburg","to":"domodedovo","distance":1842,"price":55260}
+,
+  {"route":"ekaterinburg-dubna","from":"ekaterinburg","to":"dubna","distance":1849,"price":55470}
+,
+  {"route":"ekaterinburg-dzerzhinsky","from":"ekaterinburg","to":"dzerzhinsky","distance":1828,"price":54840}
+,
+  {"route":"ekaterinburg-egoryevsk","from":"ekaterinburg","to":"egoryevsk","distance":1744,"price":52320}
+,
+  {"route":"ekaterinburg-elektrostal","from":"ekaterinburg","to":"elektrostal","distance":1776,"price":53280}
+,
+  {"route":"ekaterinburg-fryazino","from":"ekaterinburg","to":"fryazino","distance":1801,"price":54030}
+,
+  {"route":"ekaterinburg-ivanteyevka","from":"ekaterinburg","to":"ivanteyevka","distance":1811,"price":54330}
+,
+  {"route":"ekaterinburg-kaluga","from":"ekaterinburg","to":"kaluga","distance":2000,"price":60000}
+,
+  {"route":"ekaterinburg-kazan","from":"ekaterinburg","to":"kazan","distance":930,"price":27900}
+,
+  {"route":"ekaterinburg-khimki","from":"ekaterinburg","to":"khimki","distance":1852,"price":55560}
+,
+  {"route":"ekaterinburg-klin","from":"ekaterinburg","to":"klin","distance":1893,"price":56790}
+,
+  {"route":"ekaterinburg-kolomna","from":"ekaterinburg","to":"kolomna","distance":1777,"price":53310}
+,
+  {"route":"ekaterinburg-korolev","from":"ekaterinburg","to":"korolev","distance":1820,"price":54600}
+,
+  {"route":"ekaterinburg-krasnogorsk","from":"ekaterinburg","to":"krasnogorsk","distance":1865,"price":55950}
+,
+  {"route":"ekaterinburg-lobnya","from":"ekaterinburg","to":"lobnya","distance":1844,"price":55320}
+,
+  {"route":"ekaterinburg-lyubertsy","from":"ekaterinburg","to":"lyubertsy","distance":1824,"price":54720}
+,
+  {"route":"ekaterinburg-moskva","from":"ekaterinburg","to":"moskva","distance":1852,"price":55560}
+,
+  {"route":"ekaterinburg-mytishchi","from":"ekaterinburg","to":"mytishchi","distance":1825,"price":54750}
+,
+  {"route":"ekaterinburg-naberezhnye-chelny","from":"ekaterinburg","to":"naberezhnye-chelny","distance":685,"price":20550}
+,
+  {"route":"ekaterinburg-nizhnekamsk","from":"ekaterinburg","to":"nizhnekamsk","distance":725,"price":21750}
+,
+  {"route":"ekaterinburg-nizhny-novgorod","from":"ekaterinburg","to":"nizhny-novgorod","distance":1322,"price":39660}
+,
+  {"route":"ekaterinburg-noginsk","from":"ekaterinburg","to":"noginsk","distance":1771,"price":53130}
+,
+  {"route":"ekaterinburg-obninsk","from":"ekaterinburg","to":"obninsk","distance":1947,"price":58410}
+,
+  {"route":"ekaterinburg-odintsovo","from":"ekaterinburg","to":"odintsovo","distance":1872,"price":56160}
+,
+  {"route":"ekaterinburg-orekhovo-zuevo","from":"ekaterinburg","to":"orekhovo-zuevo","distance":1733,"price":51990}
+,
+  {"route":"ekaterinburg-podolsk","from":"ekaterinburg","to":"podolsk","distance":1859,"price":55770}
+,
+  {"route":"ekaterinburg-pushkino","from":"ekaterinburg","to":"pushkino","distance":1816,"price":54480}
+,
+  {"route":"ekaterinburg-ramenskoe","from":"ekaterinburg","to":"ramenskoe","distance":1800,"price":54000}
+,
+  {"route":"ekaterinburg-reutov","from":"ekaterinburg","to":"reutov","distance":1822,"price":54660}
+,
+  {"route":"ekaterinburg-samara","from":"ekaterinburg","to":"samara","distance":1002,"price":30060}
+,
+  {"route":"ekaterinburg-sergiev-posad","from":"ekaterinburg","to":"sergiev-posad","distance":1782,"price":53460}
+,
+  {"route":"ekaterinburg-serpukhov","from":"ekaterinburg","to":"serpukhov","distance":1889,"price":56670}
+,
+  {"route":"ekaterinburg-shchelkovo","from":"ekaterinburg","to":"shchelkovo","distance":1806,"price":54180}
+,
+  {"route":"ekaterinburg-spb","from":"ekaterinburg","to":"spb","distance":2315,"price":69450}
+,
+  {"route":"ekaterinburg-tula","from":"ekaterinburg","to":"tula","distance":1914,"price":57420}
+,
+  {"route":"ekaterinburg-tver","from":"ekaterinburg","to":"tver","distance":1943,"price":58290}
+,
+  {"route":"ekaterinburg-voskresensk","from":"ekaterinburg","to":"voskresensk","distance":1774,"price":53220}
+,
+  {"route":"ekaterinburg-yaroslavl","from":"ekaterinburg","to":"yaroslavl","distance":1624,"price":48720}
+,
+  {"route":"ekaterinburg-zhukovsky","from":"ekaterinburg","to":"zhukovsky","distance":1809,"price":54270}
+,
+  {"route":"elektrostal-chelyabinsk","from":"elektrostal","to":"chelyabinsk","distance":1874,"price":56220}
+,
+  {"route":"elektrostal-ekaterinburg","from":"elektrostal","to":"ekaterinburg","distance":1776,"price":53280}
+,
+  {"route":"elektrostal-izhevsk","from":"elektrostal","to":"izhevsk","distance":1191,"price":35730}
+,
+  {"route":"elektrostal-kazan","from":"elektrostal","to":"kazan","distance":866,"price":25980}
+,
+  {"route":"elektrostal-naberezhnye-chelny","from":"elektrostal","to":"naberezhnye-chelny","distance":1126,"price":33780}
+,
+  {"route":"elektrostal-nizhnekamsk","from":"elektrostal","to":"nizhnekamsk","distance":1088,"price":32640}
+,
+  {"route":"elektrostal-perm","from":"elektrostal","to":"perm","distance":1435,"price":43050}
+,
+  {"route":"elektrostal-samara","from":"elektrostal","to":"samara","distance":1052,"price":31560}
+,
+  {"route":"elektrostal-spb","from":"elektrostal","to":"spb","distance":852,"price":25560}
+,
+  {"route":"elektrostal-ufa","from":"elektrostal","to":"ufa","distance":1449,"price":43470}
+,
+  {"route":"fryazino-chelyabinsk","from":"fryazino","to":"chelyabinsk","distance":1903,"price":57090}
+,
+  {"route":"fryazino-ekaterinburg","from":"fryazino","to":"ekaterinburg","distance":1801,"price":54030}
+,
+  {"route":"fryazino-izhevsk","from":"fryazino","to":"izhevsk","distance":1217,"price":36510}
+,
+  {"route":"fryazino-kazan","from":"fryazino","to":"kazan","distance":896,"price":26880}
+,
+  {"route":"fryazino-naberezhnye-chelny","from":"fryazino","to":"naberezhnye-chelny","distance":1156,"price":34680}
+,
+  {"route":"fryazino-nizhnekamsk","from":"fryazino","to":"nizhnekamsk","distance":1118,"price":33540}
+,
+  {"route":"fryazino-perm","from":"fryazino","to":"perm","distance":1458,"price":43740}
+,
+  {"route":"fryazino-samara","from":"fryazino","to":"samara","distance":1090,"price":32700}
+,
+  {"route":"fryazino-spb","from":"fryazino","to":"spb","distance":813,"price":24390}
+,
+  {"route":"fryazino-ufa","from":"fryazino","to":"ufa","distance":1481,"price":44430}
+,
+  {"route":"ivanteyevka-chelyabinsk","from":"ivanteyevka","to":"chelyabinsk","distance":1914,"price":57420}
+,
+  {"route":"ivanteyevka-ekaterinburg","from":"ivanteyevka","to":"ekaterinburg","distance":1811,"price":54330}
+,
+  {"route":"ivanteyevka-izhevsk","from":"ivanteyevka","to":"izhevsk","distance":1227,"price":36810}
+,
+  {"route":"ivanteyevka-kazan","from":"ivanteyevka","to":"kazan","distance":907,"price":27210}
+,
+  {"route":"ivanteyevka-naberezhnye-chelny","from":"ivanteyevka","to":"naberezhnye-chelny","distance":1166,"price":34980}
+,
+  {"route":"ivanteyevka-nizhnekamsk","from":"ivanteyevka","to":"nizhnekamsk","distance":1129,"price":33870}
+,
+  {"route":"ivanteyevka-perm","from":"ivanteyevka","to":"perm","distance":1467,"price":44010}
+,
+  {"route":"ivanteyevka-samara","from":"ivanteyevka","to":"samara","distance":1100,"price":33000}
+,
+  {"route":"ivanteyevka-spb","from":"ivanteyevka","to":"spb","distance":805,"price":24150}
+,
+  {"route":"ivanteyevka-ufa","from":"ivanteyevka","to":"ufa","distance":1491,"price":44730}
+,
+  {"route":"izhevsk-balashikha","from":"izhevsk","to":"balashikha","distance":1230,"price":36900}
+,
+  {"route":"izhevsk-chekhov","from":"izhevsk","to":"chekhov","distance":1292,"price":38760}
+,
+  {"route":"izhevsk-chelyabinsk","from":"izhevsk","to":"chelyabinsk","distance":703,"price":21090}
+,
+  {"route":"izhevsk-dmitrov","from":"izhevsk","to":"dmitrov","distance":1248,"price":37440}
+,
+  {"route":"izhevsk-dolgoprudny","from":"izhevsk","to":"dolgoprudny","distance":1260,"price":37800}
+,
+  {"route":"izhevsk-domodedovo","from":"izhevsk","to":"domodedovo","distance":1256,"price":37680}
+,
+  {"route":"izhevsk-dubna","from":"izhevsk","to":"dubna","distance":1268,"price":38040}
+,
+  {"route":"izhevsk-dzerzhinsky","from":"izhevsk","to":"dzerzhinsky","distance":1243,"price":37290}
+,
+  {"route":"izhevsk-egoryevsk","from":"izhevsk","to":"egoryevsk","distance":1159,"price":34770}
+,
+  {"route":"izhevsk-elektrostal","from":"izhevsk","to":"elektrostal","distance":1191,"price":35730}
+,
+  {"route":"izhevsk-fryazino","from":"izhevsk","to":"fryazino","distance":1217,"price":36510}
+,
+  {"route":"izhevsk-ivanteyevka","from":"izhevsk","to":"ivanteyevka","distance":1227,"price":36810}
+,
+  {"route":"izhevsk-kaluga","from":"izhevsk","to":"kaluga","distance":1415,"price":42450}
+,
+  {"route":"izhevsk-khimki","from":"izhevsk","to":"khimki","distance":1268,"price":38040}
+,
+  {"route":"izhevsk-klin","from":"izhevsk","to":"klin","distance":1310,"price":39300}
+,
+  {"route":"izhevsk-kolomna","from":"izhevsk","to":"kolomna","distance":1193,"price":35790}
+,
+  {"route":"izhevsk-korolev","from":"izhevsk","to":"korolev","distance":1235,"price":37050}
+,
+  {"route":"izhevsk-krasnogorsk","from":"izhevsk","to":"krasnogorsk","distance":1280,"price":38400}
+,
+  {"route":"izhevsk-lobnya","from":"izhevsk","to":"lobnya","distance":1260,"price":37800}
+,
+  {"route":"izhevsk-lyubertsy","from":"izhevsk","to":"lyubertsy","distance":1239,"price":37170}
+,
+  {"route":"izhevsk-moskva","from":"izhevsk","to":"moskva","distance":1267,"price":38010}
+,
+  {"route":"izhevsk-mytishchi","from":"izhevsk","to":"mytishchi","distance":1240,"price":37200}
+,
+  {"route":"izhevsk-nizhny-novgorod","from":"izhevsk","to":"nizhny-novgorod","distance":737,"price":22110}
+,
+  {"route":"izhevsk-noginsk","from":"izhevsk","to":"noginsk","distance":1186,"price":35580}
+,
+  {"route":"izhevsk-obninsk","from":"izhevsk","to":"obninsk","distance":1362,"price":40860}
+,
+  {"route":"izhevsk-odintsovo","from":"izhevsk","to":"odintsovo","distance":1287,"price":38610}
+,
+  {"route":"izhevsk-orekhovo-zuevo","from":"izhevsk","to":"orekhovo-zuevo","distance":1148,"price":34440}
+,
+  {"route":"izhevsk-podolsk","from":"izhevsk","to":"podolsk","distance":1274,"price":38220}
+,
+  {"route":"izhevsk-pushkino","from":"izhevsk","to":"pushkino","distance":1232,"price":36960}
+,
+  {"route":"izhevsk-ramenskoe","from":"izhevsk","to":"ramenskoe","distance":1215,"price":36450}
+,
+  {"route":"izhevsk-reutov","from":"izhevsk","to":"reutov","distance":1238,"price":37140}
+,
+  {"route":"izhevsk-sergiev-posad","from":"izhevsk","to":"sergiev-posad","distance":1199,"price":35970}
+,
+  {"route":"izhevsk-serpukhov","from":"izhevsk","to":"serpukhov","distance":1305,"price":39150}
+,
+  {"route":"izhevsk-shchelkovo","from":"izhevsk","to":"shchelkovo","distance":1221,"price":36630}
+,
+  {"route":"izhevsk-spb","from":"izhevsk","to":"spb","distance":1776,"price":53280}
+,
+  {"route":"izhevsk-tula","from":"izhevsk","to":"tula","distance":1332,"price":39960}
+,
+  {"route":"izhevsk-tver","from":"izhevsk","to":"tver","distance":1364,"price":40920}
+,
+  {"route":"izhevsk-voskresensk","from":"izhevsk","to":"voskresensk","distance":1189,"price":35670}
+,
+  {"route":"izhevsk-yaroslavl","from":"izhevsk","to":"yaroslavl","distance":1052,"price":31560}
+,
+  {"route":"izhevsk-zhukovsky","from":"izhevsk","to":"zhukovsky","distance":1224,"price":36720}
+,
+  {"route":"kaluga-chelyabinsk","from":"kaluga","to":"chelyabinsk","distance":2081,"price":62430}
+,
+  {"route":"kaluga-ekaterinburg","from":"kaluga","to":"ekaterinburg","distance":2000,"price":60000}
+,
+  {"route":"kaluga-izhevsk","from":"kaluga","to":"izhevsk","distance":1415,"price":42450}
+,
+  {"route":"kaluga-kazan","from":"kaluga","to":"kazan","distance":1074,"price":32220}
+,
+  {"route":"kaluga-naberezhnye-chelny","from":"kaluga","to":"naberezhnye-chelny","distance":1332,"price":39960}
+,
+  {"route":"kaluga-nizhnekamsk","from":"kaluga","to":"nizhnekamsk","distance":1293,"price":38790}
+,
+  {"route":"kaluga-nizhny-novgorod","from":"kaluga","to":"nizhny-novgorod","distance":683,"price":20490}
+,
+  {"route":"kaluga-perm","from":"kaluga","to":"perm","distance":1672,"price":50160}
+,
+  {"route":"kaluga-samara","from":"kaluga","to":"samara","distance":1197,"price":35910}
+,
+  {"route":"kaluga-spb","from":"kaluga","to":"spb","distance":901,"price":27030}
+,
+  {"route":"kaluga-ufa","from":"kaluga","to":"ufa","distance":1643,"price":49290}
+,
+  {"route":"kazan-balashikha","from":"kazan","to":"balashikha","distance":906,"price":27180}
+,
+  {"route":"kazan-chekhov","from":"kazan","to":"chekhov","distance":957,"price":28710}
+,
+  {"route":"kazan-chelyabinsk","from":"kazan","to":"chelyabinsk","distance":1009,"price":30270}
+,
+  {"route":"kazan-dmitrov","from":"kazan","to":"dmitrov","distance":937,"price":28110}
+,
+  {"route":"kazan-dolgoprudny","from":"kazan","to":"dolgoprudny","distance":939,"price":28170}
+,
+  {"route":"kazan-domodedovo","from":"kazan","to":"domodedovo","distance":926,"price":27780}
+,
+  {"route":"kazan-dubna","from":"kazan","to":"dubna","distance":967,"price":29010}
+,
+  {"route":"kazan-dzerzhinsky","from":"kazan","to":"dzerzhinsky","distance":916,"price":27480}
+,
+  {"route":"kazan-egoryevsk","from":"kazan","to":"egoryevsk","distance":824,"price":24720}
+,
+  {"route":"kazan-ekaterinburg","from":"kazan","to":"ekaterinburg","distance":930,"price":27900}
+,
+  {"route":"kazan-elektrostal","from":"kazan","to":"elektrostal","distance":866,"price":25980}
+,
+  {"route":"kazan-fryazino","from":"kazan","to":"fryazino","distance":896,"price":26880}
+,
+  {"route":"kazan-ivanteyevka","from":"kazan","to":"ivanteyevka","distance":907,"price":27210}
+,
+  {"route":"kazan-kaluga","from":"kazan","to":"kaluga","distance":1074,"price":32220}
+,
+  {"route":"kazan-khimki","from":"kazan","to":"khimki","distance":947,"price":28410}
+,
+  {"route":"kazan-klin","from":"kazan","to":"klin","distance":1000,"price":30000}
+,
+  {"route":"kazan-kolomna","from":"kazan","to":"kolomna","distance":854,"price":25620}
+,
+  {"route":"kazan-korolev","from":"kazan","to":"korolev","distance":914,"price":27420}
+,
+  {"route":"kazan-krasnogorsk","from":"kazan","to":"krasnogorsk","distance":958,"price":28740}
+,
+  {"route":"kazan-lobnya","from":"kazan","to":"lobnya","distance":941,"price":28230}
+,
+  {"route":"kazan-lyubertsy","from":"kazan","to":"lyubertsy","distance":913,"price":27390}
+,
+  {"route":"kazan-moskva","from":"kazan","to":"moskva","distance":941,"price":28230}
+,
+  {"route":"kazan-mytishchi","from":"kazan","to":"mytishchi","distance":919,"price":27570}
+,
+  {"route":"kazan-noginsk","from":"kazan","to":"noginsk","distance":863,"price":25890}
+,
+  {"route":"kazan-obninsk","from":"kazan","to":"obninsk","distance":1028,"price":30840}
+,
+  {"route":"kazan-odintsovo","from":"kazan","to":"odintsovo","distance":962,"price":28860}
+,
+  {"route":"kazan-orekhovo-zuevo","from":"kazan","to":"orekhovo-zuevo","distance":822,"price":24660}
+,
+  {"route":"kazan-podolsk","from":"kazan","to":"podolsk","distance":944,"price":28320}
+,
+  {"route":"kazan-pushkino","from":"kazan","to":"pushkino","distance":912,"price":27360}
+,
+  {"route":"kazan-ramenskoe","from":"kazan","to":"ramenskoe","distance":886,"price":26580}
+,
+  {"route":"kazan-reutov","from":"kazan","to":"reutov","distance":913,"price":27390}
+,
+  {"route":"kazan-sergiev-posad","from":"kazan","to":"sergiev-posad","distance":887,"price":26610}
+,
+  {"route":"kazan-serpukhov","from":"kazan","to":"serpukhov","distance":966,"price":28980}
+,
+  {"route":"kazan-shchelkovo","from":"kazan","to":"shchelkovo","distance":900,"price":27000}
+,
+  {"route":"kazan-spb","from":"kazan","to":"spb","distance":1548,"price":46440}
+,
+  {"route":"kazan-tula","from":"kazan","to":"tula","distance":984,"price":29520}
+,
+  {"route":"kazan-tver","from":"kazan","to":"tver","distance":1067,"price":32010}
+,
+  {"route":"kazan-voskresensk","from":"kazan","to":"voskresensk","distance":854,"price":25620}
+,
+  {"route":"kazan-yaroslavl","from":"kazan","to":"yaroslavl","distance":783,"price":23490}
+,
+  {"route":"kazan-zhukovsky","from":"kazan","to":"zhukovsky","distance":896,"price":26880}
+,
+  {"route":"khimki-chelyabinsk","from":"khimki","to":"chelyabinsk","distance":1954,"price":58620}
+,
+  {"route":"khimki-ekaterinburg","from":"khimki","to":"ekaterinburg","distance":1852,"price":55560}
+,
+  {"route":"khimki-izhevsk","from":"khimki","to":"izhevsk","distance":1268,"price":38040}
+,
+  {"route":"khimki-kazan","from":"khimki","to":"kazan","distance":947,"price":28410}
+,
+  {"route":"khimki-naberezhnye-chelny","from":"khimki","to":"naberezhnye-chelny","distance":1207,"price":36210}
+,
+  {"route":"khimki-nizhnekamsk","from":"khimki","to":"nizhnekamsk","distance":1169,"price":35070}
+,
+  {"route":"khimki-perm","from":"khimki","to":"perm","distance":1508,"price":45240}
+,
+  {"route":"khimki-samara","from":"khimki","to":"samara","distance":1136,"price":34080}
+,
+  {"route":"khimki-spb","from":"khimki","to":"spb","distance":785,"price":23550}
+,
+  {"route":"khimki-ufa","from":"khimki","to":"ufa","distance":1531,"price":45930}
+,
+  {"route":"klin-chelyabinsk","from":"klin","to":"chelyabinsk","distance":2003,"price":60090}
+,
+  {"route":"klin-ekaterinburg","from":"klin","to":"ekaterinburg","distance":1893,"price":56790}
+,
+  {"route":"klin-izhevsk","from":"klin","to":"izhevsk","distance":1310,"price":39300}
+,
+  {"route":"klin-kazan","from":"klin","to":"kazan","distance":1000,"price":30000}
+,
+  {"route":"klin-naberezhnye-chelny","from":"klin","to":"naberezhnye-chelny","distance":1259,"price":37770}
+,
+  {"route":"klin-nizhnekamsk","from":"klin","to":"nizhnekamsk","distance":1222,"price":36660}
+,
+  {"route":"klin-perm","from":"klin","to":"perm","distance":1542,"price":46260}
+,
+  {"route":"klin-samara","from":"klin","to":"samara","distance":1206,"price":36180}
+,
+  {"route":"klin-spb","from":"klin","to":"spb","distance":702,"price":21060}
+,
+  {"route":"klin-ufa","from":"klin","to":"ufa","distance":1587,"price":47610}
+,
+  {"route":"kolomna-chelyabinsk","from":"kolomna","to":"chelyabinsk","distance":1862,"price":55860}
+,
+  {"route":"kolomna-ekaterinburg","from":"kolomna","to":"ekaterinburg","distance":1777,"price":53310}
+,
+  {"route":"kolomna-izhevsk","from":"kolomna","to":"izhevsk","distance":1193,"price":35790}
+,
+  {"route":"kolomna-kazan","from":"kolomna","to":"kazan","distance":854,"price":25620}
+,
+  {"route":"kolomna-naberezhnye-chelny","from":"kolomna","to":"naberezhnye-chelny","distance":1113,"price":33390}
+,
+  {"route":"kolomna-nizhnekamsk","from":"kolomna","to":"nizhnekamsk","distance":1074,"price":32220}
+,
+  {"route":"kolomna-perm","from":"kolomna","to":"perm","distance":1449,"price":43470}
+,
+  {"route":"kolomna-samara","from":"kolomna","to":"samara","distance":1003,"price":30090}
+,
+  {"route":"kolomna-spb","from":"kolomna","to":"spb","distance":946,"price":28380}
+,
+  {"route":"kolomna-ufa","from":"kolomna","to":"ufa","distance":1428,"price":42840}
+,
+  {"route":"korolev-chelyabinsk","from":"korolev","to":"chelyabinsk","distance":1921,"price":57630}
+,
+  {"route":"korolev-ekaterinburg","from":"korolev","to":"ekaterinburg","distance":1820,"price":54600}
+,
+  {"route":"korolev-izhevsk","from":"korolev","to":"izhevsk","distance":1235,"price":37050}
+,
+  {"route":"korolev-kazan","from":"korolev","to":"kazan","distance":914,"price":27420}
+,
+  {"route":"korolev-naberezhnye-chelny","from":"korolev","to":"naberezhnye-chelny","distance":1174,"price":35220}
+,
+  {"route":"korolev-nizhnekamsk","from":"korolev","to":"nizhnekamsk","distance":1136,"price":34080}
+,
+  {"route":"korolev-perm","from":"korolev","to":"perm","distance":1476,"price":44280}
+,
+  {"route":"korolev-samara","from":"korolev","to":"samara","distance":1105,"price":33150}
+,
+  {"route":"korolev-spb","from":"korolev","to":"spb","distance":805,"price":24150}
+,
+  {"route":"korolev-ufa","from":"korolev","to":"ufa","distance":1498,"price":44940}
+,
+  {"route":"krasnogorsk-chelyabinsk","from":"krasnogorsk","to":"chelyabinsk","distance":1966,"price":58980}
+,
+  {"route":"krasnogorsk-ekaterinburg","from":"krasnogorsk","to":"ekaterinburg","distance":1865,"price":55950}
+,
+  {"route":"krasnogorsk-izhevsk","from":"krasnogorsk","to":"izhevsk","distance":1280,"price":38400}
+,
+  {"route":"krasnogorsk-kazan","from":"krasnogorsk","to":"kazan","distance":958,"price":28740}
+,
+  {"route":"krasnogorsk-naberezhnye-chelny","from":"krasnogorsk","to":"naberezhnye-chelny","distance":1218,"price":36540}
+,
+  {"route":"krasnogorsk-nizhnekamsk","from":"krasnogorsk","to":"nizhnekamsk","distance":1180,"price":35400}
+,
+  {"route":"krasnogorsk-perm","from":"krasnogorsk","to":"perm","distance":1521,"price":45630}
+,
+  {"route":"krasnogorsk-samara","from":"krasnogorsk","to":"samara","distance":1144,"price":34320}
+,
+  {"route":"krasnogorsk-spb","from":"krasnogorsk","to":"spb","distance":786,"price":23580}
+,
+  {"route":"krasnogorsk-ufa","from":"krasnogorsk","to":"ufa","distance":1542,"price":46260}
+,
+  {"route":"lobnya-chelyabinsk","from":"lobnya","to":"chelyabinsk","distance":1948,"price":58440}
+,
+  {"route":"lobnya-ekaterinburg","from":"lobnya","to":"ekaterinburg","distance":1844,"price":55320}
+,
+  {"route":"lobnya-izhevsk","from":"lobnya","to":"izhevsk","distance":1260,"price":37800}
+,
+  {"route":"lobnya-kazan","from":"lobnya","to":"kazan","distance":941,"price":28230}
+,
+  {"route":"lobnya-naberezhnye-chelny","from":"lobnya","to":"naberezhnye-chelny","distance":1201,"price":36030}
+,
+  {"route":"lobnya-nizhnekamsk","from":"lobnya","to":"nizhnekamsk","distance":1163,"price":34890}
+,
+  {"route":"lobnya-perm","from":"lobnya","to":"perm","distance":1498,"price":44940}
+,
+  {"route":"lobnya-samara","from":"lobnya","to":"samara","distance":1136,"price":34080}
+,
+  {"route":"lobnya-spb","from":"lobnya","to":"spb","distance":776,"price":23280}
+,
+  {"route":"lobnya-ufa","from":"lobnya","to":"ufa","distance":1526,"price":45780}
+,
+  {"route":"lyubertsy-chelyabinsk","from":"lyubertsy","to":"chelyabinsk","distance":1921,"price":57630}
+,
+  {"route":"lyubertsy-ekaterinburg","from":"lyubertsy","to":"ekaterinburg","distance":1824,"price":54720}
+,
+  {"route":"lyubertsy-izhevsk","from":"lyubertsy","to":"izhevsk","distance":1239,"price":37170}
+,
+  {"route":"lyubertsy-kazan","from":"lyubertsy","to":"kazan","distance":913,"price":27390}
+,
+  {"route":"lyubertsy-naberezhnye-chelny","from":"lyubertsy","to":"naberezhnye-chelny","distance":1173,"price":35190}
+,
+  {"route":"lyubertsy-nizhnekamsk","from":"lyubertsy","to":"nizhnekamsk","distance":1135,"price":34050}
+,
+  {"route":"lyubertsy-perm","from":"lyubertsy","to":"perm","distance":1483,"price":44490}
+,
+  {"route":"lyubertsy-samara","from":"lyubertsy","to":"samara","distance":1093,"price":32790}
+,
+  {"route":"lyubertsy-spb","from":"lyubertsy","to":"spb","distance":832,"price":24960}
+,
+  {"route":"lyubertsy-ufa","from":"lyubertsy","to":"ufa","distance":1495,"price":44850}
+,
+  {"route":"moskva-chelyabinsk","from":"moskva","to":"chelyabinsk","distance":1949,"price":58470}
+,
+  {"route":"moskva-ekaterinburg","from":"moskva","to":"ekaterinburg","distance":1852,"price":55560}
+,
+  {"route":"moskva-izhevsk","from":"moskva","to":"izhevsk","distance":1267,"price":38010}
+,
+  {"route":"moskva-kazan","from":"moskva","to":"kazan","distance":941,"price":28230}
+,
+  {"route":"moskva-naberezhnye-chelny","from":"moskva","to":"naberezhnye-chelny","distance":1201,"price":36030}
+,
+  {"route":"moskva-nizhnekamsk","from":"moskva","to":"nizhnekamsk","distance":1162,"price":34860}
+,
+  {"route":"moskva-perm","from":"moskva","to":"perm","distance":1511,"price":45330}
+,
+  {"route":"moskva-samara","from":"moskva","to":"samara","distance":1118,"price":33540}
+,
+  {"route":"moskva-spb","from":"moskva","to":"spb","distance":819,"price":24570}
+,
+  {"route":"moskva-ufa","from":"moskva","to":"ufa","distance":1523,"price":45690}
+,
+  {"route":"mytishchi-chelyabinsk","from":"mytishchi","to":"chelyabinsk","distance":1927,"price":57810}
+,
+  {"route":"mytishchi-ekaterinburg","from":"mytishchi","to":"ekaterinburg","distance":1825,"price":54750}
+,
+  {"route":"mytishchi-izhevsk","from":"mytishchi","to":"izhevsk","distance":1240,"price":37200}
+,
+  {"route":"mytishchi-kazan","from":"mytishchi","to":"kazan","distance":919,"price":27570}
+,
+  {"route":"mytishchi-naberezhnye-chelny","from":"mytishchi","to":"naberezhnye-chelny","distance":1179,"price":35370}
+,
+  {"route":"mytishchi-nizhnekamsk","from":"mytishchi","to":"nizhnekamsk","distance":1141,"price":34230}
+,
+  {"route":"mytishchi-perm","from":"mytishchi","to":"perm","distance":1481,"price":44430}
+,
+  {"route":"mytishchi-samara","from":"mytishchi","to":"samara","distance":1110,"price":33300}
+,
+  {"route":"mytishchi-spb","from":"mytishchi","to":"spb","distance":802,"price":24060}
+,
+  {"route":"mytishchi-ufa","from":"mytishchi","to":"ufa","distance":1503,"price":45090}
+,
+  {"route":"naberezhnye-chelny-balashikha","from":"naberezhnye","to":"chelny-balashikha","distance":1166,"price":34980}
+,
+  {"route":"naberezhnye-chelny-chekhov","from":"naberezhnye","to":"chelny-chekhov","distance":1216,"price":36480}
+,
+  {"route":"naberezhnye-chelny-chelyabinsk","from":"naberezhnye","to":"chelny-chelyabinsk","distance":749,"price":22470}
+,
+  {"route":"naberezhnye-chelny-dmitrov","from":"naberezhnye","to":"chelny-dmitrov","distance":1195,"price":35850}
+,
+  {"route":"naberezhnye-chelny-dolgoprudny","from":"naberezhnye","to":"chelny-dolgoprudny","distance":1199,"price":35970}
+,
+  {"route":"naberezhnye-chelny-domodedovo","from":"naberezhnye","to":"chelny-domodedovo","distance":1186,"price":35580}
+,
+  {"route":"naberezhnye-chelny-dubna","from":"naberezhnye","to":"chelny-dubna","distance":1224,"price":36720}
+,
+  {"route":"naberezhnye-chelny-dzerzhinsky","from":"naberezhnye","to":"chelny-dzerzhinsky","distance":1175,"price":35250}
+,
+  {"route":"naberezhnye-chelny-egoryevsk","from":"naberezhnye","to":"chelny-egoryevsk","distance":1084,"price":32520}
+,
+  {"route":"naberezhnye-chelny-ekaterinburg","from":"naberezhnye","to":"chelny-ekaterinburg","distance":685,"price":20550}
+,
+  {"route":"naberezhnye-chelny-elektrostal","from":"naberezhnye","to":"chelny-elektrostal","distance":1126,"price":33780}
+,
+  {"route":"naberezhnye-chelny-fryazino","from":"naberezhnye","to":"chelny-fryazino","distance":1156,"price":34680}
+,
+  {"route":"naberezhnye-chelny-ivanteyevka","from":"naberezhnye","to":"chelny-ivanteyevka","distance":1166,"price":34980}
+,
+  {"route":"naberezhnye-chelny-kaluga","from":"naberezhnye","to":"chelny-kaluga","distance":1332,"price":39960}
+,
+  {"route":"naberezhnye-chelny-khimki","from":"naberezhnye","to":"chelny-khimki","distance":1207,"price":36210}
+,
+  {"route":"naberezhnye-chelny-klin","from":"naberezhnye","to":"chelny-klin","distance":1259,"price":37770}
+,
+  {"route":"naberezhnye-chelny-kolomna","from":"naberezhnye","to":"chelny-kolomna","distance":1113,"price":33390}
+,
+  {"route":"naberezhnye-chelny-korolev","from":"naberezhnye","to":"chelny-korolev","distance":1174,"price":35220}
+,
+  {"route":"naberezhnye-chelny-krasnogorsk","from":"naberezhnye","to":"chelny-krasnogorsk","distance":1218,"price":36540}
+,
+  {"route":"naberezhnye-chelny-lobnya","from":"naberezhnye","to":"chelny-lobnya","distance":1201,"price":36030}
+,
+  {"route":"naberezhnye-chelny-lyubertsy","from":"naberezhnye","to":"chelny-lyubertsy","distance":1173,"price":35190}
+,
+  {"route":"naberezhnye-chelny-moskva","from":"naberezhnye","to":"chelny-moskva","distance":1201,"price":36030}
+,
+  {"route":"naberezhnye-chelny-mytishchi","from":"naberezhnye","to":"chelny-mytishchi","distance":1179,"price":35370}
+,
+  {"route":"naberezhnye-chelny-nizhny-novgorod","from":"naberezhnye","to":"chelny-nizhny-novgorod","distance":677,"price":20310}
+,
+  {"route":"naberezhnye-chelny-noginsk","from":"naberezhnye","to":"chelny-noginsk","distance":1123,"price":33690}
+,
+  {"route":"naberezhnye-chelny-obninsk","from":"naberezhnye","to":"chelny-obninsk","distance":1288,"price":38640}
+,
+  {"route":"naberezhnye-chelny-odintsovo","from":"naberezhnye","to":"chelny-odintsovo","distance":1222,"price":36660}
+,
+  {"route":"naberezhnye-chelny-orekhovo-zuevo","from":"naberezhnye","to":"chelny-orekhovo-zuevo","distance":1082,"price":32460}
+,
+  {"route":"naberezhnye-chelny-podolsk","from":"naberezhnye","to":"chelny-podolsk","distance":1204,"price":36120}
+,
+  {"route":"naberezhnye-chelny-pushkino","from":"naberezhnye","to":"chelny-pushkino","distance":1172,"price":35160}
+,
+  {"route":"naberezhnye-chelny-ramenskoe","from":"naberezhnye","to":"chelny-ramenskoe","distance":1145,"price":34350}
+,
+  {"route":"naberezhnye-chelny-reutov","from":"naberezhnye","to":"chelny-reutov","distance":1173,"price":35190}
+,
+  {"route":"naberezhnye-chelny-sergiev-posad","from":"naberezhnye","to":"chelny-sergiev-posad","distance":1145,"price":34350}
+,
+  {"route":"naberezhnye-chelny-serpukhov","from":"naberezhnye","to":"chelny-serpukhov","distance":1225,"price":36750}
+,
+  {"route":"naberezhnye-chelny-shchelkovo","from":"naberezhnye","to":"chelny-shchelkovo","distance":1160,"price":34800}
+,
+  {"route":"naberezhnye-chelny-spb","from":"naberezhnye","to":"chelny-spb","distance":1783,"price":53490}
+,
+  {"route":"naberezhnye-chelny-tula","from":"naberezhnye","to":"chelny-tula","distance":1240,"price":37200}
+,
+  {"route":"naberezhnye-chelny-tver","from":"naberezhnye","to":"chelny-tver","distance":1323,"price":39690}
+,
+  {"route":"naberezhnye-chelny-voskresensk","from":"naberezhnye","to":"chelny-voskresensk","distance":1114,"price":33420}
+,
+  {"route":"naberezhnye-chelny-yaroslavl","from":"naberezhnye","to":"chelny-yaroslavl","distance":1030,"price":30900}
+,
+  {"route":"naberezhnye-chelny-zhukovsky","from":"naberezhnye","to":"chelny-zhukovsky","distance":1155,"price":34650}
+,
+  {"route":"nizhnekamsk-balashikha","from":"nizhnekamsk","to":"balashikha","distance":1128,"price":33840}
+,
+  {"route":"nizhnekamsk-chekhov","from":"nizhnekamsk","to":"chekhov","distance":1178,"price":35340}
+,
+  {"route":"nizhnekamsk-chelyabinsk","from":"nizhnekamsk","to":"chelyabinsk","distance":788,"price":23640}
+,
+  {"route":"nizhnekamsk-dmitrov","from":"nizhnekamsk","to":"dmitrov","distance":1159,"price":34770}
+,
+  {"route":"nizhnekamsk-dolgoprudny","from":"nizhnekamsk","to":"dolgoprudny","distance":1161,"price":34830}
+,
+  {"route":"nizhnekamsk-domodedovo","from":"nizhnekamsk","to":"domodedovo","distance":1147,"price":34410}
+,
+  {"route":"nizhnekamsk-dubna","from":"nizhnekamsk","to":"dubna","distance":1188,"price":35640}
+,
+  {"route":"nizhnekamsk-dzerzhinsky","from":"nizhnekamsk","to":"dzerzhinsky","distance":1137,"price":34110}
+,
+  {"route":"nizhnekamsk-egoryevsk","from":"nizhnekamsk","to":"egoryevsk","distance":1045,"price":31350}
+,
+  {"route":"nizhnekamsk-ekaterinburg","from":"nizhnekamsk","to":"ekaterinburg","distance":725,"price":21750}
+,
+  {"route":"nizhnekamsk-elektrostal","from":"nizhnekamsk","to":"elektrostal","distance":1088,"price":32640}
+,
+  {"route":"nizhnekamsk-fryazino","from":"nizhnekamsk","to":"fryazino","distance":1118,"price":33540}
+,
+  {"route":"nizhnekamsk-ivanteyevka","from":"nizhnekamsk","to":"ivanteyevka","distance":1129,"price":33870}
+,
+  {"route":"nizhnekamsk-kaluga","from":"nizhnekamsk","to":"kaluga","distance":1293,"price":38790}
+,
+  {"route":"nizhnekamsk-khimki","from":"nizhnekamsk","to":"khimki","distance":1169,"price":35070}
+,
+  {"route":"nizhnekamsk-klin","from":"nizhnekamsk","to":"klin","distance":1222,"price":36660}
+,
+  {"route":"nizhnekamsk-kolomna","from":"nizhnekamsk","to":"kolomna","distance":1074,"price":32220}
+,
+  {"route":"nizhnekamsk-korolev","from":"nizhnekamsk","to":"korolev","distance":1136,"price":34080}
+,
+  {"route":"nizhnekamsk-krasnogorsk","from":"nizhnekamsk","to":"krasnogorsk","distance":1180,"price":35400}
+,
+  {"route":"nizhnekamsk-lobnya","from":"nizhnekamsk","to":"lobnya","distance":1163,"price":34890}
+,
+  {"route":"nizhnekamsk-lyubertsy","from":"nizhnekamsk","to":"lyubertsy","distance":1135,"price":34050}
+,
+  {"route":"nizhnekamsk-moskva","from":"nizhnekamsk","to":"moskva","distance":1162,"price":34860}
+,
+  {"route":"nizhnekamsk-mytishchi","from":"nizhnekamsk","to":"mytishchi","distance":1141,"price":34230}
+,
+  {"route":"nizhnekamsk-noginsk","from":"nizhnekamsk","to":"noginsk","distance":1085,"price":32550}
+,
+  {"route":"nizhnekamsk-obninsk","from":"nizhnekamsk","to":"obninsk","distance":1249,"price":37470}
+,
+  {"route":"nizhnekamsk-odintsovo","from":"nizhnekamsk","to":"odintsovo","distance":1184,"price":35520}
+,
+  {"route":"nizhnekamsk-orekhovo-zuevo","from":"nizhnekamsk","to":"orekhovo-zuevo","distance":1044,"price":31320}
+,
+  {"route":"nizhnekamsk-podolsk","from":"nizhnekamsk","to":"podolsk","distance":1165,"price":34950}
+,
+  {"route":"nizhnekamsk-pushkino","from":"nizhnekamsk","to":"pushkino","distance":1134,"price":34020}
+,
+  {"route":"nizhnekamsk-ramenskoe","from":"nizhnekamsk","to":"ramenskoe","distance":1107,"price":33210}
+,
+  {"route":"nizhnekamsk-reutov","from":"nizhnekamsk","to":"reutov","distance":1135,"price":34050}
+,
+  {"route":"nizhnekamsk-sergiev-posad","from":"nizhnekamsk","to":"sergiev-posad","distance":1108,"price":33240}
+,
+  {"route":"nizhnekamsk-serpukhov","from":"nizhnekamsk","to":"serpukhov","distance":1186,"price":35580}
+,
+  {"route":"nizhnekamsk-shchelkovo","from":"nizhnekamsk","to":"shchelkovo","distance":1122,"price":33660}
+,
+  {"route":"nizhnekamsk-spb","from":"nizhnekamsk","to":"spb","distance":1753,"price":52590}
+,
+  {"route":"nizhnekamsk-tula","from":"nizhnekamsk","to":"tula","distance":1200,"price":36000}
+,
+  {"route":"nizhnekamsk-tver","from":"nizhnekamsk","to":"tver","distance":1287,"price":38610}
+,
+  {"route":"nizhnekamsk-voskresensk","from":"nizhnekamsk","to":"voskresensk","distance":1075,"price":32250}
+,
+  {"route":"nizhnekamsk-yaroslavl","from":"nizhnekamsk","to":"yaroslavl","distance":996,"price":29880}
+,
+  {"route":"nizhnekamsk-zhukovsky","from":"nizhnekamsk","to":"zhukovsky","distance":1117,"price":33510}
+,
+  {"route":"nizhny-novgorod-chelyabinsk","from":"nizhny","to":"novgorod-chelyabinsk","distance":1422,"price":42660}
+,
+  {"route":"nizhny-novgorod-ekaterinburg","from":"nizhny","to":"novgorod-ekaterinburg","distance":1322,"price":39660}
+,
+  {"route":"nizhny-novgorod-izhevsk","from":"nizhny","to":"novgorod-izhevsk","distance":737,"price":22110}
+,
+  {"route":"nizhny-novgorod-kaluga","from":"nizhny","to":"novgorod-kaluga","distance":683,"price":20490}
+,
+  {"route":"nizhny-novgorod-naberezhnye-chelny","from":"nizhny","to":"novgorod-naberezhnye-chelny","distance":677,"price":20310}
+,
+  {"route":"nizhny-novgorod-perm","from":"nizhny","to":"novgorod-perm","distance":988,"price":29640}
+,
+  {"route":"nizhny-novgorod-samara","from":"nizhny","to":"novgorod-samara","distance":683,"price":20490}
+,
+  {"route":"nizhny-novgorod-spb","from":"nizhny","to":"novgorod-spb","distance":1156,"price":34680}
+,
+  {"route":"nizhny-novgorod-ufa","from":"nizhny","to":"novgorod-ufa","distance":1006,"price":30180}
+,
+  {"route":"noginsk-chelyabinsk","from":"noginsk","to":"chelyabinsk","distance":1871,"price":56130}
+,
+  {"route":"noginsk-ekaterinburg","from":"noginsk","to":"ekaterinburg","distance":1771,"price":53130}
+,
+  {"route":"noginsk-izhevsk","from":"noginsk","to":"izhevsk","distance":1186,"price":35580}
+,
+  {"route":"noginsk-kazan","from":"noginsk","to":"kazan","distance":863,"price":25890}
+,
+  {"route":"noginsk-naberezhnye-chelny","from":"noginsk","to":"naberezhnye-chelny","distance":1123,"price":33690}
+,
+  {"route":"noginsk-nizhnekamsk","from":"noginsk","to":"nizhnekamsk","distance":1085,"price":32550}
+,
+  {"route":"noginsk-perm","from":"noginsk","to":"perm","distance":1430,"price":42900}
+,
+  {"route":"noginsk-samara","from":"noginsk","to":"samara","distance":1054,"price":31620}
+,
+  {"route":"noginsk-spb","from":"noginsk","to":"spb","distance":845,"price":25350}
+,
+  {"route":"noginsk-ufa","from":"noginsk","to":"ufa","distance":1447,"price":43410}
+,
+  {"route":"obninsk-chelyabinsk","from":"obninsk","to":"chelyabinsk","distance":2038,"price":61140}
+,
+  {"route":"obninsk-ekaterinburg","from":"obninsk","to":"ekaterinburg","distance":1947,"price":58410}
+,
+  {"route":"obninsk-izhevsk","from":"obninsk","to":"izhevsk","distance":1362,"price":40860}
+,
+  {"route":"obninsk-kazan","from":"obninsk","to":"kazan","distance":1028,"price":30840}
+,
+  {"route":"obninsk-naberezhnye-chelny","from":"obninsk","to":"naberezhnye-chelny","distance":1288,"price":38640}
+,
+  {"route":"obninsk-nizhnekamsk","from":"obninsk","to":"nizhnekamsk","distance":1249,"price":37470}
+,
+  {"route":"obninsk-perm","from":"obninsk","to":"perm","distance":1611,"price":48330}
+,
+  {"route":"obninsk-samara","from":"obninsk","to":"samara","distance":1180,"price":35400}
+,
+  {"route":"obninsk-spb","from":"obninsk","to":"spb","distance":837,"price":25110}
+,
+  {"route":"obninsk-ufa","from":"obninsk","to":"ufa","distance":1605,"price":48150}
+,
+  {"route":"odintsovo-chelyabinsk","from":"odintsovo","to":"chelyabinsk","distance":1971,"price":59130}
+,
+  {"route":"odintsovo-ekaterinburg","from":"odintsovo","to":"ekaterinburg","distance":1872,"price":56160}
+,
+  {"route":"odintsovo-izhevsk","from":"odintsovo","to":"izhevsk","distance":1287,"price":38610}
+,
+  {"route":"odintsovo-kazan","from":"odintsovo","to":"kazan","distance":962,"price":28860}
+,
+  {"route":"odintsovo-naberezhnye-chelny","from":"odintsovo","to":"naberezhnye-chelny","distance":1222,"price":36660}
+,
+  {"route":"odintsovo-nizhnekamsk","from":"odintsovo","to":"nizhnekamsk","distance":1184,"price":35520}
+,
+  {"route":"odintsovo-perm","from":"odintsovo","to":"perm","distance":1531,"price":45930}
+,
+  {"route":"odintsovo-samara","from":"odintsovo","to":"samara","distance":1141,"price":34230}
+,
+  {"route":"odintsovo-spb","from":"odintsovo","to":"spb","distance":803,"price":24090}
+,
+  {"route":"odintsovo-ufa","from":"odintsovo","to":"ufa","distance":1545,"price":46350}
+,
+  {"route":"orekhovo-zuevo-chelyabinsk","from":"orekhovo","to":"zuevo-chelyabinsk","distance":1830,"price":54900}
+,
+  {"route":"orekhovo-zuevo-ekaterinburg","from":"orekhovo","to":"zuevo-ekaterinburg","distance":1733,"price":51990}
+,
+  {"route":"orekhovo-zuevo-izhevsk","from":"orekhovo","to":"zuevo-izhevsk","distance":1148,"price":34440}
+,
+  {"route":"orekhovo-zuevo-kazan","from":"orekhovo","to":"zuevo-kazan","distance":822,"price":24660}
+,
+  {"route":"orekhovo-zuevo-naberezhnye-chelny","from":"orekhovo","to":"zuevo-naberezhnye-chelny","distance":1082,"price":32460}
+,
+  {"route":"orekhovo-zuevo-nizhnekamsk","from":"orekhovo","to":"zuevo-nizhnekamsk","distance":1044,"price":31320}
+,
+  {"route":"orekhovo-zuevo-perm","from":"orekhovo","to":"zuevo-perm","distance":1394,"price":41820}
+,
+  {"route":"orekhovo-zuevo-samara","from":"orekhovo","to":"zuevo-samara","distance":1011,"price":30330}
+,
+  {"route":"orekhovo-zuevo-spb","from":"orekhovo","to":"zuevo-spb","distance":881,"price":26430}
+,
+  {"route":"orekhovo-zuevo-ufa","from":"orekhovo","to":"zuevo-ufa","distance":1405,"price":42150}
+,
+  {"route":"perm-balashikha","from":"perm","to":"balashikha","distance":1473,"price":44190}
+,
+  {"route":"perm-chekhov","from":"perm","to":"chekhov","distance":1544,"price":46320}
+,
+  {"route":"perm-dmitrov","from":"perm","to":"dmitrov","distance":1481,"price":44430}
+,
+  {"route":"perm-dolgoprudny","from":"perm","to":"dolgoprudny","distance":1500,"price":45000}
+,
+  {"route":"perm-domodedovo","from":"perm","to":"domodedovo","distance":1505,"price":45150}
+,
+  {"route":"perm-dubna","from":"perm","to":"dubna","distance":1493,"price":44790}
+,
+  {"route":"perm-dzerzhinsky","from":"perm","to":"dzerzhinsky","distance":1488,"price":44640}
+,
+  {"route":"perm-egoryevsk","from":"perm","to":"egoryevsk","distance":1411,"price":42330}
+,
+  {"route":"perm-elektrostal","from":"perm","to":"elektrostal","distance":1435,"price":43050}
+,
+  {"route":"perm-fryazino","from":"perm","to":"fryazino","distance":1458,"price":43740}
+,
+  {"route":"perm-ivanteyevka","from":"perm","to":"ivanteyevka","distance":1467,"price":44010}
+,
+  {"route":"perm-kaluga","from":"perm","to":"kaluga","distance":1672,"price":50160}
+,
+  {"route":"perm-khimki","from":"perm","to":"khimki","distance":1508,"price":45240}
+,
+  {"route":"perm-klin","from":"perm","to":"klin","distance":1542,"price":46260}
+,
+  {"route":"perm-kolomna","from":"perm","to":"kolomna","distance":1449,"price":43470}
+,
+  {"route":"perm-korolev","from":"perm","to":"korolev","distance":1476,"price":44280}
+,
+  {"route":"perm-krasnogorsk","from":"perm","to":"krasnogorsk","distance":1521,"price":45630}
+,
+  {"route":"perm-lobnya","from":"perm","to":"lobnya","distance":1498,"price":44940}
+,
+  {"route":"perm-lyubertsy","from":"perm","to":"lyubertsy","distance":1483,"price":44490}
+,
+  {"route":"perm-moskva","from":"perm","to":"moskva","distance":1511,"price":45330}
+,
+  {"route":"perm-mytishchi","from":"perm","to":"mytishchi","distance":1481,"price":44430}
+,
+  {"route":"perm-nizhny-novgorod","from":"perm","to":"nizhny-novgorod","distance":988,"price":29640}
+,
+  {"route":"perm-noginsk","from":"perm","to":"noginsk","distance":1430,"price":42900}
+,
+  {"route":"perm-obninsk","from":"perm","to":"obninsk","distance":1611,"price":48330}
+,
+  {"route":"perm-odintsovo","from":"perm","to":"odintsovo","distance":1531,"price":45930}
+,
+  {"route":"perm-orekhovo-zuevo","from":"perm","to":"orekhovo-zuevo","distance":1394,"price":41820}
+,
+  {"route":"perm-podolsk","from":"perm","to":"podolsk","distance":1522,"price":45660}
+,
+  {"route":"perm-pushkino","from":"perm","to":"pushkino","distance":1471,"price":44130}
+,
+  {"route":"perm-ramenskoe","from":"perm","to":"ramenskoe","distance":1462,"price":43860}
+,
+  {"route":"perm-reutov","from":"perm","to":"reutov","distance":1481,"price":44430}
+,
+  {"route":"perm-samara","from":"perm","to":"samara","distance":843,"price":25290}
+,
+  {"route":"perm-sergiev-posad","from":"perm","to":"sergiev-posad","distance":1434,"price":43020}
+,
+  {"route":"perm-serpukhov","from":"perm","to":"serpukhov","distance":1559,"price":46770}
+,
+  {"route":"perm-shchelkovo","from":"perm","to":"shchelkovo","distance":1463,"price":43890}
+,
+  {"route":"perm-spb","from":"perm","to":"spb","distance":1936,"price":58080}
+,
+  {"route":"perm-tula","from":"perm","to":"tula","distance":1596,"price":47880}
+,
+  {"route":"perm-tver","from":"perm","to":"tver","distance":1584,"price":47520}
+,
+  {"route":"perm-voskresensk","from":"perm","to":"voskresensk","distance":1442,"price":43260}
+,
+  {"route":"perm-yaroslavl","from":"perm","to":"yaroslavl","distance":1261,"price":37830}
+,
+  {"route":"perm-zhukovsky","from":"perm","to":"zhukovsky","distance":1471,"price":44130}
+,
+  {"route":"podolsk-chelyabinsk","from":"podolsk","to":"chelyabinsk","distance":1953,"price":58590}
+,
+  {"route":"podolsk-ekaterinburg","from":"podolsk","to":"ekaterinburg","distance":1859,"price":55770}
+,
+  {"route":"podolsk-izhevsk","from":"podolsk","to":"izhevsk","distance":1274,"price":38220}
+,
+  {"route":"podolsk-kazan","from":"podolsk","to":"kazan","distance":944,"price":28320}
+,
+  {"route":"podolsk-naberezhnye-chelny","from":"podolsk","to":"naberezhnye-chelny","distance":1204,"price":36120}
+,
+  {"route":"podolsk-nizhnekamsk","from":"podolsk","to":"nizhnekamsk","distance":1165,"price":34950}
+,
+  {"route":"podolsk-perm","from":"podolsk","to":"perm","distance":1522,"price":45660}
+,
+  {"route":"podolsk-samara","from":"podolsk","to":"samara","distance":1111,"price":33330}
+,
+  {"route":"podolsk-spb","from":"podolsk","to":"spb","distance":845,"price":25350}
+,
+  {"route":"podolsk-ufa","from":"podolsk","to":"ufa","distance":1524,"price":45720}
+,
+  {"route":"pushkino-chelyabinsk","from":"pushkino","to":"chelyabinsk","distance":1919,"price":57570}
+,
+  {"route":"pushkino-ekaterinburg","from":"pushkino","to":"ekaterinburg","distance":1816,"price":54480}
+,
+  {"route":"pushkino-izhevsk","from":"pushkino","to":"izhevsk","distance":1232,"price":36960}
+,
+  {"route":"pushkino-kazan","from":"pushkino","to":"kazan","distance":912,"price":27360}
+,
+  {"route":"pushkino-naberezhnye-chelny","from":"pushkino","to":"naberezhnye-chelny","distance":1172,"price":35160}
+,
+  {"route":"pushkino-nizhnekamsk","from":"pushkino","to":"nizhnekamsk","distance":1134,"price":34020}
+,
+  {"route":"pushkino-perm","from":"pushkino","to":"perm","distance":1471,"price":44130}
+,
+  {"route":"pushkino-samara","from":"pushkino","to":"samara","distance":1108,"price":33240}
+,
+  {"route":"pushkino-spb","from":"pushkino","to":"spb","distance":796,"price":23880}
+,
+  {"route":"pushkino-ufa","from":"pushkino","to":"ufa","distance":1497,"price":44910}
+,
+  {"route":"ramenskoe-chelyabinsk","from":"ramenskoe","to":"chelyabinsk","distance":1895,"price":56850}
+,
+  {"route":"ramenskoe-ekaterinburg","from":"ramenskoe","to":"ekaterinburg","distance":1800,"price":54000}
+,
+  {"route":"ramenskoe-izhevsk","from":"ramenskoe","to":"izhevsk","distance":1215,"price":36450}
+,
+  {"route":"ramenskoe-kazan","from":"ramenskoe","to":"kazan","distance":886,"price":26580}
+,
+  {"route":"ramenskoe-naberezhnye-chelny","from":"ramenskoe","to":"naberezhnye-chelny","distance":1145,"price":34350}
+,
+  {"route":"ramenskoe-nizhnekamsk","from":"ramenskoe","to":"nizhnekamsk","distance":1107,"price":33210}
+,
+  {"route":"ramenskoe-perm","from":"ramenskoe","to":"perm","distance":1462,"price":43860}
+,
+  {"route":"ramenskoe-samara","from":"ramenskoe","to":"samara","distance":1061,"price":31830}
+,
+  {"route":"ramenskoe-spb","from":"ramenskoe","to":"spb","distance":864,"price":25920}
+,
+  {"route":"ramenskoe-ufa","from":"ramenskoe","to":"ufa","distance":1467,"price":44010}
+,
+  {"route":"reutov-chelyabinsk","from":"reutov","to":"chelyabinsk","distance":1921,"price":57630}
+,
+  {"route":"reutov-ekaterinburg","from":"reutov","to":"ekaterinburg","distance":1822,"price":54660}
+,
+  {"route":"reutov-izhevsk","from":"reutov","to":"izhevsk","distance":1238,"price":37140}
+,
+  {"route":"reutov-kazan","from":"reutov","to":"kazan","distance":913,"price":27390}
+,
+  {"route":"reutov-naberezhnye-chelny","from":"reutov","to":"naberezhnye-chelny","distance":1173,"price":35190}
+,
+  {"route":"reutov-nizhnekamsk","from":"reutov","to":"nizhnekamsk","distance":1135,"price":34050}
+,
+  {"route":"reutov-perm","from":"reutov","to":"perm","distance":1481,"price":44430}
+,
+  {"route":"reutov-samara","from":"reutov","to":"samara","distance":1096,"price":32880}
+,
+  {"route":"reutov-spb","from":"reutov","to":"spb","distance":824,"price":24720}
+,
+  {"route":"reutov-ufa","from":"reutov","to":"ufa","distance":1496,"price":44880}
+,
+  {"route":"samara-balashikha","from":"samara","to":"balashikha","distance":1092,"price":32760}
+,
+  {"route":"samara-chekhov","from":"samara","to":"chekhov","distance":1110,"price":33300}
+,
+  {"route":"samara-chelyabinsk","from":"samara","to":"chelyabinsk","distance":986,"price":29580}
+,
+  {"route":"samara-dmitrov","from":"samara","to":"dmitrov","distance":1147,"price":34410}
+,
+  {"route":"samara-dolgoprudny","from":"samara","to":"dolgoprudny","distance":1130,"price":33900}
+,
+  {"route":"samara-domodedovo","from":"samara","to":"domodedovo","distance":1094,"price":32820}
+,
+  {"route":"samara-dubna","from":"samara","to":"dubna","distance":1192,"price":35760}
+,
+  {"route":"samara-dzerzhinsky","from":"samara","to":"dzerzhinsky","distance":1093,"price":32790}
+,
+  {"route":"samara-egoryevsk","from":"samara","to":"egoryevsk","distance":990,"price":29700}
+,
+  {"route":"samara-ekaterinburg","from":"samara","to":"ekaterinburg","distance":1002,"price":30060}
+,
+  {"route":"samara-elektrostal","from":"samara","to":"elektrostal","distance":1052,"price":31560}
+,
+  {"route":"samara-fryazino","from":"samara","to":"fryazino","distance":1090,"price":32700}
+,
+  {"route":"samara-ivanteyevka","from":"samara","to":"ivanteyevka","distance":1100,"price":33000}
+,
+  {"route":"samara-kaluga","from":"samara","to":"kaluga","distance":1197,"price":35910}
+,
+  {"route":"samara-khimki","from":"samara","to":"khimki","distance":1136,"price":34080}
+,
+  {"route":"samara-klin","from":"samara","to":"klin","distance":1206,"price":36180}
+,
+  {"route":"samara-kolomna","from":"samara","to":"kolomna","distance":1003,"price":30090}
+,
+  {"route":"samara-korolev","from":"samara","to":"korolev","distance":1105,"price":33150}
+,
+  {"route":"samara-krasnogorsk","from":"samara","to":"krasnogorsk","distance":1144,"price":34320}
+,
+  {"route":"samara-lobnya","from":"samara","to":"lobnya","distance":1136,"price":34080}
+,
+  {"route":"samara-lyubertsy","from":"samara","to":"lyubertsy","distance":1093,"price":32790}
+,
+  {"route":"samara-moskva","from":"samara","to":"moskva","distance":1118,"price":33540}
+,
+  {"route":"samara-mytishchi","from":"samara","to":"mytishchi","distance":1110,"price":33300}
+,
+  {"route":"samara-nizhny-novgorod","from":"samara","to":"nizhny-novgorod","distance":683,"price":20490}
+,
+  {"route":"samara-noginsk","from":"samara","to":"noginsk","distance":1054,"price":31620}
+,
+  {"route":"samara-obninsk","from":"samara","to":"obninsk","distance":1180,"price":35400}
+,
+  {"route":"samara-odintsovo","from":"samara","to":"odintsovo","distance":1141,"price":34230}
+,
+  {"route":"samara-orekhovo-zuevo","from":"samara","to":"orekhovo-zuevo","distance":1011,"price":30330}
+,
+  {"route":"samara-perm","from":"samara","to":"perm","distance":843,"price":25290}
+,
+  {"route":"samara-podolsk","from":"samara","to":"podolsk","distance":1111,"price":33330}
+,
+  {"route":"samara-pushkino","from":"samara","to":"pushkino","distance":1108,"price":33240}
+,
+  {"route":"samara-ramenskoe","from":"samara","to":"ramenskoe","distance":1061,"price":31830}
+,
+  {"route":"samara-reutov","from":"samara","to":"reutov","distance":1096,"price":32880}
+,
+  {"route":"samara-sergiev-posad","from":"samara","to":"sergiev-posad","distance":1098,"price":32940}
+,
+  {"route":"samara-serpukhov","from":"samara","to":"serpukhov","distance":1108,"price":33240}
+,
+  {"route":"samara-shchelkovo","from":"samara","to":"shchelkovo","distance":1092,"price":32760}
+,
+  {"route":"samara-spb","from":"samara","to":"spb","distance":1836,"price":55080}
+,
+  {"route":"samara-tula","from":"samara","to":"tula","distance":1087,"price":32610}
+,
+  {"route":"samara-tver","from":"samara","to":"tver","distance":1292,"price":38760}
+,
+  {"route":"samara-voskresensk","from":"samara","to":"voskresensk","distance":1016,"price":30480}
+,
+  {"route":"samara-yaroslavl","from":"samara","to":"yaroslavl","distance":1064,"price":31920}
+,
+  {"route":"samara-zhukovsky","from":"samara","to":"zhukovsky","distance":1072,"price":32160}
+,
+  {"route":"sergiev-posad-chelyabinsk","from":"sergiev","to":"posad-chelyabinsk","distance":1890,"price":56700}
+,
+  {"route":"sergiev-posad-ekaterinburg","from":"sergiev","to":"posad-ekaterinburg","distance":1782,"price":53460}
+,
+  {"route":"sergiev-posad-izhevsk","from":"sergiev","to":"posad-izhevsk","distance":1199,"price":35970}
+,
+  {"route":"sergiev-posad-kazan","from":"sergiev","to":"posad-kazan","distance":887,"price":26610}
+,
+  {"route":"sergiev-posad-naberezhnye-chelny","from":"sergiev","to":"posad-naberezhnye-chelny","distance":1145,"price":34350}
+,
+  {"route":"sergiev-posad-nizhnekamsk","from":"sergiev","to":"posad-nizhnekamsk","distance":1108,"price":33240}
+,
+  {"route":"sergiev-posad-perm","from":"sergiev","to":"posad-perm","distance":1434,"price":43020}
+,
+  {"route":"sergiev-posad-samara","from":"sergiev","to":"posad-samara","distance":1098,"price":32940}
+,
+  {"route":"sergiev-posad-spb","from":"sergiev","to":"posad-spb","distance":781,"price":23430}
+,
+  {"route":"sergiev-posad-ufa","from":"sergiev","to":"posad-ufa","distance":1473,"price":44190}
+,
+  {"route":"serpukhov-chelyabinsk","from":"serpukhov","to":"chelyabinsk","distance":1975,"price":59250}
+,
+  {"route":"serpukhov-ekaterinburg","from":"serpukhov","to":"ekaterinburg","distance":1889,"price":56670}
+,
+  {"route":"serpukhov-izhevsk","from":"serpukhov","to":"izhevsk","distance":1305,"price":39150}
+,
+  {"route":"serpukhov-kazan","from":"serpukhov","to":"kazan","distance":966,"price":28980}
+,
+  {"route":"serpukhov-naberezhnye-chelny","from":"serpukhov","to":"naberezhnye-chelny","distance":1225,"price":36750}
+,
+  {"route":"serpukhov-nizhnekamsk","from":"serpukhov","to":"nizhnekamsk","distance":1186,"price":35580}
+,
+  {"route":"serpukhov-perm","from":"serpukhov","to":"perm","distance":1559,"price":46770}
+,
+  {"route":"serpukhov-samara","from":"serpukhov","to":"samara","distance":1108,"price":33240}
+,
+  {"route":"serpukhov-spb","from":"serpukhov","to":"spb","distance":899,"price":26970}
+,
+  {"route":"serpukhov-ufa","from":"serpukhov","to":"ufa","distance":1540,"price":46200}
+,
+  {"route":"shchelkovo-chelyabinsk","from":"shchelkovo","to":"chelyabinsk","distance":1907,"price":57210}
+,
+  {"route":"shchelkovo-ekaterinburg","from":"shchelkovo","to":"ekaterinburg","distance":1806,"price":54180}
+,
+  {"route":"shchelkovo-izhevsk","from":"shchelkovo","to":"izhevsk","distance":1221,"price":36630}
+,
+  {"route":"shchelkovo-kazan","from":"shchelkovo","to":"kazan","distance":900,"price":27000}
+,
+  {"route":"shchelkovo-naberezhnye-chelny","from":"shchelkovo","to":"naberezhnye-chelny","distance":1160,"price":34800}
+,
+  {"route":"shchelkovo-nizhnekamsk","from":"shchelkovo","to":"nizhnekamsk","distance":1122,"price":33660}
+,
+  {"route":"shchelkovo-perm","from":"shchelkovo","to":"perm","distance":1463,"price":43890}
+,
+  {"route":"shchelkovo-samara","from":"shchelkovo","to":"samara","distance":1092,"price":32760}
+,
+  {"route":"shchelkovo-spb","from":"shchelkovo","to":"spb","distance":814,"price":24420}
+,
+  {"route":"shchelkovo-ufa","from":"shchelkovo","to":"ufa","distance":1484,"price":44520}
+,
+  {"route":"spb-balashikha","from":"spb","to":"balashikha","distance":824,"price":24720}
+,
+  {"route":"spb-chekhov","from":"spb","to":"chekhov","distance":874,"price":26220}
+,
+  {"route":"spb-chelyabinsk","from":"spb","to":"chelyabinsk","distance":2476,"price":74280}
+,
+  {"route":"spb-dmitrov","from":"spb","to":"dmitrov","distance":743,"price":22290}
+,
+  {"route":"spb-dolgoprudny","from":"spb","to":"dolgoprudny","distance":788,"price":23640}
+,
+  {"route":"spb-domodedovo","from":"spb","to":"domodedovo","distance":854,"price":25620}
+,
+  {"route":"spb-dubna","from":"spb","to":"dubna","distance":683,"price":20490}
+,
+  {"route":"spb-dzerzhinsky","from":"spb","to":"dzerzhinsky","distance":838,"price":25140}
+,
+  {"route":"spb-egoryevsk","from":"spb","to":"egoryevsk","distance":929,"price":27870}
+,
+  {"route":"spb-ekaterinburg","from":"spb","to":"ekaterinburg","distance":2315,"price":69450}
+,
+  {"route":"spb-elektrostal","from":"spb","to":"elektrostal","distance":852,"price":25560}
+,
+  {"route":"spb-fryazino","from":"spb","to":"fryazino","distance":813,"price":24390}
+,
+  {"route":"spb-ivanteyevka","from":"spb","to":"ivanteyevka","distance":805,"price":24150}
+,
+  {"route":"spb-izhevsk","from":"spb","to":"izhevsk","distance":1776,"price":53280}
+,
+  {"route":"spb-kaluga","from":"spb","to":"kaluga","distance":901,"price":27030}
+,
+  {"route":"spb-kazan","from":"spb","to":"kazan","distance":1548,"price":46440}
+,
+  {"route":"spb-khimki","from":"spb","to":"khimki","distance":785,"price":23550}
+,
+  {"route":"spb-klin","from":"spb","to":"klin","distance":702,"price":21060}
+,
+  {"route":"spb-kolomna","from":"spb","to":"kolomna","distance":946,"price":28380}
+,
+  {"route":"spb-korolev","from":"spb","to":"korolev","distance":805,"price":24150}
+,
+  {"route":"spb-krasnogorsk","from":"spb","to":"krasnogorsk","distance":786,"price":23580}
+,
+  {"route":"spb-lobnya","from":"spb","to":"lobnya","distance":776,"price":23280}
+,
+  {"route":"spb-lyubertsy","from":"spb","to":"lyubertsy","distance":832,"price":24960}
+,
+  {"route":"spb-moskva","from":"spb","to":"moskva","distance":819,"price":24570}
+,
+  {"route":"spb-mytishchi","from":"spb","to":"mytishchi","distance":802,"price":24060}
+,
+  {"route":"spb-naberezhnye-chelny","from":"spb","to":"naberezhnye-chelny","distance":1783,"price":53490}
+,
+  {"route":"spb-nizhnekamsk","from":"spb","to":"nizhnekamsk","distance":1753,"price":52590}
+,
+  {"route":"spb-nizhny-novgorod","from":"spb","to":"nizhny-novgorod","distance":1156,"price":34680}
+,
+  {"route":"spb-noginsk","from":"spb","to":"noginsk","distance":845,"price":25350}
+,
+  {"route":"spb-obninsk","from":"spb","to":"obninsk","distance":837,"price":25110}
+,
+  {"route":"spb-odintsovo","from":"spb","to":"odintsovo","distance":803,"price":24090}
+,
+  {"route":"spb-orekhovo-zuevo","from":"spb","to":"orekhovo-zuevo","distance":881,"price":26430}
+,
+  {"route":"spb-perm","from":"spb","to":"perm","distance":1936,"price":58080}
+,
+  {"route":"spb-podolsk","from":"spb","to":"podolsk","distance":845,"price":25350}
+,
+  {"route":"spb-pushkino","from":"spb","to":"pushkino","distance":796,"price":23880}
+,
+  {"route":"spb-ramenskoe","from":"spb","to":"ramenskoe","distance":864,"price":25920}
+,
+  {"route":"spb-reutov","from":"spb","to":"reutov","distance":824,"price":24720}
+,
+  {"route":"spb-samara","from":"spb","to":"samara","distance":1836,"price":55080}
+,
+  {"route":"spb-sergiev-posad","from":"spb","to":"sergiev-posad","distance":781,"price":23430}
+,
+  {"route":"spb-serpukhov","from":"spb","to":"serpukhov","distance":899,"price":26970}
+,
+  {"route":"spb-shchelkovo","from":"spb","to":"shchelkovo","distance":814,"price":24420}
+,
+  {"route":"spb-tula","from":"spb","to":"tula","distance":996,"price":29880}
+,
+  {"route":"spb-ufa","from":"spb","to":"ufa","distance":2117,"price":63510}
+,
+  {"route":"spb-voskresensk","from":"spb","to":"voskresensk","distance":916,"price":27480}
+,
+  {"route":"spb-yaroslavl","from":"spb","to":"yaroslavl","distance":773,"price":23190}
+,
+  {"route":"spb-zhukovsky","from":"spb","to":"zhukovsky","distance":855,"price":25650}
+,
+  {"route":"tula-chelyabinsk","from":"tula","to":"chelyabinsk","distance":1987,"price":59610}
+,
+  {"route":"tula-ekaterinburg","from":"tula","to":"ekaterinburg","distance":1914,"price":57420}
+,
+  {"route":"tula-izhevsk","from":"tula","to":"izhevsk","distance":1332,"price":39960}
+,
+  {"route":"tula-kazan","from":"tula","to":"kazan","distance":984,"price":29520}
+,
+  {"route":"tula-naberezhnye-chelny","from":"tula","to":"naberezhnye-chelny","distance":1240,"price":37200}
+,
+  {"route":"tula-nizhnekamsk","from":"tula","to":"nizhnekamsk","distance":1200,"price":36000}
+,
+  {"route":"tula-perm","from":"tula","to":"perm","distance":1596,"price":47880}
+,
+  {"route":"tula-samara","from":"tula","to":"samara","distance":1087,"price":32610}
+,
+  {"route":"tula-spb","from":"tula","to":"spb","distance":996,"price":29880}
+,
+  {"route":"tula-ufa","from":"tula","to":"ufa","distance":1544,"price":46320}
+,
+  {"route":"tver-chelyabinsk","from":"tver","to":"chelyabinsk","distance":2062,"price":61860}
+,
+  {"route":"tver-ekaterinburg","from":"tver","to":"ekaterinburg","distance":1943,"price":58290}
+,
+  {"route":"tver-izhevsk","from":"tver","to":"izhevsk","distance":1364,"price":40920}
+,
+  {"route":"tver-kazan","from":"tver","to":"kazan","distance":1067,"price":32010}
+,
+  {"route":"tver-naberezhnye-chelny","from":"tver","to":"naberezhnye-chelny","distance":1323,"price":39690}
+,
+  {"route":"tver-nizhnekamsk","from":"tver","to":"nizhnekamsk","distance":1287,"price":38610}
+,
+  {"route":"tver-perm","from":"tver","to":"perm","distance":1584,"price":47520}
+,
+  {"route":"tver-samara","from":"tver","to":"samara","distance":1292,"price":38760}
+,
+  {"route":"tver-ufa","from":"tver","to":"ufa","distance":1654,"price":49620}
+,
+  {"route":"ufa-balashikha","from":"ufa","to":"balashikha","distance":1490,"price":44700}
+,
+  {"route":"ufa-chekhov","from":"ufa","to":"chekhov","distance":1533,"price":45990}
+,
+  {"route":"ufa-dmitrov","from":"ufa","to":"dmitrov","distance":1524,"price":45720}
+,
+  {"route":"ufa-dolgoprudny","from":"ufa","to":"dolgoprudny","distance":1524,"price":45720}
+,
+  {"route":"ufa-domodedovo","from":"ufa","to":"domodedovo","distance":1506,"price":45180}
+,
+  {"route":"ufa-dubna","from":"ufa","to":"dubna","distance":1554,"price":46620}
+,
+  {"route":"ufa-dzerzhinsky","from":"ufa","to":"dzerzhinsky","distance":1497,"price":44910}
+,
+  {"route":"ufa-egoryevsk","from":"ufa","to":"egoryevsk","distance":1402,"price":42060}
+,
+  {"route":"ufa-elektrostal","from":"ufa","to":"elektrostal","distance":1449,"price":43470}
+,
+  {"route":"ufa-fryazino","from":"ufa","to":"fryazino","distance":1481,"price":44430}
+,
+  {"route":"ufa-ivanteyevka","from":"ufa","to":"ivanteyevka","distance":1491,"price":44730}
+,
+  {"route":"ufa-kaluga","from":"ufa","to":"kaluga","distance":1643,"price":49290}
+,
+  {"route":"ufa-khimki","from":"ufa","to":"khimki","distance":1531,"price":45930}
+,
+  {"route":"ufa-klin","from":"ufa","to":"klin","distance":1587,"price":47610}
+,
+  {"route":"ufa-kolomna","from":"ufa","to":"kolomna","distance":1428,"price":42840}
+,
+  {"route":"ufa-korolev","from":"ufa","to":"korolev","distance":1498,"price":44940}
+,
+  {"route":"ufa-krasnogorsk","from":"ufa","to":"krasnogorsk","distance":1542,"price":46260}
+,
+  {"route":"ufa-lobnya","from":"ufa","to":"lobnya","distance":1526,"price":45780}
+,
+  {"route":"ufa-lyubertsy","from":"ufa","to":"lyubertsy","distance":1495,"price":44850}
+,
+  {"route":"ufa-moskva","from":"ufa","to":"moskva","distance":1523,"price":45690}
+,
+  {"route":"ufa-mytishchi","from":"ufa","to":"mytishchi","distance":1503,"price":45090}
+,
+  {"route":"ufa-nizhny-novgorod","from":"ufa","to":"nizhny-novgorod","distance":1006,"price":30180}
+,
+  {"route":"ufa-noginsk","from":"ufa","to":"noginsk","distance":1447,"price":43410}
+,
+  {"route":"ufa-obninsk","from":"ufa","to":"obninsk","distance":1605,"price":48150}
+,
+  {"route":"ufa-odintsovo","from":"ufa","to":"odintsovo","distance":1545,"price":46350}
+,
+  {"route":"ufa-orekhovo-zuevo","from":"ufa","to":"orekhovo-zuevo","distance":1405,"price":42150}
+,
+  {"route":"ufa-podolsk","from":"ufa","to":"podolsk","distance":1524,"price":45720}
+,
+  {"route":"ufa-pushkino","from":"ufa","to":"pushkino","distance":1497,"price":44910}
+,
+  {"route":"ufa-ramenskoe","from":"ufa","to":"ramenskoe","distance":1467,"price":44010}
+,
+  {"route":"ufa-reutov","from":"ufa","to":"reutov","distance":1496,"price":44880}
+,
+  {"route":"ufa-sergiev-posad","from":"ufa","to":"sergiev-posad","distance":1473,"price":44190}
+,
+  {"route":"ufa-serpukhov","from":"ufa","to":"serpukhov","distance":1540,"price":46200}
+,
+  {"route":"ufa-shchelkovo","from":"ufa","to":"shchelkovo","distance":1484,"price":44520}
+,
+  {"route":"ufa-spb","from":"ufa","to":"spb","distance":2117,"price":63510}
+,
+  {"route":"ufa-tula","from":"ufa","to":"tula","distance":1544,"price":46320}
+,
+  {"route":"ufa-tver","from":"ufa","to":"tver","distance":1654,"price":49620}
+,
+  {"route":"ufa-voskresensk","from":"ufa","to":"voskresensk","distance":1432,"price":42960}
+,
+  {"route":"ufa-yaroslavl","from":"ufa","to":"yaroslavl","distance":1364,"price":40920}
+,
+  {"route":"ufa-zhukovsky","from":"ufa","to":"zhukovsky","distance":1477,"price":44310}
+,
+  {"route":"voskresensk-chelyabinsk","from":"voskresensk","to":"chelyabinsk","distance":1863,"price":55890}
+,
+  {"route":"voskresensk-ekaterinburg","from":"voskresensk","to":"ekaterinburg","distance":1774,"price":53220}
+,
+  {"route":"voskresensk-izhevsk","from":"voskresensk","to":"izhevsk","distance":1189,"price":35670}
+,
+  {"route":"voskresensk-kazan","from":"voskresensk","to":"kazan","distance":854,"price":25620}
+,
+  {"route":"voskresensk-naberezhnye-chelny","from":"voskresensk","to":"naberezhnye-chelny","distance":1114,"price":33420}
+,
+  {"route":"voskresensk-nizhnekamsk","from":"voskresensk","to":"nizhnekamsk","distance":1075,"price":32250}
+,
+  {"route":"voskresensk-perm","from":"voskresensk","to":"perm","distance":1442,"price":43260}
+,
+  {"route":"voskresensk-samara","from":"voskresensk","to":"samara","distance":1016,"price":30480}
+,
+  {"route":"voskresensk-spb","from":"voskresensk","to":"spb","distance":916,"price":27480}
+,
+  {"route":"voskresensk-ufa","from":"voskresensk","to":"ufa","distance":1432,"price":42960}
+,
+  {"route":"yaroslavl-chelyabinsk","from":"yaroslavl","to":"chelyabinsk","distance":1755,"price":52650}
+,
+  {"route":"yaroslavl-ekaterinburg","from":"yaroslavl","to":"ekaterinburg","distance":1624,"price":48720}
+,
+  {"route":"yaroslavl-izhevsk","from":"yaroslavl","to":"izhevsk","distance":1052,"price":31560}
+,
+  {"route":"yaroslavl-kazan","from":"yaroslavl","to":"kazan","distance":783,"price":23490}
+,
+  {"route":"yaroslavl-naberezhnye-chelny","from":"yaroslavl","to":"naberezhnye-chelny","distance":1030,"price":30900}
+,
+  {"route":"yaroslavl-nizhnekamsk","from":"yaroslavl","to":"nizhnekamsk","distance":996,"price":29880}
+,
+  {"route":"yaroslavl-perm","from":"yaroslavl","to":"perm","distance":1261,"price":37830}
+,
+  {"route":"yaroslavl-samara","from":"yaroslavl","to":"samara","distance":1064,"price":31920}
+,
+  {"route":"yaroslavl-spb","from":"yaroslavl","to":"spb","distance":773,"price":23190}
+,
+  {"route":"yaroslavl-ufa","from":"yaroslavl","to":"ufa","distance":1364,"price":40920}
+,
+  {"route":"zhukovsky-chelyabinsk","from":"zhukovsky","to":"chelyabinsk","distance":1904,"price":57120}
+,
+  {"route":"zhukovsky-ekaterinburg","from":"zhukovsky","to":"ekaterinburg","distance":1809,"price":54270}
+,
+  {"route":"zhukovsky-izhevsk","from":"zhukovsky","to":"izhevsk","distance":1224,"price":36720}
+,
+  {"route":"zhukovsky-kazan","from":"zhukovsky","to":"kazan","distance":896,"price":26880}
+,
+  {"route":"zhukovsky-naberezhnye-chelny","from":"zhukovsky","to":"naberezhnye-chelny","distance":1155,"price":34650}
+,
+  {"route":"zhukovsky-nizhnekamsk","from":"zhukovsky","to":"nizhnekamsk","distance":1117,"price":33510}
+,
+  {"route":"zhukovsky-perm","from":"zhukovsky","to":"perm","distance":1471,"price":44130}
+,
+  {"route":"zhukovsky-samara","from":"zhukovsky","to":"samara","distance":1072,"price":32160}
+,
+  {"route":"zhukovsky-spb","from":"zhukovsky","to":"spb","distance":855,"price":25650}
+,
+  {"route":"zhukovsky-ufa","from":"zhukovsky","to":"ufa","distance":1477,"price":44310}
+]
