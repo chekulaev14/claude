@@ -5,6 +5,9 @@
 User-agent: *
 Allow: /
 
+# Страницы в разработке
+Disallow: /calculator-new.html
+
 # Запрещаем технические файлы и папки
 Disallow: /templates/
 Disallow: /seo-texts/
