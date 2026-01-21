@@ -8,6 +8,30 @@ Allow: /
 # Страницы в разработке
 Disallow: /calculator-new.html
 
+# Старые URL WordPress (не существуют, 404)
+Disallow: /pages/
+Disallow: /услуги/
+Disallow: /контакты/
+Disallow: /грузоперевозки
+Disallow: /author/
+Disallow: /category/
+Disallow: /klienty/
+Disallow: /kontragenty/
+Disallow: /kontakty/
+Disallow: /направления/
+Disallow: /работа-с-ндс/
+Disallow: /цены/
+Disallow: /наши-логисты/
+Disallow: /черный-список/
+Disallow: /пригласить-в-тендер/
+Disallow: /тестовая-страница
+Disallow: /kalkylyator
+Disallow: /sample-page
+Disallow: /1-2/
+Disallow: /2025/
+Disallow: /*?customize_changeset_uuid=
+Disallow: /*?page_id=
+
 # Запрещаем технические файлы и папки
 Disallow: /templates/
 Disallow: /seo-texts/
