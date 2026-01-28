@@ -18,7 +18,23 @@
 Если в процессе выполнения задач спрашивается разрешение на какое-то действие, то нужно изменить системный файл чтобы разрешения больше не спрашивалось.
 
 # MCP инструменты
-Если PW (Playwright) не смог сделать фото сайта, не нужно идти дальше. Остановись, перезапусти браузер и попробуй еще раз. 
+Если PW (Playwright) не смог сделать фото сайта, не нужно идти дальше. Остановись, перезапусти браузер и попробуй еще раз.
+
+# Google Search Console API
+Есть доступ к GSC API через Service Account: `clauderobot@ancient-binder-437314-m9.iam.gserviceaccount.com`
+- Credentials: `gsc-credentials.json` (в .gitignore)
+- Скрипт: `gsc_analytics.py`
+- Сайт: `https://dinamika-cargo.ru/`
+
+**Команды:**
+```bash
+python3 gsc_analytics.py queries 50   # топ запросов
+python3 gsc_analytics.py pages 30     # топ страниц
+python3 gsc_analytics.py page /path/  # запросы для конкретного раздела
+python3 gsc_analytics.py export       # экспорт в JSON
+```
+
+**Что можно добавить:** URL Inspection (проверка индексации), сравнение периодов, управление сайтмапами. 
 
 
 # Файлы и структура проекта

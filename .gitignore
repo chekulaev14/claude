@@ -39,5 +39,9 @@ node_modules/
 # MCP server repositories
 github-mcp-server/
 mcp-servers/
-playwright-mcp/ 
+playwright-mcp/
 .env
+
+# Google API credentials
+gsc-credentials.json
+*-credentials.json

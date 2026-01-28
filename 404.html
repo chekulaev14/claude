@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница не найдена — ТК Динамика</title>
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon-new.png?v=4">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .error-container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-code {
+            font-size: 6rem;
+            font-weight: 700;
+            color: #dc3545;
+            line-height: 1;
+        }
+        .error-text {
+            font-size: 1.5rem;
+            color: #495057;
+            margin-bottom: 1.5rem;
+        }
+        .redirect-notice {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+        .btn-home {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+            border: none;
+            padding: 0.75rem 2rem;
+            font-weight: 500;
+        }
+        .btn-home:hover {
+            background: linear-gradient(135deg, #c82333 0%, #bd2130 100%);
+        }
+    </style>
+
+    <!-- Редирект старых URL /pages/* на главную -->
+    <script>
+        (function() {
+            var path = window.location.pathname;
+
+            // Редирект /pages/* на главную
+            if (path.indexOf('/pages/') === 0 || path.indexOf('/pages') === 0) {
+                window.location.replace('/');
+                return;
+            }
+
+            // Редирект старых WordPress URL на главную
+            var oldPaths = [
+                '/услуги/', '/контакты/', '/грузоперевозки', '/author/',
+                '/category/', '/klienty/', '/kontragenty/', '/kontakty/',
+                '/направления/', '/работа-с-ндс/', '/цены/', '/наши-логисты/',
+                '/черный-список/', '/пригласить-в-тендер/', '/тестовая-страница',
+                '/kalkylyator', '/sample-page', '/1-2/', '/2025/'
+            ];
+
+            for (var i = 0; i < oldPaths.length; i++) {
+                if (path.indexOf(oldPaths[i]) === 0) {
+                    window.location.replace('/');
+                    return;
+                }
+            }
+        })();
+    </script>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <div class="error-text">Страница не найдена</div>
+        <p class="text-muted mb-4">Возможно, страница была перемещена или удалена</p>
+        <a href="/" class="btn btn-danger btn-home">На главную</a>
+        <p class="redirect-notice" id="redirect-notice" style="display: none;">
+            Перенаправление через <span id="countdown">3</span> сек...
+        </p>
+    </div>
+
+    <script>
+        // Автоматический редирект на главную через 5 секунд для всех 404
+        var notice = document.getElementById('redirect-notice');
+        var countdown = document.getElementById('countdown');
+        var seconds = 5;
+
+        notice.style.display = 'block';
+        countdown.textContent = seconds;
+
+        var timer = setInterval(function() {
+            seconds--;
+            countdown.textContent = seconds;
+            if (seconds <= 0) {
+                clearInterval(timer);
+                window.location.href = '/';
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
