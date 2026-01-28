@@ -1,9 +1,9 @@
 ---
 name: console
-description: SEO-аналитика сайта dinamika-cargo.ru через Google Search Console API. Показывает индексацию, клики, показы, позиции, запросы с потенциалом, динамику роста. Используй когда нужен отчёт по SEO, проверка GSC, анализ поисковых запросов.
+description: SEO-аналитика сайта dinamika-cargo.ru через Google Search Console + Яндекс.Вебмастер API. Показывает индексацию, ИКС, клики, показы, позиции, запросы с потенциалом, динамику роста. Используй когда нужен отчёт по SEO.
 ---
 
-# Google Search Console — SEO отчёт
+# SEO отчёт — Google + Яндекс
 
 Полный отчёт по SEO для dinamika-cargo.ru.
 
@@ -121,6 +121,36 @@ for url in urls:
 "
 ```
 
+---
+
+## ЯНДЕКС.ВЕБМАСТЕР
+
+### 7. Сводка Яндекса (ИКС, индексация, проблемы)
+
+```bash
+python3 yandex_webmaster.py summary
+```
+
+### 8. Топ-10 страниц в Яндексе
+
+```bash
+python3 yandex_webmaster.py pages 10
+```
+
+### 9. Топ-10 запросов в Яндексе
+
+```bash
+python3 yandex_webmaster.py queries 10
+```
+
+### 10. Диагностика Яндекса (ошибки)
+
+```bash
+python3 yandex_webmaster.py diagnostics
+```
+
+---
+
 ## Формат вывода
 
 Выводи результаты в виде таблиц. После всех проверок дай краткий вывод:
@@ -131,5 +161,5 @@ for url in urls:
 ## Зависимости
 
 - Python 3
-- gsc_analytics.py в корне проекта
-- gsc-credentials.json (Service Account)
+- gsc_analytics.py + gsc-credentials.json (Google)
+- yandex_webmaster.py + yandex-credentials.json (Яндекс)

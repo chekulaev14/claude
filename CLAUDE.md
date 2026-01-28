@@ -34,8 +34,22 @@ python3 gsc_analytics.py page /path/  # запросы для конкретно
 python3 gsc_analytics.py export       # экспорт в JSON
 ```
 
-**Что можно добавить:** URL Inspection (проверка индексации), сравнение периодов, управление сайтмапами. 
+**Что можно добавить:** URL Inspection (проверка индексации), сравнение периодов, управление сайтмапами.
 
+# Яндекс.Вебмастер API
+Есть доступ к API через OAuth токен.
+- Credentials: `yandex-credentials.json` (в .gitignore)
+- Скрипт: `yandex_webmaster.py`
+- Host ID: `https:dinamika-cargo.ru:443`
+
+**Команды:**
+```bash
+python3 yandex_webmaster.py hosts     # список сайтов
+python3 yandex_webmaster.py summary   # сводка (ИКС, запросы)
+python3 yandex_webmaster.py queries   # поисковые запросы JSON
+```
+
+**Доступные данные:** ИКС, поисковые запросы, показы/клики/позиции, sitemaps.
 
 # Файлы и структура проекта
 Стили CSS в папке /assets/css/
