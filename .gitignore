@@ -39,6 +39,7 @@ node_modules/
 # MCP server repositories
 github-mcp-server/
 mcp-servers/
+mcp-gsc/
 playwright-mcp/
 .env
 
