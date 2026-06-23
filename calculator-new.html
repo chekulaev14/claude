@@ -1016,9 +1016,6 @@
        * Send form data to Telegram bot
        */
       function sendToTelegram(data) {
-        const botToken = '7779064115:AAHlm2qSOU1v2YIohlcMPWger1RZjkIRJ5I'
-        const chatId = '273360546'
-
         // Формируем сообщение
         let message = `🧮 ЗАЯВКА ИЗ КАЛЬКУЛЯТОРА\n\n`
         message += `📱 Телефон: ${data.phone}\n`
@@ -1032,24 +1029,19 @@
         message += `💰 Сумма: ${data.total.toLocaleString()} ₽\n`
         message += `📊 НДС: ${data.selectedTaxMode === 'nv' ? 'без НДС' : 'с НДС'}`
 
-        const url = `https://api.telegram.org/bot${botToken}/sendMessage`
-        const params = new URLSearchParams({
-          chat_id: chatId,
-          text: message,
-          parse_mode: 'HTML'
-        })
-
-        // Используем sendBeacon для гарантированной отправки
-        if (navigator.sendBeacon) {
-          navigator.sendBeacon(url, params)
-        } else {
-          // Fallback для старых браузеров
-          fetch(url, {
-            method: 'POST',
-            body: params,
-            keepalive: true
-          }).catch(err => console.log('Telegram send error:', err))
-        }
+        // Отправляем на сервер (он шлёт в Telegram и на почту, всё логирует).
+        // Токен бота и SMTP-пароль живут только на сервере, в публичный код не попадают.
+        fetch('https://agentiks.ru/dinamika/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            phone: data.phone,
+            formType: 'calculator',
+            messageText: message,
+            page: window.location.href
+          }),
+          keepalive: true
+        }).catch(err => console.log('Lead send error:', err))
       }
 
       /**

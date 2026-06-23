@@ -86,6 +86,12 @@ SEO-тексты для кластеров в папке /seo-texts/{cluster}/
   - Cargo-кластеры: /data/cargo-clusters.json (выводятся как теги)
   - Флаги: --city X (конкретный город)
 
+## dashboard_server.py — SEO дашборд (локальный сервер)
+Подробно: seo-dashboard/README.md. Открывать: http://localhost:8087
+
+## generate_dashboard.py — SEO дашборд (разовая генерация)
+Генерирует `/seo-dashboard/index.html` с данными GSC + Яндекс без сервера. Запустить: `python3 generate_dashboard.py`, затем пушнуть вручную.
+
 ## generate_route_pages.py — страницы маршрутов (1264 шт)
   - Шаблон: /templates/route-template.html
   - Результат: /routes/{откуда}-{куда}/index.html

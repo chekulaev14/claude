@@ -35,50 +35,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Send to Telegram (резервный канал + гарантированная доставка)
-    function sendToTelegram(data) {
-        const botToken = '7779064115:AAHlm2qSOU1v2YIohlcMPWger1RZjkIRJ5I';
-        const chatId = '-5037073171'; // Группа Telegram (со знаком минус для групп)
-
-        // Формируем сообщение
-        let message = `🆕 НОВАЯ ЗАЯВКА с сайта\n\n`;
-        message += `📱 Телефон: ${data.phone}\n`;
-        if (data.fromCity) message += `📍 Откуда: ${data.fromCity}\n`;
-        if (data.toCity) message += `📍 Куда: ${data.toCity}\n`;
-        if (data.departureDate) message += `📅 Дата: ${data.departureDate}\n`;
-
-        // Добавляем UTM метки если есть
-        if (data.utmKeyword) {
-            message += `\n🔑 Ключевое слово: ${data.utmKeyword}\n`;
-        }
-        if (data.utmSource) {
-            message += `📊 Источник: ${data.utmSource}\n`;
-        }
-        if (data.utmCampaign) {
-            message += `📢 Кампания: ${data.utmCampaign}\n`;
-        }
-
-        message += `\n🔖 Тип формы: ${data.formType}`;
-
-        const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
-        const params = new URLSearchParams({
-            chat_id: chatId,
-            text: message,
-            parse_mode: 'HTML'
-        });
-
-        // Используем sendBeacon для гарантированной отправки даже при закрытии страницы
-        if (navigator.sendBeacon) {
-            navigator.sendBeacon(url, params);
-        } else {
-            // Fallback для старых браузеров
-            fetch(url, {
-                method: 'POST',
-                body: params,
-                keepalive: true
-            }).catch(err => console.log('Telegram send error:', err));
-        }
-    }
+    // Эндпоинт сервиса приёма заявок на VPS (Telegram + почта + логи).
+    // Токен бота и SMTP-пароль живут ТОЛЬКО на сервере, в этот публичный код не попадают.
+    const LEAD_ENDPOINT = 'https://agentiks.ru/dinamika/api/lead';
 
     // Handle form submission
     async function handleFormSubmit(e, formType) {
@@ -132,25 +91,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (dateInput) data.departureDate = dateInput.value;
             }
 
-            // Отправляем в Telegram (основной канал)
-            sendToTelegram(data);
+            // Добавляем адрес страницы для контекста заявки
+            data.page = window.location.href;
 
-            // Пробуем отправить в Web3Forms (резервный канал, не критично если упадет)
-            try {
-                data.access_key = '2d53317e-70c5-4989-9fd8-c9beb10a4491';
-                await fetch('https://api.web3forms.com/submit', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(data),
-                    keepalive: true
-                }).catch(() => {
-                    // Игнорируем ошибки Web3Forms (может быть заблокирован)
-                    console.log('Web3Forms недоступен, заявка отправлена в Telegram');
-                });
-            } catch (e) {
-                // Web3Forms не критичен, продолжаем
+            // Отправляем заявку на сервер (он сам шлёт в Telegram и на почту, всё логирует)
+            const resp = await fetch(LEAD_ENDPOINT, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data),
+                keepalive: true
+            });
+            const result = await resp.json().catch(() => ({ ok: resp.ok }));
+            if (!resp.ok || !result.ok) {
+                // Сервер не принял заявку — не обманываем клиента
+                throw new Error('lead endpoint failed: ' + resp.status);
             }
 
             // Формируем URL для thank-you страницы

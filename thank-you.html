@@ -387,9 +387,6 @@
             data.originalPhone = phone;
             data.isAdditional = true;
 
-            const botToken = '7779064115:AAHlm2qSOU1v2YIohlcMPWger1RZjkIRJ5I';
-            const chatId = '-5037073171'; // Группа Telegram (со знаком минус для групп)
-
             let message = `📝 ДОПОЛНЕНИЕ К ЗАЯВКЕ\n\n`;
             message += `📱 Телефон: ${phone}\n`;
             message += `\n--- Дополнительная информация ---\n`;
@@ -416,17 +413,19 @@
             submitBtn.innerHTML = 'Отправка...';
 
             try {
-                const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
-                const params = new URLSearchParams({
-                    chat_id: chatId,
-                    text: message,
-                    parse_mode: 'HTML'
-                });
-
-                await fetch(url, {
+                // Отправляем на сервер (он шлёт в Telegram и на почту, всё логирует)
+                const resp = await fetch('https://agentiks.ru/dinamika/api/lead', {
                     method: 'POST',
-                    body: params
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        phone: phone,
+                        formType: 'additional',
+                        messageText: message,
+                        page: window.location.href
+                    })
                 });
+                const result = await resp.json().catch(() => ({ ok: resp.ok }));
+                if (!resp.ok || !result.ok) throw new Error('lead endpoint failed: ' + resp.status);
 
                 alert('✅ Дополнительная информация отправлена!\n\nСпасибо, что уточнили детали. Мы учтём это при подготовке предложения.');
                 e.target.reset();

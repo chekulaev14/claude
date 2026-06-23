@@ -5,6 +5,9 @@
 User-agent: *
 Allow: /
 
+# SEO дашборд (приватный)
+Disallow: /seo-dashboard/
+
 # Страницы в разработке
 Disallow: /calculator-new.html
 
