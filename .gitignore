@@ -46,3 +46,4 @@ playwright-mcp/
 # Google API credentials
 gsc-credentials.json
 *-credentials.json
+.playwright-mcp/
